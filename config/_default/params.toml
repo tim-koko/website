@@ -1,0 +1,57 @@
+# Meta Data for SEO
+
+## Homepage
+title = ""
+titleSeparator = "-"
+titleAddition = ""
+description = ""
+
+## Open Graph
+images = ["rokt.png"]
+ogLocale = "de_CH"
+titleHome = ""
+
+## Twitter Cards
+twitterSite = "@rokt_cloud"
+twitterCreator = "@rokt_cloud"
+
+## JSON-LD
+# schemaType = "Person"
+schemaType = "Organization"
+schemaName = "rokt_cloud"
+schemaAuthor = "rokt_cloud"
+schemaAuthorTwitter = "https://twitter.com/rokt_cloud"
+schemaAuthorLinkedIn = "https://www.linkedin.com/in/rokt_cloud/"
+schemaAuthorGitHub = "https://github.com/rokt-cloud"
+schemaLocale = "de-CH"
+schemaLogo = "logo-rokt.png"
+schemaLogoWidth = 512
+schemaLogoHeight = 512
+schemaImage = "rokt.png"
+schemaImageWidth = 1280
+schemaImageHeight = 640
+schemaTwitter = "https://twitter.com/rokt_cloud"
+schemaLinkedIn = ""
+schemaGitHub = "https://github.com/rokt-cloud"
+
+## Chrome Browser
+themeColor = "#fff"
+
+# Images
+quality = 85
+bgColor = "#fff"
+landscapePhotoWidths = [900, 800, 700, 600, 500]
+portraitPhotoWidths = [800, 700, 600, 500]
+lqipWidth = "20x"
+smallLimit = "320"
+
+# Footer
+footer = ""
+
+# Feed
+copyRight = ""
+
+# Alert
+alert = true
+alertDismissable = true
+alertText = ""
