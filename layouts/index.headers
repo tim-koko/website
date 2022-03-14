@@ -8,3 +8,4 @@
   Feature-Policy: geolocation 'self'
   Cache-Control: public, max-age=31536000
   Access-Control-Allow-Origin: *
+  Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=(), interest-cohort=()
