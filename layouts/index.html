@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="row justify-content-center">
+  <div class="col-lg-7 pb-5 text-center">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Params.Lead | safeHTML }}</p>
+  </div>
+</div>
+{{ end }}
+
+{{ define "section" }}
+<section class="section container-fluid">
+  {{- .Content -}}
+</section>
+{{ end }}
