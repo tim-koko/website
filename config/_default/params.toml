@@ -1,7 +1,7 @@
 # Meta Data for SEO
 
 ## Homepage
-title = ""
+title = "Rokt"
 titleSeparator = "-"
 titleAddition = ""
 description = ""
@@ -46,7 +46,7 @@ lqipWidth = "20x"
 smallLimit = "320"
 
 # Footer
-footer = ""
+footer = '<a href="mailto:mail@rokt.cloud">mail@rokt.cloud</a>'
 
 # Feed
 copyRight = ""
