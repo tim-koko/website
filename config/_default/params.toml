@@ -46,7 +46,7 @@ lqipWidth = "20x"
 smallLimit = "320"
 
 # Footer
-footer = '<a href="mailto:mail@rokt.cloud">mail@rokt.cloud</a>'
+footer = '<a href="mailto:hallo@rokt.cloud">hallo@rokt.cloud</a>'
 
 # Feed
 copyRight = ""
