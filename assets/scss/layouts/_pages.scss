@@ -48,3 +48,27 @@ p.meta a:focus {
     // stylelint-enable
   }
 }
+
+.floater {
+  position: absolute;
+
+  &.smile {
+    bottom: -30%;
+    left: -13%;
+  }
+
+  &.rocket {
+    top: -300px;
+    left: 31%;
+  }
+
+  &.cloud {
+    top: -78px;
+    right: -80px;
+  }
+
+  &.arrow {
+    top: -170px;
+    left: 50%;
+  }
+}

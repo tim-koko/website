@@ -1,7 +1,14 @@
 {{ define "main" }}
 <div class="row justify-content-center">
-  <div class="col-lg-7">
+  <div class="col-lg-7 position-relative">
      <div class="lead"><span>{{- .Content -}}</span></div>
+
+     <img src='{{ (resources.Get "images/Rocket.svg").Permalink }}' alt="" class="floater rocket img-fluid" width="105">
+     <img src='{{ (resources.Get "images/Arrow-4.svg").Permalink }}' alt="" class="floater arrow img-fluid" width="70">
+     <img src='{{ (resources.Get "images/Cloud.svg").Permalink }}' alt="" class="floater cloud img-fluid" width="167">
+     <img src='{{ (resources.Get "images/Smile.svg").Permalink }}' alt="" class="floater smile img-fluid" width="133">
+
+    
   </div>
 </div>
 {{ end }}
