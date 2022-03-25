@@ -24,10 +24,11 @@ p.meta a:focus {
   color: $blue;
   font-size: 3.3rem;
   font-weight: normal;
-  line-height: 1.333;
+  line-height: 1.455;
 
   @include media-breakpoint-up(md) {
     font-size: 5.6rem;
+    line-height: 1.333;
   }
 
   h1 {
@@ -37,7 +38,7 @@ p.meta a:focus {
 
   span {
     background-color: #fff;
-    padding: 1rem 3rem;
+    padding: 0.75rem 2rem;
     border-radius: 50rem;
     // stylelint-disable
     -webkit-box-decoration-break: clone;
@@ -46,6 +47,9 @@ p.meta a:focus {
     -o-box-decoration-break: clone;
     box-decoration-break: clone;
     // stylelint-enable
+    @include media-breakpoint-up(md) {
+      padding: 1rem 3rem;
+    }
   }
 }
 
@@ -55,21 +59,45 @@ p.meta a:focus {
   &.smile {
     bottom: -30%;
     left: -13%;
+
+    @include media-breakpoint-down(sm) {
+      bottom: -53px;
+      left: 66%;
+      width: 75px;
+    }
   }
 
   &.rocket {
     top: -300px;
     left: 31%;
+
+    @include media-breakpoint-down(sm) {
+      top: 105%;
+      left: 10%;
+      width: 65px;
+    }
   }
 
   &.cloud {
     top: -78px;
     right: -80px;
+
+    @include media-breakpoint-down(sm) {
+      top: -78px;
+      right: 20px;
+      width: 100px;
+    }
   }
 
   &.arrow {
     top: -170px;
     left: 50%;
+
+    @include media-breakpoint-down(sm) {
+      top: 122%;
+      left: 31%;
+      width: 40px;
+    }
   }
 
   img {
