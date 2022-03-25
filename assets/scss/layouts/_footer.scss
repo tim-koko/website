@@ -14,8 +14,12 @@
     }
   }
 
-  a:hover {
-    img {
+  a {
+    transform: rotateY(0deg);
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+    &:hover img {
       transform: rotateY(360deg) !important;
       transition: 0.6s;
       transform-style: preserve-3d;
