@@ -52,6 +52,6 @@ footer = '<a href="mailto:hallo@rokt.cloud">hallo@rokt.cloud</a>'
 copyRight = ""
 
 # Alert
-alert = true
+alert = false
 alertDismissable = true
 alertText = ""
