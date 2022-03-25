@@ -1,6 +1,18 @@
 .footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
+
+  .hello {
+    position: absolute;
+    transform: rotate(-10deg) translate(-44px, -44px);
+    font-size: 2rem;
+  }
+
+  .email {
+    @include media-breakpoint-up(md) {
+      width: 60px;
+    }
+  }
 }
 
 .footer p {
