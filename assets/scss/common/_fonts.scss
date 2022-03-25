@@ -14,21 +14,19 @@
 }
 */
 @font-face {
-  font-family: 'Athletics-Regular';
-  src: url('/fonts/Athletics-Regular.woff') format('woff'),
-       url('/fonts/Athletics-Regular.woff2') format('woff2');
+  font-family: Athletics-Regular;
+  src: url("/fonts/Athletics-Regular.woff") format("woff"), url("/fonts/Athletics-Regular.woff2") format("woff2");
   font-style: normal;
   font-weight: normal;
-  text-rendering: optimizeLegibility;
-  font-display: swap;  
+  text-rendering: optimizelegibility;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'Athletics-Bold';
-  src: url('/fonts/Athletics-Bold.woff') format('woff'),
-       url('/fonts/Athletics-Bold.woff2') format('woff2');
+  font-family: Athletics-Bold;
+  src: url("/fonts/Athletics-Bold.woff") format("woff"), url("/fonts/Athletics-Bold.woff2") format("woff2");
   font-style: normal;
   font-weight: normal;
-  text-rendering: optimizeLegibility;
+  text-rendering: optimizelegibility;
   font-display: swap;
 }
