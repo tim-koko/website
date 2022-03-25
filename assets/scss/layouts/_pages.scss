@@ -71,4 +71,12 @@ p.meta a:focus {
     top: -170px;
     left: 50%;
   }
+
+  &:hover {
+    img {
+      transform: rotateY(360deg) !important;
+      transition: 0.6s;
+      transform-style: preserve-3d;
+    }
+  }
 }
