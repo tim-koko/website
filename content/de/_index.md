@@ -8,4 +8,4 @@ draft: false
 images: []
 ---
 
-<h1 class="d-inline">Into the cloud</h1> Lorem ipsudolor irgendwas attraktives welches diesen Platz hiierausfüllllllllllllllt.
+Du möchtest gerne in die <h1 class="d-inline">Cloud?</h1> Dann helfen wir Dir gerne weiter. Unsere Rakete wird noch startklar gemacht, aber bald kannst du (mit uns) abheben.
