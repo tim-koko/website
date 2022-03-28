@@ -56,7 +56,7 @@ p.meta a:focus {
   animation: fade-in-stagger 0.8s ease forwards 0.1s;
   opacity: 0;
   transform: translateY(40px);
-  transition: opacity 0.3s ease;
+  // transition: opacity 0.3s ease;
   -webkit-perspective: 1000;
   perspective: 1000;
   backface-visibility: hidden;
@@ -128,7 +128,7 @@ p.meta a:focus {
     transform-style: preserve-3d;
     opacity: 0;
     transform: translateY(40px);
-    transition: opacity 0.3s ease;
+    // transition: opacity 0.3s ease;
     animation: fade-in-stagger 0.8s ease forwards;
     -webkit-perspective: 1000;
     perspective: 1000;
