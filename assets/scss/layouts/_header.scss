@@ -37,6 +37,10 @@
 
 .navbar {
   padding: 30px 40px;
+
+  @include media-breakpoint-up(lg) {
+    padding: 50px 60px;
+  }
 }
 
 .wrap {

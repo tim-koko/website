@@ -1,6 +1,10 @@
 .footer {
   padding: 0 4rem 3rem;
 
+  @include media-breakpoint-up(lg) {
+    padding: 0 6rem 4rem;
+  }
+
   .hello {
     position: absolute;
     transform: rotate(-10deg) translate(-44px, -44px);
