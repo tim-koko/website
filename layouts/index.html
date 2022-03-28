@@ -1,8 +1,18 @@
 {{ define "main" }}
-<div class="row justify-content-center">
-  <div class="col-lg-7 pb-5 text-center">
-    <h1>{{ .Title }}</h1>
-    <p>{{ .Params.Lead | safeHTML }}</p>
+<div class="row_ justify-content-center_">
+  <div class="col-sm-9 col-md-8 col-xl-7 position-relative mx-auto">
+     <div class="lead"><span>
+      Hier erfährst du bald mehr über ROKT.
+      Wir bringen dich und dein Unternehmen <h1 class="d-inline px-1">&nbsp;in die Cloud</h1>.
+Unkompliziert und kompetent.
+Für bessere Ergebnisse und gute Laune.</span></div>
+<div class="floaters">
+  <div class="floater rocket "><img src='{{ (resources.Get "images/Rocket.svg").Permalink }}' alt="" class="img-fluid" width="105" height="144"></div>
+  <div class="floater arrow"><img src='{{ (resources.Get "images/Arrow-4.svg").Permalink }}' alt="" class=" img-fluid" width="70" height="153"></div>
+  <div class="floater cloud "><img src='{{ (resources.Get "images/Cloud.svg").Permalink }}' alt="" class="img-fluid" width="167" height="103"></div>
+  <div class="floater smile "><img src='{{ (resources.Get "images/Smile.svg").Permalink }}' alt="" class="img-fluid" width="133" height="130"></div>
+</div>
+    
   </div>
 </div>
 {{ end }}

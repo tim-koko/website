@@ -11,3 +11,6 @@ import 'lazysizes';
 
 // global alert
 import './assets/js/alert';
+
+// home 3D animation
+import './assets/js/home-animation';

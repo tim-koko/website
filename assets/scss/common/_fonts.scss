@@ -1,3 +1,4 @@
+/*
 @font-face {
   font-family: "Roboto Light";
   font-style: normal;
@@ -10,4 +11,22 @@
   font-style: normal;
   font-weight: normal;
   src: local("Roboto Medium"), url("/fonts/vendor/roboto/Roboto-Medium.woff") format("woff");
+}
+*/
+@font-face {
+  font-family: Athletics-Regular;
+  src: url("/fonts/Athletics-Regular.woff") format("woff"), url("/fonts/Athletics-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizelegibility;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Athletics-Bold;
+  src: url("/fonts/Athletics-Bold.woff") format("woff"), url("/fonts/Athletics-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizelegibility;
+  font-display: swap;
 }

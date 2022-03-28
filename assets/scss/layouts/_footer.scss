@@ -1,6 +1,35 @@
 .footer {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding: 0 4rem 3rem;
+
+  @include media-breakpoint-up(lg) {
+    padding: 0 6rem 4rem;
+  }
+
+  .hello {
+    position: absolute;
+    transform: rotate(-10deg) translate(-44px, -44px);
+    font-size: 2rem;
+  }
+
+  .email {
+    @include media-breakpoint-up(md) {
+      width: 60px;
+    }
+  }
+
+  a {
+    img {
+      transform: rotate(0deg);
+      transition: 0.3s;
+      transform-style: preserve-3d;
+    }
+
+    &:hover img {
+      transform: rotate(-10deg) !important;
+      transition: 0.3s;
+      transform-style: preserve-3d;
+    }
+  }
 }
 
 .footer p {

@@ -2,9 +2,12 @@
   {{ partial "header/alert.html" . }}
 {{ end -}}
 
-<header class="navbar navbar-light">
-  <div class="container">
-    <a class="navbar-brand monospace" href="{{ "/" | absURL }}">{{ .Site.Params.Title }}</a>
+<header class="navbar">
+  <div class="container-fluid p-0">
+    <a class="navbar-brand" href="{{ "/" | absURL }}">
+      <img src='{{ (resources.Get "images/ROKT.svg").Permalink }}' alt="{{ .Site.Params.Title }}" class="logo img-fluid" width="220" height="146">
+    </a>
+
     <div class="ms-auto">
     {{ range .Site.Menus.main }}
       <span class="navbar-text">

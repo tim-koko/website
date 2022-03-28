@@ -1,13 +1,13 @@
 # Meta Data for SEO
 
 ## Homepage
-title = ""
+title = "ROKT"
 titleSeparator = "-"
-titleAddition = ""
+titleAddition = "into the cloud"
 description = ""
 
 ## Open Graph
-images = ["rokt.png"]
+images = ["rokt_og.png"]
 ogLocale = "de_CH"
 titleHome = ""
 
@@ -46,12 +46,12 @@ lqipWidth = "20x"
 smallLimit = "320"
 
 # Footer
-footer = ""
+footer = '<a href="mailto:hallo@rokt.cloud">hallo@rokt.cloud</a>'
 
 # Feed
 copyRight = ""
 
 # Alert
-alert = true
+alert = false
 alertDismissable = true
 alertText = ""

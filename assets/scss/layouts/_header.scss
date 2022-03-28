@@ -26,3 +26,23 @@
     margin-left: 1.25rem;
   }
 }
+
+.navbar-brand {
+  .logo {
+    width: 20vw;
+    min-width: 140px;
+    max-width: 220px;
+  }
+}
+
+.navbar {
+  padding: 30px 40px;
+
+  @include media-breakpoint-up(lg) {
+    padding: 50px 60px;
+  }
+}
+
+.wrap {
+  padding: 0 2rem;
+}
