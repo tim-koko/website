@@ -57,6 +57,8 @@ p.meta a:focus {
   opacity: 0;
   transform: translateY(40px);
   transition: opacity 0.3s ease;
+  perspective: 1000;
+  backface-visibility: hidden;
 }
 
 .floater {
@@ -127,6 +129,8 @@ p.meta a:focus {
     transform: translateY(40px);
     transition: opacity 0.3s ease;
     animation: fade-in-stagger 0.8s ease forwards;
+    perspective: 1000;
+    backface-visibility: hidden;
   }
 }
 
