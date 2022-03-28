@@ -52,6 +52,11 @@ p.meta a:focus {
       padding: 1rem 3rem;
     }
   }
+
+  animation: fade-in-stagger 0.8s ease forwards 0.1s;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.3s ease;
 }
 
 .floater {
@@ -116,17 +121,26 @@ p.meta a:focus {
     }
   }
 
-  /*
   img {
-    transform: rotateY(0deg);
-    transition: 0.6s;
     transform-style: preserve-3d;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.3s ease;
+    animation: fade-in-stagger 0.8s ease forwards;
   }
+}
 
-  &:hover {
-    img {
-      transform: rotateY(360deg);
-    }
+// keyframes
+@keyframes fade-in-stagger {
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  */
+}
+
+// delay
+@for $i from 1 to 5 {
+  .floater:nth-child(#{$i}) img {
+    animation-delay: ($i * 0.25s) + 1s;
+  }
 }
