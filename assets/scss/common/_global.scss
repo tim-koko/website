@@ -1,5 +1,8 @@
 html {
   font-size: 10px;
+  // stylelint-disable
+  height: -webkit-fill-available;
+  // stylelint-enable
 }
 
 body {
@@ -7,6 +10,9 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  // stylelint-disable
+  min-height: -webkit-fill-available;
+  // stylelint-enable
   color: $green;
   font-family: Athletics-Regular, sans-serif;
   font-size: 1.6rem;

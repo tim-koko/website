@@ -1,6 +1,11 @@
 
 import { map, lerp, getMousePos, calcWinsize, getRandomNumber } from './utils';
 
+function is_touch_enabled() {
+  return ( 'ontouchstart' in window ) ||
+         ( navigator.maxTouchPoints > 0 ) ||
+         ( navigator.msMaxTouchPoints > 0 );
+}
 
 // Calculate the viewport size
 let winsize = calcWinsize();
@@ -35,7 +40,8 @@ window.addEventListener('mousemove', ev => mousepos = getMousePos(ev));
     requestAnimationFrame(render);
 }
 
-const els = document.querySelectorAll('.floater');
 
-els.forEach(item => move(item));
- 
+if (!is_touch_enabled()) {
+  const els = document.querySelectorAll('.floater');
+  els.forEach(item => move(item));
+}
