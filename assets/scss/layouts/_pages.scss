@@ -141,6 +141,6 @@ p.meta a:focus {
 // delay
 @for $i from 1 to 5 {
   .floater:nth-child(#{$i}) img {
-    animation-delay: ($i * 0.25s) + 1s;
+    animation-delay: ($i * 0.25s) + 0.5s;
   }
 }
