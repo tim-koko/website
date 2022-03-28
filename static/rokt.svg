@@ -1,3 +1,8 @@
-<?xml version="1.0"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>favicon-rokt</title>
+    <g id="favicon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bg" fill="#0A1432" x="0" y="0" width="32" height="32"></rect>
+        <path d="M9,6 L16.7462987,6 C20.0802413,6 22.0305246,8.15499909 22.0305246,11.0009139 C22.0305246,13.5141656 20.5682691,15.41327 18.0294279,15.8994699 L22.9115335,26 L21.0910254,26 L16.3368671,16.0018278 L10.6669713,16.0018278 L10.6669713,21.0063974 L9,21.0063974 L9,6 Z M16.6951197,14.4116249 C19.0804241,14.4116249 20.3635533,13.0517273 20.3635533,11.0009139 C20.3635533,8.95010053 19.0804241,7.59020289 16.6951197,7.59020289 L10.6669713,7.59020289 L10.6669713,14.4134528 L16.6951197,14.4134528 L16.6951197,14.4116249 Z" id="Shape" fill="#99E0BB" fill-rule="nonzero"></path>
+    </g>
 </svg>
