@@ -7,7 +7,7 @@ titleAddition = "into the cloud"
 description = ""
 
 ## Open Graph
-images = ["rokt.png"]
+images = ["rokt_og.png"]
 ogLocale = "de_CH"
 titleHome = ""
 

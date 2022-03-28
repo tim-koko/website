@@ -1,11 +1,9 @@
 ---
-title : "Rokt — into the cloud"
-description: "Rokt — into the cloud"
+title : "ROKT — into the cloud"
+description: "Hier erfährst du bald mehr über ROKT. Wir bringen dich und dein Unternehmen in die Cloud. Unkompliziert und kompetent. Für bessere Ergebnisse und gute Laune."
 lead: ""
 date: 2022-02-22T00:00:00+00:00
 lastmod: 2022-02-22T00:00:00+00:00
 draft: false
 images: []
 ---
-
-Du möchtest gerne in die <h1 class="d-inline">Cloud?</h1> Dann helfen wir Dir gerne weiter. Unsere Rakete wird noch startklar gemacht, aber bald kannst du (mit uns) abheben.
