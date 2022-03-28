@@ -31,7 +31,7 @@
     <link rel="next" href="{{ .Paginator.Next.URL | absURL }}">
   {{ end -}}
 {{ else  -}}
-  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="canonical" href="{{ .Permalink | absURL }}">
 {{ end -}}
 
 {{ partial "head/opengraph.html" . }}
