@@ -16,7 +16,6 @@ Founder: Thomas Philipona
 
 E-Mail: [hallo@rokt.cloud](mailto:hallo@rokt.cloud)
 
-
 UID: CHE-173.198.973
 
 MWST-Nr: CHE-173.198.973 MWST
