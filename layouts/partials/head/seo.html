@@ -21,7 +21,8 @@
 {{ else -}}
   <meta name="description" content="{{ .Site.Params.description }}">
 {{ end -}}
-
+  <meta name="author" content="{{ .Site.Params.metaautor }}" />
+  <meta name="copyright" content="{{ .Site.Params.metacopyright }}" />
 {{ if $.Scratch.Get "paginator" }}
   <link rel="canonical" href="{{ .Paginator.URL | absURL }}">
   {{ if .Paginator.HasPrev -}}
