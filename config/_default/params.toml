@@ -1,5 +1,8 @@
 # Meta Data for SEO
 
+metaautor = "ROKT GmbH - hallo@rokt.cloud"
+metacopyright = "ROKT GmbH - hallo@rokt.cloud"
+
 ## Homepage
 title = "ROKT"
 titleSeparator = "-"
