@@ -25,10 +25,11 @@
 
     &:hover { 
       color: $green;
-        img {
-          transform: rotate(-10deg) !important;
-          transition: 0.3s;
-          transform-style: preserve-3d;
+
+      img {
+        transform: rotate(-10deg) !important;
+        transition: 0.3s;
+        transform-style: preserve-3d;
       }
     }
   }
@@ -43,4 +44,3 @@
     line-height: 1.2;
   }
 }
-
