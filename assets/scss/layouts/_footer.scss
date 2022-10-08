@@ -1,9 +1,6 @@
 .footer {
-  padding: 0 4rem 3rem;
-
-  @include media-breakpoint-up(lg) {
-    padding: 0 6rem 4rem;
-  }
+  background: linear-gradient($blue 0%, $green 100%);
+  color: $blue;
 
   .hello {
     position: absolute;
@@ -18,26 +15,32 @@
   }
 
   a {
+    color: $blue;
+
     img {
       transform: rotate(0deg);
       transition: 0.3s;
       transform-style: preserve-3d;
     }
 
-    &:hover img {
-      transform: rotate(-10deg) !important;
-      transition: 0.3s;
-      transform-style: preserve-3d;
+    &:hover { 
+      color: $green;
+        img {
+          transform: rotate(-10deg) !important;
+          transition: 0.3s;
+          transform-style: preserve-3d;
+      }
     }
   }
 }
 
-.footer p {
-  font-size: $font-size-sm;
-}
+.footer-cta {
+  font-size: 3.2rem;
+  line-height: 1.25;
 
-@include media-breakpoint-up(md) {
-  .footer p {
-    font-size: $font-size-base;
+  @include media-breakpoint-up(lg) {
+    font-size: 4.8rem;
+    line-height: 1.2;
   }
 }
+

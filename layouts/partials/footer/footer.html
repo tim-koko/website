@@ -1,10 +1,53 @@
-<footer class="footer text-white mt-auto">
-  <div class="container-fluid text-end p-0">
-    <div class="hello mb-5 d-inline-block"> Sag Hallo.</div>
-    <img src='{{ (resources.Get "images/arrow-1.svg").Permalink }}' alt="" class="email-arrow img-fluid mb-5 me-3" width="44" height="34">
+<footer class="footer mt-auto pt-40 pb-10">
+  <div class="container-fluid">
 
-    <a href="mailto:hallo@rokt.cloud">
-      <img src='{{ (resources.Get "images/Email.svg").Permalink }}' alt="E-Mail" class="email img-fluid" width="44" height="30">
-    </a>
+    <div class="h3">Steht gerade eine Herausforderung an?</div>
+    <div class="footer-cta text-white col-lg-9">
+      Kontaktiere uns für ein ganz unverbindliches Kennenlernen mit Kaffee.  
+    </div>
+
+   
+    
+      <div class="d-flex flex-column flex-lg-row pt-10">
+        <div class="hello mb-5 d-inline-block d-none"> Sag Hallo.</div>
+        
+        
+        <div class="d-flex justify-content-center mb-20  mb-lg-0">
+
+          <img src='{{ (resources.Get "images/arrow-1.svg").Permalink }}' alt="" class="email-arrow img-fluid ms-lg-8 mb-auto me-8" width="58" height="45">
+          
+          <div class="d-flex flex-column flex-lg-row">
+            <a class="d-block mb-6 me-lg-8" href="mailto:hallo@rokt.cloud">
+              <img src='{{ (resources.Get "images/Email.svg").Permalink }}' alt="E-Mail" class="email img-fluid mb-2" width="44" height="30"><br>
+              hallo@rokt.cloud
+            </a>
+            
+            <a class="d-block" href="tel:+41 77 800 00 00">
+              <img src='{{ (resources.Get "images/Email.svg").Permalink }}' alt="E-Mail" class="email img-fluid mb-2" width="44" height="30"><br>
+              +41 77 800 00 00
+            </a>
+          </div>
+        </div>
+        
+        
+        <div class="ms-lg-auto d-flex flex-column flex-lg-row align-items-center align-items-lg-end mb-6">
+          <span class="bold me-lg-3">Folge uns auf </span> Logo
+          
+        </div>
+      </div>
+      
+      <hr>
+      <div class="d-flex flex-column flex-lg-row align-items-center align-items-lg-start pt-5 small">
+        <span class="bold me-lg-3">
+          ROKT GmbH 
+        </span> 
+        Gerechtigkeitsgasse 80, CH-3011 Bern
+
+        <a href="/datenschutzerklaerung/" class="mt-8 mb-1 mb-lg-0 mt-lg-0 ms-lg-auto">Datenschutz</a>
+        <a href="/impressum/" class="mx-lg-6 mb-1 mb-lg-0 ">Impressum</a>
+           
+           © 2022 ROKT GmbH 
+      </div>
+
   </div>
 </footer>
