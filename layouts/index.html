@@ -1,18 +1,26 @@
 {{ define "main" }}
-<div class="hero container-fluid  mb-23 mb-lg-28">
-  <div class="text-secondary lead">Into the cloud</div>
-  <h1>Cloud Native <span class="d-block">Transformation,</span> die rokt.</h1>
-</div>
+{{ $data := index .Site.Data .Site.Language.Lang }}
 
-<div class="container-fluid  mb-23 mb-lg-28 position-relative">
-<div class="col-sm-9 col-md-8 col-xl-7  mx-auto">
-    <div class="lead"><span>
-      Wir bringen dich und dein Unternehmen in die Cloud.
-      Unkompliziert und kompetent.
-      Für bessere Ergebnisse und gute Laune.</span>
+{{ with $data.homepage.hero }}
+<div class="hero container-fluid  mb-23 mb-lg-28" data-scroll>
+  <svg id="a" width="152" height="102" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path d="M47.07268,82.7552c-5.11154-.03073-10.22056-.27418-15.31111-.7392-1.24055-.11332-2.4805-.23706-3.71804-.37975-.24313-.02803-.48611-.05729-.72891-.08802-.04181-.00529-.39006-.0553-.09362-.01267-.13887-.01997-.27769-.04025-.41634-.06168-.55336-.08554-1.10487-.18474-1.65153-.30623-.47466-.10549-.94599-.22721-1.41049-.3712-.26364-.08173-.52529-.17033-.78378-.26716-.12857-.04816-.25836-.09662-.3844-.15079,.19563,.08408-.01269-.01088-.08822-.04798-.46532-.2286-.9183-.47306-1.34989-.76128-.11268-.07525-.22366-.1527-.33311-.23258-.27075-.19759,.18494,.15774-.07124-.0575-.23072-.19385-.45559-.39364-.67063-.60491-.7956-.78167-1.08588-1.17467-1.6626-2.13594-.26049-.4342-.49893-.88136-.71726-1.33817-.03552-.07432-.28096-.61442-.16756-.34898-.11797-.27612-.223-.55841-.32361-.84124-.34721-.97608-.60826-1.98259-.78177-3.00393-.0224-.13184-.04315-.26398-.06282-.39625,.01319,.08865,.03781,.34504-.00639-.06502-.02508-.23271-.0481-.46541-.06556-.69885-.03988-.53307-.05632-1.06769-.04904-1.6022,.00681-.50038,.03434-1.00037,.08278-1.49846,.0129-.13266,.02775-.26515,.04336-.39751-.0049,.04153-.03979,.27318-.00434,.03666,.04439-.29619,.09586-.59126,.15542-.88479,.20452-1.00799,.49767-2.00152,.88787-2.95354,.08775-.21409,.01015-.01968-.00736,.01936,.05436-.12118,.10906-.2422,.16598-.3622,.1139-.24015,.23368-.47763,.35961-.7117,.24777-.46053,.51897-.90865,.81322-1.34099,.12142-.1784,.2475-.35352,.3766-.52642,.18995-.25443-.17431,.21167,.02817-.03293,.05897-.07124,.11682-.14338,.17635-.21418,.31753-.37761,.65393-.73952,1.00682-1.08429,.39682-.38768,.81417-.75773,1.25238-1.09815-.27751,.21558,.25403-.17846,.33958-.23794,.22807-.15857,.46045-.31086,.69657-.45716,.44564-.27613,.90487-.53031,1.37585-.76061,.11067-.05411,.22205-.10703,.334-.15846-.01081,.00497,.48039-.20673,.26902-.12075-.21705,.08828,.14121-.05296,.18928-.07135,.14358-.05495,.28786-.10793,.43301-.1586,.49261-.17197,.99436-.31794,1.50226-.43736,.26844-.06312,.53856-.11884,.81013-.16675,.12064-.02128,.24177-.03899,.36262-.05902-.20078,.03328-.16758,.01885,.01459,.00053,.54873-.05518,1.09793-.08795,1.64967-.08222,.24518,.00255,.49041,.01207,.73507,.02832,.1225,.00814,.24501,.01799,.36725,.02957,.09108,.00863,.62746,.08102,.20128,.01909,.85946,.1249,1.81235-.07447,2.25862-.91912,.44693-.84591,.27281-1.7029-.31273-2.42365-.23091-.28422,.07053,.11507-.14261-.18114-.10786-.14989-.21488-.30024-.31753-.45378-.23833-.35645-.45913-.72477-.66187-1.10258-.17334-.32301-.33249-.65331-.48035-.98871,.13365,.30315-.03549-.09727-.07462-.20096-.07552-.20015-.14627-.40208-.21287-.60536-.24834-.75802-.43468-1.53572-.56215-2.32303-.01477-.09123-.0287-.18255-.0422-.27398,.00516,.03496,.03147,.30961,.0122,.07286-.01503-.18465-.03933-.36867-.05436-.55344-.03516-.43249-.05341-.8662-.05529-1.3001-.00338-.77706,.03946-1.55934,.14529-2.32952-.04729,.34416,.01987-.09279,.0399-.20952,.037-.21563,.07816-.43052,.12296-.64465,.08323-.39777,.17964-.7928,.28952-1.18406,.10136-.36092,.214-.7188,.33776-1.07266,.06182-.17676,.12651-.35257,.19382-.52731,.04484-.1164,.09104-.23235,.13835-.34775-.07915,.19304-.04176,.09608,.01951-.03768,.32724-.71434,.69189-1.40705,1.10448-2.07602,.21688-.35164,.44464-.69655,.6829-1.03407,.10976-.15548,.22226-.30895,.33573-.46173,.00623-.00839,.19788-.25531,.07505-.09945-.11308,.1435,.11809-.14404,.13915-.16988,.52061-.63906,1.07846-1.24737,1.66741-1.82401,.56878-.55689,1.16794-1.07865,1.78575-1.5802,.2769-.22479-.08584,.05683,.20014-.15684,.17922-.13391,.35935-.26652,.54152-.39638,.33894-.24162,.68353-.47532,1.03332-.70095,1.37759-.88859,2.83407-1.65472,4.34005-2.30157,.21254-.09129,.00407-.00095-.03324,.0143,.08927-.03648,.17854-.07294,.26803-.10886,.20867-.08377,.41815-.16552,.62855-.24483,.38997-.14701,.78276-.28648,1.17807-.41846,.9265-.30933,1.86649-.57825,2.8145-.81328,3.8482-.95407,7.48897-1.27795,11.50909-1.40168,4.03616-.12422,8.15988-.1896,12.17189,.32957,1.50076,.1942,3.49574,.63283,5.12244,1.20731,.32659,.11534,.64681,.24529,.97024,.36873,.2863,.10927-.27894-.12735-.00014-.00056,.07855,.03572,.15821,.06915,.23695,.10447,.18367,.08239,.36616,.16741,.54755,.25469,.64724,.31145,1.27966,.65359,1.89498,1.02411,.63998,.38537,1.26159,.80135,1.86273,1.24486,.10216,.07537,.41174,.31503,.14475,.1048,.13563,.1068,.27078,.21416,.40454,.32331,.31228,.25482,.61828,.51745,.91785,.7871,1.09846,.98874,2.07969,2.07691,3.01315,3.22022,.14367,.17597-.0284-.03771-.0469-.06224,.05224,.06924,.10473,.13828,.15664,.20776,.10384,.13899,.20631,.27898,.30741,.41997,.23596,.32906,.46439,.66346,.68512,1.00292,.39418,.60619,.76368,1.22836,1.10749,1.86448,.35748,.66141,.68351,1.33839,.98588,2.02662,.15513,.35309-.07531-.19721,.06625,.16141,.06359,.1611,.12802,.32182,.18963,.4837,.14362,.37739,.27845,.75817,.40419,1.14189,.22421,.68423,.41942,1.37797,.5843,2.07887,.08562,.36397,.16317,.72984,.23212,1.09733,.0318,.16951,.06182,.33937,.09,.50952,.01644,.09926,.09634,.62388,.06662,.41614-.03245-.22678,.03001,.25471,.03865,.33283,.01894,.17131,.03601,.3428,.05118,.51449,.0354,.40062,.0605,.80208,.07503,1.204,.02598,.71846,.01835,1.43819-.02442,2.15587-.0223,.37416-.05426,.74773-.09567,1.12025-.00957,.08609-.0211,.17202-.03008,.25817,.00274-.02626,.05054-.33688,.01392-.10186-.03122,.20035-.06109,.40071-.09477,.60069-.22869,1.35774,.54172,2.41008,1.92856,2.53168,1.19708,.10496,2.39376,.2167,3.58646,.36423,.16235,.02008,.32472,.04022,.48683,.06217-.08708-.01179-.35361-.05107,.05177,.00905,.25875,.03837,.51749,.07654,.77573,.11826,.64282,.10387,1.28342,.22224,1.91976,.36052,1.12782,.24507,2.24396,.55166,3.32737,.95104,.11881,.0438,.23728,.08869,.35523,.13475-.03187-.01244,.54088,.22471,.28683,.11455-.25384-.11007,.31003,.14256,.27927,.1283,.11394,.05284,.22734,.10695,.3401,.16224,.5061,.24817,.99977,.52248,1.47583,.82438,.26532,.16825,.52059,.34854,.77727,.52943,.04618,.03254,.29616,.2318,.04551,.03116,.09866,.07898,.19664,.15898,.29313,.24061,.44598,.37732,.86759,.78324,1.25704,1.21876,.07645,.08549,.53989,.6499,.30199,.34015,.15958,.20778,.3103,.4228,.45519,.64099,.30529,.45974,.57978,.93942,.82365,1.43446,.0589,.11957,.3127,.68537,.15733,.31631,.11285,.26807,.21412,.5419,.30825,.81705,.17035,.49793,.31316,1.00549,.4286,1.51892,.05802,.25805,.10921,.51756,.1539,.77825,.02489,.1452,.04816,.29065,.06873,.43653-.01117-.07924-.04304-.39702-.00533-.00441,.05394,.56154,.09176,1.12223,.09462,1.68667,.00256,.50659-.01763,1.01323-.06038,1.51803-.0126,.1488-.02738,.29737-.04385,.44579-.00657,.05918-.05746,.43359-.02021,.1789,.04447-.30403-.04667,.27675-.04489,.26623-.02994,.17694-.06264,.35343-.09807,.52935-.21287,1.05688-.53055,2.08396-.92999,3.0846,.14455-.36212-.14678,.31433-.19738,.41955-.11584,.24084-.23743,.47884-.36517,.7136-.27163,.49923-.5682,.98533-.88455,1.45744-.17656,.2635-.36244,.51941-.54823,.77636-.03203,.0443-.23088,.29869-.03344,.04735-.07811,.09943-.15759,.19793-.23772,.29573-.38074,.4647-.78221,.91227-1.20142,1.34256-3.13352,3.21635-7.17206,5.30571-11.49175,6.54918-6.21961,1.79039-12.60938,1.87641-19.13802,1.98207-1.04549,.01692-2.04892,.9078-2,2,.04789,1.06911,.8792,2.01814,2,2,11.39448-.18441,23.90161-.73866,32.71174-8.972,3.79514-3.54667,6.21799-8.26668,6.54944-13.47382,.31085-4.88353-1.4285-10.04721-5.25457-13.23376-4.69349-3.90897-10.88865-4.62703-16.75658-5.14153l1.92856,2.53168c1.11244-6.60475-.44723-13.42513-4.11082-19.01937-3.71585-5.67403-9.39587-9.99716-16.05695-11.51613-4.26575-.97275-8.68906-1.01247-13.04262-.97918-4.34939,.03325-8.71226,.28225-12.99221,1.09728-7.4445,1.41766-14.60617,4.9186-19.24793,11.05997-4.33682,5.73791-5.46385,14.0629-1.8651,20.45231,.46251,.82116,1.02102,1.57539,1.61462,2.30605l1.94589-3.34277c-4.47067-.64972-9.00935,.49541-12.62094,3.23505-3.74741,2.84266-6.19365,7.00909-6.83682,11.67798-.65133,4.72808,.2756,9.83278,3.04825,13.78792,1.49945,2.13894,3.41298,3.73974,5.82534,4.74996,2.26444,.94828,4.71586,1.25925,7.13794,1.52744,6.18026,.68433,12.39619,1.03475,18.61377,1.07213,1.04633,.00629,2.04818-.92441,2-2-.04878-1.08899-.87867-1.99326-2-2h0Z" fill="#99e0bb"/><path d="M63.21712,106.87252c-.93803-14.95463-1.32369-29.94303-1.14713-44.92611,.04975-4.22167,.14476-8.44271,.28243-12.66242,.03415-1.04667-.94432-2.04728-2-2-1.11282,.04984-1.96341,.87861-2,2-.48862,14.97605-.42409,29.96928,.20223,44.9403,.17647,4.21828,.39817,8.43456,.66247,12.64823,.06537,1.04212,.87308,2.05047,2,2,1.02749-.04602,2.07014-.88174,2-2h0Z" fill="#99e0bb"/><path d="M44.43418,67.70431c3.17309-2.95565,6.2542-6.00913,9.23314-9.16046,1.47596-1.56137,2.92714-3.14616,4.35275-4.75363,.72576-.81835,1.44496-1.64253,2.15733-2.47256,.35619-.41501,.71074-.83143,1.06358-1.2493,.15122-.17908,.30118-.35924,.45272-.53804,.08346-.10238,.16917-.20284,.25712-.30138-.2072,.12355-.21385,.1382-.01997,.04395l-1.00944,.27306c-.58311-.24615-.72479-.27185-.42505-.0771l.18337,.13979c-.05623-.04243,.52576,.403,.32643,.24941,.36528,.28147,.72802,.56629,1.08992,.85208,.72384,.57158,1.44213,1.15021,2.15471,1.73578,1.39548,1.14673,2.76908,2.32007,4.11989,3.51909,2.73065,2.4238,5.36519,4.95396,7.90332,7.57856,.72864,.75346,2.1061,.78687,2.82843,0,.74303-.80942,.77741-2.02453,0-2.82843-4.48874-4.64165-9.28467-8.98258-14.359-12.97617-1.45184-1.14263-3.14233-3.01194-5.09919-1.76508-.70697,.45046-1.22538,1.26116-1.76225,1.89177-.53179,.62465-1.06735,1.24609-1.60669,1.86424-2.18304,2.50202-4.42758,4.95037-6.73081,7.34222-2.57434,2.67338-5.22307,5.27419-7.93876,7.80378-.76739,.7148-.77669,2.11544,0,2.82843,.82173,.75433,2.0098,.76253,2.82843,0h0Z" fill="#99e0bb"/></svg>
+  <div class="row">
+    <div class="col-lg-8 order-lg-1  ps-10 ps-lg-5" data-scroll>
+      {{ partial "img-srcset.html" (dict "img" .img "size" 800 "alt" "ROKT") }}
+    </div>
+    <div class="col-lg-4 position-relative">
+      <div class="position-absolute h-100 d-flex flex-column justify-content-center">
+        <div class="text-secondary lead">{{ .small_title }}</div>
+        <h1>{{ .title | safeHTML }}</h1> 
+      </div>
+    </div>
   </div>
 </div>
 
+<div class="container-fluid  mb-23 mb-lg-28 position-relative" data-scroll>
+  <div class="col-md-10 mx-auto">
+    <div class="lead"><span>{{ .lead }}</span></div>
+  </div>
   <div class="floaters">
     <div class="floater rocket "><img src='{{ (resources.Get "images/Rocket.svg").Permalink }}' alt="" class="img-fluid" width="105" height="144"></div>
     <div class="floater arrow"><img src='{{ (resources.Get "images/Arrow-4.svg").Permalink }}' alt="" class=" img-fluid" width="70" height="153"></div>
@@ -20,137 +28,171 @@
     <div class="floater smile "><img src='{{ (resources.Get "images/Smile.svg").Permalink }}' alt="" class="img-fluid" width="133" height="130"></div>
   </div>
 </div>
-        
+{{ end }}
 
-<section id="cloud-native" class="section container-fluid  mb-23 mb-lg-28">
+{{ with $data.homepage.cloud_native }}
+<section id="cloud-native" class="section container-fluid  mb-23 mb-lg-28" data-scroll>
   <div class="row row-cols-1 row-cols-lg-2">
     <div class="col">
-      <img src="" alt="">
+      {{ partial "img-srcset.html" (dict "img" .img "size" 800 "alt" "Cloud Native") }}
+    </div>
+    <div class="col  d-flex flex-column ps-lg-20">
+      <h2 class="mb-4 mt-auto mb-lg-8">{{ .title }}</h2> 
+      {{ .text | safeHTML }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with $data.homepage.technologies }}
+<section class="section container-fluid  mb-24 mb-lg-40" data-scroll>
+  <h2 class="mb-8  mb-lg-13 text-center">{{ .title }}</h2>
+  <div class="row row-cols-3 row-cols-lg-auto gy-6 justify-content-between">
+    {{ range .item }}
+    <div class="col d-flex flex-column text-center">
+      <img class="mb-3" src="{{ (resources.Get .img).Permalink }}" alt="{{ .title }}">
+      <div class="mt-auto small">{{ .title }}</div> 
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ with $data.homepage.services }}
+<section id="services" class="section container-fluid   mb-24 mb-lg-40" data-scroll>
+  <div class="col-lg-6 mb-8">
+    <h2 class="mb-4 mb-lg-8">{{ .title }}</h2> 
+    {{ .text | safeHTML }}
+  </div>
+  
+  <div class="row row-cols-1 row-cols-lg-2  gy-10">
+    {{ range .item }}
+    <div class="col">
+      <h3 class="mb-2 mb-lg-4">{{ .title }}</h3> 
+      {{ .text | safeHTML }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ with $data.homepage.slideshow }}
+<div id="slideshow" class="carousel   mb-24 mb-lg-40">
+  {{ range .images }}
+    {{ if .img }} 
+    <div class="carousel-cell me-5">
+      {{ partial "img-srcset.html" (dict "img" .img "size" 800 "alt" "") }}
+    </div>
+    {{ end }}
+  {{ end }}
+</div>
+{{ end }}
+
+{{ with $data.homepage.about }}
+<section id="about" class="section container-fluid  mb-23 mb-lg-28" data-scroll>
+  <div class="row row-cols-1 row-cols-lg-2">
+    <div class="col order-lg-1">
+      <h2 class="mb-4 mb-lg-8">{{ .title | safeHTML }}</h2> 
+      {{ .text | safeHTML }}
     </div>
     <div class="col ">
-      <h2 class="mb-4 mb-lg-8">Das Potenzial moderner Technologien erlebbar machen durch Cloud Native</h2> 
-      Wir glauben, dass in modernen technologischen Ansätzen wie Cloud Native und Open Source das Fundament für eine bessere Zukunft steckt. Dass sie für Unternehmen und Menschen einen spürbaren Unterschied machen. Deshalb helfen wir Cloud Native Computing für alle zugänglich zu machen. Damit jede und jeder selbst die Kraft und die Magie daran erleben kann. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer id tincidunt egestas. Ut porttitor urna ac augue cursus tincidunt sit amet sed orci.
+      <div class="row row-cols-1 row-cols-lg-2 gy-6">
+        {{ range .persons }}
+        <div class="col">
+          {{ partial "img-srcset.html" (dict "img" .img "size" 300 "alt" .name) }}
+          <div class="lead mb-5"><span>
+            {{ .name }}<br>
+            {{ .title }}
+          </span></div>
+          <div class="d-flex justify-content-end">
+            {{ with .mail }}
+              <a class="ms-4" href="mailto:{{ . }}">Mail</a>
+            {{ end }}
+            {{ with .linkedin }}
+              <a class="ms-4" href="{{ . }}">linkedin</a>
+            {{ end }}
+            {{ with .twitter }}
+              <a class="ms-4" href="{{ . }}">twitter</a>
+            {{ end }}
+          </div>
+
+
+        </div>
+        {{ end }}
+      </div>
     </div>
   </div>
 </section>
+{{ end }}
 
-<section   class="section container-fluid  mb-23 mb-lg-28">
-
-  <h2 class="mb-8 text-center">Wir setzen auf neuste Technologien</h2>
-  <div class="row row-cols-3 row-cols-lg-8">
-    <div class="col">
-      <img src="" alt="">
-    </div>
- 
+{{ with $data.homepage.references }}
+<section id="references" class="section container-fluid  mb-23 mb-lg-28" data-scroll>
+  <div class="col-lg-6 mb-8  pe-lg-14">
+    <h2 class="mb-4 mb-lg-8">{{ .title }}</h2> 
   </div>
-</section>
-
-<section id="services" class="section container-fluid  mb-23 mb-lg-28">
-
-  <div class="col-lg-6 mb-8">
-      <h2 class="mb-4 mb-lg-8">Services – Wir helfen Unternehmen besser zu sein</h2> 
-      Wir glauben, dass in modernen technologischen Ansätzen wie Cloud Native und Open Source das Fundament für eine bessere Zukunft steckt. Dass sie für Unternehmen und Menschen einen spürbaren Unterschied machen. Deshalb helfen wir Cloud Native Computing für alle zugänglich zu machen. Damit jede und jeder selbst die Kraft und die Magie daran erleben kann. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer id tincidunt egestas. Ut porttitor urna ac augue cursus tincidunt sit amet sed orci.
-  </div>
-
-  <div class="row row-cols-1 row-cols-lg-2  gy-10">
-    <div class="col">
-      <h3 class="mb-2 mb-lg-4">Cloud Native Consulting</h3> 
-      <p>Man kriegt von ROKT einen erfahrenen Cloud Native Consultant, welche(r) einem bei der Bewältigung der Cloud Herausforderung stets zur Seite steht.</p>
-      <ul>
-        <li>Begleiten der Cloud Native Journey von A – Z (beinhaltet das magische Dreieck, Technologie, Kultur und Prozesse)</li>
-        <li>Cloud Architektur Design und 	Lösungsarchitektur</li>
-        <li>Coachen von Mitarbeitenden, Trainings</li>
-        <li>Workshops, Reviews</li>
-      </ul>
-    </div>
-    <div class="col">
-      <h3 class="mb-2 mb-lg-4">Cloud Native Consulting</h3> 
-      <p>Man kriegt von ROKT einen erfahrenen Cloud Native Consultant, welche(r) einem bei der Bewältigung der Cloud Herausforderung stets zur Seite steht.</p>
-      <ul>
-        <li>Begleiten der Cloud Native Journey von A – Z (beinhaltet das magische Dreieck, Technologie, Kultur und Prozesse)</li>
-        <li>Cloud Architektur Design und 	Lösungsarchitektur</li>
-        <li>Coachen von Mitarbeitenden, Trainings</li>
-        <li>Workshops, Reviews</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-
-Bilder Galerie
-
-<section id="about" class="section container-fluid  mb-23 mb-lg-28">
-  <div class="row row-cols-1 row-cols-lg-2">
-    <div class="col">
-      <img src="" alt="">
-    </div>
-    <div class="col">
-      <h2 class="mb-4 mb-lg-8">Über uns <br>Wir leben Cloud Native</h2> 
-      Wir glauben, dass in modernen technologischen Ansätzen wie Cloud Native und Open Source das Fundament für eine bessere Zukunft steckt. Dass sie für Unternehmen und Menschen einen spürbaren Unterschied machen. Deshalb helfen wir Cloud Native Computing für alle zugänglich zu machen. Damit jede und jeder selbst die Kraft und die Magie daran erleben kann. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer id tincidunt egestas. Ut porttitor urna ac augue cursus tincidunt sit amet sed orci.
-    </div>
-  </div>
-</section>
-
-
-<section id="references" class="section container-fluid  mb-23 mb-lg-28">
-
-   <div class="col-lg-6 mb-8">
-     <h2 class="mb-4 mb-lg-8">Referenzen – Projekte welche wir gerokt haben</h2> 
-   </div>
   
-
- <div class="row row-cols-1 row-cols-lg-2 gy-10">
-   <div class="col">
-     <h3 class="mb-2 mb-lg-4">Denner – Lorem ipsum in der Cloud Lösung  </h3> 
-     <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer id nisi nec nulla luctus lacinia non eu turpis. Etiam in ex impeurna ac augue rdie. </p>
-     
-     <div class="mt-6 small">
-      <h4>Tech Stack</h4>
-      Lorem Ipsum Interdum, Docker, RHEL, Zabbix, puppet, RH Satellite 6, python, bash, OpenShift, GlusterFS, Ansible, Prometheus, Elasticsearch
-     </div>
-   </div>
-   <div class="col  ">
-  Bild
-   </div>
- </div>
+  {{ range .projects }}
+  <div class="row row-cols-1 row-cols-lg-2 gy-10">
+    <div class="col  pe-lg-14">
+      <h3 class="mb-2 mb-lg-4">{{ .title }}</h3> 
+      {{ .text | safeHTML }}
+      {{ with .tech_text }}
+      <div class="mt-6 small">
+        <h4>Tech Stack</h4>
+        {{ . | safeHTML }}
+      </div>
+      {{ end }}
+    </div>
+    <div class="col">
+      <div class="shadow">
+        {{ partial "img-srcset.html" (dict "img" .img "size" 616 "alt" .title) }}
+      </div>
+      {{ with .link }}
+      <a class="mt-4 mt-3 float-end" href="{{ . }}">zur Website</a>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+  
 </section>
+{{ end }}
 
 
-<section id="partner" class="section container-fluid  mb-23 mb-lg-28">
+{{ with $data.homepage.partner }}
+<section id="partner" class="section container-fluid  mb-40" data-scroll>
 
-  <div class="col-lg-6 mb-8">
-     <h2 class="mb-4 mb-lg-8">Partner – dank unserem Netzwerk überall gut positioniert </h2> 
-     Wir halten unsere Augen und Ohren offen und gehen auf unsere Kund:Innen und Partner:Innen ein. Open Source und offene Standards sind für uns selbstverständlich. Denn wer Neuem und anderen Menschen gegenüber nicht aufgeschlossen ist, kommt nicht sehr weit. Im Alleingang oder auf ausgetretenen Pfaden findet man kaum Inspiration und Möglichkeiten zu wachsen.
- 
+  <div class="col-lg-6 mb-12">
+     <h2 class="mb-4 mb-lg-8">{{ .title }}</h2> 
+     {{ .text | safeHTML }} 
  </div>
-
  <div class="row gy-10">
+   {{ range .item }}
+   {{ $title := .title }}
     <div class="col">
-        <div class="badge rounded-pill border border-2 border-light">Schulungs-Partner</div>
-        <div>Logo</div>
+        <div class="badge rounded-pill border border-2 border-light mb-2">{{ .label }}</div>
+        <div class="d-flex h-100  align-items-center">
+          <a class="d-block" href="{{ .link }}">
+            {{ with .img }} <img class="mb-3" src="{{ (resources.Get .).Permalink }}" alt="{{ $title }}"> {{ end}}
+          </a>
+        </div>
     </div>
-    <div class="col">
-        <div class="badge rounded-pill border border-2 border-light">Schulungs-Partner</div>
-        <div>Logo</div>
-    </div>
-    <div class="col">
-        <div class="badge rounded-pill border border-2 border-light">Schulungs-Partner</div>
-        <div>Logo</div>
-    </div>
-    <div class="col">
-        <div class="badge rounded-pill border border-2 border-light">Schulungs-Partner</div>
-        <div>Logo</div>
-    </div>
-  
-
+    {{ end }}
  </div>
 </section>
+{{ end }}
 
+{{ with $data.homepage.prefooter }}
+<div class="hero container-fluid  mb-23 mb-lg-28" data-scroll>
+ 
+    <div class="col-lg-8 ps-10 ps-lg-5 mx-lg-auto">
+      {{ partial "img-srcset.html" (dict "img" .img "size" 900 "alt" "ROKT") }}
+    </div>
 
- {{ end }}
+    <div class="col-md-7 ms-lg-auto">
+      <div class="lead"><span>{{ .text }}</span></div>
+    </div>
+ 
+</div>
+{{ end }}
 
-{{ define "section" }}
-<section class="section container-fluid">
-  {{- .Content -}}
-</section>
 {{ end }}

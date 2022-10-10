@@ -14,3 +14,10 @@ import './assets/js/alert';
 
 // home 3D animation
 import './assets/js/home-animation';
+
+// fade in elements
+import './assets/js/scroll-out';
+
+// slideshow
+import './assets/js/slideshow';
+ 

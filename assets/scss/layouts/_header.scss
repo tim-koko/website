@@ -22,7 +22,7 @@
     font-size: $font-size-xl;
   }
 
-  .navbar-text {
+  .menu-item {
     margin-left: 1.25rem;
     font-size: 2.4rem;
   }
@@ -31,15 +31,28 @@
 .navbar-brand {
   .logo {
     width: 20vw;
-    min-width: 140px;
+    min-width: 9.2;
     max-width: 220px;
+    transition: all 0.2s ease;
+
+    [data-scroll="in"] & {
+      width: 9.2rem;
+    }
   }
 }
 
-.navbar {
+.banner {
+  background: $blue;
   padding: 30px 40px;
+  transition: all 0.2s ease;
 
   @include media-breakpoint-up(lg) {
-    padding: 50px 60px;
+    padding: 50px 60px 1rem;
+
+    &[data-scroll="in"] {
+      // padding: 1rem 60px;
+      box-shadow: 0 -10px 16px 10px rgba($green, 0.6);
+      transform: translateY(-4rem);
+    }
   }
 }

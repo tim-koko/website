@@ -5,6 +5,15 @@ html {
   // stylelint-enable
 }
 
+html,
+body {
+  scroll-padding-top: 12rem;
+
+  @include media-breakpoint-up(lg) {
+    scroll-padding-top: 24rem;
+  }
+}
+
 body {
   background: $blue;
   display: flex;
@@ -80,6 +89,7 @@ a {
   &:hover,
   &.active {
     color: $green;
+    text-decoration: none;
   }
 }
 
@@ -111,6 +121,11 @@ a {
 
 ::marker {
   color: $green;
+}
+
+ol,
+ul {
+  padding-left: 1.3rem;
 }
 
 .container-fluid {

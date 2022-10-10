@@ -62,5 +62,9 @@
   },
   "otherDependencies": {
     "hugo": "0.92.1"
+  },
+  "dependencies": {
+    "flickity": "^2.3.0",
+    "scroll-out": "^2.2.12"
   }
 }

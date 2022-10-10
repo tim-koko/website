@@ -1,0 +1,138 @@
+# Hero Section
+hero:
+  small_title: "Into the Cloud"
+  title: 'Cloud Native <span class="d-block">Transformation,</span> that roks.'
+  lead: "ROKT begleitet Unternehmen ganz nach oben. Genauer gesagt: In die Cloud. Mit einer Beratung auf Augenhöhe und technologischen Lösungen, die ungenutztes Potenzial erschliessbar machen."
+  img: "images/hero-img.jpg"
+
+# Cloud Native Section
+cloud_native:
+  title: "Cloud Native: Das Potenzial zukunftsweisender Technologien erlebbar machen"
+  text:
+    "<p>Wir glauben, dass eine lebenswerte Zukunft nur von Menschen gestaltet werden kann. Und dass uns neue Technologien und Prinzipien dabei gewinnbringend unterstützen können. Allen voran: Cloud Native Technologien und Open Source Software. In der Kombination bieten sie ideale Voraussetzungen für agile Software-Lösungen, die effizient entwickelt, betrieben und kontinuierlich weiterentwickelt werden können.</p>
+    <p>Gemeinsam mit unseren Kund:innen finden wir heraus, was das konkret für ihr Unternehmen und die Menschen, die darin arbeiten, bedeutet und befähigen sie, die unendlichen Möglichkeiten von Cloud Native Computing voll auszuschöpfen. Das schafft nicht nur Raum für kreative Lösungen, sondern auch einen entscheidenden Wettbewerbsvorteil.</p>"
+  img: "images/cloud-native.jpg"
+
+# Technologies Section
+technologies:
+  title: "Wir setzen auf neuste Technologien"
+  item:
+    - title: "ArgoCD"
+      link: "https://argo-cd.readthedocs.io/en/stable/"
+      img: "images/tech/argo-horizontal-white.svg"
+    - title: "ArgoCD"
+      link: "https://argo-cd.readthedocs.io/en/stable/"
+      img: "images/tech/argo-horizontal-white.svg"
+    - title: "ArgoCD"
+      link: "https://argo-cd.readthedocs.io/en/stable/"
+      img: "images/tech/argo-horizontal-white.svg"
+    - title: "ArgoCD"
+      link: "https://argo-cd.readthedocs.io/en/stable/"
+      img: "images/tech/argo-horizontal-white.svg"
+    - title: "ArgoCD"
+      link: "https://argo-cd.readthedocs.io/en/stable/"
+      img: "images/tech/argo-horizontal-white.svg"
+    - title: "ArgoCD"
+      link: "https://argo-cd.readthedocs.io/en/stable/"
+      img: "images/tech/argo-horizontal-white.svg"
+    - title: "ArgoCD"
+      link: "https://argo-cd.readthedocs.io/en/stable/"
+      img: "images/tech/argo-horizontal-white.svg"
+    - title: "ArgoCD"
+      link: "https://argo-cd.readthedocs.io/en/stable/"
+      img: "images/tech/argo-horizontal-white.svg"
+
+# Services Section
+services:
+  title: "Services – Gemeinsam ganz nach oben"
+  text: "<p>Wer hoch hinaus will, braucht Mut und Zuversicht. Und einen Partner wie ROKT, die einen dahin begleitet. Sobald wir die Bedürfnisse unserer Kund:innen verstanden haben, starten wir mit Teamwork: Gemeinsam entwickeln wir nachhaltige Lösungen, finden passende Technologien, setzen wirkungsvolle Prozesse auf und schaffen kulturelle Veränderung, damit die Unternehmen ihr Potenzial voll ausschöpfen können.</p>"
+  item:
+    - title: "Cloud Native Consulting"
+      text:
+        "<p>Ein:e erfahrene:r ROKT Cloud Native Consultant steht während des ganzen Prozesses unterstützend zur Seite – Mit Fachwissen, konkreten Anweisungen oder auch mal mit aufmunternden Worten. Das Cloud Native Consulting beinhaltet:</p>
+        <ul>
+        <li>das Begleiten deiner ganzen Cloud Native Journey von A-Z</li>
+        <li>Beratung zum magischen Dreieck: Technologie, Kultur und Prozesse</li>
+        <li>Cloud Architektur Design und Lösungsarchitektur</li>
+        <li>Coaching & Training von Mitarbeitenden</li>
+        <li>Workshops, Reviews</li>
+        </ul>"
+    - title: "Cloud Native Engineering"
+      text:
+        "<p>Dir fehlen Zeit und Nerven, um dich mit Cloud Native Technologien auseinanderzusetzen? Als leidenschaftliche Engineers nehmen wir das gerne ab, damit du dich mit ruhigem Gewissen um das kümmern kannst, was dir Freude bereitet. Das Cloud Engineering beinhaltet:</p>
+        <ul>
+        <li>Unterstützung beim Container und Kubernetes Engineering</li>
+        <li>Cloud Native Software Engineering</li>
+        <li>Delivery Pipelines konzipieren und umsetzen</li>
+        <li>Automation, GitOps</li>
+        <li>Implementation und Integration von Observability Aspekten</li>
+        </ul>"
+
+# Slideshow Section
+slideshow:
+  images:
+    - img: "images/slideshow/img@2x-11.jpg"
+    - img: "images/slideshow/img@2x-12.jpg"
+    - img: "images/slideshow/img@2x-13.jpg"
+    - img: "images/slideshow/img@2x-14.jpg"
+    - img: "images/slideshow/img@2x-15.jpg"
+
+# About us Section
+about:
+  title: "Über uns – Wir leben Cloud Native"
+  text: "<p>Bei ROKT steht der Mensch im Zentrum. Wir setzen uns für eine Unternehmenskultur ein, die von Neugier, Ko-Kreation und Mut geprägt ist. Unser Kopf mag zwar in der Cloud sein, aber wir stehen mit beiden Beinen auf dem Boden.</p>"
+  persons:
+    - name: "Thomas Philipona"
+      title: "Founder"
+      img: "images/team/Daniel_Schaad.jpg"
+      mail: "t@rokt.cloud"
+      linkedin: "https://www.linkedin.com/in/rokt_cloud/"
+      twitter: "https://twitter.com/rokt_cloud"
+    - name: "Sarah Pfeiffer"
+      title: "Project Manager"
+      img: "images/team/Doris_Sommer.jpg"
+      mail: "t@rokt.cloud"
+      linkedin: "https://www.linkedin.com/in/rokt_cloud/"
+
+# References Section
+references:
+  title: "Referenzen – Die besten Kunden der Welt"
+  text: ""
+  projects:
+    - title: "Denner – Lorem ipsum in der Cloud Lösung "
+      text: "<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer id nisi nec nulla luctus lacinia non eu turpis. Etiam in ex impeurna ac augue rdie.</p>"
+      tech_text: "<p>Lorem Ipsum Interdum, Docker, RHEL, Zabbix, puppet, RH Satellite 6, python, bash, OpenShift, GlusterFS, Ansible, Prometheus, Elasticsearch</p>"
+      img: "images/projects/denner.png"
+      link: "https://denner.ch/"
+
+# Partner Section
+partner:
+  title: "Partner:innen – Gemeinsam kommen wir weiter"
+  text: "<p>Konkurrenzkampf? Kennen wir nicht. Wir arbeiten lieber Seite an Seite mit Partner:innen, die das gleiche Ziel verfolgen. Darum teilen wir unsere Erfahrungen, Erfolge und Herausforderungen mit der Community, sind aktive Open Source Contributor:innen und vertrauen darauf, dass unsere Partner:innen das auch tun. So lernen wir stets von und mit Gleichgesinnten – und finden Lösungen, auf die wir von alleine wohl nie gekommen wären.</p>"
+  item:
+    - title: "acend GmbH"
+      label: "Schulungs-Partner"
+      img: "images/partner/acend.svg"
+      link: "https://acend.ch"
+    - title: "arch.cloud"
+      label: "ICT-Partner"
+      img: "images/partner/arch-cloud.svg"
+      link: "https://acend.ch"
+    - title: "arch.cloud"
+      label: "ICT-Partner"
+      img: "images/partner/puzzle-itc.svg"
+      link: "https://acend.ch"
+    - title: "Studio Wanner AG"
+      label: "UX/UI-Partner"
+      img: "images/partner/studiowanner.svg"
+      link: "https://studiowanner.ch"
+
+# Prefooter Section
+prefooter:
+  img: "images/prefooter.jpg"
+  text: "Lorem ipsum dolor rsturipum sit amet, aecenas vaar erts pe, rsgr frtius tortor Vestibulum aqudsf am molestie."
+
+# Footer
+footer:
+  title: "Dürfen wir dich in die Cloud begleiten?"
+  text: "Der Weg in die Zukunft ist gemeinsam deutlich kürzer. Kontaktiere uns für ein unverbindliches Kennenlernen."

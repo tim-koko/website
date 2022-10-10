@@ -1,0 +1,24 @@
+#slideshow {
+  overflow: hidden;
+  outline: none;
+
+  &:hover {
+    cursor: grab;
+  }
+
+  &:active {
+    cursor: grabbing;
+  }
+
+  .flickity-slider {
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+
+  .carousel-cell {
+    width: 25%;
+    display: flex;
+    align-items: center;
+  }
+}

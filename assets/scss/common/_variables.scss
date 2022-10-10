@@ -186,8 +186,10 @@ $spacers: (
   ),
 );
 
-// Navbar
+//
+$box-shadow: 0 0 1rem rgba($green, 0.6);
 
+// Navbar
 $navbar-padding-y: $spacer * 1.5;
 $navbar-padding-x: $spacer;
 
