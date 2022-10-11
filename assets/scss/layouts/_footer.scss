@@ -14,10 +14,14 @@
     }
   }
 
+  .footer-arrow {
+    transform: rotateY(182deg) rotate(188deg);
+  }
+
   a {
     color: $blue;
 
-    img {
+    svg {
       transform: rotate(0deg);
       transition: 0.3s;
       transform-style: preserve-3d;
@@ -26,7 +30,7 @@
     &:hover {
       color: $green;
 
-      img {
+      svg {
         transform: rotate(-10deg) !important;
         transition: 0.3s;
         transform-style: preserve-3d;

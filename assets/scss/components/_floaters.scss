@@ -6,70 +6,14 @@
   z-index: 5;
   width: 100%;
   height: 100%;
+
+  @include media-breakpoint-down(md) {
+    transform: scale(0.6);
+  }
 }
 
 .floater {
   position: absolute;
-
-  &.smile {
-    bottom: -30%;
-    left: -13%;
-
-    @include media-breakpoint-down(lg) {
-      width: 75px;
-    }
-
-    @include media-breakpoint-down(md) {
-      bottom: -67px;
-      left: auto;
-      right: 10%;
-      display: none;
-    }
-  }
-
-  &.rocketi {
-    top: -300px;
-    left: 31%;
-
-    @include media-breakpoint-down(lg) {
-      width: 65px;
-    }
-
-    @include media-breakpoint-down(md) {
-      top: 105%;
-      left: 10%;
-      width: 65px;
-    }
-  }
-
-  &.cloudi {
-    top: -78px;
-    right: -80px;
-
-    @include media-breakpoint-down(lg) {
-      width: 100px;
-    }
-
-    @include media-breakpoint-down(md) {
-      top: -78px;
-      right: 20px;
-      width: 100px;
-    }
-  }
-
-  &.arrowi {
-    top: -170px;
-    left: 50%;
-
-    @include media-breakpoint-down(lg) {
-      width: 40px;
-    }
-
-    @include media-breakpoint-down(md) {
-      top: 122%;
-      left: 31%;
-    }
-  }
 
   img {
     transform-style: preserve-3d;
@@ -93,6 +37,19 @@
       top: -9rem;
       right: -6rem;
     }
+
+    #partner & {
+      top: -11rem;
+      right: auto;
+      left: 4rem;
+      transform: rotate(154deg);
+    }
+
+    #prefooter & {
+      top: 8rem;
+      right: auto;
+      left: -6rem;
+    }
   }
 
   &:nth-child(2) {
@@ -104,12 +61,72 @@
       top: 7rem;
       right: 0;
     }
+
+    #partner & {
+      top: -10rem;
+      right: auto;
+      left: 19rem;
+    }
+
+    #prefooter & {
+      top: -6rem;
+      right: auto;
+      transform: rotate(51deg);
+      left: -4rem;
+    }
   }
 
   &:nth-child(3) {
-    // border: 1px solid blue;
     top: 4rem;
     right: 4rem;
+
+    #partner & {
+      top: -10rem;
+      right: auto;
+      left: 39rem;
+    }
+
+    #prefooter & {
+      top: -3rem;
+      right: auto;
+      left: 7rem;
+    }
+  }
+
+  &:nth-child(4) {
+    #partner & {
+      top: 4rem;
+      right: auto;
+      left: 35rem;
+      transform: rotate(13deg);
+    }
+
+    #prefooter & {
+      left: 11rem;
+      transform: rotate(255deg);
+      top: 6rem;
+    }
+  }
+
+  &:nth-child(5) {
+    #prefooter & {
+      left: 25rem;
+      top: 10rem;
+    }
+  }
+
+  &:nth-child(6) {
+    #prefooter & {
+      left: 13rem;
+      top: -12rem;
+    }
+  }
+
+  &:nth-child(7) {
+    #prefooter & {
+      left: 23rem;
+      top: -14rem;
+    }
   }
 }
 

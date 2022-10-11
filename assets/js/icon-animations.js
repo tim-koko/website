@@ -3,23 +3,18 @@ import ScrollOut from 'scroll-out';
 
 //set all paths to 0
 anime({
-  targets: '.floater svg path',
-  //targets: el.querySelectorAll('.floater svg path'),
+  targets: '.icon-draw svg path',
   strokeDashoffset: [0,anime.setDashoffset],
   duration: 0,
-  //autoplay: false,
 });
 
 /* eslint-disable */
 ScrollOut({
-  targets: '.floater',
+  targets: '.icon-draw',
   threshold: 0.9,
   onShown: function(el) {
-    // use the web animation API
-    //el.animate([{ opacity: 0 }, { opacity: 1 }], 1000);
     anime({
       targets: el.querySelectorAll(`:scope ${'svg path'}`),
-      //targets: el.querySelectorAll('.floater svg path'),
       strokeDashoffset: [anime.setDashoffset, 0],
       easing: 'easeOutSine',
       duration: 400,

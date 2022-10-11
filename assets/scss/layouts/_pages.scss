@@ -32,7 +32,8 @@ p.meta a:focus {
     font-size: 3.6rem; // 5.6rem;
     line-height: 1.333;
 
-    #about & {
+    #about &,
+    .footer & {
       font-size: 2.4rem;
       line-height: 1.455;
     }
@@ -84,5 +85,9 @@ p.meta a:focus {
 }
 
 .cloud-text {
-  margin-top: -5rem;
+  margin-top: -2rem;
+
+  @include media-breakpoint-up(lg) {
+    margin-top: -5rem;
+  }
 }
