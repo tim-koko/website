@@ -2,7 +2,7 @@
   {{ partial "header/alert.html" . }}
 {{ end -}}
 
-<header class="banner navbar  fixed-top">
+<header class="banner navbar">
   <div class="container-fluid p-0">
     <a class="navbar-brand" href="{{ "/" | absURL }}">
       <img src='{{ (resources.Get "images/ROKT.svg").Permalink }}' alt="{{ .Site.Params.Title }}" class="logo img-fluid" width="220" height="146">

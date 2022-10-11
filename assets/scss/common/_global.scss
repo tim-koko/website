@@ -27,7 +27,6 @@ body {
   font-family: Athletics-Regular, sans-serif;
   font-size: 1.6rem;
   line-height: 1.6;
-  padding-top: 12rem;
 
   @include media-breakpoint-up(lg) {
     font-size: 1.8rem;
@@ -94,11 +93,6 @@ a {
     color: $green;
     text-decoration: none;
   }
-}
-
-.content {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 @include media-breakpoint-up(md) {

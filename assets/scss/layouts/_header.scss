@@ -30,24 +30,32 @@
 
 .navbar-brand {
   .logo {
-    width: 20vw;
-    min-width: 9.2;
+    width: 12rem;
     max-width: 220px;
     transition: all 0.2s ease;
 
-    [data-scroll="out"] & {
-      width: 9.2rem;
+    @include media-breakpoint-up(lg) {
+      width: 20rem;
+
+      [data-scroll="out"] & {
+        width: 9.2rem;
+      }
     }
   }
 }
 
 .banner {
   background: $blue;
-  padding: 30px 40px;
+  padding: 3rem 2rem;
   transition: all 0.2s ease;
 
   @include media-breakpoint-up(lg) {
     padding: 50px 60px 1rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 
     &[data-scroll="out"] {
       // padding: 1rem 60px;
