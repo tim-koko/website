@@ -68,82 +68,6 @@ p.meta a:focus {
   backface-visibility: hidden;
 }
 
-.floater {
-  position: absolute;
-
-  &.smile {
-    bottom: -30%;
-    left: -13%;
-
-    @include media-breakpoint-down(lg) {
-      width: 75px;
-    }
-
-    @include media-breakpoint-down(md) {
-      bottom: -67px;
-      left: auto;
-      right: 10%;
-      display: none;
-    }
-  }
-
-  &.rocket {
-    top: -300px;
-    left: 31%;
-
-    @include media-breakpoint-down(lg) {
-      width: 65px;
-    }
-
-    @include media-breakpoint-down(md) {
-      top: 105%;
-      left: 10%;
-      width: 65px;
-    }
-  }
-
-  &.cloud {
-    top: -78px;
-    right: -80px;
-
-    @include media-breakpoint-down(lg) {
-      width: 100px;
-    }
-
-    @include media-breakpoint-down(md) {
-      top: -78px;
-      right: 20px;
-      width: 100px;
-    }
-  }
-
-  &.arrow {
-    top: -170px;
-    left: 50%;
-
-    @include media-breakpoint-down(lg) {
-      width: 40px;
-    }
-
-    @include media-breakpoint-down(md) {
-      top: 122%;
-      left: 31%;
-    }
-  }
-
-  img {
-    transform-style: preserve-3d;
-    opacity: 0;
-    transform: translateY(40px);
-
-    // transition: opacity 0.3s ease;
-    animation: fade-in-stagger 0.8s ease forwards;
-    -webkit-perspective: 1000;
-    perspective: 1000;
-    backface-visibility: hidden;
-  }
-}
-
 // keyframes
 @keyframes fade-in-stagger {
   to {
@@ -157,4 +81,8 @@ p.meta a:focus {
   .floater:nth-child(#{$i}) img {
     animation-delay: ($i * 0.25s) + 0.5s;
   }
+}
+
+.cloud-text {
+  margin-top: -5rem;
 }

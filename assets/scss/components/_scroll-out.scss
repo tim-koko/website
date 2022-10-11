@@ -1,13 +1,15 @@
 .content {
   [data-scroll] {
-    transition: opacity 1s;
+    transition: opacity 1s, transform 0.5s;
   }
 
   [data-scroll="in"] {
     opacity: 1;
+    transform: translateY(0);
   }
 
   [data-scroll="out"] {
     opacity: 0;
+    transform: translateY(2rem);
   }
 }

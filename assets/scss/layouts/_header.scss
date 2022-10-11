@@ -35,7 +35,7 @@
     max-width: 220px;
     transition: all 0.2s ease;
 
-    [data-scroll="in"] & {
+    [data-scroll="out"] & {
       width: 9.2rem;
     }
   }
@@ -49,7 +49,7 @@
   @include media-breakpoint-up(lg) {
     padding: 50px 60px 1rem;
 
-    &[data-scroll="in"] {
+    &[data-scroll="out"] {
       // padding: 1rem 60px;
       box-shadow: 0 -10px 16px 10px rgba($green, 0.6);
       transform: translateY(-4rem);

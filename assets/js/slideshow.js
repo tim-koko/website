@@ -10,7 +10,7 @@ import  Flickity from 'flickity';
        //const slider = 
        new Flickity( slideshow, {
             wrapAround: true,
-            //fade: true,
+            freeScroll: true,
             //adaptiveHeight: false,
             autoPlay: 2500,
             pauseAutoPlayOnHover: false,

@@ -5,6 +5,7 @@ html {
   // stylelint-enable
 }
 
+/*
 html,
 body {
   scroll-padding-top: 12rem;
@@ -12,7 +13,7 @@ body {
   @include media-breakpoint-up(lg) {
     scroll-padding-top: 24rem;
   }
-}
+*/
 
 body {
   background: $blue;
@@ -26,9 +27,11 @@ body {
   font-family: Athletics-Regular, sans-serif;
   font-size: 1.6rem;
   line-height: 1.6;
+  padding-top: 12rem;
 
   @include media-breakpoint-up(lg) {
     font-size: 1.8rem;
+    padding-top: 24rem;
   }
 
   -moz-osx-font-smoothing: grayscale;
