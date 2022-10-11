@@ -1,28 +1,3 @@
-[[main]]
-  name = "Cloud Native"
-  url = "#cloud-native"
-  weight = 1
-  
-[[main]]
-  name = "Services"
-  url = "#services"
-  weight = 2
-
-[[main]]
-  name = "Über Uns"
-  url = "#about"
-  weight = 3
-
-[[main]]
-  name = "Referenzen"
-  url = "#references"
-  weight = 4
-
-[[main]]
-  name = "Partner"
-  url = "#partner"
-  weight = 5
-
 #[[social]]
 #  name = "Twitter"
 #  url = "https://twitter.com/rokt_cloud"
