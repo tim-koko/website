@@ -21,8 +21,8 @@ window.addEventListener('mousemove', ev => mousepos = getMousePos(ev));
     // amount to move in each axis
     let translationVals = {tx: 0, ty: 0};
     // get random start and end movement boundaries
-    const xstart = getRandomNumber(-20,50);
-    const ystart = getRandomNumber(-20,50);
+    const xstart = getRandomNumber(-10,20);
+    const ystart = getRandomNumber(-10,20);
    
     // infinite loop
     const render = () => {
@@ -42,6 +42,6 @@ window.addEventListener('mousemove', ev => mousepos = getMousePos(ev));
 
 
 if (!is_touch_enabled()) {
-  const els = document.querySelectorAll('.floater');
+  const els = document.querySelectorAll('.floaters');
   els.forEach(item => move(item));
 }

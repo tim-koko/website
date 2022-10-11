@@ -13,7 +13,7 @@ import 'lazysizes';
 import './assets/js/alert';
 
 // home 3D animation
-//import './assets/js/home-animation';
+import './assets/js/home-animation';
 
 // fade in elements
 import './assets/js/scroll-out';
