@@ -75,6 +75,8 @@
   <div class="row row-cols-1 row-cols-lg-2  gy-10">
     {{ range .item }}
     <div class="col">
+
+       <div class="icon-draw mb-3">{{ .img | safeHTML }}</div>
       <h3 class="mb-2 mb-lg-4">{{ .title }}</h3> 
       {{ .text | safeHTML }}
     </div>
