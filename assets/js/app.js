@@ -18,6 +18,9 @@ import './assets/js/alert';
 // fade in elements
 import './assets/js/scroll-out';
 
+// icons animations
+import './assets/js/icon-animations';
+
 // slideshow
 import './assets/js/slideshow';
  

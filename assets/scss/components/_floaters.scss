@@ -84,19 +84,29 @@
   }
 
   // new:
-  .floater:nth-child(1) {
+  &:nth-child(1) {
     // border: 1px solid red;
-    top: -6rem;
+    top: -11rem;
     right: 0;
+
+    #cloud-native & {
+      top: -9rem;
+      right: -6rem;
+    }
   }
 
-  .floater:nth-child(2) {
+  &:nth-child(2) {
     // border: 1px solid green;
-    top: 3rem;
-    right: -6rem;
+    top: -5rem;
+    right: -13rem;
+
+    #cloud-native & {
+      top: 7rem;
+      right: 0;
+    }
   }
 
-  .floater:nth-child(3) {
+  &:nth-child(3) {
     // border: 1px solid blue;
     top: 4rem;
     right: 4rem;

@@ -1,14 +1,14 @@
 .content {
-  [data-scroll] {
+  [data-scroll]:not(.floater) {
     transition: opacity 1s, transform 0.5s;
   }
 
-  [data-scroll="in"] {
+  [data-scroll="in"]:not(.floater) {
     opacity: 1;
     transform: translateY(0);
   }
 
-  [data-scroll="out"] {
+  [data-scroll="out"]:not(.floater) {
     opacity: 0;
     transform: translateY(2rem);
   }
