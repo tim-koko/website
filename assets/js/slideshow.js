@@ -78,7 +78,7 @@ flickity = new Flickity(slideshowEl, {
   draggable: true,
   wrapAround: true,
   selectedAttraction: 0.015,
-  friction: 0.25
+  friction: 0.25,
 });
 flickity.x = 0;
 
