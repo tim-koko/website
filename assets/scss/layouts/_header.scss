@@ -45,7 +45,6 @@
 }
 
 .banner {
-  background: $blue;
   padding: 3rem 2rem;
   transition: all 0.2s ease;
 
@@ -58,7 +57,7 @@
     z-index: 1030;
 
     &[data-scroll="out"] {
-      // padding: 1rem 60px;
+      background: $blue;
       box-shadow: 0 -10px 16px 10px rgba($green, 0.6);
       transform: translateY(-4rem);
     }

@@ -75,7 +75,7 @@ flickity = new Flickity(slideshowEl, {
   autoPlay: false,
   prevNextButtons: false,
   pageDots: false,
-  draggable: true,
+  draggable: false,
   //wrapAround: true,
   freeScroll: true,
   //selectedAttraction: 0.015,
@@ -121,7 +121,7 @@ const divAnimation = anime({
     //elasticity: 200,
     easing: 'easeInOutCubic',
     autoplay: false,
-    duration: 200,
+    duration: 2000,
   });
 
   /**

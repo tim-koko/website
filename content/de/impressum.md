@@ -1,5 +1,5 @@
 ---
-title : "Impressum"
+title: "Impressum"
 description: ""
 lead: ""
 date: 2022-05-28T00:00:00+00:00
@@ -10,7 +10,7 @@ Sitemap:
   Priority: 0.3
 ---
 
-## Kontakt und Inhalte
+### Kontakt und Inhalte
 
 ROKT GmbH, Gerechtigkeitsgasse 80, CH-3011 Bern
 
@@ -24,12 +24,12 @@ Mehrwertsteuer-Nummer: CHE-173.198.973 MWST
 
 [Datenschutzerklärung]({{< ref "datenschutzerklaerung.md" >}})
 
-## Branding Agentur (Konzept & Design)
+### Branding Agentur (Konzept & Design)
 
 Studio Wanner AG, Zurich, Switzerland
 [www.studiowanner.ch](https://www.studiowanner.ch)
 
-## Realisierung
+### Realisierung
 
 Fint Digital Design, Zurich, Switzerland
 [www.fint.ch](https://www.fint.ch)

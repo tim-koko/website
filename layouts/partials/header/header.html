@@ -11,7 +11,7 @@
     <nav id="main-menu" class="ms-auto d-none d-lg-flex align-items-center">
     {{ range .Site.Menus.main }}
       <span class="menu-item  ms-lg-5">
-        <a class="menu-link" href="{{ .URL }}">{{- .Name -}}</a>
+        <a class="menu-link" href="/{{ .URL }}">{{- .Name -}}</a>
       </span>
     {{ end }}
 

@@ -1,6 +1,8 @@
 #slideshow {
   overflow: hidden;
   outline: none;
+  position: sticky;
+  top: 4vh;
 
   &:hover {
     cursor: grab;
@@ -25,4 +27,10 @@
       width: 25%;
     }
   }
+}
+
+.slideshow-container {
+  --scroll-length: 5.5;
+
+  height: calc(var(--scroll-length) * 100vh);
 }

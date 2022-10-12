@@ -1,10 +1,12 @@
 {{ define "main" }}
-<div class="row justify-content-center">
-  <div class="col-lg-7">
-    <article>
-      <h1>{{ .Title }}</h1>
-      {{ .Content }}
-    </article>
+<div class="container-fluid  pt-25 pt-lg-30">
+  <div class="row">
+    <div class="col-lg-7">
+      <article>
+        <h1 class="h2">{{ .Title }}</h1>
+        {{ .Content }}
+      </article>
+    </div>
   </div>
 </div>
 {{ end }}

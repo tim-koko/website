@@ -95,10 +95,6 @@ a {
   }
 }
 
-.content {
-  overflow-x: hidden;
-}
-
 ::marker {
   color: $green;
 }
@@ -109,9 +105,8 @@ ul {
 }
 
 .container-fluid {
+  // overflow-x: hidden;
   max-width: 1600px;
-  // padding-left: 30px;
-  // padding-right: 30px;
 
   @include media-breakpoint-up(md) {
     padding-left: 50px;
