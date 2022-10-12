@@ -1,31 +1,40 @@
-//import  Flickity from 'flickity';
+import  Flickity from 'flickity';
 import anime from 'animejs';
   
-  //console.log('slideshow', slideshow)
-/*
-  const slideshow = document.getElementById('slideshow');
 
-    if(slideshow) {
-     
-       //const slider = 
-       new Flickity( slideshow, {
-            wrapAround: true,
-            freeScroll: true,
-            //adaptiveHeight: false,
-            autoPlay: 2500,
-            pauseAutoPlayOnHover: false,
-            prevNextButtons: false,
-            pageDots: false,
-            cellAlign: 'left',
-            on: {
-                ready: function() {
-                    console.log('Flickity ready');
-                    window.dispatchEvent(new Event('resize'));
-                },
-            }, 
-        });
-    }
-*/
+const slideshow = document.querySelector('.clients');
+
+if(slideshow) {
+  
+    //const slider = 
+  const flkty =  new Flickity( slideshow, {
+        wrapAround: true,
+        pageDots: false,
+        //adaptiveHeight: false,
+        draggable: true,
+        prevNextButtons: false,
+
+        cellAlign: 'left',
+        on: {
+            ready: function() {
+                console.log('Flickity ready');
+                window.dispatchEvent(new Event('resize'));
+            },
+        }, 
+    });
+
+  // previous
+  var previousButton = document.querySelector('.button-previous');
+  previousButton.addEventListener( 'click', function() {
+    flkty.previous();
+  });
+  // next
+  var nextButton = document.querySelector('.button-next');
+  nextButton.addEventListener( 'click', function() {
+    flkty.next();
+  });
+}
+/**/
 
 // Play with this value to change the speed
 //let tickerSpeed = 2;
@@ -117,7 +126,7 @@ function getScrollPercent() {
 }
 
 const divAnimation = anime({
-    targets: '.flickity-slider, .slider',
+    targets: '.slider',
     translateX: ['20%', '-60%'],
     //elasticity: 200,
     easing: 'easeInOutCubic',

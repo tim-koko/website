@@ -39,3 +39,13 @@
 
   height: calc(var(--scroll-length) * 100vh);
 }
+
+.navi {
+  position: absolute;
+  left: -0.75rem;
+  z-index: 2;
+
+  .button-previous svg {
+    transform: rotate(180deg);
+  }
+}

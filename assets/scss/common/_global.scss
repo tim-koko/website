@@ -99,6 +99,18 @@ a {
   }
 }
 
+.btn {
+  &:hover,
+  &.active {
+    color: $green;
+    text-decoration: none;
+
+    &.icon-draw svg path {
+      stroke: $green;
+    }
+  }
+}
+
 ::marker {
   color: $green;
 }
