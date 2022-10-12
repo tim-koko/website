@@ -70,7 +70,8 @@
     &[data-scroll="out"] {
       background: $blue;
       box-shadow: 0 -10px 16px 10px rgba($green, 0.6);
-      transform: translateY(-4rem);
+      padding-top: 1rem;
+      // transform: translateY(-4rem);
     }
   }
 }

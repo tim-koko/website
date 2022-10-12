@@ -11,7 +11,7 @@ anime({
 /* eslint-disable */
 ScrollOut({
   targets: '.icon-draw',
-  threshold: 0.9,
+  //threshold: 0.9,
   once: true,
   onShown: function(el) {
     anime({

@@ -2,7 +2,7 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
 {{ with $data.homepage.hero }}
-<div class="hero container-fluid pt-20 pt-lg-30 mb-10 mb-lg-0" data-scroll>
+<div class="hero container-fluid pt-20 pt-lg-22 mb-10 mb-lg-0" data-scroll>
   <div class="row">
     <div class="col-lg-8 order-lg-1  px-10 px-lg-5  position-relative" data-scroll>
       {{ partial "img-srcset.html" (dict "img" .img "size" 800 "alt" "ROKT") }}
