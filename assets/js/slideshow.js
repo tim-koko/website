@@ -1,4 +1,4 @@
-import  Flickity from 'flickity';
+//import  Flickity from 'flickity';
 import anime from 'animejs';
   
   //console.log('slideshow', slideshow)
@@ -29,11 +29,11 @@ import anime from 'animejs';
 
 // Play with this value to change the speed
 //let tickerSpeed = 2;
-
+/*
 let flickity = null;
 //let isPaused = false;
 const slideshowEl = document.getElementById('slideshow');
-
+*/
 
 //
 //   Functions
@@ -70,19 +70,20 @@ const play = () => {
 //   Create Flickity
 //
 //////////////////////////////////////////////////////////////////////
-
+/*
 flickity = new Flickity(slideshowEl, {
   autoPlay: false,
   prevNextButtons: false,
   pageDots: false,
   draggable: false,
+  cellAlign: 'right',
   //wrapAround: true,
   freeScroll: true,
   //selectedAttraction: 0.015,
   //friction: 0.25,
 });
 flickity.x = 0;
-
+*/
 
 //
 //   Add Event Listeners
@@ -116,12 +117,12 @@ function getScrollPercent() {
 }
 
 const divAnimation = anime({
-    targets: '.flickity-slider',
-    translateX: [100, 0],
+    targets: '.flickity-slider, .slider',
+    translateX: ['20%', '-60%'],
     //elasticity: 200,
     easing: 'easeInOutCubic',
     autoplay: false,
-    duration: 2000,
+    //duration: 200,
   });
 
   /**
@@ -129,6 +130,20 @@ const divAnimation = anime({
  * control animations based on scroll percentage.
  */
 window.onscroll = () => {
-    divAnimation.seek(( (getScrollPercent()) / 70) * divAnimation.duration);
+    divAnimation.seek(( (getScrollPercent()) / 100) * divAnimation.duration );
+    
+    var body = document.body,
+    html = document.documentElement;
+
+    var height = Math.max( body.scrollHeight, body.offsetHeight, 
+                       html.clientHeight, html.scrollHeight, html.offsetHeight );
+
+
+    const element = document.querySelector('.slideshow-container');
+    console.log(element.offsetTop)
+    console.log(height)
+    console.log((100/height) * element.offsetTop)
+
+  
   };
   

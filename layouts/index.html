@@ -86,17 +86,22 @@
 {{ end }}
 
 {{ with $data.homepage.slideshow }}
-<div class="slideshow-container">
-  <div id="slideshow" class="carousel pt-25 pt-lg-30 mb-14" data-scroll> 
-    {{ range .images }}
-    {{ if .img }} 
-    <div class="carousel-cell me-3 me-lg-5">
-      {{ partial "img-srcset.html" (dict "img" .img "size" 800 "alt" "") }}
+
+<div class="slideshow-container"  data-scroll>
+  <div id="slideshow2" class="carousel pt-25 pt-lg-30 mb-14"> 
+    <div class="slider">
+      {{ range .images }}
+      {{ if .img }} 
+      <div class="carousel-cell me-3 me-lg-8">
+        {{ partial "img-srcset.html" (dict "img" .img "size" 800 "alt" "") }}
+      </div>
+      {{ end }}
+      {{ end }}
     </div>
-    {{ end }}
-    {{ end }}
   </div>
 </div>
+
+ 
 {{ end }}
 
 {{ with $data.homepage.about }}

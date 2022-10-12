@@ -1,4 +1,5 @@
-#slideshow {
+#slideshow,
+#slideshow2 {
   overflow: hidden;
   outline: none;
   position: sticky;
@@ -12,25 +13,29 @@
     cursor: grabbing;
   }
 
-  .flickity-slider {
+  .flickity-slider,
+  .slider {
     display: flex;
     height: 100%;
     align-items: center;
+    width: 240vmin;
+    transition: transform 0.2s ease-out;
   }
 
   .carousel-cell {
-    width: 55%;
+    width: 44vmax;
     display: flex;
     align-items: center;
+    flex-shrink: 0;
 
     @include media-breakpoint-up(lg) {
-      width: 25%;
+      width: 44vmin;
     }
   }
 }
 
 .slideshow-container {
-  --scroll-length: 5.5;
+  --scroll-length: 5;
 
   height: calc(var(--scroll-length) * 100vh);
 }
