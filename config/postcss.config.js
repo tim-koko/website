@@ -22,6 +22,9 @@ module.exports = {
         'alert-link',
         'flickity-slider',
         'active',
+        'flickity-enabled',
+        'is-draggable',
+        'flickity-viewport',
         ...whitelister([
           './assets/scss/components/_alerts.scss',
           // './assets/scss/components/_buttons.scss',
