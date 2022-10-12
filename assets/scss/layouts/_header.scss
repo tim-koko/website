@@ -17,6 +17,17 @@
   }
 }
 
+@include media-breakpoint-down(lg) {
+  .menu-link {
+    color: $blue;
+    font-size: 3.6rem;
+
+    &.active {
+      color: #fff;
+    }
+  }
+}
+
 @include media-breakpoint-up(md) {
   .navbar-brand {
     font-size: $font-size-xl;
@@ -60,6 +71,19 @@
       background: $blue;
       box-shadow: 0 -10px 16px 10px rgba($green, 0.6);
       transform: translateY(-4rem);
+    }
+  }
+}
+
+.menu-btn {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  z-index: 9999;
+
+  .menu-open & {
+    path {
+      fill: #fff;
     }
   }
 }

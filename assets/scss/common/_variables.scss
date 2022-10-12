@@ -218,3 +218,8 @@ $link-hover-color: shift-color($link-color, $link-shade-percentage);
 $link-hover-decoration: underline;
 $stretched-link-pseudo-element: after;
 $stretched-link-z-index: 1;
+
+//
+
+$offcanvas-bg-color: $green;
+$offcanvas-horizontal-width: 100%;
