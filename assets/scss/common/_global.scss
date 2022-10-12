@@ -92,6 +92,10 @@ a {
   &.active {
     color: $green;
     text-decoration: none;
+
+    .icon-draw svg path {
+      stroke: $green;
+    }
   }
 }
 
@@ -102,6 +106,16 @@ a {
 ol,
 ul {
   padding-left: 1.3rem;
+
+  #services & {
+    padding-top: 3rem;
+    font-size: 1.6rem;
+    line-height: 1.5;
+
+    li {
+      margin-bottom: 0.75rem;
+    }
+  }
 }
 
 .container-fluid {
