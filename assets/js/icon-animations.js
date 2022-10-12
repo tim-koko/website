@@ -12,6 +12,7 @@ anime({
 ScrollOut({
   targets: '.icon-draw',
   threshold: 0.9,
+  once: true,
   onShown: function(el) {
     anime({
       targets: el.querySelectorAll(`:scope ${'svg path'}`),
