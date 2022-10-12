@@ -9,7 +9,7 @@ hero:
 cloud_native:
   title: "Cloud Native: Das Potenzial zukunftsweisender Technologien erlebbar machen"
   text:
-    "<p>Wir glauben, dass eine lebenswerte Zukunft nur von Menschen gestaltet werden kann. Und dass uns neue Technologien und Prinzipien dabei gewinnbringend unterstützen können. Allen voran: Cloud Native Technologien und Open Source Software. In der Kombination bieten sie ideale Voraussetzungen für agile Software-Lösungen, die effizient entwickelt, betrieben und kontinuierlich weiterentwickelt werden können.</p>
+    "<p>Wir glauben, dass eine lebenswerte Zukunft nur von Menschen gestaltet werden kann. Und dass uns neue Technologien und Prinzipien dabei gewinnbringend unterstützen können. Allen voran: <b>Cloud Native Technologien</b> und Open Source Software. In der Kombination bieten sie ideale Voraussetzungen für agile Software-Lösungen, die effizient entwickelt, betrieben und kontinuierlich weiterentwickelt werden können.</p>
     <p>Gemeinsam mit unseren Kund:innen finden wir heraus, was das konkret für ihr Unternehmen und die Menschen, die darin arbeiten, bedeutet und befähigen sie, die unendlichen Möglichkeiten von Cloud Native Computing voll auszuschöpfen. Das schafft nicht nur Raum für kreative Lösungen, sondern auch einen entscheidenden Wettbewerbsvorteil.</p>"
   img: "images/cloud-native.jpg"
 

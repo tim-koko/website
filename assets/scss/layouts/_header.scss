@@ -70,8 +70,8 @@
     &[data-scroll="out"] {
       background: $blue;
       box-shadow: 0 -10px 16px 10px rgba($green, 0.6);
-      padding-top: 1rem;
-      // transform: translateY(-4rem);
+      //padding-top: 1rem;
+      transform: translateY(-4rem);
     }
   }
 }
@@ -88,5 +88,16 @@
     path {
       stroke: #fff;
     }
+  }
+}
+
+.language-menu {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  text-transform: uppercase;
+
+  .banner[data-scroll="out"] & {
+    display: none;
   }
 }

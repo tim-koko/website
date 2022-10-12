@@ -130,6 +130,15 @@ ul {
   }
 }
 
+p {
+  margin-bottom: 1.5rem;
+
+  b {
+    font-weight: normal;
+    color: $green;
+  }
+}
+
 .container-fluid {
   // overflow-x: hidden;
   max-width: 1600px;

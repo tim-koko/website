@@ -3,7 +3,7 @@
 {{ end -}}
 
 <header class="banner navbar navbar-expand-lg">
-  <div class="container-fluid p-0">
+  <div class="container-fluid p-0 position-relative">
     <a class="navbar-brand" href="{{ "/" | absURL }}">
       <img src='{{ (resources.Get "images/ROKT.svg").Permalink }}' alt="{{ .Site.Params.Title }}" class="logo img-fluid" width="220" height="146">
     </a>
@@ -16,7 +16,16 @@
 
     <div class="offcanvas offcanvas-end border-0" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
       <div class="offcanvas-body d-flex justify-content-center">
- 
+
+        {{ if .IsTranslated }}
+            {{ range .Translations }}
+            <div class="language-menu ms-lg-auto">
+              <a  class="nav-link" href="{{ .Permalink }}">{{ .Lang | humanize }}</a>
+            </div>
+            {{ end}}
+        {{ end }}
+
+
             <nav id="main-menu" class="my-auto ms-lg-auto d-flex flex-column flex-lg-row align-items-center">
             {{ range .Site.Menus.main }}
               <span class="menu-item  ms-lg-5">
