@@ -95,18 +95,8 @@ a {
   }
 }
 
-@include media-breakpoint-up(md) {
-  .content {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  .content {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
+.content {
+  overflow-x: hidden;
 }
 
 ::marker {
@@ -120,8 +110,8 @@ ul {
 
 .container-fluid {
   max-width: 1600px;
-  padding-left: 30px;
-  padding-right: 30px;
+  // padding-left: 30px;
+  // padding-right: 30px;
 
   @include media-breakpoint-up(md) {
     padding-left: 50px;

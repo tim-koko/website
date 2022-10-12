@@ -23,7 +23,7 @@
   </div>
 </div>
 
-<div class="container-fluid  pt-25 pt-lg-30  mb-16" data-scroll>
+<div class="container-fluid  pt-25 pt-lg-30  mb-lg-16" data-scroll>
   <div class="col-md-10 mx-auto">
     <div class="lead"><span>{{ .lead }}</span></div>
   </div>
@@ -52,9 +52,9 @@
 {{ end }}
 
 {{ with $data.homepage.technologies }}
-<section class="section container-fluid  pt-25 pt-lg-30 mb-14" data-scroll>
+<section class="section container-fluid  pt-25 pt-lg-30 mb-lg-14" data-scroll>
   <h2 class="mb-8  mb-lg-13 text-center">{{ .title }}</h2>
-  <div class="row row-cols-3 row-cols-lg-auto gy-6 justify-content-between">
+  <div class="row row-cols-3 row-cols-sm-auto gy-8 justify-content-center justify-content-lg-between">
     {{ range .item }}
     <div class="col d-flex flex-column text-center">
       <img class="mb-3" src="{{ (resources.Get .img).Permalink }}" alt="{{ .title }}" loading="lazy">
@@ -67,7 +67,7 @@
 
 {{ with $data.homepage.services }}
 <section id="services" class="section container-fluid   pt-25 pt-lg-30" data-scroll>
-  <div class="col-lg-6 mb-8">
+  <div class="col-lg-6 mb-12">
     <h2 class="mb-4 mb-lg-8">{{ .title }}</h2> 
     {{ .text | safeHTML }}
   </div>
@@ -99,17 +99,17 @@
 
 {{ with $data.homepage.about }}
 <section id="about" class="section container-fluid  pt-25 pt-lg-30" data-scroll>
-  <div class="row row-cols-1 row-cols-lg-2">
+  <div class="row row-cols-1 row-cols-lg-2 gy-10">
     <div class="col order-lg-1">
       <h2 class="mb-4 mb-lg-8">{{ .title | safeHTML }}</h2> 
       {{ .text | safeHTML }}
     </div>
     <div class="col ">
-      <div class="row row-cols-1 row-cols-lg-2 gy-6">
+      <div class="row row-cols-1 row-cols-lg-2 gy-10">
         {{ range .persons }}
         <div class="col">
           {{ partial "img-srcset.html" (dict "img" .img "size" 300 "alt" .name) }}
-          <div class="lead mb-5"><span>
+          <div class="lead cloud-text mb-5"><span>
             {{ .name }}<br>
             {{ .title }}
           </span></div>
@@ -185,14 +185,14 @@
       {{ .text | safeHTML }} 
     </div>
   </div>
- <div class="row gy-10">
+ <div class="row row-cols-2 row-cols-lg-4 gy-14">
    {{ range .item }}
    {{ $title := .title }}
     <div class="col">
         <div class="badge rounded-pill border border-2 border-light mb-2">{{ .label }}</div>
         <div class="d-flex h-100  align-items-center">
           <a class="d-block" href="{{ .link }}">
-            {{ with .img }} <img class="mb-3" src="{{ (resources.Get .).Permalink }}" alt="{{ $title }}"> {{ end}}
+            {{ with .img }} <img class="mb-3_ img-fluid" src="{{ (resources.Get .).Permalink }}" alt="{{ $title }}" loading="lazy"> {{ end}}
           </a>
         </div>
     </div>

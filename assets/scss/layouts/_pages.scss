@@ -1,32 +1,14 @@
 // stylelint-disable property-no-vendor-prefix
-p.meta {
-  margin-top: 1rem;
-  font-size: $font-size-base;
-  font-family: $font-family-monospace;
-  color: $gray-dark;
-}
-
-@include media-breakpoint-down(sm) {
-  p.meta {
-    font-size: $font-size-base * 0.9375;
-  }
-}
-
-p.meta a {
-  color: $gray-dark;
-}
-
-p.meta a:hover,
-p.meta a:focus {
-  color: $primary;
-}
-
 .lead {
   color: $blue;
   font-size: 2.4rem; // 3.3rem;
   font-weight: normal;
   line-height: 1.455;
   margin-right: 1rem;
+
+  .footer & {
+    font-size: 2rem;
+  }
 
   @include media-breakpoint-up(lg) {
     font-size: 3.6rem; // 5.6rem;
@@ -36,6 +18,10 @@ p.meta a:focus {
     .footer & {
       font-size: 2.4rem;
       line-height: 1.455;
+
+      span {
+        padding: 1rem 1.5rem;
+      }
     }
   }
 
@@ -46,7 +32,7 @@ p.meta a:focus {
 
   span {
     background-color: #fff;
-    padding: 0.75rem 2rem;
+    padding: 0.75rem 1.6rem;
     border-radius: 50rem;
     -webkit-box-decoration-break: clone;
     -ms-box-decoration-break: clone;
@@ -54,7 +40,7 @@ p.meta a:focus {
     -o-box-decoration-break: clone;
     box-decoration-break: clone;
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       padding: 1rem 3rem;
     }
   }
