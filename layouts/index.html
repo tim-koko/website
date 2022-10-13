@@ -2,7 +2,7 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
 {{ with $data.homepage.hero }}
-<div class="hero container-fluid pt-20 pt-lg-22 mb-10 mb-lg-0" data-scroll>
+<div class="hero container-fluid pt-20 pt-lg-22 mb-10 mb-lg-0">
   <div class="row">
     <div class="col-lg-8 order-lg-1  px-10 px-lg-5  position-relative" data-scroll>
       {{ partial "img-srcset.html" (dict "img" .img "size" 800 "alt" "ROKT") }}
@@ -14,7 +14,7 @@
       </div>
   
     </div>
-    <div class="col-lg-4 position-relative">
+    <div class="col-lg-4 position-relative"  data-scroll>
       <div class="position-absolute h-100 d-flex flex-column justify-content-center">
         <div class="text-secondary lead">{{ .small_title }}</div>
         <h1>{{ .title | safeHTML }}</h1> 
@@ -23,17 +23,17 @@
   </div>
 </div>
 
-<div class="container-fluid  pt-25 pt-lg-30  mb-lg-16" data-scroll>
-  <div class="col-md-10 mx-auto">
+<div class="container-fluid  pt-25 pt-lg-30  mb-lg-16">
+  <div class="col-md-10 mx-auto" data-scroll>
     <div class="lead"><span>{{ .lead }}</span></div>
   </div>
 </div>
 {{ end }}
 
 {{ with $data.homepage.cloud_native }}
-<section id="cloud-native" class="section container-fluid  pt-25 pt-lg-30" data-scroll>
+<section id="cloud-native" class="section container-fluid  pt-25 pt-lg-30">
   <div class="row row-cols-1 row-cols-lg-2">
-    <div class="col pe-20 pe-lg-5 mb-20 mb-lg-0 ps-0 ps-lg-4 position-relative">
+    <div class="col pe-20 pe-lg-5 mb-20 mb-lg-0 ps-0 ps-lg-4 position-relative" data-scroll>
       {{ partial "img-srcset.html" (dict "img" .img "size" 800 "alt" "Cloud Native") }}
       
       <div class="floaters">
@@ -43,7 +43,7 @@
 
 
     </div>
-    <div class="col  d-flex flex-column ps-lg-20">
+    <div class="col  d-flex flex-column ps-lg-20" data-scroll>
       <h2 class="mb-4 mt-auto mb-lg-8">{{ .title }}</h2> 
       {{ .text | safeHTML }}
     </div>
@@ -52,11 +52,11 @@
 {{ end }}
 
 {{ with $data.homepage.technologies }}
-<section class="section container-fluid  pt-25 pt-lg-30 mb-lg-14" data-scroll>
+<section class="section container-fluid  pt-25 pt-lg-30 mb-lg-14">
   <h3 class="mb-8  mb-lg-13 text-center">{{ .title }}</h3>
   <div class="row row-cols-3 row-cols-sm-auto gy-8 justify-content-center justify-content-lg-between">
     {{ range .item }}
-    <div class="col d-flex flex-column text-center">
+    <div class="col d-flex flex-column text-center" data-scroll>
       <img class="mb-3" src="{{ (resources.Get .img).Permalink }}" alt="{{ .title }}" loading="lazy">
       <div class="mt-auto small">{{ .title }}</div> 
     </div>
@@ -66,15 +66,15 @@
 {{ end }}
 
 {{ with $data.homepage.services }}
-<section id="services" class="section container-fluid   pt-25 pt-lg-30" data-scroll>
-  <div class="col-lg-6 mb-12">
+<section id="services" class="section container-fluid   pt-25 pt-lg-30">
+  <div class="col-lg-6 mb-12" data-scroll>
     <h2 class="mb-4 mb-lg-8">{{ .title }}</h2> 
     {{ .text | safeHTML }}
   </div>
   
   <div class="row row-cols-1 row-cols-lg-2  gy-10">
     {{ range .item }}
-    <div class="col">
+    <div class="col" data-scroll>
 
        <div class="icon-draw mb-3">{{ .img | safeHTML }}</div>
       <h3 class="mb-2 mb-lg-4">{{ .title }}</h3> 
@@ -87,8 +87,8 @@
 
 {{ with $data.homepage.slideshow }}
 
-<div class="slideshow-container"  data-scroll>
-  <div id="slideshow2" class="carousel pt-25 pt-lg-30 mb-14"> 
+<div class="slideshow-container">
+  <div id="slideshow2" class="carousel pt-25 pt-lg-30 mb-14"  data-scroll> 
     <div class="slider">
       {{ range .images }}
       {{ if .img }} 
@@ -105,18 +105,18 @@
 {{ end }}
 
 {{ with $data.homepage.about }}
-<section id="about" class="section container-fluid  pt-25 pt-lg-30" data-scroll>
+<section id="about" class="section container-fluid  pt-25 pt-lg-30">
   <div class="row row-cols-1 row-cols-lg-2 gy-10">
-    <div class="col order-lg-1">
+    <div class="col order-lg-1" data-scroll>
       <h2 class="mb-4 mb-lg-8">{{ .title | safeHTML }}</h2> 
       {{ .text | safeHTML }}
     </div>
     <div class="col ">
       <div class="row row-cols-1 row-cols-lg-2 gy-10">
         {{ range .persons }}
-        <div class="col">
+        <div class="col" data-scroll>
           {{ partial "img-srcset.html" (dict "img" .img "size" 300 "alt" .name) }}
-          <div class="lead cloud-text mb-5"><span>
+          <div class="lead cloud-text mb-5" data-scroll><span>
             {{ .name }}<br>
             {{ .title }}
           </span></div>
@@ -142,8 +142,8 @@
 {{ end }}
 
 {{ with $data.homepage.references }}
-<section id="references" class="section container-fluid  pt-25 pt-lg-30" data-scroll>
-  <div class="col-lg-6 mb-8 mb-lg-12 pe-lg-14">
+<section id="references" class="section container-fluid  pt-25 pt-lg-30">
+  <div class="col-lg-6 mb-8 mb-lg-12 pe-lg-14" data-scroll>
     <h2 >{{ .title }}</h2> 
   </div>
   <div class="position-relative">
@@ -152,7 +152,7 @@
       <button class="btn button-next  icon-draw p-0 border-0"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 128 128"><path d="M66.5669,20.94257c3.63497-.22121,7.33108,.0536,10.91144,.63881,5.83694,.95406,10.57901,4.0614,15.1631,7.58834,3.01439,2.31924,5.53987,4.98409,7.60854,8.209,1.53615,2.39475,2.91929,4.90792,3.80761,7.61256,1.1012,3.3528,1.91884,6.55061,2.20451,10.07578,.30156,3.72137,.31586,7.35972,.07135,11.08956-.33212,5.06627-.77233,10.14463-2.11203,15.05651-.62027,2.27414-1.38617,4.37562-2.41444,6.49412-.8805,1.81406-1.72353,3.71899-3.00758,5.29405-1.34095,1.64485-2.77036,3.22096-4.16644,4.81827-1.43979,1.64732-4.34023,3.466-6.24364,4.53504-15.82134,8.88607-43.40451,4.53636-52.24898-6.11425-1.80133-2.16919-4.59665-5.33977-6.51881-7.42419-1.47869-1.60352-2.75866-3.2974-3.98268-5.09843-2.18923-3.22124-3.97552-6.53959-4.12222-10.53425-.15256-4.15414,.57978-8.47565,1.21717-12.57181,.33442-2.14912,.74082-4.28542,1.33098-6.3823,.28213-1.00243,.80195-1.85322,1.15612-2.82302,.2046-.56024,.3354-1.10696,.62066-1.63248,.41096-.75711,5.5807-11.67133,7.68604-15.02411,2.48224-3.953,10.68068-13.136,33.03933-13.80721Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M60.43827,44.74151c5.0299,4.51491,10.26756,10.48109,16.77867,17.82182-5.4589,6.49798-11.53252,11.21407-17.4339,17.69516" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/></svg></button>
     </div>
    
-    <div class="carousel clients">
+    <div class="carousel clients" data-scroll>
 
       {{ range .projects }}
       <div class="carousel-cell">
@@ -172,7 +172,10 @@
               {{ partial "img-srcset.html" (dict "img" .img "size" 616 "alt" .title) }}
             </div>
             {{ with .link }}
-            <a class="mt-4 mt-3 float-end" href="{{ . }}">zur Website</a>
+            <a class="mt-4 mt-3 float-end small" href="{{ . }}">zur Website
+              <div class="icon-draw line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.45565 10.81185"><path vector-effect="non-scaling-stroke" d="M1.41188,3.81092c30.82411-1.61772,52.39289,5.57187,86.64564,1.56359" fill="none" fill-rule="evenodd" stroke="#99e0bb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg></div>
+
+            </a>
             {{ end }}
           </div>
         </div>
@@ -185,7 +188,7 @@
 
 
 {{ with $data.homepage.partner }}
-<section id="partner" class="section container-fluid  mb-40 pt-40" data-scroll>
+<section id="partner" class="section container-fluid  mb-40 pt-40">
   <div class="row">
 
     <div class="col position-relative order-lg-1">
@@ -197,7 +200,7 @@
       </div>
     </div>
 
-    <div class="col-lg-6 mb-12 mt-30">
+    <div class="col-lg-6 mb-12 mt-30" data-scroll>
       <h2 class="mb-4 mb-lg-8">{{ .title }}</h2> 
       {{ .text | safeHTML }} 
     </div>
@@ -205,7 +208,7 @@
  <div class="row row-cols-2 row-cols-lg-4 gy-14">
    {{ range .item }}
    {{ $title := .title }}
-    <div class="col">
+    <div class="col" data-scroll>
         <div class="badge rounded-pill border border-2 border-light mb-2">{{ .label }}</div>
         <div class="d-flex h-100  align-items-center">
           <a class="d-block" href="{{ .link }}">
@@ -219,7 +222,7 @@
 {{ end }}
 
 {{ with $data.homepage.prefooter }}
-<div id="prefooter" class="container-fluid  pt-25 pt-lg-30 mb-14" data-scroll>
+<div id="prefooter" class="container-fluid  pt-25 pt-lg-30 mb-14">
   <div class="position-relative">
     <div class="floaters">
       <div class="floater icon-draw"><svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 128 128"><path d="M14.25685,25.91133c32.98815-.40101,65.29872-.80201,98.28688-1.20302-2.48162,20.93525,2.32833,38.15432,.94392,59.19063-.03652,.55489-.12689,1.19499-.60225,1.48356-.25909,.15728-.57766,.16981-.88063,.17796-31.93724,.85878-61.32331,1.71757-93.26055,2.57635-.29252-22.72034-1.04733-41.46623-2.26379-64.15586" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M66.54287,88.73401c-.13158,4.85097-.26315,9.70193-.39473,14.5529" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M41.04223,103.25201c16.98982,.69627,33.99906,.91859,51.00128,.66663" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/></svg></div>
@@ -232,11 +235,11 @@
     </div>
   </div>
 
-    <div class="col-lg-8 ps-10 ps-lg-5 mx-lg-auto">
+    <div class="col-lg-8 ps-10 ps-lg-5 mx-lg-auto" data-scroll>
       {{ partial "img-srcset.html" (dict "img" .img "size" 900 "alt" "ROKT") }}
     </div>
 
-    <div class="col-md-7 ms-lg-auto cloud-text">
+    <div class="col-md-7 ms-lg-auto cloud-text" data-scroll>
       <div class="lead"><span>{{ .text }}</span></div>
     </div>
  

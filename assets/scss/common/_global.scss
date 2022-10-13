@@ -99,7 +99,7 @@ a {
     color: $green;
     text-decoration: none;
 
-    .icon-draw svg {
+    .icon-draw:not(.line) svg {
       transform: rotate(-10deg) !important;
 
       path {
@@ -119,6 +119,10 @@ a {
       stroke: $green;
     }
   }
+}
+
+.icon-draw.line {
+  margin-top: -1rem;
 }
 
 ::marker {
