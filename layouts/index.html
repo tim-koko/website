@@ -54,10 +54,10 @@
 {{ with $data.homepage.technologies }}
 <section class="section container-fluid  pt-25 pt-lg-30 mb-lg-14">
   <h3 class="mb-8  mb-lg-13 text-center" data-scroll>{{ .title }}</h3>
-  <div class="row row-cols-3 row-cols-sm-auto gy-8 justify-content-center justify-content-lg-between">
+  <div class="row row-cols-3 row-cols-sm-auto gy-8 justify-content-center justify-content-lg-between_">
     {{ range .item }}
     <div class="col d-flex flex-column text-center" data-scroll>
-      <img class="mb-3" src="{{ (resources.Get .img).Permalink }}" width="" height="" alt="{{ .title }}" loading="lazy">
+      <img class="mb-3 img-fluid" src="{{ (resources.Get .img).Permalink }}" width="100" height="100" alt="{{ .title }}" loading="lazy">
       <div class="mt-auto small">{{ .title }}</div> 
     </div>
     {{ end }}
