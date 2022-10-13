@@ -29,12 +29,12 @@
 
     .line {
       margin-top: -2.5rem;
-      height: 4.2rem;
+      height: 3rem;
     }
   }
 }
 
-@include media-breakpoint-up(md) {
+@include media-breakpoint-up(xl) {
   .navbar-brand {
     font-size: $font-size-xl;
   }
@@ -80,7 +80,7 @@
     }
   }
 
-  @include media-breakpoint-down(md) {
+  @include media-breakpoint-down(lg) {
     .email {
       path {
         stroke: #fff !important;
@@ -102,13 +102,16 @@
   right: 2rem;
   z-index: 9999;
 
+  path {
+    transform-origin: center;
+    transition: all 0.3s ease-in-out;
+  }
+
   .menu-open & {
     background-color: transparent !important;
 
     path {
       stroke: #fff;
-      transform-origin: center;
-      transition: all 0.3s ease-in-out;
     }
 
     svg {
@@ -122,6 +125,7 @@
 
       path:nth-child(3) {
         opacity: 0;
+        transform: translate3d(1rem, -1.5rem, 0);
       }
     }
   }
@@ -165,6 +169,7 @@
 
     @include media-breakpoint-up(lg) {
       opacity: 0;
+      visibility: hidden;
       top: 3rem;
       left: 2rem;
     }
@@ -196,6 +201,7 @@
 
     @include media-breakpoint-up(lg) {
       opacity: 0;
+      visibility: hidden;
       color: #fff;
       font-size: 1.4rem;
       top: 6.5rem;
@@ -209,6 +215,7 @@
         .hello,
         .arrow {
           opacity: 1;
+          visibility: visible;
         }
       }
     }

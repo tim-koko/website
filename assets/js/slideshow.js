@@ -1,4 +1,4 @@
-import { isTouch } from './utils';
+import { isTouch, getScrollPercent } from './utils';
 import  Flickity from 'flickity';
 import anime from 'animejs';
   
@@ -118,13 +118,7 @@ flickity.on('dragStart', () => {
 update();
 */
 
-function getScrollPercent() {
-    var h = document.documentElement, 
-        b = document.body,
-        st = 'scrollTop',
-        sh = 'scrollHeight';
-    return (h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight) * 100;
-}
+
 
 const divAnimation = anime({
     targets: '.slider',
@@ -142,17 +136,16 @@ const divAnimation = anime({
 window.onscroll = () => {
     divAnimation.seek(( (getScrollPercent()) / 100) * divAnimation.duration );
     
-    var body = document.body,
-    html = document.documentElement;
+    //var body = document.body,
+    //html = document.documentElement;
 
-    var height = Math.max( body.scrollHeight, body.offsetHeight, 
-                       html.clientHeight, html.scrollHeight, html.offsetHeight );
+    //var height = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight );
 
 
-    const element = document.querySelector('.slideshow-container');
-    console.log(element.offsetTop)
-    console.log(height)
-    console.log((100/height) * element.offsetTop)
+    //const element = document.querySelector('.slideshow-container');
+    // console.log(element.offsetTop)
+    // console.log(height)
+    // console.log((100/height) * element.offsetTop)
 
   
   };

@@ -26,4 +26,6 @@ import './assets/js/slideshow';
 
 // mobile-menu
 import './assets/js/mobile-menu';
+
+import './assets/js/scroll-top';
  

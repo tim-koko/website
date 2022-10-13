@@ -11,7 +11,6 @@ function offCanvasListener() {
     let openedCanvas = Offcanvas.getInstance(myOffCanvas);
     openedCanvas.hide();
     menulinks.removeEventListener('click', hideCanvas);
-    body.classList.remove('menu-open');
   }
   const listenToClick = () => {
     body.classList.add('menu-open');
@@ -19,6 +18,7 @@ function offCanvasListener() {
   }
   
   myOffCanvas.addEventListener('show.bs.offcanvas', listenToClick);
+  myOffCanvas.addEventListener('hidden.bs.offcanvas', () => body.classList.remove('menu-open') );
 }
 
 //function call
