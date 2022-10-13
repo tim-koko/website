@@ -4,7 +4,7 @@
 {{ $lazy := .lazy   }}
 
 <picture>
-  <source srcset="{{  ($image.Resize (printf "%sx webp" (string  $size))).RelPermalink }} {{$size}}w,{{  ($image.Resize (printf "%sx webp" (string (mul $size 2)))).RelPermalink }}  {{mul $size 2}}w" type="image/webp">
-  <source srcset="{{  ($image.Resize (printf "%sx" (string  $size))).RelPermalink }} {{$size}}w,{{  ($image.Resize (printf "%sx" (string (mul $size 2)))).RelPermalink }}  {{mul $size 2}}w" sizes="(max-width:768px) 100px, 100vw" type="image/jpeg">
+  <source srcset="{{  ($image.Resize (printf "%sx webp" (string  $size))).RelPermalink }} {{$size}}w,{{  ($image.Resize (printf "%sx webp" (string (mul $size 2)))).RelPermalink }}  {{mul $size 2}}w" sizes="(max-width:{{$size}}) 768px, 80vw" type="image/webp">
+  <source srcset="{{  ($image.Resize (printf "%sx" (string  $size))).RelPermalink }} {{$size}}w,{{  ($image.Resize (printf "%sx" (string (mul $size 2)))).RelPermalink }}  {{mul $size 2}}w" sizes="(max-width:{{$size}}) 768px, 80vw" type="image/jpeg">
   <img class="img-fluid optimized"  width="{{$size}}" height="{{ ($image.Resize (printf "%sx" (string  $size))).Height }}" src="{{  ($image.Resize (printf "%sx" (string  $size )   )  ).RelPermalink }}" alt="{{$alt}}" {{if ne $lazy false }} loading="lazy" {{end}}/>
 </picture>
