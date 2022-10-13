@@ -3,6 +3,7 @@ import anime from 'animejs';
 import {  getScrollPercent } from './utils';
 
 const btnTop = document.querySelector('.btn-up');
+const menuBtn = document.querySelector('.menu-btn');
 
 btnTop.addEventListener('click', () => {
   
@@ -18,6 +19,7 @@ btnTop.addEventListener('click', () => {
 });
 
 window.addEventListener('scroll', () => {
-  getScrollPercent() >= 70 ? btnTop.classList.add('show') : btnTop.classList.remove('show');
-  getScrollPercent() >= 98 ? btnTop.classList.add('bottom') : btnTop.classList.remove('bottom');
+  getScrollPercent() > 2 ? menuBtn.classList.add('shadow') : menuBtn.classList.remove('shadow');
+  getScrollPercent() > 70 ? btnTop.classList.add('show') : btnTop.classList.remove('show');
+  getScrollPercent() > 98 ? btnTop.classList.add('bottom') : btnTop.classList.remove('bottom');
 });

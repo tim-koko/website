@@ -26,6 +26,7 @@ module.exports = {
         'is-draggable',
         'flickity-viewport',
         'menu-open',
+        'top',
         ...whitelister([
           './assets/scss/components/_alerts.scss',
           // './assets/scss/components/_buttons.scss',

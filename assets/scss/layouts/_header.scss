@@ -102,6 +102,10 @@
   right: 2rem;
   z-index: 9999;
 
+  .top & {
+    box-shadow: none !important;
+  }
+
   path {
     transform-origin: center;
     transition: all 0.3s ease-in-out;
