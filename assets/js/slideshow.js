@@ -122,9 +122,10 @@ update();
 
 const divAnimation = anime({
     targets: '.slider',
-    translateX: ['20%', '-60%'],
+    translateX: ['130%', '-50%'],
+    //translateX: ['800vw', '-405vw'],
     //elasticity: 200,
-    easing: 'easeInOutCubic',
+    easing: 'linear',
     autoplay: false,
     //duration: 200,
   });
@@ -133,8 +134,8 @@ const divAnimation = anime({
  * Add a scroll listener on the window object to
  * control animations based on scroll percentage.
  */
-window.onscroll = () => {
-    divAnimation.seek(( (getScrollPercent()) / 100) * divAnimation.duration );
+//window.onscroll = () => {
+  //  divAnimation.seek(( (getScrollPercent()) / 100) * divAnimation.duration );
     
     //var body = document.body,
     //html = document.documentElement;
@@ -148,5 +149,7 @@ window.onscroll = () => {
     // console.log((100/height) * element.offsetTop)
 
   
-  };
-  
+  //};
+  window.addEventListener('scroll', () => {
+    divAnimation.seek(( (getScrollPercent()) / 100) * divAnimation.duration * 2 );
+  });

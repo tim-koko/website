@@ -42,6 +42,7 @@
   bottom: 10rem;
   right: 2rem;
   z-index: 10;
+  transition: transform 0.4s ease-in-out;
 
   &.fade:not(.show) {
     visibility: hidden;
@@ -78,6 +79,10 @@
 
   @include media-breakpoint-up(lg) {
     right: 6rem;
+
+    &.bottom {
+      transform: translateY(-26rem);
+    }
   }
 
   &:hover {

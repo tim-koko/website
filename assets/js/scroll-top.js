@@ -17,6 +17,7 @@ btnTop.addEventListener('click', () => {
 
 });
 
-window.onscroll = () => {
-  getScrollPercent() >= 50 ? btnTop.classList.add('show') : btnTop.classList.remove('show') ;
-};
+window.addEventListener('scroll', () => {
+  getScrollPercent() >= 70 ? btnTop.classList.add('show') : btnTop.classList.remove('show');
+  getScrollPercent() >= 98 ? btnTop.classList.add('bottom') : btnTop.classList.remove('bottom');
+});
