@@ -21,20 +21,8 @@
   a {
     color: $blue;
 
-    svg {
-      transform: rotate(0deg);
-      transition: 0.3s;
-      transform-style: preserve-3d;
-    }
-
     &:hover {
       color: #fff;
-
-      svg {
-        transform: rotate(-10deg) !important;
-        transition: 0.3s;
-        transform-style: preserve-3d;
-      }
     }
   }
 }

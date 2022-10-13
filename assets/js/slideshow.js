@@ -1,3 +1,4 @@
+import { isTouch } from './utils';
 import  Flickity from 'flickity';
 import anime from 'animejs';
   
@@ -11,7 +12,7 @@ if(slideshow) {
         wrapAround: true,
         pageDots: false,
         //adaptiveHeight: false,
-        draggable: true,
+        draggable: isTouch(),
         prevNextButtons: false,
 
         cellAlign: 'left',

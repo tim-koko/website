@@ -1,11 +1,5 @@
 
-import { map, lerp, getMousePos, calcWinsize, getRandomNumber } from './utils';
-
-function is_touch_enabled() {
-  return ( 'ontouchstart' in window ) ||
-         ( navigator.maxTouchPoints > 0 ) ||
-         ( navigator.msMaxTouchPoints > 0 );
-}
+import { map, lerp, getMousePos, calcWinsize, getRandomNumber, isTouch } from './utils';
 
 // Calculate the viewport size
 let winsize = calcWinsize();
@@ -41,7 +35,7 @@ window.addEventListener('mousemove', ev => mousepos = getMousePos(ev));
 }
 
 
-if (!is_touch_enabled()) {
+if (!isTouch()) {
   const els = document.querySelectorAll('.floaters');
   els.forEach(item => move(item));
 }

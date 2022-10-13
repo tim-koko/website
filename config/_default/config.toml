@@ -20,27 +20,27 @@ rssLimit = 10
     # menu
     [[languages.de.menu.main]]
     name = "Cloud Native"
-    url = "#cloud-native"
+    url = "/#cloud-native"
     weight = 1
     
     [[languages.de.menu.main]]
     name = "Services"
-    url = "#services"
+    url = "/#services"
     weight = 2
 
     [[languages.de.menu.main]]
     name = "Über Uns"
-    url = "#about"
+    url = "/#about"
     weight = 3
 
     [[languages.de.menu.main]]
     name = "Referenzen"
-    url = "#references"
+    url = "/#references"
     weight = 4
 
     [[languages.de.menu.main]]
     name = "Partner"
-    url = "#partner"
+    url = "/#partner"
     weight = 5
  
   [languages.en]
@@ -52,27 +52,27 @@ rssLimit = 10
      # menu
     [[languages.en.menu.main]]
     name = "Cloud Native"
-    url = "#cloud-native"
+    url = "/en/#cloud-native"
     weight = 1
     
     [[languages.en.menu.main]]
     name = "Services"
-    url = "#services"
+    url = "/en/#services"
     weight = 2
 
     [[languages.en.menu.main]]
     name = "About"
-    url = "#about"
+    url = "/en/#about"
     weight = 3
 
     [[languages.en.menu.main]]
     name = "References"
-    url = "#references"
+    url = "/en/#references"
     weight = 4
 
     [[languages.en.menu.main]]
     name = "Partner"
-    url = "#partner"
+    url = "/en/#partner"
     weight = 5
 
 

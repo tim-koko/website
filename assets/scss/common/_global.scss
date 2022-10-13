@@ -88,13 +88,23 @@ h4,
 a {
   color: #fff;
 
+  svg {
+    transform: rotate(0deg);
+    transition: 0.3s;
+    transform-style: preserve-3d;
+  }
+
   &:hover,
   &.active {
     color: $green;
     text-decoration: none;
 
-    .icon-draw svg path {
-      stroke: $green;
+    .icon-draw svg {
+      transform: rotate(-10deg) !important;
+
+      path {
+        stroke: $green;
+      }
     }
   }
 }
@@ -138,6 +148,10 @@ p {
     font-weight: normal;
     color: $green;
   }
+}
+
+.shadow {
+  box-shadow: 0 0 1rem 0.22rem rgba($green, 0.7) !important;
 }
 
 .container-fluid {

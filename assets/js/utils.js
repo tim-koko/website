@@ -28,4 +28,10 @@ const getMousePos = (e) => {
     return { x : posx, y : posy }
 };
 
-export { map, lerp, calcWinsize, getRandomNumber, getMousePos };
+const isTouch = () => {
+    return ( 'ontouchstart' in window ) ||
+           ( navigator.maxTouchPoints > 0 ) ||
+           ( navigator.msMaxTouchPoints > 0 );
+  };
+
+export { map, lerp, calcWinsize, getRandomNumber, getMousePos, isTouch };
