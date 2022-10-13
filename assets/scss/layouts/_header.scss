@@ -22,8 +22,14 @@
     color: $blue;
     font-size: 3.6rem;
 
-    &.active {
+    &.active,
+    &:hover {
       color: #fff;
+    }
+
+    .line {
+      margin-top: -2.5rem;
+      height: 4.2rem;
     }
   }
 }
@@ -77,7 +83,7 @@
   @include media-breakpoint-down(md) {
     .email {
       path {
-        stroke: #fff;
+        stroke: #fff !important;
         stroke-dashoffset: 0 !important;
       }
     }
@@ -101,6 +107,22 @@
 
     path {
       stroke: #fff;
+      transform-origin: center;
+      transition: all 0.3s ease-in-out;
+    }
+
+    svg {
+      path:nth-child(1) {
+        transform: rotate(45deg);
+      }
+
+      path:nth-child(2) {
+        transform: rotate(-45deg) translateX(0.8rem);
+      }
+
+      path:nth-child(3) {
+        opacity: 0;
+      }
     }
   }
 }
@@ -139,8 +161,10 @@
     position: absolute;
     top: 6rem;
     left: -1.5rem;
+    transition: all 0.2s ease;
 
     @include media-breakpoint-up(lg) {
+      opacity: 0;
       top: 3rem;
       left: 2rem;
     }
@@ -163,6 +187,7 @@
   }
 
   .hello {
+    transition: all 0.2s ease;
     position: absolute;
     top: 10rem;
     left: -8.5rem;
@@ -170,6 +195,7 @@
     color: $blue;
 
     @include media-breakpoint-up(lg) {
+      opacity: 0;
       color: #fff;
       font-size: 1.4rem;
       top: 6.5rem;
@@ -177,7 +203,14 @@
     }
   }
 
-  .banner[data-scroll="out"] & {
-    display: none;
+  @include media-breakpoint-up(lg) {
+    [data-scroll="in"] & {
+      &:hover {
+        .hello,
+        .arrow {
+          opacity: 1;
+        }
+      }
+    }
   }
 }
