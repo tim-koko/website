@@ -152,4 +152,4 @@ const divAnimation = anime({
   //};
   window.addEventListener('scroll', () => {
     divAnimation.seek(( (getScrollPercent()) / 100) * divAnimation.duration * 2 );
-  });
+  },{passive: true});

@@ -22,4 +22,4 @@ window.addEventListener('scroll', () => {
   getScrollPercent() > 2 ? menuBtn.classList.add('shadow') : menuBtn.classList.remove('shadow');
   getScrollPercent() > 70 ? btnTop.classList.add('show') : btnTop.classList.remove('show');
   getScrollPercent() > 98 ? btnTop.classList.add('bottom') : btnTop.classList.remove('bottom');
-});
+}, {passive: true});
