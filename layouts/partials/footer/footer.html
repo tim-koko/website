@@ -1,11 +1,11 @@
 <footer class="footer mt-auto pt-20 pt-lg-40 pb-5">
   <div class="container-fluid">
-
-    <div class="h3">Steht gerade eine Herausforderung an?</div>
+{{ with $data.homepage.footer }}
+    <div class="h3">{{ .title }} </div>
     <div class="footer-cta text-white col-lg-9">
-      Kontaktiere uns für ein ganz unverbindliches Kennenlernen mit Kaffee.  
+      {{ .text | safeHTML }} 
     </div>
-
+{{ end }}
    
     
       <div class="d-flex flex-column flex-lg-row mb-lg-8">
