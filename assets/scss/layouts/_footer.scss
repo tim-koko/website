@@ -39,7 +39,7 @@
 
 .btn-up {
   position: fixed;
-  bottom: 10rem;
+  bottom: 6rem;
   right: 2rem;
   z-index: 10;
   transition: transform 0.4s ease-in-out;
@@ -79,6 +79,7 @@
 
   @include media-breakpoint-up(lg) {
     right: 6rem;
+    bottom: 10rem;
 
     &.bottom {
       transform: translateY(-26rem);
