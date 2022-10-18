@@ -61,7 +61,10 @@
       top: -11rem;
       right: auto;
       left: 4rem;
-      transform: rotate(154deg);
+
+      svg {
+        transform: rotate(154deg);
+      }
     }
 
     #prefooter & {
@@ -90,8 +93,11 @@
     #prefooter & {
       top: -6rem;
       right: auto;
-      transform: rotate(51deg);
       left: -4rem;
+
+      svg {
+        transform: rotate(51deg);
+      }
     }
   }
 
@@ -117,13 +123,19 @@
       top: 4rem;
       right: auto;
       left: 35rem;
-      transform: rotate(13deg);
+
+      svg {
+        transform: rotate(13deg);
+      }
     }
 
     #prefooter & {
       left: 11rem;
-      transform: rotate(255deg);
       top: 6rem;
+
+      svg {
+        transform: rotate(255deg);
+      }
     }
   }
 

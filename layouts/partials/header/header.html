@@ -21,10 +21,24 @@
             <svg  class="logo img-fluid" width="220" height="146" viewBox="0 0 283 187" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>ROKT</title><g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="RT-logo/ROKT-Logo-seafoamgreen-RGB" fill="#0a1432" fill-rule="nonzero"><path d="M0,45.71 L42.38,45.71 C60.62,45.71 71.29,57.5 71.29,73.07 C71.29,86.82 63.29,97.21 49.4,99.87 L76.11,155.13 L66.15,155.13 L40.14,100.43 L9.12,100.43 L9.12,127.81 L0,127.81 L0,45.71 Z M42.1,91.73 C55.15,91.73 62.17,84.29 62.17,73.07 C62.17,61.85 55.15,54.41 42.1,54.41 L9.12,54.41 L9.12,91.74 L42.1,91.74 L42.1,91.73 Z" id="Shape"></path><path d="M159.07,151.77 C159.07,171.83 145.18,187.27 124.83,187.27 C104.48,187.27 90.31,171.84 90.31,151.77 L90.31,53.77 C90.31,33.85 104.34,18.13 124.83,18.13 C145.32,18.13 159.07,33.85 159.07,53.77 L159.07,151.77 Z M99.43,151.77 C99.43,167.2 109.95,178.57 124.83,178.57 C139.71,178.57 149.95,167.34 149.95,151.77 L149.95,53.77 C149.95,38.34 139.43,26.83 124.83,26.83 C110.23,26.83 99.43,38.34 99.43,53.77 L99.43,151.77 L99.43,151.77 Z" id="Shape"></path><polygon id="Path" points="256.11 187.11 256.11 54.45 237.88 54.45 237.88 45.72 283.46 45.72 283.46 54.45 265.22 54.45 265.22 187.11"></polygon><polygon id="Path" points="177.31 0 186.43 0 186.43 100.43 216.73 71.02 228.66 71.02 201.02 98.05 245.12 155.11 233.94 155.11 194.57 104.37 186.43 112.23 186.43 137.02 177.31 137.02"></polygon></g></g></svg>          </a>
 
             <nav id="main-menu" class="my-auto ms-lg-auto d-flex flex-column flex-lg-row align-items-center">
-            {{ range .Site.Menus.main }}
+            {{ range $index, $val := $.Site.Menus.main }}
               <span class="menu-item  ms-lg-5">
                 <a class="menu-link" href="{{ .URL }}">{{- .Name -}}
-                  <div class="icon-draw_ line d-lg-none"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.45565 10.81185"><path vector-effect="non-scaling-stroke" d="M1.41188,3.81092c30.82411-1.61772,52.39289,5.57187,86.64564,1.56359" fill="none" fill-rule="evenodd" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg></div>
+                  
+                    {{ if eq $index 0}}
+                      <div class="icon-draw_ line d-lg-none"><svg width="339px" height="7px" viewBox="0 0 339 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">    <g id="RT-rokt-–-UI-Design-Mobile-RZ" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">        <g id="RT_Website-UI-Navigation-375px" transform="translate(-19.000000, -253.000000)" stroke="#FFFFFF" stroke-width="2">            <path d="M19.6629826,258.221663 C53.0652938,257.743534 86.4668795,257.08782 119.86991,256.787278 C132.901749,256.670025 155.890416,253.305892 255.698256,254.46385 C289.529148,254.856351 322.724836,258.221663 357.662983,254.46385" id="Path" transform="translate(188.662983, 256.221663) scale(1, -1) translate(-188.662983, -256.221663) "></path>        </g>    </g></svg>  </div>
+                    {{ end }}
+                    {{ if eq $index 1}}
+                      <div class="icon-draw_ line d-lg-none"><svg width="339px" height="7px" viewBox="0 0 339 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="RT-rokt-–-UI-Design-Mobile-RZ" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">        <g id="RT_Website-UI-Navigation-375px" transform="translate(-19.000000, -332.000000)" stroke="#FFFFFF" stroke-width="2">            <path d="M19.6629826,337.221663 C53.0652938,336.743534 86.4668795,336.08782 119.86991,335.787278 C132.901749,335.670025 155.890416,332.305892 255.698256,333.46385 C289.529148,333.856351 322.724836,337.221663 357.662983,333.46385" id="Path" transform="translate(188.662983, 335.221663) scale(-1, 1) translate(-188.662983, -335.221663) "></path>        </g>    </g></svg></div>
+                    {{ end }}
+                    {{ if eq $index 2}}
+                      <div class="icon-draw_ line d-lg-none"><svg width="339px" height="7px" viewBox="0 0 339 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">    <g id="RT-rokt-–-UI-Design-Mobile-RZ" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">        <g id="RT_Website-UI-Navigation-375px" transform="translate(-19.000000, -411.000000)" stroke="#FFFFFF" stroke-width="2">            <path d="M19.6629826,416.221663 C53.0652938,415.743534 86.4668795,415.08782 119.86991,414.787278 C132.901749,414.670025 155.890416,411.305892 255.698256,412.46385 C289.529148,412.856351 322.724836,416.221663 357.662983,412.46385" id="Path"></path>        </g>    </g></svg></div>
+                    {{ end }}
+                    {{ if eq $index 3}}
+                      <div class="icon-draw_ line d-lg-none"><svg width="339px" height="7px" viewBox="0 0 339 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">    <g id="RT-rokt-–-UI-Design-Mobile-RZ" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">        <g id="RT_Website-UI-Navigation-375px" transform="translate(-19.000000, -487.000000)" stroke="#FFFFFF" stroke-width="2">            <path d="M19.6629826,492.221663 C53.0652938,491.743534 86.4668795,491.08782 119.86991,490.787278 C132.901749,490.670025 155.890416,487.305892 255.698256,488.46385 C289.529148,488.856351 322.724836,492.221663 357.662983,488.46385" id="Path" transform="translate(188.662983, 490.221663) scale(-1, -1) translate(-188.662983, -490.221663) "></path>        </g>    </g></svg>                    </div>
+                    {{ end }}
+ 
+                  
                 </a>
               </span>
             {{ end }}
@@ -41,7 +55,7 @@
             </nav>
 
             {{ if .Site.IsMultiLingual }}
-            <div class="language-menu ms-lg-auto mb-3 d-flex">
+            <div class="language-menu ms-lg-auto mb-1 d-flex">
               {{ range .Site.Languages }}
                 {{ if eq . $.Site.Language }}
                   <a  class="nav-link active p-2 p-lg-0 mx-1 ms-lg-4" href="#">{{ .Lang }}</a>

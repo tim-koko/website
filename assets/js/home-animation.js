@@ -36,6 +36,6 @@ window.addEventListener('mousemove', ev => mousepos = getMousePos(ev));
 
 
 if (!isTouch()) {
-  const els = document.querySelectorAll('.floaters');
+  const els = document.querySelectorAll('.floater');
   els.forEach(item => move(item));
 }
