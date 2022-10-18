@@ -1,3 +1,10 @@
+const myOffCanvas = document.getElementById('offcanvasMenu');
+const body = document.querySelector('body');
+
+myOffCanvas.addEventListener('show.bs.offcanvas', () => body.classList.add('menu-open') );
+myOffCanvas.addEventListener('hide.bs.offcanvas', () => body.classList.remove('menu-open') );
+
+/*
 import { Offcanvas } from 'bootstrap'
 
 const offCanvasId = 'offcanvasMenu';
@@ -18,8 +25,9 @@ function offCanvasListener() {
   }
   
   myOffCanvas.addEventListener('show.bs.offcanvas', listenToClick);
-  myOffCanvas.addEventListener('hidden.bs.offcanvas', () => body.classList.remove('menu-open') );
+  myOffCanvas.addEventListener('hide.bs.offcanvas', () => body.classList.remove('menu-open') );
 }
 
 //function call
 offCanvasListener('offcanvasExample');
+*/
