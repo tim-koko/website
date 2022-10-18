@@ -45,6 +45,12 @@
   }
 }
 
+@media (max-width: 380px) {
+  .menu-link {
+    font-size: 3rem;
+  }
+}
+
 @include media-breakpoint-up(xl) {
   .navbar-brand {
     font-size: $font-size-xl;
@@ -131,11 +137,11 @@
 
     svg {
       path:nth-child(1) {
-        transform: rotate(45deg);
+        transform: rotate(45deg) translateY(8px);
       }
 
       path:nth-child(2) {
-        transform: rotate(-45deg) translateX(0.8rem);
+        transform: rotate(-45deg);
       }
 
       path:nth-child(3) {
