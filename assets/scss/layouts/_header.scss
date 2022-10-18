@@ -18,6 +18,17 @@
 }
 
 @include media-breakpoint-down(lg) {
+  #main-menu {
+    width: 100%;
+  }
+
+  .menu-item {
+    display: block;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+
   .menu-link {
     color: $blue;
     font-size: 3.6rem;
@@ -62,7 +73,7 @@
 }
 
 .banner {
-  padding: 3rem 2rem;
+  padding: 2rem;
   transition: all 0.2s ease;
 
   @include media-breakpoint-up(lg) {

@@ -47,6 +47,10 @@ h1,
 .h1 {
   font-size: 3.6rem;
 
+  @include media-breakpoint-up(md) {
+    font-size: 6rem;
+  }
+
   @include media-breakpoint-up(lg) {
     font-size: 8.8rem;
   }
@@ -83,6 +87,13 @@ h4,
   font-size: 1em;
   color: $green;
   margin-bottom: 0;
+}
+
+article {
+  h2,
+  h3 {
+    margin-top: 1em;
+  }
 }
 
 a {

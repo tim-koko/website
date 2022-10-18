@@ -58,7 +58,7 @@
     transition: all 0.2s ease;
 
     @include media-breakpoint-up(lg) {
-      transform: rotateY(180deg) rotate(196deg) translate3d(-9.5rem, 0, 0);
+      transform: rotateY(180deg) rotate(196deg) translate3d(-9rem, 0.1rem, 0);
       width: 40px;
       height: 40px;
     }

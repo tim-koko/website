@@ -4,7 +4,7 @@
   top: 0;
   z-index: 5;
 
-  @include media-breakpoint-down(md) {
+  @include media-breakpoint-down(lg) {
     transform: scale(0.55);
   }
 

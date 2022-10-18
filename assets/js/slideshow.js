@@ -1,4 +1,4 @@
-import { isTouch, getScrollPercent } from './utils';
+import { /*isTouch,*/ getScrollPercent } from './utils';
 import  Flickity from 'flickity';
 import anime from 'animejs';
   
@@ -12,7 +12,7 @@ if(slideshow) {
         wrapAround: true,
         pageDots: false,
         //adaptiveHeight: false,
-        draggable: isTouch(),
+        draggable: false, //isTouch(),
         prevNextButtons: false,
 
         cellAlign: 'left',
