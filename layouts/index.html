@@ -15,7 +15,7 @@
   
     </div>
     <div class="col-lg-4 position-relative"  >
-      <div class="position-absolute h-100 d-flex flex-column justify-content-center">
+      <div class="position-absolute h-100 z-index-1 d-flex flex-column justify-content-center">
         <div class="text-secondary lead" data-scroll>{{ .small_title }}</div>
         <h1 class="mb-0 mb-md-6">{{ .title | safeHTML }}</h1> 
       </div>
@@ -175,7 +175,7 @@
             </div>
             {{ with .link }}
             <a class="mt-4 mt-3 float-end small" href="{{ . }}">zur Website
-              <div class="icon-draw line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.45565 10.81185"><path vector-effect="non-scaling-stroke" d="M1.41188,3.81092c30.82411-1.61772,52.39289,5.57187,86.64564,1.56359" fill="none" fill-rule="evenodd" stroke="#99e0bb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg></div>
+              <div class="icon-draw line"><svg xmlns="http://www.w3.org/2000/svg" width="84" height="10" viewBox="0 0 91.45565 10.81185"><path vector-effect="non-scaling-stroke" d="M1.41188,3.81092c30.82411-1.61772,52.39289,5.57187,86.64564,1.56359" fill="none" fill-rule="evenodd" stroke="#99e0bb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg></div>
 
             </a>
             {{ end }}
