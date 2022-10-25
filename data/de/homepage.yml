@@ -87,14 +87,14 @@ about:
     - name: "Thomas Philipona"
       title: "Founder"
       img: "images/team/Daniel_Schaad.jpg"
-      mail: "t@rokt.cloud"
-      linkedin: "https://www.linkedin.com/in/rokt_cloud/"
-      twitter: "https://twitter.com/rokt_cloud"
+      mail: "thomas@rokt.cloud"
+      linkedin: "https://www.linkedin.com/in/thomas-philipona-thun/"
+      twitter: "https://twitter.com/tphilipona"
     - name: "Sarah Pfeiffer"
       title: "Project Manager"
       img: "images/team/Doris_Sommer.jpg"
-      mail: "t@rokt.cloud"
-      linkedin: "https://www.linkedin.com/in/rokt_cloud/"
+      mail: "sarah@rokt.cloud"
+      linkedin: "https://www.linkedin.com/in/sarah-pfeiffer/"
 
 # References Section
 references:
@@ -143,3 +143,13 @@ prefooter:
 footer:
   title: "Dürfen wir dich in die Cloud begleiten?"
   text: "Der Weg in die Zukunft ist gemeinsam deutlich kürzer. Kontaktiere uns für ein unverbindliches Kennenlernen."
+  sayHello: " Sag Hallo."
+  email: "hallo@rokt.cloud"
+  phonenumber: "+41 77 800 00 00"
+  followUs: "Folge uns auf"
+  companyName: "ROKT GmbH"
+  address: "Gerechtigkeitsgasse 80, CH-3011 Bern"
+  privacy: "Datenschutz"
+  impress: "Impressum"
+  companyNameCopyright: "ROKT GmbH"
+  getMeUp: "Get me up."
