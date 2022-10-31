@@ -57,7 +57,7 @@ copyRight = ""
 # Alert
 alert = true
 alertDismissable = true
-alertText = 'Wir verwenden Cookies, um ein möglichst gutes Online-Erlebnis zu bieten. Weiter Informationen unter <a href="/datenschutzerklaerung/">Datenschutz</a>.'
+alertText = ""
 
 # lazyimg
 [lazyimg]

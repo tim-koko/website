@@ -134,3 +134,8 @@ footer:
   impress: "Impress"
   companyNameCopyright: "ROKT GmbH"
   getMeUp: "Get me up."
+
+# Cookie banner
+cookiebanner:
+  text: 'We use Cookies, um ein möglichst gutes Online-Erlebnis zu bieten. Weiter Informationen unter <a href="/datenschutzerklaerung/">Datenschutz</a>.'
+  btnText: "Accept"
