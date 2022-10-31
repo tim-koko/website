@@ -55,9 +55,9 @@ footer = '<a href="mailto:hallo@rokt.cloud">hallo@rokt.cloud</a>'
 copyRight = ""
 
 # Alert
-alert = false
+alert = true
 alertDismissable = true
-alertText = ""
+alertText = 'Wir verwenden Cookies, um ein möglichst gutes Online-Erlebnis zu bieten. Weiter Informationen unter <a href="/datenschutzerklaerung/">Datenschutz</a>.'
 
 # lazyimg
 [lazyimg]

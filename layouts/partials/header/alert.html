@@ -1,7 +1,9 @@
 {{ if .Site.Params.alertDismissable -}}
-  <div id="announcement" data-id="global-alert-{{ md5 .Site.Params.alertText }}" class="alert alert-dark alert-dismissible fade show text-lg-center" role="alert">
-    {{ .Site.Params.alertText | safeHTML }}
-    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  <div id="announcement" data-id="global-alert-{{ md5 .Site.Params.alertText }}" class="alert bg-secondary text-primary rounded-pill alert-dismissible fade show py-3 px-10 px-md-5 d-flex align-items-center flex-column flex-md-row" role="alert">
+    <div class="me-3 me-md-10 me-xl-12 mb-3 mb-md-0 small">
+      {{ .Site.Params.alertText | safeHTML }}
+    </div> 
+    <button type="button" class="btn btn-outline-light rounded-pill px-3" data-bs-dismiss="alert" aria-label="Close">Akzeptieren</button>
   </div>
 {{ else -}}
   <div class="alert alert-dark text-lg-center" role="alert">

@@ -18,19 +18,14 @@ technologies:
   title: "Wir setzen auf neuste Technologien"
   item:
     - title: "ArgoCD"
-      link: "https://argo-cd.readthedocs.io/en/stable/"
       img: "images/tech/argo-horizontal-white.svg"
     - title: "GO"
-      link: "#"
       img: "images/tech/Go-Logo_White.svg"
     - title: "Helm"
-      link: "#"
       img: "images/tech/helm-horizontal-white.svg"
     - title: "Kubernetes"
-      link: "#"
       img: "images/tech/Kubernetes_logo_without_workmark.svg"
     - title: "Prometheus"
-      link: "#"
       img: "images/tech/Prometheus_software_logo.svg"
 
 # Services Section

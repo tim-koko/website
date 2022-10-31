@@ -1,15 +1,21 @@
 .alert {
-  font-size: $font-size-sm;
-}
+  position: fixed;
+  bottom: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  max-width: 1000px;
+  width: 90vw;
+  opacity: 0.95;
 
-@include media-breakpoint-up(md) {
-  .alert {
-    font-size: $font-size-base;
+  @include media-breakpoint-up(lg) {
+    width: 80vw;
   }
 }
 
-.alert .alert-link {
-  text-decoration: underline;
+.alert a {
+  color: $primary;
+  border-bottom: 1px solid #fff;
 }
 
 .alert-dark {
@@ -33,6 +39,10 @@
 .alert .alert-link:hover,
 .alert .alert-link:focus {
   text-decoration: none;
+}
+
+.alert-dismissible .btn {
+  font-size: 2rem;
 }
 
 .alert-dismissible .btn-close {
