@@ -1,9 +1,9 @@
 ---
 title : "ROKT — into the cloud"
-description: "Hier erfährst du bald mehr über ROKT. Wir bringen dich und dein Unternehmen in die Cloud. Unkompliziert und kompetent. Für bessere Ergebnisse und gute Laune."
+description: "Wir bringen dich und dein Unternehmen in die Cloud. Unkompliziert und kompetent. Für bessere Ergebnisse und gute Laune. Mit technologischen Lösungen, die begeistern. Und einer involvierenden Zusammenarbeit, die bewegt. Damit Technologie und Mensch nicht gegeneinander arbeiten sondern gemeinsam besseres entsteht."
 lead: ""
 date: 2022-02-22T00:00:00+00:00
-lastmod: 2022-02-22T00:00:00+00:00
+lastmod: 2022-10-31T00:00:00+00:00
 draft: false
 images: []
 ---

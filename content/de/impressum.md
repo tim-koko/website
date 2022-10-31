@@ -2,7 +2,7 @@
 title: "Impressum"
 description: ""
 lead: ""
-date: 2022-05-28T00:00:00+00:00
+date: 2022-10-31T00:00:00+00:00
 lastmod: 2022-05-28T00:00:00+00:00
 draft: false
 images: []
@@ -28,3 +28,8 @@ Studio Wanner AG, Zurich, Switzerland
 
 Fint Digital Design, Zurich, Switzerland  
 [www.fint.ch](https://fint.ch)
+
+### Fotografie
+
+Portraits und Workshopszenen, Janosch Abel, Bern, Switzerland  
+[www.janoschabel.com](https://ww.janoschabel.com)
