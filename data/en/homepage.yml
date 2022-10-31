@@ -3,7 +3,7 @@ hero:
   small_title: "Into the Cloud"
   title: 'Cloud Native <span class="d-block">Transformation,</span> that roks.'
   lead: "ROKT helps businesses like yours get all the way to the top. More specifically: Into the cloud. With advice at eye-level and technological solutions that unlock untapped potential."
-  img: "images/hero-img.jpg"
+  img: "images/20221018-Rokt_Bern_0112@2x.jpg"
 
 # Cloud Native Section
 cloud_native:
@@ -11,7 +11,7 @@ cloud_native:
   text:
     "<p>We believe that a future worth living can only be shaped by people. And that new technologies and principles can profitably support us in every endeavour. Leading the way: <b>cloud native technologies</b> and open source software. In combination, they offer ideal conditions for agile software solutions that can be efficiently deployed, operated and continuously developed.</p>
     <p>By working closely with you, our team identifies what this means for each unique  company and the people who work in it enabling the full use of the infinite possibilities of cloud-native computing. This not only creates room for creative solutions, but also a significant competitive advantage.</p>"
-  img: "images/cloud-native.jpg"
+  img: "images/20221018-Rokt_Bern_0405@2x.jpg"
 
 # Technologies Section
 technologies:
@@ -20,27 +20,18 @@ technologies:
     - title: "ArgoCD"
       link: "https://argo-cd.readthedocs.io/en/stable/"
       img: "images/tech/argo-horizontal-white.svg"
-    - title: "ArgoCD"
-      link: "https://argo-cd.readthedocs.io/en/stable/"
-      img: "images/tech/argo-horizontal-white.svg"
-    - title: "ArgoCD"
-      link: "https://argo-cd.readthedocs.io/en/stable/"
-      img: "images/tech/argo-horizontal-white.svg"
-    - title: "ArgoCD"
-      link: "https://argo-cd.readthedocs.io/en/stable/"
-      img: "images/tech/argo-horizontal-white.svg"
-    - title: "ArgoCD"
-      link: "https://argo-cd.readthedocs.io/en/stable/"
-      img: "images/tech/argo-horizontal-white.svg"
-    - title: "ArgoCD"
-      link: "https://argo-cd.readthedocs.io/en/stable/"
-      img: "images/tech/argo-horizontal-white.svg"
-    - title: "ArgoCD"
-      link: "https://argo-cd.readthedocs.io/en/stable/"
-      img: "images/tech/argo-horizontal-white.svg"
-    - title: "ArgoCD"
-      link: "https://argo-cd.readthedocs.io/en/stable/"
-      img: "images/tech/argo-horizontal-white.svg"
+    - title: "GO"
+      link: "#"
+      img: "images/tech/Go-Logo_White.svg"
+    - title: "Helm"
+      link: "#"
+      img: "images/tech/helm-horizontal-white.svg"
+    - title: "Kubernetes"
+      link: "#"
+      img: "images/tech/Kubernetes_logo_without_workmark.svg"
+    - title: "Prometheus"
+      link: "#"
+      img: "images/tech/Prometheus_software_logo.svg"
 
 # Services Section
 services:
@@ -71,11 +62,13 @@ services:
 # Slideshow Section
 slideshow:
   images:
-    - img: "images/slideshow/img@2x-11.jpg"
-    - img: "images/slideshow/img@2x-12.jpg"
-    - img: "images/slideshow/img@2x-13.jpg"
-    - img: "images/slideshow/img@2x-14.jpg"
-    - img: "images/slideshow/img@2x-15.jpg"
+    - img: "images/slideshow/20221018-Rokt_Bern_0324@2x.jpg"
+    - img: "images/slideshow/20221018-Rokt_Bern_0521@2x.jpg"
+    - img: "images/slideshow/20221018-Rokt_Bern_0745@2x.jpg"
+    - img: "images/slideshow/20221018-Rokt_Bern_0103@2x.jpg"
+    - img: "images/slideshow/20221018-Rokt_Bern_0822@2x.jpg"
+    - img: "images/slideshow/20221018-Rokt_Bern_0763@2x.jpg"
+    - img: "images/slideshow/20221018-Rokt_Bern_1083@2x.jpg"
 
 # About us Section
 about:
@@ -84,13 +77,13 @@ about:
   persons:
     - name: "Thomas Philipona"
       title: "Founder"
-      img: "images/team/Daniel_Schaad.jpg"
+      img: "images/team/20221018-Rokt_Bern_1133@2x.jpg"
       #mail: "thomas@rokt.cloud"
       linkedin: "https://www.linkedin.com/in/thomas-philipona-thun/"
       twitter: "https://twitter.com/tphilipona"
     - name: "Sarah Pfeiffer"
       title: "Project Manager"
-      img: "images/team/Doris_Sommer.jpg"
+      img: "images/team/20221018-Rokt_Bern_1139@2x.jpg"
       #mail: "sarah@rokt.cloud"
       linkedin: "https://www.linkedin.com/in/pfeiffersarah/"
 
@@ -129,7 +122,7 @@ partner:
 
 # Prefooter Section
 prefooter:
-  img: "images/prefooter.jpg"
+  img: "images/20221018-Rokt_Bern_0951@2x.jpg"
   text: "Lorem ipsum dolor rsturipum sit amet, aecenas vaar erts pe, rsgr frtius tortor Vestibulum aqudsf am molestie."
 
 # Footer
