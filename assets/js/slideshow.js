@@ -1,4 +1,4 @@
-import { /*isTouch,*/ getScrollPercent } from './utils';
+//import { /*isTouch,*/  getScrollPercent } from './utils';
 import  Flickity from 'flickity';
 import anime from 'animejs';
   
@@ -118,38 +118,65 @@ flickity.on('dragStart', () => {
 update();
 */
 
+//function(){return-(t.items.offsetWidth-window.innerWidth/2)
+
+
+
+const element = document.querySelector('.slideshow-container');
+const slider = document.querySelector('.slideshow-container .slider');
+const containerFluid = document.querySelector('.container-fluid');
+
+ 
+let sliderWidth = slider.parentElement.scrollWidth,
+    containerWidth = containerFluid.scrollWidth;
+
+element.style.setProperty('--height', (sliderWidth) + 'px');
+
+
+window.addEventListener('resize', () => {
+  sliderWidth = slider.parentElement.scrollWidth;
+  containerWidth = containerFluid.scrollWidth;
+
+  element.style.setProperty('--height', (sliderWidth) + 'px');
+  
+},{passive: true});
 
 
 const divAnimation = anime({
     targets: '.slider',
-    translateX: ['130%', '-50%'],
+    translateX: ['0', '-'+(sliderWidth -containerWidth)],
     //translateX: ['800vw', '-405vw'],
-    //elasticity: 200,
-    easing: 'linear',
+    elasticity: 200,
+    easing: 'easeInOutQuad',
     autoplay: false,
     //duration: 200,
   });
 
-  /**
- * Add a scroll listener on the window object to
- * control animations based on scroll percentage.
- */
-//window.onscroll = () => {
-  //  divAnimation.seek(( (getScrollPercent()) / 100) * divAnimation.duration );
-    
-    //var body = document.body,
-    //html = document.documentElement;
-
-    //var height = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight );
-
-
-    //const element = document.querySelector('.slideshow-container');
-    // console.log(element.offsetTop)
-    // console.log(height)
-    // console.log((100/height) * element.offsetTop)
-
+  const percentageSeen = () => {
+    // Get the relevant measurements and positions
+    const viewportHeight = window.innerHeight;
+    const scrollTop = window.scrollY;
+    const elementHeight = element.offsetHeight;
+    const elementOffsetTop = element.offsetTop;
   
-  //};
+    // Calculate percentage of the element that's been seen
+    const distance = scrollTop /*+ viewportHeight*/ - elementOffsetTop;
+    const percentage = Math.round(distance / ((/*viewportHeight +*/ elementHeight - viewportHeight/**/) / 100)
+    );
+  
+    // Restrict the range to between 0 and 100
+    return Math.min(100, Math.max(0, percentage));
+  };
+
   window.addEventListener('scroll', () => {
-    divAnimation.seek(( (getScrollPercent()) / 100) * divAnimation.duration * 2 );
+
+    console.log(percentageSeen());
+
+    
+    if (percentageSeen() > 0 && percentageSeen() < 99 ) {
+      
+      divAnimation.seek((percentageSeen()/100) * divAnimation.duration  );
+    }
+
+
   },{passive: true});

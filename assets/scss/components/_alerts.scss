@@ -58,5 +58,5 @@
 }
 
 [data-global-alert="closed"] #announcement {
-  display: none;
+  display: none !important;
 }

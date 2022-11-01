@@ -128,3 +128,10 @@ rssLimit = 10
     [[related.indices]]
     name = "date"
     weight = 10
+
+[imaging]
+  anchor = 'Smart'
+  bgColor = '#ffffff'
+  hint = 'picture'
+  quality = 75
+  resampleFilter = 'Lanczos'

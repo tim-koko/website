@@ -1,7 +1,7 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 {{ if .Site.Params.alertDismissable -}}
   {{ with $data.homepage.cookiebanner }}
-    <div id="announcement" data-id="global-alert-{{ md5 .Site.Params.alertText }}" class="alert bg-secondary text-primary rounded-pill alert-dismissible fade show py-3 px-10 px-md-5 d-flex align-items-center flex-column flex-md-row" role="alert">
+    <div id="announcement" data-id="global-alert-{{ md5 .Site.Params.alertText }}" class="alert bg-secondary text-primary rounded-pill alert-dismissible fade show py-3  py-md-4  px-10 ps-md-10 pe-md-10 d-flex align-items-center flex-column flex-md-row" role="alert">
       <div class="me-3 me-md-10 me-xl-12 mb-3 mb-md-0 small">
         {{ .text | safeHTML }}
       </div> 

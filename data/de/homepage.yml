@@ -3,7 +3,7 @@ hero:
   small_title: "Into the Cloud"
   title: 'Cloud Native <span class="d-block">Transformation,</span> die rokt.'
   lead: "ROKT begleitet Unternehmen ganz nach oben. Genauer gesagt: In die Cloud. Mit einer Beratung auf Augenhöhe und technologischen Lösungen, die ungenutztes Potenzial erschliessbar machen."
-  img: "images/20221018-Rokt_Bern_0112@2x.jpg"
+  img: "images/20221018-Rokt_Bern_0112@4x.jpg"
 
 # Cloud Native Section
 cloud_native:
@@ -74,53 +74,53 @@ about:
   persons:
     - name: "Thomas Philipona"
       title: "Founder"
-      img: "images/team/20221018-Rokt_Bern_1133@2x.jpg"
-      # mail: "thomas@rokt.cloud"
+      img: "images/team/20221018-Rokt_Bern_1133@4x.jpg"
+      mail: "thomas@rokt.cloud"
       linkedin: "https://www.linkedin.com/in/thomas-philipona-thun/"
       twitter: "https://twitter.com/tphilipona"
     - name: "Sarah Pfeiffer"
       title: "Project Manager"
-      img: "images/team/20221018-Rokt_Bern_1139@2x.jpg"
-      # mail: "sarah@rokt.cloud"
+      img: "images/team/20221018-Rokt_Bern_1139@4x.jpg"
+      mail: "sarah@rokt.cloud"
       linkedin: "https://www.linkedin.com/in/pfeiffersarah/"
 
 # References Section
-# references:
-#   title: "Referenzen – Die besten Kunden der Welt"
-#   text: ""
-#   projects:
-#     - title: "Denner – Lorem ipsum in der Cloud Lösung "
-#       text: "<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer id nisi nec nulla luctus lacinia non eu turpis. Etiam in ex impeurna ac augue rdie.</p>"
-#       tech_text: "<p>Lorem Ipsum Interdum, Docker, RHEL, Zabbix, puppet, RH Satellite 6, python, bash, OpenShift, GlusterFS, Ansible, Prometheus, Elasticsearch</p>"
-#       img: "images/projects/denner.png"
-#       link: "https://denner.ch/"
-#     - title: "Migros – Lorem ipsum in der Cloud Lösung "
-#       text: "<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer id nisi nec nulla luctus lacinia non eu turpis. Etiam in ex impeurna ac augue rdie.</p>"
-#       tech_text: "<p>Lorem Ipsum Interdum, Docker, RHEL, Zabbix, puppet, RH Satellite 6, python, bash, OpenShift, GlusterFS, Ansible, Prometheus, Elasticsearch</p>"
-#       img: "images/projects/denner.png"
-#       link: "https://denner.ch/"
+references:
+  title: "Referenzen – Die besten Kunden der Welt"
+  text: ""
+  projects:
+    - title: "Denner – Lorem ipsum in der Cloud Lösung "
+      text: "<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer id nisi nec nulla luctus lacinia non eu turpis. Etiam in ex impeurna ac augue rdie.</p>"
+      tech_text: "<p>Lorem Ipsum Interdum, Docker, RHEL, Zabbix, puppet, RH Satellite 6, python, bash, OpenShift, GlusterFS, Ansible, Prometheus, Elasticsearch</p>"
+      img: "images/projects/denner.png"
+      link: "https://denner.ch/"
+    - title: "Migros – Lorem ipsum in der Cloud Lösung "
+      text: "<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer id nisi nec nulla luctus lacinia non eu turpis. Etiam in ex impeurna ac augue rdie.</p>"
+      tech_text: "<p>Lorem Ipsum Interdum, Docker, RHEL, Zabbix, puppet, RH Satellite 6, python, bash, OpenShift, GlusterFS, Ansible, Prometheus, Elasticsearch</p>"
+      img: "images/projects/denner.png"
+      link: "https://denner.ch/"
 
 # Partner Section
 partner:
   title: "Partner:innen – Gemeinsam kommen wir weiter"
   text: "<p>Konkurrenzkampf? Kennen wir nicht. Wir arbeiten lieber Seite an Seite mit Partner:innen, die das gleiche Ziel verfolgen. Darum teilen wir unsere Erfahrungen, Erfolge und Herausforderungen mit der Community, sind aktive Open Source Contributor:innen und vertrauen darauf, dass unsere Partner:innen das auch tun. So lernen wir stets von und mit Gleichgesinnten – und finden Lösungen, auf die wir von alleine wohl nie gekommen wären.</p>"
-  # item:
-  #   - title: "acend GmbH"
-  #     label: "Schulungs-Partner"
-  #     img: "images/partner/acend.svg"
-  #     link: "https://acend.ch"
-  #   - title: "arch.cloud"
-  #     label: "ICT-Partner"
-  #     img: "images/partner/arch-cloud.svg"
-  #     link: "https://acend.ch"
-  #   - title: "arch.cloud"
-  #     label: "ICT-Partner"
-  #     img: "images/partner/puzzle-itc.svg"
-  #     link: "https://acend.ch"
-  #   - title: "Studio Wanner AG"
-  #     label: "UX/UI-Partner"
-  #     img: "images/partner/studiowanner.svg"
-  #     link: "https://studiowanner.ch"
+  item:
+    - title: "acend GmbH"
+      label: "Schulungs-Partner"
+      img: "images/partner/acend.svg"
+      link: "https://acend.ch"
+    - title: "arch.cloud"
+      label: "ICT-Partner"
+      img: "images/partner/arch-cloud.svg"
+      link: "https://acend.ch"
+    - title: "arch.cloud"
+      label: "ICT-Partner"
+      img: "images/partner/puzzle-itc.svg"
+      link: "https://acend.ch"
+    - title: "Studio Wanner AG"
+      label: "UX/UI-Partner"
+      img: "images/partner/studiowanner.svg"
+      link: "https://studiowanner.ch"
 
 # Prefooter Section
 prefooter:
@@ -133,7 +133,7 @@ footer:
   text: "Der Weg in die Zukunft ist gemeinsam deutlich kürzer. Kontaktiere uns für ein unverbindliches Kennenlernen."
   sayHello: " Sag Hallo."
   email: "hallo@rokt.cloud"
-  # phonenumber: "+41 77 800 00 00"
+  phonenumber: "+41 77 800 00 00"
   followUs: "Folge uns auf"
   companyName: "ROKT GmbH"
   address: "Gerechtigkeitsgasse 80, CH-3011 Bern"
