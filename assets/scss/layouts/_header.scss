@@ -231,7 +231,7 @@
   }
 
   @include media-breakpoint-up(lg) {
-    [data-scroll="in"] & {
+    .headroom-top & {
       &:hover {
         .hello,
         .arrow {

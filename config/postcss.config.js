@@ -29,6 +29,7 @@ module.exports = {
         'top',
         'bottom',
         'headroom-not-top',
+        'headroom-top',
         ...whitelister([
           './assets/scss/components/_alerts.scss',
           // './assets/scss/components/_buttons.scss',
