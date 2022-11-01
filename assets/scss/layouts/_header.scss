@@ -71,7 +71,7 @@
     @include media-breakpoint-up(lg) {
       width: 20rem;
 
-      [data-scroll="out"] & {
+      .headroom-not-top & {
         width: 9.2rem;
       }
     }
@@ -90,7 +90,7 @@
     left: 0;
     z-index: 1030;
 
-    &[data-scroll="out"] {
+    &.headroom-not-top {
       background: $blue;
       box-shadow: 0 -10px 16px 10px rgba($green, 0.6);
       transform: translateY(-4rem);
@@ -106,7 +106,7 @@
     }
   }
 
-  &[data-scroll="out"] {
+  &.headroom-not-top {
     .email path {
       stroke-dashoffset: 0 !important;
     }

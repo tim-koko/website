@@ -67,6 +67,7 @@
   "dependencies": {
     "animejs": "^3.2.1",
     "flickity": "^2.3.0",
+    "headroom.js": "^0.12.0",
     "scroll-out": "^2.2.12"
   }
 }
