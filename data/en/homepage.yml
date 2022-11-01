@@ -137,5 +137,5 @@ footer:
 
 # Cookie banner
 cookiebanner:
-  text: 'We use Cookies, um ein möglichst gutes Online-Erlebnis zu bieten. Weiter Informationen unter <a href="/datenschutzerklaerung/">Datenschutz</a>.'
+  text: 'We use Cookies. Find additional information under <a href="/datenschutzerklaerung/">privacy</a>.'
   btnText: "Accept"
