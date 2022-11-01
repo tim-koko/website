@@ -27,6 +27,12 @@ technologies:
       img: "images/tech/Kubernetes_logo_without_workmark.svg"
     - title: "Prometheus"
       img: "images/tech/Prometheus_software_logo.svg"
+    - title: "Cilium"
+      img: "images/tech/cilium-logo-white.svg"
+    - title: "Tekton"
+      img: "images/tech/tekton-stacked-white.svg"
+    - title: "Terraform"
+      img: "images/tech/Terraform_VerticalLogo_White_RGB.svg"
 
 # Services Section
 services:
