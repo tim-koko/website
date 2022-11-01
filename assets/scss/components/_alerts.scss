@@ -1,12 +1,18 @@
 .alert {
   position: fixed;
-  bottom: 5rem;
+  bottom: 3rem;
   left: 50%;
   transform: translateX(-50%);
   z-index: 9999;
   max-width: 1000px;
   width: 90vw;
   opacity: 0.95;
+  border-radius: 4rem;
+
+  @include media-breakpoint-up(md) {
+    bottom: 5rem;
+    border-radius: 50rem;
+  }
 
   @include media-breakpoint-up(lg) {
     width: 80vw;
