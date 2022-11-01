@@ -43,6 +43,15 @@
 
 .alert-dismissible .btn {
   font-size: 2rem;
+  border-width: 2px;
+
+  svg path {
+    transition: all 0.2s ease;
+  }
+
+  &:hover svg path {
+    stroke: $green;
+  }
 }
 
 .alert-dismissible .btn-close {
