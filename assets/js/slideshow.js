@@ -1,4 +1,3 @@
-//import { /*isTouch,*/  getScrollPercent } from './utils';
 import  Flickity from 'flickity';
 import anime from 'animejs';
   
@@ -7,18 +6,14 @@ const slideshow = document.querySelector('.clients');
 
 if(slideshow) {
   
-    //const slider = 
-  const flkty =  new Flickity( slideshow, {
+  const flkty =  new Flickity(slideshow, {
         wrapAround: true,
         pageDots: false,
-        //adaptiveHeight: false,
         draggable: false, //isTouch(),
         prevNextButtons: false,
-
         cellAlign: 'left',
         on: {
             ready: function() {
-                console.log('Flickity ready');
                 window.dispatchEvent(new Event('resize'));
             },
         }, 
@@ -35,90 +30,6 @@ if(slideshow) {
     flkty.next();
   });
 }
-/**/
-
-// Play with this value to change the speed
-//let tickerSpeed = 2;
-/*
-let flickity = null;
-//let isPaused = false;
-const slideshowEl = document.getElementById('slideshow');
-*/
-
-//
-//   Functions
-//
-//////////////////////////////////////////////////////////////////////
-/*
-const update = () => {
-  if (isPaused) return;
-  if (flickity.slides) {
-    flickity.x = (flickity.x - tickerSpeed) % flickity.slideableWidth;
-    flickity.selectedIndex = flickity.dragEndRestingSelect();
-    flickity.updateSelectedSlide();
-    flickity.settle(flickity.x);
-  }
-  window.requestAnimationFrame(update);
-};
-
-const pause = () => {
-  isPaused = true;
-  tickerSpeed = 0.5;
-};
-
-const play = () => {
-    tickerSpeed = 2;
-
-  if (isPaused) {
-    isPaused = false;
-    window.requestAnimationFrame(update);
-    }
-};
-*/
-
-//
-//   Create Flickity
-//
-//////////////////////////////////////////////////////////////////////
-/*
-flickity = new Flickity(slideshowEl, {
-  autoPlay: false,
-  prevNextButtons: false,
-  pageDots: false,
-  draggable: false,
-  cellAlign: 'right',
-  //wrapAround: true,
-  freeScroll: true,
-  //selectedAttraction: 0.015,
-  //friction: 0.25,
-});
-flickity.x = 0;
-*/
-
-//
-//   Add Event Listeners
-//
-//////////////////////////////////////////////////////////////////////
-/*
-slideshowEl.addEventListener('mouseenter', pause, false);
-slideshowEl.addEventListener('focusin', pause, false);
-slideshowEl.addEventListener('mouseleave', play, false);
-slideshowEl.addEventListener('focusout', play, false);
-
-flickity.on('dragStart', () => {
-  isPaused = true;
-});
-
-
-//
-//   Start Ticker
-//
-//////////////////////////////////////////////////////////////////////
-
-update();
-*/
-
-//function(){return-(t.items.offsetWidth-window.innerWidth/2)
 
 
 
@@ -136,7 +47,6 @@ element.style.setProperty('--height', (sliderWidth) + 'px');
 window.addEventListener('resize', () => {
   sliderWidth = slider.parentElement.scrollWidth;
   containerWidth = containerFluid.scrollWidth;
-
   element.style.setProperty('--height', (sliderWidth) + 'px');
   
 },{passive: true});
@@ -145,7 +55,6 @@ window.addEventListener('resize', () => {
 const divAnimation = anime({
     targets: '.slider',
     translateX: ['0', '-'+(sliderWidth -containerWidth)],
-    //translateX: ['800vw', '-405vw'],
     elasticity: 200,
     easing: 'easeInOutQuad',
     autoplay: false,
@@ -169,14 +78,8 @@ const divAnimation = anime({
   };
 
   window.addEventListener('scroll', () => {
-
-    console.log(percentageSeen());
-
-    
+    //console.log(percentageSeen());
     if (percentageSeen() > 0 && percentageSeen() < 99 ) {
-      
       divAnimation.seek((percentageSeen()/100) * divAnimation.duration  );
     }
-
-
   },{passive: true});
