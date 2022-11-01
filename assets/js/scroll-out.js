@@ -18,9 +18,7 @@ ScrollOut({
 
 
 
-const headroom  = new Headroom(document.querySelector('.banner'));
-// initialise
-headroom.init({
+const headroom  = new Headroom(document.querySelector('.banner'),{
   classes : {
     // when element is initialised
     initial : 'headroom',
@@ -40,3 +38,5 @@ headroom.init({
     frozen: 'headroom-frozen',
 },
 });
+// initialise
+headroom.init();

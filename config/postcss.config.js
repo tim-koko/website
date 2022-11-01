@@ -28,6 +28,7 @@ module.exports = {
         'menu-open',
         'top',
         'bottom',
+        'headroom-not-top',
         ...whitelister([
           './assets/scss/components/_alerts.scss',
           // './assets/scss/components/_buttons.scss',
