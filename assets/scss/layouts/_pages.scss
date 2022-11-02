@@ -40,9 +40,10 @@
     -moz-box-decoration-break: clone;
     -o-box-decoration-break: clone;
     box-decoration-break: clone;
+    line-height: 1.4;
 
     @include media-breakpoint-up(lg) {
-      padding: 0.5rem 3rem;
+      padding: 0.75rem 3rem;
     }
   }
 
