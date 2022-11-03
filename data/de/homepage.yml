@@ -1,0 +1,154 @@
+# Hero Section
+hero:
+  small_title: "Into the Cloud"
+  title: 'Cloud Native <span class="d-block">Transformation,</span> die rokt.'
+  lead: "ROKT begleitet Unternehmen ganz nach oben. Genauer gesagt: In die Cloud. Mit einer Beratung auf Augenhöhe und technologischen Lösungen, die ungenutztes Potenzial erschliessbar machen."
+  img: "images/20221018-Rokt_Bern_0112@4x.jpg"
+
+# Cloud Native Section
+cloud_native:
+  title: "Cloud Native: Das Potenzial zukunftsweisender Technologien erlebbar machen"
+  text:
+    "<p>Wir glauben, dass eine lebenswerte Zukunft nur von Menschen gestaltet werden kann. Und dass uns neue Technologien und Prinzipien dabei gewinnbringend unterstützen können. Allen voran: <b>Cloud Native Technologien</b> und Open Source Software. In der Kombination bieten sie ideale Voraussetzungen für agile Software-Lösungen, die effizient entwickelt, betrieben und kontinuierlich weiterentwickelt werden können.</p>
+    <p>Gemeinsam mit unseren Kund:innen finden wir heraus, was das konkret für ihr Unternehmen und die Menschen, die darin arbeiten, bedeutet und befähigen sie, die unendlichen Möglichkeiten von Cloud Native Computing voll auszuschöpfen. Das schafft nicht nur Raum für kreative Lösungen, sondern auch einen entscheidenden Wettbewerbsvorteil.</p>"
+  img: "images/20221018-Rokt_Bern_0405@2x.jpg"
+
+# Technologies Section
+technologies:
+  title: "Wir setzen auf neuste Technologien"
+  item:
+    - title: "ArgoCD"
+      img: "images/tech/argo-horizontal-white.svg"
+    - title: "GO"
+      img: "images/tech/Go-Logo_White.svg"
+    - title: "Helm"
+      img: "images/tech/helm-horizontal-white.svg"
+    - title: "Kubernetes"
+      img: "images/tech/Kubernetes_logo_without_workmark.svg"
+    - title: "Prometheus"
+      img: "images/tech/Prometheus_software_logo.svg"
+    - title: "Cilium"
+      img: "images/tech/cilium-logo-white.svg"
+    - title: "Tekton"
+      img: "images/tech/tekton-stacked-white.svg"
+    - title: "Terraform"
+      img: "images/tech/Terraform_VerticalLogo_White_RGB.svg"
+
+# Services Section
+services:
+  title: "Services – Gemeinsam ganz nach oben"
+  text: "<p>Wer hoch hinaus will, braucht Mut und Zuversicht. Und einen Partner wie ROKT, die einen dahin begleitet. Sobald wir die Bedürfnisse unserer Kund:innen verstanden haben, starten wir mit Teamwork: Gemeinsam entwickeln wir nachhaltige Lösungen, finden passende Technologien, setzen wirkungsvolle Prozesse auf und schaffen kulturelle Veränderung, damit die Unternehmen ihr Potenzial voll ausschöpfen können.</p>"
+  item:
+    - title: "Cloud Native Consulting"
+      img: '<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 128 128"><path d="M57.13533,70.34847c-3.53534,9.61666-3.45946,20.51359,.20946,30.08007,.63536,1.65667,1.3871,3.29521,2.51729,4.66303,.96712,1.17047,2.18526,2.11,3.46072,2.93373,5.62919,3.63556,12.61177,5.11913,19.23284,4.08635" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M81.69878,112.48288c4.65762,.09623,9.21503-1.22124,13.68697-2.52675,3.409-.99521,6.90793-2.03536,9.71132-4.21544,4.81721-3.74614,6.68084-10.09176,7.91876-16.06726,.94676-4.57008,1.69286-9.27126,1.02624-13.89052-.52788-3.6579-1.9225-7.12708-3.33752-10.54126-.61375-1.48085-1.24473-2.97871-2.22899-4.24395-1.11336-1.43119-2.63198-2.49991-4.23138-3.35421-6.06781-3.24106-13.23419-3.54957-20.11316-3.49878" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M76.09607,23.90561c.83234,12.98025,.20613,21.44245-.19804,34.44308-.01617,.52005-.03768,1.05826-.26753,1.52504-.26263,.53334-.76418,.90556-1.27108,1.21618-2.60551,1.59665-26.86853,2.08065-29.82533,1.30904,.31027,3.36031,.98091,10.23252,1.29118,13.59283-3.96161-1.92739-8.84611-8.25942-11.59512-11.70211-.48929-.61276-1.00865-1.28292-1.76417-1.49285-.54025-.15011-1.11356-.03672-1.66695,.05367-2.11819,.34599-2.27789,.3577-4.42259,.27583-3.67426-.14026-5.25485-.49149-8.34891-1.49176-.81078-.26211-1.66396-.503-2.28967-1.08139-.57851-.53476-.90806-1.28455-1.15164-2.03375-.64347-1.97918-.79054-7.08134-.89142-9.16005-.2455-5.05917-.2452-10.12705-.19092-15.19188,.03852-3.59386,.10985-7.22982,1.03614-10.70247,.27074-1.01501,.64295-2.0572,1.42134-2.76265,.99997-.90626,2.44734-1.07097,3.79209-1.18448,16.70972-1.41048,33.51735-1.59602,50.26302-.70907,1.21534,.06437,2.48117,.14892,3.53516,.75746s2.22835,1.56818,2.54443,4.33936" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M64.00618,31.22264c-11.89689-.32107-26.13451,.32107-38.0314,0" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M24.90072,43.12009c11.82595,.70246,23.68361-1.85043,35.49565-.94355" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M92.87089,74.63275c.46954-.18416,.17178-1.07822-.31442-.94409" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M74.22804,72.62198c.18381-.13199-.14475-.45539-.27381-.26951" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M68.99443,93.19328c3.74734,2.83277,8.46768,4.21441,13.16199,4.38955s9.37481-.80137,13.81959-2.32158" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/></svg>'
+      text:
+        "<p>Ein:e erfahrene:r ROKT Cloud Native Consultant steht während des ganzen Prozesses unterstützend zur Seite – Mit Fachwissen, konkreten Anweisungen oder auch mal mit aufmunternden Worten. Das Cloud Native Consulting beinhaltet:</p>
+        <ul>
+        <li>das Begleiten deiner ganzen Cloud Native Journey von A-Z</li>
+        <li>Beratung zum magischen Dreieck: Technologie, Kultur und Prozesse</li>
+        <li>Cloud Architektur Design und Lösungsarchitektur</li>
+        <li>Coaching & Training von Mitarbeitenden</li>
+        <li>Workshops, Reviews</li>
+        </ul>"
+    - title: "Cloud Native Engineering"
+      img: '<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 128 128"><path d="M25.07971,101.39095c1.08769,.56998,2.19782,1.09533,3.31743,1.59828,8.38185,3.76533,17.42496,6.34731,24.83329,11.81246" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M52.64419,114.40868c8.69498-2.61883,17.03858-6.42566,24.73234-11.28431,4.4732-2.82486,13.03079-7.78225,18.01851-9.51711" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M25.59534,100.75901c5.29637-1.03523,10.23989-3.37951,15.11994-5.70242,6.70244-3.19038,13.67727-5.61539,20.37971-8.80576,1.47218-.70076,7.62724-2.45924,6.78272-2.45924l5.42086,2.11677c5.41773,2.52705,14.40593,5.49104,22.09647,7.69891" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M14.15488,66.74878c3.70617,11.28153,7.0498,22.68461,10.02387,34.18525" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M14.38677,66.54784c15.26864-4.5679,30.39121-9.63414,45.33618-15.18815" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M59.50307,51.44281c1.751,10.82397,4.69427,21.45064,8.75802,31.6208" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M24.12219,34.12307c2.99834-2.50135,6.23496-4.71695,9.65175-6.60703" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M24.10401,34.02439c3.01556,2.18233,6.27997,4.02051,9.70963,5.46746" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M47.36394,41.04024c-3.64858-4.98072-6.32359-10.67182-7.83041-16.65925" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M50.60208,26.65577c3.88853,1.20288,7.72027,2.5893,11.4782,4.15311,.28017,.11659,.58475,.25759,.70802,.53489,.25937,.58342-.44567,1.106-1.01878,1.3874-2.93033,1.43884-5.44062,3.72095-7.15136,6.50132" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M76.35553,59.28298c3.55741,3.69977,6.75065,7.74952,9.5186,12.07177" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M77.65478,71.6642c2.40137-4.57906,4.34098-9.40012,5.7799-14.3664" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M74.67769,66.79458c4.37691-1.54456,8.95081-2.52994,13.57544-2.92464" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M99.4837,81.05783c5.00702-2.47449,8.20871-7.21117,9.41632-12.02071,1.20761-4.80954,.65998-9.72509-.23927-14.47367-.65194-3.44261-1.5081-6.90426-3.42192-9.91268s-5.02539-5.548-8.94429-6.30674-8.62804,.60217-10.82413,3.6861c-.71424,1.00299-1.15104,2.18714-.9618,3.311,.47022,2.79255,4.27755,3.90907,7.53659,4.14622,2.87155,.20895,5.78962,.13851,8.6827-.20961,3.11562-.3749,6.42203-1.08157,8.69777-3.06981,6.67334-5.83028,2.73004-14.62168-.89065-18.20141s-9.424-4.94954-15.04867-5.27166c-4.69097-.26865-9.4717,.07956-14.1304,1.02919" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M85.88424,14.17309c-3.33611,2.26237-8.08577,5.9889-10.73677,10.89727,5.21741,2.14529,9.76069,4.44936,14.44189,5.09037" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M61.33389,102.41691c2.89454-.97525,5.67383-2.29209,8.26176-3.91445" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/></svg>'
+      text:
+        "<p>Dir fehlen Zeit und Nerven, um dich mit Cloud Native Technologien auseinanderzusetzen? Als leidenschaftliche Engineers nehmen wir das gerne ab, damit du dich mit ruhigem Gewissen um das kümmern kannst, was dir Freude bereitet. Das Cloud Engineering beinhaltet:</p>
+        <ul>
+        <li>Unterstützung beim Container und Kubernetes Engineering</li>
+        <li>Cloud Native Software Engineering</li>
+        <li>Delivery Pipelines konzipieren und umsetzen</li>
+        <li>Automation, GitOps</li>
+        <li>Implementation und Integration von Observability Aspekten</li>
+        </ul>"
+
+# Slideshow Section
+slideshow:
+  images:
+    - img: "images/slideshow/20221018-Rokt_Bern_0324@2x.jpg"
+    - img: "images/slideshow/20221018-Rokt_Bern_0521@2x.jpg"
+    - img: "images/slideshow/20221018-Rokt_Bern_0745@2x.jpg"
+    - img: "images/slideshow/20221018-Rokt_Bern_0103@2x.jpg"
+    - img: "images/slideshow/20221018-Rokt_Bern_0822@2x.jpg"
+    - img: "images/slideshow/20221018-Rokt_Bern_0763@2x.jpg"
+    - img: "images/slideshow/20221018-Rokt_Bern_1083@2x.jpg"
+
+# About us Section
+about:
+  title: "Über uns – Wir leben Cloud Native"
+  text: "<p>Bei ROKT steht der Mensch im Zentrum. Wir setzen uns für eine Unternehmenskultur ein, die von Neugier, Ko-Kreation und Mut geprägt ist. Unser Kopf mag zwar in der Cloud sein, aber wir stehen mit beiden Beinen auf dem Boden.</p>"
+  persons:
+    - name: "Thomas Philipona"
+      title: "Founder"
+      img: "images/team/20221018-Rokt_Bern_1133@4x.jpg"
+      linkedin: "https://www.linkedin.com/in/thomas-philipona-thun/"
+      twitter: "https://twitter.com/tphilipona"
+      github: "https://github.com/phil-pona"
+    - name: "Sarah Pfeiffer"
+      title: "Project Manager"
+      img: "images/team/20221018-Rokt_Bern_1139@4x.jpg"
+      linkedin: "https://www.linkedin.com/in/pfeiffersarah/"
+      twitter: "https://twitter.com/jamok_sarita"
+
+# References Section
+# references:
+#   title: "Referenzen – Die besten Kunden der Welt"
+#   text: ""
+#   projects:
+#     - title: "Denner – Lorem ipsum in der Cloud Lösung "
+#       text: "<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer id nisi nec nulla luctus lacinia non eu turpis. Etiam in ex impeurna ac augue rdie.</p>"
+#       tech_text: "<p>Lorem Ipsum Interdum, Docker, RHEL, Zabbix, puppet, RH Satellite 6, python, bash, OpenShift, GlusterFS, Ansible, Prometheus, Elasticsearch</p>"
+#       img: "images/projects/denner.png"
+#       link: "https://denner.ch/"
+#     - title: "Migros – Lorem ipsum in der Cloud Lösung "
+#       text: "<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer id nisi nec nulla luctus lacinia non eu turpis. Etiam in ex impeurna ac augue rdie.</p>"
+#       tech_text: "<p>Lorem Ipsum Interdum, Docker, RHEL, Zabbix, puppet, RH Satellite 6, python, bash, OpenShift, GlusterFS, Ansible, Prometheus, Elasticsearch</p>"
+#       img: "images/projects/denner.png"
+#       link: "https://denner.ch/"
+
+# Partner Section
+partner:
+  title: "Partner:innen – Gemeinsam kommen wir weiter"
+  text: "<p>Konkurrenzkampf? Kennen wir nicht. Wir arbeiten lieber Seite an Seite mit Partner:innen, die das gleiche Ziel verfolgen. Darum teilen wir unsere Erfahrungen, Erfolge und Herausforderungen mit der Community, sind aktive Open Source Contributor:innen und vertrauen darauf, dass unsere Partner:innen das auch tun. So lernen wir stets von und mit Gleichgesinnten – und finden Lösungen, auf die wir von alleine wohl nie gekommen wären.</p>"
+  # item:
+  #   - title: "acend GmbH"
+  #     label: "Schulungs-Partner"
+  #     img: "images/partner/acend.svg"
+  #     link: "https://acend.ch"
+  #   - title: "arch.cloud"
+  #     label: "ICT-Partner"
+  #     img: "images/partner/arch-cloud.svg"
+  #     link: "https://acend.ch"
+  #   - title: "arch.cloud"
+  #     label: "ICT-Partner"
+  #     img: "images/partner/puzzle-itc.svg"
+  #     link: "https://acend.ch"
+  #   - title: "Studio Wanner AG"
+  #     label: "UX/UI-Partner"
+  #     img: "images/partner/studiowanner.svg"
+  #     link: "https://studiowanner.ch"
+
+# Prefooter Section
+prefooter:
+  img: "images/20221018-Rokt_Bern_0951@2x.jpg"
+  text: "Bist du dir noch nicht ganz sicher, ob wir die Richtigen für dein Projekt sind? Im Gespräch finden wir das heraus."
+
+# Footer
+footer:
+  title: "Dürfen wir dich in die Cloud begleiten?"
+  text: "Der Weg in die Zukunft ist gemeinsam deutlich kürzer. Kontaktiere uns für ein unverbindliches Kennenlernen."
+  sayHello: " Sag Hallo."
+  email: "hallo@rokt.cloud"
+  # phonenumber: "+41 77 800 00 00"
+  followUs: "Folge uns auf"
+  companyName: "ROKT GmbH"
+  address: "Gerechtigkeitsgasse 80, CH-3011 Bern"
+  privacy: "Datenschutz"
+  impress: "Impressum"
+  companyNameCopyright: "ROKT GmbH"
+  getMeUp: "Get me up."
+
+# Cookie banner
+cookiebanner:
+  text: 'Wir verwenden <strong>keine</strong> Cookies. Weitere Informationen unter <a href="/datenschutzerklaerung/">Datenschutz</a>.'
+  btnText: "Akzeptieren"

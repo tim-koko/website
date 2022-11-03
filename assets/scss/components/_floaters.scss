@@ -1,0 +1,177 @@
+// stylelint-disable property-no-vendor-prefix
+.floaters {
+  position: absolute;
+  top: 0;
+  z-index: 5;
+
+  @include media-breakpoint-down(lg) {
+    transform: scale(0.55);
+  }
+
+  .hero & {
+    right: 7.5rem;
+    left: auto;
+    top: -4rem;
+  }
+
+  #cloud-native & {
+    right: 8rem;
+  }
+
+  #prefooter & {
+    left: 3rem;
+    top: -8rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    #partner & {
+      left: -8rem;
+      top: 10rem;
+    }
+  }
+}
+
+.floater {
+  position: absolute;
+
+  img {
+    transform-style: preserve-3d;
+    opacity: 0;
+    transform: translateY(40px);
+
+    // transition: opacity 0.3s ease;
+    animation: fade-in-stagger 0.8s ease forwards;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+    backface-visibility: hidden;
+  }
+
+  // new:
+  &:nth-child(1) {
+    // border: 1px solid red;
+    top: -11rem;
+    right: 0;
+
+    #cloud-native & {
+      top: -9rem;
+      right: -6rem;
+    }
+
+    #partner & {
+      top: -11rem;
+      right: auto;
+      left: 4rem;
+
+      svg {
+        transform: rotate(154deg);
+      }
+    }
+
+    #prefooter & {
+      top: 8rem;
+      right: auto;
+      left: -6rem;
+    }
+  }
+
+  &:nth-child(2) {
+    // border: 1px solid green;
+    top: -5rem;
+    right: -13rem;
+
+    #cloud-native & {
+      top: 7rem;
+      right: 0;
+    }
+
+    #partner & {
+      top: -10rem;
+      right: auto;
+      left: 19rem;
+    }
+
+    #prefooter & {
+      top: -6rem;
+      right: auto;
+      left: -4rem;
+
+      svg {
+        transform: rotate(51deg);
+      }
+    }
+  }
+
+  &:nth-child(3) {
+    top: 4rem;
+    right: 4rem;
+
+    #partner & {
+      top: -10rem;
+      right: auto;
+      left: 39rem;
+    }
+
+    #prefooter & {
+      top: -3rem;
+      right: auto;
+      left: 7rem;
+    }
+  }
+
+  &:nth-child(4) {
+    #partner & {
+      top: 4rem;
+      right: auto;
+      left: 35rem;
+
+      svg {
+        transform: rotate(13deg);
+      }
+    }
+
+    #prefooter & {
+      left: 11rem;
+      top: 6rem;
+
+      svg {
+        transform: rotate(255deg);
+      }
+    }
+  }
+
+  &:nth-child(5) {
+    #prefooter & {
+      left: 25rem;
+      top: 10rem;
+    }
+  }
+
+  &:nth-child(6) {
+    #prefooter & {
+      left: 13rem;
+      top: -12rem;
+    }
+  }
+
+  &:nth-child(7) {
+    #prefooter & {
+      left: 23rem;
+      top: -14rem;
+    }
+  }
+}
+
+// keyframes
+@keyframes fade-in-stagger {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// delay
+@for $i from 1 to 5 {
+  .floater:nth-child(#{$i}) img {
+    animation-delay: ($i * 0.25s) + 0.5s;
+  }
+}

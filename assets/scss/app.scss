@@ -6,18 +6,22 @@
 
 /** Import Bootstrap */
 @import "bootstrap/scss/bootstrap";
+@import "flickity/dist/flickity.min";
 
 /** Import theme styles */
 @import "common/fonts";
 @import "common/global";
 @import "components/alerts";
 @import "components/buttons";
-@import "components/code";
 
+// @import "components/code";
 // @import "components/syntax";
-@import "components/comments";
-@import "components/forms";
+// @import "components/comments";
+// @import "components/forms";
 @import "components/images";
+@import "components/flickity";
+@import "components/scroll-out";
+@import "components/floaters";
 @import "layouts/footer";
 @import "layouts/header";
 @import "layouts/pages";

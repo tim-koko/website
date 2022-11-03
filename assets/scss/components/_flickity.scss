@@ -1,0 +1,58 @@
+#slideshow,
+#slideshow2 {
+  overflow: hidden;
+  outline: none;
+  position: sticky;
+  top: 4vh;
+
+  &:hover {
+    cursor: grab;
+  }
+
+  &:active {
+    cursor: grabbing;
+  }
+
+  .flickity-slider,
+  .slider {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    transition: transform 0.2s ease-out;
+  }
+
+  .carousel-cell {
+    width: 44vmax;
+    height: 44vmax;
+    display: flex;
+    flex-shrink: 0;
+
+    img {
+      width: 1000px;
+      height: 1000px;
+      object-fit: contain;
+      max-height: 100%;
+    }
+
+    @include media-breakpoint-up(lg) {
+      width: 48vmin;
+      height: 48vmin;
+    }
+  }
+}
+
+.slideshow-container {
+  --height: 5;
+
+  height: var(--height);
+}
+
+.navi {
+  position: absolute;
+  left: -0.75rem;
+  z-index: 2;
+
+  .button-previous svg {
+    transform: rotate(180deg);
+  }
+}

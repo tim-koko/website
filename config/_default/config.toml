@@ -16,12 +16,64 @@ rssLimit = 10
     weight = 1
     languageCode = "de-ch"
     contentDir = "content/de"
+
+    # menu
+    [[languages.de.menu.main]]
+    name = "Cloud Native"
+    url = "/#cloud-native"
+    weight = 1
+    
+    [[languages.de.menu.main]]
+    name = "Services"
+    url = "/#services"
+    weight = 2
+
+    [[languages.de.menu.main]]
+    name = "Über Uns"
+    url = "/#about"
+    weight = 3
+
+    # [[languages.de.menu.main]]
+    # name = "Referenzen"
+    # url = "/#references"
+    # weight = 4
+
+    [[languages.de.menu.main]]
+    name = "Partner"
+    url = "/#partner"
+    weight = 5
  
   [languages.en]
     languageName = "English"
     weight = 2
     languageCode = "en-us"
     contentDir = "content/en"
+
+     # menu
+    [[languages.en.menu.main]]
+    name = "Cloud Native"
+    url = "/en/#cloud-native"
+    weight = 1
+    
+    [[languages.en.menu.main]]
+    name = "Services"
+    url = "/en/#services"
+    weight = 2
+
+    [[languages.en.menu.main]]
+    name = "About"
+    url = "/en/#about"
+    weight = 3
+
+    # [[languages.en.menu.main]]
+    # name = "References"
+    # url = "/en/#references"
+    # weight = 4
+
+    [[languages.en.menu.main]]
+    name = "Partner"
+    url = "/en/#partner"
+    weight = 5
 
 
 # add redirects/headers
@@ -76,3 +128,10 @@ rssLimit = 10
     [[related.indices]]
     name = "date"
     weight = 10
+
+[imaging]
+  anchor = 'Smart'
+  bgColor = '#ffffff'
+  hint = 'picture'
+  quality = 75
+  resampleFilter = 'Lanczos'

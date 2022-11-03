@@ -3,8 +3,8 @@
 'use strict';
 
 // Prefetch in-viewport links during idle time
-import { listen } from 'quicklink/dist/quicklink.mjs';
-listen();
+//import { listen } from 'quicklink/dist/quicklink.mjs';
+//listen();
 
 // lazy sizes for image loading
 import 'lazysizes';
@@ -14,3 +14,18 @@ import './assets/js/alert';
 
 // home 3D animation
 import './assets/js/home-animation';
+
+// fade in elements
+import './assets/js/scroll-out';
+
+// icons animations
+import './assets/js/icon-animations';
+
+// slideshow
+import './assets/js/slideshow';
+
+// mobile-menu
+import './assets/js/mobile-menu';
+
+import './assets/js/scroll-top';
+ 

@@ -1,11 +1,5 @@
 
-import { map, lerp, getMousePos, calcWinsize, getRandomNumber } from './utils';
-
-function is_touch_enabled() {
-  return ( 'ontouchstart' in window ) ||
-         ( navigator.maxTouchPoints > 0 ) ||
-         ( navigator.msMaxTouchPoints > 0 );
-}
+import { map, lerp, getMousePos, calcWinsize, getRandomNumber, isTouch } from './utils';
 
 // Calculate the viewport size
 let winsize = calcWinsize();
@@ -21,8 +15,8 @@ window.addEventListener('mousemove', ev => mousepos = getMousePos(ev));
     // amount to move in each axis
     let translationVals = {tx: 0, ty: 0};
     // get random start and end movement boundaries
-    const xstart = getRandomNumber(-20,50);
-    const ystart = getRandomNumber(-20,50);
+    const xstart = getRandomNumber(-10,20);
+    const ystart = getRandomNumber(-10,20);
    
     // infinite loop
     const render = () => {
@@ -41,7 +35,7 @@ window.addEventListener('mousemove', ev => mousepos = getMousePos(ev));
 }
 
 
-if (!is_touch_enabled()) {
+if (!isTouch()) {
   const els = document.querySelectorAll('.floater');
   els.forEach(item => move(item));
 }

@@ -17,32 +17,228 @@
   }
 }
 
-@include media-breakpoint-up(md) {
+@include media-breakpoint-down(lg) {
+  #main-menu {
+    width: 100%;
+  }
+
+  .menu-item {
+    display: block;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .menu-link {
+    color: $blue;
+    font-size: 3.6rem;
+
+    &.active,
+    &:hover {
+      color: #fff;
+    }
+
+    .line {
+      margin-top: -2.5rem;
+      height: 3rem;
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  .menu-link {
+    font-size: 3rem;
+  }
+}
+
+@include media-breakpoint-up(xl) {
   .navbar-brand {
     font-size: $font-size-xl;
   }
 
-  .navbar-text {
+  .menu-item {
     margin-left: 1.25rem;
+    font-size: 2.4rem;
   }
 }
 
 .navbar-brand {
   .logo {
-    width: 20vw;
-    min-width: 140px;
+    width: 12rem;
     max-width: 220px;
+    transition: all 0.2s ease;
+
+    @include media-breakpoint-up(lg) {
+      width: 20rem;
+
+      .headroom-not-top & {
+        width: 9.2rem;
+      }
+    }
   }
 }
 
-.navbar {
-  padding: 30px 40px;
+.banner {
+  padding: 2rem;
+  transition: all 0.2s ease;
 
   @include media-breakpoint-up(lg) {
-    padding: 50px 60px;
+    padding: 50px 60px 1rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+
+    &.headroom-not-top {
+      background: $blue;
+      box-shadow: 0 -10px 16px 10px rgba($green, 0.6);
+      transform: translateY(-4rem);
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    .email {
+      path {
+        stroke: #fff !important;
+        stroke-dashoffset: 0 !important;
+      }
+    }
+  }
+
+  &.headroom-not-top {
+    .email path {
+      stroke-dashoffset: 0 !important;
+    }
   }
 }
 
-.wrap {
-  padding: 0 2rem;
+.menu-btn {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  z-index: 9999;
+
+  .top & {
+    box-shadow: none !important;
+  }
+
+  path {
+    transform-origin: center;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .menu-open & {
+    background-color: transparent !important;
+
+    path {
+      stroke: #fff;
+    }
+
+    svg {
+      path:nth-child(1) {
+        transform: rotate(45deg) translateY(8px);
+      }
+
+      path:nth-child(2) {
+        transform: rotate(-45deg);
+      }
+
+      path:nth-child(3) {
+        opacity: 0;
+        transform: translate3d(1rem, -1.5rem, 0);
+      }
+    }
+  }
+}
+
+.language-menu {
+  top: -3rem;
+  right: 1rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: $blue;
+
+  .active {
+    color: #fff;
+  }
+
+  @include media-breakpoint-up(lg) {
+    position: absolute;
+    font-size: 1.6rem;
+    color: #fff;
+
+    .active {
+      color: $green;
+    }
+  }
+}
+
+.email-block {
+  .email {
+    @include media-breakpoint-up(lg) {
+      width: 60px;
+      height: 60px;
+    }
+  }
+
+  .arrow {
+    position: absolute;
+    top: 6rem;
+    left: -1.5rem;
+    transition: all 0.2s ease;
+
+    @include media-breakpoint-up(lg) {
+      opacity: 0;
+      visibility: hidden;
+      top: 3rem;
+      left: 2rem;
+    }
+
+    svg {
+      transform: rotateX(180deg) rotate(85deg);
+
+      path {
+        stroke: $blue;
+      }
+
+      @include media-breakpoint-up(lg) {
+        width: 40px;
+
+        path {
+          stroke: #fff;
+        }
+      }
+    }
+  }
+
+  .hello {
+    transition: all 0.2s ease;
+    position: absolute;
+    top: 10rem;
+    left: -8.5rem;
+    transform: rotate(355deg);
+    color: $blue;
+
+    @include media-breakpoint-up(lg) {
+      opacity: 0;
+      visibility: hidden;
+      color: #fff;
+      font-size: 1.4rem;
+      top: 6.5rem;
+      left: -4.5rem;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    .headroom-top & {
+      &:hover {
+        .hello,
+        .arrow {
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+    }
+  }
 }

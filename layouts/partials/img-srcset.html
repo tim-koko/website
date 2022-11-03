@@ -1,0 +1,11 @@
+{{ $image := resources.Get .img  }}
+{{ $size := .size   }}
+{{ $alt := .alt   }}
+{{ $lazy := .lazy   }}
+
+<picture>
+  <source data-srcset="{{  ($image.Resize (printf "%sx webp" (string  $size))).RelPermalink }} {{$size}}w,{{  ($image.Resize (printf "%sx webp" (string (mul $size 2)))).RelPermalink }}  {{mul $size 2}}w" sizes="(min-width:{{mul $size 2}}px) {{mul $size 2}}px, 80vw" type="image/webp">
+  <source data-srcset="{{ ($image.Resize (printf "%sx" (string  $size))).RelPermalink }} {{$size}}w,{{  ($image.Resize (printf "%sx" (string (mul $size 2)))).RelPermalink }}  {{mul $size 2}}w" sizes="(min-width:{{mul $size 2}}px) {{mul $size 2}}px, 80vw" type="image/jpeg">
+  <img class="img-fluid optimized lazyload"  width="{{mul $size 2}}" height="{{ ($image.Resize (printf "%sx" (string  (mul $size 2)))).Height }}" data-src="{{  ($image.Resize (printf "%sx" (string  (mul $size 2) )   )  ).RelPermalink }}"  alt="{{$alt}}" {{if ne $lazy false }} 		 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" {{else }} src="{{ ($image.Resize (printf "%sx" (string  $size))).RelPermalink }}"
+  {{end}}/>
+</picture>
