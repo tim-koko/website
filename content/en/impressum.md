@@ -19,12 +19,12 @@ MWST-Nr: CHE-173.198.973 MWST
 
 ### Branding (Concept & Design)
 
-Studio Wanner AG, Zurich, Switzerland
+Studio Wanner AG, Zurich, Switzerland  
 [www.studiowanner.ch](https://www.studiowanner.ch)
 
 ### Development
 
-Fint Digital Design, Zurich, Switzerland
+Fint Digital Design, Zurich, Switzerland  
 [www.fint.ch](https://www.fint.ch)
 
 ### Photography
