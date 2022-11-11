@@ -11,6 +11,7 @@ module.exports = {
         './content/**/*.md',
       ],
       safelist: [
+        'body',
         'lazyloaded',
         'table',
         'thead',

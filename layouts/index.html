@@ -90,11 +90,11 @@
 {{ with $data.homepage.slideshow }}
 
 <div class="slideshow-container">
-  <div id="slideshow2" class="carousel pt-25 pt-lg-30 mb-14 px-5 px-md-10 px-lg-16 px-xxl-32"  data-scroll> 
+  <div id="slideshow2" class="carousel pt-20 pt-md-25 pt-lg-30 mb-14 px-md-5 px-md-10 px-lg-16 px-xxl-32"  data-scroll> 
     <div class="slider">
       {{ range .images }}
       {{ if .img }} 
-      <div class="carousel-cell me-3_ me-lg-8_">
+      <div class="carousel-cell">
         {{ partial "img-srcset.html" (dict "img" .img "size" 800 "alt" "") }}
       </div>
       {{ end }}
