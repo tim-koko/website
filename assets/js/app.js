@@ -6,6 +6,9 @@
 //import { listen } from 'quicklink/dist/quicklink.mjs';
 //listen();
 
+// detect Windows and touch devices
+import './assets/js/check-os-touch';
+
 // lazy sizes for image loading
 import 'lazysizes';
 
