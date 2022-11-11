@@ -11,6 +11,7 @@ module.exports = {
         './content/**/*.md',
       ],
       safelist: [
+        'body',
         'lazyloaded',
         'table',
         'thead',
@@ -30,6 +31,8 @@ module.exports = {
         'bottom',
         'headroom-not-top',
         'headroom-top',
+        'windows',
+        'touch',
         ...whitelister([
           './assets/scss/components/_alerts.scss',
           // './assets/scss/components/_buttons.scss',
