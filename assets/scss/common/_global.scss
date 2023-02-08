@@ -1,19 +1,13 @@
+:root {
+  scroll-behavior: auto !important;
+}
+
 html {
   font-size: 10px;
   // stylelint-disable
   height: -webkit-fill-available;
   // stylelint-enable
 }
-
-/*
-html,
-body {
-  scroll-padding-top: 12rem;
-
-  @include media-breakpoint-up(lg) {
-    scroll-padding-top: 24rem;
-  }
-*/
 
 body {
   background: $blue;
