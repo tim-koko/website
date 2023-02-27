@@ -39,6 +39,8 @@ const element = document.querySelector('.slideshow-container');
 const slider = document.querySelector('.slideshow-container .slider');
 const containerFluid = document.querySelector('.container-fluid');
 
+if(element) {
+
 if (!document.body.classList.contains('touch')) {
   
   let sliderWidth = slider.parentElement.scrollWidth,
@@ -115,4 +117,6 @@ if (!document.body.classList.contains('touch')) {
       flkty.next();
     });*/
   }
+}
+
 }
