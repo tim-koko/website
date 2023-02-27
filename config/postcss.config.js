@@ -33,6 +33,8 @@ module.exports = {
         'headroom-top',
         'windows',
         'touch',
+        'btn',
+        'btn-primary',
         ...whitelister([
           './assets/scss/components/_alerts.scss',
           // './assets/scss/components/_buttons.scss',
