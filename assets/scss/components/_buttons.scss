@@ -2,17 +2,79 @@
   --bs-btn-font-size: 2rem;
   --bs-btn-padding-x: 3rem;
   --bs-btn-padding-y: 1rem;
-  --bs-btn-color: #fff;
+  --bs-btn-color: #0a1432;
   --bs-btn-bg: #99e0bb;
   --bs-btn-border-color: #99e0bb;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #09112b;
+  --bs-btn-hover-bg: transparent;
   --bs-btn-hover-border-color: #99e0bb;
   --bs-btn-focus-shadow-rgb: 47, 55, 81;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #081028;
-  --bs-btn-active-border-color: #080f26;
+  --bs-btn-active-bg: #99e0bb;
+  --bs-btn-active-border-color: #99e0bb;
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #99e0bb;
   --bs-btn-disabled-border-color: #99e0bb;
+}
+
+.btn-job {
+  --bs-btn-font-size: 1.8rem;
+  --bs-btn-color: #fff;
+  --bs-btn-hover-bg: #0a1432;
+  --bs-btn-padding-x: 2rem;
+  --bs-btn-padding-y: 2rem;
+
+  width: 27rem;
+  height: 27rem;
+  position: absolute;
+  right: -5rem;
+  top: -50rem;
+  transform: rotate(-10deg) scale(0.5);
+  box-shadow: 0 0 16px rgba($secondary, 0.6);
+  z-index: 5;
+
+  @include media-breakpoint-up(sm) {
+    right: 0;
+    transform: rotate(-10deg) scale(0.75);
+  }
+
+  @include media-breakpoint-up(lg) {
+    top: -62rem;
+  }
+
+  @include media-breakpoint-up(xl) {
+    right: 3vw;
+    top: -59rem;
+    transform: rotate(-10deg);
+  }
+
+  .text-primary {
+    transition: color 0.15s ease-in-out;
+  }
+
+  &:hover {
+    .text-primary,
+    .arrow-box {
+      color: #fff !important;
+    }
+  }
+
+  .arrow-box {
+    position: absolute;
+    top: -8%;
+    left: 77%;
+    transform: rotate(3deg);
+    width: 124px;
+    pointer-events: none;
+
+    .arrow {
+      position: absolute;
+      left: -84%;
+      top: -17%;
+
+      svg {
+        transform: scaleX(-100%) rotate(83deg);
+      }
+    }
+  }
 }

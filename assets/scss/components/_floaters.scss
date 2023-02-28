@@ -24,7 +24,8 @@
   }
 
   @include media-breakpoint-up(lg) {
-    #partner & {
+    #partner &,
+    .jobs & {
       left: -8rem;
       top: 10rem;
     }
@@ -57,7 +58,8 @@
       right: -6rem;
     }
 
-    #partner & {
+    #partner &,
+    .jobs & {
       top: -11rem;
       right: auto;
       left: 4rem;
@@ -84,7 +86,8 @@
       right: 0;
     }
 
-    #partner & {
+    #partner &,
+    .jobs & {
       top: -10rem;
       right: auto;
       left: 19rem;
@@ -105,7 +108,8 @@
     top: 4rem;
     right: 4rem;
 
-    #partner & {
+    #partner &,
+    .jobs & {
       top: -10rem;
       right: auto;
       left: 39rem;
@@ -119,7 +123,8 @@
   }
 
   &:nth-child(4) {
-    #partner & {
+    #partner &,
+    .jobs & {
       top: 4rem;
       right: auto;
       left: 35rem;
