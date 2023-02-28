@@ -35,6 +35,7 @@ module.exports = {
         'touch',
         'btn',
         'btn-primary',
+        'jobs',
         ...whitelister([
           './assets/scss/components/_alerts.scss',
           // './assets/scss/components/_buttons.scss',
