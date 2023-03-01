@@ -11,7 +11,7 @@ Priority: 0.3
 smallTitle: "Stellenbeschieb"
 ---
 
-### 60 – 800% {.text-white .regular .mt-0}
+### 60 – 80% {.text-white .regular .mt-0}
 
 &nbsp;
 
@@ -21,9 +21,7 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 
 &nbsp;
 
-### Das erwartet Sie bei uns – Erfahrungen, von denen Sie ein Leben lang profitieren
-
-&nbsp;
+### Das erwartet Sie bei uns – Erfahrungen, von denen Sie ein Leben lang profitieren {.mb-2 .mb-lg-4}
 
 - Begleiten der Cloud Native Journey von A – Z (beinhaltet das magische Dreieck, Technologie, Kultur und Prozesse)
 - Cloud Architektur Design und Lösungsarchitektur
@@ -34,9 +32,7 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 
 &nbsp;
 
-### Das bringen Sie mit – Fähigkeiten, mit denen Sie die Zukunft gestalten
-
-&nbsp;
+### Das bringen Sie mit – Fähigkeiten, mit denen Sie die Zukunft gestalten {.mb-2 .mb-lg-4}
 
 - Begleiten der Cloud Native Journey von A – Z (beinhaltet das magische Dreieck, Technologie, Kultur und Prozesse)
 - Cloud Architektur Design und Lösungsarchitektur
