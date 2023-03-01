@@ -29,7 +29,7 @@
     max-width: 400px;
     opacity: 0;
     transform: translateX(3rem);
-    transition: all 0.4s ease-out;
+    transition: opacity 0.4s ease-out, transform 0.4s ease-out;
 
     .menu-open & {
       opacity: 1;
@@ -202,7 +202,7 @@
 .email-block {
   opacity: 0;
   transform: translateX(3rem);
-  transition: all 0.4s ease-out;
+  transition: opacity 0.4s ease-out, transform 0.4s ease-out;
 
   .menu-open & {
     opacity: 1;
