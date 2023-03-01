@@ -27,8 +27,8 @@
   width: 21rem;
   height: 21rem;
   position: absolute;
-  right: -2rem;
-  top: -46rem;
+  right: 0;
+  top: -45rem;
   transform: rotate(-10deg) scale(0.7);
   box-shadow: 0 0 16px rgba($secondary, 0.6);
   z-index: 5;
@@ -69,7 +69,7 @@
     top: -8%;
     left: 77%;
     transform: rotate(3deg);
-    width: 124px;
+    width: 111px;
     pointer-events: none;
 
     @include media-breakpoint-down(sm) {
@@ -78,7 +78,7 @@
 
     .arrow {
       position: absolute;
-      left: -84%;
+      left: -94%;
       top: -17%;
 
       svg {
