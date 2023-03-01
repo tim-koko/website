@@ -21,19 +21,24 @@
   --bs-btn-font-size: 1.8rem;
   --bs-btn-color: #fff;
   --bs-btn-hover-bg: #0a1432;
-  --bs-btn-padding-x: 2rem;
-  --bs-btn-padding-y: 2rem;
+  --bs-btn-padding-x: 1rem;
+  --bs-btn-padding-y: 1rem;
 
-  width: 27rem;
-  height: 27rem;
+  width: 21rem;
+  height: 21rem;
   position: absolute;
-  right: -5rem;
-  top: -50rem;
-  transform: rotate(-10deg) scale(0.5);
+  right: -2rem;
+  top: -46rem;
+  transform: rotate(-10deg) scale(0.7);
   box-shadow: 0 0 16px rgba($secondary, 0.6);
   z-index: 5;
 
   @include media-breakpoint-up(sm) {
+    --bs-btn-padding-x: 2rem;
+    --bs-btn-padding-y: 2rem;
+
+    width: 27rem;
+    height: 27rem;
     right: 0;
     transform: rotate(-10deg) scale(0.75);
   }
@@ -66,6 +71,10 @@
     transform: rotate(3deg);
     width: 124px;
     pointer-events: none;
+
+    @include media-breakpoint-down(sm) {
+      transform: rotate(-7deg) scale(0.9) translate(-3rem, -4rem);
+    }
 
     .arrow {
       position: absolute;
