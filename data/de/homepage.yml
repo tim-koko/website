@@ -1,7 +1,7 @@
 # Job Button
 job:
-  active: true
-  title: "Cloud Native Operations Engineer"
+  active: false
+  title: "Cloud Native Engineer"
   percent: "60-80%"
   place: "Bern, Schweiz"
   link: "/jobs/"

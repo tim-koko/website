@@ -1,9 +1,9 @@
 ---
-title: "Cloud Native Operations Engineer"
+title: "Cloud Native Engineer"
 description: ""
 lead: ""
-date: 2022-10-31T00:00:00+00:00
-lastmod: 2022-05-28T00:00:00+00:00
+date: 2023-24-03T00:00:00+00:00
+lastmod: 2023-24-03T00:00:00+00:00
 draft: false
 images: []
 Sitemap:
@@ -15,35 +15,60 @@ smallTitle: "Job description"
 
 &nbsp;
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Schlägt dein Herz für Cloud Native Technologien und Du bist ein:e Spezialist:in in der Anwendung von Container-Technologien, Kubernetes, CI/CD und Co.? Dann bist Du bei uns genau richtig.
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,
+&nbsp;
+
+### Wer sind wir - ROKT kurz und knapp
+
+Seit der Gründung am 22.02.2022 begleiten wir von ROKT, Unternehmen  ganz nach oben. Genauer gesagt: In die Cloud.
+
+Wir beraten unsere Kund:innen auf Augenhöhe, wir sind Expert:innen in Cloud Native Technologien und Open Source Software und bieten ein hoch professionelles Cloud Consulting an. Gemeinsam mit unseren Kund:innen finden wir heraus, was das konkret für ihr Unternehmen und die Menschen, die darin arbeiten, bedeutet und befähigen sie, die unendlichen Möglichkeiten von Cloud Native Computing voll auszuschöpfen.
+
+Um unsere Kund:innen optimal unterstützen zu können, arbeiten wir direkt in den Projekten mit und sind Teil der Projektteams. Wir sind Praktiker:innen und machen unsere Hände gerne schmutzig, das schätzen unsere Kund:innen und unterscheidet uns von regulären Cloud Consulting-Anbietern.
 
 &nbsp;
 
 ### Das erwartet Sie bei uns – Erfahrungen, von denen Sie ein Leben lang profitieren {.mb-2 .mb-lg-4}
 
-- Begleiten der Cloud Native Journey von A – Z (beinhaltet das magische Dreieck, Technologie, Kultur und Prozesse)
-- Cloud Architektur Design und Lösungsarchitektur
-- Coachen von Mitarbeitenden, Trainings
-- Workshops, Reviews
-- Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis
-- At vero eos et accusam et justo duo dolores et ea rebum
+Als Cloud Native Engineer
+
+- begleitest Du unsere Kund:innen auf ihrer Cloud Native Journey von A – Z, von der Technologie, über die Kultur bis hin zu den Prozessen.  
+- entwickelst Du das Cloud Architektur Design und die Lösungsarchitektur
+- berätst die Mitarbeitenden unserer Kund:innen und leitest Trainings und hilfst bei Workshops und Reviews
+- Du machst dir die Hände schmutzig und unterstützt die Projektteams unserer Kund:innen direkt beim Container, Kubernetes und Cloud Native Software Engineering
+- konzipierst und implementierst Du Delivery Pipelines
+- bist Du ein:e Experte:in für Automation, GitOps und Observability
 
 &nbsp;
 
 ### Das bringen Sie mit – Fähigkeiten, mit denen Sie die Zukunft gestalten {.mb-2 .mb-lg-4}
 
-- Begleiten der Cloud Native Journey von A – Z (beinhaltet das magische Dreieck, Technologie, Kultur und Prozesse)
-- Cloud Architektur Design und Lösungsarchitektur
-- Coachen von Mitarbeitenden, Trainings
-- Workshops, Reviews
-- Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis
-- At vero eos et accusam et justo duo dolores et ea rebum
+- Du hast langjährige Erfahrung in Cloud Native Technologien wie Kubernetes, OpenShift, Docker, ArgoCD, GO, Helm, Prometheus, Cilium, Tekton, Terraform, etc.
+- Du arbeitest gerne mit Kund:innen und bist auch bereit vor Ort oder von Remote zu arbeiten
+- Die Arbeit in interdisziplinären Teams bereitet dir Freude und ist für dich nichts Neues.
+- Du bist bereit, dich in neue Technologien und Unternehmensstrukturen einzuarbeiten
+- Du arbeitest gerne selbständig und die direkte Kommunikation mit deinen Kund:innen ist für dich selbstverständlich und Teil deiner Arbeit.
+- Du bist lösungsorientiert und stets bemüht dich, für unseren Kund:innen optimale Lösungen zu entwickeln.
+- Als Spezialist:in, teilst Du dein Wissen und deine Erfahrungen gerne mit anderen.
+- Es macht dir Freude ROKT als Unternehmen weiterzuentwickeln und deine Ideen einzubringen
+- Du hilfst bei der Akquise von neuen Kundenaufträgen mit und baust dein Netzwerk konstant aus
 
 &nbsp;
 
-Machen Sie jetzt den nächsten Schritt: Bewerben Sie sich für diese Position Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.
+### Was rokt für dich bei ROKT? {.mb-2 .mb-lg-4}
+
+- Wir bieten dir viel Raum und Freiheit zum selbständigen Arbeiten in einem kleinen, modernen und unkomplizierten Team
+- Du arbeitest in technologisch spannenden und innovativen Kundenprojekten
+- Aus- und Weiterbildung und die gemeinsame Weiterentwicklung von ROKT wird bei uns hoch geschrieben - dafür stehen dir 20% deines Pensums zur freien Verfügung
+- Bei uns gibt es keine Hierarchiestufen. Alle Members sind gleichgestellt.
+- Unser Büro liegt in der schönen Berner Altstadt und ist nur einige Gehminuten von der Münsterplattform und der Aare entfernt.
+- Neben flexiblen Arbeitszeiten und guten Sozialleistungen, bieten wir dir viele kleine Goodies wie ein Halbtaxabonnement, gratis Kaffee usw.
+- Ende Jahr entscheiden wir gemeinsam über die Verwendung des Geschäftsgewinns
+
+&nbsp;
+
+Mache jetzt den nächsten Schritt: Hast Du Lust mehr zu erfahren, dann lass und zusammen ein Kaffee trinken und darüber sprechn.
 
 &nbsp;
 
