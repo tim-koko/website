@@ -68,7 +68,7 @@ Als Cloud Native Engineer
 
 &nbsp;
 
-Mache jetzt den nächsten Schritt: Hast Du Lust mehr zu erfahren, dann lass und zusammen ein Kaffee trinken und darüber sprechn.
+Mache jetzt den nächsten Schritt: Hast Du Lust mehr zu erfahren, dann lass und zusammen einen Kaffee trinken und darüber sprechen.
 
 &nbsp;
 
