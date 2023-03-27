@@ -29,7 +29,7 @@ Um unsere Kund:innen optimal unterstützen zu können, arbeiten wir direkt in de
 
 &nbsp;
 
-### Das erwartet Sie bei uns – Erfahrungen, von denen Sie ein Leben lang profitieren {.mb-2 .mb-lg-4}
+### Das erwartet dich bei uns – Erfahrungen, von denen Du ein Leben lang profitierst {.mb-2 .mb-lg-4}
 
 Als Cloud Native Engineer
 
@@ -42,14 +42,14 @@ Als Cloud Native Engineer
 
 &nbsp;
 
-### Das bringen Sie mit – Fähigkeiten, mit denen Sie die Zukunft gestalten {.mb-2 .mb-lg-4}
+### Das bringst Du mit – Fähigkeiten, mit denen Du die Zukunft gestaltest {.mb-2 .mb-lg-4}
 
 - Du hast langjährige Erfahrung in Cloud Native Technologien wie Kubernetes, OpenShift, Docker, ArgoCD, GO, Helm, Prometheus, Cilium, Tekton, Terraform, etc.
 - Du arbeitest gerne mit Kund:innen und bist auch bereit vor Ort oder von Remote zu arbeiten
 - Die Arbeit in interdisziplinären Teams bereitet dir Freude und ist für dich nichts Neues.
 - Du bist bereit, dich in neue Technologien und Unternehmensstrukturen einzuarbeiten
 - Du arbeitest gerne selbständig und die direkte Kommunikation mit deinen Kund:innen ist für dich selbstverständlich und Teil deiner Arbeit.
-- Du bist lösungsorientiert und stets bemüht dich, für unseren Kund:innen optimale Lösungen zu entwickeln.
+- Du bist lösungsorientiert und stets bemüht, die für unsere:n Kund:innen optimale Lösungen zu entwickeln.
 - Als Spezialist:in, teilst Du dein Wissen und deine Erfahrungen gerne mit anderen.
 - Es macht dir Freude ROKT als Unternehmen weiterzuentwickeln und deine Ideen einzubringen
 - Du hilfst bei der Akquise von neuen Kundenaufträgen mit und baust dein Netzwerk konstant aus
