@@ -30,6 +30,29 @@
 </div>
 {{ end }}
 
+{{ with $data.homepage.job }}
+  {{ if .active}}
+
+  <div class="w-100 position-absolute overflow-hidden job-wrapper">
+
+    <a href="{{ .link }}" class="btn btn-primary btn-job rounded-circle d-flex flex-column text-center align-items-center justify-content-center ">
+      <span class="bigger">{{ .place }}</span>
+      <span class="h3 text-primary">{{ .title }}</span>
+      <span class="bigger">{{ .percent }}</span>
+      
+      <div class="arrow-box">
+        {{ i18n "openPosition" }}
+        
+        <div class="icon-draw line arrow" >
+          <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><path d="M28.0318,91.73572c1.34602-9.49439,9.21021-22.72927,16.62423-28.81101,15.19225-12.46223,33.81087-16.90965,53.18412-13.62505" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M85.61585,61.67499c4.53342-4.61031,9.32773-8.96405,14.35235-13.03345-7.20233-5.00029-14.9857-9.16293-23.14319-12.37726" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/></svg>
+        </div>
+        
+      </div>
+    </a>
+  </div>
+  {{ end }}
+{{ end }}
+
 {{ with $data.homepage.cloud_native }}
 <section id="cloud-native" class="section container-fluid  pt-25 pt-lg-30">
   <div class="row row-cols-1 row-cols-lg-2">

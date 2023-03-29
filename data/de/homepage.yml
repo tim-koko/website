@@ -1,3 +1,11 @@
+# Job Button
+job:
+  active: true
+  title: "Cloud Native Engineer"
+  percent: "60-80%"
+  place: "Bern, Schweiz"
+  link: "/jobs/"
+
 # Hero Section
 hero:
   small_title: "Into the Cloud"

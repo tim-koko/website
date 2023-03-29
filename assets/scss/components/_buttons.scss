@@ -1,0 +1,104 @@
+.btn-primary {
+  --bs-btn-font-size: 2rem;
+  --bs-btn-padding-x: 3rem;
+  --bs-btn-padding-y: 1rem;
+  --bs-btn-color: #0a1432;
+  --bs-btn-bg: #99e0bb;
+  --bs-btn-border-color: #99e0bb;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: transparent;
+  --bs-btn-hover-border-color: #99e0bb;
+  --bs-btn-focus-shadow-rgb: 47, 55, 81;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #99e0bb;
+  --bs-btn-active-border-color: #99e0bb;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #99e0bb;
+  --bs-btn-disabled-border-color: #99e0bb;
+}
+
+.job-wrapper {
+  top: 50rem;
+  height: 34rem;
+  pointer-events: none;
+
+  @include media-breakpoint-up(sm) {
+    top: 63rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    top: 74rem;
+  }
+}
+
+.btn-job {
+  --bs-btn-font-size: 1.8rem;
+  --bs-btn-color: #fff;
+  --bs-btn-hover-bg: #0a1432;
+  --bs-btn-padding-x: 1rem;
+  --bs-btn-padding-y: 1rem;
+
+  pointer-events: auto;
+  width: 21rem;
+  height: 21rem;
+  position: absolute;
+  right: -2rem;
+  top: 2rem;
+  transform: rotate(-10deg) scale(0.7);
+  box-shadow: 0 0 16px rgba($secondary, 0.6);
+  z-index: 5;
+
+  @include media-breakpoint-up(sm) {
+    --bs-btn-padding-x: 2rem;
+    --bs-btn-padding-y: 2rem;
+
+    width: 27rem;
+    height: 27rem;
+    right: 0;
+    transform: rotate(-10deg) scale(0.75);
+  }
+
+  @include media-breakpoint-up(xl) {
+    right: 3vw;
+    top: 5rem;
+    transform: rotate(-10deg);
+  }
+
+  @include media-breakpoint-up(xxl) {
+    right: 5vw;
+  }
+
+  .text-primary {
+    transition: color 0.15s ease-in-out;
+  }
+
+  &:hover {
+    .text-primary,
+    .arrow-box {
+      color: #fff !important;
+    }
+  }
+
+  .arrow-box {
+    position: absolute;
+    top: -8%;
+    left: 77%;
+    transform: rotate(3deg);
+    width: 111px;
+    pointer-events: none;
+
+    @include media-breakpoint-down(sm) {
+      transform: rotate(-7deg) scale(0.9) translate(-3rem, -4rem);
+    }
+
+    .arrow {
+      position: absolute;
+      left: -94%;
+      top: -17%;
+
+      svg {
+        transform: scaleX(-100%) rotate(83deg);
+      }
+    }
+  }
+}
