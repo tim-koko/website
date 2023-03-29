@@ -1,6 +1,6 @@
 # Job Button
 job:
-  active: false
+  active: true
   title: "Cloud Native Engineer"
   percent: "60-80%"
   place: "Bern, Schweiz"
