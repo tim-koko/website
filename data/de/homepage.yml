@@ -86,12 +86,6 @@ about:
   title: "Über uns – Wir leben Cloud Native"
   text: "<p>Bei ROKT steht der Mensch im Zentrum. Wir setzen uns für eine Unternehmenskultur ein, die von Neugier, Ko-Kreation und Mut geprägt ist. Unser Kopf mag zwar in der Cloud sein, aber wir stehen mit beiden Beinen auf dem Boden.</p>"
   persons:
-    - name: "Thomas Philipona"
-      title: "Founder"
-      img: "images/team/20221018-Rokt_Bern_1133@4x.jpg"
-      linkedin: "https://www.linkedin.com/in/thomas-philipona-thun/"
-      twitter: "https://twitter.com/tphilipona"
-      github: "https://github.com/phil-pona"
     - name: "Sarah Pfeiffer"
       title: "Project Manager"
       img: "images/team/20221018-Rokt_Bern_1139@4x.jpg"
@@ -102,6 +96,12 @@ about:
       img: "images/team/raffi.jpg"
       linkedin: "https://www.linkedin.com/in/raffael-hertle-22882b157/"
       twitter: "https://twitter.com/g1raffi"
+    - name: "Thomas Philipona"
+      title: "Founder"
+      img: "images/team/20221018-Rokt_Bern_1133@4x.jpg"
+      linkedin: "https://www.linkedin.com/in/thomas-philipona-thun/"
+      twitter: "https://twitter.com/tphilipona"
+      github: "https://github.com/phil-pona"
 
 # References Section
 # references:
