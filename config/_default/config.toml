@@ -113,7 +113,7 @@ rssLimit = 10
   category = "categories"
 
 [permalinks]
-  blog = "/:title/"
+  blog = "/blog/:slug/"
 
 [minify.tdewolff.html]
   keepWhitespace = false
