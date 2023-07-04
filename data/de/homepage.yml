@@ -87,7 +87,7 @@ about:
   text: "<p>Bei ROKT steht der Mensch im Zentrum. Wir setzen uns für eine Unternehmenskultur ein, die von Neugier, Ko-Kreation und Mut geprägt ist. Unser Kopf mag zwar in der Cloud sein, aber wir stehen mit beiden Beinen auf dem Boden.</p>"
   persons:
     - name: "Benjamin Affolter"
-      title: "Cloud Architect (startet im August 2023)"
+      title: "Cloud Architect"
       img: "images/team/benj.jpg"
       linkedin: "https://www.linkedin.com/in/benjamin-affolter/"
       github: "https://github.com/bliemli"
