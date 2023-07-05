@@ -201,10 +201,13 @@
 }
 
 .email-block {
-  opacity: 0;
   transform: translateX(3rem);
   transition: opacity 0.5s ease-out, transform 0.4s ease-out;
   will-change: opacity, transform;
+
+  @include media-breakpoint-down(lg) {
+    opacity: 0;
+  }
 
   .menu-open & {
     opacity: 1;
