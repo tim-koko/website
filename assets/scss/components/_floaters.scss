@@ -8,6 +8,14 @@
     transform: scale(0.55);
   }
 
+  .blog:not(.single) & {
+    right: 0;
+  }
+
+  .blog.single & {
+    left: 0;
+  }
+
   .hero & {
     right: 7.5rem;
     left: auto;
@@ -58,6 +66,11 @@
       right: -6rem;
     }
 
+    .blog.single & {
+      right: auto;
+      left: 0;
+    }
+
     #partner &,
     .jobs & {
       top: -11rem;
@@ -102,6 +115,24 @@
         transform: rotate(51deg);
       }
     }
+
+    .blog:not(.single) & {
+      top: -6rem;
+      right: 18rem;
+
+      svg {
+        transform: rotate(200deg);
+      }
+    }
+
+    .blog.single & {
+      right: auto;
+      left: 20rem;
+
+      svg {
+        transform: scaleX(-1);
+      }
+    }
   }
 
   &:nth-child(3) {
@@ -120,6 +151,12 @@
       right: auto;
       left: 7rem;
     }
+
+    .blog.single & {
+      right: auto;
+      left: 17rem;
+      top: 6rem;
+    }
   }
 
   &:nth-child(4) {
@@ -127,7 +164,7 @@
     .jobs & {
       top: 4rem;
       right: auto;
-      left: 35rem;
+      left: 33rem;
 
       svg {
         transform: rotate(13deg);
@@ -141,6 +178,11 @@
       svg {
         transform: rotate(255deg);
       }
+    }
+
+    .blog.single & {
+      right: auto;
+      left: 39rem;
     }
   }
 

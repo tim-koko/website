@@ -8,9 +8,6 @@ draft: false
 images: []
 Sitemap:
 Priority: 0.3
-smallTitle: "blog"
 ---
 
-## Blog
-
-test
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo. Vestibulum aliquam hendrerit molestie. Mauris malesuada nisi sit amet augue accumsan tincidunt. Maecenas tincidunt, velit ac porttitor pulvinar, tortor eros facilisis.

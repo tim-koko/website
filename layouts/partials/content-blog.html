@@ -1,0 +1,65 @@
+<div data-scroll class="border-top border-2 border-secondary w-100 {{ .Title | urlize}} {{ range $key, $value := .Params.categories }}{{ (replace $value "/" "-") | urlize }} {{ end }} ">
+
+
+  <div class="row">
+
+    <div class="col-md-4 py-4 py-md-10">
+
+     {{with .Params.post_img }}
+      {{ partial "img-srcset.html" (dict "img" . "size" 500 ) }}
+    {{ end }}
+
+    </div>
+
+    <div  class="col-md-8">
+
+    
+
+      <div class="px-4 pb-4 py-md-10 d-flex flex-column h-100">
+        <div class="d-flex  mb-5 ">
+          <div>
+            {{ range $key, $value := .Params.categories }}
+              <span class="extra-small mb-3 me-3 px-3 py-1 border border-2 border-light rounded-pill">{{ $value }}</span> 
+            {{ end }}
+          </div>
+         
+            {{ if .Date }}
+            <div class="ms-auto nowrap small">{{ .Date.Format "02.01.2006" }}</div>
+            {{ end }}
+     
+        </div>
+        <a  href="{{ .Permalink | safeURL }}"> <h2 class="h3 mb-4 pe-md-5 me-md-5">{{ .Title }}</h2></a>
+          
+            <div class="mt-auto d-flex flex-column flex-md-row align-items-end">
+              <div class="me-auto">
+                <a class="small" href="{{ .Permalink | safeURL }}">{{ i18n "readMore" }}
+                  <div class="icon-draw line"><svg xmlns="http://www.w3.org/2000/svg" width="84" height="10" viewBox="0 0 91.45565 10.81185"><path vector-effect="non-scaling-stroke" d="M1.41188,3.81092c30.82411-1.61772,52.39289,5.57187,86.64564,1.56359" fill="none" fill-rule="evenodd" stroke="#99e0bb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg></div>
+                </a> 
+              </div>
+            
+                  <div class="author small d-flex align-items-center  mt-4 mt-md-0">
+
+                      {{- range .Params.authors }}
+                      {{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+
+                      <a href="{{ .Permalink }}">{{ .Params.name }}</a>
+                      
+                      <div class="rounded-circle  overflow-hidden ms-2">
+                        {{ partial "img-srcset.html" (dict "img" .Params.photo "size" 40  ) }}
+                      </div>
+                        
+                        
+                      {{ end }}
+                    {{ end }}
+                  </div>
+            </div>
+
+
+
+          </div>
+      </div>   
+    </div>
+
+
+
+</div>

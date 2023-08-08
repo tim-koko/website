@@ -54,8 +54,33 @@
   position: absolute;
   left: -0.75rem;
   z-index: 2;
+}
 
-  .button-previous svg {
-    transform: rotate(180deg);
+.button-previous svg {
+  transform: rotate(180deg);
+}
+
+.entry-content {
+  .carousel {
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+  }
+
+  .carousel-cell {
+    .caption {
+      display: none;
+    }
+  }
+
+  .carousel-cell-image {
+    max-width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: opacity 0.4s;
+
+    &.flickity-lazyloaded,
+    &.flickity-lazyerror {
+      opacity: 1;
+    }
   }
 }

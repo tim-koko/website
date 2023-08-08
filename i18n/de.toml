@@ -6,3 +6,15 @@ other = "Ausgeschrieben seit"
 
 [openPosition]
 other = "Offene Stelle"
+
+[readMore]
+other = "Weiterlesen"
+
+[published]
+other = "Veröffentlicht"
+
+[sharePost]
+other = "Beitrag teilen"
+
+[morePosts]
+other = "Weitere Beiträge"

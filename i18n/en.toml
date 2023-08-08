@@ -6,3 +6,15 @@ other = "Open since"
 
 [openPosition]
 other = "Open position"
+
+[readMore]
+other = "Read more"
+
+[published]
+other = "published"
+
+[sharePost]
+other = "Share article"
+
+[morePosts]
+other = "More articles"

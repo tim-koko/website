@@ -54,7 +54,7 @@ function scrollTo (target) {
 }
 
 
-const menuLinks = document.querySelectorAll('.home .menu-link');
+const menuLinks = document.querySelectorAll('.home .menu-link[href*="#"]');
 
 menuLinks.forEach(el => {
   el.addEventListener('click', (e) => {
