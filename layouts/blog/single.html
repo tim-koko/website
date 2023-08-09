@@ -47,7 +47,7 @@
         </div>
 
         {{ with .Params.lead }}
-        <div class="lead mb-4 mb-lg-5">{{ . | markdownify }}</div>
+        <div class="h3 mb-8 mb-lg-16">{{ . | markdownify }}</div>
 
         {{ end }}
 
@@ -120,7 +120,7 @@
               {{ partial "img-srcset.html" (dict "img" . "size" 500  ) }}
             {{ end }}
   
-            <div class="d-flex my-2 my-lg-4 small text-white">
+            <div class="d-flex my-4 my-lg-4 small text-white">
               <div>
                 {{ range $key, $value := .Params.categories }}
                 <span class="extra-small mb-3 me-3 px-3 py-1 border border-2 border-light rounded-pill">{{ $value }}</span> 

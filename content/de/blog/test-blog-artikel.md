@@ -12,4 +12,5 @@ Priority: 0.3
 
 categories: ["Technologie"]
 post_img: "images/blog/test.jpg"
+lead: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod"
 ---
