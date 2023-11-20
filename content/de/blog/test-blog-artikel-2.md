@@ -14,6 +14,11 @@ post_img: "images/blog/test.jpg"
 post_img_caption: "Optionale Bildlegende..."
 post_img_credits: "Optionale Bildcredits"
 lead: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod"
+
+# don't publish the page
+_build:
+ list: never
+ render: never
 ---
 
 Hier kommt dann der ganze Lauftext

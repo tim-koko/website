@@ -43,10 +43,10 @@ rssLimit = 10
     url = "/#partner"
     weight = 5
 
-    [[languages.de.menu.main]]
-    name = "Blog"
-    url = "/blog"
-    weight = 6
+    # [[languages.de.menu.main]]
+    # name = "Blog"
+    # url = "/blog"
+    # weight = 6
  
   [languages.en]
     languageName = "English"

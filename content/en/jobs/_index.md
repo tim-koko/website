@@ -9,6 +9,11 @@ images: []
 Sitemap:
 Priority: 0.3
 smallTitle: "Job description"
+
+# don't publish the page
+_build:
+ list: never
+ render: never
 ---
 
 ### 60 – 100% {.text-white .regular .mt-0}
