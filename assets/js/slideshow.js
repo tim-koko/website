@@ -3,6 +3,55 @@ import anime from 'animejs';
   
 
 
+const articleSlideshows = document.querySelectorAll('.entry-content .slides');
+
+if (articleSlideshows) {
+		
+
+
+  articleSlideshows.forEach((el) => {
+
+ 
+
+    var flkty = new Flickity(el.querySelector('.carousel'), {  
+      lazyLoad: 2,
+      prevNextButtons: false,
+      pageDots: false,
+    //	autoPlay: $this.hasClass('auto-play') ? 3000 : false,
+      wrapAround: true ,
+      cellAlign: 'left',
+      adaptiveHeight: true,
+    });
+    
+    /*
+    flkty.on( 'staticClick', function(  ) {
+      flkty.selectedIndex == flkty.cells.length - 1  ? flkty.select( 0 ) : flkty.next();
+
+    });
+*/
+    //var carouselStatus = $this.find('.carousel-status')[0];
+    var carouselCaption = el.querySelector('.c-caption');
+    
+    flkty.on( 'select', function() {
+      //var slideNumber = flkty.selectedIndex + 1;
+      //carouselStatus.textContent = slideNumber + '/' + flkty.slides.length;
+      carouselCaption.textContent = el.querySelector('.is-selected .caption').textContent ? el.querySelector('.is-selected .caption').textContent : el.querySelector('.carousel-cell:first-child .caption').textContent;
+    });
+
+    el.querySelector('.button-previous').addEventListener( 'click', function() {
+      flkty.previous();
+    });
+    // next
+    el.querySelector('.button-next').addEventListener( 'click', function() {
+      flkty.next();
+    });
+    
+
+  });
+}
+
+
+
 const slideshow = document.querySelector('.clients');
 
 if(slideshow) {

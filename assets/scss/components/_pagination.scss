@@ -1,0 +1,35 @@
+.pagination {
+  --bs-pagination-font-size: 1em;
+  --bs-pagination-padding-x: 1rem;
+  --bs-pagination-padding-y: 0;
+
+  margin: auto;
+}
+
+.page-link {
+  border-radius: 0 !important;
+  color: #fff;
+  border-color: var(--bs-primary);
+  background-color: transparent;
+
+  &:hover {
+    z-index: 2;
+    color: var(--bs-primary);
+    text-decoration: none;
+    background-color: var(--bs-secondary);
+    border-color: var(--bs-primary);
+  }
+}
+
+.page-item {
+  &.active .page-link {
+    z-index: 3;
+    color: var(--bs-primary);
+    background-color: var(--bs-secondary);
+    border-color: var(--bs-primary);
+  }
+
+  &.disabled {
+    display: none;
+  }
+}

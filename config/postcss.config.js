@@ -24,6 +24,7 @@ module.exports = {
         'flickity-slider',
         'active',
         'flickity-enabled',
+        'flickity-lazyloaded',
         'is-draggable',
         'flickity-viewport',
         'menu-open',
