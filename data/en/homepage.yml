@@ -112,8 +112,8 @@ references:
   text: ""
   projects:
     - title: "Adcubum – Syrius a journey into the cloud"
-      text: "<p>ROKT supports Adcubum on their exciting journey into the cloud. In doing so, we take on the important roles of the product owner of a system team and the cloud architect in the Kubernetes journey, which aims to prepare Syrius for operation on OpenShift. Additionally, we assist in engineering a central tracing platform.</p><p>Kurzes Zitat von Martina oder Lars</p>"
-      tech_text: "<p>OpenShift, Helm, ArgoCD, Prometheus, Grafana, Jenkins, OpenTelemetry</p>"
+      text: "<p>ROKT is supporting Adcubum on their exciting journey into the cloud. We take on the important roles of product owner of a system team and cloud architect in the Kubernetes journey, which aims to prepare Syrius for operation on OpenShift. Additionally, we help with the engineering of a central tracing platform.</p><p>Kurzes Zitat von Martina oder Lars</p>"
+      tech_text: "<p>OpenShift, Helm, Argo CD, Prometheus, Grafana, Jenkins, OpenTelemetry</p>"
       img: "images/projects/adcubum.jpg"
       link: "https://www.adcubum.com/"
 #       link: "https://denner.ch/"
