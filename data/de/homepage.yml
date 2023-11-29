@@ -109,15 +109,15 @@ about:
       github: "https://github.com/phil-pona"
 
 # References Section
-# references:
-#   title: "Referenzen – Die besten Kunden der Welt"
-#   text: ""
-#   projects:
-#     - title: "Denner – Lorem ipsum in der Cloud Lösung "
-#       text: "<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer id nisi nec nulla luctus lacinia non eu turpis. Etiam in ex impeurna ac augue rdie.</p>"
-#       tech_text: "<p>Lorem Ipsum Interdum, Docker, RHEL, Zabbix, puppet, RH Satellite 6, python, bash, OpenShift, GlusterFS, Ansible, Prometheus, Elasticsearch</p>"
-#       img: "images/projects/denner.png"
-#       link: "https://denner.ch/"
+references:
+  title: "Referenzen – Die besten Kunden der Welt"
+  text: ""
+  projects:
+    - title: "Adcubum – Syrius auf dem Weg in die Cloud"
+      text: "<p>ROKT unterstützt Adcubum auf ihrem spannenden Weg in die Cloud. Dabei übernehmen wir die wichtigen Rollen des Produkt Owners eines Systemteams  und des Cloud Architekten bei der Kubernetes Journey, die darauf abzielt, Syrius für den Betrieb auf OpenShift vorzubereiten. Zusätzlich dazu helfen wir beim Engineering einer zentralen Tracing Plattform.</p><p>Kurzes Zitat von Martina oder Lars</p>"
+      tech_text: "<p>OpenShift, Helm, ArgoCD, Prometheus, Grafana, Jenkins, OpenTelemetry</p>"
+      img: "images/projects/adcubum.jpg"
+      link: "https://www.adcubum.com/"
 #     - title: "Migros – Lorem ipsum in der Cloud Lösung "
 #       text: "<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer id nisi nec nulla luctus lacinia non eu turpis. Etiam in ex impeurna ac augue rdie.</p>"
 #       tech_text: "<p>Lorem Ipsum Interdum, Docker, RHEL, Zabbix, puppet, RH Satellite 6, python, bash, OpenShift, GlusterFS, Ansible, Prometheus, Elasticsearch</p>"

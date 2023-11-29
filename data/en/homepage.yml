@@ -107,14 +107,15 @@ about:
       github: "https://github.com/phil-pona"
 
 # References Section
-# references:
-#   title: "References – The best customers in the world"
-#   text: ""
-#   projects:
-#     - title: "Denner – Lorem ipsum in der Cloud Lösung "
-#       text: "<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer id nisi nec nulla luctus lacinia non eu turpis. Etiam in ex impeurna ac augue rdie.</p>"
-#       tech_text: "<p>Lorem Ipsum Interdum, Docker, RHEL, Zabbix, puppet, RH Satellite 6, python, bash, OpenShift, GlusterFS, Ansible, Prometheus, Elasticsearch</p>"
-#       img: "images/projects/denner.png"
+references:
+  title: "References – The best customers in the world"
+  text: ""
+  projects:
+    - title: "Adcubum – Syrius a journey into the cloud"
+      text: "<p>ROKT supports Adcubum on their exciting journey into the cloud. In doing so, we take on the important roles of the product owner of a system team and the cloud architect in the Kubernetes journey, which aims to prepare Syrius for operation on OpenShift. Additionally, we assist in engineering a central tracing platform.</p><p>Kurzes Zitat von Martina oder Lars</p>"
+      tech_text: "<p>OpenShift, Helm, ArgoCD, Prometheus, Grafana, Jenkins, OpenTelemetry</p>"
+      img: "images/projects/adcubum.jpg"
+      link: "https://www.adcubum.com/"
 #       link: "https://denner.ch/"
 
 # Partner Section
