@@ -4,9 +4,9 @@
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
 {{ if $.Scratch.Get "paginator" -}}
   {{ $paginator := .Paginate (where .Site.RegularPages.ByDate.Reverse "Section" "blog" ) -}}
-  <meta property="og:url" content="{{ .Paginator.URL | absURL }}">
+  <meta property="og:url" content="{{ .Paginator.URL | relURL }}">
 {{ else -}}
-  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:url" content="{{ .RelPermalink }}">
 {{ end -}}
 {{ with .Site.Params.title -}}
   <meta property="og:site_name" content="{{ . }}">
@@ -36,7 +36,7 @@
 
 {{ with $.Params.images -}}
   {{ range first 6 . -}}
-  <meta property="og:image" content="{{ $.Permalink }}{{ . }}">
+  <meta property="og:image" content="{{ $.RelPermalink }}{{ . }}">
   {{ end -}}
 {{ else -}}
   {{ $images := $.Resources.ByType "image" -}}
@@ -45,25 +45,25 @@
     {{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}
   {{ end -}}
   {{ with $featured -}}
-    <meta property="og:image" content="{{ $featured.Permalink }}"/>
+    <meta property="og:image" content="{{ $featured.RelPermalink }}"/>
   {{ else -}}
     {{ with $.Site.Params.images -}}
-      <meta property="og:image" content="{{ index . 0 | absURL }}"/>
+      <meta property="og:image" content="{{ index . 0 | relURL }}"/>
       <meta property="og:image:alt" content="{{ $.Site.Params.title }}">
     {{ end -}}
   {{ end -}}
 {{ end -}}
 
 {{ with $.Site.Params.images -}}
-  {{ $.Scratch.Set "primaryImage" (index . 0 | absURL) -}}
+  {{ $.Scratch.Set "primaryImage" (index . 0 | relURL) -}}
 {{ end -}}
 
 {{ with .Params.audio -}}
-  <meta property="og:audio" content="{{ . | absURL }}">
+  <meta property="og:audio" content="{{ . | relURL }}">
 {{ end -}}
 
 {{ with .Params.videos -}}
   {{ range . -}}
-    <meta property="og:video" content="{{ . | absURL }}">
+    <meta property="og:video" content="{{ . | relURL }}">
   {{ end -}}
 {{ end -}}

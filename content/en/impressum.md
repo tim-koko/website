@@ -15,7 +15,7 @@ Founder: Thomas Philipona
 E-Mail: [hallo@rokt.cloud](mailto:hallo@rokt.cloud)  
 UID: CHE-173.198.973  
 MWST-Nr: CHE-173.198.973 MWST  
-[DSVGO]({{< ref path="/content/de/datenschutzerklaerung.md" lang="de">}})  
+[DSVGO]({{< relref path="/content/de/datenschutzerklaerung.md" lang="de">}})  
 
 ### Branding (Concept & Design)
 
@@ -30,4 +30,4 @@ Fint Digital Design, Zurich, Switzerland
 ### Photography
 
 Portraits and workshop scenarios, Janosch Abel, Bern, Switzerland  
-[www.janoschabel.com](https://ww.janoschabel.com)
+[www.janoschabel.com](https://www.janoschabel.com)
