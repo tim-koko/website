@@ -24,22 +24,22 @@
   <meta name="author" content="{{ .Site.Params.metaautor }}" />
   <meta name="copyright" content="{{ .Site.Params.metacopyright }}" />
 {{ if $.Scratch.Get "paginator" }}
-  <link rel="canonical" href="{{ .Paginator.URL | relURL }}">
+  <link rel="canonical" href="{{ .Paginator.URL | absURL }}">
   {{ if .Paginator.HasPrev -}}
-    <link rel="prev" href="{{ .Paginator.Prev.URL | relURL }}">
+    <link rel="prev" href="{{ .Paginator.Prev.URL | absURL }}">
   {{ end -}}
   {{ if .Paginator.HasNext -}}
-    <link rel="next" href="{{ .Paginator.Next.URL | relURL }}">
+    <link rel="next" href="{{ .Paginator.Next.URL | absURL }}">
   {{ end -}}
 {{ else  -}}
-  <link rel="canonical" href="{{ .RelPermalink | relURL }}">
+  <link rel="canonical" href="{{ .Permalink | absURL }}">
 {{ end -}}
 
 {{ partial "head/opengraph.html" . }}
 {{ partial "head/twitter_cards.html" . }}
 
 {{ range .AlternativeOutputFormats -}}
-  <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .RelPermalink | safeURL }}">
+  <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
 {{ end -}}
 
 {{ partial "head/structured-data.html" . }}
