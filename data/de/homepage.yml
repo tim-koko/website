@@ -138,7 +138,7 @@ partner:
       img: "images/partner/bespinian.svg"
       link: "https://bespinian.io/"
     - title: "BEGASOFT"
-      label: "Cloud und Container Platform"
+      label: "Cloud & Container Platform"
       img: "images/partner/begasoft.svg"
       link: "https://www.begasoft.ch/"
   #   - title: "arch.cloud"
