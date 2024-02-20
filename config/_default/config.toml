@@ -33,10 +33,10 @@ rssLimit = 10
     url = "/#about"
     weight = 3
 
-    # [[languages.de.menu.main]]
-    # name = "Referenzen"
-    # url = "/#references"
-    # weight = 4
+    [[languages.de.menu.main]]
+    name = "Referenzen"
+    url = "/#references"
+    weight = 4
 
     [[languages.de.menu.main]]
     name = "Partner"
@@ -70,10 +70,10 @@ rssLimit = 10
     url = "/en/#about"
     weight = 3
 
-    # [[languages.en.menu.main]]
-    # name = "References"
-    # url = "/en/#references"
-    # weight = 4
+    [[languages.en.menu.main]]
+    name = "References"
+    url = "/en/#references"
+    weight = 4
 
     [[languages.en.menu.main]]
     name = "Partner"

@@ -109,15 +109,15 @@ about:
       github: "https://github.com/phil-pona"
 
 # References Section
-# references:
-#   title: "Referenzen – Die besten Kunden der Welt"
-#   text: ""
-#   projects:
-#     - title: "Denner – Lorem ipsum in der Cloud Lösung "
-#       text: "<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer id nisi nec nulla luctus lacinia non eu turpis. Etiam in ex impeurna ac augue rdie.</p>"
-#       tech_text: "<p>Lorem Ipsum Interdum, Docker, RHEL, Zabbix, puppet, RH Satellite 6, python, bash, OpenShift, GlusterFS, Ansible, Prometheus, Elasticsearch</p>"
-#       img: "images/projects/denner.png"
-#       link: "https://denner.ch/"
+references:
+  title: "Referenzen – Die besten Kund:innen der Welt"
+  text: ""
+  projects:
+    - title: "Adcubum – Syrius auf dem Weg in die Cloud"
+      text: "<p>ROKT unterstützt Adcubum auf ihrem spannenden Weg in die Cloud. Dabei übernehmen wir die wichtigen Rollen des Product Owner eines System-Teams und des Cloud Architekten bei der Kubernetes Journey, die darauf abzielt, Syrius für den Betrieb auf OpenShift vorzubereiten. Zusätzlich dazu helfen wir beim Engineering einer zentralen Tracing Plattform.</p><p>Martina Penz, Projektleiterin: <i>\"Thomas Philipona hat uns bei unserem Vorhaben, unser Produkt in die Cloud zu bringen, in der Rolle als Product Owner und Architekt erfolgreich beraten und tatkräftig unterstützt. Dank seiner ausgewiesenen Expertise und großen Erfahrung konnten wir potenzielle Risiken frühzeitig identifizieren und Hürden umschiffen. Thömu hat sich innerhalb kürzester Zeit in unserer sehr komplexes Softwareumfeld eingearbeitet und in unsere agile Teamstruktur nahtlos integriert. Durch sein Wirken konnten wichtige Produktbausteine und -services umgesetzt und in Produktion genommen werden. Seine ausgeprägte Lösungsorientierung, hohe Verbindlichkeit und klare Kommunikation schätze ich sehr, dies gilt auch für unsere Kunden. Die vertrauensvolle Zusammenarbeit mit ihm generiert nicht nur Value, sondern macht wegen seiner offenen, positiven Art auch viel Spass.\"</i></p>"
+      tech_text: "<p>OpenShift, Helm, Argo CD, Prometheus, Grafana, Jenkins, OpenTelemetry</p>"
+      img: "images/projects/adcubum.jpg"
+      link: "https://www.adcubum.com/"
 #     - title: "Migros – Lorem ipsum in der Cloud Lösung "
 #       text: "<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer id nisi nec nulla luctus lacinia non eu turpis. Etiam in ex impeurna ac augue rdie.</p>"
 #       tech_text: "<p>Lorem Ipsum Interdum, Docker, RHEL, Zabbix, puppet, RH Satellite 6, python, bash, OpenShift, GlusterFS, Ansible, Prometheus, Elasticsearch</p>"
