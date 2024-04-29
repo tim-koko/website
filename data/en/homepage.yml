@@ -84,11 +84,11 @@ about:
   title: "About us – We live Cloud Native"
   text: "<p>At ROKT, people are at the centre of everything we do. We are committed to a corporate culture characterised by curiosity, co-creation and courage. Our heads may be in the cloud, but our feet are rooted firmly on the ground.</p>"
   persons:
-#    - name: "Christof Lüthi"
-#      title: "Cloud Architect"
-#      img: "images/team/chrigu.jpg"
-#      linkedin: "https://www.linkedin.com/in/christof-luethi/"
-#      github: "https://github.com/orgs/acend/people/christofluethi"
+    - name: "Christof Lüthi"
+      title: "Cloud Architect"
+      img: "images/team/chrigu.jpg"
+      linkedin: "https://www.linkedin.com/in/christof-luethi/"
+      github: "https://github.com/orgs/acend/people/christofluethi"
     - name: "Livia Affolter"
       title: "Project Manager"
       img: "images/team/livia.jpg"
@@ -144,14 +144,6 @@ partner:
       label: "Cloud & Container Platform"
       img: "images/partner/begasoft.svg"
       link: "https://www.begasoft.ch/"
-  #   - title: "arch.cloud"
-  #     label: "ICT-Partner"
-  #     img: "images/partner/puzzle-itc.svg"
-  #     link: "https://acend.ch"
-  #   - title: "Studio Wanner AG"
-  #     label: "UX/UI-Partner"
-  #     img: "images/partner/studiowanner.svg"
-  #     link: "https://studiowanner.ch"
 
 # Prefooter Section
 prefooter:
