@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "Insights - Themen, die uns beschäftigen"
 description: ""
 lead: ""
 date: 2023-11-20T00:00:00+00:00
@@ -10,4 +10,4 @@ Sitemap:
 Priority: 0.3
 ---
 
-Hier entsteht unsere Blogseite.
+In unserem Blog lassen wir hinter die Kulissen blicken, teilen unser Wissen in Posts zu technologischen Themen und erlauben den Besucher:innen mehr über uns und unsere Kultur zu erfahren.

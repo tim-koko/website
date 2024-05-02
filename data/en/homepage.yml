@@ -37,8 +37,10 @@ technologies:
       img: "images/tech/Prometheus_software_logo.svg"
     - title: "Cilium"
       img: "images/tech/cilium-logo-white.svg"
-    - title: "Tekton"
-      img: "images/tech/tekton-stacked-white.svg"
+    - title: "Kafka"
+      img: "images/tech/apache_kafka.svg"
+    # - title: "Tekton"
+    #   img: "images/tech/tekton-stacked-white.svg"
     - title: "Terraform"
       img: "images/tech/Terraform_VerticalLogo_White_RGB.svg"
 
