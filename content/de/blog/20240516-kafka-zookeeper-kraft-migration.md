@@ -92,7 +92,6 @@ KRaft Leader zusätzlich in ZooKeeper gespeichert. Dies ermöglicht ein Rollback
 
 {{< svg "assets/images/blog/kraft/kafka-kraft-migration-states.svg" >}}
 
-
 Eine Migration erfolgt in folgenden Schritten. Die Angabe zur Automatisierung bezieht sich auf den Strimzi Operator.
 
 {{< style-table "blogtable" >}}
