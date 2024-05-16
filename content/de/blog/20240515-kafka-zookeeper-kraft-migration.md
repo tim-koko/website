@@ -72,7 +72,7 @@ kritische Bugfixes für ZooKeeper basierte Cluster ausgeliefert werden.
 
 ### Migration
 
-> “KRaft has been supported in Confluent Cloud for over a year now […] We are about near 100% migration to KRaft”
+> _«KRaft has been supported in Confluent Cloud for over a year now […] We are about near 100% migration to KRaft»_
 >
 > -- <cite>Thomas Chase, Confluent Inc., Mai 2024</cite>
 
@@ -94,17 +94,18 @@ KRaft Leader zusätzlich in ZooKeeper gespeichert. Dies ermöglicht ein Rollback
 
 Eine Migration erfolgt in folgenden Schritten. Die Angabe zur Automatisierung bezieht sich auf den Strimzi Operator.
 
-{{< blog-table "blogtable" >}}
-| Schritt 	| Modus      	| Beschreibung                                                                                                                                                                                                                                                                                         	| Automatisiert 	| Rollback  	|
-|---------	|------------	|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|---------------	|-----------	|
-| 1       	| ZooKeeper  	| Ausgangszustand                                                                                                                                                                                                                                                                                      	| Nein          	| -         	|
-| 2       	| ZooKeeper  	| KRaft Instanzen werden erstellt. Diese warten auf die Verbindung der Kafka-Broker.                                                                                                                                                                                                                   	| Ja            	| Ja        	|
-| 3       	| ZooKeeper  	| Kafka Broker verbinden sich mit den KRaft Instanzen. Die Migration der Metadaten aus ZooKeeper zu KRaft beginnt.                                                                                                                                                                                     	| Ja            	| Ja        	|
-| 4       	| Dual-Write 	| Migration der Metadaten ist abgeschlossen. Der Leader der KRaft Instanzen schreibt die Änderungen an den Metadaten parallel in ZooKeeper. Die Kafka-Broker haben ihre Verbindung mit ZooKeeper getrennt. Der Zustand Dual-Write ist erreicht. Es ist der letztmögliche Zeitpunkt für einen Rollback. 	| Ja            	| Ja        	|
-| 5       	| KRaft      	| Der Leader der KRaft Instanzen schreibt die Metadaten nicht weiter zu ZooKeeper. Die Verbindung zu ZooKeeper wird getrennt.                                                                                                                                                                          	| Nein          	| Nein      	|
-| 6       	| KRaft      	| Die ZooKeeper Instanzen werden ausgeschaltet                                                                                                                                                                                                                                                         	| Ja            	| Nein      	|
-| 7       	| KRaft      	| Die Migration ist beendet und der Zielzustand ist erreicht.
-{{< /blog-table >}}
+{{< style-table "blogtable" >}}
+| Schritt | Modus | Beschreibung | Automatisiert | Rollback |
+|---------|------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|-----------|
+| 1 | ZooKeeper | Ausgangszustand | Nein | - |
+| 2 | ZooKeeper | KRaft Instanzen werden erstellt. Diese warten auf die Verbindung der Kafka-Broker. | Ja | Ja |
+| 3 | ZooKeeper | Kafka Broker verbinden sich mit den KRaft Instanzen. Die Migration der Metadaten aus ZooKeeper zu KRaft beginnt. | Ja | Ja |
+| 4 | Dual-Write | Migration der Metadaten ist abgeschlossen. Der Leader der KRaft Instanzen schreibt die Änderungen an den Metadaten parallel in ZooKeeper. Die Kafka-Broker haben ihre Verbindung mit ZooKeeper getrennt. Der Zustand Dual-Write ist erreicht. Es ist der letztmögliche Zeitpunkt für einen Rollback. | Ja | Ja |
+| 5 | KRaft | Der Leader der KRaft Instanzen schreibt die Metadaten nicht weiter zu ZooKeeper. Die Verbindung zu ZooKeeper wird getrennt. | Nein | Nein |
+| 6 | KRaft | Die ZooKeeper Instanzen werden ausgeschaltet | Ja | Nein |
+| 7 | KRaft | Die Migration ist beendet und der Zielzustand ist erreicht. | - | Nein |
+
+{{< /style-table >}}
 
 Wird der Strimzi/AMQ Streams Operator verwendet, werden die automatisierten Schritte vom Cluster-Operator übernommen.
 Das Auslösen der Migration, der allfällige Rollback und das Abschliessen der Migration wird über die Annotation
@@ -115,7 +116,7 @@ Das Auslösen der Migration, der allfällige Rollback und das Abschliessen der M
 Für die Migration zu ZooKeeper gibt es gewisse Limitationen. Es muss vorgängig geprüft werden, ob eine Migration von
 einer Limitation betroffen ist.
 
-**Allgemein**
+Allgemein
 
 * Die Migration sollte mit den neuesten Kafka-Versionen, Operatoren und Konfigurationen durchgeführt werden.
 * Der Combined Mode von KRaft ist für produktive Cluster nicht empfohlen
@@ -123,13 +124,14 @@ einer Limitation betroffen ist.
 * Während der Migration ist es nicht möglich, die `metadata.version` resp. `inter.broker.protocol.version` während des Upgrades zu ändern. Wird dies gemacht, kann dies den Cluster zerstören.
 * Im Moment werden für produktive Cluster nur 3 KRaft-Controller empfohlen. Eine höhere Anzahl wird explizit nicht empfohlen.
 
-**Folgende Features, welche im ZooKeeper-Modus unterstützt werden, werden zurzeit noch nicht unterstützt. Diese werden
-in der Kafka Version 3.8.0 produktionsreif.**
+Folgende Features, welche im ZooKeeper-Modus unterstützt werden, werden zurzeit noch nicht unterstützt. Diese werden
+in der Kafka Version 3.8.0 produktionsreif.
 
 * JBOD-Konfiguration (Just a Bunch of Disks) mit mehreren Storage-Locations. Die Spezifikation als JBOD mit nur einer Storage-Location ist möglich.
 * Änderungen am KRaft-Quorum (z.B. KRaft-Instanzen hinzufügen oder entfernen).
 
-**Spezifisch für Strimzi / AMQ-Streams Operator basierte Deployments gilt weiter:**
+Spezifisch für Strimzi / AMQ-Streams Operator basierte Deployments gilt weiter:
+
 * Um die Migration zu starten, muss mindestens Strimzi 0.40.0 oder neuer mit Kafka 3.7.0 verwendet werden.
 * Der Kafka-Cluster muss mit KafkaNodePools konfiguriert sein
 * Der Bidirectional Topic Operator wird nicht unterstützt.
@@ -137,6 +139,7 @@ in der Kafka Version 3.8.0 produktionsreif.**
 #### Vorbereitung für eine Migration
 
 Folgende Punkte sind zu beachten wenn eine Migration bevorsteht
+
 * Der Cluster erfüllt alle Voraussetzungen für eine Migration (siehe Limitationen)
 * Auch wenn die Migration keinen direkten Einfluss auf neuere Kafka-Clients hat, muss geprüft werden, ob eventuell noch alte Konfigurationen verwendet werden, die ZooKeeper voraussetzen. Als Beispiel:
   * Burrow verwendet ZooKeeper direkt
@@ -159,7 +162,6 @@ zur Verfügung stehen:
 
 **Metadata Shell:** `kafka-metadata-shell` ermöglicht die interaktive Untersuchung der Cluster Metadaten (analog ZooKeeper-Shell)
 
-
 ## Dürfen wir dich begleiten?
 
-Benötigst du Hilfe bei der Migration von ZooKeeper zu KRaft oder hast du allgemeine Fragen zu Apache Kafka? Zögern nicht und kontaktieren uns.
+Benötigst du Hilfe bei der Migration deines Kafka Clusters von Apache ZooKeeper zu KRaft oder hast du allgemeine Fragen zu Apache Kafka? Zögere nicht und kontaktieren uns.
