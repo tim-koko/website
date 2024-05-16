@@ -1,0 +1,15 @@
+// custom style for use with blog-table shortcode
+table.blogtable th {
+  font-weight: bold;
+}
+
+table.blogtable td,
+table.blogtable th {
+  border: 1px solid #fff;
+  padding: 10px;
+}
+
+table.blogtable {
+  font-size: $font-size-xl;
+  margin-bottom: 15px;
+}
