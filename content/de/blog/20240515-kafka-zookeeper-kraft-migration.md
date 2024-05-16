@@ -1,9 +1,9 @@
 ---
 title: "Migration von ZooKeeper basierten Kafka-Clustern zu KRaft"
 slug: "kafka-zookeeper-kraft-migration"
-description: "Test Test"
-date: 2024-05-15T00:00:00+00:00
-lastmod: 2024-05-15T00:00:00+00:00
+description: ""
+date: 2024-05-16T00:00:00+00:00
+lastmod: 2024-05-16T00:00:00+00:00
 draft: false
 images: []
 Sitemap:
@@ -11,7 +11,7 @@ Priority: 0.3
 
 categories: ["Technologie", "Apache Kafka", "Messaging"]
 post_img: "images/blog/kraft/kafka-kraft-migration-logo.png"
-lead: "Migration von ZooKeeper basierten Kafka-Clustern zu KRaft"
+lead: "Mit dem Release 3.6.2 ermöglicht Apache Kafka eine Migration von Apache ZooKeeper basierten Clustern zu KRaft. Der Ablösung von ZooKeeper steht nun nichts mehr im Wege. Was zu beachten ist, erfährst du hier."
 ---
 
 Apache Kafka ist eine weit verbreitete, robuste und verteilte Streaming- und Event-Plattform. Mit der Ablösung von
@@ -24,7 +24,7 @@ Ein Kafka-Cluster besteht aus mehreren Brokern, von denen einer als Controller f
 Aufgaben wie zum Beispiel das Management von Leader-Partitionen und Replica-Partitionen. So ist es zum Beispiel
 seine Aufgabe, bei einem Ausfall eines Brokers eine Replica-Partition auf einen anderen Broker als neue
 Leader-Partition zu promoten. Welcher der Broker als Kafka-Controller operiert, wird mittels Koordinations-Dienst
-Apache ZooKeeper (ZK) ermittelt. Der Controller ist für die aktive Kommunikation mit dem ZooKeeper-Cluster zuständig
+Apache ZooKeeper ermittelt. Der Controller ist für die aktive Kommunikation mit dem ZooKeeper-Cluster zuständig
 und speichert die Cluster-, Topic- und Partitions-Metadaten in ZooKeeper. Eine traditionelle Kafka-Architektur
 sieht daher wie folgt aus:
 
@@ -92,6 +92,7 @@ KRaft Leader zusätzlich in ZooKeeper gespeichert. Dies ermöglicht ein Rollback
 
 {{< svg "assets/images/blog/kraft/kafka-kraft-migration-states.svg" >}}
 
+
 Eine Migration erfolgt in folgenden Schritten. Die Angabe zur Automatisierung bezieht sich auf den Strimzi Operator.
 
 {{< style-table "blogtable" >}}
@@ -111,11 +112,14 @@ Wird der Strimzi/AMQ Streams Operator verwendet, werden die automatisierten Schr
 Das Auslösen der Migration, der allfällige Rollback und das Abschliessen der Migration wird über die Annotation
 `strimzi.io/kraft` auf der Kafka-Ressource gesteuert.
 
+<br />
+
 #### Limitationen für KRaft basierte Cluster
 
 Für die Migration zu ZooKeeper gibt es gewisse Limitationen. Es muss vorgängig geprüft werden, ob eine Migration von
 einer Limitation betroffen ist.
 
+<br />
 Allgemein
 
 * Die Migration sollte mit den neuesten Kafka-Versionen, Operatoren und Konfigurationen durchgeführt werden.
@@ -124,17 +128,21 @@ Allgemein
 * Während der Migration ist es nicht möglich, die `metadata.version` resp. `inter.broker.protocol.version` während des Upgrades zu ändern. Wird dies gemacht, kann dies den Cluster zerstören.
 * Im Moment werden für produktive Cluster nur 3 KRaft-Controller empfohlen. Eine höhere Anzahl wird explizit nicht empfohlen.
 
-Folgende Features, welche im ZooKeeper-Modus unterstützt werden, werden zurzeit noch nicht unterstützt. Diese werden
+<br />
+Folgende Features, welche in ZooKeeper basierten Clustern unterstützt werden, werden im KRaft-Modus zurzeit noch nicht unterstützt. Diese werden
 in der Kafka Version 3.8.0 produktionsreif.
 
 * JBOD-Konfiguration (Just a Bunch of Disks) mit mehreren Storage-Locations. Die Spezifikation als JBOD mit nur einer Storage-Location ist möglich.
 * Änderungen am KRaft-Quorum (z.B. KRaft-Instanzen hinzufügen oder entfernen).
 
+<br />
 Spezifisch für Strimzi / AMQ-Streams Operator basierte Deployments gilt weiter:
 
 * Um die Migration zu starten, muss mindestens Strimzi 0.40.0 oder neuer mit Kafka 3.7.0 verwendet werden.
 * Der Kafka-Cluster muss mit KafkaNodePools konfiguriert sein
 * Der Bidirectional Topic Operator wird nicht unterstützt.
+
+<br />
 
 #### Vorbereitung für eine Migration
 
@@ -151,6 +159,8 @@ Folgende Punkte sind zu beachten wenn eine Migration bevorsteht
 * Das Monitoring vorbereiten für KRaft Instanzen. Diese können analog den Kafka-Brokern mittels JMX-Metriken überwacht werden.
 * Für die Migration wird empfohlen folgende LogLevels zu erhöhen:
   * `log4j.logger.org.apache.kafka.metadata.migration=TRACE`
+
+<br />
 
 Weiter empfiehlt es sich, auch die CLI-Tools vorzubereiten. Diese werden bei Bedarf für administrative- und
 debugging-Zwecke verwendet. Insbesondere sollten die neuen CLI-Tools, welche die ZooKeeper-Shell ablösen,
