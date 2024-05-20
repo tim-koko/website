@@ -21,6 +21,14 @@
 [context.next.environment]
   HUGO_ENV = "next"
 
+[[redirects]]
+# on the release date change the from (from /new/* to /*)
+#  from = "/*"
+  from = "/new/*"
+  to = "https://tim-koko.ch/"
+  status = 301
+  force = true
+
 [dev]
   framework = "#custom"
   command = "npm run start"
