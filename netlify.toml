@@ -22,7 +22,8 @@
   HUGO_ENV = "next"
 
 [[redirects]]
-  from = "/*"
+#  from = "/*"
+  from = "/new/*"
   to = "https://tim-koko.ch/"
   status = 301
   force = true
