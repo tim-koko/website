@@ -21,6 +21,12 @@
 [context.next.environment]
   HUGO_ENV = "next"
 
+[[redirects]]
+  from = "/*"
+  to = "https://tim-koko.ch/"
+  status = 301
+  force = true
+
 [dev]
   framework = "#custom"
   command = "npm run start"
