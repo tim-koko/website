@@ -22,6 +22,7 @@
   HUGO_ENV = "next"
 
 [[redirects]]
+# on the release date change the from (from /new/* to /*)
 #  from = "/*"
   from = "/new/*"
   to = "https://tim-koko.ch/"
