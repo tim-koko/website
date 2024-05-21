@@ -24,12 +24,12 @@
             {{ range $index, $val := $.Site.Menus.main }}
               <span class="menu-item  ms-lg-5">
                 <a class="menu-link" href="{{ .URL }}">{{- .Name -}}
-                  
+
                     {{ if eq $index 0}}
                       <div class="icon-draw_ line d-lg-none"><svg width="339px" height="7px" viewBox="0 0 339 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">    <g id="RT-rokt-–-UI-Design-Mobile-RZ" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">        <g id="RT_Website-UI-Navigation-375px" transform="translate(-19.000000, -253.000000)" stroke="#FFFFFF" stroke-width="2">            <path d="M19.6629826,258.221663 C53.0652938,257.743534 86.4668795,257.08782 119.86991,256.787278 C132.901749,256.670025 155.890416,253.305892 255.698256,254.46385 C289.529148,254.856351 322.724836,258.221663 357.662983,254.46385" id="Path" transform="translate(188.662983, 256.221663) scale(1, -1) translate(-188.662983, -256.221663) "></path>        </g>    </g></svg>  </div>
                     {{ end }}
                     {{ if eq $index 1}}
-                      <div class="icon-draw_ line d-lg-none"><svg width="339px" height="7px" viewBox="0 0 339 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="RT-rokt-–-UI-Design-Mobile-RZ" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">        <g id="RT_Website-UI-Navigation-375px" transform="translate(-19.000000, -332.000000)" stroke="#FFFFFF" stroke-width="2">            <path d="M19.6629826,337.221663 C53.0652938,336.743534 86.4668795,336.08782 119.86991,335.787278 C132.901749,335.670025 155.890416,332.305892 255.698256,333.46385 C289.529148,333.856351 322.724836,337.221663 357.662983,333.46385" id="Path" transform="translate(188.662983, 335.221663) scale(-1, 1) translate(-188.662983, -335.221663) "></path>        </g>    </g></svg></div>
+                      <div class="icon-draw_ line d-lg-none"><svg width="339px" height="7px" viewBox="0 0 339 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">    <g id="RT-rokt-–-UI-Design-Mobile-RZ" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">        <g id="RT_Website-UI-Navigation-375px" transform="translate(-19.000000, -332.000000)" stroke="#FFFFFF" stroke-width="2">            <path d="M19.6629826,337.221663 C53.0652938,336.743534 86.4668795,336.08782 119.86991,335.787278 C132.901749,335.670025 155.890416,332.305892 255.698256,333.46385 C289.529148,333.856351 322.724836,337.221663 357.662983,333.46385" id="Path" transform="translate(188.662983, 335.221663) scale(-1, 1) translate(-188.662983, -335.221663) "></path>        </g>    </g></svg></div>
                     {{ end }}
                     {{ if eq $index 2}}
                       <div class="icon-draw_ line d-lg-none"><svg width="339px" height="7px" viewBox="0 0 339 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">    <g id="RT-rokt-–-UI-Design-Mobile-RZ" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">        <g id="RT_Website-UI-Navigation-375px" transform="translate(-19.000000, -411.000000)" stroke="#FFFFFF" stroke-width="2">            <path d="M19.6629826,416.221663 C53.0652938,415.743534 86.4668795,415.08782 119.86991,414.787278 C132.901749,414.670025 155.890416,411.305892 255.698256,412.46385 C289.529148,412.856351 322.724836,416.221663 357.662983,412.46385" id="Path"></path>        </g>    </g></svg></div>
@@ -37,8 +37,11 @@
                     {{ if eq $index 3}}
                       <div class="icon-draw_ line d-lg-none"><svg width="339px" height="7px" viewBox="0 0 339 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">    <g id="RT-rokt-–-UI-Design-Mobile-RZ" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">        <g id="RT_Website-UI-Navigation-375px" transform="translate(-19.000000, -487.000000)" stroke="#FFFFFF" stroke-width="2">            <path d="M19.6629826,492.221663 C53.0652938,491.743534 86.4668795,491.08782 119.86991,490.787278 C132.901749,490.670025 155.890416,487.305892 255.698256,488.46385 C289.529148,488.856351 322.724836,492.221663 357.662983,488.46385" id="Path" transform="translate(188.662983, 490.221663) scale(-1, -1) translate(-188.662983, -490.221663) "></path>        </g>    </g></svg>                    </div>
                     {{ end }}
- 
-                  
+                    {{ if eq $index 4}}
+                      <div class="icon-draw_ line d-lg-none"><svg width="339px" height="7px" viewBox="0 0 339 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">    <g id="RT-rokt-–-UI-Design-Mobile-RZ" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">        <g id="RT_Website-UI-Navigation-375px" transform="translate(-19.000000, -487.000000)" stroke="#FFFFFF" stroke-width="2">            <path d="M19.6629826,492.221663 C53.0652938,491.743534 86.4668795,491.08782 119.86991,490.787278 C132.901749,490.670025 155.890416,487.305892 255.698256,488.46385 C289.529148,488.856351 322.724836,492.221663 357.662983,488.46385" id="Path" transform="translate(188.662983, 490.221663) scale(-1, -1) translate(-188.662983, -490.221663) "></path>        </g>    </g></svg>                    </div>
+                    {{ end }}
+
+
                 </a>
               </span>
             {{ end }}
