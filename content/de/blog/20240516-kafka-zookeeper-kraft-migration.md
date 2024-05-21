@@ -12,6 +12,9 @@ Priority: 0.3
 categories: ["Technologie", "Apache Kafka", "Messaging"]
 post_img: "images/blog/kraft/kafka-kraft-migration-logo.png"
 lead: "Mit dem Release 3.6.2 ermöglicht Apache Kafka eine Migration von Apache ZooKeeper basierten Clustern zu KRaft. Der Ablösung von ZooKeeper steht nun nichts mehr im Wege. Was zu beachten ist, erfährst du hier."
+resources:
+  - src: 'test.csv'
+    title: 'Test #:counter'
 ---
 
 Apache Kafka ist eine weit verbreitete, robuste und verteilte Streaming- und Event-Plattform. Mit der Ablösung von
@@ -94,18 +97,16 @@ KRaft Leader zusätzlich in ZooKeeper gespeichert. Dies ermöglicht ein Rollback
 
 Eine Migration erfolgt in folgenden Schritten. Die Angabe zur Automatisierung bezieht sich auf den Strimzi Operator.
 
-{{< style-table "blogtable" >}}
-| Schritt | Modus | Beschreibung | Automatisiert | Rollback |
-|---------|------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|-----------|
-| 1 | ZooKeeper | Ausgangszustand | Nein | - |
-| 2 | ZooKeeper | KRaft Instanzen werden erstellt. Diese warten auf die Verbindung der Kafka-Broker. | Ja | Ja |
-| 3 | ZooKeeper | Kafka Broker verbinden sich mit den KRaft Instanzen. Die Migration der Metadaten aus ZooKeeper zu KRaft beginnt. | Ja | Ja |
-| 4 | Dual-Write | Migration der Metadaten ist abgeschlossen. Der Leader der KRaft Instanzen schreibt die Änderungen an den Metadaten parallel in ZooKeeper. Die Kafka-Broker haben ihre Verbindung mit ZooKeeper getrennt. Der Zustand Dual-Write ist erreicht. Es ist der letztmögliche Zeitpunkt für einen Rollback. | Ja | Ja |
-| 5 | KRaft | Der Leader der KRaft Instanzen schreibt die Metadaten nicht weiter zu ZooKeeper. Die Verbindung zu ZooKeeper wird getrennt. | Nein | Nein |
-| 6 | KRaft | Die ZooKeeper Instanzen werden ausgeschaltet | Ja | Nein |
-| 7 | KRaft | Die Migration ist beendet und der Zielzustand ist erreicht. | - | Nein |
-
-{{< /style-table >}}
+{{< csvtable "responsive" "," >}}
+Schritt,Modus,Beschreibung,Automatisiert,Rollback
+1,ZooKeeper,Ausgangszustand,Nein,-
+2,ZooKeeper,KRaft Instanzen werden erstellt. Diese warten auf die Verbindung der Kafka-Broker.,Ja,Ja
+3,ZooKeeper,Kafka Broker verbinden sich mit den KRaft Instanzen. Die Migration der Metadaten aus ZooKeeper zu KRaft beginnt.,Ja,Ja
+4,Dual-Write,Migration der Metadaten ist abgeschlossen. Der Leader der KRaft Instanzen schreibt die Änderungen an den Metadaten parallel in ZooKeeper. Die Kafka-Broker haben ihre Verbindung mit ZooKeeper getrennt. Der Zustand Dual-Write ist erreicht. Es ist der letztmögliche Zeitpunkt für einen Rollback.,Ja,Ja
+5,KRaft,Der Leader der KRaft Instanzen schreibt die Metadaten nicht weiter zu ZooKeeper. Die Verbindung zu ZooKeeper wird getrennt.,Nein,Nein
+6,KRaft,Die ZooKeeper Instanzen werden ausgeschaltet,Ja,Nein
+7,KRaft,Die Migration ist beendet und der Zielzustand ist erreicht.,-,Nein
+{{< /csvtable >}}
 
 Wird der Strimzi/AMQ Streams Operator verwendet, werden die automatisierten Schritte vom Cluster-Operator übernommen.
 Das Auslösen der Migration, der allfällige Rollback und das Abschliessen der Migration wird über die Annotation
