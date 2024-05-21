@@ -2,8 +2,8 @@
 title: "Insights - Themen, die uns beschäftigen"
 description: ""
 lead: ""
-date: 2023-11-20T00:00:00+00:00
-lastmod: 2023-11-20T00:00:00+00:00
+date: 2024-05-15T00:00:00+00:00
+lastmod: 2024-05-15T00:00:00+00:00
 draft: false
 images: []
 Sitemap:
