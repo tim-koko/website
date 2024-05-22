@@ -10,8 +10,8 @@ Sitemap:
 Priority: 0.3
 
 categories: ["Technologie", "Quarkus", "Developer", "Java"]
-post_img: "images/blog/test.jpg"
-lead: "LEADTEXT"
+post_img: "images/blog/quarkus/Quarkus-logo_0.jpg"
+lead: "With Quarkus the Java ecosystem becomes a big developer experience boost. Let's explore some features and dive into Quarkus!"
 ---
 
 Quarkus is designed to provide an exceptional developer experience by offering a streamlined and efficient workflow.
