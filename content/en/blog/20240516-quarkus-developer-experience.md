@@ -64,17 +64,17 @@ __  ____  __  _____   ___  __ ____  ______
  --/ __ \/ / / / _ | / _ \/ //_/ / / / __/
  -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \
 --\___\_\____/_/ |_/_/|_/_/|_|\____/___/
-2023-05-30 14:23:09,968 INFO  [io.quarkus] (Quarkus Main Thread) example 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.0.4.Final) started in 2.633s. Listening on: http://localhost:8080
+INFO  [io.quarkus] (Quarkus Main Thread) example 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.0.4.Final) started in 2.633s. Listening on: http://localhost:8080
 
-2023-05-30 14:23:09,972 INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
-2023-05-30 14:23:09,973 INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [cdi, resteasy-reactive, smallrye-context-propagation, vertx]
+INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [cdi, resteasy-reactive, smallrye-context-propagation, vertx]
 
 --
 Tests paused
 Press [r] to resume testing, [o] Toggle test output, [:] for the terminal, [h] for more options>
 ```
 
-You can already see that there is some console output which hints some additional features of this dev-mode! We will
+You can already see that there is some console output which hints at some additional features of this dev-mode! We will
 focus on the dev-mode in just a bit.
 
 Without further work we can already build and run the application. Of course we use a docker image as our default to
@@ -113,9 +113,9 @@ __  ____  __  _____   ___  __ ____  ______
  --/ __ \/ / / / _ | / _ \/ //_/ / / / __/
  -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \
 --\___\_\____/_/ |_/_/|_/_/|_|\____/___/
-2023-05-30 12:21:01,370 INFO  [io.quarkus] (main) example 1.0.0-SNAPSHOT native (powered by Quarkus 3.0.4.Final) started in 0.016s. Listening on: http://0.0.0.0:8080
-2023-05-30 12:21:01,371 INFO  [io.quarkus] (main) Profile prod activated.
-2023-05-30 12:21:01,371 INFO  [io.quarkus] (main) Installed features: [cdi, resteasy-reactive, smallrye-context-propagation, vertx]
+INFO  [io.quarkus] (main) example 1.0.0-SNAPSHOT native (powered by Quarkus 3.0.4.Final) started in 0.016s. Listening on: http://0.0.0.0:8080
+INFO  [io.quarkus] (main) Profile prod activated.
+INFO  [io.quarkus] (main) Installed features: [cdi, resteasy-reactive, smallrye-context-propagation, vertx]
 ```
 
 In the blink of an eye the application started and is ready to serve traffic - 16 ms to spin up an Java application
@@ -143,10 +143,10 @@ __  ____  __  _____   ___  __ ____  ______
  --/ __ \/ / / / _ | / _ \/ //_/ / / / __/
  -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \
 --\___\_\____/_/ |_/_/|_/_/|_|\____/___/
-2023-05-30 14:23:09,968 INFO  [io.quarkus] (Quarkus Main Thread) example 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.0.4.Final) started in 2.633s. Listening on: http://localhost:8080
+INFO  [io.quarkus] (Quarkus Main Thread) example 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.0.4.Final) started in 2.633s. Listening on: http://localhost:8080
 
-2023-05-30 14:23:09,972 INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
-2023-05-30 14:23:09,973 INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [cdi, resteasy-reactive, smallrye-context-propagation, vertx]
+INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [cdi, resteasy-reactive, smallrye-context-propagation, vertx]
 
 --
 Tests paused
@@ -185,16 +185,16 @@ public class GreetingResource {
 Repeat the API call from before and observe the terminal in which the Quarkus application is running currently.
 
 ```shell
-2023-05-30 14:40:54,938 INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-1) Restarting quarkus due to changes in GreetingResource.class.
-2023-05-30 14:40:54,946 INFO  [io.quarkus] (Quarkus Main Thread) example stopped in 0.007s
+INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-1) Restarting quarkus due to changes in GreetingResource.class.
+INFO  [io.quarkus] (Quarkus Main Thread) example stopped in 0.007s
 __  ____  __  _____   ___  __ ____  ______
  --/ __ \/ / / / _ | / _ \/ //_/ / / / __/
   -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \
   --\___\_\____/_/ |_/_/|_/_/|_|\____/___/
-2023-05-30 14:40:55,345 INFO  [io.quarkus] (Quarkus Main Thread) example 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.0.4.Final) started in 0.393s. Listening on: http://localhost:8080
-2023-05-30 14:40:55,346 INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
-2023-05-30 14:40:55,346 INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [cdi, resteasy-reactive, smallrye-context-propagation, vertx]
-2023-05-30 14:40:55,347 INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-1) Live reload total time: 0.721s
+INFO  [io.quarkus] (Quarkus Main Thread) example 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.0.4.Final) started in 0.393s. Listening on: http://localhost:8080
+INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [cdi, resteasy-reactive, smallrye-context-propagation, vertx]
+INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-1) Live reload total time: 0.721s
 
 --
 Tests paused
@@ -211,8 +211,8 @@ be impacted by the change will run completely autonomously, while you are workin
 Hit that «R» button in the terminal and observe the output:
 
 ```shell
-2023-05-30 14:42:52,881 ERROR [io.qua.test] (Test runner thread) ==================== TEST REPORT #1 ====================
-2023-05-30 14:42:52,882 ERROR [io.qua.test] (Test runner thread) Test GreetingResourceTest#testHelloEndpoint() failed
+ERROR [io.qua.test] (Test runner thread) ==================== TEST REPORT #1 ====================
+ERROR [io.qua.test] (Test runner thread) Test GreetingResourceTest#testHelloEndpoint() failed
 : java.lang.AssertionError: 1 expectation failed.
 Response body doesn't match expectation.
 Expected: is "Hello from RESTEasy Reactive"
@@ -227,7 +227,7 @@ fail. Simply update your test and adopt your assertion to the updated response! 
 the tests will automatically rerun and should pass this time!
 
 ```shell
-2023-05-30 14:47:17,552 INFO  [io.qua.test] (Test runner thread) All tests are now passing
+INFO  [io.qua.test] (Test runner thread) All tests are now passing
 ```
 
 ### Developer-Centric Tooling
@@ -332,19 +332,19 @@ Start the application in dev-mode and observe.
 ```shell
 $ quarkus dev
 [...]
-2023-05-30 17:00:25,353 INFO  [io.qua.kaf.cli.dep.DevServicesKafkaProcessor] (build-3) Dev Services for Kafka started. Other Quarkus applications in dev mode will find the broker automatically. For Quarkus applications in production mode, you can connect to this by starting your application with -Dkafka.bootstrap.servers=OUTSIDE://localhost:42879
+INFO  [io.qua.kaf.cli.dep.DevServicesKafkaProcessor] (build-3) Dev Services for Kafka started. Other Quarkus applications in dev mode will find the broker automatically. For Quarkus applications in production mode, you can connect to this by starting your application with -Dkafka.bootstrap.servers=OUTSIDE://localhost:42879
 __  ____  __  _____   ___  __ ____  ______
  --/ __ \/ / / / _ | / _ \/ //_/ / / / __/
  -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \
 --\___\_\____/_/ |_/_/|_/_/|_|\____/___/
-2023-05-30 17:00:26,294 INFO  [io.sma.rea.mes.kafka] (Quarkus Main Thread) SRMSG18229: Configured topics for channel 'words-in': [words]
+INFO  [io.sma.rea.mes.kafka] (Quarkus Main Thread) SRMSG18229: Configured topics for channel 'words-in': [words]
 
-2023-05-30 17:00:26,303 INFO  [io.sma.rea.mes.kafka] (Quarkus Main Thread) SRMSG18214: Key deserializer omitted, using String as default
-2023-05-30 17:00:26,437 INFO  [io.sma.rea.mes.kafka] (smallrye-kafka-producer-thread-0) SRMSG18258: Kafka producer kafka-producer-words-out, connected to Kafka brokers 'OUTSIDE://localhost:42879', is configured to write records to 'words'
-2023-05-30 17:00:26,483 INFO  [io.sma.rea.mes.kafka] (smallrye-kafka-consumer-thread-0) SRMSG18257: Kafka consumer kafka-consumer-words-in, connected to Kafka brokers 'OUTSIDE://localhost:42879', belongs to the 'kafka' consumer group and is configured to poll records from [words]
-2023-05-30 17:00:26,577 INFO  [io.quarkus] (Quarkus Main Thread) kafka 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.0.4.Final) started in 4.645s. Listening on: http://localhost:8080
+INFO  [io.sma.rea.mes.kafka] (Quarkus Main Thread) SRMSG18214: Key deserializer omitted, using String as default
+INFO  [io.sma.rea.mes.kafka] (smallrye-kafka-producer-thread-0) SRMSG18258: Kafka producer kafka-producer-words-out, connected to Kafka brokers 'OUTSIDE://localhost:42879', is configured to write records to 'words'
+INFO  [io.sma.rea.mes.kafka] (smallrye-kafka-consumer-thread-0) SRMSG18257: Kafka consumer kafka-consumer-words-in, connected to Kafka brokers 'OUTSIDE://localhost:42879', belongs to the 'kafka' consumer group and is configured to poll records from [words]
+INFO  [io.quarkus] (Quarkus Main Thread) kafka 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.0.4.Final) started in 4.645s. Listening on: http://localhost:8080
 [...]
-2023-05-30 17:00:30,879 INFO  [io.sma.rea.mes.kafka] (vert.x-eventloop-thread-3) SRMSG18256: Initialize record store for topic-partition 'words-0' at position -1.
+INFO  [io.sma.rea.mes.kafka] (vert.x-eventloop-thread-3) SRMSG18256: Initialize record store for topic-partition 'words-0' at position -1.
 >> HELLO
 >> WITH
 >> SMALLRYE
@@ -378,7 +378,7 @@ configuration. Developers can focus on writing business logic rather than spendi
 files. The central configuration specification used in Quarkus is the MicroProfile Config
 (<https://microprofile.io/microprofile-config/>) implemented by SmallRye config (<https://smallrye.io/smallrye-config/Main/>).
 
-Do you remember the 12-factor application manifesto (<https://12factor.net/>)? Try to hold configuration of your
+Do you remember the 12-factor application manifesto (<https://12factor.net/>)? Configuration of your
 application should always be as minimal as possible. The application should always be able to run without further
 configuration on your local machine. All configuration which will define the applications behavior and environment,
 should be handled via environment variables in the deployment.
