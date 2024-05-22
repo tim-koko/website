@@ -404,20 +404,6 @@ behavior and follows the best practices specified in the 12 factor application m
 perspective, the properties files should define the systems configuration for development. Deployments in cloud
 environments should only update configuration via environment variables in the specific deployment.
 
-### Developer-Friendly Testing
+### Summary
 
-Quarkus provides a comprehensive testing framework that makes it easy to write and execute tests. The framework offers
-support for unit testing, integration testing, and even container-based testing with Testcontainers. Quarkus also
-provides built-in tools for mocking and stubbing external dependencies, facilitating isolated and reliable testing.
-
-EXAMPLE
-
-### Cloud Native Integration
-
-Quarkus is made for the cloud: It embraces the paradigm shift, that the cloud implicitly demands! Minimal resource footprint and fast startup times are key in cloud native environments. Furthermore Quarkus builds upon community driven standards and allows developers to
-
-EXAMPLE
-
-Overall, the Quarkus framework prioritizes developer experience by focusing on fast startup time, live coding capabilities, developer-centric tooling, simplified configuration, friendly testing support, and seamless continuous development and deployment workflows. These features empower developers to build high-performance and scalable applications with ease.
-In conclusion, both Golang and Quarkus offer distinct advantages in terms of performance and developer experience. Golang excels in its simplicity, concurrency model, and excellent runtime performance, making it a suitable choice for building microservices and high-performance applications. On the other hand, Quarkus provides a developer-friendly ecosystem, fast startup time, and streamlined development workflow, making it a compelling option for cloud-native and containerized applications.
-Ultimately, the choice between Golang and Quarkus depends on the specific requirements of your project and the preferences of your development team. Evaluating factors like performance needs, ecosystem support, development productivity, and team expertise will help you make an informed decision.
+With Quarkus the Java ecosystem became a lot more cloud native. Already acquired skills from the Java world can still be used to produce high quality cloud-native software for Kubernetes and Container centered application systems. Especially the developer experience gains a massive boost with Quarkus and its features. Testcontainers and live-coding bring the fun back in developing Java applications.
