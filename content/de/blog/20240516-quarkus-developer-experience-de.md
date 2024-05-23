@@ -38,7 +38,7 @@ applying codestarts...
 📝 config-properties
 🔧 dockerfiles
 🔧 maven-wrapper
-🚀 resteasy-reactive-codestart
+🚀 rest-codestart
 
 -----------
 [SUCCESS] ✅  quarkus project has been successfully generated in:
@@ -55,16 +55,16 @@ In normalen Entwicklungszyklen können wir unsere Anwendung mit dem Quarkus CLI 
 $ quarkus dev
 [...]
 [INFO] Changes detected - recompiling the module! :dependency
-[INFO] Compiling 2 source files with javac [debug release 17] to target/test-classes
+[INFO] Compiling 2 source files with javac [debug release 21] to target/test-classes
 Listening for transport dt_socket at address: 5005
 __  ____  __  _____   ___  __ ____  ______
  --/ __ \/ / / / _ | / _ \/ //_/ / / / __/
  -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \
 --\___\_\____/_/ |_/_/|_/_/|_|\____/___/
-INFO  [io.quarkus] (Quarkus Main Thread) example 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.0.4.Final) started in 2.633s. Listening on: http://localhost:8080
+INFO  [io.quarkus] (Quarkus Main Thread) example 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.10.1) started in 2.633s. Listening on: http://localhost:8080
 
 INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
-INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [cdi, resteasy-reactive, smallrye-context-propagation, vertx]
+INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [cdi, rest, smallrye-context-propagation, vertx]
 
 --
 Tests paused
@@ -104,9 +104,9 @@ __  ____  __  _____   ___  __ ____  ______
  --/ __ \/ / / / _ | / _ \/ //_/ / / / __/
  -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \
 --\___\_\____/_/ |_/_/|_/_/|_|\____/___/
-INFO  [io.quarkus] (main) example 1.0.0-SNAPSHOT native (powered by Quarkus 3.0.4.Final) started in 0.016s. Listening on: http://0.0.0.0:8080
+INFO  [io.quarkus] (main) example 1.0.0-SNAPSHOT native (powered by Quarkus 3.10.1) started in 0.016s. Listening on: http://0.0.0.0:8080
 INFO  [io.quarkus] (main) Profile prod activated.
-INFO  [io.quarkus] (main) Installed features: [cdi, resteasy-reactive, smallrye-context-propagation, vertx]
+INFO  [io.quarkus] (main) Installed features: [cdi, rest, smallrye-context-propagation, vertx]
 ```
 
 Blitzschnell startet die Applikation und ist bereit, Traffic zu empfangen! Nur in 16 ms ist unsere kleine Demo-App bereit - und das noch mit Java! Schnelligkeit ist aber nur einer der vielen Vorteile von Quarkus!
@@ -127,10 +127,10 @@ __  ____  __  _____   ___  __ ____  ______
  --/ __ \/ / / / _ | / _ \/ //_/ / / / __/
  -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \
 --\___\_\____/_/ |_/_/|_/_/|_|\____/___/
-INFO  [io.quarkus] (Quarkus Main Thread) example 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.0.4.Final) started in 2.633s. Listening on: http://localhost:8080
+INFO  [io.quarkus] (Quarkus Main Thread) example 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.10.1) started in 2.633s. Listening on: http://localhost:8080
 
 INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
-INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [cdi, resteasy-reactive, smallrye-context-propagation, vertx]
+INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [cdi, rest, smallrye-context-propagation, vertx]
 
 --
 Tests paused
@@ -175,9 +175,9 @@ __  ____  __  _____   ___  __ ____  ______
  --/ __ \/ / / / _ | / _ \/ //_/ / / / __/
   -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \
   --\___\_\____/_/ |_/_/|_/_/|_|\____/___/
-INFO  [io.quarkus] (Quarkus Main Thread) example 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.0.4.Final) started in 0.393s. Listening on: http://localhost:8080
+INFO  [io.quarkus] (Quarkus Main Thread) example 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.10.1) started in 0.393s. Listening on: http://localhost:8080
 INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
-INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [cdi, resteasy-reactive, smallrye-context-propagation, vertx]
+INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [cdi, rest, smallrye-context-propagation, vertx]
 INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-1) Live reload total time: 0.721s
 
 --
@@ -226,10 +226,10 @@ Current Quarkus extensions installable:
 ✬ quarkus-smallrye-reactive-messaging-kafka     SmallRye Reactive Messaging - Kafka Connector
 ```
 
-Im folgenden Abschnitt erstellen wir einen neuen Microservice erstellen, der Messages von einem Kafka Broker konsumiert und produziert. Dafür erstellen wir mit der Quarkus CLI eine neue Applikation und fügen die Extensions `quarkus-smallrye-reactive-messaging-kafka, quarkus-resteasy-reactive` hinzu.
+Im folgenden Abschnitt erstellen wir einen neuen Microservice erstellen, der Messages von einem Kafka Broker konsumiert und produziert. Dafür erstellen wir mit der Quarkus CLI eine neue Applikation und fügen die Extensions `quarkus-smallrye-reactive-messaging-kafka, quarkus-rest` hinzu.
 
 ```shell
-quarkus create app kafka --extensions=quarkus-smallrye-reactive-messaging-kafka,quarkus-resteasy-reactive
+quarkus create app kafka --extensions=quarkus-smallrye-reactive-messaging-kafka,quarkus-rest
 ```
 
 Wenn wir unser Projekt betrachten, sehen wir dass die Quarkus schon einiges an Arbeit für uns übernommen hat. Wir haben selbstverständlich die korrekten Dependencies unserem `pom.xml`. Weiter haben wir schon Beispiel und vordefinierten Boilerplate Code, welches uns das Framework generiert. Die Quarkus Extensions sind nicht nur ein technologischer Wrapper um die Dependencies, sondern erlauben uns auch Codestarter für unsere Projekte zu definieren. Der Codestarter der Kafka Extension erzeugt uns auch schon eine Klasse, die uns die basischen Features aufzeigt:
@@ -305,7 +305,7 @@ INFO  [io.sma.rea.mes.kafka] (Quarkus Main Thread) SRMSG18229: Configured topics
 INFO  [io.sma.rea.mes.kafka] (Quarkus Main Thread) SRMSG18214: Key deserializer omitted, using String as default
 INFO  [io.sma.rea.mes.kafka] (smallrye-kafka-producer-thread-0) SRMSG18258: Kafka producer kafka-producer-words-out, connected to Kafka brokers 'OUTSIDE://localhost:42879', is configured to write records to 'words'
 INFO  [io.sma.rea.mes.kafka] (smallrye-kafka-consumer-thread-0) SRMSG18257: Kafka consumer kafka-consumer-words-in, connected to Kafka brokers 'OUTSIDE://localhost:42879', belongs to the 'kafka' consumer group and is configured to poll records from [words]
-INFO  [io.quarkus] (Quarkus Main Thread) kafka 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.0.4.Final) started in 4.645s. Listening on: http://localhost:8080
+INFO  [io.quarkus] (Quarkus Main Thread) kafka 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.10.1) started in 4.645s. Listening on: http://localhost:8080
 [...]
 INFO  [io.sma.rea.mes.kafka] (vert.x-eventloop-thread-3) SRMSG18256: Initialize record store for topic-partition 'words-0' at position -1.
 >> HELLO
