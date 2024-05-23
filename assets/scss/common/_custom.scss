@@ -30,6 +30,13 @@ table.responsive th {
   text-transform: uppercase;
 }
 
+pre {
+  font-size: 0.75em;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 1.5em;
+}
+
 @media screen and (max-width: 600px) {
   table.responsive {
     border: 0;
@@ -73,11 +80,4 @@ table.responsive th {
   table.responsive td:last-child {
     border-bottom: 3px solid #ddd;
   }
-}
-
-pre {
-  font-size: 0.75em;
-  margin-left: 0;
-  margin-right: 0;
-  padding: 1.5em 1.5em 1.5em 1.5em;
 }
