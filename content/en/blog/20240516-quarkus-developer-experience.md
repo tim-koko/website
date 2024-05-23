@@ -9,7 +9,7 @@ images: []
 Sitemap:
 Priority: 0.3
 
-categories: ["Technologie", "Quarkus", "Developer", "Java"]
+categories: ["Technology", "Quarkus", "Developer", "Java"]
 post_img: "images/blog/quarkus/Quarkus-logo_0.jpg"
 lead: "With Quarkus the Java ecosystem becomes a big developer experience boost. Let's explore some features and dive into Quarkus!"
 ---
