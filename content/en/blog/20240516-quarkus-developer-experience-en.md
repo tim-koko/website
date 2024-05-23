@@ -1,6 +1,6 @@
 ---
 title: "Quarkus Developer Experience"
-slug: "quarkus developer experience"
+slug: "quarkus-developer-experience"
 description: ""
 date: 2024-05-21T00:00:00+00:00
 lastmod: 2024-05-21T00:00:00+00:00
