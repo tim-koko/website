@@ -29,7 +29,7 @@ code for the project: Maven, Quarkus CLI or using the Web UI (<https://code.quar
 
 To generate a empty Quarkus project with the Quarkus CLI, we use:
 
-```shell
+```bash
 $ quarkus create app example
 Looking for the newly published extensions in registry.quarkus.io
 -----------
@@ -54,7 +54,7 @@ This will generate the boilerplate Maven project with all the things needed to g
 
 In normal development cycles we can start our application with the Quarkus CLI
 
-```shell
+```bash
 $ quarkus dev
 [...]
 [INFO] Changes detected - recompiling the module! :dependency
@@ -82,7 +82,7 @@ run the application and to show and experience the full potential of Quarkus we 
 and do not rely on the JVM. This is as easy as starting the bootstrap project, when the Quarkus CLI is used. Keep in
 mind that this will just demonstrate the startup process in the cloud when running in production.
 
-```shell
+```bash
 $ quarkus image build --clean --native
 [...]
 [INFO] [io.quarkus.container.image.docker.deployment.DockerProcessor] --> 86dada6ff299
@@ -106,7 +106,7 @@ As you might have experienced, the full native build takes quite some time and e
 build will be fully optimized to run as a single native binary and will generate lightspeed close startup times! To
 test the startup times, we simply run the container with our preferred container runtime:
 
-```shell
+```bash
 $ docker run rhertle/example:1.0.0-SNAPSHOT
 Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
 __  ____  __  _____   ___  __ ____  ______
@@ -135,7 +135,7 @@ live reloads is probably the most common:
 
 Start your application in dev mode and test the preconfigured REST endpoint `/hello`.
 
-```shell
+```bash
 $ quarkus dev
 [...]
 Listening for transport dt_socket at address: 5005
@@ -155,7 +155,7 @@ Press [r] to resume testing, [o] Toggle test output, [:] for the terminal, [h] f
 
 In another terminal simply cURL the endpoint to verify the resource is served:
 
-```shell
+```bash
 $ curl localhost:8080/hello
 Hello from RESTEasy Reactive%
 ```
@@ -184,7 +184,7 @@ public class GreetingResource {
 
 Repeat the API call from before and observe the terminal in which the Quarkus application is running currently.
 
-```shell
+```bash
 INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-1) Restarting quarkus due to changes in GreetingResource.class.
 INFO  [io.quarkus] (Quarkus Main Thread) example stopped in 0.007s
 __  ____  __  _____   ___  __ ____  ______
@@ -210,7 +210,7 @@ be impacted by the change will run completely autonomously, while you are workin
 
 Hit that «R» button in the terminal and observe the output:
 
-```shell
+```bash
 ERROR [io.qua.test] (Test runner thread) ==================== TEST REPORT #1 ====================
 ERROR [io.qua.test] (Test runner thread) Test GreetingResourceTest#testHelloEndpoint() failed
 : java.lang.AssertionError: 1 expectation failed.
@@ -226,7 +226,7 @@ We have altered the GreetingResource which does not return «Hello from RESTEasy
 fail. Simply update your test and adopt your assertion to the updated response! With the next save in your files,
 the tests will automatically rerun and should pass this time!
 
-```shell
+```bash
 INFO  [io.qua.test] (Test runner thread) All tests are now passing
 ```
 
@@ -246,7 +246,7 @@ dependencies to other systems.
 With the Quarkus CLI we can explore the available extensions and filter them if we need. With the `-s` parameter we
 can filter extensions for keywords. Feel free to browse the list according to your needs and interests.
 
-```shell
+```bash
 $ quarkus extension -s kafka --installable
 Listing extensions (default action, see --help).
 Current Quarkus extensions installable:
@@ -259,7 +259,7 @@ In the following we are going to create a new microservice to produce and consum
 For this we simply create a new app and add the `quarkus-smallrye-reactive-messaging-kafka, quarkus-rest`
 extensions to our application.
 
-```shell
+```bash
 quarkus create app kafka --extensions=quarkus-smallrye-reactive-messaging-kafka,quarkus-rest
 ```
 
@@ -329,7 +329,7 @@ additional services to run. Not with Quarkus - you will see what I mean in a few
 
 Start the application in dev-mode and observe.
 
-```shell
+```bash
 $ quarkus dev
 [...]
 INFO  [io.qua.kaf.cli.dep.DevServicesKafkaProcessor] (build-3) Dev Services for Kafka started. Other Quarkus applications in dev mode will find the broker automatically. For Quarkus applications in production mode, you can connect to this by starting your application with -Dkafka.bootstrap.servers=OUTSIDE://localhost:42879

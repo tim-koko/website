@@ -26,7 +26,7 @@ Fangen wir mit einem einfachen Quarkus-Projekt an. Zu Beginn haben Sie mehrere M
 
 Um ein neues leeres Quarkus-Projekt mit der Quarkus CLI zu erzeugen, verwenden wir:
 
-```shell
+```bash
 $ quarkus create app example
 Looking for the newly published extensions in registry.quarkus.io
 -----------
@@ -51,7 +51,7 @@ Dies generiert das Boilerplate-Maven-Projekt mit allem, was wir brauchen, um mit
 
 In normalen Entwicklungszyklen können wir unsere Anwendung mit dem Quarkus CLI starten:
 
-```shell
+```bash
 $ quarkus dev
 [...]
 [INFO] Changes detected - recompiling the module! :dependency
@@ -75,7 +75,7 @@ Wir sehen direkt, dass unsere Applikation im Dev-Mode gestartet worden ist, den 
 
 Ohne weitere Arbeit können wir die Applikation schon bauen und ausführen. Selbstverständlich verwenden wir als Basis ein Docker Image. Um das volle Potential von Quarkus zu nutzen, bauen wir ein natives Executable und brauchen keine JVM mehr im Hintergrund. Dies funktioniert ähnlich einfach wie das Bootstrappen des Projekts mit der Quarkus CLI.
 
-```shell
+```bash
 $ quarkus image build --clean --native
 [...]
 [INFO] [io.quarkus.container.image.docker.deployment.DockerProcessor] --> 86dada6ff299
@@ -97,7 +97,7 @@ $ quarkus image build --clean --native
 
 Wie man schon vermuten kann, dauert der native Build einiges länger und ist viel ressourcenintensiver - das ist normal. Die nativ kompilierte Applikation erreicht Lichtgeschwindigkeits-ähnliche Startup Zeiten! Um dies zu demonstrieren und selbst zu erleben, starten wir den Container selbst:
 
-```shell
+```bash
 $ docker run rhertle/example:1.0.0-SNAPSHOT
 Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
 __  ____  __  _____   ___  __ ____  ______
@@ -119,7 +119,7 @@ Das Live Reload Feature, welches Frontend Entwickler*innen schon seit der Entste
 
 Wir starten unsere Applikation im Dev-Mode und testen den vordefinierten REST Endpunkt `/hello`:
 
-```shell
+```bash
 $ quarkus dev
 [...]
 Listening for transport dt_socket at address: 5005
@@ -139,7 +139,7 @@ Press [r] to resume testing, [o] Toggle test output, [:] for the terminal, [h] f
 
 In einem anderen Terminal testen wir unseren Endpunkt mit cURL und können eine erste Reponse sehen:
 
-```shell
+```bash
 $ curl localhost:8080/hello
 Hello from RESTEasy Reactive%
 ```
@@ -168,7 +168,7 @@ public class GreetingResource {
 
 Wir wiederholen den API-Aufruf von zuvor und können direkt einige Sachen im Terminal der Applikation verfolgen.
 
-```shell
+```bash
 INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-1) Restarting quarkus due to changes in GreetingResource.class.
 INFO  [io.quarkus] (Quarkus Main Thread) example stopped in 0.007s
 __  ____  __  _____   ___  __ ____  ______
@@ -191,7 +191,7 @@ Des Weiteren sehen wir im Console Output einen Hinweis auf ein weiteres Feature 
 
 Um das Feature zu testen, können wir einfach in der laufenden Konsole die [r] Taste drücken:
 
-```shell
+```bash
 ERROR [io.qua.test] (Test runner thread) ==================== TEST REPORT #1 ====================
 ERROR [io.qua.test] (Test runner thread) Test GreetingResourceTest#testHelloEndpoint() failed
 : java.lang.AssertionError: 1 expectation failed.
@@ -205,7 +205,7 @@ Expected: is "Hello from RESTEasy Reactive"
 
 Da wir die GreetingResource Klasse verändert haben, wird sie auch nicht mehr «Hello from RESTEasy Reactive» zurückgeben und somit wird auch der Test fehlschlagen. Wir können nun den Test mit der richtigen Response anpassen und Quarkus wird automatisch die Tests noch einmal ausführen - dieses Mal hoffentlich mit einem positiven Ergebnis!
 
-```shell
+```bash
 INFO  [io.qua.test] (Test runner thread) All tests are now passing
 ```
 
@@ -217,7 +217,7 @@ In der Realität sind Java Applikationen nicht nur gemacht, um ein simples «Hel
 
 Mit der Quarkus CLI können wir auch einfach alle verfügbaren Extensions durchsuchen und filtern. Mit dem `-s` Parameter können wir nach Stichworten suchen:
 
-```shell
+```bash
 $ quarkus extension -s kafka --installable
 Listing extensions (default action, see --help).
 Current Quarkus extensions installable:
@@ -228,7 +228,7 @@ Current Quarkus extensions installable:
 
 Im folgenden Abschnitt erstellen wir einen neuen Microservice erstellen, der Messages von einem Kafka Broker konsumiert und produziert. Dafür erstellen wir mit der Quarkus CLI eine neue Applikation und fügen die Extensions `quarkus-smallrye-reactive-messaging-kafka, quarkus-rest` hinzu.
 
-```shell
+```bash
 quarkus create app kafka --extensions=quarkus-smallrye-reactive-messaging-kafka,quarkus-rest
 ```
 
@@ -292,7 +292,7 @@ Wir sehen, dass die Channels `word-in` und `word-out` bereits konfiguriert und m
 
 Wir starten die neue Applikation im Dev-Mode und beobachten das Terminal:
 
-```shell
+```bash
 $ quarkus dev
 [...]
 INFO  [io.qua.kaf.cli.dep.DevServicesKafkaProcessor] (build-3) Dev Services for Kafka started. Other Quarkus applications in dev mode will find the broker automatically. For Quarkus applications in production mode, you can connect to this by starting your application with -Dkafka.bootstrap.servers=OUTSIDE://localhost:42879
