@@ -1,10 +1,10 @@
 # Meta Data for SEO
 
-metaautor = "ROKT GmbH - hallo@rokt.cloud"
-metacopyright = "ROKT GmbH - hallo@rokt.cloud"
+metaautor = "Tim&Koko AG - hallo@tim-koko.ch"
+metacopyright = "Tim&Koko AG - hallo@tim-koko.ch"
 
 ## Homepage
-title = "ROKT"
+title = "tim&koko"
 titleSeparator = "-"
 titleAddition = "into the cloud"
 description = ""
@@ -49,7 +49,7 @@ lqipWidth = "20x"
 smallLimit = "320"
 
 # Footer
-footer = '<a href="mailto:hallo@rokt.cloud">hallo@rokt.cloud</a>'
+footer = '<a href="mailto:hallo@tim-koko.ch">hallo@tim-koko.ch</a>'
 
 # Feed
 copyRight = ""

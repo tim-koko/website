@@ -10,19 +10,19 @@ Sitemap:
   Priority: 0.2
 ---
 
-In dieser Datenschutzerklärung beschreiben wir, die ROKT GmbH, wie wir Personendaten erheben und bearbeiten. Unter Personendaten werden für die Zwecke dieser Datenschutzerklärung alle Angaben verstanden, die sich auf eine bestimmte oder bestimmbare Person beziehen.
+In dieser Datenschutzerklärung beschreiben wir, die Tim&Koko AG, wie wir Personendaten erheben und bearbeiten. Unter Personendaten werden für die Zwecke dieser Datenschutzerklärung alle Angaben verstanden, die sich auf eine bestimmte oder bestimmbare Person beziehen.
 
 ## 1. Verantwortliche Stelle und Kontakt
 
-Verantwortlich für die Datenbearbeitungen, die wir hier beschreiben, ist die ROKT GmbH. Anfragen zum Datenschutz können per Brief oder E-Mail an uns gerichtet werden:
+Verantwortlich für die Datenbearbeitungen, die wir hier beschreiben, ist die Tim&Koko AG. Anfragen zum Datenschutz können per Brief oder E-Mail an uns gerichtet werden:
 
-ROKT GmbH  
+Tim&Koko AG  
 Thomas Philipona  
 Gerechtigkeitsgasse  
 3011 Bern
 
-E-Mail: hallo@rokt.cloud  
-Website: https://rokt.cloud
+E-Mail: hallo@tim-koko.ch  
+Website: https://tim-koko.ch
 
 ## 2. Erhebung und Bearbeitung von Personendaten
 

@@ -12,9 +12,9 @@ Sitemap:
 
 ### Kontakt und Inhalte
 
-ROKT GmbH, Gerechtigkeitsgasse 80, CH-3011 Bern  
+Tim&Koko AG, Gerechtigkeitsgasse 80, CH-3011 Bern  
 Founder: Thomas Philipona  
-E-Mail: [hallo@rokt.cloud](mailto:hallo@rokt.cloud)  
+E-Mail: [hallo@tim-koko.ch](mailto:hallo@tim-koko.ch)  
 Unternehmens-Nr (UID): CHE-173.198.973  
 Mehrwertsteuer-Nummer: CHE-173.198.973 MWST  
 [Datenschutzerklärung]({{% relref "datenschutzerklaerung.md" %}})
