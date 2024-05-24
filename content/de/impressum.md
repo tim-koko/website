@@ -17,7 +17,7 @@ Founder: Thomas Philipona
 E-Mail: [hallo@rokt.cloud](mailto:hallo@rokt.cloud)  
 Unternehmens-Nr (UID): CHE-173.198.973  
 Mehrwertsteuer-Nummer: CHE-173.198.973 MWST  
-[Datenschutzerklärung]({{< relref "datenschutzerklaerung.md" >}})
+[Datenschutzerklärung]({{% relref "datenschutzerklaerung.md" %}})
 
 ### Branding Agentur (Konzept & Design)
 
