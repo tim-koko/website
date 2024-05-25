@@ -16,10 +16,10 @@
 
 
       <div class="px-4 pb-4 py-md-10 d-flex flex-column h-100">
-        <div class="d-flex  mb-5 ">
-          <div>
+        <div class="d-flex  mb-3 ">
+          <div class="d-flex flex-wrap">
             {{ range $key, $value := .Params.categories }}
-              <span class="extra-small mb-3 me-3 px-3 py-1 border border-2 border-light rounded-pill">{{ $value }}</span>
+              <span class="extra-small mb-2 me-2 px-3 py-1 border border-2 border-light rounded-pill">{{ $value }}</span>
             {{ end }}
           </div>
 
