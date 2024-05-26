@@ -28,9 +28,9 @@
     <div class="lead"><span>{{ .lead }}</span></div>
   </div>
 
-  {{ if .subtitle }}
+  {{ with .news }}
   <div class="col-md-7 ps-lg-22 mt-16 d-flex flex-column" data-scroll>
-    <h2 class="mb-4 mt-auto mb-lg-8">{{ .subtitle }}</h2> 
+    <h2 class="mb-4 mt-auto mb-lg-8">{{ .title }}</h2> 
      <p>{{ .text | safeHTML }}</p>
     
     {{ if .link }}
