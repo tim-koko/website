@@ -27,6 +27,13 @@
   <div class="col-md-10 mx-auto" data-scroll>
     <div class="lead"><span>{{ .lead }}</span></div>
   </div>
+  {{ if .link }}
+  <div class="col-md-7 ps-lg-22 mt-8 d-flex flex-column" data-scroll>
+    <a class="me-auto small" href="{{ .link }}">{{ .linktext }}
+      <div class="icon-draw line" data-scroll="in"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="10" viewBox="0 0 91.45565 10.81185" preserveAspectRatio="none"><path vector-effect="non-scaling-stroke" d="M1.41188,3.81092c30.82411-1.61772,52.39289,5.57187,86.64564,1.56359" fill="none" fill-rule="evenodd" stroke="#99e0bb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke-dasharray="86.79825592041016" style="stroke-dashoffset: 0px;"></path></svg></div>
+    </a>
+  </div>
+  {{ end }}
 
   {{ with .news }}
   <div class="col-md-7 ps-lg-22 mt-16 d-flex flex-column" data-scroll>
@@ -34,7 +41,7 @@
      <p>{{ .text | safeHTML }}</p>
     
     {{ if .link }}
-    <a class="me-auto small" href="{{ .link }}" target="_blank" rel="noopener noreferrer">{{ .linktext }}
+    <a class="me-auto small" href="{{ .link }}">{{ .linktext }}
       <div class="icon-draw line" data-scroll="in"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="10" viewBox="0 0 91.45565 10.81185" preserveAspectRatio="none"><path vector-effect="non-scaling-stroke" d="M1.41188,3.81092c30.82411-1.61772,52.39289,5.57187,86.64564,1.56359" fill="none" fill-rule="evenodd" stroke="#99e0bb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke-dasharray="86.79825592041016" style="stroke-dashoffset: 0px;"></path></svg></div>
     </a>
     {{ end }}
