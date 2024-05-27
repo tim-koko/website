@@ -9,7 +9,7 @@ job:
 # Hero Section
 hero:
   small_title: "Into the Cloud"
-  title: 'Cloud Native <span class="d-block">Transformation,</span> die läuft.'
+  title: 'Cloud Native <span class="d-block">Transformation</span> leicht gemacht.'
   lead: "Wir sind tim&koko! Unser Name ist ein Tribut an Tim Berners-Lee, den Erfinder des World Wide Web, und Koko, das Gorilla-Weibchen, das mühelos in Gebärdensprache kommunizierte. Der Name steht für Technik und Kommunikation auf Augenhöhe – genau wie unsere Arbeit und unser Spirit."
   img: "images/20221018-TK_Bern_0112@4x.jpg"
   link: "/blog/rokt-tim-koko/"
