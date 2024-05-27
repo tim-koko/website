@@ -13,12 +13,12 @@ hero:
   lead: "tim&koko helps businesses like yours get all the way to the top. More specifically: Into the cloud. With advice at eye-level and technological solutions that unlock untapped potential."
   img: "images/20221018-TK_Bern_0112@4x.jpg"
   link: "/en/blog/rokt-tim-koko/"
-  linktext: "Mehr erfahren"
+  linktext: "Read more"
   news:
-    title: "Wir sind tim&koko"
-    text: "Unser Name ist ein Tribut ... Wir glauben, dass eine lebenswerte Zukunft nur von Menschen gestaltet werden kann. Und dass uns neue Technologien und Prinzipien dabei gewinnbringend unterstützen können. Allen voran: Cloud Native Technologien und Open Source Software. In der Kombination bieten sie ideale Voraussetzungen für agile Software-Lösungen, die effizient entwickelt, betrieben und kontinuierlich weiterentwickelt werden können."
-    link: "/en/blog/rokt-tim-koko/"
-    linktext: "Mehr erfahren"
+    title: ""
+    text: ""
+    link: ""
+    linktext: ""
 
 # Cloud Native Section
 cloud_native:
