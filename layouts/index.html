@@ -4,7 +4,7 @@
 {{ with $data.homepage.hero }}
 <div class="hero container-fluid pt-20 pt-lg-22 mb-10 mb-lg-0">
   <div class="row">
-    <div class="col-lg-8 order-lg-1  px-10 px-lg-5  position-relative mb-10 mb-lg-0">
+    <div class="col-lg-8 order-lg-1  px-10 px-lg-5  position-relative mb-5 mb-lg-0">
       {{ partial "img-srcset.html" (dict "img" .img "size" 800 "alt" "tim&koko" "lazy" false) }}  
   
       <div class="floaters">
@@ -15,7 +15,7 @@
   
     </div>
     <div class="col-lg-4 position-relative"  >
-      <div class="position-absolute h-100 z-index-1 d-flex flex-column justify-content-center">
+      <div class="position-lg-absolute h-100 z-index-1 d-flex flex-column justify-content-center">
         <div class="text-secondary lead" data-scroll>{{ .small_title }}</div>
         <h1 class="mb-0 mb-md-20">{{ .title | safeHTML }}</h1> 
       </div>
@@ -23,14 +23,14 @@
   </div>
 </div>
 
-<div class="container-fluid  pt-25 pt-lg-30  mb-lg-16">
+<div class="container-fluid pt-10 pt-lg-30  mb-lg-16">
   <div class="col-md-10 mx-auto" data-scroll>
     <div class="lead"><span>{{ .lead }}</span></div>
   </div>
   {{ if .link }}
   <div class="col-md-7 ps-lg-22 mt-8 d-flex flex-column" data-scroll>
     <a class="me-auto small" href="{{ .link }}">{{ .linktext }}
-      <div class="icon-draw line" data-scroll="in"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="10" viewBox="0 0 91.45565 10.81185" preserveAspectRatio="none"><path vector-effect="non-scaling-stroke" d="M1.41188,3.81092c30.82411-1.61772,52.39289,5.57187,86.64564,1.56359" fill="none" fill-rule="evenodd" stroke="#99e0bb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke-dasharray="86.79825592041016" style="stroke-dashoffset: 0px;"></path></svg></div>
+      <div class="icon-draw line" data-scroll="in"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.68 10"><path d="M1.71 3.12c31.49-.23 53.45 3.32 88.51 2.23"  style="fill:none;stroke:#99e0bb;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/></svg></div>
     </a>
   </div>
   {{ end }}
@@ -43,7 +43,7 @@
       
       {{ if .link }}
       <a class="me-auto small" href="{{ .link }}">{{ .linktext }}
-        <div class="icon-draw line" data-scroll="in"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="10" viewBox="0 0 91.45565 10.81185" preserveAspectRatio="none"><path vector-effect="non-scaling-stroke" d="M1.41188,3.81092c30.82411-1.61772,52.39289,5.57187,86.64564,1.56359" fill="none" fill-rule="evenodd" stroke="#99e0bb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke-dasharray="86.79825592041016" style="stroke-dashoffset: 0px;"></path></svg></div>
+        <div class="icon-draw line" data-scroll="in"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.68 10"><path d="M1.71 3.12c31.49-.23 53.45 3.32 88.51 2.23"  style="fill:none;stroke:#99e0bb;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/></svg></div>
       </a>
       {{ end }}
     </div>
