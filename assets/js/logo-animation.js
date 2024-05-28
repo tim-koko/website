@@ -5,7 +5,13 @@ import { create } from '@lottiefiles/lottie-interactivity';
 
 const logo = document.querySelector('#logoLottie');
 if(logo) {
-  //setTimeout( () => {
+  /*
+  logo.addEventListener('ready', () => {
+    logo.setLooping(false);
+    logo.getLottie().setLooping(false);
+
+  });
+*/
 
   logo.addEventListener('complete', () => {
 
@@ -21,4 +27,6 @@ if(logo) {
     });
   //}, 100);
   });
+ 
+
 }
