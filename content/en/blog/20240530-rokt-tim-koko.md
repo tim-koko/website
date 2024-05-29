@@ -1,5 +1,5 @@
 ---
-title: "Aus ROKT wird tim&koko – neuer Name, die gleichen Köpfe"
+title: "ROKT becomes tim&koko – new name, same people"
 slug: "rokt-tim-koko"
 description: ""
 date: 2024-05-26T00:00:00+00:00
@@ -10,18 +10,18 @@ Sitemap:
 Priority: 0.8
 
 categories: ["News", "tim&koko"]
-post_img: "images/blog/s1.jpg"
-lead: "Hast du gewusst? Unser neuer Name tim&koko ehrt den britischen Informatiker Tim Berners-Lee, Schöpfer des World Wide Web, wie auch das Gorilla-Weibchen Koko, das in Gebärdensprache kommunizierte."
+post_img: "images/blog/TK_BlogPost_2-3_RZ.png"
+lead: "Did you know? Our name is a tribute to Tim Berners-Lee, the inventor of the World Wide Web, and Koko, the female gorilla who effortlessly communicated in sign language."
 ---
 
-Der Name steht für technologische Lösungen und Kommunikation auf Augenhöhe – genau wie unsere Arbeitsweise.
+The name represents technology and communication on an equal footing – just like our working method.
 
-Aber weshalb haben wir uns überhaupt für einen neuen Namen entschieden? Das ist eine kurze Geschichte: Ein Grossunternehmen mit demselben Namen hat uns mit einer Klage gedroht. Wir verzichten gerne auf die David-gegen-Goliath-Nummer und nehmen das gleich zum Anlass, uns einen frischen Namen zu verpassen: Wir finden tim&koko passt bestens zu unserem Spirit und unterstreicht unser Zusammenspiel von technischem Know-how und der persönlichen Kommunikation mit unseren Kund:innen.
+But why did we decide to change our name in the first place? It's a short story: A large corporation with the same name didn't like that fact. We'd rather avoid the David versus Goliath scenario and take this as an opportunity to adopt a fresh name. We believe tim&koko perfectly fits our spirit and highlights the interplay between our technical know-how and personal communication with our customers.
 
-Und sonst? Bleibt fast alles beim Alten: Wir begleiten dich und dein Team natürlich weiterhin zielführend und persönlich in die Cloud. Neu sind wir sogar eine AG und du findest du uns unter [tim-koko.ch](https://tim-koko.ch).
+And otherwise? Almost everything stays the same: We will continue to guide you and your team towards the cloud in a goal-oriented and personal manner. What's new is that we are now a joint-stock company, and you can find us at [tim-koko.ch](https://tim-koko.ch).
 
-Mittlerweile sind wir zu sechst bei tim&koko. Mit unserem Team wächst auch das Know-how. So können wir ab sofort Lösungen im Messaging und Streaming mit Kafka anbieten.
+We are now a team of six at tim&koko. As our team grows, so does our expertise. Starting immediately, we can offer solutions in messaging and streaming with Kafka.
 
-## Du möchtest mehr erfahren?
+## Want to know more?
 
-Gerne. Melde dich für einen Austausch bei Kafi oder Bier – wir freuen uns!
+Gladly. Reach out for a chat over coffee or beer – we look forward to it!

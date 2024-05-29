@@ -9,7 +9,7 @@ images: []
 Sitemap:
 Priority: 0.8
 categories: ["News", "tim&koko"]
-post_img: "images/blog/s1.jpg"
+post_img: "images/blog/TK_BlogPost_2-3_RZ.png"
 lead: "Hast du gewusst? Unser neuer Name tim&koko ehrt den britischen Informatiker Tim Berners-Lee, Schöpfer des World Wide Web, wie auch das Gorilla-Weibchen Koko, das in Gebärdensprache kommunizierte."
 ---
 
