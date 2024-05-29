@@ -1,5 +1,5 @@
 ---
-title: "ROKT becomes tim&koko – new name, same people"
+title: "ROKT GmbH becomes Tim&Koko AG – new name, same people"
 slug: "rokt-tim-koko"
 description: ""
 date: 2024-05-26T00:00:00+00:00
