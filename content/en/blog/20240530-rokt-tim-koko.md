@@ -16,7 +16,7 @@ lead: "Did you know? Our name is a tribute to Tim Berners-Lee, the inventor of t
 
 The name represents technology and communication on an equal footing – just like our working method.
 
-But why did we decide to change our name in the first place? It's a short story: A large corporation with the same name didn't like that fact. We'd rather avoid the David versus Goliath scenario and take this as an opportunity to adopt a fresh name. We believe tim&koko perfectly fits our spirit and highlights the interplay between our technical know-how and personal communication with our customers.
+But why did we decide to change our name in the first place? It's a short story: A large corporation with the same name didn't like our choice. We'd rather avoid the David versus Goliath scenario and take this as an opportunity to adopt a fresh name. We believe tim&koko perfectly fits our spirit and highlights the interplay between our technical know-how and personal communication with our customers.
 
 And otherwise? Almost everything stays the same: We will continue to guide you and your team towards the cloud in a goal-oriented and personal manner. What's new is that we are now a joint-stock company, and you can find us at [tim-koko.ch](https://tim-koko.ch).
 
