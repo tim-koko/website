@@ -15,25 +15,25 @@ ogLocale = "de_CH"
 titleHome = ""
 
 ## Twitter Cards
-twitterSite = "@rokt_cloud"
-twitterCreator = "@rokt_cloud"
+twitterSite = "@tim_und_koko"
+twitterCreator = "@rtim_und_koko"
 
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
-schemaName = "rokt_cloud"
-schemaAuthor = "rokt_cloud"
-schemaAuthorTwitter = "https://twitter.com/rokt_cloud"
+schemaName = "tim-koko"
+schemaAuthor = "tim-koko"
+schemaAuthorTwitter = "https://twitter.com/tim_und_koko"
 schemaAuthorLinkedIn = "https://www.linkedin.com/in/rokt_cloud/"
 schemaAuthorGitHub = "https://github.com/rokt-cloud"
 schemaLocale = "de-CH"
 schemaLogo = "logo-timkoko.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "rokt.png"
+schemaImage = "timkoko_og.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/rokt_cloud"
+schemaTwitter = "https://twitter.com/tim_und_koko"
 schemaLinkedIn = ""
 schemaGitHub = "https://github.com/rokt-cloud"
 
