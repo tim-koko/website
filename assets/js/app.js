@@ -31,4 +31,7 @@ import './assets/js/slideshow';
 import './assets/js/mobile-menu';
 
 import './assets/js/scroll-top';
- 
+
+
+// logo animation
+import './assets/js/logo-animation';

@@ -1,16 +1,16 @@
 # Meta Data for SEO
 
-metaautor = "ROKT GmbH - hallo@rokt.cloud"
-metacopyright = "ROKT GmbH - hallo@rokt.cloud"
+metaautor = "Tim&Koko AG - hallo@tim-koko.ch"
+metacopyright = "Tim&Koko AG - hallo@tim-koko.ch"
 
 ## Homepage
-title = "ROKT"
+title = "tim&koko"
 titleSeparator = "-"
 titleAddition = "into the cloud"
 description = ""
 
 ## Open Graph
-images = ["rokt_og.png"]
+images = ["timkoko_og.png"]
 ogLocale = "de_CH"
 titleHome = ""
 
@@ -27,7 +27,7 @@ schemaAuthorTwitter = "https://twitter.com/rokt_cloud"
 schemaAuthorLinkedIn = "https://www.linkedin.com/in/rokt_cloud/"
 schemaAuthorGitHub = "https://github.com/rokt-cloud"
 schemaLocale = "de-CH"
-schemaLogo = "logo-rokt.png"
+schemaLogo = "logo-timkoko.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
 schemaImage = "rokt.png"
@@ -49,7 +49,7 @@ lqipWidth = "20x"
 smallLimit = "320"
 
 # Footer
-footer = '<a href="mailto:hallo@rokt.cloud">hallo@rokt.cloud</a>'
+footer = '<a href="mailto:hallo@tim-koko.ch">hallo@tim-koko.ch</a>'
 
 # Feed
 copyRight = ""

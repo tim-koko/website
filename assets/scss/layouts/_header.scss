@@ -110,15 +110,15 @@
 
 .navbar-brand {
   .logo {
-    width: 12rem;
+    width: 8rem;
     max-width: 220px;
     transition: all 0.2s ease;
 
     @include media-breakpoint-up(lg) {
-      width: 20rem;
+      width: 10rem;
 
       .headroom-not-top & {
-        width: 9.2rem;
+        width: 7rem;
       }
     }
   }
@@ -213,6 +213,7 @@
     position: absolute;
     font-size: 1.6rem;
     color: #fff;
+    right: 13rem;
 
     .active {
       color: $green;

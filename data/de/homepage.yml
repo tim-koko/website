@@ -9,9 +9,16 @@ job:
 # Hero Section
 hero:
   small_title: "Into the Cloud"
-  title: 'Cloud Native <span class="d-block">Transformation,</span> die rokt.'
-  lead: "ROKT begleitet Unternehmen ganz nach oben. Genauer gesagt: In die Cloud. Mit einer Beratung auf Augenhöhe und technologischen Lösungen, die ungenutztes Potenzial erschliessbar machen."
-  img: "images/20221018-Rokt_Bern_0112@4x.jpg"
+  title: 'Cloud Native <span class="d-block">Transformation</span> leicht gemacht.'
+  lead: "Wir sind tim&koko! Unser Name ist ein Tribut an Tim Berners-Lee, den Erfinder des World Wide Web, und Koko, das Gorilla-Weibchen, das mühelos in Gebärdensprache kommunizierte. Der Name steht für Technik und Kommunikation auf Augenhöhe – genau wie unsere Arbeit und unser Spirit."
+  img: "images/20221018-TK_Bern_0112@4x.jpg"
+  link: "/blog/rokt-tim-koko/"
+  linktext: "Mehr erfahren"
+  news:
+    title: ""
+    text: ""
+    link: ""
+    linktext: ""
 
 # Cloud Native Section
 cloud_native:
@@ -19,7 +26,7 @@ cloud_native:
   text:
     "<p>Wir glauben, dass eine lebenswerte Zukunft nur von Menschen gestaltet werden kann. Und dass uns neue Technologien und Prinzipien dabei gewinnbringend unterstützen können. Allen voran: <b>Cloud Native Technologien</b> und Open Source Software. In der Kombination bieten sie ideale Voraussetzungen für agile Software-Lösungen, die effizient entwickelt, betrieben und kontinuierlich weiterentwickelt werden können.</p>
     <p>Gemeinsam mit unseren Kund:innen finden wir heraus, was das konkret für ihr Unternehmen und die Menschen, die darin arbeiten, bedeutet und befähigen sie, die unendlichen Möglichkeiten von Cloud Native Computing voll auszuschöpfen. Das schafft nicht nur Raum für kreative Lösungen, sondern auch einen entscheidenden Wettbewerbsvorteil.</p>"
-  img: "images/20221018-Rokt_Bern_0405@2x.jpg"
+  img: "images/20221018-TK_Bern_0405@2x.jpg"
 
 # Technologies Section
 technologies:
@@ -47,12 +54,12 @@ technologies:
 # Services Section
 services:
   title: "Services – Gemeinsam ganz nach oben"
-  text: "<p>Wer hoch hinaus will, braucht Mut und Zuversicht. Und einen Partner wie ROKT, die einen dahin begleitet. Sobald wir die Bedürfnisse unserer Kund:innen verstanden haben, starten wir mit Teamwork: Gemeinsam entwickeln wir nachhaltige Lösungen, finden passende Technologien, setzen wirkungsvolle Prozesse auf und schaffen kulturelle Veränderung, damit die Unternehmen ihr Potenzial voll ausschöpfen können.</p>"
+  text: "<p>Wer hoch hinaus will, braucht Mut und Zuversicht. Und einen Partner wie tim&koko, die einen dahin begleitet. Sobald wir die Bedürfnisse unserer Kund:innen verstanden haben, starten wir mit Teamwork: Gemeinsam entwickeln wir nachhaltige Lösungen, finden passende Technologien, setzen wirkungsvolle Prozesse auf und schaffen kulturelle Veränderung, damit die Unternehmen ihr Potenzial voll ausschöpfen können.</p>"
   item:
     - title: "Cloud Native Consulting"
       img: '<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 128 128"><path d="M57.13533,70.34847c-3.53534,9.61666-3.45946,20.51359,.20946,30.08007,.63536,1.65667,1.3871,3.29521,2.51729,4.66303,.96712,1.17047,2.18526,2.11,3.46072,2.93373,5.62919,3.63556,12.61177,5.11913,19.23284,4.08635" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M81.69878,112.48288c4.65762,.09623,9.21503-1.22124,13.68697-2.52675,3.409-.99521,6.90793-2.03536,9.71132-4.21544,4.81721-3.74614,6.68084-10.09176,7.91876-16.06726,.94676-4.57008,1.69286-9.27126,1.02624-13.89052-.52788-3.6579-1.9225-7.12708-3.33752-10.54126-.61375-1.48085-1.24473-2.97871-2.22899-4.24395-1.11336-1.43119-2.63198-2.49991-4.23138-3.35421-6.06781-3.24106-13.23419-3.54957-20.11316-3.49878" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M76.09607,23.90561c.83234,12.98025,.20613,21.44245-.19804,34.44308-.01617,.52005-.03768,1.05826-.26753,1.52504-.26263,.53334-.76418,.90556-1.27108,1.21618-2.60551,1.59665-26.86853,2.08065-29.82533,1.30904,.31027,3.36031,.98091,10.23252,1.29118,13.59283-3.96161-1.92739-8.84611-8.25942-11.59512-11.70211-.48929-.61276-1.00865-1.28292-1.76417-1.49285-.54025-.15011-1.11356-.03672-1.66695,.05367-2.11819,.34599-2.27789,.3577-4.42259,.27583-3.67426-.14026-5.25485-.49149-8.34891-1.49176-.81078-.26211-1.66396-.503-2.28967-1.08139-.57851-.53476-.90806-1.28455-1.15164-2.03375-.64347-1.97918-.79054-7.08134-.89142-9.16005-.2455-5.05917-.2452-10.12705-.19092-15.19188,.03852-3.59386,.10985-7.22982,1.03614-10.70247,.27074-1.01501,.64295-2.0572,1.42134-2.76265,.99997-.90626,2.44734-1.07097,3.79209-1.18448,16.70972-1.41048,33.51735-1.59602,50.26302-.70907,1.21534,.06437,2.48117,.14892,3.53516,.75746s2.22835,1.56818,2.54443,4.33936" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M64.00618,31.22264c-11.89689-.32107-26.13451,.32107-38.0314,0" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M24.90072,43.12009c11.82595,.70246,23.68361-1.85043,35.49565-.94355" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M92.87089,74.63275c.46954-.18416,.17178-1.07822-.31442-.94409" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M74.22804,72.62198c.18381-.13199-.14475-.45539-.27381-.26951" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M68.99443,93.19328c3.74734,2.83277,8.46768,4.21441,13.16199,4.38955s9.37481-.80137,13.81959-2.32158" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/></svg>'
       text:
-        "<p>Ein:e erfahrene:r ROKT Cloud Native Consultant steht während des ganzen Prozesses unterstützend zur Seite – Mit Fachwissen, konkreten Anweisungen oder auch mal mit aufmunternden Worten. Das Cloud Native Consulting beinhaltet:</p>
+        "<p>Ein:e erfahrene:r tim&koko Cloud Native Consultant steht während des ganzen Prozesses unterstützend zur Seite – Mit Fachwissen, konkreten Anweisungen oder auch mal mit aufmunternden Worten. Das Cloud Native Consulting beinhaltet:</p>
         <ul>
         <li>das Begleiten deiner ganzen Cloud Native Journey von A-Z</li>
         <li>Beratung zum magischen Dreieck: Technologie, Kultur und Prozesse</li>
@@ -75,18 +82,18 @@ services:
 # Slideshow Section
 slideshow:
   images:
-    - img: "images/slideshow/20221018-Rokt_Bern_0324@2x.jpg"
-    - img: "images/slideshow/20221018-Rokt_Bern_0521@2x.jpg"
-    - img: "images/slideshow/20221018-Rokt_Bern_0745@2x.jpg"
-    - img: "images/slideshow/20221018-Rokt_Bern_0103@2x.jpg"
-    - img: "images/slideshow/20221018-Rokt_Bern_0822@2x.jpg"
-    - img: "images/slideshow/20221018-Rokt_Bern_0763@2x.jpg"
-    - img: "images/slideshow/20221018-Rokt_Bern_1083@2x.jpg"
+    - img: "images/slideshow/20221018-TK_Bern_0324@2x.jpg"
+    - img: "images/slideshow/20221018-TK_Bern_0521@2x.jpg"
+    - img: "images/slideshow/20221018-TK_Bern_0745@2x.jpg"
+    - img: "images/slideshow/20221018-TK_Bern_0103@2x.jpg"
+    - img: "images/slideshow/20221018-TK_Bern_0822@2x.jpg"
+    - img: "images/slideshow/20221018-TK_Bern_0763@2x.jpg"
+    - img: "images/slideshow/20221018-TK_Bern_1083@2x.jpg"
 
 # About us Section
 about:
   title: "Über uns – Wir leben Cloud Native"
-  text: "<p>Bei ROKT steht der Mensch im Zentrum. Wir setzen uns für eine Unternehmenskultur ein, die von Neugier, Ko-Kreation und Mut geprägt ist. Unser Kopf mag zwar in der Cloud sein, aber wir stehen mit beiden Beinen auf dem Boden.</p>"
+  text: "<p>Bei tim&koko steht der Mensch im Zentrum. Wir setzen uns für eine Unternehmenskultur ein, die von Neugier, Ko-Kreation und Mut geprägt ist. Unser Kopf mag zwar in der Cloud sein, aber wir stehen mit beiden Beinen auf dem Boden.</p>"
   persons:
     - name: "Christof Lüthi"
       title: "Cloud Architect"
@@ -109,12 +116,12 @@ about:
       twitter: "https://twitter.com/g1raffi"
     - name: "Sarah Pfeiffer"
       title: "Project Manager"
-      img: "images/team/20221018-Rokt_Bern_1139@4x.jpg"
+      img: "images/team/sarah.jpg"
       linkedin: "https://www.linkedin.com/in/pfeiffersarah/"
       twitter: "https://twitter.com/jamok_sarita"
     - name: "Thomas Philipona"
       title: "Founder"
-      img: "images/team/20221018-Rokt_Bern_1133@4x.jpg"
+      img: "images/team/thoemu.jpg"
       linkedin: "https://www.linkedin.com/in/thomas-philipona-thun/"
       twitter: "https://twitter.com/tphilipona"
       github: "https://github.com/phil-pona"
@@ -125,11 +132,11 @@ references:
   text: ""
   projects:
     - title: "Rhätische Bahn - Cloud-native Bahnbetrieb mit OpenShift"
-      text: "<p>Nebst virtualisierter Hardware sorgen Bare Metal-Maschinen für die nötige Rechenleistung, um eine Vielzahl unterschiedlicher, für den Bahnbetrieb wichtiger Applikationen auf OpenShift zu betreiben. ROKT unterstützt die Rhätische Bahn im OpenShift-Betrieb und der Weiterentwicklung der Plattform, um auch in der IT zukunftsorientiert und nachhaltig unterwegs sein zu können.</p><p><i>«Wir durften die Firma ROKT als zuverlässiger Partner kennen lernen, der uns nebst grossem Red Hat OpenShift KnowHow auch in vielen weiteren Themen (Backup, Storage, Applikationsmanagement, Datenbanken, etc) tatkräftig zu unterstützen weiss.»</i></p><p class=\"small\">Interregio auf dem Landwasserviadukt © Rhätische Bahn / Andrea Badrutt</p>"
+      text: "<p>Nebst virtualisierter Hardware sorgen Bare Metal-Maschinen für die nötige Rechenleistung, um eine Vielzahl unterschiedlicher, für den Bahnbetrieb wichtiger Applikationen auf OpenShift zu betreiben. tim&koko unterstützt die Rhätische Bahn im OpenShift-Betrieb und der Weiterentwicklung der Plattform, um auch in der IT zukunftsorientiert und nachhaltig unterwegs sein zu können.</p><p><i>«Wir durften die Firma tim&koko als zuverlässiger Partner kennen lernen, der uns nebst grossem Red Hat OpenShift KnowHow auch in vielen weiteren Themen (Backup, Storage, Applikationsmanagement, Datenbanken, etc) tatkräftig zu unterstützen weiss.»</i></p><p class=\"small\">Interregio auf dem Landwasserviadukt © Rhätische Bahn / Andrea Badrutt</p>"
       img: "images/projects/rhb.jpg"
       link: "https://rhb.ch/"
     - title: "Adcubum – Syrius auf dem Weg in die Cloud"
-      text: "<p>ROKT unterstützt Adcubum auf ihrem spannenden Weg in die Cloud. Dabei übernehmen wir die wichtigen Rollen des Product Owner eines System-Teams und des Cloud Architekten bei der Kubernetes Journey, die darauf abzielt, Syrius für den Betrieb auf OpenShift vorzubereiten. Zusätzlich dazu helfen wir beim Engineering einer zentralen Tracing Plattform.</p><p>Martina Penz, Projektleiterin: <i>«Thomas Philipona hat uns bei unserem Vorhaben, unser Produkt in die Cloud zu bringen, in der Rolle als Product Owner und Architekt erfolgreich beraten und tatkräftig unterstützt. Dank seiner ausgewiesenen Expertise und großen Erfahrung konnten wir potenzielle Risiken frühzeitig identifizieren und Hürden umschiffen. Thömu hat sich innerhalb kürzester Zeit in unserer sehr komplexes Softwareumfeld eingearbeitet und in unsere agile Teamstruktur nahtlos integriert. Die vertrauensvolle Zusammenarbeit mit ihm generiert nicht nur Value, sondern macht wegen seiner offenen, positiven Art auch viel Spass.»</i></p>"
+      text: "<p>tim&koko unterstützt Adcubum auf ihrem spannenden Weg in die Cloud. Dabei übernehmen wir die wichtigen Rollen des Product Owner eines System-Teams und des Cloud Architekten bei der Kubernetes Journey, die darauf abzielt, Syrius für den Betrieb auf OpenShift vorzubereiten. Zusätzlich dazu helfen wir beim Engineering einer zentralen Tracing Plattform.</p><p>Martina Penz, Projektleiterin: <i>«Thomas Philipona hat uns bei unserem Vorhaben, unser Produkt in die Cloud zu bringen, in der Rolle als Product Owner und Architekt erfolgreich beraten und tatkräftig unterstützt. Dank seiner ausgewiesenen Expertise und großen Erfahrung konnten wir potenzielle Risiken frühzeitig identifizieren und Hürden umschiffen. Thömu hat sich innerhalb kürzester Zeit in unserer sehr komplexes Softwareumfeld eingearbeitet und in unsere agile Teamstruktur nahtlos integriert. Die vertrauensvolle Zusammenarbeit mit ihm generiert nicht nur Value, sondern macht wegen seiner offenen, positiven Art auch viel Spass.»</i></p>"
       tech_text: "<p>OpenShift, Helm, Argo CD, Prometheus, Grafana, Jenkins, OpenTelemetry</p>"
       img: "images/projects/adcubum.jpg"
       link: "https://www.adcubum.com/"
@@ -154,7 +161,7 @@ partner:
 
 # Prefooter Section
 prefooter:
-  img: "images/20221018-Rokt_Bern_0951@2x.jpg"
+  img: "images/20221018-TK_Bern_0951@2x.jpg"
   text: "Bist du dir noch nicht ganz sicher, ob wir die Richtigen für dein Projekt sind? Im Gespräch finden wir das heraus."
 
 # Footer
@@ -162,14 +169,14 @@ footer:
   title: "Dürfen wir dich in die Cloud begleiten?"
   text: "Der Weg in die Zukunft ist gemeinsam deutlich kürzer. Kontaktiere uns für ein unverbindliches Kennenlernen."
   sayHello: " Sag Hallo."
-  email: "hallo@rokt.cloud"
+  email: "hallo@tim-koko.ch"
   # phonenumber: "+41 77 800 00 00"
   followUs: "Folge uns auf"
-  companyName: "ROKT GmbH"
+  companyName: "Tim&Koko AG"
   address: "Gerechtigkeitsgasse 80, CH-3011 Bern"
   privacy: "Datenschutz"
   impress: "Impressum"
-  companyNameCopyright: "ROKT GmbH"
+  companyNameCopyright: "Tim&Koko AG"
   getMeUp: "Get me up."
 
 # Cookie banner

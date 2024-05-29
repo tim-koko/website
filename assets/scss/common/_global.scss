@@ -249,3 +249,9 @@ pre {
     padding-right: 160px;
   }
 }
+
+@include media-breakpoint-up(lg) {
+  .position-lg-absolute {
+    position: absolute;
+  }
+}

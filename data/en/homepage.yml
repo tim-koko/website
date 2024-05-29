@@ -9,9 +9,16 @@ job:
 # Hero Section
 hero:
   small_title: "Into the Cloud"
-  title: 'Cloud Native <span class="d-block">Transformation,</span> that roks.'
-  lead: "ROKT helps businesses like yours get all the way to the top. More specifically: Into the cloud. With advice at eye-level and technological solutions that unlock untapped potential."
-  img: "images/20221018-Rokt_Bern_0112@4x.jpg"
+  title: 'Cloud Native <span class="d-block">Transformation,</span> that works.'
+  lead: "We are tim&koko! Our name is a tribute to Tim Berners-Lee, the inventor of the World Wide Web, and Koko, the female gorilla who effortlessly communicated in sign language. The name represents technology and communication on an equal footing – just like our work and our spirit."
+  img: "images/20221018-TK_Bern_0112@4x.jpg"
+  link: "/en/blog/rokt-tim-koko/"
+  linktext: "Read more"
+  news:
+    title: ""
+    text: ""
+    link: ""
+    linktext: ""
 
 # Cloud Native Section
 cloud_native:
@@ -19,7 +26,7 @@ cloud_native:
   text:
     "<p>We believe that a future worth living can only be shaped by people. And that new technologies and principles can profitably support us in every endeavour. Leading the way: <b>cloud native technologies</b> and open source software. In combination, they offer ideal conditions for agile software solutions that can be efficiently deployed, operated and continuously developed.</p>
     <p>By working closely with you, our team identifies what this means for each unique  company and the people who work in it enabling the full use of the infinite possibilities of cloud-native computing. This not only creates room for creative solutions, but also a significant competitive advantage.</p>"
-  img: "images/20221018-Rokt_Bern_0405@2x.jpg"
+  img: "images/20221018-TK_Bern_0405@2x.jpg"
 
 # Technologies Section
 technologies:
@@ -47,11 +54,11 @@ technologies:
 # Services Section
 services:
   title: "Services – All the way to the top together"
-  text: "<p>If you want to reach for the clouds, you need courage and confidence. And a partner like ROKT will  accompany you on every step of your journey. As soon as we fully understand your needs, we start working as a team: together we develop sustainable solutions, find suitable technologies, set up effective processes and create cultural change so you can realise your full potential.</p>"
+  text: "<p>If you want to reach for the clouds, you need courage and confidence. And a partner like tim&koko will  accompany you on every step of your journey. As soon as we fully understand your needs, we start working as a team: together we develop sustainable solutions, find suitable technologies, set up effective processes and create cultural change so you can realise your full potential.</p>"
   item:
     - title: "Cloud Native Consulting"
       text:
-        "<p>An experienced ROKT Cloud Native Consultant will provide support throughout the process – with expertise, concrete instructions or sometimes words of encouragement. Cloud Native Consulting includes:</p>
+        "<p>An experienced tim&koko Cloud Native Consultant will provide support throughout the process – with expertise, concrete instructions or sometimes words of encouragement. Cloud Native Consulting includes:</p>
         <ul>
         <li>Accompanying your entire Cloud Native Journey from A-Z</li>
         <li>Consulting on the magic triangle: technology, culture and processes</li>
@@ -73,24 +80,24 @@ services:
 # Slideshow Section
 slideshow:
   images:
-    - img: "images/slideshow/20221018-Rokt_Bern_0324@2x.jpg"
-    - img: "images/slideshow/20221018-Rokt_Bern_0521@2x.jpg"
-    - img: "images/slideshow/20221018-Rokt_Bern_0745@2x.jpg"
-    - img: "images/slideshow/20221018-Rokt_Bern_0103@2x.jpg"
-    - img: "images/slideshow/20221018-Rokt_Bern_0822@2x.jpg"
-    - img: "images/slideshow/20221018-Rokt_Bern_0763@2x.jpg"
-    - img: "images/slideshow/20221018-Rokt_Bern_1083@2x.jpg"
+    - img: "images/slideshow/20221018-TK_Bern_0324@2x.jpg"
+    - img: "images/slideshow/20221018-TK_Bern_0521@2x.jpg"
+    - img: "images/slideshow/20221018-TK_Bern_0745@2x.jpg"
+    - img: "images/slideshow/20221018-TK_Bern_0103@2x.jpg"
+    - img: "images/slideshow/20221018-TK_Bern_0822@2x.jpg"
+    - img: "images/slideshow/20221018-TK_Bern_0763@2x.jpg"
+    - img: "images/slideshow/20221018-TK_Bern_1083@2x.jpg"
 
 # About us Section
 about:
   title: "About us – We live Cloud Native"
-  text: "<p>At ROKT, people are at the centre of everything we do. We are committed to a corporate culture characterised by curiosity, co-creation and courage. Our heads may be in the cloud, but our feet are rooted firmly on the ground.</p>"
+  text: "<p>At tim&koko, people are at the centre of everything we do. We are committed to a corporate culture characterised by curiosity, co-creation and courage. Our heads may be in the cloud, but our feet are rooted firmly on the ground.</p>"
   persons:
     - name: "Christof Lüthi"
       title: "Cloud Architect"
       img: "images/team/chrigu.jpg"
       linkedin: "https://www.linkedin.com/in/christof-luethi/"
-      github: "https://github.com/orgs/acend/people/christofluethi"
+      github: "https://github.com/christofluethi"
     - name: "Livia Affolter"
       title: "Project Manager"
       img: "images/team/livia.jpg"
@@ -107,12 +114,12 @@ about:
       twitter: "https://twitter.com/g1raffi"
     - name: "Sarah Pfeiffer"
       title: "Project Manager"
-      img: "images/team/20221018-Rokt_Bern_1139@4x.jpg"
+      img: "images/team/sarah.jpg"
       linkedin: "https://www.linkedin.com/in/pfeiffersarah/"
       twitter: "https://twitter.com/jamok_sarita"
     - name: "Thomas Philipona"
       title: "Founder"
-      img: "images/team/20221018-Rokt_Bern_1133@4x.jpg"
+      img: "images/team/thoemu.jpg"
       linkedin: "https://www.linkedin.com/in/thomas-philipona-thun/"
       twitter: "https://twitter.com/tphilipona"
       github: "https://github.com/phil-pona"
@@ -123,11 +130,11 @@ references:
   text: ""
   projects:
     - title: "Rhaetian Railway - Cloud-Native Railway Operations with OpenShift"
-      text: "<p>In addition to virtualized hardware, bare metal machines provide the necessary computing power to run a variety of different applications crucial for railway operations on OpenShift. ROKT supports the Rhaetian Railway in the operation and further development of the OpenShift platform, enabling them to be future-oriented and sustainable in their IT journey.</p><p><i>«We have had the pleasure of getting to know ROKT as a reliable partner, who, in addition to extensive RedHat OpenShift expertise, also knows how to actively support us in many other areas (backup, storage, application management, databases, etc).»</i></p><p class=\"small\">Interregio auf dem Landwasserviadukt © Rhätische Bahn / Andrea Badrutt</p>"
+      text: "<p>In addition to virtualized hardware, bare metal machines provide the necessary computing power to run a variety of different applications crucial for railway operations on OpenShift. tim&koko supports the Rhaetian Railway in the operation and further development of the OpenShift platform, enabling them to be future-oriented and sustainable in their IT journey.</p><p><i>«We have had the pleasure of getting to know tim&koko as a reliable partner, who, in addition to extensive RedHat OpenShift expertise, also knows how to actively support us in many other areas (backup, storage, application management, databases, etc).»</i></p><p class=\"small\">Interregio auf dem Landwasserviadukt © Rhätische Bahn / Andrea Badrutt</p>"
       img: "images/projects/rhb.jpg"
       link: "https://rhb.ch/"
     - title: "Adcubum – Syrius a journey into the cloud"
-      text: "<p>ROKT is supporting Adcubum on their exciting journey into the cloud. We take on the important roles of product owner of a system team and cloud architect in the Kubernetes journey, which aims to prepare Syrius for operation on OpenShift. Additionally, we help with the engineering of a central tracing platform.</p><p>Martina Penz Project Leader: <i>\"Thomas Philipona has successfully advised and actively supported us in our journey to the cloud, in the roles as Product Owner and Architect. Thanks to his proven expertise and extensive experience, we were able to identify potential risks early on and navigate obstacles. Thömu quickly familiarized himself with our highly complex software environment and seamlessly integrated into our agile team structure. The trustful collaboration with him not only generates value but also brings a lot of enjoyment due to his open and positive nature.\"</i></p>"
+      text: "<p>tim&koko is supporting Adcubum on their exciting journey into the cloud. We take on the important roles of product owner of a system team and cloud architect in the Kubernetes journey, which aims to prepare Syrius for operation on OpenShift. Additionally, we help with the engineering of a central tracing platform.</p><p>Martina Penz Project Leader: <i>\"Thomas Philipona has successfully advised and actively supported us in our journey to the cloud, in the roles as Product Owner and Architect. Thanks to his proven expertise and extensive experience, we were able to identify potential risks early on and navigate obstacles. Thömu quickly familiarized himself with our highly complex software environment and seamlessly integrated into our agile team structure. The trustful collaboration with him not only generates value but also brings a lot of enjoyment due to his open and positive nature.\"</i></p>"
       tech_text: "<p>OpenShift, Helm, Argo CD, Prometheus, Grafana, Jenkins, OpenTelemetry</p>"
       img: "images/projects/adcubum.jpg"
       link: "https://www.adcubum.com/"
@@ -153,7 +160,7 @@ partner:
 
 # Prefooter Section
 prefooter:
-  img: "images/20221018-Rokt_Bern_0951@2x.jpg"
+  img: "images/20221018-TK_Bern_0951@2x.jpg"
   text: "Not quite sure we are the right partner for your project? Let's find out together."
 
 # Footer
@@ -161,14 +168,14 @@ footer:
   title: "May we guide you towards the cloud?"
   text: "The path into the future is much shorter together. Contact us for a no-obligation meeting and turn your gaze skywards."
   sayHello: " Say hello."
-  email: "hallo@rokt.cloud"
+  email: "hallo@tim-koko.ch"
   # phonenumber: "+41 77 800 00 00"
   followUs: "Follow us on"
-  companyName: "ROKT GmbH"
+  companyName: "Tim&Koko AG"
   address: "Gerechtigkeitsgasse 80, CH-3011 Bern"
   privacy: "Privacy"
   impress: "Impress"
-  companyNameCopyright: "ROKT GmbH"
+  companyNameCopyright: "Tim&Koko AG"
   getMeUp: "Get me up."
 
 # Cookie banner
