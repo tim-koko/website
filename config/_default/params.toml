@@ -24,7 +24,7 @@ schemaType = "Organization"
 schemaName = "tim-koko"
 schemaAuthor = "tim-koko"
 schemaAuthorTwitter = "https://twitter.com/tim_und_koko"
-schemaAuthorLinkedIn = "https://www.linkedin.com/in/rokt_cloud/"
+schemaAuthorLinkedIn = "https://www.linkedin.com/company/tim-koko/"
 schemaAuthorGitHub = "https://github.com/rokt-cloud"
 schemaLocale = "de-CH"
 schemaLogo = "logo-timkoko.png"
@@ -34,7 +34,7 @@ schemaImage = "timkoko_og.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = "https://twitter.com/tim_und_koko"
-schemaLinkedIn = ""
+schemaLinkedIn = "https://www.linkedin.com/company/tim-koko/"
 schemaGitHub = "https://github.com/rokt-cloud"
 
 ## Chrome Browser
