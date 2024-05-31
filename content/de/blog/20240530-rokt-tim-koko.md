@@ -17,7 +17,7 @@ Der Name steht für technologische Lösungen und Kommunikation auf Augenhöhe �
 
 Aber weshalb haben wir uns überhaupt für einen neuen Namen entschieden? Das ist eine kurze Geschichte: Ein Grossunternehmen mit demselben Namen war über unsere Namenswahl nicht erfreut. Wir verzichten gerne auf die David-gegen-Goliath-Nummer und nehmen das gleich zum Anlass, uns einen frischen Namen zu verpassen: Wir finden tim&koko passt bestens zu unserem Spirit und unterstreicht unser Zusammenspiel von technischem Know-how und der persönlichen Kommunikation mit unseren Kund:innen.
 
-Und sonst? Bleibt fast alles beim Alten: Wir begleiten dich und dein Team natürlich weiterhin zielführend und persönlich in die Cloud. Neu sind wir sogar eine AG und du findest du uns unter [tim-koko.ch](https://tim-koko.ch).
+Und sonst? Bleibt fast alles beim Alten: Wir begleiten dich und dein Team natürlich weiterhin zielführend und persönlich in die Cloud. Neu sind wir sogar eine AG und du findest uns unter [tim-koko.ch](https://tim-koko.ch).
 
 Mittlerweile sind wir zu sechst bei tim&koko. Mit unserem Team wächst auch das Know-how. So können wir ab sofort Lösungen im Messaging und Streaming mit Kafka anbieten.
 
