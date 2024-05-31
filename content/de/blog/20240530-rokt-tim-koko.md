@@ -2,8 +2,8 @@
 title: "Aus ROKT wird tim&koko – neuer Name, die gleichen Köpfe"
 slug: "rokt-tim-koko"
 description: ""
-date: 2024-05-25T00:00:00+00:00
-lastmod: 2024-05-30T00:00:00+00:00
+date: 2024-05-30T00:00:00+00:00
+lastmod: 2024-05-31T00:00:00+00:00
 draft: false
 images: []
 Sitemap:
