@@ -2,8 +2,8 @@
 title: "ROKT GmbH becomes Tim&Koko AG – new name, same people"
 slug: "rokt-tim-koko"
 description: ""
-date: 2024-05-26T00:00:00+00:00
-lastmod: 2024-05-30T00:00:00+00:00
+date: 2024-05-30T00:00:00+00:00
+lastmod: 2024-05-31T00:00:00+00:00
 draft: false
 images: []
 Sitemap:
