@@ -66,7 +66,6 @@
   },
   "dependencies": {
     "@lottiefiles/dotlottie-web": "^0.23.1",
-    "@lottiefiles/lottie-interactivity": "^1.6.2",
     "animejs": "^3.2.1",
     "flickity": "^2.3.0",
     "headroom.js": "^0.12.0",
