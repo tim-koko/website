@@ -65,7 +65,7 @@
     "hugo": "0.126.1"
   },
   "dependencies": {
-    "@dotlottie/player-component": "^2.7.12",
+    "@lottiefiles/dotlottie-web": "^0.23.1",
     "@lottiefiles/lottie-interactivity": "^1.6.2",
     "animejs": "^3.2.1",
     "flickity": "^2.3.0",
