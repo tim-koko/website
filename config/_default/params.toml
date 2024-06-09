@@ -25,7 +25,7 @@ schemaName = "tim-koko"
 schemaAuthor = "tim-koko"
 schemaAuthorTwitter = "https://twitter.com/tim_und_koko"
 schemaAuthorLinkedIn = "https://www.linkedin.com/company/tim-koko/"
-schemaAuthorGitHub = "https://github.com/rokt-cloud"
+schemaAuthorGitHub = "https://github.com/tim-koko"
 schemaLocale = "de-CH"
 schemaLogo = "logo-timkoko.png"
 schemaLogoWidth = 512
@@ -35,7 +35,7 @@ schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = "https://twitter.com/tim_und_koko"
 schemaLinkedIn = "https://www.linkedin.com/company/tim-koko/"
-schemaGitHub = "https://github.com/rokt-cloud"
+schemaGitHub = "https://github.com/tim-koko"
 
 ## Chrome Browser
 themeColor = "#fff"
