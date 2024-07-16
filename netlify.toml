@@ -27,6 +27,7 @@
   to = "/blog/tim-koko/"
   status = 301
   force = true
+
 [[redirects]]
 # redirect old en blog post to new one
   from = "/en/blog/rokt-tim-koko/*"
