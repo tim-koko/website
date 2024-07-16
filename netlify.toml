@@ -22,10 +22,16 @@
   HUGO_ENV = "next"
 
 [[redirects]]
-# on the release date change the from (from /new/* to /*)
-#  from = "/*"
-  from = "/new/*"
-  to = "https://tim-koko.ch/"
+# redirect old blog post to new one
+  from = "/blog/rokt-tim-koko/*"
+  to = "/blog/tim-koko/"
+  status = 301
+  force = true
+
+[[redirects]]
+# redirect old en blog post to new one
+  from = "/en/blog/rokt-tim-koko/*"
+  to = "/en/blog/tim-koko/"
   status = 301
   force = true
 
