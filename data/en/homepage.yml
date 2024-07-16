@@ -10,15 +10,15 @@ job:
 hero:
   small_title: "Into the Cloud"
   title: 'Cloud Native <span class="d-block">Transformation,</span> that works.'
-  lead: "We are tim&koko! Our name is a tribute to Tim Berners-Lee, the inventor of the World Wide Web, and Koko, the female gorilla who effortlessly communicated in sign language. The name represents technology and communication on an equal footing – just like our work and our spirit."
+  lead: "tim&koko helps businesses like yours get all the way to the top. More specifically: Into the cloud. With advice at eye-level and technological solutions that unlock untapped potential."
   img: "images/20221018-TK_Bern_0112@4x.jpg"
-  link: "/en/blog/rokt-tim-koko/"
-  linktext: "Read more"
+  link: ""
+  linktext: ""
   news:
-    title: ""
-    text: ""
-    link: ""
-    linktext: ""
+    title: "We are tim&koko!"
+    text: "Our name is a tribute to Tim Berners-Lee, the inventor of the World Wide Web, and Koko, the female gorilla who effortlessly communicated in sign language. The name represents technology and communication on an equal footing – just like our work and our spirit."
+    link: "/en/blog/tim-koko/"
+    linktext: "Read more"
 
 # Cloud Native Section
 cloud_native:
