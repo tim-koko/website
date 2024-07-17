@@ -137,11 +137,13 @@
 
 <div class="container-fluid pt-20 pt-md-25 pt-lg-30">
 
-  <div class="parent">
+  <div class="img-cloud">
     {{ range .images }}
       {{ if .img }} 
       <div class="div" data-scroll>
-        {{ partial "img-srcset.html" (dict "img" .img "size" 800 "alt" "") }}
+        <div class="floater position-relative top-0 left-0">
+          {{ partial "img-srcset.html" (dict "img" .img "size" 800 "alt" "") }}
+        </div>
       </div>
       {{ end }}
     {{ end }}
