@@ -1,5 +1,5 @@
 import  Flickity from 'flickity';
-import anime from 'animejs';
+//import anime from 'animejs'; // old home slider
   
 
 
@@ -8,10 +8,7 @@ const articleSlideshows = document.querySelectorAll('.entry-content .slides');
 if (articleSlideshows) {
 		
 
-
   articleSlideshows.forEach((el) => {
-
- 
 
     var flkty = new Flickity(el.querySelector('.carousel'), {  
       lazyLoad: 2,
@@ -29,12 +26,9 @@ if (articleSlideshows) {
 
     });
 */
-    //var carouselStatus = $this.find('.carousel-status')[0];
-    var carouselCaption = el.querySelector('.c-caption');
+     var carouselCaption = el.querySelector('.c-caption');
     
     flkty.on( 'select', function() {
-      //var slideNumber = flkty.selectedIndex + 1;
-      //carouselStatus.textContent = slideNumber + '/' + flkty.slides.length;
       carouselCaption.textContent = el.querySelector('.is-selected .caption').textContent ? el.querySelector('.is-selected .caption').textContent : el.querySelector('.carousel-cell:first-child .caption').textContent;
     });
 
@@ -83,6 +77,9 @@ if(slideshow) {
 
 
 
+/* OLD Home Slider:
+*
+*
 
 const element = document.querySelector('.slideshow-container');
 const slider = document.querySelector('.slideshow-container .slider');
@@ -123,8 +120,8 @@ if (!document.body.classList.contains('touch')) {
       const elementOffsetTop = element.offsetTop;
     
       // Calculate percentage of the element that's been seen
-      const distance = scrollTop /*+ viewportHeight*/ - elementOffsetTop;
-      const percentage = Math.round(distance / ((/*viewportHeight +*/ elementHeight - viewportHeight/**/) / 100)
+      const distance = scrollTop  - elementOffsetTop;
+      const percentage = Math.round(distance / ((  elementHeight - viewportHeight ) / 100)
       );
     
       // Restrict the range to between 0 and 100
@@ -138,34 +135,24 @@ if (!document.body.classList.contains('touch')) {
       }
     },{passive: true});
 
-} else {
+  } else {
 
-  if(slider) {
-  
-    new Flickity(slider, {
-          //wrapAround: true,
-          pageDots: false,
-          //draggable: false, //isTouch(),
-          prevNextButtons: false,
-          cellAlign: 'left',
-          on: {
-              ready: function() {
-                  window.dispatchEvent(new Event('resize'));
-              },
-          }, 
-      });
-  /*
-    // previous
-    var previousButton = document.querySelector('.button-previous');
-    previousButton.addEventListener( 'click', function() {
-      flkty.previous();
-    });
-    // next
-    var nextButton = document.querySelector('.button-next');
-    nextButton.addEventListener( 'click', function() {
-      flkty.next();
-    });*/
+    if(slider) {
+    
+      new Flickity(slider, {
+            //wrapAround: true,
+            pageDots: false,
+            //draggable: false, //isTouch(),
+            prevNextButtons: false,
+            cellAlign: 'left',
+            on: {
+                ready: function() {
+                    window.dispatchEvent(new Event('resize'));
+                },
+            }, 
+        });
+    }
   }
-}
 
 }
+*/
