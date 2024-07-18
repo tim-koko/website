@@ -3,7 +3,7 @@
   grid-template-columns: repeat(10, 1fr);
   grid-row-gap: 1.5rem;
 
-  .div:nth-child(1) { grid-area: 3 / 1 / 7 / 5; }
+  .div:nth-child(1) { grid-area: 4 / 1 / 7 / 5; }
   .div:nth-child(2) { grid-area: 1 / 6 / 5 / 10; }
   .div:nth-child(3) { grid-area: 5 / 7 / 7 / 11; }
   .div:nth-child(4) { grid-area: 7 / 3 / 10 / 9; }
