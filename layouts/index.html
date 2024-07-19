@@ -135,13 +135,13 @@
 
 {{ with $data.homepage.slideshow }}
 
-<div class="container-fluid pt-20 pt-md-25 pt-lg-30">
+<div class="container-fluid pt-20 pt-md-25 pt-lg-30 px-0 px-md-10 px-lg-16 px-xxl-30">
 
   <div class="img-cloud">
     {{ range .images }}
       {{ if .img }} 
       <div class="div" data-scroll>
-        <div class="floater position-relative top-0 left-0">
+        <div class="cloud-img position-relative top-0 left-0" data-speed="0">
           {{ partial "img-srcset.html" (dict "img" .img "size" 800 "alt" "") }}
         </div>
       </div>
