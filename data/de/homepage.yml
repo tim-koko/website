@@ -82,13 +82,12 @@ services:
 # Slideshow Section
 slideshow:
   images:
-    - img: "images/slideshow/20221018-TK_Bern_0324@2x.jpg"
     - img: "images/slideshow/20221018-TK_Bern_0521@2x.jpg"
+    - img: "images/slideshow/tk-Bilder_11.jpg"
+    - img: "images/slideshow/20221018-TK_Bern_1083@2x.jpg"
+    - img: "images/slideshow/20221018-TK_Bern_0324@2x.jpg"
     - img: "images/slideshow/20221018-TK_Bern_0745@2x.jpg"
     - img: "images/slideshow/20221018-TK_Bern_0103@2x.jpg"
-    - img: "images/slideshow/20221018-TK_Bern_0822@2x.jpg"
-    - img: "images/slideshow/20221018-TK_Bern_0763@2x.jpg"
-    - img: "images/slideshow/20221018-TK_Bern_1083@2x.jpg"
 
 # About us Section
 about:

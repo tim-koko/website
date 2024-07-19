@@ -6,7 +6,7 @@
   {{ $paginator := .Paginate (where .Site.RegularPages.ByDate.Reverse "Section" "blog" ) -}}
   <meta property="og:url" content="{{ .Paginator.URL | absURL }}">
 {{ else -}}
-  <meta property="og:url" content="{{ .RelPermalink }}">
+  <meta property="og:url" content="{{ .Permalink }}">
 {{ end -}}
 {{ with .Site.Params.title -}}
   <meta property="og:site_name" content="{{ . }}">
