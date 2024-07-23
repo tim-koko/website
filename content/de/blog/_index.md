@@ -1,5 +1,5 @@
 ---
-title: "Insights - Themen, die uns beschäftigen"
+title: "Insights – Themen, die uns beschäftigen"
 description: ""
 lead: ""
 date: 2024-05-15T00:00:00+00:00

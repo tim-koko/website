@@ -1,5 +1,5 @@
 ---
-title: "Insights - topics that keep us busy"
+title: "Insights – topics that keep us busy"
 description: ""
 lead: ""
 date: 2023-11-20T00:00:00+00:00
