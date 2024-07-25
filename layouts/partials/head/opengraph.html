@@ -36,7 +36,9 @@
 
 {{ with $.Params.images -}}
   {{ range first 6 . -}}
-  <meta property="og:image" content="{{ $.Permalink }}{{ . }}">
+  {{ $image := resources.Get .  }}
+  {{ $size := 1400   }}
+  <meta property="og:image" content="{{ ($image.Resize (printf "%sx" (string  $size))).Permalink }}">
   {{ end -}}
 {{ else -}}
   {{ $images := $.Resources.ByType "image" -}}
