@@ -5,12 +5,12 @@ description: ""
 date: 2024-05-21T00:00:00+00:00
 lastmod: 2024-05-21T00:00:00+00:00
 draft: false
-images: []
+images: ["images/blog/quarkus/tk-blogpost-02_quarkus_share-image.jpg"]
 Sitemap:
 Priority: 0.3
 
 categories: ["Technology", "Quarkus", "Developer", "Java"]
-post_img: "images/blog/quarkus/Quarkus-logo_0.jpg"
+post_img: "images/blog/quarkus/tk-blogpost-02_quarkus.jpg"
 lead: "With Quarkus the Java ecosystem becomes a big developer experience boost. Let's explore some features and dive into Quarkus!"
 ---
 
