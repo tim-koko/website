@@ -5,12 +5,12 @@ description: ""
 date: 2024-05-16T00:00:00+00:00
 lastmod: 2024-05-16T00:00:00+00:00
 draft: false
-images: ["images/blog/kraft/kafka-kraft-migration-logo.png"]
+images: ["images/blog/kraft/tk-blogpost-01_kraft.jpg"]
 Sitemap:
 Priority: 0.3
 
 categories: ["Technologie", "Apache Kafka", "Messaging"]
-post_img: "images/blog/kraft/kafka-kraft-migration-logo.png"
+post_img: "images/blog/kraft/tk-blogpost-01_kraft.jpg"
 lead: "Mit dem Release 3.6.2 ermöglicht Apache Kafka eine Migration von Apache ZooKeeper basierten Clustern zu KRaft. Der Ablösung von ZooKeeper steht nun nichts mehr im Wege. Was zu beachten ist, erfährst du hier."
 resources:
   - src: 'test.csv'
