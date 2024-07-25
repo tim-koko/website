@@ -5,7 +5,7 @@ description: ""
 date: 2024-05-16T00:00:00+00:00
 lastmod: 2024-05-16T00:00:00+00:00
 draft: false
-images: []
+images: ["images/blog/kraft/kafka-kraft-migration-logo.png"]
 Sitemap:
 Priority: 0.3
 

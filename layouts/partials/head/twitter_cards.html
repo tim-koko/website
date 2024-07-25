@@ -4,7 +4,9 @@
 <meta name="twitter:title" content="{{ .Title }}">
 <meta name="twitter:description" content="{{ .Description }}">
 {{ with $.Params.images -}}
-  <meta name="twitter:image" content="{{ $.RelPermalink }}{{ index . 0 }}">
+  {{ $image := resources.Get (index . 0) }}
+  {{ $size := 800   }}
+  <meta property="twitter:image" content="{{ ($image.Resize (printf "%sx" (string  $size))).Permalink }}">
 {{ else -}}
   {{ $images := $.Resources.ByType "image" -}}
   {{ $featured := $images.GetMatch "*feature*" -}}

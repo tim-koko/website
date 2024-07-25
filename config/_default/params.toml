@@ -16,7 +16,7 @@ titleHome = ""
 
 ## Twitter Cards
 twitterSite = "@tim_und_koko"
-twitterCreator = "@rtim_und_koko"
+twitterCreator = "@tim_und_koko"
 
 ## JSON-LD
 # schemaType = "Person"
