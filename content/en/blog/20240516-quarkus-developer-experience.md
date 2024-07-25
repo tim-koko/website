@@ -5,7 +5,7 @@ description: ""
 date: 2024-05-21T00:00:00+00:00
 lastmod: 2024-05-21T00:00:00+00:00
 draft: false
-images: ["images/blog/quarkus/tk-blogpost-02_quarkus.jpg"]
+images: ["images/blog/quarkus/tk-blogpost-02_quarkus_share-image.jpg"]
 Sitemap:
 Priority: 0.3
 
