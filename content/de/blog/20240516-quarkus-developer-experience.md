@@ -226,7 +226,7 @@ Current Quarkus extensions installable:
 ✬ quarkus-smallrye-reactive-messaging-kafka     SmallRye Reactive Messaging - Kafka Connector
 ```
 
-Im folgenden Abschnitt erstellen wir einen neuen Microservice erstellen, der Messages von einem Kafka Broker konsumiert und produziert. Dafür erstellen wir mit der Quarkus CLI eine neue Applikation und fügen die Extensions `quarkus-smallrye-reactive-messaging-kafka, quarkus-rest` hinzu.
+Im folgenden Abschnitt erstellen wir einen neuen Microservice, der Messages von einem Kafka Broker konsumiert und produziert. Dafür erstellen wir mit der Quarkus CLI eine neue Applikation und fügen die Extensions `quarkus-smallrye-reactive-messaging-kafka, quarkus-rest` hinzu.
 
 ```bash
 quarkus create app kafka --extensions=quarkus-smallrye-reactive-messaging-kafka,quarkus-rest
