@@ -4,6 +4,10 @@ const handleSubmit = (event) => {
   const myForm = event.target;
   const formData = new FormData(myForm);
   
+  //console.log(formData);
+  //console.log(new URLSearchParams(formData).toString());
+
+
   fetch('/', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -29,6 +33,8 @@ const handleSubmit = (event) => {
 
 const forms = document.querySelectorAll('form');
 
-if (forms.length > 0) forms.forEach(form => {
-  form.addEventListener('submit', handleSubmit);
-});
+if (forms.length > 0) {
+  forms.forEach(form => {
+    form.addEventListener('submit', handleSubmit);
+  });
+}

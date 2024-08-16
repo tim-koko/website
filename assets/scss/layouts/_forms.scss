@@ -10,6 +10,13 @@
   background-clip: padding-box;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 
+  &:focus {
+    color: #fff;
+    background-color: #232c47;
+    outline: 0;
+    box-shadow: none;
+  }
+
   &.textarea {
     background-color: #232c47;
     border-bottom: none;
