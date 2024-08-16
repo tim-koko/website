@@ -51,3 +51,12 @@ other = "Gib deine Nachricht ein"
 
 [anmelden]
 other = "Anmelden"
+
+[agb]
+other = "Geschäftsbedingungen"
+
+[gelesen]
+other = "gelesen und stimme diesen zu."
+
+[ichHabeDie]
+other = "Ich habe die"

@@ -49,6 +49,17 @@
         <label for="message">{{ i18n "nachricht" }}</label>
         <textarea class="form-control textarea" id="message" name="message" rows="5" placeholder="{{ i18n "gibDeineNachrichtEin" }}"></textarea>
       </div>
+      <div class="mb-6">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="agbCheck" required>
+          <label class="form-check-label" for="agbCheck">
+            {{ i18n "ichHabeDie" }}  <a href="/datenschutzerklaerung/" target="_blank">{{ i18n "agb" }}</a> {{ i18n "gelesen" }}  
+          </label>
+        </div>   
+
+      </div>
+
+      
       <button type="submit" class="btn btn-primary rounded-0">{{ i18n "anmelden" }}</button>
     </form>
     <div class="message-success d-none">Danke für deine Anmeldung!</div>

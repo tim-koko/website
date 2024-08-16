@@ -41,3 +41,16 @@ input::placeholder {
 ::placeholder { /* Firefox 19+ */
   color: #6c7284 !important;
 }
+
+.form-check-input {
+  background-color: #4d5261; // #6c7284;
+  border: 0;
+
+  &[type="checkbox"] {
+    border-radius: 0;
+  }
+
+  &:checked {
+    background-color: #4d5261;
+  }
+}
