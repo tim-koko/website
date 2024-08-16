@@ -1,0 +1,61 @@
+{{ define "main" }}
+<div class="container-fluid  pt-25 pt-lg-30">
+
+
+  {{ with .Params.image }}
+      <div class="mb-10 mb-lg-20">
+        {{ partial "img-srcset.html" (dict "img" . "size" 1200) }}
+      </div>
+  {{ end }}
+
+
+  <div class="row">
+ 
+    <div class="col-lg-5">
+ 
+        {{ with .Params.smallTitle}}
+          <div class="bigger mb-4">{{ . }}</div>
+        {{ end }}
+        <h1 class="mb-5 mb-md-8">{{ .Params.titleVisible }}{{ with .Params.titleSublineVisible}}<br><span>{{ . }}</span>{{ end }}</h1>
+        {{ .Content }}
+ 
+    </div>
+    <div class="col-lg-6 offset-lg-1 pt-4">
+    <form  name="Anmeldung" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" >
+      <input type="hidden" name="bot-field" />
+      <input type="hidden" name="form-name" value="Anmeldung" />
+      
+      <div class="row ">
+        <div class="col-md-6 mb-6">
+          <label for="name">{{ i18n "vorname" }}</label>
+          <input type="text" class="form-control" id="name" placeholder="{{ i18n "gibDeinVornameEin" }}" required>
+        </div>
+
+        <div class="col-md-6 mb-6">
+          <label for="name">{{ i18n "nachname" }}</label>
+          <input type="text" class="form-control" id="name" placeholder="{{ i18n "gibDeinNachnameEin" }}" required>
+        </div>
+
+      </div>
+      <div class="mb-6">
+        <label for="email">{{ i18n "email" }}</label>
+        <input type="email" class="form-control" id="email" placeholder="{{ i18n "gibDeineEmailEin" }}" required>
+      </div>
+      <div class="mb-6">
+        <label for="phone">{{ i18n "telefonnummer" }}</label>
+        <input type="text" class="form-control" id="phone" placeholder="{{ i18n "gibDeineTelefonnummerEin" }}">
+      </div>
+      <div class="mb-6">
+        <label for="message">{{ i18n "nachricht" }}</label>
+        <textarea class="form-control textarea" id="message" rows="5" placeholder="{{ i18n "gibDeineNachrichtEin" }}"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary rounded-0">{{ i18n "anmelden" }}</button>
+    </form>
+    <div class="message-success d-none">Danke für deine Anmeldung!</div>
+    <div class="message-error d-none">Ohje ein Fehler ist passiert!</div>
+
+
+    </div>
+  </div>
+</div>
+{{ end }}

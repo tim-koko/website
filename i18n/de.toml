@@ -18,3 +18,36 @@ other = "Beitrag teilen"
 
 [morePosts]
 other = "Weitere Beiträge"
+
+[vorname]
+other = "Vorname"
+
+[gibDeinVornameEin]
+other = "Gib dein Vorname ein"
+
+[nachname]
+other = "Nachname"
+
+[gibDeinNachnameEin]
+other = "Gib dein Nachname ein"
+
+[email]
+other = "E-Mail"
+
+[gibDeineEmailEin]
+other = "Gib dein E-Mail ein"
+
+[telefonnummer]
+other = "Telefonnummer"
+
+[gibDeineTelefonnummerEin]
+other = "Gib deine Telefonnummer ein"
+
+[nachricht]
+other = "Nachricht"
+
+[gibDeineNachrichtEin]
+other = "Gib deine Nachricht ein"
+
+[anmelden]
+other = "Anmelden"

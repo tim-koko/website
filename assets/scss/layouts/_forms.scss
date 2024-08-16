@@ -1,0 +1,36 @@
+.form-control {
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding: 0.375rem 0;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #fff;
+  border-radius: 0;
+  background-color: transparent;
+  background-clip: padding-box;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+  &.textarea {
+    background-color: #232c47;
+    border-bottom: none;
+    color: #fff;
+    padding: 1.5rem;
+  }
+}
+
+label {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #fff;
+  font-weight: 400;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+input::placeholder {
+  color: #6c7284 !important;
+}
+
+::placeholder { /* Firefox 19+ */
+  color: #6c7284 !important;
+}
