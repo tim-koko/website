@@ -312,23 +312,29 @@
           <input type="hidden" name="form-name" value="Newsletter" />
           
           <div class="row ">
-            <div class="col-md-6 mb-6">
-              <label for="first-name">{{ i18n "vorname" }}</label>
+          <div class="col-md-6">
+            <div class="mb-6 form-floating">
               <input type="text" class="form-control" id="first-name" name="first-name" placeholder="{{ i18n "gibDeinVornameEin" }}" required />
+              <label for="first-name">{{ i18n "vorname" }}</label>
             </div>
+           </div>
     
-            <div class="col-md-6 mb-6">
-              <label for="last-name">{{ i18n "nachname" }}</label>
+           <div class="col-md-6">
+            <div class="mb-6 form-floating">
               <input type="text" class="form-control" id="last-name" name="last-name" placeholder="{{ i18n "gibDeinNachnameEin" }}" required />
+              <label for="last-name">{{ i18n "nachname" }}</label>
             </div>
+           </div>
     
           </div>
-          <div class="mb-6">
-            <label for="email">{{ i18n "email" }}</label>
+          <div class="mb-6 form-floating">
             <input type="email" class="form-control" id="email" name="email" placeholder="{{ i18n "gibDeineEmailEin" }}" required />
+            <label for="email">{{ i18n "email" }}</label>
           </div>
           <button type="submit" class="btn btn-primary rounded-0">{{ i18n "anmelden" }}</button>
         </form>
+        <div class="message-success d-none">Danke für deine Anmeldung!</div>
+        <div class="message-error d-none">Ohje ein Fehler ist passiert!</div>
       </div>
     </div>
   {{ end }}

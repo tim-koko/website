@@ -60,3 +60,9 @@ other = "gelesen und stimme diesen zu."
 
 [ichHabeDie]
 other = "Ich habe die"
+
+[messageSuccess]
+other = "Danke für deine Anmeldung!"
+
+[messageError]
+other = "Sorry, ein Fehler ist aufgetreten!"

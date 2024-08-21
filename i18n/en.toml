@@ -51,3 +51,18 @@ other = "Enter your message"
 
 [anmelden]
 other = "Submit"
+
+[agb]
+other = "Terms and Conditions."
+
+[gelesen]
+other = " "
+
+[ichHabeDie]
+other = "I have read and understood the"
+
+[messageSuccess]
+other = "Thank you for your registration!"
+
+[messageError]
+other = "Sorry, an error occurred!"

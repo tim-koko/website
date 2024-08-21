@@ -1,5 +1,8 @@
 :root {
   scroll-behavior: auto !important;
+
+  --bs-body-bg: var(--bs-primary);
+  --bs-body-color-rgb: 255, 255, 255;
 }
 
 html {

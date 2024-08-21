@@ -1,7 +1,7 @@
 .form-control {
   border: none;
   border-bottom: 1px solid #fff;
-  padding: 0.375rem 0;
+  padding: 0.5rem 0 !important;
   font-size: 1.6rem;
   line-height: 1.5;
   color: #fff;
@@ -11,15 +11,16 @@
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 
   &:focus {
+    // background-color: #232c47;
     color: #fff;
-    background-color: #232c47;
     outline: 0;
     box-shadow: none;
+    border-color: #fff;
   }
 
   &.textarea {
-    background-color: #232c47;
-    border-bottom: none;
+    // background-color: #232c47;
+    // border-bottom: none;
     color: #fff;
     padding: 1.5rem;
   }
@@ -35,11 +36,11 @@ label {
 }
 
 input::placeholder {
-  color: #6c7284 !important;
+  color: #6c7284;
 }
 
 ::placeholder { /* Firefox 19+ */
-  color: #6c7284 !important;
+  color: #6c7284;
 }
 
 .form-check-input {
@@ -52,5 +53,24 @@ input::placeholder {
 
   &:checked {
     background-color: #4d5261;
+  }
+}
+
+.form-floating {
+  > label {
+    padding: 0.5rem 0;
+    color: #fff;
+  }
+
+  > .form-control:focus ~ label,
+  > .form-control:not(:placeholder-shown) ~ label,
+  > .form-control-plaintext ~ label,
+  > .form-select ~ label {
+    color: #6c7284;
+    transform: scale(0.85) translateY(-2rem) translateX(0);
+  }
+
+  &::placeholder {
+    color: transparent !important;
   }
 }
