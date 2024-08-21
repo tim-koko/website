@@ -58,8 +58,14 @@ input::placeholder {
 
 .form-floating {
   > label {
-    padding: 0.5rem 0;
+    padding: 0;
     color: #fff;
+    border: 0;
+    margin: 0;
+
+    &::after {
+      background-color: transparent !important;
+    }
   }
 
   > .form-control:focus ~ label,

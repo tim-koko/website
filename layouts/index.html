@@ -331,10 +331,13 @@
             <input type="email" class="form-control" id="email" name="email" placeholder="{{ i18n "gibDeineEmailEin" }}" required />
             <label for="email">{{ i18n "email" }}</label>
           </div>
-          <button type="submit" class="btn btn-primary rounded-0">{{ i18n "anmelden" }}</button>
+ 
+          <button type="submit" class="btn link bold normal me-auto  px-0 border-0"  >{{ i18n "anmelden" }}
+            <div class="icon-draw line" data-scroll="in"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.68 10"><path d="M1.71 3.12c31.49-.23 53.45 3.32 88.51 2.23"  style="fill:none;stroke:#99e0bb;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/></svg></div>
+          </button>
         </form>
-        <div class="message-success d-none">Danke für deine Anmeldung!</div>
-        <div class="message-error d-none">Ohje ein Fehler ist passiert!</div>
+        <div class="message-success d-none">{{ i18n "messageSuccess" }}</div>
+        <div class="message-error d-none">{{ i18n "messageError" }}</div>
       </div>
     </div>
   {{ end }}

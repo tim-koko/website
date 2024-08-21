@@ -48,6 +48,14 @@ body {
   font-size: 2rem;
 }
 
+.normal {
+  font-size: 1.6rem;
+
+  @include media-breakpoint-up(md) {
+    font-size: 1.8rem;
+  }
+}
+
 h1,
 .h1 {
   font-size: 3.6rem;
@@ -114,7 +122,8 @@ article {
   }
 }
 
-a {
+a,
+button.link {
   color: #fff;
 
   svg {
