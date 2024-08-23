@@ -1,7 +1,5 @@
-<div data-scroll class="mb-8 w-100 position-relative {{ .Title | urlize}} {{ range $key, $value := .Params.categories }}{{ (replace $value "/" "-") | urlize }} {{ end }} ">
 
-
-  <div class="row gy-5 mb-8">
+  <div data-scroll class="row gy-5 mb-8 position-relative {{ .Title | urlize}} {{ range $key, $value := .Params.categories }}{{ (replace $value "/" "-") | urlize }} {{ end }} ">
 
     <div class="col-md-6">
 
@@ -11,7 +9,7 @@
 
     </div>
 
-    <div class="col-md-5 d-flex flex-column  h-100_">
+    <div class="col-md-5 d-flex flex-column">
 
        
          {{/* 
@@ -39,6 +37,4 @@
       </div>
     </div>
 
-
-
-</div>
+ 

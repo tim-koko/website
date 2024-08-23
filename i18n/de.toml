@@ -66,3 +66,12 @@ other = "Danke für deine Anmeldung!"
 
 [messageError]
 other = "Sorry, ein Fehler ist aufgetreten!"
+
+[referenzen]
+other = "Referenzen"
+
+[previousProject]
+other = "Vorheriges Projekt"
+
+[nextProject]
+other = "Nächstes Projekt"
