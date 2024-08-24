@@ -18,3 +18,57 @@ other = "Share article"
 
 [morePosts]
 other = "More articles"
+
+[vorname]
+other = "First name"
+
+[gibDeinVornameEin]
+other = "Enter your first name"
+
+[nachname]
+other = "Last name"
+
+[gibDeinNachnameEin]
+other = "Enter your last name"
+
+[email]
+other = "E-mail"
+
+[gibDeineEmailEin]
+other = "Enter your e-mail"
+
+[telefonnummer]
+other = "Phone"
+
+[gibDeineTelefonnummerEin]
+other = "Enter your phone"
+
+[nachricht]
+other = "Message"
+
+[gibDeineNachrichtEin]
+other = "Enter your message"
+
+[anmelden]
+other = "Submit"
+
+[agb]
+other = "Terms and Conditions."
+
+[datenschutzbestimmungen]
+other = "privacy policy"
+
+[gelesen]
+other = " "
+
+[ichHabeDie]
+other = "I have read and understood the"
+
+[fuerDenNewsletterAnmelden]
+other = "Sign up for our newsletter."
+
+[messageSuccess]
+other = "Thank you for your registration!"
+
+[messageError]
+other = "Sorry, an error occurred!"

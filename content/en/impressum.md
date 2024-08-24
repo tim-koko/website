@@ -3,7 +3,7 @@ title : "Impress"
 description: ""
 lead: ""
 date: 2022-10-31T00:00:00+00:00
-lastmod: 2022-05-28T00:00:00+00:00
+lastmod: 2024-08-24T00:00:00+00:00
 draft: false
 images: []
 ---
@@ -15,7 +15,11 @@ Founder: Thomas Philipona
 E-Mail: [hallo@tim-koko.ch](mailto:hallo@tim-koko.ch)  
 UID: CHE-173.198.973  
 MWST-Nr: CHE-173.198.973 MWST  
-[DSVGO]({{% relref path="datenschutzerklaerung.md" lang="de"%}})  
+[DSVGO]({{% relref path="datenschutzerklaerung.md" lang="de"%}})
+
+### Brand Tim&Koko
+
+You can find more information about the tim&koko brand, including downloadable logos, fonts, images on our [Brandplatform](https://brand.tim-koko.ch).
 
 ### Branding (Concept & Design)
 

@@ -35,8 +35,4 @@ if(logocanvas) {
     logoAnimation.play();
   });
  
-
-  console.log(logoAnimation)
-
- 
 }

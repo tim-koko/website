@@ -3,7 +3,7 @@ title: "Datenschutzerklärung"
 description: ""
 lead: ""
 date: 2022-05-28T00:00:00+00:00
-lastmod: 2024-02-13T00:00:00+00:00
+lastmod: 2024-08-24T00:00:00+00:00
 draft: false
 images: []
 Sitemap:
@@ -145,10 +145,9 @@ Diese Personendaten bearbeiten wir für die beschriebenen Zwecke gestützt auf d
 * Wahrung berechtigter Interessen (z.B. Anstellung neuer Mitarbeitenden); inkl. Vertragsanbahnung und allfällige Durchsetzung;
 * Einwilligung.
 
-<!--
 ### 3.7 Newsletter-Nutzung
 
-Soweit Sie unseren Newsletter abonnieren, nutzen wir Ihre E-Mail-Adresse und weitere Kontaktdaten, um Ihnen den Newsletter zu senden. Sie können unseren Newsletter mit Ihrer Einwilligung abonnieren. Pflichtangabe für die Übersendung des Newsletters sind Ihr vollständiger Name sowie Ihre E-Mailadresse, die wir nach Ihrer Anmeldung speichern. Rechtsgrundlagen für die Verarbeitung Ihrer Daten im Zusammenhang mit unserem Newsletter bildet Ihre Einwilligung in die Übersendung des Newsletters. Diese können Sie jederzeit widerrufen und den Newsletter abbestellen.-->
+Soweit Sie unseren Newsletter abonnieren, nutzen wir Ihre E-Mail-Adresse und weitere Kontaktdaten, um Ihnen den Newsletter zu senden. Sie können unseren Newsletter mit Ihrer Einwilligung abonnieren. Pflichtangabe für die Übersendung des Newsletters sind Ihr vollständiger Name sowie Ihre E-Mailadresse, die wir nach Ihrer Anmeldung speichern. Rechtsgrundlagen für die Verarbeitung Ihrer Daten im Zusammenhang mit unserem Newsletter bildet Ihre Einwilligung in die Übersendung des Newsletters. Diese können Sie jederzeit widerrufen und den Newsletter abbestellen (direkt im Newsletter oder per Mail an <hallo@tim-koko.ch>).
 
 ## 4. Datenweitergabe und Datenübermittlung
 

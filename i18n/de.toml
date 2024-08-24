@@ -18,3 +18,57 @@ other = "Beitrag teilen"
 
 [morePosts]
 other = "Weitere Beiträge"
+
+[vorname]
+other = "Vorname"
+
+[gibDeinVornameEin]
+other = "Gib dein Vorname ein"
+
+[nachname]
+other = "Nachname"
+
+[gibDeinNachnameEin]
+other = "Gib dein Nachname ein"
+
+[email]
+other = "E-Mail"
+
+[gibDeineEmailEin]
+other = "Gib dein E-Mail ein"
+
+[telefonnummer]
+other = "Telefonnummer"
+
+[gibDeineTelefonnummerEin]
+other = "Gib deine Telefonnummer ein"
+
+[nachricht]
+other = "Nachricht"
+
+[gibDeineNachrichtEin]
+other = "Gib deine Nachricht ein"
+
+[anmelden]
+other = "Anmelden"
+
+[agb]
+other = "Geschäftsbedingungen"
+
+[datenschutzbestimmungen]
+other = "Datenschutzbestimmungen"
+
+[gelesen]
+other = "gelesen und stimme diesen zu."
+
+[ichHabeDie]
+other = "Ich habe die"
+
+[fuerDenNewsletterAnmelden]
+other = "Für den Newsletter anmelden."
+
+[messageSuccess]
+other = "Danke für deine Anmeldung!"
+
+[messageError]
+other = "Sorry, ein Fehler ist aufgetreten!"

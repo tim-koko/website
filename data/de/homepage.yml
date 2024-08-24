@@ -163,6 +163,12 @@ prefooter:
   img: "images/20221018-TK_Bern_0951@2x.jpg"
   text: "Bist du dir noch nicht ganz sicher, ob wir die Richtigen für dein Projekt sind? Im Gespräch finden wir das heraus."
 
+# Newsletter Section
+newsletter:
+  enabled: true
+  title: "Newsletter"
+  text: "Melde dich an und verpasse keine News, Trends oder wertvollen Insights mehr – bleib immer auf dem neuesten Stand!"
+
 # Footer
 footer:
   title: "Dürfen wir dich in die Cloud begleiten?"

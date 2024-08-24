@@ -1,0 +1,82 @@
+.form-control {
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding: 0.5rem 0 !important;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #fff;
+  border-radius: 0;
+  background-color: transparent;
+  background-clip: padding-box;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+  &:focus {
+    // background-color: #232c47;
+    color: #fff;
+    outline: 0;
+    box-shadow: none;
+    border-color: #fff;
+  }
+
+  &.textarea {
+    // background-color: #232c47;
+    // border-bottom: none;
+    color: #fff;
+    padding: 1.5rem;
+  }
+}
+
+label {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #fff;
+  font-weight: 400;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+input::placeholder {
+  color: #6c7284;
+}
+
+::placeholder { /* Firefox 19+ */
+  color: #6c7284;
+}
+
+.form-check-input {
+  background-color: #4d5261; // #6c7284;
+  border: 0;
+
+  &[type="checkbox"] {
+    border-radius: 0;
+  }
+
+  &:checked {
+    background-color: #4d5261;
+  }
+}
+
+.form-floating {
+  > label {
+    padding: 0;
+    color: #fff;
+    border: 0;
+    margin: 0;
+
+    &::after {
+      background-color: transparent !important;
+    }
+  }
+
+  > .form-control:focus ~ label,
+  > .form-control:not(:placeholder-shown) ~ label,
+  > .form-control-plaintext ~ label,
+  > .form-select ~ label {
+    color: #6c7284;
+    transform: scale(0.85) translateY(-2rem) translateX(0);
+  }
+
+  &::placeholder {
+    color: transparent !important;
+  }
+}

@@ -162,6 +162,14 @@ prefooter:
   img: "images/20221018-TK_Bern_0951@2x.jpg"
   text: "Not quite sure we are the right partner for your project? Let's find out together."
 
+
+# Newsletter Section
+newsletter:
+  enabled: true
+  title: "Newsletter"
+  text: "Sign up and never miss any news, trends, or valuable insights again – stay up to date!"
+
+
 # Footer
 footer:
   title: "May we guide you towards the cloud?"
