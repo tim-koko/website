@@ -165,9 +165,9 @@ prefooter:
 
 # Newsletter Section
 newsletter:
-  enabled: false
+  enabled: true
   title: "Newsletter"
-  text: "Melde dich an und verpasse keine Cloud Native Neuigkeiten, Trends oder wertvolle Tipps mehr – bleib immer auf dem neuesten Stand!"
+  text: "Sign up and never miss any news, trends, or valuable insights again – stay up to date!"
 
 
 # Footer
