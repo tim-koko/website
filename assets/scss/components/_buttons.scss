@@ -1,3 +1,7 @@
+.btn {
+  --bs-btn-font-size: 1em;
+}
+
 .btn-primary {
   --bs-btn-font-size: 2rem;
   --bs-btn-padding-x: 3rem;
@@ -15,6 +19,10 @@
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #99e0bb;
   --bs-btn-disabled-border-color: #99e0bb;
+}
+
+.btn-outline-light {
+  --bs-btn-hover-color: #0a1432;
 }
 
 .job-wrapper {
