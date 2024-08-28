@@ -6,6 +6,7 @@ date: 2024-05-16T00:00:00+00:00
 lastmod: 2024-05-16T00:00:00+00:00
 draft: false
 images: ["images/blog/kraft/tk-blogpost-01_kraft_share-image.jpg"]
+img_border: true
 Sitemap:
 Priority: 0.3
 

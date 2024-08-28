@@ -1,7 +1,7 @@
 
   <div data-scroll class="row gy-5 mb-8 position-relative {{ .Title | urlize}} {{ range $key, $value := .Params.categories }}{{ (replace $value "/" "-") | urlize }} {{ end }} ">
 
-    <div class="col-md-6">
+    <div class="col-md-6 {{ if .Params.img_border }} needsborder {{ end }}">
 
      {{with .Params.post_img }}
       {{ partial "img-srcset.html" (dict "img" . "size" 500 ) }}
