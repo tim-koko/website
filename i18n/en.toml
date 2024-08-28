@@ -55,11 +55,17 @@ other = "Submit"
 [agb]
 other = "Terms and Conditions."
 
+[datenschutzbestimmungen]
+other = "privacy policy"
+
 [gelesen]
 other = " "
 
 [ichHabeDie]
 other = "I have read and understood the"
+
+[fuerDenNewsletterAnmelden]
+other = "Sign up for our newsletter."
 
 [messageSuccess]
 other = "Thank you for your registration!"

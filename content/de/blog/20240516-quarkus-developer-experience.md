@@ -14,13 +14,13 @@ post_img: "images/blog/quarkus/tk-blogpost-02_quarkus.jpg"
 lead: "Mit Quarkus bekommt das Java Ökosystem einen immensen Developer Experience Boost! In diesem kurzen Beitrag tauchen wir in die Welt von Quarkus!"
 ---
 
-Quarkus wurde entwickelt, um Entwicklern ein außergewöhnliches Erlebnis zu bieten, indem es einen rationalisierten und effizienten Arbeitsablauf bietet. Lassen Sie uns einige Schlüsselaspekte der Developer Experience in Quarkus untersuchen:
+Quarkus wurde entwickelt, um Entwickler:innen ein außergewöhnliches Erlebnis zu bieten, indem es einen rationalisierten und effizienten Arbeitsablauf bietet. Lassen Sie uns einige Schlüsselaspekte der Developer Experience in Quarkus untersuchen:
 
 Um ein leeres Quarkus-Projekt mit dem Quarkus CLI zu erzeugen, verwenden wir:
 
 ### Schnelle Startzeiten
 
-Quarkus ist bekannt für seine unglaublich schnelle Startzeit, die es Entwicklern ermöglicht, produktiv zu entwickeln. Quarkus erreicht dies durch den Einsatz eines Bootstrapping-Prozesses zur Kompilierzeit, der unnötigen Laufzeit-Overhead eliminiert. Dadurch können Entwickler ihre Anwendungen innerhalb von Millisekunden starten und neu starten, was die Entwicklungszyklen erheblich verkürzt.
+Quarkus ist bekannt für seine unglaublich schnelle Startzeit, die es Entwickler:innen ermöglicht, produktiv zu entwickeln. Quarkus erreicht dies durch den Einsatz eines Bootstrapping-Prozesses zur Kompilierzeit, der unnötigen Laufzeit-Overhead eliminiert. Dadurch können Entwickler:innen ihre Anwendungen innerhalb von Millisekunden starten und neu starten, was die Entwicklungszyklen erheblich verkürzt.
 
 Fangen wir mit einem einfachen Quarkus-Projekt an. Zu Beginn haben Sie mehrere Möglichkeiten, den Boilerplate-Code für das Projekt zu generieren: Maven, Quarkus CLI oder über die Web UI (https://code.quarkus.io/).
 
@@ -113,9 +113,9 @@ Blitzschnell startet die Applikation und ist bereit, Traffic zu empfangen! Nur i
 
 ### Developer Joy mit Live Coding
 
-Quarkus kommt auch mit dem mächtigen Feature «Live Coding», das uns Entwickler*Innen endlich erlaubt Code Changes, ohne manuelle Restarts zu sehen! Dieses Feature ist besonders hilfreich, wenn wir an grösseren Applikationen oder komplexeren Problemen arbeiten. Devs können sich auf ihr Kerngeschäft konzentrieren, das Coden, und Quarkus übernimmt Änderungen automatisch, was den Entwicklungsprozess höchstgradig effizient und interaktiv macht!
+Quarkus kommt auch mit dem mächtigen Feature «Live Coding», das uns Entwickler:innen endlich erlaubt Code Changes, ohne manuelle Restarts zu sehen! Dieses Feature ist besonders hilfreich, wenn wir an grösseren Applikationen oder komplexeren Problemen arbeiten. Devs können sich auf ihr Kerngeschäft konzentrieren, das Coden, und Quarkus übernimmt Änderungen automatisch, was den Entwicklungsprozess höchstgradig effizient und interaktiv macht!
 
-Das Live Reload Feature, welches Frontend Entwickler*innen schon seit der Entstehung des Universums haben, bringt einige Vorteile mit sich. Änderungen an APIs oder Businesscode sehen wir bei dem nächsten Aufruf direkt - jedoch lassen sich auch andere Quality of Life Features damit implementieren.
+Das Live Reload Feature, welches Frontend Entwickler:innen schon seit der Entstehung des Universums haben, bringt einige Vorteile mit sich. Änderungen an APIs oder Businesscode sehen wir bei dem nächsten Aufruf direkt - jedoch lassen sich auch andere Quality of Life Features damit implementieren.
 
 Wir starten unsere Applikation im Dev-Mode und testen den vordefinierten REST Endpunkt `/hello`:
 
@@ -211,7 +211,7 @@ INFO  [io.qua.test] (Test runner thread) All tests are now passing
 
 ### Developer-Centric Tooling
 
-Quarkus kommt mit einem umfangreichen Set von Tools und Extensions, die viele mögliche Aspekte der Applikationsentwicklung vereinfachen. Das Ökosystem von Quarkus beinhaltet Extensions für eine Vielzahl beliebter Frameworks und Libraries wie RESTeasy, Hibernate, Kafka und viele mehr. Die Extensions kommen mit production-ready Features und Integrationsmöglichkeiten, die den Entwickler*innen möglichst viel unnötige Konfigurationszeit abnehmen.
+Quarkus kommt mit einem umfangreichen Set von Tools und Extensions, die viele mögliche Aspekte der Applikationsentwicklung vereinfachen. Das Ökosystem von Quarkus beinhaltet Extensions für eine Vielzahl beliebter Frameworks und Libraries wie RESTeasy, Hibernate, Kafka und viele mehr. Die Extensions kommen mit production-ready Features und Integrationsmöglichkeiten, die den Entwickler:innen möglichst viel unnötige Konfigurationszeit abnehmen.
 
 In der Realität sind Java Applikationen nicht nur gemacht, um ein simples «Hello, world» dem User zurückzugeben. Die meisten Java-basierten Microservice-Architekturen konsumieren und produzieren von einer Vielzahl an Schnittstellen. Beispielsweise wurde in den letzten Jahren immer mehr Apache Kafka zum Dreh- und Angelpunkt, wenn es um die Integration von Microservices in eventbasierte Systeme geht. Quarkus hat auch hier natürlich mit dem Extension basierten Ansatz eine solide Lösung.
 
@@ -226,7 +226,7 @@ Current Quarkus extensions installable:
 ✬ quarkus-smallrye-reactive-messaging-kafka     SmallRye Reactive Messaging - Kafka Connector
 ```
 
-Im folgenden Abschnitt erstellen wir einen neuen Microservice erstellen, der Messages von einem Kafka Broker konsumiert und produziert. Dafür erstellen wir mit der Quarkus CLI eine neue Applikation und fügen die Extensions `quarkus-smallrye-reactive-messaging-kafka, quarkus-rest` hinzu.
+Im folgenden Abschnitt erstellen wir einen neuen Microservice, der Messages von einem Kafka Broker konsumiert und produziert. Dafür erstellen wir mit der Quarkus CLI eine neue Applikation und fügen die Extensions `quarkus-smallrye-reactive-messaging-kafka, quarkus-rest` hinzu.
 
 ```bash
 quarkus create app kafka --extensions=quarkus-smallrye-reactive-messaging-kafka,quarkus-rest
@@ -288,7 +288,7 @@ mp.messaging.outgoing.words-out.topic=words
 mp.messaging.incoming.words-in.auto.offset.reset=earliest
 ```
 
-Wir sehen, dass die Channels `word-in` und `word-out` bereits konfiguriert und mit den entsprechenden Topics verbunden sind. Alle Entwickler*innen, die sich schon einmal die Mühe gemacht haben, ihr Kafka-System lokal aufzusetzen, wissen, dass es ein mühsames Unterfangen werden kann. Nicht mit Quarkus - was wir in Kürze sehen werden.
+Wir sehen, dass die Channels `word-in` und `word-out` bereits konfiguriert und mit den entsprechenden Topics verbunden sind. Alle Entwickler:innen, die sich schon einmal die Mühe gemacht haben, ihr Kafka-System lokal aufzusetzen, wissen, dass es ein mühsames Unterfangen werden kann. Nicht mit Quarkus - was wir in Kürze sehen werden.
 
 Wir starten die neue Applikation im Dev-Mode und beobachten das Terminal:
 
@@ -323,7 +323,7 @@ Ein weiteres Feature, welches unser Entwicklungs Erlebnis verbessert, ist das De
 
 ### Vereinfachte Konfiguration
 
-Quarkus verfolgt klar das Prinzip von «convention over configuration» um die Konfiguration Aufwände für Entwickler*innen zu minimieren. Mit jeder Extension kommen schon viele Standardkonfigurationen mit, was die Anzahl von Konfigurationen, die wirklich benötigt werden, drastisch verkleinert. Die zentrale Spezifikation der Konfiguration von Quarkus Projekten ist die MicroProfile Config Spezifikation (<https://microprofile.io/microprofile-config/>) welches durch SmallRye Config implementiert wird (<https://smallrye.io/smallrye-config/Main/>).
+Quarkus verfolgt klar das Prinzip von «convention over configuration» um die Konfiguration Aufwände für Entwickler:innen zu minimieren. Mit jeder Extension kommen schon viele Standardkonfigurationen mit, was die Anzahl von Konfigurationen, die wirklich benötigt werden, drastisch verkleinert. Die zentrale Spezifikation der Konfiguration von Quarkus Projekten ist die MicroProfile Config Spezifikation (<https://microprofile.io/microprofile-config/>) welches durch SmallRye Config implementiert wird (<https://smallrye.io/smallrye-config/Main/>).
 
 Könnt ihr euch noch an das 12-Faktor Application Manifesto erinnern (<https://12factor.net/>)? Applikations-Konfiguration sollte immer so minimal wie nur möglich sein. Die Applikation sollte lokal immer ohne weitere Konfiguration starten. Jegliche Konfigurationen, die das Verhalten und die Umgebung der Applikation definieren und steuern, sollten via Environment Variablen in das Deployment gegeben werden.
 
