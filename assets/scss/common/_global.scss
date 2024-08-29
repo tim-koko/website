@@ -150,7 +150,7 @@ button.link {
 .btn {
   &:hover,
   &.active {
-    color: $green;
+    // color: $green;
     text-decoration: none;
 
     &.icon-draw svg path {
