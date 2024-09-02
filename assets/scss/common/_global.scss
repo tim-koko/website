@@ -201,6 +201,11 @@ p {
   }
 }
 
+small,
+.small {
+  font-size: 1.4rem;
+}
+
 .shadow {
   box-shadow: 0 0 1rem 0.22rem rgba($green, 0.7) !important;
 }

@@ -1,5 +1,15 @@
 {{ define "main" }}
 <article class="container-fluid  pt-5 pt-lg-30">
+
+  {{with .Params.post_img }}
+  <div class="mb-4 mb-lg-8  {{ if page.Params.img_border }} needsborder {{ end }}">
+    {{ partial "img-srcset.html" (dict "img" . "size" 1200  ) }}
+  </div>
+  {{ end }}
+
+
+
+
   <div class="row">
     <div class="col-lg-2 pt-lg-11 mb-10">
       <a class="small d-flex flex-column" href="{{ relLangURL "/blog/" }}">{{ i18n "goBack" }}
@@ -25,7 +35,7 @@
         </div>
 
         <h1 class="h2 mb-8 mb-lg-16">{{ .Title }}</h1>
-
+        {{/*
         <div class="mb-12 mb-lg-24">
           {{with .Params.post_img }}
           {{ partial "img-srcset.html" (dict "img" . "size" 730  ) }}
@@ -41,10 +51,9 @@
               {{ . }}
             </div>
             {{ end }}
-
           </div>
-
         </div>
+        */}}
 
         {{ with .Params.lead }}
         <div class="h3 mb-8 mb-lg-16">{{ . | markdownify }}</div>
@@ -112,7 +121,7 @@
 
         {{ range first 2 (shuffle (where (where .Site.RegularPages "Section" "blog") "Title" "!=" .Title )) }}
 
-        <div class="col-12 col-xl  d-flex flex-column mb-5 position-relative">
+        <div class="col-12 col-xl  d-flex flex-column mb-5 position-relative {{ if .Params.img_border }} needsborder {{ end }}">
 
 
             {{ with .Params.post_img }}

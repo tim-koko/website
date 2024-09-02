@@ -193,50 +193,42 @@
 </section>
 {{ end }}
 
+
 {{ with $data.homepage.references }}
 <section id="references" class="section container-fluid  pt-25 pt-lg-30">
   <div class="col-lg-6 mb-8 mb-lg-12 pe-lg-14" data-scroll>
-    <h2 >{{ .title }}</h2> 
+    <h2 >{{  .title }}</h2> 
   </div>
-  <div class="position-relative">
-    <div class="navi">
-      <button class="btn button-previous icon-draw p-0 border-0" aria-label="previous"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 128 128"><path d="M66.5669,20.94257c3.63497-.22121,7.33108,.0536,10.91144,.63881,5.83694,.95406,10.57901,4.0614,15.1631,7.58834,3.01439,2.31924,5.53987,4.98409,7.60854,8.209,1.53615,2.39475,2.91929,4.90792,3.80761,7.61256,1.1012,3.3528,1.91884,6.55061,2.20451,10.07578,.30156,3.72137,.31586,7.35972,.07135,11.08956-.33212,5.06627-.77233,10.14463-2.11203,15.05651-.62027,2.27414-1.38617,4.37562-2.41444,6.49412-.8805,1.81406-1.72353,3.71899-3.00758,5.29405-1.34095,1.64485-2.77036,3.22096-4.16644,4.81827-1.43979,1.64732-4.34023,3.466-6.24364,4.53504-15.82134,8.88607-43.40451,4.53636-52.24898-6.11425-1.80133-2.16919-4.59665-5.33977-6.51881-7.42419-1.47869-1.60352-2.75866-3.2974-3.98268-5.09843-2.18923-3.22124-3.97552-6.53959-4.12222-10.53425-.15256-4.15414,.57978-8.47565,1.21717-12.57181,.33442-2.14912,.74082-4.28542,1.33098-6.3823,.28213-1.00243,.80195-1.85322,1.15612-2.82302,.2046-.56024,.3354-1.10696,.62066-1.63248,.41096-.75711,5.5807-11.67133,7.68604-15.02411,2.48224-3.953,10.68068-13.136,33.03933-13.80721Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M60.43827,44.74151c5.0299,4.51491,10.26756,10.48109,16.77867,17.82182-5.4589,6.49798-11.53252,11.21407-17.4339,17.69516" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/></svg></button>
-      <button class="btn button-next  icon-draw p-0 border-0" aria-label="next"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 128 128"><path d="M66.5669,20.94257c3.63497-.22121,7.33108,.0536,10.91144,.63881,5.83694,.95406,10.57901,4.0614,15.1631,7.58834,3.01439,2.31924,5.53987,4.98409,7.60854,8.209,1.53615,2.39475,2.91929,4.90792,3.80761,7.61256,1.1012,3.3528,1.91884,6.55061,2.20451,10.07578,.30156,3.72137,.31586,7.35972,.07135,11.08956-.33212,5.06627-.77233,10.14463-2.11203,15.05651-.62027,2.27414-1.38617,4.37562-2.41444,6.49412-.8805,1.81406-1.72353,3.71899-3.00758,5.29405-1.34095,1.64485-2.77036,3.22096-4.16644,4.81827-1.43979,1.64732-4.34023,3.466-6.24364,4.53504-15.82134,8.88607-43.40451,4.53636-52.24898-6.11425-1.80133-2.16919-4.59665-5.33977-6.51881-7.42419-1.47869-1.60352-2.75866-3.2974-3.98268-5.09843-2.18923-3.22124-3.97552-6.53959-4.12222-10.53425-.15256-4.15414,.57978-8.47565,1.21717-12.57181,.33442-2.14912,.74082-4.28542,1.33098-6.3823,.28213-1.00243,.80195-1.85322,1.15612-2.82302,.2046-.56024,.3354-1.10696,.62066-1.63248,.41096-.75711,5.5807-11.67133,7.68604-15.02411,2.48224-3.953,10.68068-13.136,33.03933-13.80721Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M60.43827,44.74151c5.0299,4.51491,10.26756,10.48109,16.77867,17.82182-5.4589,6.49798-11.53252,11.21407-17.4339,17.69516" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/></svg></button>
-    </div>
-   
-    <div class="carousel clients" data-scroll>
+{{ range $references := where $.Site.RegularPages "Type" "references" }}
 
-      {{ range .projects }}
-      <div class="carousel-cell">
-        <div class="row row-cols-1 row-cols-lg-2 gy-10 me-0">
-          <div class="col  pe-lg-14  pt-14">
-            <h3 class="mb-2 mb-lg-4">{{ .title }}</h3> 
-            {{ .text | safeHTML }}
-            {{ with .tech_text }}
-            <div class="mt-6  mt-lg-14 small">
-              <h4>Tech Stack</h4>
-              {{ . | safeHTML }}
-            </div>
-            {{ end }}
-          </div>
-          <div class="col pt-2">
-            <div class="shadow">
-              {{ partial "img-srcset.html" (dict "img" .img "size" 768 "alt" .title) }}
-            </div>
-            {{ with .link }}
-            <a class="mt-4 mt-3 float-end small" href="{{ . }}" target="_blank" rel="noopener noreferrer">zur Website
-              <div class="icon-draw line"><svg xmlns="http://www.w3.org/2000/svg" width="84" height="10" viewBox="0 0 91.45565 10.81185"><path vector-effect="non-scaling-stroke" d="M1.41188,3.81092c30.82411-1.61772,52.39289,5.57187,86.64564,1.56359" fill="none" fill-rule="evenodd" stroke="#99e0bb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg></div>
+{{ with $references }}
+  <div class="row gy-5 mb-8 position-relative" data-scroll>
+    <div class="col-md-6">
 
-            </a>
-            {{ end }}
-          </div>
-        </div>
-      </div>
-      {{ end }}
-    </div>
+      {{with .Params.post_img }}
+       {{ partial "img-srcset.html" (dict "img" . "size" 500 ) }}
+     {{ end }}
+ 
+     </div>
+    
+    <div class="col-md-5 d-flex flex-column">
+     <h2 class="h3 mb-4 pe-md-5 me-md-5 mt-auto">{{ .Title }}</h2>
+     <div class="mb-4 mb-lg-8 small">{{ .Params.excerpt }}</div>
+     <a class="small stretched-link mb-auto" href="{{ .RelPermalink | safeURL }}">{{ i18n "readMore" }}
+       <div class="icon-draw line"><svg xmlns="http://www.w3.org/2000/svg" width="84" height="10" viewBox="0 0 91.45565 10.81185"><path vector-effect="non-scaling-stroke" d="M1.41188,3.81092c30.82411-1.61772,52.39289,5.57187,86.64564,1.56359" fill="none" fill-rule="evenodd" stroke="#99e0bb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg></div>
+     </a>
+   </div>
+
+  
   </div>
+
+  {{ end }}
+{{ end }}
+
 </section>
 {{ end }}
+
+ 
 
 
 {{ with $data.homepage.partner }}

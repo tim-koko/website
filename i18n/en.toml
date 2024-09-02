@@ -72,3 +72,12 @@ other = "Thank you for your registration!"
 
 [messageError]
 other = "Sorry, an error occurred!"
+
+[referenzen]
+other = "References"
+
+[previousProject]
+other = "Previous project"
+
+[nextProject]
+other = "Next project"
