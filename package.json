@@ -65,7 +65,7 @@
     "hugo": "0.126.1"
   },
   "dependencies": {
-    "@lottiefiles/dotlottie-web": "^0.31.1",
+    "@lottiefiles/dotlottie-web": "^0.32.0",
     "animejs": "^3.2.1",
     "flickity": "^2.3.0",
     "headroom.js": "^0.12.0",
