@@ -149,14 +149,18 @@ partner:
       label: "Cloud Native Trainings"
       img: "images/partner/acend.svg"
       link: "https://acend.ch"
-    - title: "bespinian"
-      label: "Cloud Native Engineering"
-      img: "images/partner/bespinian.svg"
-      link: "https://bespinian.io/"
     - title: "BEGASOFT"
       label: "Cloud & Container Platform"
       img: "images/partner/begasoft.svg"
       link: "https://www.begasoft.ch/"
+    - title: "bespinian"
+      label: "Cloud Native Engineering"
+      img: "images/partner/bespinian.svg"
+      link: "https://bespinian.io/"
+    - title: "Red Hat"
+      label: "Cloud Native Solutions Provider"
+      img: "images/partner/redhat.png"
+      link: "https://www.redhat.com/"
 
 # Prefooter Section
 prefooter:
