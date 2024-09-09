@@ -6,6 +6,7 @@ date: 2024-09-09T00:00:00+00:00
 lastmod: 2024-09-09T00:00:00+00:00
 draft: false
 images: ["images/blog/kubevirt/tk-blogpost-kubevirt_share-image.jpg"]
+img_border: true
 Sitemap:
 Priority: 0.9
 
@@ -22,9 +23,9 @@ Foundation (CNCF).
 
 KubeVirt ermöglicht es, traditionelle VM-Workload auf derselben Infrastruktur zu betreiben wie Container-Workload.
 
-### Unterschiede VMs und Container
+### Unterschiede virtuelle Maschinen und Container
 
-Virtuelle Maschinen (VMs) und Container-Plattformen sind beides Technologien, die zur Isolation von Systemen oder
+Virtuelle Maschinen (VMs) und Container sind beides Technologien, die zur Isolation von Systemen oder
 Anwendungen in einer IT-Infrastruktur eingesetzt werden.
 
 {{< svg "assets/images/blog/kubevirt/vm-container-workload.svg" >}}
