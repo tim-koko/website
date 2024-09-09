@@ -5,12 +5,12 @@ description: ""
 date: 2024-09-07T00:00:00+00:00
 lastmod: 2024-09-07T00:00:00+00:00
 draft: false
-images: ["images/blog/kubevirt/tk-blogpost-06_kubevirt_share-image.jpg"]
+images: ["images/blog/kubevirt/tk-blogpost-kubevirt_share-image.jpg"]
 Sitemap:
 Priority: 0.9
 
 categories: ["Technologie", "KubeVirt", "Kubernetes"]
-post_img: "images/blog/kubevirt/tk-blogpost-06_kubevirt.jpg"
+post_img: "images/blog/kubevirt/tk-blogpost-kubevirt.jpg"
 lead: "KubeVirt ist ein Projekt, welches die Verwendung von virtuellen Maschinen auf Container Plattformen wie Kubernetes möglich macht. "
 ---
 
