@@ -1,5 +1,5 @@
 ---
-title: "Anmeldung Büroevent"
+title: "Anmeldung tim&koko-Event"
 slug: "office-event-2024"
 description: ""
 titleVisible: "Anmeldung"
@@ -15,8 +15,8 @@ Sitemap:
   Priority: 0.3
 ---
 
-Unser Büroevent steht vor der Tür!
+Unser Herbst-Event steht vor der Tür!
 
-Am **10.10.2024** findet bei uns im Büro an der **Gerechtigkeitsgasse 80, 3011 Bern** ab **17:00** unser Büroevent statt. Gemeinsam mit unseren Kund:innen, Partner:innen und Freunde und Familie stossen wir auf ein erfolgreiches 2024 an.
+Am **10.10.2024** findet bei uns im Büro an der **Gerechtigkeitsgasse 80, 3011 Bern** ab **17:00** unser tim&koko-Event statt. Gemeinsam mit unseren Kund:innen, Partner:innen, Freunden und Familien stossen wir auf ein tolles Jahr und unser Rebranding an.
 
 Melde dich an und sei dabei. Wir freuen uns auf dich!

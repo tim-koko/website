@@ -15,8 +15,8 @@ Sitemap:
   Priority: 0.3
 ---
 
-Our office event is just around the corner!
+Our  autumn event is just around the corner!
 
-On **October 10th, 2024**, our office event will take place at **Gerechtigkeitsgasse 80, 3011 Bern** starting at **17:00**. Together with our clients, partners, friends, and family, we'll toast to a successful 2024.
+On **October 10th, 2024**, our tim&koko event will take place at **Gerechtigkeitsgasse 80, 3011 Bern** starting at **17:00**. Together with our clients, partners, friends, and families, we'll toast to a successful 2024 and our rebranding.
 
 Sign up and join us. We look forward to seeing you!
