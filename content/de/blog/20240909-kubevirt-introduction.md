@@ -110,7 +110,7 @@ bietet für diese Technologie unter dem Namen Red Hat Openshift Virtualization a
 So kann einerseits die Community-Supported variante KubeVirt verwendet werden oder die kommerzielle Produkt mit
 Enterprise-Grade Support von Red Hat.
 
-{{< custom-image "../redhat.png" "400" >}}
+{{< custom-image "../images/redhat.png" "400" >}}
 <br /><br />
 
 ### Zusammenfassung
