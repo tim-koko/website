@@ -1,5 +1,5 @@
 ---
-title: "KubeVirt Journey - Einführung in die Verwaltung von virtueller Maschinen in Kubernetes"
+title: "KubeVirt Journey - Einführung in die Verwaltung von virtuellen Maschinen in Kubernetes"
 slug: "kubevirt-introduction"
 description: ""
 date: 2024-09-09T00:00:00+00:00
@@ -39,7 +39,7 @@ Anwendungen in einer IT-Infrastruktur eingesetzt werden. Sie unterscheiden sich 
 
 #### Container
 
-- Container teilen das Host-Betriebssystem (Kernel) und benötigen daher kein eigenes Betriebssystem. Container enthalten so nur Bibliotheken und Abhängigkeiten die zum Betrieb einer Applikation nötig sind.
+- Container teilen das Host-Betriebssystem (Kernel) und benötigen daher kein eigenes Betriebssystem. Container enthalten so nur Bibliotheken und Abhängigkeiten, die zum Betrieb einer Applikation nötig sind.
 - Container sind leichtgewichtig und benötigen keinen Hypervisor.
 - Der Ressourcenverbrauch von Containern ist effizienter, da diese weniger isoliert sind und sich das Host-Betriebssystem teilen. Sicherheitslücken im Kernel können aber alle Container auf einem Host betreffen.
 - Container sind hochgradig portabel und können auf verschiedenen Plattformen betrieben werden. Die Voraussetzung ist jedoch eine vorhandene Container-Runtime.
@@ -60,7 +60,7 @@ und Libvirt, welche den Umgang mit virtuellen Maschinen vereinfachen.
 
 {{< svg "assets/images/blog/kubevirt/kvm-vms.svg" >}}
 
-KubeVirt macht sich den Fakt zu nutzen, dass virtuelle Maschinen mit KVM auf dem Host als reguläre Linux Prozesse
+KubeVirt macht sich den Fakt zu nutzen, dass virtuelle Maschinen mit KVM auf dem Host als reguläre Linux-Prozesse
 implementiert sind. Dadurch können diese mittels Linux Control Groups (cgroups) und Namespaces im Kernel analog zum
 Container-Workload gekapselt und isoliert werden.
 
@@ -78,7 +78,7 @@ angelegt, erzeugt der virt-controller einen Pod für die Instanz und weist diese
 
 #### virt-api
 
-Das virt-api stellt ein RESTful-API für alle Belangen rund um die Erstellung, Validierung und Verwaltung von virtuellen
+Das virt-api stellt ein RESTful-API für alle Belange rund um die Erstellung, Validierung und Verwaltung von virtuellen
 Maschinen zur Verfügung.
 
 #### virt-handler
@@ -124,5 +124,5 @@ Enterprise-Grade Support von Red Hat verwendet werden.
 KubeVirt ist eine interessante Alternative zu den bestehenden Virtualisierungslösungen. Dabei steht nicht nur primär der
 eins zu eins Ersatz von Virtualisierungslösungen im Fokus, sondern auch die Transition von VM-Workload in ein modernes
 Umfeld, welches mit denselben Tools und Workflows der Container-Welt verwaltet werden kann. Der freie Zugang zum
-Open-Source-Projekt und die grosse Community helfen ein Vendor-Lock-In zu umgehen. Wo dies benötigt wird, steht mit
+Open-Source-Projekt und die grosse Community helfen, ein Vendor-Lock-In zu umgehen. Wo dies benötigt wird, steht mit
 Red Hat OpenShift Virtualization dennoch eine Lösung und ein starker Partner für Enterprise-Kunden zur Verfügung.
