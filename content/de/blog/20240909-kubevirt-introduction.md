@@ -17,7 +17,7 @@ lead: "KubeVirt ist ein Projekt, welches die Verwendung von virtuellen Maschinen
 
 ### Was ist KubeVirt
 
-KubeVirt ist eine Kubernetes-Erweiterung nach dem Operator Pattern. Es wurde im Jahre 2016 von Red Hat initiiert und
+KubeVirt ist eine Kubernetes-Erweiterung nach dem Operator Pattern. KubeVirt wurde im Jahre 2016 von Red Hat initiiert und
 steht seit 2017 als Open-Source-Software frei zur Verfügung. Seit 2019 ist das Projekt Teil der Cloud Native Computing
 Foundation (CNCF).
 
@@ -26,11 +26,10 @@ KubeVirt ermöglicht es, traditionelle VM-Workload auf derselben Infrastruktur z
 ### Unterschiede virtuelle Maschinen und Container
 
 Virtuelle Maschinen (VMs) und Container sind beides Technologien, die zur Isolation von Systemen oder
-Anwendungen in einer IT-Infrastruktur eingesetzt werden.
+Anwendungen in einer IT-Infrastruktur eingesetzt werden. Sie unterscheiden sich aber in grundlegenden Aspekten.
 
 {{< svg "assets/images/blog/kubevirt/vm-container-workload.svg" >}}
 
-Sie unterscheiden sich aber in grundlegenden Punkten.
 
 #### Virtuelle Maschinen
 
@@ -41,15 +40,18 @@ Sie unterscheiden sich aber in grundlegenden Punkten.
 
 #### Container
 
-- Container teilen das Host-Betriebssystem (Kernel/Host OS) und benötigen kein eigenes Betriebssystem. Container enthalten so nur Bibliotheken und Abhängigkeiten zum Betrieb einer Applikation.
-- Container sind leichtgewichtig und benötigen keinen Hypervisor
-- Der Ressourcenverbrauch von Containern ist effizienter, da diese weniger isoliert sind und sich das Host-Betriebssystem teilen. Sicherheitslücken im Kernel können alle Container auf einem Host betreffen.
+- Container teilen das Host-Betriebssystem (Kernel) und benötigen daher kein eigenes Betriebssystem. Container enthalten so nur Bibliotheken und Abhängigkeiten die zum Betrieb einer Applikation nötig sind.
+- Container sind leichtgewichtig und benötigen keinen Hypervisor.
+- Der Ressourcenverbrauch von Containern ist effizienter, da diese weniger isoliert sind und sich das Host-Betriebssystem teilen. Sicherheitslücken im Kernel können aber alle Container auf einem Host betreffen.
 - Container sind hochgradig portabel und können auf verschiedenen Plattformen betrieben werden. Die Voraussetzung ist jedoch eine vorhandene Container-Runtime.
 
 ### Wie funktioniert KubeVirt
 
-KubeVirt erweitert Kubernetes mit zusätzlicher Funktionalität. Dazu werden neue Custom Resource Definitions (CRDs) zur
-Verfügung gestellt, welche es erlauben, eine virtuelle Maschine deklarativ zu beschreiben.
+KubeVirt ist ein Kubernetes Operator und erweitert Kubernetes mit zusätzlicher Funktionalität. Dazu werden neue Custom Resource Definitions (CRDs) zur
+Verfügung gestellt, welche es erlauben, eine virtuelle Maschine als Custom Resources (CR) deklarativ zu beschreiben.
+
+{{< svg "assets/images/blog/kubevirt/operator.svg" >}}
+<br /><br />
 
 KubeVirt setzt beim Betrieb von virtuellen Maschinen auf den bewährten Virtualisierungs-Layer KVM. Kernel-Based Virtual
 Machines (KVM) ist eine Open-Source-Technologie, die sich im Linux-Kernel befindet. Dadurch kann Linux als vollständiges
@@ -71,15 +73,20 @@ Neben neuen Kubernetes Custom Resource Definitions (CRDs) beinhaltet KubeVirt ve
 
 #### virt-controller
 
-Der virt-controller überwacht die erstellten und vorhandenen Virtual-Machine-Definitionen. Unter anderem sind dies die Custom Resources (CR) VirtualMachine und VirtualMachineInstance. Wir eine neue Definition einer virtuellen Maschine angelegt, erzeugt der virt-controller einen Pod für die Instanz und weis diese einem Node zu.
+Der virt-controller überwacht die erstellten und vorhandenen Virtual-Machine-Definitionen. Unter anderem sind dies die
+Custom Resources (CR) VirtualMachine und VirtualMachineInstance. Wird eine neue Definition einer virtuellen Maschine
+angelegt, erzeugt der virt-controller einen Pod für die Instanz und weist diese einem Node zu.
 
 #### virt-api
 
-Das virt-api stellt ein RESTful-API für alle Belangen rund um die Erstellung, Validierung und Verwaltung von virtuellen Maschinen zur Verfügung.
+Das virt-api stellt ein RESTful-API für alle Belangen rund um die Erstellung, Validierung und Verwaltung von virtuellen
+Maschinen zur Verfügung.
 
 #### virt-handler
 
-Der virt-handler wird als DaemonSet auf jedem Kubernetes-Node ausgeführt. Er ist zuständig, um den Pod entsprechend der VM-Definition zu konfigurieren und den Zustand der VM gemäss Definition sicherzustellen. Wird eine Änderung erkannt, weist er den Container virt-handler an, die erforderlichen Aktionen auszuführen.
+Der virt-handler wird als DaemonSet auf jedem Kubernetes-Node ausgeführt. Er ist zuständig, um den Pod entsprechend der
+VM-Definition zu konfigurieren und den Zustand der VM gemäss der Definition sicherzustellen. Wird eine Änderung erkannt,
+weist er den Container virt-handler an, die erforderlichen Aktionen auszuführen.
 
 #### virt-launcher
 
@@ -94,10 +101,10 @@ Libvirt stellt eine Low-Level-Virtualisierungsarchitektur und Schnittstelle zum 
 Der Einsatz von virtuellen Maschinen ist heutzutage nicht mehr wegzudenken. KubeVirt kann für viele Anwendungsfälle
 von virtuellen Maschinen eingesetzt werden.
 
-Folgend ein paar Beispiele für den Einsatz von KubeVirt welche wir in einem weiteren Blogpost genauer erläutern.
+Folgend ein paar Beispiele für den Einsatz von KubeVirt, welche wir in einem weiteren Blogpost genauer erläutern.
 
 - Vereinheitlichung der technischen Infrastruktur
-- Vereinheitlichung des Workflows mit einheitlichen Pipelines und tooling während der Entwicklung
+- Vereinheitlichung des Workflows mit einheitlichen Pipelines und Tooling während der Entwicklung
 - Parallelbetrieb von VM-Workload und Container-Workload für Legacy- oder während der Migration von Applikationen zu Containern
 - Verwendung und direkter Zugriff von dedizierter Hardware wie zum Beispiel Grafikkarten oder Netzwerkinterfaces
 - Kubernetes-as-a-Service (KaaS)
@@ -105,18 +112,18 @@ Folgend ein paar Beispiele für den Einsatz von KubeVirt welche wir in einem wei
 
 ### Enterprise Solution: Red Hat OpenShift Virtualization
 
-Das KubeVirt Projekt wurde von Red hat initiiert und wird auch immer noch stark von Red Hat weiterentwickelt. Red Hat
-bietet für diese Technologie unter dem Namen Red Hat Openshift Virtualization als Teil des Produktes Red Hat OpenShift an.
-So kann einerseits die Community-Supported variante KubeVirt verwendet werden oder die kommerzielle Produkt mit
-Enterprise-Grade Support von Red Hat.
+Das KubeVirt Projekt wurde von Red Hat initiiert und wird auch immer noch stark von Red Hat weiterentwickelt. Red Hat
+bietet diese Technologie unter dem Namen Red Hat OpenShift Virtualization an und ist Teil des Produktes Red Hat OpenShift.
+So kann abhängig vom Use Case einerseits die Community-Supported Variante KubeVirt oder das kommerzielle Produkt mit
+Enterprise-Grade Support von Red Hat verwendet werden.
 
-{{< custom-image "../images/redhat.png" "400" >}}
+{{< custom-image "../images/redhat.png" "250" >}}
 <br /><br />
 
 ### Zusammenfassung
 
-KubeVirt ist eine interessante Alternative zu den bestehenden Virtualisierungslösungen. Dabei ist nicht primär der
-eins zu eins Ersatz von Virtualisierungslösungen der Fokus, sondern auch die Transition des VM-Workloads in ein modernes
-Umfeld, welches mit denselben Tools und Workflows der Container-Welt gemanagt werden kann. Der freie Zugang zum
+KubeVirt ist eine interessante Alternative zu den bestehenden Virtualisierungslösungen. Dabei steht nicht nur primär der
+eins zu eins Ersatz von Virtualisierungslösungen im Fokus, sondern auch die Transition von VM-Workload in ein modernes
+Umfeld, welches mit denselben Tools und Workflows der Container-Welt verwaltet werden kann. Der freie Zugang zum
 Open-Source-Projekt und die grosse Community helfen ein Vendor-Lock-In zu umgehen. Wo dies benötigt wird, steht mit
 Red Hat OpenShift Virtualization dennoch eine Lösung und ein starker Partner für Enterprise-Kunden zur Verfügung.
