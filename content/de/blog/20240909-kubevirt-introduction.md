@@ -30,7 +30,6 @@ Anwendungen in einer IT-Infrastruktur eingesetzt werden. Sie unterscheiden sich 
 
 {{< svg "assets/images/blog/kubevirt/vm-container-workload.svg" >}}
 
-
 #### Virtuelle Maschinen
 
 - Eine VM enthält ein komplettes Betriebssystem. Dieses wird oft als Guest OS bezeichnet. Weiter enthält eine VM alle benötigten Bibliotheken und Abhängigkeiten zum Betrieb einer Applikation.
