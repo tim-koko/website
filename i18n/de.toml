@@ -49,6 +49,9 @@ other = "Nachricht"
 [gibDeineNachrichtEin]
 other = "Gib deine Nachricht ein"
 
+[gibDeineAdresseEin]
+other = "Gib deine Adresse ein"
+
 [anmelden]
 other = "Anmelden"
 
