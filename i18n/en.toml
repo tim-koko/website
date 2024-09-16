@@ -49,8 +49,17 @@ other = "Message"
 [gibDeineNachrichtEin]
 other = "Enter your message"
 
+[adresse]
+other = "addresse"
+
 [gibDeineAdresseEin]
 other = "Enter your address"
+
+[bienenwachstuch]
+other = "tim&koko beeswax cloth from Planet Bee."
+
+[spende]
+other = "Donate the equivalent for a good cause."
 
 [anmelden]
 other = "Submit"
