@@ -57,7 +57,6 @@ Und wie es sich für ein acend Training gehört, festigen wir das gelernte gemei
 * Deployen und Konfigurieren von VMs mittels KubeVirt
 * Kennenlernen der Integrationsmöglichkeiten von Containern und VMs
 
-
 ### Zielpublikum
 
 Unser Training richtet sich an Personen, welche bereits über Vorkenntnisse im Bereich von Container und Container Plattformen verfügen und die Grundkonzepte von virtuellen Maschinen kennen.
@@ -75,6 +74,5 @@ Gerne stehen wir für Fragen zur Verfügung. Du erreichst uns am Besten unter <h
 Willst Du noch mehr erfahren, wir werden an den folgenden Meetups unsere Erfahrungen mit der Community teilen:
 
 [Cloud Native Bern Meetup](https://www.meetup.com/cloudnativebern/events/299829917/) - 19.11.2024 17:00
-
 
 [Cloud Native Switzerland Meetup in Luzern](https://www.meetup.com/cloud-native-computing-switzerland/events/302784454) - 28.11.2024 16:00
