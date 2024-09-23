@@ -1,9 +1,9 @@
 ---
-title: "KubeVirt / OpenShift Virtualization Training - gemeinsam mit acend"
+title: "KubeVirt Training"
 slug: "kubevirt-training"
 description: ""
-date: 2024-09-18T00:00:00+00:00
-lastmod: 2024-09-18T00:00:00+00:00
+date: 2024-09-23T00:00:00+00:00
+lastmod: 2024-09-23T00:00:00+00:00
 draft: false
 images: ["images/blog/kubevirt/tk-blogpost-kubevirt_share-image.jpg"]
 img_border: true
@@ -65,11 +65,11 @@ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet.
 
 ### Konditionen und Angebot
 
-Die genauen Konditionen zum Training können findest Du auf der [acend Website](https://acend.ch/trainings/kubevirt/)
+Die genauen Konditionen zum Training findest Du auf der [acend Website](https://acend.ch/trainings/kubevirt/)
 
 ### Möchtest Du mehr erfahren?
 
-Gerne stehen wir für Fragen zur Verfügung. Du erreichst uns am Besten unter <hallo@tim-koko.ch> oder auf [LinkedIn](https://www.linkedin.com/company/tim-koko).
+Gerne stehen wir für Fragen zur Verfügung. Du erreichst uns am Besten unter <mailto:hallo@tim-koko.ch> oder auf [LinkedIn](https://www.linkedin.com/company/tim-koko).
 
 Willst Du noch mehr erfahren, wir werden an den folgenden Meetups unsere Erfahrungen mit der Community teilen:
 
