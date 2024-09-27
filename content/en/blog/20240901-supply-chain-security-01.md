@@ -1,5 +1,5 @@
 ---
-title: "Enhancing Supply Chain Security in Kubernetes with Cosign, Sigstore, and Fulcio"
+title: "Enhancing Supply Chain Security in Kubernetes with Cosign, Rekor and Fulcio"
 slug: "supply-chain-security-01"
 description: ""
 date: 2024-09-01T00:00:00+00:00
@@ -13,7 +13,7 @@ post_img: "images/blog/TK_BlogPost_2-3_RZ.png"
 lead: "Supply Chain Security more and more becomes the attention it deserves, let's have a short introduction about Cosign, Rekor and Fulcio."
 ---
 
-### Enhancing Supply Chain Security in Kubernetes with Cosign, Sigstore, and Fulcio
+### Enhancing Supply Chain Security in Kubernetes with Cosign, Rekor and Fulcio
 
 As Kubernetes continues to dominate the container orchestration landscape, ensuring the security of the software supply chain becomes increasingly critical. Even seasoned Kubernetes practitioners must navigate the complexities of securing their containerized applications from development through deployment. In this blog, we delve into how Cosign, Sigstore, and Fulcio can fortify supply chain security in your Kubernetes environment.
 
@@ -33,63 +33,90 @@ The SLSA framework brings a set of comprehensive steps to apply supply chain sec
 
 But without any technical help, simply talking about supply chain security won’t be enough. That’s why we take a look at the tooling you can use, to secure your system.
 
-#### Introducing Cosign, Sigstore, and Fulcio
+#### Introducing Sigstore: Cosign, Rekor, and Fulcio
+
+Sigstore provides a set of toolings to secure your supply chain. It consists of multiple tools that all provide different benefits to reach hardening in your supply chain.
 
 1. **Cosign**:
-   Cosign is a tool designed to sign, verify, and store container images. It aims to secure container images through cryptographic signatures, ensuring that only trusted images are deployed to your Kubernetes clusters.
+   Cosign is a tool designed to sign and verify container image signatures. It aims to secure container images through cryptographic signatures.
 
-2. **Sigstore**:
-   Sigstore is a project that provides a suite of tools and services to secure the software supply chain by enabling the signing and verification of software artifacts. It offers transparency and traceability, ensuring that all artifacts can be verified and trusted.
+2. **Rekor**:
+   Rekor is a transparency log designed as a immutable merkle tree. The immutability of the transparency log itself guarantees that log entries are append only and in a valid state.
 
 3. **Fulcio**:
    Fulcio is a component of the Sigstore project that acts as a certificate authority (CA). It issues short-lived certificates based on OpenID Connect (OIDC) identity tokens. This ensures that signatures are tied to an identity, enhancing the trustworthiness of the signed artifacts.
 
-#### Securing Kubernetes Supply Chain with Cosign, Sigstore, and Fulcio
+#### Securing Docker images Supply Chain with Cosign, Sigstore, and Fulcio
 
-1. **Signing Container Images with Cosign**:
-   Cosign makes it easy to sign container images. By integrating it into your CI/CD pipeline, you can ensure that all images are signed before they are pushed to a container registry. Here's a simple example of how to sign an image:
-   
-   ```sh
-   cosign sign -key cosign.key <image-name>
-   ```
+Let’s imagine we wanted to publish our newly built image to a registry. We of course know all the security flaws with unsigned images, that’s why we would like to sign our image. 
 
-   This command attaches a signature to the specified container image, which can later be verified to ensure its integrity.
+We first have to install the cosign binary. Head over to the release page  and download the latest release. 
 
-2. **Verifying Signatures with Cosign**:
-   Verification is equally important to ensure that only trusted images are deployed. Cosign allows you to verify the signatures of container images before they are pulled into your Kubernetes clusters:
-   
-   ```sh
-   cosign verify -key cosign.pub <image-name>
-   ```
+```sh
+wget "https://github.com/sigstore/cosign/releases/download/v2.4.0/cosign-linux-amd64" 
+sudo mv cosign-linux-amd64 /usr/local/bin/cosign 
+sudo chmod +x /usr/local/bin/cosign
+# Verify with `cosign version`
+cosign version
+```
 
-   This step checks the image against its signature to ensure it hasn't been tampered with.
+When you are ready, simply create a container image (or pull whatever image you want and tag it).
 
-3. **Using Sigstore for Transparency**:
-   Sigstore provides a transparency log that records all signed artifacts. This log is publicly accessible, enabling anyone to audit and verify the integrity of the artifacts. Integrating Sigstore into your supply chain adds an additional layer of security by ensuring traceability and accountability.
+Create a Dockerfile of your desires, we take a minimal example:
 
-4. **Issuing Certificates with Fulcio**:
-   Fulcio issues certificates based on identities verified through OIDC. When a developer signs an artifact, Fulcio ties the signature to their identity, ensuring that the artifact can be traced back to its originator. This enhances trust and reduces the risk of unauthorized modifications.
+```Dockerfile
 
-   Here's how you can use Fulcio to sign an image:
-   
-   ```sh
-   cosign sign --fulcio <image-name>
-   ```
+Dockerflie:
+FROM alpine
 
-   This command leverages Fulcio to issue a certificate and sign the image, ensuring that the signature is tied to an authenticated identity.
+CMD ["echo", "hello-world"]
+```
+
+We build the image, tag it with according to our docker-hub user and push it to dockerhub:
+
+```sh
+docker build -t g1raffi/my-image:latest .
+docker push g1raffi/my-image:latest
+```
+
+To sign our image with the sigstore cosign tooling we can simply:
+
+```sh
+cosign sign g1raffi/my-image:latest
+```
+
+Follow the process along and choose the OIDC provider of your choice. At some point you will receive the confirmation message:
+
+```
+tlog entry created with index: 134308541
+Pushing signature to: index.docker.io/g1raffi/my-image
+```
+
+This message confirms that a transparency log entry was created and the signature was pushed to the registry.
+The signature of the image is as well stored in the docker registry provided alongside the image itself.
+
+```sh
+ cosign verify \
+    --certificate-identity raffael@tim-koko.ch \
+    --certificate-oidc-issuer https://accounts.google.com \
+      g1raffi/my-image:latest
+
+Verification for index.docker.io/g1raffi/my-image:latest --
+The following checks were performed on each of these signatures:
+  - The cosign claims were validated
+  - Existence of the claims in the transparency log was verified offline
+  - The code-signing certificate was verified using trusted certificate authority certificates
+```
+
+The output validates that the signatures and the existence of the transparency log entry was verified - neat!
+
 
 #### Integrating with Kubernetes
 
-Integrating these tools into your Kubernetes environment ensures end-to-end security for your supply chain:
+As soon as we are working with signed containers per default, we can implement more supply chain security measurements in our Kubernetes environments. Integrating the tooling into your Kubernetes clusters might be an important step towards a end-to-end secure supply chain:
 
-1. **Admission Controllers**:
-   Use Kubernetes admission controllers to enforce image verification policies. Ensure that only signed images are deployed to your clusters by setting up admission controllers that check the signatures before allowing the deployment.
-
-2. **Policy Enforcement**:
-   Implement policies using tools like Open Policy Agent (OPA) or Kyverno to enforce that only images signed by trusted sources are used within your clusters. This can help prevent the deployment of malicious or tampered images.
-
-3. **Continuous Monitoring**:
-   Continuously monitor your Kubernetes environment for any deviations from your security policies. Tools like Falco can help detect and alert on suspicious activities, ensuring real-time security for your supply chain.
+* **Admission Controller / Policy Enforcement**:   With admission controllers, like Kyverno, can we enforce policies upon our clusters and control any admission of workload. Verifying signatures from containers entering our cluster can level our supply chain security up to the next level!
+* **Continuous Monitoring**: Alongside enforcing policies, we can passively scan and monitor images in our repositories and registries. Instrumenting our monitoring and alerting tooling will help us finding sources of insecure images fast.
 
 #### Conclusion
 
