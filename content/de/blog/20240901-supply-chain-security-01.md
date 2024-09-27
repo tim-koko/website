@@ -4,10 +4,10 @@ slug: "supply-chain-security-01"
 description: ""
 date: 2024-09-01T00:00:00+00:00
 lastmod: 2024-09-01T00:00:00+00:00
-draft: true
+draft: false
 images: []
 Sitemap:
-Priority: 0.5
+Priority: 0.91
 categories: ["Technologie", "Kubernetes", "Container", "Security"]
 post_img: "images/blog/TK_BlogPost_2-3_RZ.png"
 lead: "Supply Chain Security more and more becomes the attention it deserves, let's have a short introduction about Cosign, Rekor and Fulcio."
