@@ -48,9 +48,9 @@ Sigstore provides a set of toolings to secure your supply chain. It consists of 
 
 #### Securing Docker images Supply Chain with Cosign, Sigstore, and Fulcio
 
-Let’s imagine we wanted to publish our newly built image to a registry. We of course know all the security flaws with unsigned images, that’s why we would like to sign our image. 
+Let’s imagine we wanted to publish our newly built image to a registry. We of course know all the security flaws with unsigned images, that’s why we would like to sign our image.
 
-We first have to install the cosign binary. Head over to the release page  and download the latest release. 
+We first have to install the cosign binary. Head over to the release page  and download the latest release.
 
 ```sh
 wget "https://github.com/sigstore/cosign/releases/download/v2.4.0/cosign-linux-amd64" 
@@ -87,7 +87,7 @@ cosign sign g1raffi/my-image:latest
 
 Follow the process along and choose the OIDC provider of your choice. At some point you will receive the confirmation message:
 
-```
+```sh
 tlog entry created with index: 134308541
 Pushing signature to: index.docker.io/g1raffi/my-image
 ```
@@ -109,7 +109,6 @@ The following checks were performed on each of these signatures:
 ```
 
 The output validates that the signatures and the existence of the transparency log entry was verified - neat!
-
 
 #### Integrating with Kubernetes
 
