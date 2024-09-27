@@ -1,5 +1,5 @@
 ---
-title: "Enhancing Supply Chain Security in Kubernetes with Cosign, Rekor and Fulcio"
+title: "Härtung der Supply Chain Security auf Kubernetes mit Cosign, Rekor und Fulcio"
 slug: "supply-chain-security-01"
 description: ""
 date: 2024-09-01T00:00:00+00:00
@@ -9,21 +9,19 @@ images: []
 Sitemap:
 Priority: 0.91
 categories: ["Technologie", "Kubernetes", "Container", "Security"]
-post_img: "images/blog/TK_BlogPost_2-3_RZ.png"
-lead: "Supply Chain Security more and more becomes the attention it deserves, let's have a short introduction about Cosign, Rekor and Fulcio."
+post_img: "images/scs/supply-chain-security-blog.png"
+lead: "Supply Chain Security bekommt mehr und mehr die Aufmerksamkeit, die es verdient. In einer kurzen Einführung schauen wir über SLSA und das Sigstore Tooling mit Cosign, Rekor und Fulcio."
 ---
-
-### Härtung der Supply Chain Security auf Kubernetes mit Cosign, Rekor und Fulcio
 
 Da Kubernetes weiterhin die Container-Orchestrierung dominiert, wird die Gewährleistung der Sicherheit der Software-Lieferkette immer wichtiger. Selbst erfahrene Kubernetes-Experten stehen vor der Herausforderung, ihre containerisierten Anwendungen von der Entwicklung bis zur Bereitstellung abzusichern. In diesem Blog erfahren Sie, wie Cosign, Sigstore und Fulcio die Sicherheit der Lieferkette in Ihrer Kubernetes-Umgebung erhöhen können.
 
-#### Unsere Software Supply Chain
+### Unsere Software Supply Chain
 
 Die Software-Lieferkette umfasst alle Schritte, die an der Erstellung, Verteilung und Bereitstellung von Software beteiligt sind. Dazu gehören Sourcecode, Build-Prozesse, externe Dependencies und die Deployment-Pipeline. Die Gewährleistung der Security dieser “Supply Chain” ist von entscheidender Bedeutung, da eine Kompromittierung in jeder Phase weitreichende Folgen haben kann.
 
 In einer modernen Cloud-Umgebung ist der kontinuierliche Build Prozess für das endgültige Produkt schwer zu überprüfen und komplex. Software wird von Drittanbietern geliefert oder wir integrieren eine Vielzahl von Abhängigkeiten in unsere eigenen Projekte. Jedes Stück Software wird von verschiedenen Entitäten geändert - von Entwicklern, Lieferanten oder unseren CI-Pipelines - in jedem Schritt unserer Lieferkette. Aus diesem Grund wird die Sicherheit der Lieferkette immer wichtiger!
 
-##### Supply-chain Levels for Software Artifacts, oder SLSA ("salsa")
+#### Supply-chain Levels for Software Artifacts, oder SLSA ("salsa")
 
 {{< svg "assets/images/blog/scs/supply-chain-threats.svg" >}}
 
@@ -33,7 +31,7 @@ Das SLSA Framework bringt uns eine Sammlung von Massnahmen und Möglichkeiten un
 
 Natürlich geht ohne technische Hilfe garnichts, rein das Reden über Supply Chain Security wird uns nicht viel weiter bringen. Deswegen werfen wir einen kurzen Blick auf das Tooling, welches wir verwenden können um unsere Supply Chain zu sichern.
 
-#### Sigstore und die zugehörigen Tools: Cosign, Rekor und Fulcio
+### Sigstore und die zugehörigen Tools: Cosign, Rekor und Fulcio
 
 Sigstore bietet eine Sammlung von Tools die helfen unsere Images zu signieren und somit die Supply Chain Security deutlich zu verbessern.
 
@@ -46,7 +44,7 @@ Sigstore bietet eine Sammlung von Tools die helfen unsere Images zu signieren un
 * **Fulcio**:
    Fulcio ist eine Komponente des Sigstore-Projekts, die als Zertifizierungsstelle (CA) fungiert. Sie stellt kurzlebige Zertifikate aus, die auf OpenID Connect (OIDC) Identitäts-Tokens basieren. Dadurch wird sichergestellt, dass Signaturen an eine Identität gebunden sind, was die Vertrauenswürdigkeit der signierten Artefakte erhöht.
 
-#### Signieren von Docker images Supply Chain mit Cosign, Sigstore, and Fulcio
+### Signieren von Docker images Supply Chain mit Cosign, Sigstore, and Fulcio
 
 Wir möchten unser neu gebautes Image auf einer öffentlichen Registry publizieren. Sicher kennen wir alle möglichen Sicherheitslücken die passieren können, wenn unverifizierte und unsignierte Software in unser Ökosystem gelangt. Deswegen möchten wir unser neu erstelltes Image auch signieren.
 
@@ -108,13 +106,13 @@ The following checks were performed on each of these signatures:
 
 Durch den Output wird bestätigt, dass wir eine gültige Signatur verifiziert haben und alle Einträge korrekt sind - yey!
 
-#### Integration mit Kubernetes
+### Integration mit Kubernetes
 
 Sobald wir signierte Images in unserer Supply Chain haben, können wir die Supply Chain Security richtig in Fahrt bringen. Die Integration dieser Tools in Ihre Kubernetes-Umgebung gewährleistet eine durchgängige Sicherheit für deine Lieferkette:
 
 * **Admission Controller / Policy Enforcement**:   Mit Admission Controllern wie Kyverno können wir sicherstellen, dass wir gewisse Richtlinien / Policies auf unseren Clustern durchsetzen. Die Überprüfung der Signaturen von Containern könnte eine mögliche Implementation sein, die unsere Supply Chain Security auf das nächste Level bringt!
 * **Continuous Monitoring**: Neben dem Erzwingen von Policies können wir natürlich auch jederzeit unsere Image Repositories und Cluster nach unsignierten Images oder nach falsch signierten Images zu scannen und unser Monitoring und Alerting Tooling dazu instrumentieren uns dabei zu unterstützen!
 
-#### Fazit
+### Fazit
 
 Supply Chain Angriffe sind heutzutage alltäglich geworden. Umso wichtiger ist es unsere Supply Chain auf einem sinnvollen Masse zu Instrumentieren, dass wir mit einem guten Gewissen unseren containerisierten Workload auf unserem Cluster zu deployen. Das SLSA-Framework bietet uns eine kurze und auf den Punkt gebrachte Zusammenfassung über mögliche Massnahmen und Kriterien der Evaluation für Software Supply Chains. Durch den Einsatz von Tools wie Cosign, Rekor, Fulcio können wir die Integrität, Transparenz und Vertrauenswüdigkeit von Container-Images und unseren Artefakten verbessern und garantieren. Die Integration dieser Tools in unsere CI/CD Pipelines und Kubernetes Cluster gewährleistet eine durchgängige Security unserer Software Supply Chain.
