@@ -42,8 +42,6 @@ Sigstore bietet eine Sammlung von Tools die helfen unsere Images zu signieren un
 
 * **Rekor**:
    Rekor ist ein Transparency Log, welches als immutable Merkle Baum aufgebaut ist. Durch die Natur des des Merkle Baums ist garantiert, dass Log Einträge nur angehängt werden und immer kryptographisch verifiziert werden können.
-   Rekor is a transparency log designed as a immutable merkle tree. The immutability of the transparency log itself guarantees that log entries are append only and in a valid state.
-   Sigstore ist ein Projekt, das eine Reihe von Werkzeugen und Diensten zur Sicherung der Software-Lieferkette bereitstellt, indem es die Signierung und Überprüfung von Software-Artefakten ermöglicht. Es bietet Transparenz und Rückverfolgbarkeit und stellt sicher, dass alle Artefakte verifiziert werden können und vertrauenswürdig sind.
 
 * **Fulcio**:
    Fulcio ist eine Komponente des Sigstore-Projekts, die als Zertifizierungsstelle (CA) fungiert. Sie stellt kurzlebige Zertifikate aus, die auf OpenID Connect (OIDC) Identitäts-Tokens basieren. Dadurch wird sichergestellt, dass Signaturen an eine Identität gebunden sind, was die Vertrauenswürdigkeit der signierten Artefakte erhöht.
