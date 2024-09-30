@@ -5,11 +5,11 @@ description: ""
 date: 2024-09-01T00:00:00+00:00
 lastmod: 2024-09-01T00:00:00+00:00
 draft: false
-images: []
+images: ["images/blog/scs/supply-chain-security-blog.png"]
 Sitemap:
 Priority: 0.91
 categories: ["Technologie", "Kubernetes", "Container", "Security"]
-post_img: "images/scs/supply-chain-security-blog.png"
+post_img: "images/blog/scs/supply-chain-security-blog.png"
 lead: "Supply Chain Security bekommt mehr und mehr die Aufmerksamkeit, die es verdient. In einer kurzen Einführung schauen wir über SLSA und das Sigstore Tooling mit Cosign, Rekor und Fulcio."
 ---
 
