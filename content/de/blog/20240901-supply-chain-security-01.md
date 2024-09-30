@@ -6,6 +6,7 @@ date: 2024-09-01T00:00:00+00:00
 lastmod: 2024-09-01T00:00:00+00:00
 draft: false
 images: ["images/blog/scs/supply-chain-security-blog.png"]
+img_border: true
 Sitemap:
 Priority: 0.91
 categories: ["Technologie", "Kubernetes", "Container", "Security"]
