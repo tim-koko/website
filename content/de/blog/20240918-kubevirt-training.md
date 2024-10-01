@@ -34,7 +34,7 @@ Die Übernahme von VMware durch Broadcom hat zahlreiche Betriebsorganisationen, 
 
 Wir bieten das Training sowohl als reine **KubeVirt**- als auch als **OpenShift Virtualization**-Variante an.
 
-Das KubeVirt-Projekt wurde von Red Hat initiiert und wird auch immer noch stark von Red Hat weiterentwickelt. Red Hat bietet diese Technologie unter dem Namen Red Hat OpenShift Virtualization supported an und ist Teil des Produktes Red Hat OpenShift.
+Das KubeVirt-Projekt wurde von Red Hat initiiert und auch immer noch stark weiterentwickelt. Red Hat bietet diese Technologie unter dem Namen Red Hat OpenShift Virtualization supported an und ist Teil des Produktes Red Hat OpenShift.
 
 ### Inhalte
 
@@ -73,5 +73,4 @@ Gerne stehen wir für Fragen zur Verfügung. Du erreichst uns am besten unter [h
 Zudem werden wir an den folgenden Meetups unsere Erfahrungen mit der Community teilen:
 
 * 19.11.2024 - 17:00: [Cloud Native Bern Meetup](https://www.meetup.com/cloudnativebern/events/299829917/) in Bern
-
 * 28.11.2024 - 16:00: [Cloud Native Switzerland Meetup](https://www.meetup.com/cloud-native-computing-switzerland/events/302784454) in Luzern
