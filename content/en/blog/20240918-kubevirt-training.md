@@ -70,7 +70,7 @@ Participants will need a laptop with direct internet access.
 
 ### Want to learn more?
 
-We are happy to answer any questions you may have. You can reach us best at [hallo@tim-koko.ch](mailto:hallo@tim-koko.ch) or on [LinkedIn](https://www.linkedin.com/company/tim-koko). DYou can find the exact details of the training on the [acend Website](https://acend.ch/trainings/kubevirt/).
+We are happy to answer any questions you may have. You can reach us best at [hallo@tim-koko.ch](mailto:hallo@tim-koko.ch) or on [LinkedIn](https://www.linkedin.com/company/tim-koko). You can find the exact details of the training on the [acend Website](https://acend.ch/trainings/kubevirt/).
 
 If you want to know even more, we will share our experiences with the community at the following meetups:
 
