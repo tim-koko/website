@@ -2,8 +2,8 @@
 title: "Hands-on KubeVirt Basics Training"
 slug: "kubevirt-training"
 description: ""
-date: 2024-09-29T17:00:00+00:00
-lastmod: 2024-09-29T17:00:00+00:00
+date: 2024-10-01T17:00:00+00:00
+lastmod: 2024-10-01T17:00:00+00:00
 draft: false
 images: ["images/blog/kubevirt-training/kubevirt-training-some-1200x630.png"]
 img_border: false
@@ -17,11 +17,11 @@ lead: "Mit diesem zweitägigen Training erhälst du einen schnellen, einfachen u
 
 
 Wir sind überzeugt vom Potenzial der Technologie, sehen den Kubernetes API first-Ansatz als besonders spannend an und glauben, dass KubeVirt sowohl auf Lizenz- als auch auf Infrastrukturebene erhebliche Kosteneinsparungen ermöglichen kann. Darüber hinaus schafft KubeVirt die Basis zur Vereinheitlichung und Optimierung von Betriebsprozessen.
-Aus diesem Grund haben wir die letzten Monate intensiv genutzt und in Zusammenarbeit mit unserem Partner [acend](https://acend.ch) ein zweitägiges Training erarbeitet.
+Aus diesem Grund haben wir die letzten Monate intensiv genutzt und in Zusammenarbeit mit unserem Partner [acend](https://acend.ch/trainings/kubevirt/) ein zweitägiges Training erarbeitet.
 
 ### Was ist KubeVirt?
 
-KubeVirt ist eine Erweiterung von Kubernetes, die dem Operator Pattern folgt. Ursprünglich 2016 von Red Hat ins Leben gerufen, steht KubeVirt seit 2017 als Open Source-Software zur Verfügung. KubeVirt wurde am 6. September 2019 in die Cloud Native Computing Foundation (CNCF) aufgenommen und erreichte am 19. April 2022 den Incubating-Reifegrad, was seine Bedeutung in der Cloud Native-Welt unterstreicht.
+KubeVirt ist eine Erweiterung von Kubernetes, die dem Operator Pattern folgt. Ursprünglich 2016 von Red Hat ins Leben gerufen, steht KubeVirt als Open Source-Software zur Verfügung. KubeVirt wurde am 2019 in die Cloud Native Computing Foundation (CNCF) aufgenommen und erreichte mittlerweile den Incubating-Reifegrad, was seine Bedeutung in der Cloud Native-Welt unterstreicht.
 
 Mit KubeVirt wird es möglich, herkömmliche virtuelle Maschinen (VMs) und Container Workload auf derselben Infrastruktur zu betreiben. Das volle Potenzial entfaltet sich besonders dann, wenn es direkt auf Bare Metal-Umgebungen implementiert wird.
 
@@ -68,7 +68,7 @@ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet.
 
 ### Möchtest Du mehr erfahren?
 
-Gerne stehen wir für Fragen zur Verfügung. Du erreichst uns am besten unter [hallo@tim-koko.ch](mailto:hallo@tim-koko.ch) oder auf [LinkedIn](https://www.linkedin.com/company/tim-koko). Die genauen Konditionen zum Training findest Du auf der [Website von acend](https://acend.ch/trainings/kubevirt/).
+Gerne stehen wir für Fragen zur Verfügung. Du erreichst uns am besten unter [hallo@tim-koko.ch](mailto:hallo@tim-koko.ch)&nbsp;oder auf [LinkedIn](https://www.linkedin.com/company/tim-koko). Die genauen Konditionen zum Training findest Du auf der [Website von acend](https://acend.ch/trainings/kubevirt/).
 
 Zudem werden wir an den folgenden Meetups unsere Erfahrungen mit der Community teilen:
 

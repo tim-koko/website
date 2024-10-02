@@ -2,8 +2,8 @@
 title: "Hands-on KubeVirt Basics Training"
 slug: "kubevirt-training"
 description: ""
-date: 2024-09-29T17:00:00+00:00
-lastmod: 2024-09-29T17:00:00+00:00
+date: 2024-10-01T17:00:00+00:00
+lastmod: 2024-10-01T17:00:00+00:00
 draft: false
 images: ["images/blog/kubevirt-training/kubevirt-training-some-1200x630.png"]
 img_border: false
@@ -18,11 +18,11 @@ lead: "With this two-day training you will get a quick, easy, and hands-on intro
 
 We are convinced of the technology's potential, find the Kubernetes API-first approach particularly exciting and believe that KubeVirt can enable significant cost savings both in terms of licensing and infrastructure. Additionally, KubeVirt lays the foundation for the unification and optimization of operational processes.
 
-For these reasons, we have spent the past few months working closely with our partner [acend](https://acend.ch) to develop a comprehensive two-day training.
+For these reasons, we have spent the past few months working closely with our partner [acend](https://acend.ch/trainings/kubevirt/) to develop a comprehensive two-day training.
 
 ### What is KubeVirt?
 
-KubeVirt is an extension of Kubernetes that follows the Operator pattern. Originally launched by Red Hat in 2016, KubeVirt has been available as open source software since 2017. On September 6, 2019, KubeVirt was accepted into the Cloud Native Computing Foundation (CNCF) and reached the Incubating maturity level on April 19, 2022, highlighting its significance in the cloud-native ecosystem.
+KubeVirt is an extension of Kubernetes that follows the Operator pattern. Originally launched by Red Hat in 2016, KubeVirt has been available as open source software since 2017. KubeVirt was then accepted into the Cloud Native Computing Foundation (CNCF) and reached the Incubating maturity level in 2022, highlighting its significance in the cloud-native ecosystem.
 
 KubeVirt enables the operation of traditional virtual machines (VMs) alongside container workload on the same infrastructure. Its full potential is unfolded when deployed directly on bare metal environments.
 
@@ -70,7 +70,7 @@ Participants will need a laptop with direct internet access.
 
 ### Want to learn more?
 
-We are happy to answer any questions you may have. You can reach us best at [hallo@tim-koko.ch](mailto:hallo@tim-koko.ch) or on [LinkedIn](https://www.linkedin.com/company/tim-koko). You can find the exact details of the training on [acend's website](https://acend.ch/trainings/kubevirt/).
+We are happy to answer any questions you may have. You can reach us best at [hallo@tim-koko.ch](mailto:hallo@tim-koko.ch)&nbsp;or on [LinkedIn](https://www.linkedin.com/company/tim-koko). You can find the exact details of the training on [acend's website](https://acend.ch/trainings/kubevirt/).
 
 If you want to know even more, we will share our experiences with the community at the following meetups:
 
