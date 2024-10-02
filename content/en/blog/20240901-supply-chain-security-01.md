@@ -15,7 +15,13 @@ lead: "Supply Chain Security is increasingly receiving the attention it deserves
 
 ---
 
-As Kubernetes continues to dominate the container orchestration landscape, ensuring the security of the software supply chain becomes increasingly critical. Even seasoned Kubernetes practitioners must navigate the complexities of securing their containerized applications from development through deployment. In this blog, we delve into how Cosign, Sigstore, and Fulcio can fortify supply chain security in your Kubernetes environment.
+In einer neuen Blogserie möchten wir Themen rund um Supply Chain Security behandeln. In einer kurzen Demonstration werden wir erste Basics der Supply Chain Security uns anschauen, das SLSA Framework kennenlernen und erste Images signieren und verifizieren.
+
+In a new blog series we would like to take a look at supply chain security. In a first starter, we inspect into how Cosign, Sigstore, and Fulcio can harden the supply chain security in your Kubernetes environment.
+
+### Supply Chain Security
+
+As Kubernetes continues to dominate the container orchestration landscape, ensuring the security of the software supply chain becomes increasingly critical. Even seasoned Kubernetes practitioners must navigate the complexities of securing their containerized applications from development through deployment. The fact that supply chain attacks gain more momentum and impact can't be denied and is observed globally as seen in this [Statista report](https://www.statista.com/statistics/1268934/worldwide-open-source-supply-chain-attacks/).
 
 ### Understanding the Software Supply Chain
 

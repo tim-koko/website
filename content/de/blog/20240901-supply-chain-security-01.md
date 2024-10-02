@@ -15,7 +15,11 @@ lead: "Supply Chain Security bekommt mehr und mehr die Aufmerksamkeit, die das z
 
 ---
 
-Da Kubernetes weiterhin die Container-Orchestrierung dominiert, wird die Gewährleistung der Sicherheit der Software-Lieferkette immer wichtiger. Selbst erfahrene Kubernetes-Experten stehen vor der Herausforderung, ihre containerisierten Anwendungen von der Entwicklung bis zur Bereitstellung abzusichern. In einer kurzen Demonstration werden wir erste Basics der Supply Chain Security uns anschauen, das SLSA Framework kennenlernen und erste Images signieren und verifizieren.
+In einer neuen Blogserie möchten wir Themen rund um Supply Chain Security behandeln. In einer kurzen Demonstration werden wir erste Basics der Supply Chain Security uns anschauen, das SLSA Framework kennenlernen und erste Images signieren und verifizieren.
+
+### Supply Chain Security
+
+Da Kubernetes weiterhin die Container-Orchestrierung dominiert, wird die Gewährleistung der Sicherheit der Software-Lieferkette immer wichtiger. Selbst erfahrene Kubernetes-Experten stehen vor der Herausforderung, ihre containerisierten Anwendungen von der Entwicklung bis zur Bereitstellung abzusichern. Dass Supply Chain Attacken in letzter Zeit drastisch zugenommen haben, bestätigen auch die globalen Reports und Statistiken, z.B.: [Statista 2024](https://www.statista.com/statistics/1268934/worldwide-open-source-supply-chain-attacks/).
 
 ### Unsere Software Supply Chain
 
