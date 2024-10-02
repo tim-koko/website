@@ -11,11 +11,13 @@ Sitemap:
 Priority: 0.91
 categories: ["Technologie", "Kubernetes", "Security"]
 post_img: "images/blog/scs/supply-chain-security-blog.png"
-lead: "Supply Chain Security bekommt mehr und mehr die Aufmerksamkeit, die das zentrale Thema verdient. In einer kurzen Einführung schauen wir über SLSA und das Sigstore Tooling mit Cosign, Rekor und Fulcio."
+lead: "Supply Chain Security ist eines der wichtigsten Themen im DevSecOps-Bereich und hat heute mehr Relevanz denn je! Angesichts zunehmender Cyberangriffe stehen unsere Kund:innen vor der Herausforderung, ihre Software Supply Chain sicher und vertrauenswürdig zu gestalten. In dieser neuen Blogserie möchten wir einen klaren Überblick präsentieren und praktische Unterstützung bieten für alle, die neu in diesem Thema sind oder ihre Kenntnisse vertiefen möchten."
 
 ---
 
-Vor kurzem durften wir einem Kunden helfen, in ihrer DevSecOps Initiative mitzuwirken und ihre Supply Chain Security auf das nächste Level zu bringen, um den rigorosen Compliance-Kriterien gerecht zu werden. In dieser neuen Blogserie möchten wir die zentralen Themen rund um Supply Chain Security behandeln. In einer kurzen Demonstration werden wir uns erste Basics der Supply Chain Security anschauen, das SLSA Framework kennenlernen und erste Images signieren und verifizieren.
+Wir beginnen mit einer Einführung in das Gebiet und erläutern, warum Supply Chain Security für die Sicherheit und Integrität Ihrer Software-Deployments entscheidend ist. Im ersten Beitrag werden wir zudem eine praktische Demonstration zur Signatur und Verifizierung von Containern durchführen, um Ihnen konkrete Werkzeuge und Methoden an die Hand zu geben, mit denen du die Sicherheit verbessern kannst.
+
+Wir sind der Meinung, dass diese Konzepte existenziell sind, um die Sicherheit unserer Kund:innen deutlich zu verbessern und ihnen zu helfen, sich besser gegen moderne Bedrohungen zu schützen.
 
 ### Supply Chain Security
 

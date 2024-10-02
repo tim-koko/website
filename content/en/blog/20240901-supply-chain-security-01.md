@@ -11,11 +11,13 @@ Sitemap:
 Priority: 0.91
 categories: ["Technologie", "Kubernetes", "Security"]
 post_img: "images/blog/scs/supply-chain-security-blog.png"
-lead: "Supply Chain Security is increasingly receiving the attention it deserves. Let’s have a short introduction about Cosign, Rekor, and Fulcio."
+lead: "Supply Chain Security is one of the most important topics in the DevSecOps environment and has today more relevance than ever. Due to the increasing amounts of attacks our customers face the challenge to keep their software supply chain secure. In this blog series we would like to give a comprehensive overview of the topic and give practical examples for everybody - beginner or veteran in the topic."
 
 ---
 
-Recently we helped a customer in their DevSecOps journey and to fulfill their compliance requirements by leveraging their supply chain security to the next level. In this new blog series we will take a look at supply chain security topics. In a first starter, we inspect how Cosign, Sigstore, and Fulcio can harden the supply chain security in your Kubernetes environment.
+We start with a short introduction into the topic and explain why your supply chain security is crucial for the security and integrity of your software deployment. In this first post on the topic we will also demonstrate how to sign and verify containers, to give you tooling and methods to secure your own supply chain!
+
+We think that these concepts are existential to guarantee security and integrity of software build and help customers to build resilience against modern threats.
 
 ### Supply Chain Security
 
