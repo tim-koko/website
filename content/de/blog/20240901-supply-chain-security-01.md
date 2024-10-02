@@ -1,5 +1,5 @@
 ---
-title: "Härtung der Supply Chain Security auf Kubernetes mit Cosign, Rekor und Fulcio"
+title: "Schütze Deine Software Supply Chain: Security vom Code zum Deployment"
 slug: "supply-chain-security-01"
 description: ""
 date: 2024-09-29T14:00:00+00:00
@@ -15,7 +15,7 @@ lead: "Supply Chain Security bekommt mehr und mehr die Aufmerksamkeit, die das z
 
 ---
 
-In einer neuen Blogserie möchten wir Themen rund um Supply Chain Security behandeln. In einer kurzen Demonstration werden wir erste Basics der Supply Chain Security uns anschauen, das SLSA Framework kennenlernen und erste Images signieren und verifizieren.
+Vor kurzem durften wir einem Kunden helfen, in ihrer DevSecOps Initiative mitzuwirken und ihre Supply Chain Security auf das nächste Level zu bringen, um den rigorosen Compliance-Kriterien gerecht zu werden. In dieser neuen Blogserie möchten wir die zentralen Themen rund um Supply Chain Security behandeln. In einer kurzen Demonstration werden wir uns erste Basics der Supply Chain Security anschauen, das SLSA Framework kennenlernen und erste Images signieren und verifizieren.
 
 ### Supply Chain Security
 

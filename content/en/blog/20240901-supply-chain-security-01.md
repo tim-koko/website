@@ -1,5 +1,5 @@
 ---
-title: "Enhancing Supply Chain Security in Kubernetes with Cosign, Rekor and Fulcio"
+title: "Protecting Your Software Supply Chain: Security from Source to Deployment"
 slug: "supply-chain-security-01"
 description: ""
 date: 2024-09-29T14:00:00+00:00
@@ -15,7 +15,7 @@ lead: "Supply Chain Security is increasingly receiving the attention it deserves
 
 ---
 
-In a new blog series we would like to take a look at supply chain security. In a first starter, we inspect into how Cosign, Sigstore, and Fulcio can harden the supply chain security in your Kubernetes environment.
+Recently we helped a customer in their DevSecOps journey and to fulfill their compliance requirements by leveraging their supply chain security to the next level. In this new blog series we will take a look at supply chain security topics. In a first starter, we inspect how Cosign, Sigstore, and Fulcio can harden the supply chain security in your Kubernetes environment.
 
 ### Supply Chain Security
 
