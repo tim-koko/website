@@ -15,8 +15,6 @@ lead: "Supply Chain Security is increasingly receiving the attention it deserves
 
 ---
 
-In einer neuen Blogserie möchten wir Themen rund um Supply Chain Security behandeln. In einer kurzen Demonstration werden wir erste Basics der Supply Chain Security uns anschauen, das SLSA Framework kennenlernen und erste Images signieren und verifizieren.
-
 In a new blog series we would like to take a look at supply chain security. In a first starter, we inspect into how Cosign, Sigstore, and Fulcio can harden the supply chain security in your Kubernetes environment.
 
 ### Supply Chain Security
