@@ -9,6 +9,7 @@ lead: ""
 date: 2022-10-31T00:00:00+00:00
 lastmod: 2024-08-24T00:00:00+00:00
 draft: false
+sitemap_exclude: true
 type: "giveaway-form-page"
 images: ["images/landing-pages/tk-giveaway-2024-1500x1000.png"]
 Sitemap:
