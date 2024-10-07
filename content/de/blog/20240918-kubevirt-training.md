@@ -2,8 +2,8 @@
 title: "Hands-on KubeVirt Basics Training"
 slug: "kubevirt-training"
 description: ""
-date: 2024-10-01T17:00:00+00:00
-lastmod: 2024-10-01T17:00:00+00:00
+date: 2024-10-07T00:00:00+00:00
+lastmod: 2024-10-07T00:00:00+00:00
 draft: false
 images: ["images/blog/kubevirt-training/kubevirt-training-some-1200x630.png"]
 img_border: false
