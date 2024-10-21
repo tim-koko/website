@@ -41,4 +41,4 @@ Die zentrale, dynamische Plattform wird kontinuierlich weiterentwickelt, um mit 
 <br />
 
 Erforsche unsere Markenplattform unter <https://brand.tim-koko.ch>. <br />
-Hast Du noch Fragen oder willst Du mehr über den Hintergrund erfahren, dann darfst Du dich gerne unter [hallo@tim-koko.ch](mailto:hallo@tim-koko.ch) bei uns melden.
+Hast Du noch Fragen oder willst Du mehr über den Hintergrund erfahren, dann darfst Du dich gerne unter [hallo@tim-koko.ch](mailto:hallo@tim-koko.ch)&nbsp;bei uns melden.
