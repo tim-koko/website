@@ -16,7 +16,7 @@ lead: "In einer zunehmend digitalen Welt ist eine klare und einheitliche Markenk
 
 Die einheitliche Markenkommunikation löst Herausforderungen, wie z. B. inkonsistente Nutzung von Logos, Farben oder Botschaften. Ob für uns intern oder externe Partner, die Plattform unterstützt dabei, unseren Brand auf allen Kanälen einheitlich und wirkungsvoll zu repräsentieren.
 
-Hier finden sich nicht nur unsere wichtigsten Brandassets, wie
+Hier finden sich unsere wichtigsten Brandassets, wie:
 
 * Logos
 * Farben
@@ -25,7 +25,7 @@ Hier finden sich nicht nur unsere wichtigsten Brandassets, wie
 * Icons
 * Vorlagen
 
-,sondern auch detaillierte Richtlinien zu deren Verwendung.
+Zudem enthält sie auch die detaillierten Richtlinien zur Verwendung unserer Markenelemente.
 
 Darüber hinaus beschreibt die Plattform unsere Markenstrategie und den Kern unserer Identität – das Fundament, auf dem all unsere Kommunikation und Interaktionen aufbauen. Auf die Markenstrategie werden wir im Detail in einem anderen Blogpost eingehen.
 
