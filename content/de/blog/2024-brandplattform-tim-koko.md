@@ -9,7 +9,7 @@ images: ["images/blog/brand-plattform/tk-blogpost-brandplattform-tim-koko.png"]
 Sitemap:
 Priority: 0.8
 
-categories: ["News", "tim&koko", Brand]
+categories: ["News", "tim&koko", "Brand", "Behind the Scenes"]
 post_img: "images/blog/brand-plattform/tk-blogpost-brandplattform-tim-koko.png"
 lead: "In einer zunehmend digitalen Welt ist eine klare und einheitliche Markenkommunikation wichtiger denn je. Unsere Markenplattform dient als zentrale Anlaufstelle, um unseren Brand zu präsentieren und ein konsistentes Markenerlebnis zu gewährleisten."
 ---
