@@ -2,8 +2,8 @@
 title: "Dein Zugang zur Marke tim&koko: Alles, was du über unseren Brand wissen musst."
 slug: "brand-plattform-tim-koko"
 description: ""
-date: 2024-10-20T00:00:00+00:00
-lastmod: 2024-10-20T00:00:00+00:00
+date: 2024-10-23T00:00:00+00:00
+lastmod: 2024-10-23T00:00:00+00:00
 draft: false
 images: ["images/blog/brand-plattform/tk-blogpost-brandplattform-tim-koko.png"]
 Sitemap:
