@@ -9,7 +9,7 @@ images: ["images/blog/brand-plattform/tk-blogpost-brandplattform-tim-koko.png"]
 Sitemap:
 Priority: 0.8
 
-categories: ["News", "tim&koko", Brand]
+categories: ["News", "tim&koko", "Brand", "Behind the Scenes"]
 post_img: "images/blog/brand-plattform/tk-blogpost-brandplattform-tim-koko.png"
 lead: "In an increasingly digital world, clear and consistent brand communication is more important than ever. Our brand platform serves as the central hub for presenting our brand and ensuring a cohesive brand experience."
 ---
