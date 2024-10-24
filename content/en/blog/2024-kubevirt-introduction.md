@@ -17,10 +17,13 @@ lead: "KubeVirt is a project that allows running traditional VMs on container pl
 
 ### What is KubeVirt
 
+KubeVirt is a technology that makes it possible to run traditional VM workloads on the same infrastructure as containerized
+workloads. We are convinced that containers will not completely replace traditional VM workload. For this reason, we have
+taken a closer look at the technology and examined the extent to which KubeVirt can replace existing virtualization solutions.
+In the KubeVirt blog post series, we will investigate on the various aspects of the technology.
+
 KubeVirt is a Kubernetes extension based on the operator pattern. It was initiated by Red Hat in 2016 and is available as
 open-source software since 2017. Since 2019, the project is part of the Cloud Native Computing Foundation (CNCF).
-
-KubeVirt makes it possible to run traditional VM workloads on the same infrastructure as container workloads.
 
 ### Differences between virtual machines and containers
 
@@ -31,17 +34,17 @@ infrastructure. However, they differ in fundamental aspects.
 
 #### Virtual Machines
 
-- A VM contains a complete operating system. This is often referred to as guest OS. Besides that, a VM also contains all the libraries and dependencies required to run an application.
+- A VM contains a complete operating system often referred to as guest OS. Besides that, a VM also contains all the libraries and dependencies required to run an application.
 - VMs require a hypervisor to run. A hypervisor enables the creation and management of virtual machines by allowing multiple operating systems to run concurrently on a single physical host.
-- As each VM has its own operating system, VMs offer a high degree of isolation. However, this isolation also leads to higher resource consumption.
-- Virtual machines are less portable. They often depend on specific hypervisors or infrastructure.
+- As each VM has its own operating system, VMs offer a high degree of isolation. However, this isolation also leads to higher resource consumption and reduces the startup time.
+- Virtual machines are less portable. They often depend on specific hypervisors or infrastructure. Therefore, changing Infrastructure or the used virtualization solution can be complex and expensive.
 
 #### Containers
 
 - Containers share the host operating system (kernel) and do not require their own operating system. Therefore, they only contain libraries and dependencies for running the application.
 - Containers are lightweight and do not require a hypervisor.
-- The resource consumption of containers is more efficient as they are less isolated and share the host operating system. Security vulnerabilities in the kernel can affect all containers on a host.
-- Containers are highly portable and can be operated on different platforms. However, the prerequisite is an existing container runtime.
+- Containers are less isolated and share the host operating system. Security vulnerabilities in the kernel can affect all containers on a host. As containers do not need to start their own operating system, they benefit from reduced resource consumption and startup time.
+- Containers are highly portable and can be operated on different platforms. Whenever a container runtime is available, you may migrate and run your container without extra effort.
 
 ### How KubeVirt works
 
@@ -120,6 +123,17 @@ enterprise-grade support from Red Hat.
 
 KubeVirt is an interesting alternative to existing virtualization solutions. The focus is not just on the one-to-one
 replacement of existing virtualization solutions, but also on the transition of VM workload into a modern environment, which can
-be managed with the same tools and workflows known from the container world. Free access to the open-source project and
-the large and growing community helps to avoid a vendor lock-in. Where it is needed, Red Hat and Red Hat OpenShift
-Virtualization can be chosen as a strong partner for enterprise customers.
+be managed with the same tools and workflows known from the container world. By standardizing the operating infrastructure
+and the convergence of workflows and tooling, KubeVirt helps to lower operating costs and reduce the complexity of the
+system and product landscape. Free access to the open-source project and the large and growing community helps
+to avoid a vendor lock-in. Where it is needed, Red Hat and Red Hat OpenShift Virtualization can be chosen as a strong
+partner for enterprise customers.
+
+### Want to learn more?
+
+We are happy to answer any questions you may have. You can reach us best at [hallo@tim-koko.ch](mailto:hallo@tim-koko.ch)&nbsp;or on [LinkedIn](https://www.linkedin.com/company/tim-koko).
+
+If you want to know even more, we will share our experiences with the community at the following meetups:
+
+- 19.11.2024 - 17:00: [Cloud Native Bern Meetup](https://www.meetup.com/cloudnativebern/events/299829917/) in Bern
+- 28.11.2024 - 16:00: [Cloud Native Switzerland Meetup](https://www.meetup.com/cloud-native-computing-switzerland/events/302784454) in Lucerne
