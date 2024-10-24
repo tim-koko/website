@@ -10,7 +10,7 @@ img_border: true
 Sitemap:
 Priority: 0.9
 
-categories: ["Technologie", "KubeVirt", "Kubernetes"]
+categories: ["Technologie", "KubeVirt", "Kubernetes", "Container"]
 post_img: "images/blog/kubevirt/tk-blogpost-kubevirt.jpg"
 lead: "KubeVirt ist ein Projekt, welches die Verwendung von virtuellen Maschinen auf Container Plattformen wie Kubernetes möglich macht. "
 ---
