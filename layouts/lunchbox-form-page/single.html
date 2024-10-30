@@ -51,25 +51,29 @@
         <label for="message">{{ i18n "nachricht-lunchbox" }}</label>
       </div>
       <div class="mb-6">
-          <select class="" name="sandwich" id="sandwich">
+        <div class="form-floating">
+          <select class="form-select" name="sandwich" id="sandwich">
             <option value="buurhame">Buurhame</option>
             <option value="salami">Salami</option>
             <option value="la-bouse-kaese">La Bouse -Käse</option>
             <option value="hummus-grillgemuese">Hummus Grillgemüse</option>
           </select>
-          <label class="form-label" for="sandwich">
+          <label class="form-label_" for="sandwich">
             {{ i18n "sandwich" }}
           </label>
+        </div>
       </div>
       <div class="mb-6">
-        <select class="" name="dessert" id="dessert">
-          <option value="brownie">Brownie</option>
-          <option value="salami">Apfel- Streuselkuchen</option>
-          <option value="cremeschnitte">Cremeschnitte</option>
-        </select>
-        <label class="form-label" for="dessert">
-          {{ i18n "dessert" }}
-        </label>
+        <div class="form-floating">
+          <select class="form-select" name="dessert" id="dessert">
+            <option value="brownie">Brownie</option>
+            <option value="salami">Apfel- Streuselkuchen</option>
+            <option value="cremeschnitte">Cremeschnitte</option>
+          </select>
+          <label class="form-label" for="dessert">
+            {{ i18n "dessert" }}
+          </label>
+      </div>
     </div>
       <div class="mb-6">
         <div class="form-check">

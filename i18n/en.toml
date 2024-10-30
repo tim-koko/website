@@ -96,3 +96,10 @@ other = "Next project"
 
 [author]
 other = "Author"
+
+
+[sandwich]
+other = "Sandwich"
+
+[dessert]
+other = "Dessert"

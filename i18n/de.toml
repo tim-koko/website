@@ -99,3 +99,9 @@ other = "Autor:in"
 
 [nachricht-lunchbox]
 other = "Hast du Fragen oder Themen die Dich brennend interessieren?"
+
+[sandwich]
+other = "Sandwich"
+
+[dessert]
+other = "Dessert"
