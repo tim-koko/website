@@ -1,6 +1,6 @@
 ---
-title: "Wie wir zu unserem “neuen” Brand - Namen kamen."
-slug: "neuer-brand-name"
+title: "How We Came Up with Our "New" Name"
+slug: "new-brand-name"
 description: ""
 date: 2024-10-30T00:00:00+00:00
 lastmod: 2024-10-30T00:00:00+00:00
@@ -13,38 +13,34 @@ categories: ["News", "tim&koko", "Brand", "Behind the Scenes"]
 #authors: ['sarah-pfeiffer']
 
 post_img: "images/blog/neuer-brandname/timkoko-neuer-brandname-blogpost-1500x1000.jpg"
-lead: "Als wir unsere Firma gegründet haben, ahnten wir noch nicht, wie wichtig es ist, einen Brand zu finden, mit dem wir uns identifizieren können – und was das alles mit sich bringt. "
+lead: "When we founded our company, we had no idea how important it would be to find a brand we could truly identify with—and all the challenges that would come with it.
+And when we suddenly had to change our company name (find out why here:Blog: tim&koko new name), we faced a challenge that wasn’t easy to solve."
 ---
 
+One of the biggest hurdles was coming up with a catchy brand name that was both unique and unused by any other company worldwide. After what happened with our first name, we were extra cautious, and the search for a new name definitely cost us some sleepless nights.
 
-Und als wir dann plötzlich unseren Firmennamen ändern mussten (warum erfährst du hier [Blog: tim&koko neuer Name](https://tim-koko.ch/blog/tim-koko/) ), standen wir vor einer Herausforderung die nicht ganz einfach zu lösen war.
+It didn’t take long for us to realize that while we’re talented engineers, creativity isn’t exactly our strongest suit. Thankfully, we had some fantastic support: Lukas Wanner from Studio Wanner and Simone Hopf from Kolibris stepped in to help. These two creative minds guided us down new paths and gave us valuable ideas that eventually led us to the name tim&koko.
+But the journey wasn’t easy…
 
-Besonders das Finden eines "catchy" Brandnamens, der einzigartig ist und den noch keine andere Firma weltweit verwendet, war eine echte Herausforderung. Denn nach der “Geschichte” waren wir natürlich besonders vorsichtig und der Neue Name hat uns einige Nächte den Schlaf geraubt.
+Here’s a glimpse into our early brainstorming phase, back when we thought we could figure it out on our own:
 
-Schon bald merkten wir, dass wir als Ingenieure zwar viele Talente haben, aber Kreativität nicht unbedingt zu unseren stärksten Fähigkeiten zählt. Zum Glück hatten wir tatkräftige Unterstützung: Lukas Wanner von [Studio Wanner](https://studiowanner.ch/) und Simone Hopf von [Kolibris](https://www.kolibris.ch/) haben uns unter die Arme gegriffen. Die beiden kreativen Köpfe führten uns auf neue Wege und gaben uns wertvolle Denkanstösse, die schliesslich zum Namen tim&koko führten.
-
-Doch der Weg dahin war alles andere als einfach ...
-
-Hier ein Einblick in unsere Ideenbox, aus der Zeit, als wir noch dachten, wir könnten das alleine schaffen:
 
 {{< custom-image "../images/Screenshot_Shortlist_Namen.png" "500" >}}
 <br /><br />
 
-Unsere ersten Ideen haben uns einfach nicht überzeugt. Also holten wir Simone und Lukas ins Boot. Sie führten uns in neue Richtungen und rieten uns, uns von der technischen Welt ein wenig zu lösen. Wir sollten stattdessen nach Namen von Inseln, Orten, Tieren, Pflanzen, Pionieren und Superhelden suchen, die uns gefallen. In einem nächsten Schritt versuchten wir, passende Namenspaare zu bilden.
+The name «Koko» stood out to us right away. We were especially impressed by the story of the gorilla Koko, who learned to communicate with humans using sign language. If you’re curious to learn more about her, here’s a fascinating video:Link to YouTube video about Koko 
 
-{{< custom-image "../images/Screenshot_Miroboard.png" "800" >}}
-<br /><br />
+For us, it quickly became clear: We see ourselves as «Koko», and we want to teach our clients the «Cloud Native language» in a way that’s easy to understand.
 
-Der Name „Koko“ gefiel uns von Anfang an. Besonders beeindruckt waren wir von der Geschichte der Gorilla-Dame Koko, die es schaffte, mit Menschen durch Gebärdensprache zu kommunizieren. Wenn ihr mehr über Koko erfahren wollt, hier ein faszinierendes Video über sie:[Link zu YouTube-Video über Koko](https://www.youtube.com/watch?v=SNuZ4OE6vCk).
+Next, we needed a second name that would emphasize the technical aspect of our business. This is where «Tim» came in, inspired by Tim Berners-Lee—the British physicist and computer scientist who invented the World Wide Web Link Wikipedia Tim Berners-Lee. Without his invention, we wouldn’t be able to do what we do today. The name Tim fit perfectly!
 
-Für uns war schnell klar: Wir sehen uns selbst als „Koko“ und möchten unseren Kunden die „Cloud Native“-Sprache auf eine verständliche Weise beibringen.
+We just had to hope that no other company was already using the name. Fortunately, we got lucky: our trademark lawyers gave us the green light, and we were able to officially register tim&koko with the Swiss Federal Institute of Intellectual Property (IGE).
 
-Nun fehlte uns noch ein zweiter Name, der den technischen Aspekt unseres Unternehmens betonen sollte. Hier kam „Tim“ ins Spiel, abgeleitet von Tim Berners-Lee – dem britischen Physiker und Informatiker, der das World Wide Web erfunden hat [Link Wikipedia Tim Berners-Lee](https://de.wikipedia.org/wiki/Tim_Berners-Lee). Ohne seine Erfindung könnten wir unsere Arbeit heute nicht machen. Der Name Tim passte also perfekt!
+Our brand name tim&koko was born this way – the name represents technology and communication on equal terms, just like our work and our spirit.
 
-Jetzt galt es zu nur noch zu hoffen, dass keine andere Unternehmung diesen Namen schon verwendet. Glücklicherweise hatten wir Glück: Unsere Markenanwälte gaben uns grünes Licht, und wir konnten den Namen tim&koko offiziell beim Eidgenössischen Institut für Geistiges Eigentum (IGE) eintragen lassen.
+We hope you enjoyed this little insight into our naming process! Stay tuned for more posts in our blog series «tim&koko Behind the Scenes».
 
-So ist unser Brandname tim&amp;koko entstanden – Der Name steht für Technik und Kommunikation auf Augenhöhe – genau wie unsere Arbeit und unser Spirit.
+Best regards,
+Your tim&koko Team
 
-Wir hoffen, euch hat dieser kleine Einblick in unseren Namensfindungsprozess gefallen! Bleibt gespannt auf weitere Beiträge aus unserer Blogserie „tim&koko Behind the Scenes“.
 
-Euer tim&koko-Team
