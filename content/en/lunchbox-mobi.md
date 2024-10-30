@@ -17,13 +17,15 @@ Sitemap:
   Priority: 0.3
 ---
 
-Der «Tim&Koko Lunchbox» Event bietet die Möglichkeit, während der Mittagspause interessante und relevante Einblicke in technologische Themen zu erhalten.
+### Tim&Koko Lunchbox-Event
+
+Nimm dir eine kleine Auszeit in deiner Mittagspause und erhalte spannende Einblicke in aktuelle technologische Trends! Der «Tim&Koko Lunchbox»-Event bietet die perfekte Gelegenheit, Neues zu lernen und sich über innovative Lösungen auszutauschen.
 
 * Wann: xx.xx.2024 von 12:00 - 13:30
 * Wo: Bundesgasse 35, 3001 Bern
 
-Mitbringen musst du nichts! Teile uns mit, welches Sandwich und welches Dessert wir für dich organisieren sollen und melde dich mittels Formular an.
+Alles, was du brauchst, ist Neugier – wir kümmern uns um den Rest! Wähle einfach im Formular dein bevorzugtes Sandwich und Dessert aus, und wir sorgen dafür, dass du bestens versorgt bist.
 
 ### Thema
 
-Am Lunchbox Event im November stellen wir das Thema «**KubeVirt**, VMs auf Kubernetes deployen und betreiben?» vor.
+Im November dreht sich alles um das Thema: «KubeVirt – VMs auf Kubernetes deployen und betreiben?». Tauche mit uns ein in die Welt der Kubernetes-basierten VM-Managementlösungen und erfahre mehr über die Möglichkeiten und Herausforderungen.
