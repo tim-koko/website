@@ -93,3 +93,6 @@ other = "Previous project"
 
 [nextProject]
 other = "Next project"
+
+[author]
+other = "Author"

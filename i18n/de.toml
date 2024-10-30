@@ -93,3 +93,6 @@ other = "Vorheriges Projekt"
 
 [nextProject]
 other = "Nächstes Projekt"
+
+[author]
+other = "Autor*in"

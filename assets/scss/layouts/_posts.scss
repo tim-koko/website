@@ -6,3 +6,15 @@
     }
   }
 }
+
+.author-img {
+  width: 10rem;
+
+  @include media-breakpoint-up(md) {
+    width: 12rem;
+  }
+
+  .single.blog & {
+    width: 5rem;
+  }
+}

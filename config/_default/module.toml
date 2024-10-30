@@ -1,4 +1,12 @@
 [[mounts]]
+  source = "node_modules/@hyas/images/assets"
+  target = "assets"
+
+[[mounts]]
+  source = "assets"
+  target = "assets"
+  
+[[mounts]]
   source = "node_modules/@hyas/images/layouts"
   target = "layouts"
 
