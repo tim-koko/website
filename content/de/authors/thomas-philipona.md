@@ -13,6 +13,6 @@ email: "thomas@tim-koko.ch"
 
 ---
 
-Kennt die IT-Welt seit Jahren – und entdeckt alles andere auf seinem Drahtesel.
+Thomas (Spitzname Thömu) kam 2015 erstmals mit Containern und Kubernetes in Berührung. Seitdem sind Cloud Native Technologien ein ständiger Begleiter in seinem beruflichen Leben. Als Gründer und Cloud Native Consultant unterstützt er verschiedene Kunden dabei, ihre Workloads in die Cloud zu migrieren und cloudfähig zu machen. Darüber hinaus engagiert er sich aktiv in der Community als Teil des Organisationsteams von Cloud Native Zurich.
 
-Thömu spielte bei Puzzle seit 2011 eine prägende Rolle: Nach seinem Bachelorstudium in Computer Science zuerst als Software Engineer und PL, später konnte er als Head of Middleware u.a. das Thema Kubernetes bei Puzzle etablieren. Er war danach mehrere Jahre CTO und gründete im 2022 seine eigene Firma tim&amp;koko. Dort hilft er als Cloud Consultant den Kund:innen auf dem Weg in die Cloud.
+Er hat zahlreiche Vorträge gehalten, unter anderem als Speaker bei den DevOpsDays, der KCD München und verschiedenen Schweizer Meetups.
