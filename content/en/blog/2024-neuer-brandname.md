@@ -16,7 +16,7 @@ post_img: "images/blog/neuer-brandname/timkoko-neuer-brandname-blogpost-1500x100
 lead: "When we founded our company, we had no idea how important it would be to find a brand we could truly identify with - and all the challenges that would come with it."
 ---
 
-When we suddenly had to change our company name (find out why here: tim&koko new name), we faced a challenge that wasn’t easy to solve.
+When we suddenly had to change our company name (find out why here: [tim&koko new name](https://tim-koko.ch/en/blog/tim-koko/), we faced a challenge that wasn’t easy to solve.
 
 One of the biggest hurdles was coming up with a catchy brand name that was both unique and unused by any other company worldwide. After what happened with our first name, we were extra cautious, and the search for a new name definitely cost us some sleepless nights.
 
@@ -32,7 +32,7 @@ The name &laquo;Koko&raquo; stood out to us right away. We were especially impre
 
 For us, it quickly became clear: We see ourselves as &laquo;Koko&raquo;, and we want to teach our clients the &laquo;Cloud Native language&raquo; in a way that’s easy to understand.
 
-Next, we needed a second name that would emphasize the technical aspect of our business. This is where &laquo;Tim&raquo; came in, inspired by Tim Berners-Lee, the British physicist and computer scientist who invented the World Wide Web ([Wikipedia Tim Berners-Lee](https://de.wikipedia.org/wiki/Tim_Berners-Lee)). Without his invention, we wouldn’t be able to do what we do today. The name Tim fit perfectly!
+Next, we needed a second name that would emphasize the technical aspect of our business. This is where &laquo;Tim&raquo; came in, inspired by Tim Berners-Lee, the British physicist and computer scientist who invented the World Wide Web ([Wikipedia Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee)). Without his invention, we wouldn’t be able to do what we do today. The name Tim fit perfectly!
 
 We just had to hope that no other company was already using the name. Fortunately, we got lucky: our trademark lawyers gave us the green light, and we were able to officially register tim&koko with the Swiss Federal Institute of Intellectual Property (IGE).
 
