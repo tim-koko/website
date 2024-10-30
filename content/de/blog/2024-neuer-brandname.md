@@ -1,5 +1,5 @@
 ---
-title: "Wie wir zu unserem “neuen” Brand - Namen kamen."
+title: "Wie wir zu unserem neuen Brand - Namen kamen."
 slug: "neuer-brand-name"
 description: ""
 date: 2024-10-23T00:00:00+00:00
