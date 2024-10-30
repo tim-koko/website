@@ -105,3 +105,6 @@ other = "Sandwich"
 
 [dessert]
 other = "Dessert"
+
+[chooseOption]
+other = "Bitte wähle eine Option"
