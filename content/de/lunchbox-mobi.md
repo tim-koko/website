@@ -12,10 +12,28 @@ draft: false
 sitemap_exclude: true
 type: "lunchbox-form-page"
 netlify-formname: "lunchbox-mobi"
+formSelect:
+  sandwiches:
+  - option: "Buurhame"
+    value: "buurhame"
+  - option: "Salami"
+    value: "salami"
+  - option: "La Bouse -Käse (Vegetarisch)"
+    value: "la-bouse-kaese"
+  - option: "Hummus Grillgemüse (Vegan)"
+    value: "hummus-grillgemuese"
+  desserts:
+  - option: "Brownie"
+    value: "brownie"
+  - option: "Apfel- Streuselkuchen"
+    value: "apfel-streuselkuchen"
+  - option: "Cremeschnitte (Vegetarisch)"
+    value: "cremeschnitte"
 images: ["images/landing-pages/tk-giveaway-2024-1500x1000.png"]
 Sitemap:
   Priority: 0.3
 ---
+
 
 ### Tim&Koko Lunchbox-Event
 

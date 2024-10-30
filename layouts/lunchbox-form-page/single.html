@@ -54,10 +54,9 @@
         <div class="form-floating">
           <select class="form-select" name="sandwich" id="sandwich" required>
             <option selected disabled value="">{{ i18n "chooseOption" }}</option>
-            <option value="buurhame">Buurhame</option>
-            <option value="salami">Salami</option>
-            <option value="la-bouse-kaese">La Bouse -Käse (Vegetarisch)</option>
-            <option value="hummus-grillgemuese">Hummus Grillgemüse (Vegan)</option>
+            {{ range .Params.formSelect.sandwiches }}
+            <option value="{{.value}}">{{.option}}</option>
+            {{ end }}
           </select>
           <label  for="sandwich">
             {{ i18n "sandwich" }}
@@ -68,9 +67,9 @@
         <div class="form-floating">
           <select class="form-select" name="dessert" id="dessert" required>
             <option selected disabled value="">{{ i18n "chooseOption" }}</option>
-            <option value="brownie">Brownie</option>
-            <option value="salami">Apfel- Streuselkuchen</option>
-            <option value="cremeschnitte">Cremeschnitte</option>
+            {{ range .Params.formSelect.desserts }}
+            <option value="{{.value}}">{{.option}}</option>
+            {{ end }}
           </select>
           <label  for="dessert">
             {{ i18n "dessert" }}
