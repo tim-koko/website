@@ -6,15 +6,13 @@ description: ""
 draft: false
 
 image: "/images/team/thoemu.jpg"
-designation: "Sales"
-abstract: "Der Mann ist der Traum aller Schwiegermütter und auch uns und unseren Kunden zaubert er immer wieder ein Lächeln ins Gesicht."
-experience: "Seine ersten Schritte in der IT hat David nach seinem Bachelor in Business Administration bei der Swisscom gemacht. Dort war er als PM für das Dev Portal verantwortlich und hat den Software Day organisiert. Seit mehr als 3 Jahren ist er nun bei Puzzle als Key Account Manager unterwegs und erläutert den Kunden, wieso sie auf Cloud Native Technologien setzen sollten."
-linkedin: "https://www.linkedin.com/in/david-kilchenmann/"
-twitter: "https://twitter.com/DKilchenmann"
+designation: "Founder"
+linkedin: "https://www.linkedin.com/in/thomas-philipona-thun/"
+twitter: "https://twitter.com/tphilipona"
 email: "thomas@tim-koko.ch"
 
 ---
 
-Der Mann ist der Traum aller Schwiegermütter und auch uns und unseren Kunden zaubert er immer wieder ein Lächeln ins Gesicht.
+Kennt die IT-Welt seit Jahren – und entdeckt alles andere auf seinem Drahtesel.
 
-Seine ersten Schritte in der IT hat David nach seinem Bachelor in Business Administration bei der Swisscom gemacht. Dort war er als PM für das Dev Portal verantwortlich und hat den Software Day organisiert. Seit mehr als 3 Jahren ist er nun bei Puzzle als Key Account Manager unterwegs und erläutert den Kunden, wieso sie auf Cloud Native Technologien setzen sollten.
+Thömu spielte bei Puzzle seit 2011 eine prägende Rolle: Nach seinem Bachelorstudium in Computer Science zuerst als Software Engineer und PL, später konnte er als Head of Middleware u.a. das Thema Kubernetes bei Puzzle etablieren. Er war danach mehrere Jahre CTO und gründete im 2022 seine eigene Firma tim&amp;koko. Dort hilft er als Cloud Consultant den Kund:innen auf dem Weg in die Cloud.
