@@ -120,6 +120,8 @@ rssLimit = 10
 
 [taxonomies]
   category = "categories"
+  authors = "authors"
+
 
 [permalinks]
   blog = "/blog/:slug/"

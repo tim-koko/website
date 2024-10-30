@@ -6,3 +6,11 @@
     }
   }
 }
+
+.author-img {
+  width: 10rem;
+
+  .single.blog & {
+    width: 5rem;
+  }
+}

@@ -2,12 +2,54 @@
 <article class="container-fluid  pt-5 pt-lg-30">
 
   {{with .Params.post_img }}
-  <div class="mb-4 mb-lg-8  {{ if page.Params.img_border }} needsborder {{ end }}">
+  <div class="mb-3 mb-lg-4  {{ if page.Params.img_border }} needsborder {{ end }}">
     {{ partial "img-srcset.html" (dict "img" . "size" 1200  ) }}
   </div>
   {{ end }}
 
 
+
+
+  <div class="row mb-4 mb-lg-8">
+
+    <div class="col">
+
+
+      {{ range $key, $value := .Params.authors }}
+      {{ with $.Site.GetPage "taxonomyTerm" $value }}
+      <div class="author d-flex ">
+        {{ if .Params.image }}
+        <div class="author-img rounded-circle overflow-hidden me-2 me-md-3 flex-shrink-0">
+           {{- partial "img" (dict "page" . "src" .Params.image "width" 80 "process" "fill 160x160" "class" "img-fluid" "alt" "{{  .Params.title  }}") }} 
+        </div>
+        {{ end }}
+        <div class="d-flex flex-column justify-content-center small">
+          <div class="text-secondary ">{{  i18n "author"  }}</div>
+          <a class="link " href="{{ .Permalink | safeURL }}">
+            {{  .Title  }}
+          </a> 
+        </div>
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+
+    <div class="col-auto text-end_ small pt-1">
+      {{ if .Date }}
+      <div class="text-secondary">{{ i18n "published" }}</div>
+      <div class="ml-auto nowrap">{{ .Date.Format "02.01.2006" }}</div>
+      {{ end }}
+
+     </div>
+
+
+  </div>  
+
+  <div class="mb-16 mb-lg-32 d-flex flex-wrap">
+    {{ range $key, $value := .Params.categories }}
+      <span class="extra-small mb-2 me-2 px-3 py-1 border border-2 border-light rounded-pill">{{ $value }}</span>
+    {{ end }}
+  </div>
 
 
   <div class="row">
@@ -28,11 +70,7 @@
      </div>
     <div class="col-lg-8">
 
-        <div class="mb-5 d-flex flex-wrap">
-          {{ range $key, $value := .Params.categories }}
-            <span class="extra-small mb-2 me-2 px-3 py-1 border border-2 border-light rounded-pill">{{ $value }}</span>
-          {{ end }}
-        </div>
+   
 
         <h1 class="h2 mb-8 mb-lg-16">{{ .Title }}</h1>
         {{/*
@@ -65,13 +103,7 @@
         </div>
 
     </div>
-    <div class="col-lg-2 text-end small pt-11">
-      {{ if .Date }}
-      {{ i18n "published" }}<br>
-      <div class="ml-auto nowrap text-secondary">{{ .Date.Format "02.01.2006" }}</div>
-      {{ end }}
-
-     </div>
+ 
   </div>
 
 
