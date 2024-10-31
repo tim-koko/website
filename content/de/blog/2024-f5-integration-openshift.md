@@ -48,13 +48,13 @@ Zwei der durch den F5 CIS Operator eingeführten CRDs beinhalten die [TransportS
 
 Damit User trotz der zusätzlichen Funktionalität und Möglichkeiten wie gewohnt mit Ingress oder Routes – und damit einhergehend der automatisierten Zertifikatsverwaltung – arbeiten können, war es wichtig, die Integration entsprechend zu gestalten. Aus diesem Grund wurde der Standard-Setup wie folgt definiert:
 
-* Je Namespace – ein Namespace entspricht einer Applikation sowie Stage – wird ein TransportServer erstellt. Dieser definiert u.a. die IP-Adresse, unter der die Applikation erreichbar sein wird. 
+* Je Namespace – ein Namespace entspricht einer Applikation sowie Stage – wird ein TransportServer erstellt. Dieser definiert u.a. die IP-Adresse, unter der die Applikation erreichbar sein wird.
 * Ebenfalls je Namespace wird zusätzlich ein IngressController mit Namespace Selector erstellt. Der IngressController erstellt wie gewohnt HAProxy Pods sowie einen zugehörigen Service im `openshift-ingress` Namespace.
 * Der TransportServer wird nun mit dem IngressController zusammengehängt, indem der Ingress Service auf dem TransportServer als Backend Pool definiert wird.
 
 Eingehende Requests kommen also wie folgt auf der gewünschten Applikation an:
 
-```
+```text
 Client -> F5 Load Balancer -> HAProxy auf OpenShift -> Applikation
 ```
 
