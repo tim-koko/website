@@ -5,14 +5,14 @@ description: "Wie die F5 Container Ingress Services für OpenShift genutzt werde
 date: 2024-10-31T00:00:00+00:00
 lastmod: 2024-10-31T00:00:00+00:00
 draft: false
-images: []
+images: ["images/blog/openshift-f5/tk_blogpost-rh-openshift-f5-1200x630.jpg"]
 Sitemap:
 Priority: 0.8
 
 categories: ["Technologie", "OpenShift", "Networking", "F5"]
 #authors: ['benjamin-affolter']
-
-post_img: "images/blog/FIXME/FIXME.png"
+img_border: true
+post_img: "images/blog/openshift-f5/tk_blogpost-rh-openshift-f5-1500x1000.jpg"
 lead: "Der F5 CIS Operator ist eine interessante Option, um Applikationen automatisch über einen Enterprise Load Balancer erreichbar zu machen. Die Integration funktioniert aber unter Umständen nicht, wie das auf den ersten Blick erwartet werden könnte."
 ---
 
