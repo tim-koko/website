@@ -1,9 +1,9 @@
 ---
-title: "tim&koko-Lunchbox"
-slug: "lunchbox-mobi-2024"
+title: "tim&koko-Lunchbag"
+slug: "lunchbag-mobi-2024"
 description: ""
 titleVisible: "Die Mobiliar"
-titleSublineVisible: "tim&koko Lunchbox"
+titleSublineVisible: "tim&koko Lunchbag"
 image: "images/landing-pages/tk-giveaway-2024-1500x1000.png"
 lead: ""
 date: 2022-10-31T00:00:00+00:00
@@ -11,35 +11,38 @@ lastmod: 2024-08-24T00:00:00+00:00
 draft: false
 sitemap_exclude: true
 type: "lunchbox-form-page"
-netlify-formname: "lunchbox-mobi"
+netlify-formname: "lunchbag-mobi"
 formSelect:
   sandwiches:
   - option: "Buurhame"
     value: "buurhame"
-  - option: "Salami"
-    value: "salami"
-  - option: "La Bouse -Käse (vegi)"
-    value: "la-bouse-kaese"
+  # - option: "Salami"
+  #   value: "salami"
+  # - option: "La Bouse -Käse (Vegetarisch)"
+  #   value: "la-bouse-kaese"
   - option: "Hummus Grillgemüse (vegan)"
     value: "hummus-grillgemuese"
   desserts:
-  - option: "Brownie"
+  - option: "Brownie (vegan)"
     value: "brownie"
-  - option: "Apfel- Streuselkuchen"
-    value: "apfel-streuselkuchen"
-  - option: "Cremeschnitte (vegi)"
-    value: "cremeschnitte"
+  - option: "kein Dessert"
+    value: "kein-dessert"
+  # - option: "Apfel- Streuselkuchen"
+  #   value: "apfel-streuselkuchen"
+  # - option: "Cremeschnitte (Vegetarisch)"
+  #   value: "cremeschnitte"
 images: ["images/landing-pages/tk-giveaway-2024-1500x1000.png"]
 Sitemap:
   Priority: 0.3
 ---
 
-### Tim&Koko Lunchbox-Event
 
-Nimm dir eine kleine Auszeit in deiner Mittagspause und erhalte spannende Einblicke in aktuelle technologische Trends! Der «Tim&Koko Lunchbox»-Event bietet die perfekte Gelegenheit, Neues zu lernen und sich über innovative Lösungen auszutauschen.
+### Tim&Koko Lunchbag-Event
 
-* Wann: xx.xx.2024 von 12:00 - 13:30
-* Wo: Bundesgasse 35, 3001 Bern
+Nimm dir eine kleine Auszeit in deiner Mittagspause und erhalte spannende Einblicke in aktuelle technologische Trends! Der «Tim&Koko Lunchbag»-Event bietet die perfekte Gelegenheit, Neues zu lernen und sich über innovative Lösungen auszutauschen.
+
+* Wann: 4.12.2024 von 12:00 - 13:30
+* Wo: Monbijoustrasse 68, 3007 Bern
 
 Alles, was du brauchst, ist Neugier – wir kümmern uns um den Rest! Wähle einfach im Formular dein bevorzugtes Sandwich und Dessert aus, und wir sorgen dafür, dass du bestens versorgt bist.
 
