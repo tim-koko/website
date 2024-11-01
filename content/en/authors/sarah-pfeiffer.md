@@ -13,4 +13,4 @@ email: "sarah@tim-koko.ch"
 
 ---
 
-Sarah is adventurous, curious, and open to new experiences, loves stepping out of her comfort zone, and is always seeking new challenges
+Sarah is adventurous, curious, and open to new experiences, loves stepping out of her comfort zone, and is always seeking new challenges.
