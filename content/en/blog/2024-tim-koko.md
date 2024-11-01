@@ -10,6 +10,7 @@ Sitemap:
 Priority: 0.8
 
 categories: ["News", "tim&koko"]
+authors: ['sarah-pfeiffer']
 post_img: "images/blog/TK_BlogPost_2-3_RZ.png"
 lead: "Did you know? Our name is a tribute to Tim Berners-Lee, the inventor of the World Wide Web, and Koko, the female gorilla who effortlessly communicated in sign language."
 ---

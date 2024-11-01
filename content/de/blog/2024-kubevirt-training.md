@@ -11,6 +11,7 @@ Sitemap:
 Priority: 0.9
 
 categories: ["Technologie", "KubeVirt", "Kubernetes"]
+authors: ['thomas-philipona']
 post_img: "images/blog/kubevirt-training/kubevirt-training-blogpost-1500x1000.png"
 lead: "Mit diesem zweitägigen Training erhälst du einen schnellen, einfachen und hands-on Einstieg in die KubeVirt-Welt."
 ---
