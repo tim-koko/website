@@ -10,6 +10,7 @@ img_border: true
 Sitemap:
 Priority: 0.91
 categories: ["Technologie", "Kubernetes", "Security"]
+authors: ['raffael-hertle']
 post_img: "images/blog/scs/supply-chain-security-blog.png"
 lead: "Supply Chain Security is one of the most important topics in the DevSecOps environment and has today more relevance than ever. Due to the increasing amounts of attacks our customers face the challenge to keep their software supply chain secure. In this blog series we would like to give a comprehensive overview of the topic and give practical examples for everybody - beginner or veteran in the topic."
 
