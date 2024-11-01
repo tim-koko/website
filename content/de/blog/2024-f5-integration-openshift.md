@@ -17,7 +17,8 @@ lead: "Der F5 CIS Operator ist eine interessante Option, um Applikationen automa
 ---
 
 Dank dessen API-first Ansatz lässt sich praktisch alles auf Kubernetes automatisieren. Wenn es – insb. on-premises – darum geht, einen Kubernetes Cluster in eine bestehende IT-Landschaft zu integrieren, lässt sich dasselbe allerdings selten von den Umsystemen behaupten.\
-Ein typischer Kandidat dafür sind die Load Balancer. Bei einer Kundin durften wir mithilfe des F5 CIS Operator deren Verwaltung auf OpenShift automatisieren. Das Bedürfnis für die automatisierte Verwaltung der Load Balancer war auch deshalb höher als üblich, weil eine klare Vorgabe war, dass jede auf OpenShift laufende Applikation über eine dedizierte IP-Adresse erreichbar sein muss.
+Ein typischer Kandidat dafür sind die Load Balancer. Bei einer Kundin durften wir mithilfe des F5 CIS Operator deren Verwaltung auf OpenShift automatisieren. Das Bedürfnis für die automatisierte Verwaltung der Load Balancer war u.a. deshalb höher als üblich, weil eine klare Security-Vorgabe war, dass jede auf OpenShift laufende Applikation über eine dedizierte IP-Adresse erreichbar sein muss.\
+Auch wird dank dieser Automatisierung eine klare Effizienzsteigerung erreicht, die mithilft, die operativen Kosten zu senken und schneller auf Verändungerungen und zusätzliche Anforderungen eingehen zu können.
 
 ### Tunnel oder Routen
 
@@ -30,14 +31,25 @@ Die Wahl der Variante hängt u.a. davon ab, ob ausreichende Berechtigungen auf d
 
 ### ConfigMaps oder CRDs
 
-Der F5 CIS Operator kann so installiert werden, dass er auf Ingress bzw. Route Ressourcen achtet, oder auf ConfigMaps, oder aber dass er im CRD-Modus läuft und so nur die entsprechenden CRDs berücksichtigt. [Ein technischer Artikel von Michael O'Leary (F5)](https://community.f5.com/kb/technicalarticles/my-first-crd-deployment-with-cis/291159) zeigt die Vor- und Nachteile gut zusammengefasst auf:
+Der F5 CIS Operator kann so installiert werden, dass er auf Ingress bzw. Route Ressourcen achtet, oder auf ConfigMaps, oder aber dass er im CRD-Modus läuft und so nur die entsprechenden CRDs berücksichtigt. [Ein technischer Artikel von Michael O'Leary (F5)](https://community.f5.com/kb/technicalarticles/my-first-crd-deployment-with-cis/291159) zeigt die Vor- und Nachteile gut zusammengefasst auf.
 
-{{< csvtable "responsive" ";" >}}
-;**Ingress**;**ConfigMap**;**CustomResourceDefinitions**
-**Vorteile**;Nativer Ressourcentyp;Bieten die meisten Konfigurationsmöglichkeiten;Native Kubernetes Ressourcen
-**Einschränkungen**;Kaum erweiterbar;Die komplexeste Methode;Keine groben Nachteile aber einige kleinere Anforderungen
-**Fazit**;War die erste mögliche Konfigurationsmethode, CRDs sind aber empfohlen;Nur verwenden wenn die gewünschte Konfiguration nicht mit CRDs erreicht werden kann;Die erste Wahl wenn möglich                               |
-{{< /csvtable >}}
+**Ingress:**
+
+* **Vorteil:** Nativer Ressourcentyp
+* **Einschränkung:** Kaum erweiterbar
+* **Fazit:** War die erste mögliche Konfigurationsmethode, CRDs sind aber empfohlen
+
+**ConfigMap:**
+
+* **Vorteil:** Bietet die meisten Konfigurationsmöglichkeiten
+* **Einschränkung:** Die komplexeste Methode
+* **Fazit:** Nur verwenden, wenn die gewünschte Konfiguration nicht mit CRDs erreicht werden kann
+
+**CustomResourceDefinitions:**
+
+* **Vorteil:** Native Kubernetes Ressourcen
+* **Einschränkung:** Keine groben Nachteile aber einige kleinere Anforderungen
+* **Fazit:** Die erste Wahl wenn möglich
 
 Die Wahl sollte also wenn immer möglich zugunsten der CRDs ausfallen. Einziger Nachteil: Die CRDs werden auf OpenShift nicht wie gewohnt durch den Operator installiert und gepflegt. Bei einem Operator-Update muss daher immer darauf geachtet werden, dass auch die CRDs aktualisiert werden.
 
