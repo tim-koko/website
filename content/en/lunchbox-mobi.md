@@ -11,7 +11,7 @@ lastmod: 2024-08-24T00:00:00+00:00
 draft: false
 sitemap_exclude: true
 type: "lunchbox-form-page"
-netlify-formname: "lunchbag-mobi"
+netlifyFormname: "lunchbag-mobi"
 form:
   LabelNachricht: "Do you have any questions or topics you’re particularly interested about?"
 formSelect:
