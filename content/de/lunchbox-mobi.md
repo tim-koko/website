@@ -3,7 +3,7 @@ title: "tim&koko-Lunchbag"
 slug: "lunchbag-mobi-2024"
 description: ""
 titleVisible: "Die Mobiliar"
-titleSublineVisible: "tim&koko Lunchbag"
+titleSublineVisible: "Tim&Koko Lunchbag"
 image: "images/landing-pages/tk-giveaway-2024-1500x1000.png"
 lead: ""
 date: 2022-10-31T00:00:00+00:00
@@ -12,6 +12,8 @@ draft: false
 sitemap_exclude: true
 type: "lunchbox-form-page"
 netlify-formname: "lunchbag-mobi"
+form:
+  LabelNachricht: "Hast du Fragen oder Themen die Dich brennend interessieren?"
 formSelect:
   sandwiches:
   - option: "Buurhame"
@@ -22,6 +24,8 @@ formSelect:
   #   value: "la-bouse-kaese"
   - option: "Hummus Grillgemüse (vegan)"
     value: "hummus-grillgemuese"
+  - option: "Kein Sandwich"
+    value: "kein-sandwich"
   desserts:
   - option: "Brownie (vegan)"
     value: "brownie"
@@ -48,4 +52,9 @@ Alles, was du brauchst, ist Neugier – wir kümmern uns um den Rest! Wähle ein
 
 ### Thema
 
-Im November dreht sich alles um das Thema: «KubeVirt – VMs auf Kubernetes deployen und betreiben?». Tauche mit uns ein in die Welt der Kubernetes-basierten VM-Managementlösungen und erfahre mehr über die Möglichkeiten und Herausforderungen.
+Im Dezember dreht sich alles um das Thema: «KubeVirt – VMs auf Kubernetes deployen und betreiben?». Tauche mit uns ein in die Welt der Kubernetes-basierten VM-Managementlösungen und erfahre mehr über die Möglichkeiten und Herausforderungen.
+
+Falls du bis zum Event mehr zum Thema erfahren willst, schau dir unsere Blogposts an:
+
+* [KubeVirt Journey - Einführung in die Verwaltung von virtuellen Maschinen in Kubernetes]({{< ref "blog/2024-kubevirt-introduction" >}})
+* [Hands-on KubeVirt Basics Training]({{< ref "blog/2024-kubevirt-training" >}})
