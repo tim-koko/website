@@ -32,11 +32,12 @@ Die Wahl der Variante hängt u.a. davon ab, ob ausreichende Berechtigungen auf d
 
 Der F5 CIS Operator kann so installiert werden, dass er auf Ingress bzw. Route Ressourcen achtet, oder auf ConfigMaps, oder aber dass er im CRD-Modus läuft und so nur die entsprechenden CRDs berücksichtigt. [Ein technischer Artikel von Michael O'Leary (F5)](https://community.f5.com/kb/technicalarticles/my-first-crd-deployment-with-cis/291159) zeigt die Vor- und Nachteile gut zusammengefasst auf:
 
-|                     | **Ingress**                                                            | **ConfigMap**                                                                       | **CustomResourceDefinitions**                             |
-|---------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-----------------------------------------------------------|
-| **Vorteile**        | Nativer Ressourcentyp                                                  | Bieten die meisten Konfigurationsmöglichkeiten                                      | Native Kubernetes Ressourcen                              |
-| **Einschränkungen** | Kaum erweiterbar                                                       | Die komplexeste Methode                                                             | Keine groben Nachteile aber einige kleinere Anforderungen |
-| **Fazit**           | War die erste mögliche Konfigurationsmethode, CRDs sind aber empfohlen | Nur verwenden wenn die gewünschte Konfiguration nicht mit CRDs erreicht werden kann | Die erste Wahl wenn möglich                               |
+{{< csvtable "responsive" ";" >}}
+;**Ingress**;**ConfigMap**;**CustomResourceDefinitions**
+**Vorteile**;Nativer Ressourcentyp;Bieten die meisten Konfigurationsmöglichkeiten;Native Kubernetes Ressourcen
+**Einschränkungen**;Kaum erweiterbar;Die komplexeste Methode;Keine groben Nachteile aber einige kleinere Anforderungen
+**Fazit**;War die erste mögliche Konfigurationsmethode, CRDs sind aber empfohlen;Nur verwenden wenn die gewünschte Konfiguration nicht mit CRDs erreicht werden kann;Die erste Wahl wenn möglich                               |
+{{< /csvtable >}}
 
 Die Wahl sollte also wenn immer möglich zugunsten der CRDs ausfallen. Einziger Nachteil: Die CRDs werden auf OpenShift nicht wie gewohnt durch den Operator installiert und gepflegt. Bei einem Operator-Update muss daher immer darauf geachtet werden, dass auch die CRDs aktualisiert werden.
 
