@@ -10,6 +10,7 @@ Sitemap:
 Priority: 0.9
 
 categories: ["News", "tim&koko", "Workshop"]
+authors: ['livia-affolter']
 post_img: "images/blog/workshop24/TK_BlogPost_SommerWorkshop2024_1.jpg"
 lead: "Sometimes it takes a step back to move into the future stronger and united as a team."
 ---

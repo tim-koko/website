@@ -10,7 +10,7 @@ Sitemap:
 Priority: 0.8
 
 categories: ["News", "tim&koko", "Brand", "Behind the Scenes"]
-#authors: ['sarah-pfeiffer']
+authors: ['sarah-pfeiffer']
 
 post_img: "images/blog/neuer-brandname/timkoko-neuer-brandname-blogpost-1500x1000.jpg"
 lead: "Als wir unsere Firma gegründet haben, ahnten wir noch nicht, wie wichtig es ist, einen Brand zu finden, mit dem wir uns identifizieren können – und was das alles mit sich bringt. "

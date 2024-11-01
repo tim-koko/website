@@ -95,4 +95,13 @@ other = "Vorheriges Projekt"
 other = "Nächstes Projekt"
 
 [author]
-other = "Autor*in"
+other = "Autor:in"
+
+[sandwich]
+other = "Sandwich"
+
+[dessert]
+other = "Dessert"
+
+[chooseOption]
+other = "Bitte wähle eine Option"

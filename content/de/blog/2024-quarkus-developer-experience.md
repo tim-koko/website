@@ -11,6 +11,7 @@ Sitemap:
 Priority: 0.4
 
 categories: ["Technologie", "Quarkus", "Developer", "Java"]
+authors: ['raffael-hertle']
 post_img: "images/blog/quarkus/tk-blogpost-02_quarkus.jpg"
 lead: "Mit Quarkus bekommt das Java Ökosystem einen immensen Developer Experience Boost! In diesem kurzen Beitrag tauchen wir in die Welt von Quarkus!"
 ---
