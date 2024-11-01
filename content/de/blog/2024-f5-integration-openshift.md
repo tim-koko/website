@@ -18,7 +18,7 @@ lead: "Der F5 CIS Operator ist eine interessante Option, um Applikationen automa
 
 Dank dessen API-first Ansatz lässt sich praktisch alles auf Kubernetes automatisieren. Wenn es – insb. on-premises – darum geht, einen Kubernetes Cluster in eine bestehende IT-Landschaft zu integrieren, lässt sich dasselbe allerdings selten von den Umsystemen behaupten.\
 Ein typischer Kandidat dafür sind die Load Balancer. Bei einer Kundin durften wir mithilfe des F5 CIS Operator deren Verwaltung auf OpenShift automatisieren. Das Bedürfnis für die automatisierte Verwaltung der Load Balancer war u.a. deshalb höher als üblich, weil eine klare Security-Vorgabe war, dass jede auf OpenShift laufende Applikation über eine dedizierte IP-Adresse erreichbar sein muss.\
-Auch wird dank dieser Automatisierung eine klare Effizienzsteigerung erreicht, die mithilft, die operativen Kosten zu senken und schneller auf Verändungerungen und zusätzliche Anforderungen eingehen zu können.
+Natürlich wird dank dieser Automatisierung auch eine klare Effizienzsteigerung erreicht, die mithilft, die operativen Kosten zu senken und schneller auf Verändungerungen und zusätzliche Anforderungen eingehen zu können.
 
 ### Tunnel oder Routen
 
