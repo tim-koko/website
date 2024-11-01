@@ -11,7 +11,7 @@ lastmod: 2024-08-24T00:00:00+00:00
 draft: false
 sitemap_exclude: true
 type: "lunchbox-form-page"
-netlify-formname: "lunchbag-mobi"
+netlifyFormname: "lunchbag-mobi"
 form:
   LabelNachricht: "Hast du Fragen oder Themen die Dich brennend interessieren?"
 formSelect:
