@@ -33,19 +33,19 @@ Die Wahl der Variante hängt u.a. davon ab, ob ausreichende Berechtigungen auf d
 
 Der F5 CIS Operator kann so installiert werden, dass er auf Ingress bzw. Route Ressourcen achtet, oder auf ConfigMaps, oder aber dass er im CRD-Modus läuft und so nur die entsprechenden CRDs berücksichtigt. [Ein technischer Artikel von Michael O'Leary (F5)](https://community.f5.com/kb/technicalarticles/my-first-crd-deployment-with-cis/291159) zeigt die Vor- und Nachteile gut zusammengefasst auf.
 
-**Ingress:**
+#### Ingress
 
 * **Vorteil:** Nativer Ressourcentyp
 * **Einschränkung:** Kaum erweiterbar
 * **Fazit:** War die erste mögliche Konfigurationsmethode, CRDs sind aber empfohlen
 
-**ConfigMap:**
+#### ConfigMap
 
 * **Vorteil:** Bietet die meisten Konfigurationsmöglichkeiten
 * **Einschränkung:** Die komplexeste Methode
 * **Fazit:** Nur verwenden, wenn die gewünschte Konfiguration nicht mit CRDs erreicht werden kann
 
-**CustomResourceDefinitions:**
+#### CustomResourceDefinitions
 
 * **Vorteil:** Native Kubernetes Ressourcen
 * **Einschränkung:** Keine groben Nachteile aber einige kleinere Anforderungen
