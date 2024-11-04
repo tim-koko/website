@@ -11,9 +11,15 @@ lastmod: 2024-08-24T00:00:00+00:00
 draft: false
 sitemap_exclude: true
 type: "event-registration-form-page"
+netlifyFormname: "Anmeldung"
 images: ["images/20221018-TK_Bern_0112@4x.jpg"]
 Sitemap:
   Priority: 0.3
+
+# don't publish the page
+_build:
+ list: never
+ render: never
 ---
 
 Unser Herbst-Event steht vor der Tür!
