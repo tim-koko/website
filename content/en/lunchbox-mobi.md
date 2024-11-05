@@ -11,6 +11,7 @@ lastmod: 2024-08-24T00:00:00+00:00
 draft: false
 sitemap_exclude: true
 type: "lunchbox-form-page"
+blogposts: ['kubevirt-introduction', 'kubevirt-training']
 netlifyFormname: "lunchbag-mobi"
 form:
   LabelNachricht: "Do you have any questions or topics you’re particularly interested about?"
@@ -54,7 +55,6 @@ All you need is curiosity – we’ll take care of the rest! Just choose your pr
 
 In December, the focus is on: “KubeVirt – Deploying and Managing VMs on Kubernetes?” Dive with us into the world of Kubernetes-based VM management solutions and learn more about the possibilities and challenges.
 
-If you want to learn more about the topic before the event, check out our blog posts:
+### In the meantime
 
-* [KubeVirt Journey - Introduction to the Management of Virtual Machines on Kubernetes]({{< ref "blog/2024-kubevirt-introduction" >}})
-* [Hands-on KubeVirt Basics Training]({{< ref "blog/2024-kubevirt-training" >}})
+If you want to learn more about the topic before the event, check out our blog posts:
