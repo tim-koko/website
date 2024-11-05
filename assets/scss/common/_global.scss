@@ -145,6 +145,17 @@ button.link {
       }
     }
   }
+
+  ul &,
+  ol &,
+  p & {
+    font-family: Athletics-Bold, sans-serif;
+    color: $secondary;
+
+    &:hover {
+      color: #fff;
+    }
+  }
 }
 
 .btn {
@@ -189,15 +200,6 @@ p {
     font-family: Athletics-Bold, sans-serif;
     font-weight: normal;
     color: $green;
-  }
-
-  a {
-    font-family: Athletics-Bold, sans-serif;
-    color: $secondary;
-
-    &:hover {
-      color: #fff;
-    }
   }
 }
 
