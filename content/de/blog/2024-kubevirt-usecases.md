@@ -16,8 +16,7 @@ post_img: "images/blog/kubevirt/tk-blogpost-kubevirt.jpg"
 lead: "Der Einsatz von virtuellen Maschinen ist heutzutage nicht mehr wegzudenken. Neben dem Ersatz von bestehenden Virtualisierungslösungen bietet KubeVirt das Potenzial um Infrastrukturen und Workflows zu modernisieren."
 ---
 
-Im ersten Blogpost der KubeVirt-Serie geht es um eine Einführung in das Thema KubeVirt. Dieser zweite Blogpost geht es
-um das Einsatzgebiet von KubeVirt. Die Technologie hat sich zum Ziel gesetzt, die Verwendung von virtuelle Maschinen
+Im zweiten Blogpost unserer KubeVirt-Serie (Teil 1: [KubeVirt Journey - Einführung in die Verwaltung von virtuellen Maschinen in Kubernetes]({{< ref "blog/2024-kubevirt-introduction" >}})) schauen wir uns die Einsatztgebiete von KubeVirt an. Die Technologie hat sich zum Ziel gesetzt, die Verwendung von virtuelle Maschinen
 mit modernen Patterns neu zu definieren. Wir bei Tim&Koko sind überzeugt, dass der Cloud-Native-Ansatz von KubeVirt der
 richtige Weg ist, um Infrastrukturen, Workloads und Workflows von traditionellen virtuellen Maschinen zu modernisieren.
 
