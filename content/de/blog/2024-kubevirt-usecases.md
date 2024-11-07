@@ -130,9 +130,9 @@ KubeVirt ist eine interessante Alternative zu den bestehenden Virtualisierungsl�
 primär der eins zu eins Ersatz von bestehenden Virtualisierungslösungen. Das volle Potenzial entwickelt sich, wenn der
 VM-Workload so definiert ist, dass er mit denselben Tools und Workflows der Container-Welt gemanagt werden kann. Dies
 erlaubt es Unternehmen Infrastruktur zu vereinheitlichen sowie die Ressourcen effizienter zu nutzen und dadurch operative
-Kosten zu sparen. Durch die Konsolidierung kann auch die Produktvielfalt reduziert werden. Durch einheitliches Tooling,
-Automatisierung und Integration in CI/CD-Pipelines wird die Developer Experience verbessert und Ressourcen stehen
-schneller zur Verfügung.
+Kosten zu sparen. Durch die Konsolidierung kann auch die Produktvielfalt reduziert werden. Einheitliches Tooling,
+Automatisierung und Integration in CI/CD-Pipelines fördert die Developer Experience und sorgt dafür, dass Ressourcen
+schneller zur Verfügung stehen.
 
 ## Möchtest Du mehr erfahren?
 
