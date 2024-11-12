@@ -2,8 +2,8 @@
 title: "F5-Integration mit OpenShift"
 slug: "f5-integration-openshift"
 description: "Wie die F5 Container Ingress Services für OpenShift genutzt werden können"
-date: 2024-11-05T00:00:00+00:00
-lastmod: 2024-11-05T00:00:00+00:00
+date: 2024-11-12T00:00:00+00:00
+lastmod: 2024-11-12T00:00:00+00:00
 draft: false
 images: ["images/blog/openshift-f5/tk_blogpost-rh-openshift-f5-1200x630.jpg"]
 Sitemap:
