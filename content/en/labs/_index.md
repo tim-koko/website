@@ -36,6 +36,8 @@ Experience the world of OpenShift Virtualization and learn how containers and vi
 
 In this half-day lab, you'll first receive a theoretical introduction to the fundamentals of OpenShift Virtualization. Then, you’ll apply what you've learned directly in hands-on labs. Our experts will guide you step-by-step, allowing you to experience the key concepts and features in practice.
 
+&nbsp;
+
 ### Agenda
 
 * Welcome and registration
@@ -48,20 +50,28 @@ In this half-day lab, you'll first receive a theoretical introduction to the fun
   * Instance types - Define VM flavors with instance types and preferences
 * Apéro
 
+&nbsp;
+
 ### Dates
 
 * 30.1.2025 – 13:30 Zurich Red Hat, Europaallee 41
 * 13.2.2025 – 13:30 Bern, details follow
 
+&nbsp;
+
 ### Participation and Registration
 
 Participation in the Tim&Koko Lab is free of charge. All you need to bring is your laptop. An internet browser is required for the labs. As spots are limited, we recommend registering early. Simply sign up through our registration form to secure your spot.
+
+&nbsp;
 
 ### Target Audience
 
 The Tim&Koko Lab is designed for individuals with prior knowledge in containers and container platforms who are familiar with the basic concepts of virtual machines and wish to expand their understanding of virtualization and OpenShift.
 
 Take this opportunity to experience OpenShift Virtualization live and deepen your knowledge through practical exercises!
+
+&nbsp;
 
 ### Registration
 

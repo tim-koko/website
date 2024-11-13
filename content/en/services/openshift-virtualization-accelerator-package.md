@@ -23,6 +23,8 @@ Sitemap:
 
 With our extensive experience in traditional virtualization and Kubernetes, we help companies seamlessly modernize and successfully migrate workloads. Additionally, we offer specialized [training]({{< ref "blog/2024-kubevirt-training" >}}) to prepare your team for the future. This package helps you quickly explore the possibilities of Kubernetes-based virtualization and assess the potential for a new or parallel strategy.
 
+&nbsp;
+
 ### Description
 
 The **OpenShift Virtualization Accelerator-Package** accelerates customers' adoption of Kubernetes-based virtualization. After the accelerator package, customers will have:
@@ -34,6 +36,8 @@ The **OpenShift Virtualization Accelerator-Package** accelerates customers' adop
 Improved Resource Utilization and Cost Savings with an optimized platform that supports container and VM workloads.
 * **An Alternative** to Broadcom with Kubernetes-based virtualization, enabling flexibility and independence from Broadcom’s ecosystem.
 
+&nbsp;
+
 ### Phase 1 - Discovery
 
 Gain a comprehensive understanding of the customer’s current setup, processes, and goals to align OpenShift Virtualization with their business strategy.
@@ -42,6 +46,8 @@ Gain a comprehensive understanding of the customer’s current setup, processes,
 * **People and Process Review**: Assess how teams, processes, and methodologies interact with current technology. Identify roles, workflows, and any bottlenecks or areas where OpenShift Virtualization could add value.
 * **Goal Alignment**: Align business and operational goals with the target solution. Define success for the organization in terms of scalability, cost-savings, and operational efficiencies.
 * **Architecture Definition**: Specify the ideal architecture, detailing components such as compute requirements, network configurations, and storage options. This architecture will serve as a foundational roadmap for the next phases.
+
+&nbsp;
 
 ### Phase 2 - Team Enablement and PoC
 
@@ -52,6 +58,8 @@ Educate the customer’s team with foundational OpenShift Virtualization skills 
 * **PoC Environment Setup**: Deploy a dedicated PoC platform on the customer’s preferred environment, whether on-premises or on a public cloud. This sandboxed setup allows the team to explore KubeVirt functionalities, test workloads, and experiment with different configurations safely.
 * **Hands-on Training**: Scenarios that allow the team to apply what they’ve learned, exploring tasks like creating or migrating virtual machines, managing resources, and testing different configurations within the PoC.
 
+&nbsp;
+
 ### Phase 3 - Workload Assessment and Migration Planning
 
 Create a structured approach for workload migration, focusing on identifying high-impact workloads and developing a feasible migration plan.
@@ -61,6 +69,10 @@ Create a structured approach for workload migration, focusing on identifying hig
 * **Migration Roadmap Development**: Design a migration plan that maps out the order and methodology for each workload’s transition to the OpenShift Virtualization environment. The roadmap includes timelines, resource requirements, risk assessments, and fallback options to ensure a smooth migration.
 * **Next Steps Consultation**: Wrap up the engagement with a strategic review, including suggested next steps, ongoing support options, and a high-level plan for full-scale deployment.
 
+&nbsp;
+
 Are you ready to take your virtualization to the next level? Let’s discuss it over a coffee! We’re excited to kick things off with you! 🚀🚀🚀
+
+&nbsp;
 
 <a class="btn btn-primary rounded-pill" href="mailto:hallo@tim-koko.ch">contact us</a>
