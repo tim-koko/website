@@ -14,12 +14,12 @@ form:
   LabelNachricht: "Gibt es noch etwas, dass wir wissen müssen?"
 formSelect:
   dates:
-  - option: "30.1.2025 – Zürich Red Hat, Europaallee 41"
+  - option: "30.1.2025 – Zurich Red Hat, Europaallee 41"
     value: "zurich-2025-01-30"
-  - option: "13.2.2025 – Bern TBD"
+  - option: "13.2.2025 – Bern, details follow"
     value: "bern-2025-02-13"
-  - option: "bei zusätzlichen Terminen informieren."
-    value: "wetiere-daten"
+  - option: "please inform me for additional Dates"
+    value: "weitere-daten"
 images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]
 Sitemap:
   Priority: 0.3
@@ -32,32 +32,37 @@ Sitemap:
 ---
 
 
-Erlebe die Welt von OpenShift Virtualization und erfahre, wie Container und virtuelle Maschinen auf einer Plattform integriert werden können. In diesem praxisorientierten Workshop bekommst du die Grundlagen vermittelt und lernst, wie du mit OpenShift Virtualization die Flexibilität und Effizienz deiner Infrastruktur steigern kannst.
+Experience the world of OpenShift Virtualization and learn how containers and virtual machines can be integrated on a single platform. In this hands-on lab, you'll be introduced to the basics and discover how OpenShift Virtualization can increase the flexibility and efficiency of your infrastructure.
 
-In diesem halbtägigen Workshop erhältst du zunächst eine theoretische Einführung in die Grundlagen von OpenShift Virtualization. Anschließend wendest du das Gelernte direkt in Hands-on Labs an. Unsere Experten
-begleiten dich Schritt für Schritt, sodass du die wichtigsten Konzepte und Funktionen direkt in der Praxis erleben kannst.
+In this half-day lab, you'll first receive a theoretical introduction to the fundamentals of OpenShift Virtualization. Then, you’ll apply what you've learned directly in hands-on labs. Our experts will guide you step-by-step, allowing you to experience the key concepts and features in practice.
 
 ### Agenda
 
-* Welcome und Registration
-* Theorie – Einführung in OpenShift Virtualization und dessen Einsatzmöglichkeiten
-* Hands-on Labs – Praktische Übungen zur Konfiguration und Verwaltung virtueller Maschinen in OpenShift
+* Welcome and registration
+* Presentation – Introduction to OpenShift Virtualization and UseCases
+* Hands-on Labs
+  * Getting started – Create, start and stop virtual machines, console access.
+  * Live migration – migrate virtual machines
+  * Scaling – Scaling VMs
+  * Cloud-init - Initialize VMs with startup scripts
+  * Instance types - Define VM flavors with instance types and preferences
+* Apéro
 
-### Termine:
+### Dates
 
-* 30.1.2025 – 13:30 Zürich Red Hat, Europaallee 41
-* 13.2.2025 – 13:30 Bern TBD
+* 30.1.2025 – 13:30 Zurich Red Hat, Europaallee 41
+* 13.2.2025 – 13:30 Bern, details follow
 
-### Teilnahme und Anmeldung
+### Participation and Registration
 
-Die Teilnahme am Tim&Koko Lab ist kostenlos. Da die Plätze begrenzt sind, melde dich am besten frühzeitig an. Registriere dich einfach über unser Anmeldeformular und sichere dir deinen Platz.
+Participation in the Tim&Koko Lab is free of charge. As spots are limited, we recommend registering early. Simply sign up through our registration form to secure your spot.
 
-### Zielgruppe
+### Target Audience
 
-Das Tim&Koko Lab richtet sich an Personen, welche über Vorkenntnisse im Bereich von Container und Container Plattformen verfügen und die Grundkonzepte von virtuellen Maschinen kennen, die ihre Kenntnisse im Bereich Virtualisierung und OpenShift erweitern möchten.
+The Tim&Koko Lab is designed for individuals with prior knowledge in containers and container platforms who are familiar with the basic concepts of virtual machines and wish to expand their understanding of virtualization and OpenShift.
 
-Nutze die Gelegenheit, um OpenShift Virtualization live zu erleben und dein Wissen durch praxisnahe Übungen zu vertiefen!
+Take this opportunity to experience OpenShift Virtualization live and deepen your knowledge through practical exercises!
 
-### Anmeldung
+### Registration
 
-Fülle das Anmeldeformular aus, um dich für einen der beiden Workshop-Termine anzumelden.
+Fill out the registration form to sign up for one of the two workshop dates.

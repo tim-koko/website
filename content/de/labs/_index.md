@@ -18,7 +18,7 @@ formSelect:
   - option: "13.2.2025 – Bern TBD"
     value: "bern-2025-02-13"
   - option: "bei zusätzlichen Terminen informieren."
-    value: "wetiere-daten"
+    value: "weitere-daten"
 images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]
 Sitemap:
   Priority: 0.3
@@ -31,7 +31,7 @@ Sitemap:
 ---
 
 
-Erlebe die Welt von OpenShift Virtualization und erfahre, wie Container und virtuelle Maschinen auf einer Plattform integriert werden können. In diesem praxisorientierten Workshop bekommst du die Grundlagen vermittelt und lernst, wie du mit OpenShift Virtualization die Flexibilität und Effizienz deiner Infrastruktur steigern kannst.
+Erlebe die Welt von OpenShift Virtualization und erfahre, wie Container und virtuelle Maschinen auf einer Plattform integriert werden können. In diesem praxisorientierten Lab bekommst du die Grundlagen vermittelt und lernst, wie du mit OpenShift Virtualization die Flexibilität und Effizienz deiner Infrastruktur steigern kannst.
 
 In diesem halbtägigen Workshop erhältst du zunächst eine theoretische Einführung in die Grundlagen von OpenShift Virtualization. Anschließend wendest du das Gelernte direkt in Hands-on Labs an. Unsere Experten
 begleiten dich Schritt für Schritt, sodass du die wichtigsten Konzepte und Funktionen direkt in der Praxis erleben kannst.
@@ -39,13 +39,19 @@ begleiten dich Schritt für Schritt, sodass du die wichtigsten Konzepte und Funk
 ### Agenda
 
 * Welcome und Registration
-* Theorie – Einführung in OpenShift Virtualization und dessen Einsatzmöglichkeiten
+* Präsentation – Einführung in OpenShift Virtualization und dessen Einsatzmöglichkeiten
 * Hands-on Labs – Praktische Übungen zur Konfiguration und Verwaltung virtueller Maschinen in OpenShift
+  * Getting started – VMs erstellen, starten und stoppen, Console-Zugriff
+  * Live migration – VMs live migrieren
+  * Scaling – VMs skalieren
+  * Cloud-init - VMs mit Startup-Scripts initialisieren
+  * Instance types - Mit Instance types und Preferences VM-Flavors definieren
+* Apéro
 
-### Termine:
+### Termine
 
 * 30.1.2025 – 13:30 Zürich Red Hat, Europaallee 41
-* 13.2.2025 – 13:30 Bern TBD
+* 13.2.2025 – 13:30 Zentral in Bern, Details folgen.
 
 ### Teilnahme und Anmeldung
 
