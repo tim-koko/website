@@ -1,6 +1,5 @@
 ---
 title: "Tim&Koko OpenShift Virtualization Labs"
-slug: "lunchbag-mobi-2024"
 description: "Hands-on Tim&Koko Lab zum Thema OpenShift Virtualization"
 titleVisible: "OpenShift Virtualization"
 titleSublineVisible: "Tim&Koko Lab"

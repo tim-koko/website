@@ -1,0 +1,33 @@
+{{ define "main" }}
+<div class="container-fluid  pt-25 pt-lg-30">
+
+
+  {{ with .Params.image }}
+      <div class="mb-10 mb-lg-20">
+        {{ partial "img-srcset.html" (dict "img" . "size" 1200) }}
+      </div>
+  {{ end }}
+
+
+  <div class="row">
+    <div class="col-lg-1"></div>
+    <div class="col-lg-10">
+ 
+        {{ with .Params.smallTitle}}
+          <div class="bigger mb-4">{{ . }}</div>
+        {{ end }}
+        <h1 class="mb-5 mb-md-8">{{ .Params.titleVisible }}{{ with .Params.titleSublineVisible}}<br><span>{{ . }}</span>{{ end }}</h1>
+        {{ .Content }}
+    </div>
+  </div>
+  {{ if .Params.blogposts }}
+  <div class="col-lg-12 offset-lg-0 pt-20">
+    {{ range .Params.blogposts }}
+      {{ range where (where $.Site.RegularPages "Section" "blog") ".Params.slug" "in" (.) }}
+        {{- partial "content-blog" . -}}
+      {{ end }}
+    {{ end }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}
