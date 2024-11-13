@@ -55,7 +55,7 @@ In this half-day lab, you'll first receive a theoretical introduction to the fun
 
 ### Participation and Registration
 
-Participation in the Tim&Koko Lab is free of charge. As spots are limited, we recommend registering early. Simply sign up through our registration form to secure your spot.
+Participation in the Tim&Koko Lab is free of charge. All you need to bring is your laptop. An internet browser is required for the labs. As spots are limited, we recommend registering early. Simply sign up through our registration form to secure your spot.
 
 ### Target Audience
 
