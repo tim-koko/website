@@ -1,7 +1,7 @@
 ---
 title: "Tim&Koko OpenShift Virtualization Accelerator-Paket"
 slug: "openshift-virtualization-accelerator"
-description: "Hands-on Tim&Koko Lab zum Thema OpenShift Virtualization"
+description: "Unser Accelerator Paket für einen schnellen Einstig in die OpenShift Virtualization Welt"
 titleVisible: "OpenShift Virtualization"
 titleSublineVisible: "Accelerator-Paket"
 image: "images/landing-pages/tk-landingpage-labs-1500x600.png"
