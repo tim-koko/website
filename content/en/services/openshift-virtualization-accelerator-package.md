@@ -30,7 +30,7 @@ With our extensive experience in traditional virtualization and Kubernetes, we h
 The **OpenShift Virtualization Accelerator-Package** accelerates customers' adoption of Kubernetes-based virtualization. After the accelerator package, customers will have:
 
 * **A custom virtualization strategy** aligned with your business goals and ready to drive operational efficiency.
-* **A Skilled, Enabled Team** with hands-on experience in KubeVirt, prepared to manage and expand your Kubernetes-based virtualization independently.
+* **A Skilled, Enabled Team** with hands-on experience in OpenShift Virtualization, prepared to manage and expand your Kubernetes-based virtualization independently.
 * **A Proof-of-Concept (PoC) Environment** built and tested, providing a secure playground for ongoing experimentation and training.
 * **A Clear Migration Roadmap** identifying priority workloads and a structured approach for smooth, impactful migration.
 **Improved Resource Utilization and Cost Savings** with an optimized platform that supports container and VM workloads.
