@@ -33,7 +33,7 @@ Sitemap:
 
 Erlebe die Welt von OpenShift Virtualization und erfahre, wie Container und virtuelle Maschinen auf einer Plattform integriert werden können. In diesem praxisorientierten Lab bekommst du die Grundlagen vermittelt und lernst, wie du mit OpenShift Virtualization die Flexibilität und Effizienz deiner Infrastruktur steigern kannst.
 
-In diesem halbtägigen Workshop erhältst du zunächst eine theoretische Einführung in die Grundlagen von OpenShift Virtualization. Anschließend wendest du das Gelernte direkt in Hands-on Labs an. Unsere Experten
+In diesem halbtägigen Workshop erhältst du zunächst eine theoretische Einführung in die Grundlagen von OpenShift Virtualization. Anschliessend wendest du das Gelernte direkt in hands-on Labs an. Unsere Experten
 begleiten dich Schritt für Schritt, sodass du die wichtigsten Konzepte und Funktionen direkt in der Praxis erleben kannst.
 
 &nbsp;
