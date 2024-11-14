@@ -55,7 +55,7 @@ Educate the customer’s team with foundational OpenShift Virtualization skills 
 
 * **OpenShift Virtualization Fundamentals**: Conduct training sessions focused on KubeVirt essentials, helping the team understand the basics of Kubernetes-based virtualization tailored to the customer’s needs.
 * **OpenShift Virtualization Architecture & Strategy**: Overview of how OpenShift Virtualization will fit into their infrastructure, focusing on integration points, best practices, and architectural guidelines.
-* **PoC Environment Setup**: Deploy a dedicated PoC platform on the customer’s preferred environment, whether on-premises or on a public cloud. This sandboxed setup allows the team to explore KubeVirt functionalities, test workloads, and experiment with different configurations safely.
+* **PoC Environment Setup**: Deploy a dedicated PoC platform on the customer’s preferred environment, whether on-premises or on a public cloud. This sandboxed setup allows the team to explore OpenShift Virtualization functionalities, test workload and experiment with different configurations.
 * **Hands-on Training**: Scenarios that allow the team to apply what they’ve learned, exploring tasks like creating or migrating virtual machines, managing resources, and testing different configurations within the PoC.
 
 &nbsp;
