@@ -1,5 +1,5 @@
 ---
-title: "Tim&Koko OpenShift Virtualization Accelerator-Package"
+title: "Tim&Koko OpenShift Virtualization Accelerator Package"
 slug: "openshift-virtualization-accelerator"
 description: "Unser Accelerator Paket für einen schnellen Einstig in die OpenShift Virtualization Welt"
 titleVisible: "OpenShift Virtualization"
