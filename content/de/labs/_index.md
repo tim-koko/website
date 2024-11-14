@@ -40,7 +40,7 @@ begleiten dich Schritt für Schritt, sodass du die wichtigsten Konzepte und Funk
 
 ### Agenda
 
-* Welcome und Registration
+* Welcome & Registration
 * Präsentation – Einführung in OpenShift Virtualization und dessen Einsatzmöglichkeiten
 * Hands-on Labs – Praktische Übungen zur Konfiguration und Verwaltung virtueller Maschinen in OpenShift
   * Getting started – VMs erstellen, starten und stoppen, Console-Zugriff
