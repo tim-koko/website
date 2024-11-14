@@ -34,7 +34,7 @@ The **OpenShift Virtualization Accelerator-Package** accelerates customers' adop
 * **A Proof-of-Concept (PoC) Environment** built and tested, providing a secure playground for ongoing experimentation and training.
 * **A Clear Migration Roadmap** identifying priority workloads and a structured approach for smooth, impactful migration.
 Improved Resource Utilization and Cost Savings with an optimized platform that supports container and VM workloads.
-* **An Alternative** to Broadcom with Kubernetes-based virtualization, enabling flexibility and independence from Broadcom’s ecosystem.
+* **An Alternative** to Broadcom with Kubernetes-based virtualization, enabling flexibility and independence from proprietary solutions.
 
 &nbsp;
 
