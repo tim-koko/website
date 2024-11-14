@@ -27,7 +27,7 @@ Mit unserer umfassenden Erfahrung in klassischer Virtualisierung und Kubernetes 
 
 ### Beschreibung
 
-Das Ziel des **OpenShift Virtualization Accelerator-Paket** beschleunigt die Einführung von Kubernetes-basierter Virtualisierung bei Kunden. Nach Abschluss des Accelerator-Pakets verfügst Du über:
+Das Ziel des **OpenShift Virtualization Accelerator-Pakets** ist es, die Einführung von Kubernetes-basierter Virtualisierung bei Kunden zu beschleunigen. Nach Abschluss des Accelerator-Pakets verfügst Du über:
 
 * **Massgeschneiderte Virtualisierungsstrategie**, die auf Deine Geschäftsziele abgestimmt ist und darauf vorbereitet ist, Deine Effizienz zu steigern.
 * **Geschultes und befähigtes Team** mit praktischer Erfahrung in OpenShift Virtualization, das in der Lage ist, die Kubernetes-basierte Virtualisierung unabhängig zu verwalten und auszubauen.
