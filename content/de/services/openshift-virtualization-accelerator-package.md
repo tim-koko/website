@@ -66,7 +66,7 @@ Erstellung eines strukturierten Ansatzes für die Workload-Migration mit dem Sch
 
 * **Workload-Kategorisierung:** Zusammenarbeit mit dem Team, um die „low-hanging Fruits“ für die Migration zu identifizieren, welche typischerweise solche mit hoher Wirkung aber geringer Komplexität sind. Workload wird basierend auf Faktoren wie Kompatibilität, Migrationsaufwand und erwarteten Einsparungen kategorisiert.
 * **Analyse von Aufwand und Impact:** Bewertung der potenziellen Auswirkungen auf den Betrieb und des erforderlichen Migrationsaufwands. Diese Matrix hilft dabei, Workload zu priorisieren und einen gestaffelten Migrationsansatz zu entwickeln, der schnelle Erfolge und klare Kosten-Nutzen-Einblicke bietet.
-* **Entwicklung einer Migrations Roadmaps:** Erstellung eines Migrationsplans, der die Reihenfolge und Methode für den Übergang jeder Workload in die OpenShift Virtualization-Umgebung beschreibt. Der Fahrplan umfasst Zeitpläne, Ressourcenanforderungen, Risikoanalysen und Alternativen, um eine reibungslose Migration zu gewährleisten.
+* **Entwicklung einer Migrations-Roadmap:** Erstellung eines Migrationsplans, der die Reihenfolge und Methode für den Übergang des Workload in die OpenShift Virtualization-Umgebung beschreibt. Der Fahrplan umfasst Zeitpläne, Ressourcenanforderungen, Risikoanalysen und Alternativen, um eine reibungslose Migration zu gewährleisten.
 * **Beratung zu den nächsten Schritten:** Abschluss des Engagements mit einer strategischen Überprüfung, einschliesslich vorgeschlagener nächster Schritte, fortlaufender Support-Optionen und eines groben Plans für die vollständige Bereitstellung.
 
 &nbsp;
