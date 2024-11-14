@@ -55,7 +55,7 @@ Schulung des Teams mit grundlegenden OpenShift Virtualization-Kenntnissen und Ei
 
 * **Grundlagen OpenShift Virtualization:** Durchführung von Schulungen, die sich auf die Grundlagen von KubeVirt konzentrieren, damit das Team die Grundlagen der Kubernetes-basierten Virtualisierung versteht und auf die Bedürfnisse des Kunden zugeschnitten ist.
 * **OpenShift Virtualization Architektur und Strategie:** Übersicht darüber, wie OpenShift Virtualization in die Infrastruktur passt, mit Schwerpunkt auf Integration, Best Practices und Guidelines.
-* **PoC-Umgebung:** Einrichtung einer dedizierten PoC-Plattform in der bevorzugten Umgebung des Kunden, sei es lokal oder in einer Public Cloud. Dieses Setup ermöglicht es dem Team, die Funktionen der Openshift Virtualization zu erkunden, Workloads zu testen und verschiedene Konfigurationen sicher zu testen.
+* **PoC-Umgebung:** Einrichtung einer dedizierten PoC-Plattform in der bevorzugten Umgebung des Kunden, sei es lokal oder in einer Public Cloud. Dieses Setup ermöglicht es dem Team, die Funktionen der Openshift Virtualization zu erkunden sowie Workload und verschiedene Konfigurationen sicher zu testen.
 * **Hands-on Training:** Szenarien, die es dem Team ermöglichen, das Gelernte anzuwenden und Aufgaben wie das Erstellen oder Migrieren von virtuellen Maschinen, das Verwalten von Ressourcen und das Testen verschiedener Konfigurationen innerhalb des PoC zu erkunden.
 
 &nbsp;
