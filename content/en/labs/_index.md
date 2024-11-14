@@ -43,7 +43,7 @@ In this half-day lab, you'll first receive a theoretical introduction to the fun
 * Welcome and registration
 * Presentation – Introduction to OpenShift Virtualization and use cases
 * Hands-on labs
-  * Getting started – Create, start and stop virtual machines, console access.
+  * Getting started – Create, start and stop virtual machines, console access
   * Live migration – migrate virtual machines
   * Scaling – Scaling VMs
   * Cloud-init - Initialize VMs with startup scripts
