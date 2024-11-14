@@ -11,7 +11,7 @@ draft: false
 blogposts: [ 'kubevirt-introduction', 'kubevirt-training']
 netlifyFormname: "lab-registration"
 form:
-  LabelNachricht: "Gibt es noch etwas, dass wir wissen müssen?"
+  LabelNachricht: "Something we should know?"
 formSelect:
   dates:
   - option: "30.1.2025 – Zurich Red Hat, Europaallee 41"
