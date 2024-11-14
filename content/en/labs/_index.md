@@ -18,7 +18,7 @@ formSelect:
     value: "zurich-2025-01-30"
   - option: "13.2.2025 – Bern, details follow"
     value: "bern-2025-02-13"
-  - option: "please inform me for additional Dates"
+  - option: "inform me about additional dates"
     value: "weitere-daten"
 images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]
 Sitemap:
