@@ -34,7 +34,7 @@ Das Ziel des **OpenShift Virtualization Accelerator-Pakets** ist es, die Einfüh
 * **Proof-of-Concept (PoC-)Umgebung**, die aufgebaut und getestet wurde und als sichere Spielwiese für laufende Experimente und Trainings dient.
 * **Klare Migrations-Roadmap**, welcher den priorisierten Workload und einen strukturierten Ansatz für eine reibungslose, effektive Migration identifiziert.
 * **Verbesserte Ressourcennutzung und Kosteneinsparungen** mit einer optimierten Plattform, die sowohl Container- als auch VM-Workload unterstützt.
-* **Alternative zu Broadcom** mit Kubernetes-basierter Virtualisierung, die Flexibilität und Unabhängigkeit von Broadcom ermöglicht.
+* **Alternative zu Broadcom** mit Kubernetes-basierter Virtualisierung, die Flexibilität und Unabhängigkeit von proprietären Lösungen ermöglicht.
 
 &nbsp;
 
