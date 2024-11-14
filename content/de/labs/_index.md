@@ -61,7 +61,7 @@ begleiten dich Schritt für Schritt, sodass du die wichtigsten Konzepte und Funk
 
 ### Teilnahme und Anmeldung
 
-Die Teilnahme am Tim&Koko Lab ist kostenlos. Mitbringen musst Du nur Deinen Laptop. Für die Labs wird ein Internet Browser benötigt. Da die Plätze begrenzt sind, melde dich am besten frühzeitig an. Registriere dich einfach über unser Anmeldeformular und sichere dir deinen Platz.
+Die Teilnahme am Tim&Koko Lab ist kostenlos. Mitbringen musst Du nur Deinen Laptop. Für die Labs wird ein Internet Browser und direkter Internetzugriff benötigt. Da die Plätze begrenzt sind, melde dich am besten frühzeitig an. Registriere dich einfach über unser Anmeldeformular und sichere dir deinen Platz.
 
 &nbsp;
 
