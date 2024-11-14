@@ -65,7 +65,7 @@ Educate the customer’s team with foundational OpenShift Virtualization skills 
 Create a structured approach for workload migration, focusing on identifying high-impact workloads and developing a feasible migration plan.
 
 * **Workload Categorization**: Work closely with the team to identify workloads that are “low-hanging fruits” for migration, typically those with high impact but low complexity. Each workload will be categorized based on factors like compatibility, migration effort, and expected savings.
-* **Impact and Effort Analysis**: Evaluate each workload in terms of its potential impact on operations and the effort required for migration. This matrix helps prioritize workloads and create a phased migration approach, allowing for quick wins and clear cost-benefit insights.
+* **Impact and Effort Analysis**: Evaluation of the potential impact on operations and the effort required for migration. This matrix helps prioritize workload and create a phased migration approach, allowing for quick wins and clear cost-benefit insights.
 * **Migration Roadmap Development**: Design a migration plan that maps out the order and methodology for each workload’s transition to the OpenShift Virtualization environment. The roadmap includes timelines, resource requirements, risk assessments, and fallback options to ensure a smooth migration.
 * **Next Steps Consultation**: Wrap up the engagement with a strategic review, including suggested next steps, ongoing support options, and a high-level plan for full-scale deployment.
 
