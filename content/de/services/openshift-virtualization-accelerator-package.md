@@ -62,7 +62,7 @@ Schulung des Teams mit grundlegenden OpenShift Virtualization-Kenntnissen und Ei
 
 ### Phase 3 - Workload-Assessment und Migrationsplanung
 
-Erstellung eines strukturierten Ansatzes für die Workload-Migration mit dem Schwerpunkt auf der Identifizierung von High-Impact-Workloads und der Entwicklung eines umsetzbaren Migrationsplans.
+Erstellung eines strukturierten Ansatzes für die Workload-Migration mit dem Schwerpunkt auf der Identifizierung von High-Impact-Workload und der Entwicklung eines umsetzbaren Migrationsplans.
 
 * **Workload-Kategorisierung:** Zusammenarbeit mit dem Team, um Workloads zu identifizieren, die „Low-Hanging Fruits“ für die Migration sind, typischerweise solche mit hoher Wirkung, aber geringer Komplexität. Jede Workload wird basierend auf Faktoren wie Kompatibilität, Migrationsaufwand und erwarteten Einsparungen kategorisiert.
 * **Analyse von Aufwand und Impact:** Bewertung jeder Workload hinsichtlich ihrer potenziellen Auswirkungen auf den Betrieb und des erforderlichen Migrationsaufwands. Diese Matrix hilft dabei, Workloads zu priorisieren und einen gestaffelten Migrationsansatz zu entwickeln, der schnelle Erfolge und klare Kosten-Nutzen-Einblicke bietet.
