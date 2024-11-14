@@ -45,7 +45,7 @@ In this half-day lab, you'll first receive a theoretical introduction to the fun
 * Hands-on labs
   * Getting started – Create, start and stop virtual machines, console access
   * Live migration – migrate virtual machines
-  * Scaling – Scaling VMs
+  * Scaling – Scale VMs
   * Cloud-init - Initialize VMs with startup scripts
   * Instance types - Define VM flavors with instance types and preferences
 * Apéro
