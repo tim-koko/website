@@ -27,7 +27,7 @@ With our extensive experience in traditional virtualization and Kubernetes, we h
 
 ### Description
 
-The **OpenShift Virtualization Accelerator-Package** accelerates customers' adoption of Kubernetes-based virtualization. After the accelerator package, customers will have:
+The **OpenShift Virtualization Accelerator Package** accelerates customers' adoption of Kubernetes-based virtualization. After the accelerator package, customers will have:
 
 * **A custom virtualization strategy** aligned with your business goals and ready to drive operational efficiency.
 * **A Skilled, Enabled Team** with hands-on experience in OpenShift Virtualization, prepared to manage and expand your Kubernetes-based virtualization independently.
