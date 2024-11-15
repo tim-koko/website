@@ -15,10 +15,16 @@ hero:
   link: ""
   linktext: ""
   news:
-    title: "We are tim&koko!"
-    text: "Our name is a tribute to Tim Berners-Lee, the inventor of the World Wide Web, and Koko, the female gorilla who effortlessly communicated in sign language. The name represents technology and communication on an equal footing – just like our work and our spirit."
-    link: "/en/blog/tim-koko/"
-    linktext: "Read more"
+    title: "News – OpenShift Virtualization Labs"
+    text: "Starting in early 2025, our OpenShift Virtualization Lab series will kick off. Learn how containers and virtual machines can be integrated on a single platform."
+    link: "/en/labs/"
+    linktext: "Read more and register"
+
+  # news:
+  #   title: "We are tim&koko!"
+  #   text: "Our name is a tribute to Tim Berners-Lee, the inventor of the World Wide Web, and Koko, the female gorilla who effortlessly communicated in sign language. The name represents technology and communication on an equal footing – just like our work and our spirit."
+  #   link: "/en/blog/tim-koko/"
+  #   linktext: "Read more"
 
 # Cloud Native Section
 cloud_native:
