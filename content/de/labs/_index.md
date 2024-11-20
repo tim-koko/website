@@ -1,8 +1,8 @@
 ---
-title: "Tim&Koko OpenShift Virtualization Labs"
-description: "Hands-on Tim&Koko Lab zum Thema OpenShift Virtualization"
+title: "tim&koko OpenShift Virtualization Labs"
+description: "Hands-on tim&koko lab zum Thema OpenShift Virtualization"
 titleVisible: "OpenShift Virtualization"
-titleSublineVisible: "Tim&Koko Lab"
+titleSublineVisible: "tim&koko lab"
 image: "images/landing-pages/tk-landingpage-labs-1500x600.png"
 date: 2022-10-31T00:00:00+00:00
 lastmod: 2024-08-24T00:00:00+00:00
@@ -61,13 +61,13 @@ begleiten dich Schritt für Schritt, sodass du die wichtigsten Konzepte und Funk
 
 ### Teilnahme und Anmeldung
 
-Die Teilnahme am Tim&Koko Lab ist kostenlos. Mitbringen musst Du nur Deinen Laptop. Für die Labs wird ein Internet Browser und direkter Internetzugriff benötigt. Da die Plätze begrenzt sind, melde dich am besten frühzeitig an. Registriere dich einfach über unser Anmeldeformular und sichere dir deinen Platz.
+Die Teilnahme am tim&koko Lab ist kostenlos. Mitbringen musst Du nur Deinen Laptop. Für die Labs wird ein Internet Browser und direkter Internetzugriff benötigt. Da die Plätze begrenzt sind, melde dich am besten frühzeitig an. Registriere dich einfach über unser Anmeldeformular und sichere dir deinen Platz.
 
 &nbsp;
 
 ### Zielgruppe
 
-Das Tim&Koko Lab richtet sich an Personen, welche über Vorkenntnisse im Bereich von Container und Container Plattformen verfügen und die Grundkonzepte von virtuellen Maschinen kennen, die ihre Kenntnisse im Bereich Virtualisierung und OpenShift erweitern möchten.
+Das tim&koko Lab richtet sich an Personen, welche über Vorkenntnisse im Bereich von Container und Container Plattformen verfügen und die Grundkonzepte von virtuellen Maschinen kennen, die ihre Kenntnisse im Bereich Virtualisierung und OpenShift erweitern möchten.
 
 Nutze die Gelegenheit, um OpenShift Virtualization live zu erleben und dein Wissen durch praxisnahe Übungen zu vertiefen!
 
