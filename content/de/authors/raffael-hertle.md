@@ -13,4 +13,4 @@ email: "raffael@tim-koko.ch"
 
 ---
 
-Mit der Herkunft aus dem Softwareengineering,  mit Fokus auf Microservices, machte er einen kleinen neugierigen Taucher in die Cloud Native Welt. Seither befindet er sich tief im Cloud Native Kaninchenbau und kann sich keine andere Welt mehr vorstellen. Mit dem Know-how und Developer-Mindset baut er Brücken zwischen den beiden Welten.
+Mit der Herkunft aus dem Softwareengineering, mit Fokus auf Microservices, machte er einen kleinen neugierigen Taucher in die Cloud Native Welt. Seither befindet er sich tief im Cloud Native Kaninchenbau und kann sich keine andere Welt mehr vorstellen. Mit dem Know-how und Developer-Mindset baut er Brücken zwischen den beiden Welten.
