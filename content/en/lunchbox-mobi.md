@@ -3,7 +3,7 @@ title: "tim&koko-Lunchbag"
 slug: "lunchbag-mobi-2024"
 description: ""
 titleVisible: "Die Mobiliar"
-titleSublineVisible: "Tim&Koko Lunchbag"
+titleSublineVisible: "tim&koko Lunchbag"
 image: "images/landing-pages/tk-giveaway-2024-1500x1000.png"
 lead: ""
 date: 2022-10-31T00:00:00+00:00
@@ -42,9 +42,9 @@ Sitemap:
 ---
 
 
-### Tim&Koko Lunchbag-Event
+### tim&koko Lunchbag-Event
 
-Take a short break during your lunch and gain exciting insights into current technological trends! The “Tim&Koko Lunchbag” event offers the perfect opportunity to learn something new and exchange ideas about innovative solutions.
+Take a short break during your lunch and gain exciting insights into current technological trends! The “tim&koko Lunchbag” event offers the perfect opportunity to learn something new and exchange ideas about innovative solutions.
 
 * Wann: 4th December 2024, from 12:00 to 13:30
 * Wo: Monbijoustrasse 68, 3007 Bern
