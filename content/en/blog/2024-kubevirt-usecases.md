@@ -2,8 +2,8 @@
 title: "KubeVirt Journey - Potential and use cases of KubeVirt"
 slug: "kubevirt-usecases"
 description: ""
-date: 2024-11-07T00:00:00+00:00
-lastmod: 2024-11-07T00:00:00+00:00
+date: 2024-11-21T00:00:00+00:00
+lastmod: 2024-11-21T00:00:00+00:00
 draft: false
 images: ["images/blog/kubevirt/tk-blogpost-kubevirt_share-image.jpg"]
 img_border: true
@@ -132,5 +132,10 @@ We are happy to answer any questions you may have. You can reach us best at [hal
 
 If you want to know even more, we will share our experiences with the community at the following meetups:
 
-* 19.11.2024 - 17:00: [Cloud Native Bern Meetup](https://www.meetup.com/cloudnativebern/events/299829917/) in Bern
 * 28.11.2024 - 16:00: [Cloud Native Switzerland Meetup](https://www.meetup.com/cloud-native-computing-switzerland/events/302784454) in Lucerne
+
+We also offer you the following opportunities to learn more about KubeVirt or OpenShift Virtualization:
+
+* [tim&koko labs](https://tim-koko.ch/en/labs/): Get to know the basics of KubeVirt in one afternoon and apply them directly in practical hands-on labs.
+* [KubeVirt Basics Training](https://acend.ch/en/trainings/kubevirt/): Two-day varied training with presentations and hands-on labs.
+* [OpenShift Virtualization Accelerator Package](https://tim-koko.ch/en/services/openshift-virtualization-accelerator/): We help you explore the possibilities of OpenShift Virtualization and find out how high the potential for a new or parallel strategy could be.
