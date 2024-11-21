@@ -139,5 +139,53 @@ Gerne stehen wir für Fragen zur Verfügung. Du erreichst uns am besten unter [h
 
 Zudem werden wir an den folgenden Meetups unsere Erfahrungen mit der Community teilen:
 
-- 19.11.2024 - 17:00: [Cloud Native Bern Meetup](https://www.meetup.com/cloudnativebern/events/299829917/) in Bern
+[//]: # (- 19.11.2024 - 17:00: [Cloud Native Bern Meetup]&#40;https://www.meetup.com/cloudnativebern/events/299829917/&#41; in Bern)
+
 - 28.11.2024 - 16:00: [Cloud Native Switzerland Meetup](https://www.meetup.com/cloud-native-computing-switzerland/events/302784454) in Luzern
+
+### tim&koko labs
+
+Möchtest du Hands-On Erfahrung sammeln mit KubeVirt? Die [tim&koko labs](https://tim-koko.ch/labs) bieten dir an einem Nachmittag die Möglichkeit die Grundlagen von KubeVirt kennenzulernen und in praktischen Hands-On labs direkt auszuprobieren.
+
+Hands-on Lab 13:30 – 17:00
+
+- Introduction to OpenShift Virtualization
+- Deploy and manage VMs
+- Scaling VMs
+- Live Migration
+- Instance types
+
+Registration gratis auf [tim-koko.ch/labs](tim-koko.ch/labs)
+
+- Z&uuml;rich 30.1.25 Red Hat Office Europaallee 41
+- Bern 13.2.25 February TBD
+
+### KubeVirt Basics Trainings
+
+In Zusammenarbeit mit unserem Partner [acend](https://acend.ch) haben wir ein zweitägiges Training erarbeitet. Das
+Training bestehen aus abwechslungsreichen Präsentationen und hands-on Labs, um deren Inhalt auf spannende Art und Weise
+zu übermitteln.
+
+Trainingsinhalte:
+
+- Einführung KubeVirt Konzepte und Architektur
+- Deployen und managen von virtuellen Maschinen
+- Vergleich mit üblichem Kubernetes Workload
+- VM Images
+- Storage
+- Networking
+- Betrieb und Lifecycle
+- Workload- und Live-Migration
+
+Die genauen Konditionen zum Training findest Du auf der Website von [acend](https://acend.ch/trainings/kubevirt/).
+
+### OpenShift Virtualization Accelerator Paket
+
+Das OpenShift Virtualization Accelerator Paket hilft dir, sehr schnell die Möglichkeiten der Kubernetes-basierten
+Virtualisierung zu erkunden und herauszufinden, wie hoch das Potenzial für eine neue oder parallele Strategie sein
+könnte. In drei Phasen helfen wir dir die Einführung von Kubernetes-basierter Virtualisierung bei deinem Unternehmen
+zu beschleunigen.
+
+- Phase 1: Verständnis für die aktuelle Umgebung, Prozesse und Ziele des Kunden, um OpenShift Virtualization mit der Geschäftsstrategie abzustimmen.
+- Phase 2 - Team Enablement und PoC: Schulung des Teams mit grundlegenden OpenShift Virtualization-Kenntnissen und Einrichtung einer Proof-of-Concept (PoC)-Plattform für praktische Erfahrungen.
+- Phase 3 - Workload-Assessment und Migrationsplanung: Erstellung eines strukturierten Ansatzes für die Workload-Migration mit dem Schwerpunkt auf der Identifizierung von High-Impact-Workload und der Entwicklung eines umsetzbaren Migrationsplans.
