@@ -186,7 +186,7 @@ könnte. In drei Phasen helfen wir dir die Einführung von Kubernetes-basierter 
 zu beschleunigen.
 
 - Phase 1: Verständnis für die aktuelle Umgebung, Prozesse und Ziele des Kunden, um OpenShift Virtualization mit der Geschäftsstrategie abzustimmen.
-- Phase 2 - Team Enablement und PoC: Schulung des Teams mit grundlegenden OpenShift Virtualization-Kenntnissen und Einrichtung einer Proof-of-Concept (PoC)-Plattform für praktische Erfahrungen.
-- Phase 3 - Workload-Assessment und Migrationsplanung: Erstellung eines strukturierten Ansatzes für die Workload-Migration mit dem Schwerpunkt auf der Identifizierung von High-Impact-Workload und der Entwicklung eines umsetzbaren Migrationsplans.
+- Phase 2: Schulung des Teams mit grundlegenden OpenShift Virtualization-Kenntnissen und Einrichtung einer Proof-of-Concept (PoC)-Plattform für praktische Erfahrungen.
+- Phase 3: Erstellung eines strukturierten Ansatzes für die Workload-Migration mit dem Schwerpunkt auf der Identifizierung von High-Impact-Workload und der Entwicklung eines umsetzbaren Migrationsplans.
 
 Hier findest du mehr Details zum [OpenShift Virtualization Accelerator Paket](https://tim-koko.ch/services/openshift-virtualization-accelerator/).
