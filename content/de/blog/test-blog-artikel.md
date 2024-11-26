@@ -19,3 +19,6 @@ _build:
  list: never
  render: never
 ---
+
+
+{{< blogposts blogslugs="kubevirt-training,kubevirt-introduction,kubevirt-usecases" displaytype="bloglistsmall" >}}

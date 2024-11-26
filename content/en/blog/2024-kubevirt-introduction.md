@@ -10,6 +10,8 @@ img_border: true
 Sitemap:
 Priority: 0.9
 
+additionalblogposts: [ 'kubevirt-training', 'kubevirt-usecases']
+
 categories: ["Technology", "KubeVirt", "Kubernetes"]
 authors: ['christof-luethi']
 post_img: "images/blog/kubevirt/tk-blogpost-kubevirt.jpg"
