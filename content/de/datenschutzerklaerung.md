@@ -194,7 +194,7 @@ Darüber hinaus gelten jeweils die Allgemeinen Geschäftsbedingungen (AGB) und N
 
 ## 9. Cookies und weitere Tracking-Technologien
 
-Diese Website verwendet keine Cookies oder andere Tracking-Tools.
+Diese Website verwendet keine Cookies. Zur Analyse des Nutzungsverhalten der Website Besucher setzen wir das Cookie freie Analyticstool von <https://umami.is/> ein.
 <!-- INFO: Falls wir mal Cookies wollen
 
 Hierbei handelt es sich um kleine Dateien, die Ihr Browser automatisch erstellt und die auf Ihrem Endgerät (Laptop, Tablet, Smartphone o.ä.) gespeichert werden, wenn Sie unsere Seite besuchen.
@@ -225,4 +225,4 @@ Für ihre eigenen sicherheitsrelevanten, statistischen und technischen Zwecke k�
 
 Wir behalten uns vor, diese Datenschutzerklärung bei Änderungen anzupassen. Wir werden über solche Anpassungen und Ergänzungen in geeigneter Form informieren, insbesondere durch Veröffentlichung der jeweils aktuellen Datenschutzerklärung auf unserer Website.
 
-Januar 2024
+November 2024

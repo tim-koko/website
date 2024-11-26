@@ -43,7 +43,5 @@
   publish = "public"
   autoLaunch = false
 
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Content-Security-Policy = "connect-src * 'self';"
+
+  # Content-Security-Policy: default-src 'self'; manifest-src 'self'; connect-src 'self'; font-src 'self'; img-src 'self' data:; script-src 'self' 'nonce-dXNlcj0iaGVsbG8iLGRvbWFpbj0iaGVua3ZlcmxpbmRlLmNvbSIsZG9jdW1lbnQud3JpdGUodXNlcisiQCIrZG9tYWluKTs=' 'sha256-aWZ3y/RxbBYKHXH0z8+8ljrHG1mSBvyzSfxSMjBSaXk=' 'sha256-Sz0IuK/4LfFJVp69F4UHK80xoxDZLOBPMJhPi0XZl3A='; style-src 'self' 'unsafe-inline'
