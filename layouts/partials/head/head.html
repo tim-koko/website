@@ -7,5 +7,5 @@
   {{ block "head/seo" . }}{{ partial "head/seo.html" . }}{{ end }}
   {{ block "head/favicons" . }}{{ partial "head/favicons.html" . }}{{ end }}
   {{ block "head/script-header" . }}{{ partial "head/script-header.html" . }}{{ end }}
-  <script defer src="https://cloud.umami.is/script.js" data-website-id="9fdfb4f5-e583-4313-b8af-8a3e4a89d915"></script>
+  {{ if eq "true" (getenv  "HUGO_UMAMI_CODE") }}<script defer src="https://cloud.umami.is/script.js" data-website-id="9fdfb4f5-e583-4313-b8af-8a3e4a89d915"></script>{{ end }}
 </head>
