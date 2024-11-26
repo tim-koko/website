@@ -8,6 +8,7 @@ draft: false
 images: []
 Sitemap:
 Priority: 0.3
+dataScroll: true
 ---
 
 In unserem Blog lassen wir hinter die Kulissen blicken, teilen unser Wissen in Posts zu technologischen Themen und erlauben den Besucher:innen mehr über uns und unsere Kultur zu erfahren.
