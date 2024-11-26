@@ -225,4 +225,4 @@ Für ihre eigenen sicherheitsrelevanten, statistischen und technischen Zwecke k�
 
 Wir behalten uns vor, diese Datenschutzerklärung bei Änderungen anzupassen. Wir werden über solche Anpassungen und Ergänzungen in geeigneter Form informieren, insbesondere durch Veröffentlichung der jeweils aktuellen Datenschutzerklärung auf unserer Website.
 
-Januar 2024
+November 2024
