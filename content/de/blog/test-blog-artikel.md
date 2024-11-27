@@ -21,4 +21,6 @@ _build:
 ---
 
 
-{{< blogposts blogslugs="kubevirt-training,kubevirt-introduction,kubevirt-usecases" displaytype="bloglistsmall" >}}
+{{< blogposts blogslugs="kubevirt-training,kubevirt-introduction" displaytype="bloglistsmall" >}}
+
+{{< blogposts blogslugs="kubevirt-training,kubevirt-introduction,kubevirt-usecases" displaytype="normal" >}}
