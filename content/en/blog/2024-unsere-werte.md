@@ -1,6 +1,6 @@
 ---
-title: "Unsere Werte: Das Fundament in unserer Arbeit"
-slug: "unsere-werte"
+title: "Our Values: The Foundation of Our Work"
+slug: "our-values"
 description: ""
 date: 2024-11-27T00:00:00+00:00
 lastmod: 2024-11-27T00:00:00+00:00
@@ -13,36 +13,36 @@ Priority: 0.9
 categories: ["News", "tim&koko", "Werte", "Behind the Scenes"]
 authors: ['sarah-pfeiffer']
 post_img: "images/blog/unsere-werte/unsere-werte.jpg"
-lead: "Unsere Werte prägen, wie wir arbeiten und miteinander umgehen. Sie sind nicht nur Leitlinien, sondern Teil unseres Alltags. Sie helfen uns, gemeinsam Ziele zu erreichen, und bieten Orientierung für die Zusammenarbeit mit unseren Kund:innen."
+lead: "Our values shape how we work and treat each other. They are not just guidelines, but part of our everyday life. They help us to achieve our goals together and provide orientation for working with our customers."
 ---
 
 
-## Authentizität und Qualität – Unser Anspruch
+## Authenticity and quality - our aspiration
 
-Für uns bedeutet Authentizität, ehrlich und transparent zu sein, sowohl im Team als auch gegenüber unseren Kund:innen und Partner:innen. Wir stehen zu dem, was wir tun, und setzen uns dafür ein, dass unsere Arbeit nachvollziehbar bleibt. Diese Haltung ist die Grundlage für die Qualität, die wir in unsere Projekte einbringen. Mit Sorgfalt und einem klaren Blick für Details streben wir nach dem bestmöglichen Ergebnis.
+For us, authenticity means being honest and transparent, within the team, towards our customers and partners. We stand by what we do and are committed to ensuring that our work remains transparent. This attitude is the basis for the quality that we bring to our projects. With care and a clear eye for detail, we strive for the best possible result.
 
-## Gemeinsam stark – Teamarbeit als Basis
+## Strong together - teamwork as the basis
 
-Erfolge entstehen bei uns im Team. Wir glauben daran, dass Zusammenarbeit auf Vertrauen, Respekt und gegenseitiger Unterstützung beruht. Jede/r kann ihre/seine Stärken einbringen, und genau das macht uns als Team stark. Ob im täglichen Miteinander oder in der Arbeit mit Kund:innen – wir arbeiten zusammen, um nachhaltige Lösungen zu finden.
+For us, success is a team effort. We believe that cooperation is based on trust, respect and mutual support. Everyone can contribute their strengths, and that is what makes us strong as a team. Whether in our daily interactions or in our work with customers - we work together to find sustainable solutions.
 
-Dabei setzen wir nicht nur in unserer Arbeitsweise auf Offenheit und Zusammenarbeit, sondern auch in den Technologien, die wir einsetzen. Unser Anspruch ist, dass diese dem Open-Source-Spirit entsprechen und damit für alle zugänglich und entwicklungsfähig bleiben.
+In our work, we value openness and collaboration, and this extends to the technologies we use. We are committed to ensuring that these align with the open-source spirit, remaining accessible and adaptable for everyone.
 
-## Professionalität und Engagement
+## Professionalism and commitment
 
-Professionalität bedeutet für uns, dass wir zuverlässig und strukturiert arbeiten. Aber es geht um mehr: Mit vollem Engagement setzen wir uns für unsere Ziele ein. Dabei geben wir uns nicht mit dem Nötigsten zufrieden, sondern suchen immer nach Wegen, uns weiterzuentwickeln und besser zu werden. Die Reflektion unserer Arbeit hilft uns, nicht stehenzubleiben.
+For us, professionalism means that we work in a reliable and structured manner. But it's about more than that: we are fully committed to our goals. We are not satisfied with the bare minimum, but are always looking for ways to develop and improve. Reflecting on our work helps us not to stand still.
 
-## Spass und Enthusiasmus – Mit Freude bei der Arbeit
+## Fun and enthusiasm - Enjoying our work
 
-Auch wenn wir professionell und zielorientiert arbeiten, ist uns wichtig, dass der Spass nicht zu kurz kommt. Nur wenn Arbeit Freude macht, kann echte Kreativität entstehen. Unser Enthusiasmus motiviert uns, Projekte mit Leidenschaft anzugehen, und diese Begeisterung spüren auch unsere Kund:innen und Partner:innen.
+Even though we work in a professional and goal-oriented manner, it is important to us that fun is not neglected. Real creativity can only arise when work is fun. Our enthusiasm motivates us to tackle projects with passion, and this enthusiasm is also felt by our customers and partners.
 
-## Optimismus und Nachhaltigkeit – Mit Blick in die Zukunft
+## Optimism and sustainability - looking to the future
 
-Wir sind optimistisch und sehen Herausforderungen als Chancen. Dabei ist es uns wichtig, langfristig zu denken. Nachhaltigkeit bedeutet für uns, Entscheidungen so zu treffen, dass sie positive und dauerhafte Auswirkungen haben – für unser Team, unsere Kund:innen und die Umwelt.
+We are optimistic and see challenges as opportunities. It is important to us to think long-term. For us, sustainability means making decisions in such a way that they have a positive and lasting impact - for our team, our customers and the environment.
 
-## Anspruchsvoll und offen für Neues
+## Ambitious and open to new ideas
 
-Wir setzen uns hohe Ziele und bleiben dabei offen für Veränderungen. Pioniergeist heisst für uns, neue Wege zu gehen und nicht vor Risiken zurückzuschrecken. Wir wissen, dass Innovation und Fortschritt nur durch Neugier und Mut entstehen.
+We set ourselves ambitious goals and remain open to change. For us, a pioneering spirit means breaking new ground and not shying away from risks. We know that innovation and progress only come about through curiosity and courage.
 
-## Fazit: Unsere Werte als Kompass
+## Conclusion: Our values as a compass
 
-Unsere Werte sind der Leitfaden, der uns in unserer täglichen Arbeit begleitet. Sie verbinden Authentizität, Qualität, Teamarbeit und Engagement mit einer klaren Ausrichtung auf die Zukunft. Mit Spass und Enthusiasmus setzen wir uns für nachhaltige und innovative Lösungen ein, die sowohl uns als auch unsere Kund:innen weiterbringen.
+Our values are the guiding principles that guide us in our daily work. They combine authenticity, quality, teamwork and commitment with a clear focus on the future. With fun and enthusiasm, we are committed to sustainable and innovative solutions that help both us and our customers move forward.
