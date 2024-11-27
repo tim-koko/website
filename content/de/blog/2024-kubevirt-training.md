@@ -10,6 +10,9 @@ img_border: false
 Sitemap:
 Priority: 0.9
 
+
+additionalblogposts: [ 'kubevirt-introduction', 'kubevirt-usecases']
+
 categories: ["Technologie", "KubeVirt", "Kubernetes"]
 authors: ['thomas-philipona']
 post_img: "images/blog/kubevirt-training/kubevirt-training-blogpost-1500x1000.png"
