@@ -184,4 +184,8 @@ Wie wir sehen, erzeugt der erste Pipeline Job `deploy:createDownstream` das Temp
 
 ### Fazit
 
-Durch den Einsatz von CI Components werden GitLab Pipelines besser wartbar und verwaltbar. Teams können durch einfache Templates ihre gewünschten Pipeline zusammenstellen und müssen keine Entwicklungsgeschwindigkeit einbüssen. Mit Hilfe der dynamischen Downstream Pipelines von GitLab konnten komplexere Continuous Deployment Prozesse mit ArgoCD in Pipelines integriert werden.
+Mit vielen kleinen Verbesserungen kann das Potenzial der CI/CD Umgebung maximiert werden! Durch den Einsatz von CI Components werden GitLab Pipelines besser wartbar und verwaltbar. Teams können durch einfache Templates ihre gewünschten Pipeline zusammenstellen und müssen keine Entwicklungsgeschwindigkeit einbüssen. Mit Hilfe der dynamischen Downstream Pipelines von GitLab konnten komplexere Continuous Deployment Prozesse mit ArgoCD in Pipelines integriert werden.
+
+### Können wir auch dich unterstützen
+
+Möchtest auch du deine CI/CD Landschaft auf das nächste Level bringen oder hast du Fragen zu den verwendeten Komponenten? Dann melde dich bei uns!
