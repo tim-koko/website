@@ -2,17 +2,17 @@
 title: "Our Values: The Foundation of Our Work"
 slug: "our-values"
 description: ""
-date: 2024-11-27T00:00:00+00:00
-lastmod: 2024-11-27T00:00:00+00:00
+date: 2024-12-02T00:00:00+00:00
+lastmod: 2024-12-02T00:00:00+00:00
 draft: false
-images: ["images/blog/unsere-werte/unsere-werte.jpg"]
+images: ["images/blog/unsere-werte/tk-blogpost-werte-some.png"]
 img_border: false
 Sitemap:
 Priority: 0.9
 
 categories: ["News", "tim&koko", "Werte", "Behind the Scenes"]
-authors: ['sarah-pfeiffer']
-post_img: "images/blog/unsere-werte/unsere-werte.jpg"
+authors: ['livia-affolter']
+post_img: "images/blog/unsere-werte/tk-blogpost-werte.jpg"
 lead: "Our values shape how we work and treat each other. They are not just guidelines, but part of our everyday life. They help us to achieve our goals together and provide orientation for working with our customers."
 ---
 

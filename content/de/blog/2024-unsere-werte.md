@@ -2,17 +2,17 @@
 title: "Unsere Werte: Das Fundament in unserer Arbeit"
 slug: "unsere-werte"
 description: ""
-date: 2024-11-27T00:00:00+00:00
-lastmod: 2024-11-27T00:00:00+00:00
+date: 2024-12-02T00:00:00+00:00
+lastmod: 2024-12-02T00:00:00+00:00
 draft: false
-images: ["images/blog/unsere-werte/unsere-werte.jpg"]
+images: ["images/blog/unsere-werte/tk-blogpost-werte-some.png"]
 img_border: false
 Sitemap:
 Priority: 0.9
 
 categories: ["News", "tim&koko", "Werte", "Behind the Scenes"]
-authors: ['sarah-pfeiffer']
-post_img: "images/blog/unsere-werte/unsere-werte.jpg"
+authors: ['livia-affolter']
+post_img: "images/blog/unsere-werte/tk-blogpost-werte.jpg"
 lead: "Unsere Werte prägen, wie wir arbeiten und miteinander umgehen. Sie sind nicht nur Leitlinien, sondern Teil unseres Alltags. Sie helfen uns, gemeinsam Ziele zu erreichen, und bieten Orientierung für die Zusammenarbeit mit unseren Kund:innen."
 ---
 
