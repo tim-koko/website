@@ -42,6 +42,8 @@ Das Ziel des **OpenShift Virtualization Accelerator-Pakets** ist es, die Einfüh
 
 Verständnis für die aktuelle Umgebung, Prozesse und Ziele des Kunden, um OpenShift Virtualization mit der Geschäftsstrategie abzustimmen.
 
+{{< svg "assets/images/landing-pages/ocpv-accelerator/de-accelerator-discovery.svg" >}}
+
 * **Analyse der bestehenden Infrastruktur**, einschliesslich Aspekte wie Compute, Netzwerk und Storage. Dazu gehört auch die Überprüfung bestehender Virtualisierungsumgebungen sowie lokaler oder Cloud-Setups.
 * **Verständnis aufbauen**, wie Teams, Prozesse und Methoden mit der aktuellen Technologie interagieren. Identifizierung von Rollen, Workflows und möglichen Bereichen, in denen OpenShift Virtualization einen Mehrwert bieten könnte.
 * **Erfolgskriterien definieren:** Definition der Erfolgskriterien für die Organisation in Bezug auf Skalierbarkeit, Kosteneinsparungen und betriebliche Effizienz.
@@ -53,6 +55,8 @@ Verständnis für die aktuelle Umgebung, Prozesse und Ziele des Kunden, um OpenS
 
 Schulung des Teams mit grundlegenden OpenShift Virtualization-Kenntnissen und Einrichtung einer Proof-of-Concept (PoC)-Plattform für praktische Erfahrungen.
 
+{{< svg "assets/images/landing-pages/ocpv-accelerator/de-accelerator-enablement.svg" >}}
+
 * **Grundlagen OpenShift Virtualization:** Durchführung von Schulungen, die sich auf die Grundlagen von OpenShift Virtualization konzentrieren, damit das Team die Grundlagen der Kubernetes-basierten Virtualisierung versteht und auf die Bedürfnisse des Kunden zugeschnitten ist.
 * **OpenShift Virtualization Architektur und Strategie:** Übersicht darüber, wie OpenShift Virtualization in die Infrastruktur passt, mit Schwerpunkt auf Integration, Best Practices und Guidelines.
 * **PoC-Umgebung:** Einrichtung einer dedizierten PoC-Plattform in der bevorzugten Umgebung des Kunden, sei es lokal oder in einer Public Cloud. Dieses Setup ermöglicht es dem Team, die Funktionen der Openshift Virtualization zu erkunden sowie Workload und verschiedene Konfigurationen sicher zu testen.
@@ -63,6 +67,8 @@ Schulung des Teams mit grundlegenden OpenShift Virtualization-Kenntnissen und Ei
 ### Phase 3 - Workload-Assessment und Migrationsplanung
 
 Erstellung eines strukturierten Ansatzes für die Workload-Migration mit dem Schwerpunkt auf der Identifizierung von High-Impact-Workload und der Entwicklung eines umsetzbaren Migrationsplans.
+
+{{< svg "assets/images/landing-pages/ocpv-accelerator/de-accelerator-migration.svg" >}}
 
 * **Workload-Kategorisierung:** Zusammenarbeit mit dem Team, um die „low-hanging Fruits“ für die Migration zu identifizieren, welche typischerweise solche mit hoher Wirkung aber geringer Komplexität sind. Workload wird basierend auf Faktoren wie Kompatibilität, Migrationsaufwand und erwarteten Einsparungen kategorisiert.
 * **Analyse von Aufwand und Impact:** Bewertung der potenziellen Auswirkungen auf den Betrieb und des erforderlichen Migrationsaufwands. Diese Matrix hilft dabei, Workload zu priorisieren und einen gestaffelten Migrationsansatz zu entwickeln, der schnelle Erfolge und klare Kosten-Nutzen-Einblicke bietet.

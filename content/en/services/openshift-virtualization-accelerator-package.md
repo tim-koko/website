@@ -42,6 +42,8 @@ The **OpenShift Virtualization Accelerator Package** accelerates customers' adop
 
 Gain a comprehensive understanding of the customer’s current setup, processes, and goals to align OpenShift Virtualization with their business strategy.
 
+{{< svg "assets/images/landing-pages/ocpv-accelerator/en-accelerator-discovery.svg" >}}
+
 * **Current Setup Assessment**: This involves analyzing the existing infrastructure, covering aspects like compute, network, and storage. It also involves reviewing current virtualization environments and any on-prem or cloud setups.
 * **People and Process Review**: Assess how teams, processes, and methodologies interact with current technology. Identify roles, workflows, and any bottlenecks or areas where OpenShift Virtualization could add value.
 * **Goal Alignment**: Align business and operational goals with the target solution. Define success for the organization in terms of scalability, cost-savings, and operational efficiencies.
@@ -53,6 +55,8 @@ Gain a comprehensive understanding of the customer’s current setup, processes,
 
 Educate the customer’s team with foundational OpenShift Virtualization skills and setup a proof-of-concept (PoC) platform for hands-on experience.
 
+{{< svg "assets/images/landing-pages/ocpv-accelerator/en-accelerator-enablement.svg" >}}
+
 * **OpenShift Virtualization Fundamentals**: Conduct training sessions focused on KubeVirt essentials, helping the team understand the basics of Kubernetes-based virtualization tailored to the customer’s needs.
 * **OpenShift Virtualization Architecture & Strategy**: Overview of how OpenShift Virtualization will fit into their infrastructure, focusing on integration points, best practices, and architectural guidelines.
 * **PoC Environment Setup**: Deploy a dedicated PoC platform on the customer’s preferred environment, whether on-premises or on a public cloud. This sandboxed setup allows the team to explore OpenShift Virtualization functionalities, test workload and experiment with different configurations.
@@ -63,6 +67,8 @@ Educate the customer’s team with foundational OpenShift Virtualization skills 
 ### Phase 3 - Workload Assessment and Migration Planning
 
 Create a structured approach for workload migration, focusing on identifying high-impact workloads and developing a feasible migration plan.
+
+{{< svg "assets/images/landing-pages/ocpv-accelerator/en-accelerator-migration.svg" >}}
 
 * **Workload Categorization**: Work closely with the team to identify "low-hanging fruits for migration, typically workload with high impact but low complexity. All workload will be categorized based on factors like compatibility, migration effort, and expected savings.
 * **Impact and Effort Analysis**: Evaluation of the potential impact on operations and the effort required for migration. This matrix helps prioritize workload and create a phased migration approach, allowing for quick wins and clear cost-benefit insights.
