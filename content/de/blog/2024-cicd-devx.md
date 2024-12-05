@@ -1,5 +1,5 @@
 ---
-title: "Steigerung Developer Productivity mit GitLab CI"
+title: "Effiziente CI/CD-Pipelines mit GitLab: Produktivität und Sicherheit vereint"
 slug: "cicd-devx"
 description: ""
 date: 2024-10-07T00:00:00+00:00
@@ -17,15 +17,16 @@ lead: "GitLab wird in breiter Masse als beliebtes VCS Tool und Continuous Integr
 ---
 
 
-Automatisierte Integration von Code Changes gehören nicht zu den neuen Trends der Cloud Native Welt. In einem grossen Enterprise Umfeld die Übersicht über Pipelines und Jobs zu behalten, fällt jedoch meist schwer. Entwickler:innen wollen in einem initialen Setup ihren Stack für die Entwicklung einsatzbereit haben, ohne in einer ersten Phase die ganze CI/CD Landschaft aufzusetzen. Das Ziel ist klar: Änderungen sollen zeitnah integriert, für das Deployment bereitgestellt werden und automatisch ausgerollt werden. Diese Automatisierung erhöht direkt die Produktivität, bietet jedoch viel Angriffsfläche für Supply Chain Attacks. In einem früheren Blogpost haben wir die Grundlagen der Supply Chain Security, sowie Toolings und deren Wichtigkeit in modernen Umgebungen vorgestellt. In diesem Blogpost möchte ich kurz erläutern, wie wir zentrale GitLab Components verwendet haben, um eine möglichst automatisierte und sichere Lösung für Projekte bereitzustellen.
+Automatisierte Code-Integration ist längst ein unverzichtbarer Bestandteil der modernen Cloud-Native Welt. Doch gerade in grossen Enterprise-Umgebungen stellt sich oft die Frage: Wie behält man den Überblick über Pipelines und Jobs, ohne dabei die Produktivität oder den Spass an der Entwicklung zu verlieren? Entwickler:innen wollen in einem initialen Setup ihren Stack für die Entwicklung einsatzbereit haben, ohne in einer ersten Phase die ganze CI/CD Landschaft aufzusetzen. Für unseren Kunden war das definierte Ziel klar: Änderungen sollen zeitnah integriert, für das Deployment bereitgestellt werden und automatisch ausgerollt werden. Durch Automatisierung wird direkt die Produktivität erhöht, bietet jedoch viel Angriffsfläche für Supply Chain Attacks. In einem früheren Blogpost haben wir die Grundlagen der Supply Chain Security, sowie Toolings und deren Wichtigkeit in modernen Umgebungen vorgestellt. Diese Grundlage haben wir weiterverwendet um unsere Supply Chain in GitLab Pipelines zu sichern.
 
-In diesem Beitrag möchten wir unsere Erfahrungen die wir bei einem Kunden im Bankensektor gemacht haben mit euch teilen. Das deklarierte Ziel war es eine DevSecOps Landschaft zu gestalten, die vollautomatisiert und ohne Securitybedenken auf alle Systeme mit Continuous Deployment ausrollen kann.
+In diesem Beitrag möchten wir unsere Erfahrungen teilen, die wir bei einem Kunden im Bankensektor gemacht haben. Das deklarierte Ziel war es eine DevSecOps Landschaft zu gestalten, die vollautomatisiert und ohne Securitybedenken auf alle Systeme mit Continuous Deployment ausrollen kann.
 
-### Massnahmen
+### DevSecOps als Motivation
 
-Dass Projekte vollautomatisiert nach Code Änderungen integriert und ausgerollt werden, braucht einen hohen Grad an Vertrauen und Securitymassnahmen. Die Idee war, den Entwickler:innen eine Möglichkeit zu geben, dass ihre Projekte durch eine standardisierte Komponente in einen DevSecOps Prozess zu integrieren. Dies hatte im Kern Komponenten für automatisierte Dependency Updates mit Renovate, Signatur von Images durch Cosign und eine Komponente für das Deployment mit ArgoCD.
+Um DevSecOps zu leben und damit auch von allen Benefits von Microservicearchitekturen und agiler Entwicklungsmethode zu profitieren, muss Software zeitnah und regelmässig auf die Zielsysteme ausgerollt werden. Dies erfordert ein hohes Mass an Automatisierung und Standardisierung.
+Entwickler:innen sollen sich auf ihre tägliche Tätigkeit fokussieren können und ihre Projekte mit wenig Zusatzaufwand in den CI/CD Prozess integrieren können.
 
-### GitLab CI/CD Components
+### Standardisierung mit GitLab CI/CD Components
 
 GitLab führte in Version 17.0 das Konzept der CI/CD Components ein. Diese wiederverwendbaren Templates bieten eine Möglichkeit, Pipelineelemente als Template zur Verfügung zu stellen. Diese Komponenten definieren in einer leicht zu verstehenden Templatesprache CI/CD Komponenten, die über Variablen parametrisiert in Projekten verwendet werden können. CI/CD Components können aus dem zentralen Hub (https://gitlab.com/components) bezogen werden, oder in einer eigenen Komponente gepflegt werden. In unserem Fall wurden die Komponenten selbst entwickelt, um die Kontrolle und Variabilität für projektspezifische Anforderungen gerecht zu werden.
 Grundsätzlich ist eine CI/CD Component ein GitLab Repository mit einem /templates Verzeichnis. In diesem Verzeichnis liegen die Templates für die Komponenten. Eine Komponente hat folgende Struktur:
@@ -178,7 +179,7 @@ deploy:triggerDownstream:
 
 Die resultierende Pipeline erzeugt nun mit dieser Konfiguration zwei Childpipelines, die jeweils verschiedene Umgebungen deployen können. Einfachheitshalber ist die Deploymentlogik weggelassen.
 
-{{< png "assets/images/blog/cicd-devx/pipeline.png" >}}
+{{< custom-image "assets/images/blog/cicd-devx/pipeline.png" >}}
 
 Wie wir sehen, erzeugt der erste Pipeline Job `deploy:createDownstream` das Template in der Stage `template` und in der `deploy` Stage werden durch die zwei generierten Artefakte die Downstream Pipelines erzeugt. Somit können wir dynamisch aus einer Konfigurationsmatrix Umgebungen mit verschiedenen Parametern ausrollen. Falls ihr dieses Beispiel live sehen oder testen möchtet, ihr findet es hier auf [GitLab](https://gitlab.com/g1raffi/cicd-example).
 
