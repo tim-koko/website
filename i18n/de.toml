@@ -19,6 +19,12 @@ other = "Beitrag teilen"
 [morePosts]
 other = "Weitere Beiträge"
 
+[404Title]
+other = "Seite nicht gefunden :("
+
+[404Text]
+other = "Die Seite, welche du aufgerufen hast existiert nicht oder wurde verschoben."
+
 [vorname]
 other = "Vorname"
 
