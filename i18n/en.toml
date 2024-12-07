@@ -19,6 +19,12 @@ other = "Share article"
 [morePosts]
 other = "More articles"
 
+[404Title]
+other = "Page not found :("
+
+[404Text]
+other = "The page you are looking for doesn't exist or has been moved."
+
 [vorname]
 other = "First name"
 
