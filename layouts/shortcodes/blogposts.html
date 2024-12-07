@@ -1,0 +1,23 @@
+<!--layouts/shortcodes/blogposts.html-->
+{{- $slugparam :=  (.Get "blogslugs") -}}
+{{- $displaytype :=  (.Get "displaytype") -}}
+{{- $slugs :=  split $slugparam "," -}}
+{{ if $slugs }}
+    {{ if eq $displaytype "bloglistsmall" }}
+    <div class="row">
+    {{ range $post := $slugs }}
+        {{ range where (where $.Site.RegularPages "Section" "blog") ".Params.slug" "in" ($post) }}
+        {{- partial "additional-content-blog" . -}}
+        {{ end }}
+    {{ end }}
+    </div>
+    {{ else }}
+    <div class="col-lg-12 offset-lg-0 pt-20">
+        {{ range $post :=$slugs }}
+        {{ range where (where $.Site.RegularPages "Section" "blog") ".Params.slug" "in" ($post) }}
+            {{- partial "content-blog" . -}}
+        {{ end }}
+        {{ end }}
+    </div>
+    {{ end }}
+{{ end }}
