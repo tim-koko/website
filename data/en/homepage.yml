@@ -145,7 +145,6 @@ references:
       tech_text: "<p>OpenShift, Helm, Argo CD, Prometheus, Grafana, Jenkins, OpenTelemetry</p>"
       img: "images/projects/adcubum.jpg"
       link: "https://www.adcubum.com/"
-#       link: "https://denner.ch/"
 
 # Partner Section
 partner:
