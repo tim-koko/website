@@ -179,7 +179,7 @@ deploy:triggerDownstream:
 
 Die resultierende Pipeline erzeugt nun mit dieser Konfiguration zwei Childpipelines, die jeweils verschiedene Umgebungen deployen können. Einfachheitshalber ist die Deploymentlogik weggelassen.
 
-{{< custom-image "assets/images/blog/cicd-devx/pipeline.png" >}}
+{{< custom-image "../images/blog/cicd-devx/pipeline.png" >}}
 
 Wie wir sehen, erzeugt der erste Pipeline Job `deploy:createDownstream` das Template in der Stage `template` und in der `deploy` Stage werden durch die zwei generierten Artefakte die Downstream Pipelines erzeugt. Somit können wir dynamisch aus einer Konfigurationsmatrix Umgebungen mit verschiedenen Parametern ausrollen. Falls ihr dieses Beispiel live sehen oder testen möchtet, ihr findet es hier auf [GitLab](https://gitlab.com/g1raffi/cicd-example).
 
