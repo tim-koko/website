@@ -5,13 +5,13 @@ description: ""
 date: 2024-12-16T00:00:00+00:00
 lastmod: 2024-12-16T00:00:00+00:00
 draft: false
-images: ["images/blog/workshop24/TK_BlogPost_SommerWorkshop2024_1.jpg"]
+images: ["images/blog/review24/tk-blogpost-review-1200x630.jpg"]
 Sitemap:
 Priority: 0.9
 
 categories: ["News", "tim&koko", "Review of the year"]
 authors: ['livia-affolter']
-post_img: "images/blog/workshop24/TK_BlogPost_SommerWorkshop2024_1.jpg"
+post_img: "images/blog/review24/tk-blogpost-review-1500x1000.jpg"
 lead: "As 2024 draws to a close, we at tim&koko look back on a year full of exciting developments, inspiring moments and great experiences. For us, 2024 was characterized by growth - as a team, as a company and in our partnerships. For our annual review, we asked our team what their personal highlights of the year were. "
 ---
 
@@ -20,7 +20,6 @@ lead: "As 2024 draws to a close, we at tim&koko look back on a year full of exci
 We are now six motivated people at tim&koko. Each individual brings unique strengths, creativity and passion. We work
 together to offer our customers the best solutions.
 
-
 ### Renaming to tim&koko
 
 One of the biggest milestones was our [renaming](https://tim-koko.ch/en/blog/neuer-brand-name/). Our old name became tim&koko - a fresh, clear expression of who we are
@@ -28,31 +27,32 @@ and what we stand for. Our name tim&koko honors the British computer scientist T
 Wide Web, as well as the female gorilla Koko, who communicated in sign language. The name stands for technological
 solutions and communication at eye level - just like our way of working.
 
-XXX
+{{< custom-image "../images/review24/apero-tk-launch.jpg" "600" >}}
 
 ### Summer workshop
 
 In the summer, we came together to learn, brainstorm and develop as a team. Creative approaches, new ideas and plenty
 of team spirit characterized this workshop. It was an inspiring moment that brought us closer together. During the three
-days of the workshop, we strengthened our team spirit, reflected on the alignment of personal and company values as a
-basis for a common direction and developed a clear vision for our future and our internal organization.
+days of the [workshop](https://tim-koko.ch/en/blog/tim-koko-sommerworkshop/), we strengthened our team spirit, reflected
+on the alignment of personal and company values as a basis for a common direction and developed a clear vision for our
+future and our internal organization.
 
-XXXX
+{{< custom-image "../images/review24/sommerworkshop.jpg" "600" >}}
 
-### Customer event in October
+### Customer event in october
 
 Our office was transformed into a lively meeting place in October. At the customer event, we were able to have exciting
 conversations, exchange ideas and toast to our collaboration. We would like to thank everyone who took part and made the
 event a success!
 
-XXX
+{{< custom-image "../images/review24/herbst-event.jpg" "600" >}}
 
 ### Baloise Codecamp
 
 Technology and community took center stage at the Baloise Codecamp. Here we were able to network with like-minded people,
 share knowledge and be inspired by new approaches. An event that showed us how much power there is in a community.
 
-XXX
+{{< custom-image "../images/review24/baloise-codecamp.jpg" "600" >}}
 
 ### Puzzle /mid - tim&koko after-work beer
 
@@ -77,4 +77,3 @@ ideas and continue to grow as a team.
 Thank you for your support and trust - we can't wait to write the next chapter with you!
 
 Your tim&koko team
-

@@ -5,13 +5,13 @@ description: ""
 date: 2024-12-16T00:00:00+00:00
 lastmod: 2024-12-16T00:00:00+00:00
 draft: false
-images: ["images/blog/workshop24/TK_BlogPost_SommerWorkshop2024_1.jpg"]
+images: ["images/blog/review24/tk-blogpost-review-1200x630.jpg"]
 Sitemap:
 Priority: 0.9
 
 categories: ["News", "tim&koko", "Jahresrückblick"]
 authors: ['livia-affolter']
-post_img: "images/blog/workshop24/TK_BlogPost_SommerWorkshop2024_1.jpg"
+post_img: "images/blog/review24/tk-blogpost-review-1500x1000.jpg"
 lead: "Das Jahr 2024 neigt sich dem Ende zu, und bei tim&koko blicken wir auf ein Jahr voller spannender Entwicklungen, inspirierender Momente und grossartiger Erlebnisse zurück. Für uns war 2024 geprägt von Wachstum – als Team, als Unternehmen und in unseren Partnerschaften. Für unseren Jahresrückblick, haben wir unser Team gefragt, was ihre ganz persönlichen Highlights des Jahres waren."
 ---
 
@@ -20,7 +20,6 @@ lead: "Das Jahr 2024 neigt sich dem Ende zu, und bei tim&koko blicken wir auf ei
 Wir sind jetzt sechs motivierte Köpfe bei tim&koko. Jede/r Einzelne bringt einzigartige Stärken, Kreativität und
 Leidenschaft mit. Gemeinsam arbeiten wir daran, unseren Kund:innen die besten Lösungen zu bieten.
 
-
 ### Renaming zu tim&koko
 
 Einer der grössten Meilensteine war unser [Renaming](https://tim-koko.ch/blog/neuer-brand-name/). Aus unserem alten Namen wurde tim&koko – ein frischer, klarer
@@ -28,7 +27,7 @@ Ausdruck dessen, wer wir sind und wofür wir stehen. Unser Name tim&koko ehrt de
 Schöpfer des World Wide Web, wie auch das Gorilla-Weibchen Koko, das in Gebärdensprache kommunizierte. Der Name steht für
 technologische Lösungen und Kommunikation auf Augenhöhe – genau wie unsere Arbeitsweise.
 
-XXX
+{{< custom-image "../images/review24/apero-tk-launch.jpg" "600" >}}
 
 ### Sommer Workshop
 
@@ -38,7 +37,7 @@ inspirierender Moment, der uns enger zusammengeschweisst hat. Während des Works
 Tagen unser Teamgefühl, reflektierten über die Übereinstimmung persönlicher und Firmenwerte als Basis für eine gemeinsame
 Ausrichtung und entwickelten eine klare Vision für unsere Zukunft sowie unsere interne Organisation.
 
-XXXX
+{{< custom-image "../images/review24/sommerworkshop.jpg" "600" >}}
 
 ### Kund:innen-Event im Oktober
 
@@ -46,7 +45,7 @@ Unsere Büroräumlichkeiten verwandelten sich im Oktober in einen lebendigen Tre
 spannende Gespräche führen, Ideen austauschen und auf unsere Zusammenarbeit anstossen. Wir danken allen, die mit dabei
 waren und das Event zu einem Erfolg gemacht haben!
 
-XXX
+{{< custom-image "../images/review24/herbst-event.jpg" "600" >}}
 
 ### Baloise Codecamp
 
@@ -54,7 +53,7 @@ Technologie und Gemeinschaft standen beim Baloise Codecamp im Mittelpunkt. Hier 
 Wissen teilen und uns von neuen Ansätzen inspirieren lassen. Ein Event, das uns gezeigt hat, wie viel Power in einer
 Community steckt.
 
-XXX
+{{< custom-image "../images/review24/baloise-codecamp.jpg" "600" >}}
 
 ### Puzzle /mid - tim&koko Feierabendbier
 
