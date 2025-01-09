@@ -2,59 +2,50 @@
 title: "OpenShift Virtualization"
 slug: "openshift-virtualization"
 description: ""
-date: 2025-01-01T00:00:00+00:00
-lastmod: 2025-01-01T00:00:00+00:00
+date: 2025-01-09T00:00:00+00:00
+lastmod: 2025-01-09T00:00:00+00:00
 draft: false
-images: ["images/blog/kubevirt-training/kubevirt-training-some-1200x630.png"]
-img_border: false
+images: ["images/blog/openshift-virtualization/tk-blogpost-ocp-virtualization-some.jpg"]
+img_border: true
 Sitemap:
 Priority: 0.9
 
-
 additionalblogposts: [ 'kubevirt-introduction', 'kubevirt-usecases', 'kubevirt-training' ]
 
-categories: ["Technologie", "KubeVirt", "Kubernetes"]
+categories: ["Technology", "KubeVirt", "Kubernetes"]
 authors: ['raffael-hertle']
-post_img: "images/blog/kubevirt-training/kubevirt-training-blogpost-1500x1000.png"
-lead: "Red Hat OpenShift Virtualization bietet als eine Erweiterung von Red Hat OpenShift eine Möglichkeit, virtuelle Maschinen einfach und effizient in dein bestehendes OpenShift Umfeld standardisiert zu integrieren. Es erlaubt, die traditionellen Virtualisierungslösungen und die Cloud Native Welt zu einer zuverlässigen, konsistenten und standardisierten Hybrid Cloud Anwendungsplattform zusammenzuführen."
+post_img: "images/blog/openshift-virtualization/tk-blogpost-ocp-virtualization.jpg"
+lead: "Red Hat OpenShift Virtualization, as an extension of Red Hat OpenShift, offers a way to easily and efficiently integrate virtual machines into your existing OpenShift environment in a standardized way. It allows traditional virtualization solutions and the cloud native world to be merged into a reliable, consistent and standardized hybrid cloud application platform."
 ---
 
+In the KubeVirt [KubeVirt Journey - Introduction to the Management of Virtual Machines on Kubernetes]({{< ref "blog/2024-kubevirt-introduction" >}}) series, we have already reported on the benefits, applications and concepts of KubeVirt. The project is being further developed and maintained as open source by the Cloud Native Computing Foundation (CNCF). Similar to OpenShift Pipelines or OpenShift GitOps, OpenShift Virtualization seamlessly integrates the upstream project KubeVirt into the OpenShift platform.
 
-In der KubeVirt-Serie haben wir schon über Vorteile, Anwendungen und die Konzepte von KubeVirt berichtet. Das Projekt wird open-source von der Cloud Native Computing Foundation (CNCF) weiterentwickelt und unterhalten. Ähnlich wie bei OpenShift Pipelines oder OpenShift GitOps, integriert OpenShift Virtualization das upstream Projekt KubeVirt nahtlos in die OpenShift Plattform.
+### Advantages of Red Hat OpenShift Virtualization
 
-### Vorteile von Red Hat OpenShift Virtualization
+By implementing OpenShift Virtualization in your OpenShift cluster, you can benefit from the following advantages:
 
-Durch die Implementation von OpenShift Virtualization in deinem OpenShift Cluster kannst du von den folgenden Vorteilen profitieren:
+* **Assisted migration:** OpenShift Virtualization comes with an in-house [migrations toolkit](https://developers.redhat.com/products/mtv/overview) to easily migrate from other hypervisors.
+* **Faster to production:** OpenShift Virtualization can support and simplify infrastructure provisioning through self-service portals and seamless integration with CI/CD pipelines. Developers: OpenShift Virtualization makes it easier for developers to create, test and integrate VMs into their systems.
+* **Unified platform:** OpenShift Virtualization integrates VMs in the same way as containers, pipelines and serverless workloads. The integration into the OpenShift environment allows a simple and clear way to manage virtual machines in a standardized way.
 
-* **Unterstützte Migration:** OpenShift Virtualization kommt mit einem hauseigenen Migrations-Toolkit (https://access.redhat.com/products/migration-toolkits-virtualization), um einfach von anderen Hypervisoren zu migrieren.
-* **Schneller in Produktion:** Durch OpenShift Virtualization kann die Bereitstellung der Infrastruktur durch Self Service Portale und die nahtlose Integration mit CI/CD-Pipelines unterstützt und vereinfacht werden. Entwickler:innen können durch OpenShift Virtualization einfacher VMs erstellen, testen und in ihre Systeme integrieren.
-* **Einheitliche Plattform:** Durch OpenShift Virtualization werden VMs genau wie Container, Pipelines und Serverless Workload gleich integriert. Die Integration in die OpenShift Umgebung erlaubt eine einfache und übersichtliche Art virtuelle Maschinen standardisiert zu verwalten.
+### Installation and features
 
-<br/>
+OpenShift Virtualization is installed as an operator on the OpenShift platform. The operator can be installed and used via the OperatorHub. The installation activates additional CustomResourceDefinitions (CRDs) and features in the OpenShift cluster.
+These features include:
 
-{{< custom-image "../images/openshift-virtualization/migration-ui.png" 1000 >}}
+* Creating and managing virtual machines
+* Connection to VMs with UI or CLI tools
+* Cloning and importing existing VMs
+* Management of network interface controllers and storage on VMs
+* Live migration of VMs via OpenShift nodes
+* Migration Toolkit for Virtualization
 
-<br/><br/>
+### Want to learn more?
 
-### Installation und Features
+We are happy to answer any questions you may have. You can reach us best at [hallo@tim-koko.ch](mailto:hallo@tim-koko.ch)&nbsp;or on [LinkedIn](https://www.linkedin.com/company/tim-koko).
 
-OpenShift Virtualization wird als Operator auf der OpenShift Plattform installiert. Durch den OperatorHub kann der Operator installiert und verwendet werden. Durch die Installation werden in dem OpenShift Cluster weitere CustomResourceDefinitions (CRDs) und Features freigeschaltet.
-Zu diesen Features gehören:
+We also offer you the following opportunities to learn more about KubeVirt or OpenShift Virtualization:
 
-* Erstellen und Verwalten von virtuellen Maschinen
-* Verbindung zu VMs mit UI- oder CLI-Tools
-* Klonen und Importieren von bereits vorhandenen VMs
-* Verwaltung von Netzwerkschnittstellen-Controllern und Storage an VMs
-* Live Migration der VMs über OpenShift Nodes
-* Migrations Toolkit for Virtualization
-
-### Möchtest Du mehr erfahren?
-
-Gerne stehen wir für Fragen zur Verfügung. Du erreichst uns am besten unter [hallo@tim-koko.ch](mailto:hallo@tim-koko.ch)&nbsp;oder auf [LinkedIn](https://www.linkedin.com/company/tim-koko).
-
-Weiter bieten wir dir die folgenden Möglichkeiten, dich vertieft mit dem Thema KubeVirt oder OpenShift Virtualization auseinander zu setzen:
-
-* [tim&koko labs](https://tim-koko.ch/labs/): An einem Nachmittag die Grundlagen von KubeVirt kennenlernen und in praktischen hands-on labs direkt anwenden.
-* [KubeVirt Basics Training](https://acend.ch/trainings/kubevirt/): Zweitägiges abwechslungsreiches Training mit Präsentationen und hands-on labs.
-* [OpenShift Virtualization Accelerator Package](https://tim-koko.ch/services/openshift-virtualization-accelerator/): Wir helfen dir, die Möglichkeiten von OpenShift Virtualization zu erkunden und herauszufinden, wie hoch das Potenzial für eine neue oder parallele Strategie sein
-  könnte.
+* [tim&koko labs](https://tim-koko.ch/en/labs/): Get to know the basics of OpenShift Virtualization in one afternoon and apply them directly in practical hands-on labs.
+* [KubeVirt Basics Training](https://acend.ch/en/trainings/kubevirt/): Two-day varied training with presentations and hands-on labs.
+* [OpenShift Virtualization Accelerator Package](https://tim-koko.ch/en/services/openshift-virtualization-accelerator/): We help you explore the possibilities of OpenShift Virtualization and find out how high the potential for a new or parallel strategy could be.
