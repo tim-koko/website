@@ -28,6 +28,12 @@ By implementing OpenShift Virtualization in your OpenShift cluster, you can bene
 * **Faster to production:** OpenShift Virtualization can support and simplify infrastructure provisioning through self-service portals and seamless integration with CI/CD pipelines. Developers: OpenShift Virtualization makes it easier for developers to create, test and integrate VMs into their systems.
 * **Unified platform:** OpenShift Virtualization integrates VMs in the same way as containers, pipelines and serverless workloads. The integration into the OpenShift environment allows a simple and clear way to manage virtual machines in a standardized way.
 
+<br/>
+
+{{< custom-image "../images/openshift-virtualization/migration-ui.png" 1000 >}}
+
+<br/><br/>
+
 ### Installation and features
 
 OpenShift Virtualization is installed as an operator on the OpenShift platform. The operator can be installed and used via the OperatorHub. The installation activates additional CustomResourceDefinitions (CRDs) and features in the OpenShift cluster.
