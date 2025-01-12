@@ -139,10 +139,6 @@ schneller zur Verfügung stehen.
 
 Gerne stehen wir für Fragen zur Verfügung. Du erreichst uns am besten unter [hallo@tim-koko.ch](mailto:hallo@tim-koko.ch)&nbsp;oder auf [LinkedIn](https://www.linkedin.com/company/tim-koko).
 
-Zudem werden wir am folgenden Meetup unsere Erfahrungen mit der Community teilen:
-
-- 28.11.2024 - 16:00: [Cloud Native Switzerland Meetup](https://www.meetup.com/cloud-native-computing-switzerland/events/302784454) in Luzern
-
 Weiter bieten wir dir die folgenden Möglichkeiten, dich vertieft mit dem Thema KubeVirt oder OpenShift Virtualization auseinander zu setzen:
 
 - [tim&koko labs](https://tim-koko.ch/labs/): An einem Nachmittag die Grundlagen von OpenShift Virtualization kennenlernen und in praktischen hands-on labs direkt anwenden.
