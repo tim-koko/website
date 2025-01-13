@@ -136,10 +136,6 @@ partner for enterprise customers.
 
 We are happy to answer any questions you may have. You can reach us best at [hallo@tim-koko.ch](mailto:hallo@tim-koko.ch)&nbsp;or on [LinkedIn](https://www.linkedin.com/company/tim-koko).
 
-If you want to know even more, we will share our experiences with the community at the following meetup:
-
-- 28.11.2024 - 16:00: [Cloud Native Switzerland Meetup](https://www.meetup.com/cloud-native-computing-switzerland/events/302784454) in Lucerne
-
 We also offer you the following opportunities to learn more about KubeVirt or OpenShift Virtualization:
 
 - [tim&koko labs](https://tim-koko.ch/en/labs/): Get to know the basics of KubeVirt in one afternoon and apply them directly in practical hands-on labs.
