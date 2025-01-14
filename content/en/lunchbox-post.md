@@ -3,7 +3,7 @@ title: "tim&koko-Lunchbag"
 slug: "lunchbag-post-2025"
 description: ""
 titleVisible: "Post IT"
-titleSublineVisible: "tim&koko Lunchbag"
+titleSublineVisible: "tim&koko lunchbag"
 image: "images/landing-pages/tk-giveaway-2024-1500x1000.png"
 lead: ""
 date: 2025-01-14T00:00:00+00:00
@@ -37,9 +37,9 @@ Sitemap:
 ---
 
 
-### tim&koko Lunchbag event
+### tim&koko lunchbag event
 
-Take a short break during your lunch and gain exciting insights into current technological trends! The “tim&koko Lunchbag” event offers the perfect opportunity to learn something new and exchange ideas about innovative solutions.
+Take a short break during your lunch and gain exciting insights into current technological trends! The “tim&koko lunchbag” event offers the perfect opportunity to learn something new and exchange ideas about innovative solutions.
 
 * When: 12.02.2025 von 12:00 - 13:30
 * Where: Webergutstrasse 12, 3052 Zollikofen, Raum B024 (Aula)
