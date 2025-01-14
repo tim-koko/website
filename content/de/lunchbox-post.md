@@ -28,7 +28,7 @@ formSelect:
   desserts:
   - option: "Brownie (vegan)"
     value: "brownie"
-  - option: "kein Dessert"
+  - option: "Kein Dessert"
     value: "kein-dessert"
 images:
   - "images/landing-pages/tk-giveaway-2024-1500x1000.png"

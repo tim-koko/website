@@ -19,16 +19,16 @@ form:
   LabelNachricht: "Hast du Fragen oder Themen die dich brennend interessieren?"
 formSelect:
   sandwiches:
-  - option: "Buurhamme"
+  - option: "Ham"
     value: "buurhamme"
-  - option: "Hummus und Grillgemüse (vegan)"
+  - option: "Hummus and grilled vegetables (vegan)"
     value: "hummus-grillgemuese"
-  - option: "Kein Sandwich"
+  - option: "No sandwich"
     value: "kein-sandwich"
   desserts:
   - option: "Brownie (vegan)"
     value: "brownie"
-  - option: "kein Dessert"
+  - option: "No dessert"
     value: "kein-dessert"
 images:
   - "images/landing-pages/tk-giveaway-2024-1500x1000.png"
