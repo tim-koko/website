@@ -41,7 +41,7 @@ Sitemap:
 
 Nimm dir eine kleine Auszeit in deiner Mittagspause und erhalte spannende Einblicke in aktuelle technologische Trends! Der «tim&koko Lunchbag»-Event bietet die perfekte Gelegenheit, Neues zu lernen und sich über innovative Lösungen auszutauschen.
 
-* Wann: 12.02.2025 von 12:00 - 13:30
+* Wann: 12.02.2025 von 12:00 - 13:00
 * Wo: Webergutstrasse 12, 3052 Zollikofen, Raum B024 (Aula)
 
 Alles, was du brauchst, ist Neugier – wir kümmern uns um den Rest! Wähle einfach im Formular dein bevorzugtes Sandwich und Dessert aus, und wir sorgen dafür, dass du bestens versorgt bist.

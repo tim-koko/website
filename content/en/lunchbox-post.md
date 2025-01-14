@@ -41,7 +41,7 @@ Sitemap:
 
 Take a short break during your lunch and gain exciting insights into current technological trends! The “tim&koko lunchbag” event offers the perfect opportunity to learn something new and exchange ideas about innovative solutions.
 
-* When: 12.02.2025 von 12:00 - 13:30
+* When: 12.02.2025 von 12:00 - 13:00
 * Where: Webergutstrasse 12, 3052 Zollikofen, Raum B024 (Aula)
 
 All you need is curiosity – we’ll take care of the rest! Just choose your preferred sandwich and dessert in the form, and we’ll make sure you’re well taken care of.
