@@ -48,7 +48,7 @@ All you need is curiosity – we’ll take care of the rest! Just choose your pr
 
 ### Topics
 
-tim&koko presents the topic “OpenShift Virtualization - Deploying and operating VMs on OpenShift?”. Dive with us into the world of Kubernetes-based VM management solutions and learn more about the possibilities and challenges. 
+tim&koko presents the topic “OpenShift Virtualization - Deploying and operating VMs on OpenShift?”. Dive with us into the world of Kubernetes-based VM management solutions and learn more about the possibilities and challenges.
 
 And Puzzle will take you on a backstage journey. From the first UX-led surveys to the introduction of Backstage as a portal to their developer platform.
 
