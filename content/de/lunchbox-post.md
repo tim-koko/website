@@ -12,7 +12,7 @@ draft: false
 sitemap_exclude: true
 type: "lunchbox-form-page"
 blogposts:
-  - 'kubevirt-introduction'
+  - 'openshift-virtualization'
   - 'kubevirt-training'
 netlifyFormname: "lunchbag-post"
 form:
