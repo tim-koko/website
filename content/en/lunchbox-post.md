@@ -37,9 +37,9 @@ Sitemap:
 ---
 
 
-### tim&koko lunchbag event
+### tim&koko Lunchbag event
 
-Take a short break during your lunch and gain exciting insights into current technological trends! The “tim&koko lunchbag” event offers the perfect opportunity to learn something new and exchange ideas about innovative solutions.
+Take a short break during your lunch and gain exciting insights into current technological trends! The “tim&koko Lunchbag” event offers the perfect opportunity to learn something new and exchange ideas about innovative solutions.
 
 * When: 12.02.2025 von 12:00 - 13:30
 * Where: Webergutstrasse 12, 3052 Zollikofen, Raum B024 (Aula)
