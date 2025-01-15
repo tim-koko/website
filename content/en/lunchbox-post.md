@@ -4,7 +4,7 @@ slug: "lunchbag-post-2025"
 description: ""
 titleVisible: "Post IT"
 titleSublineVisible: "tim&koko lunchbag"
-image: "images/landing-pages/tk-giveaway-2024-1500x1000.png"
+image: "images/landing-pages/tk-puzzle-lunchbag-post-1500x1000.png"
 lead: ""
 date: 2025-01-14T00:00:00+00:00
 lastmod: 2025-01-14T00:00:00+00:00
@@ -31,7 +31,7 @@ formSelect:
   - option: "No dessert"
     value: "kein-dessert"
 images:
-  - "images/landing-pages/tk-giveaway-2024-1500x1000.png"
+  - "images/landing-pages/tk-puzzle-lunchbag-post-1500x1000.png"
 Sitemap:
   Priority: 0.3
 ---
