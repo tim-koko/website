@@ -54,8 +54,8 @@ In this half-day lab, you'll first receive a theoretical introduction to the fun
 
 ### Dates
 
-* 30.1.2025 – 13:30 Zurich Red Hat, Europaallee 41
-* 13.2.2025 – 13:30 Bern, details follow
+* 30.1.2025 – 13:30 Zurich – Red Hat, Europaallee 41
+* 13.2.2025 – 13:30 Bern – zmittsdrinn.ch, Casinoplatz 2
 
 &nbsp;
 
