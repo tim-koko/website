@@ -55,8 +55,8 @@ begleiten dich Schritt für Schritt, sodass du die wichtigsten Konzepte und Funk
 
 ### Termine
 
-* 30.1.2025 – 13:30 Zürich Red Hat, Europaallee 41
-* 13.2.2025 – 13:30 Zentral in Bern, Details folgen.
+* 30.1.2025 – 13:30 Zürich – Red Hat, Europaallee 41
+* 13.2.2025 – 13:30 Bern – zmittsdrinn.ch, Casinoplatz 2
 
 &nbsp;
 
