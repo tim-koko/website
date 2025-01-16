@@ -50,7 +50,7 @@ Alles, was du brauchst, ist Neugier – wir kümmern uns um den Rest! Wähle ein
 
 tim&koko stellt dir das Thema «OpenShift Virtualization – VMs auf OpenShift deployen und betreiben?» vor. Tauche mit uns ein in die Welt der Kubernetes-basierten VM-Managementlösungen und erfahre mehr über die Möglichkeiten und Herausforderungen.
 
-Und Puzzle nimmt dich mit auf eine Backstage-Reise. Von den ersten UX-geführten Umfragen bis hin zur Einführung von Backstage als Portal zu ihrer Developer Plattform.
+Und Puzzle nimmt dich mit auf eine Backstage-Reise: Von den ersten UX-geführten Umfragen über die Einführung von Backstage als zentralem Portal für ihre Developer-Plattform bis hin zu einem Vergleich mit der Backstage Distribution von Red Hat, dem Developer Hub.
 
 ### In der Zwischenzeit
 
