@@ -3,7 +3,7 @@ title: "Registration KubeTrain Pre-Apéro in Paris"
 slug: "kubetrain-pre-apero-2025"
 description: ""
 titleVisible: "Registration KubeTrain"
-titleSublineVisible: "Pre-Apéro in Paris 2025"
+titleSublineVisible: "Pre-Apéro in Paris"
 image: "images/landing-pages/tk-landingpage-kubetrain-1500x600.png"
 lead: ""
 date: 2025-01-19T00:00:00+00:00
