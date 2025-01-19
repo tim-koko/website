@@ -49,6 +49,12 @@ other = "Phone"
 [gibDeineTelefonnummerEin]
 other = "Enter your phone"
 
+[company]
+other = "Company"
+
+[gibDeinenFrimennamenEin]
+other = "Enter your Company"
+
 [nachricht]
 other = "Message"
 
@@ -81,6 +87,9 @@ other = " "
 
 [ichHabeDie]
 other = "I have read and understood the"
+
+[dateneweiterleiten]
+other = "I agree that my data may be shared with tim&koko and The GoGrow Company."
 
 [fuerDenNewsletterAnmelden]
 other = "Sign up for our newsletter."
