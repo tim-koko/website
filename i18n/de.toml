@@ -49,6 +49,12 @@ other = "Telefonnummer"
 [gibDeineTelefonnummerEin]
 other = "Gib deine Telefonnummer ein"
 
+[company]
+other = "Firma"
+
+[gibDeinenFirmennamenEin]
+other = "Gib deinen Firmennamen ein"
+
 [nachricht]
 other = "Nachricht"
 
