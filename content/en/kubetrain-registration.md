@@ -24,7 +24,6 @@ The teams at [tim&koko](https://tim-koko.ch/) and [The GoGrow Company](https://t
 
 Why wait for the journey to begin when we can kick things off early? Let’s meet, mingle, and set the mood for an exciting experience ahead. Drinks and light snacks will be provided to help kick off the trip in style!
 
-
 📆 31 March 2025
 
 🕑 14:30 to 16:00
