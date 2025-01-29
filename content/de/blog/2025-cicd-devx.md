@@ -2,17 +2,17 @@
 title: "Effiziente CI/CD-Pipelines mit GitLab: Produktivität und Sicherheit vereint"
 slug: "cicd-devx"
 description: ""
-date: 2024-10-07T00:00:00+00:00
-lastmod: 2024-10-07T00:00:00+00:00
+date: 2025-01-29T00:00:00+00:00
+lastmod: 2025-01-29T00:00:00+00:00
 draft: false
-images: ["images/blog/TK_BlogPost_2-3_RZ.png"]
-img_border: false
+images: ["images/blog/cicd-devx/tk-blogpost-cicd-devx-3000x2000.png"]
+img_border: true
 Sitemap:
 Priority: 0.91
 
 categories: ["Technologie", "GitlabCI", "Kubernetes"]
 authors: ['raffael-hertle']
-post_img: "images/blog/TK_BlogPost_2-3_RZ.png"
+post_img: "images/blog/cicd-devx/tk-blogpost-cicd-devx-3000x2000.png"
 lead: "GitLab wird in breiter Masse als beliebtes VCS Tool und Continuous Integration Tool verwendet. In diesem Beitrag möchten wir einen Erfahrungsbericht vorstellen, wie wir die Möglichkeiten der Plattform ausschöpfen, um die Developer Produktivität massgebend zu verbessern und zudem durch Automatisierung die Supply Chain Security zu erhöhen."
 ---
 
