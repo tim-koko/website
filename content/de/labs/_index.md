@@ -13,8 +13,6 @@ form:
   LabelNachricht: "Gibt es noch etwas, das wir wissen müssen?"
 formSelect:
   dates:
-  - option: "30.1.2025 – Zürich Red Hat, Europaallee 41"
-    value: "zurich-2025-01-30"
   - option: "13.2.2025 – Bern TBD"
     value: "bern-2025-02-13"
   - option: "bei zusätzlichen Terminen informieren."
