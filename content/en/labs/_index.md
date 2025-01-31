@@ -14,7 +14,7 @@ form:
   LabelNachricht: "Something we should know?"
 formSelect:
   dates:
-  - option: "13.2.2025 – Bern, details follow"
+  - option: "13.2.2025 – Bern zmittsdrinn.ch, Casinoplatz 2w"
     value: "bern-2025-02-13"
   - option: "inform me about additional dates"
     value: "weitere-daten"
