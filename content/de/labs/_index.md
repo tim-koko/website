@@ -13,7 +13,7 @@ form:
   LabelNachricht: "Gibt es noch etwas, das wir wissen müssen?"
 formSelect:
   dates:
-  - option: "13.2.2025 – Bern TBD"
+  - option: "13.2.2025 – Bern zmittsdrinn.ch, Casinoplatz 2"
     value: "bern-2025-02-13"
   - option: "bei zusätzlichen Terminen informieren."
     value: "weitere-daten"
