@@ -14,8 +14,6 @@ form:
   LabelNachricht: "Something we should know?"
 formSelect:
   dates:
-  - option: "30.1.2025 – Zurich Red Hat, Europaallee 41"
-    value: "zurich-2025-01-30"
   - option: "13.2.2025 – Bern, details follow"
     value: "bern-2025-02-13"
   - option: "inform me about additional dates"
