@@ -1,7 +1,6 @@
 ---
 title: "tim&koko weekly"
-slug: "f5-integration-openshift"
-description: "Wie die F5 Container Ingress Services für OpenShift genutzt werden können"
+slug: "weekly-sync"
 date: 2025-02-06T00:00:00+00:00
 lastmod: 2025-02-06T00:00:00+00:00
 draft: false
@@ -9,7 +8,6 @@ images: ["images/blog/weekly-meetings/tk_blogpost-weekly-meetings-1500x1000.png"
 categories: ["tim&koko", "Behind the Scenes", "weekly"]
 authors: ['livia affolter']
 lead: "Dieser kleine Einblick kann dir vielleicht Wege zeigen, wie du mehr aus diesen Meetings herausholen kannst und wie du den Mut findest, immer mal wieder Veränderungen in ein Meeting zu bringen. Denn der Alltag wird oft von Routinen bestimmt, die selten infrage gestellt werden. Aber gerade darin liegt aus unserer Sicht Potenzial."
-img_border: true
 post_img: "images/blog/weekly-meetings/tk_blogpost-weekly-meetings-1500x1000.png"
 ---
 
