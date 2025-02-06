@@ -1,5 +1,5 @@
 ---
-title: "tim&koko weekly"
+title: "tim&koko weekly syncs"
 slug: "weekly-sync"
 date: 2025-02-06T00:00:00+00:00
 lastmod: 2025-02-06T00:00:00+00:00
