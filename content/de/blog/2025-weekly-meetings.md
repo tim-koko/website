@@ -36,7 +36,7 @@ Unser Weekly besteht aus ein paar einfachen, aber wirkungsvollen Elementen, die 
 1. **Auskotzen – aber richtig!**\
    Manchmal müssen Dinge raus. Aber wir achten darauf, ob jemand einfach nur Dampf ablassen möchte oder wirklich Hilfe benötigt. Dieser Unterschied ist entscheidend, um ein Meeting produktiv zu halten.
 1. **Rotation bei der Meeting-Leitung**\
-   Um Abwechslung zu schaffen und das Weekly interessant zu halten, rotiert bei uns die Leitung des Meetings. Dadurch bekommt jeder die Möglichkeit, Verantwortung zu übernehmen und frischen Wind in die Runde zu bringen. 
+   Um Abwechslung zu schaffen und das Weekly interessant zu halten, rotiert bei uns die Leitung des Meetings. Dadurch bekommt jeder die Möglichkeit, Verantwortung zu übernehmen und frischen Wind in die Runde zu bringen.
 1. **Gemeinsames Mittagessen für die vor Ort Anwesenden**\
    Nach dem Weekly setzen wir uns oft zu einem gemeinsamen Zmittag zusammen. Es gibt Raum für Gespräche und stärkt den Zusammenhalt.
 
