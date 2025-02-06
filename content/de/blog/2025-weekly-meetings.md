@@ -7,11 +7,9 @@ draft: false
 images: ["images/blog/weekly-meetings/tk_blogpost-weekly-meetings-1500x1000.png"]
 categories: ["tim&koko", "Behind the Scenes", "weekly"]
 authors: ['livia affolter']
-lead: "Dieser kleine Einblick kann dir vielleicht Wege zeigen, wie du mehr aus diesen Meetings herausholen kannst und wie du den Mut findest, immer mal wieder Veränderungen in ein Meeting zu bringen. Denn der Alltag wird oft von Routinen bestimmt, die selten infrage gestellt werden. Aber gerade darin liegt aus unserer Sicht Potenzial."
+lead: "Dieser kleine Einblick kann dir vielleicht Wege zeigen, wie du mehr aus diesen Meetings herausholen kannst und wie du den Mut findest, immer mal wieder Veränderungen in ein Meeting zu bringen. Denn der Alltag wird oft von Routinen bestimmt, die nicht infrage gestellt werden. Aber gerade darin liegt aus unserer Sicht Potenzial."
 post_img: "images/blog/weekly-meetings/tk_blogpost-weekly-meetings-1500x1000.png"
 ---
-
-Dieser kleine Einblick kann dir vielleicht Wege zeigen, wie du mehr aus diesen Meetings herausholen kannst und wie du den Mut findest, immer mal wieder Veränderungen in ein Meeting zu bringen. Denn der Alltag wird oft von Routinen bestimmt, die selten infrage gestellt werden. Aber gerade darin liegt aus unserer Sicht Potenzial.
 
 ### Warum machen wir bei tim&koko Weekly Syncs?
 
