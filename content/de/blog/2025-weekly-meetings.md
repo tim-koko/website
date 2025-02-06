@@ -17,14 +17,14 @@ Ganz einfach: Ein regelmässiger Austausch fördert das Zusammengehörigkeitsgef
 
 ### Wie sieht unser Weekly Sync aktuell aus?
 
-Unser Weekly besteht aus ein paar einfachen, aber wirkungsvollen Elementen, die dafür sorgen, dass es nicht langweilig wird und weiterhin einen Mehrwert für alle bietet:
+Unser Weekly Sync besteht aus ein paar einfachen, aber wirkungsvollen Elementen, die dafür sorgen, dass es nicht langweilig wird und weiterhin einen Mehrwert für alle bietet:
 
 1. **Update, wer woran arbeitet**\
    Ein kurzer Überblick, wer aktuell an welchem Projekt oder Task arbeitet. Das hilft, den Fortschritt im Blick zu behalten und eventuelle Engpässe frühzeitig zu erkennen.
 1. **Tasks mit bald fälligem Due Date durchgehen**\
    Hierbei konzentrieren wir uns auf Tasks, die in Kürze abgeschlossen werden sollten. Es ist ein pragmatischer Weg, den Überblick zu bewahren und sicherzustellen, dass wichtige Deadlines eingehalten werden.
 1. **Hilfe anfragen**\
-   Wenn jemand Unterstützung braucht, ist das Weekly die Gelegenheit, dies anzusprechen. So kann das Team gemeinsam Lösungen finden.
+   Wenn jemand Unterstützung braucht, ist der Weekly Sync die Gelegenheit, dies anzusprechen. So kann das Team gemeinsam Lösungen finden.
 1. **Kurzes, pragmatisches Protokoll**\
    Ja, das klingt oldschool, aber ein Protokoll sorgt dafür, dass alle – auch die, die nicht anwesend sind – den Verlauf des Meetings nachvollziehen können. Das ist nicht nur praktisch, sondern fördert auch die Transparenz im Team.
 1. **Update zur Planung**\
@@ -32,9 +32,9 @@ Unser Weekly besteht aus ein paar einfachen, aber wirkungsvollen Elementen, die 
 1. **Auskotzen – aber richtig!**\
    Manchmal müssen Dinge raus. Aber wir achten darauf, ob jemand einfach nur Dampf ablassen möchte oder wirklich Hilfe benötigt. Dieser Unterschied ist entscheidend, um ein Meeting produktiv zu halten.
 1. **Rotation bei der Meeting-Leitung**\
-   Um Abwechslung zu schaffen und das Weekly interessant zu halten, rotiert bei uns die Leitung des Meetings. Dadurch bekommt jeder die Möglichkeit, Verantwortung zu übernehmen und frischen Wind in die Runde zu bringen.
+   Um Abwechslung zu schaffen und den Weekly Sync interessant zu halten, rotiert bei uns die Leitung des Meetings. Dadurch bekommt jeder die Möglichkeit, Verantwortung zu übernehmen und frischen Wind in die Runde zu bringen.
 1. **Gemeinsames Mittagessen für die vor Ort Anwesenden**\
-   Nach dem Weekly setzen wir uns oft zu einem gemeinsamen Zmittag zusammen. Es gibt Raum für Gespräche und stärkt den Zusammenhalt.
+   Nach dem Meeting setzen wir uns oft zu einem gemeinsamen Zmittag zusammen. Es gibt Raum für Gespräche und stärkt den Zusammenhalt.
 
 Ein Weekly Sync kann mehr sein als ein reines Durcharbeiten von To Do-Listen. Es geht darum, den Austausch zu fördern, Kreativität zu wecken und auch mal aus der Routine auszubrechen. Mit kleinen Anpassungen zwischendurch kannst du dein Weekly Sync nicht nur effektiver, sondern auch interessanter gestalten – für dich und dein Team.
 
