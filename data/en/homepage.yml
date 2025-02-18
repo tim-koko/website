@@ -15,10 +15,16 @@ hero:
   link: ""
   linktext: ""
   news:
-    title: "News – OpenShift Virtualization Labs"
-    text: "Starting in early 2025, our OpenShift Virtualization Lab series will kick off. Learn how containers and virtual machines can be integrated on a single platform."
-    link: "/en/labs/"
-    linktext: "Read more and register"
+    title: "News – OpenShift Virtualization Accelerator-Package"
+    text: "Our OpenShift Virtualization Accelerator Package provides customers with a simple, clearly defined, and measurable entry into the world of virtualization with OpenShift Virtualization."
+    link: "/en/services/openshift-virtualization-accelerator/"
+    linktext: "Learn more"
+
+  # news:
+  #   title: "News – OpenShift Virtualization Labs"
+  #   text: "Starting in early 2025, our OpenShift Virtualization Lab series will kick off. Learn how containers and virtual machines can be integrated on a single platform."
+  #   link: "/en/labs/"
+  #   linktext: "Read more and register"
 
   # news:
   #   title: "We are tim&koko!"
