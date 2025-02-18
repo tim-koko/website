@@ -13,8 +13,6 @@ form:
   LabelNachricht: "Gibt es noch etwas, das wir wissen müssen?"
 formSelect:
   dates:
-  - option: "13.2.2025 – Bern zmittsdrinn.ch, Casinoplatz 2"
-    value: "bern-2025-02-13"
   - option: "bei zusätzlichen Terminen informieren."
     value: "weitere-daten"
 images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]
@@ -53,7 +51,7 @@ begleiten dich Schritt für Schritt, sodass du die wichtigsten Konzepte und Funk
 
 ### Termine
 
-* 13.2.2025 – 13:30 Bern – zmittsdrinn.ch, Casinoplatz 2
+* aktuell keine weiteren Termine geplant
 
 &nbsp;
 
