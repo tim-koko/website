@@ -2,18 +2,18 @@
 title: "Observability with OpenTelemetry: A Kubernetes-Native Approach"
 slug: "otel-blog"
 description: ""
-date: 2025-01-29T00:00:00+00:00
-lastmod: 2025-01-29T00:00:00+00:00
+date: 2025-02-24T00:00:00+00:00
+lastmod: 2025-02-24T00:00:00+00:00
 draft: false
-images: ["images/blog/cicd-devx/tk-blogpost-cicd-devx-3000x2000.png"]
+images: ["images/blog/otel/tk-blogpost-otel-3000x2000.png"]
 img_border: true
 Sitemap:
-Priority: 0.91
+Priority: 0.9
 
 categories: ["Technologie", "OpenTelemetry", "Kubernetes"]
 authors: ['raffael-hertle']
-post_img: "images/blog/cicd-devx/tk-blogpost-cicd-devx-3000x2000.png"
-lead: "TODO"
+post_img: "images/blog/otel/tk-blogpost-otel-3000x2000.png"
+lead: "Modern Kubernetes platforms are complex, dynamic, and highly distributed. Without a solid observability strategy, detecting and resolving issues can quickly become a challenge. This series provides a comprehensive overview of telemetry signals, how to leverage OpenTelemetry, and best practices for Kubernetes-native environments. The first post kicks things off with an introduction to observability and why it’s essential in 2025. Stay tuned for more in-depth insights and real-world examples in the upcoming posts!"
 ---
 
 ## Why Observability Matters More Than Ever
@@ -47,19 +47,19 @@ OpenTelemetry (OTel) is an open-source observability framework that provides a u
 
 Kubernetes has become the backbone of modern infrastructure, making observability even more critical. Here’s how OpenTelemetry aligns with Kubernetes-native observability in 2025:
 
-### **1\. Instrumentation at Scale**
+### **1. Instrumentation at Scale**
 
 With OpenTelemetry, you can instrument Kubernetes workloads effortlessly. Sidecars, DaemonSets, or the OpenTelemetry Operator enable automatic instrumentation across clusters, reducing the need for manual setup.
 
-### **2\. Centralized Telemetry Collection**
+### **2. Centralized Telemetry Collection**
 
 OpenTelemetry Collector, a key component of OTel, aggregates logs, metrics, and traces from Kubernetes workloads and forwards them to your observability backend (e.g., Prometheus, Jaeger, or Grafana Tempo). This simplifies data collection while optimizing performance.
 
-### **3\. Multi-Cloud & Hybrid Observability**
+### **3. Multi-Cloud & Hybrid Observability**
 
 As organizations embrace multi-cloud and hybrid environments, OpenTelemetry provides a consistent observability layer across different infrastructures, ensuring seamless monitoring regardless of deployment location.
 
-### **4\. Enhanced Debugging with Correlated Data**
+### **4. Enhanced Debugging with Correlated Data**
 
 Using OpenTelemetry, you can correlate logs, metrics, and traces, enabling faster root cause analysis. Imagine an HTTP 500 error—traces help pinpoint the failing service, logs provide error details, and metrics reveal performance degradation.
 

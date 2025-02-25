@@ -2,21 +2,21 @@
 title: "Observability mit OpenTelemetry: Ein Kubernetes-nativer Ansatz"
 slug: "otel-blog"
 description: ""
-date: 2025-01-29T00:00:00+00:00
-lastmod: 2025-01-29T00:00:00+00:00
+date: 2025-02-24T00:00:00+00:00
+lastmod: 2025-02-24T00:00:00+00:00
 draft: false
-images: ["images/blog/cicd-devx/tk-blogpost-cicd-devx-3000x2000.png"]
+images: ["images/blog/otel/tk-blogpost-otel-3000x2000.png"]
 img_border: true
 Sitemap:
-Priority: 0.91
+Priority: 0.9
 
 categories: ["Technologie", "OpenTelemetry", "Kubernetes"]
 authors: ['raffael-hertle']
-post_img: "images/blog/cicd-devx/tk-blogpost-cicd-devx-3000x2000.png"
-lead: "TODO"
+post_img: "images/blog/otel/tk-blogpost-otel-3000x2000.png"
+lead: "Moderne Kubernetes-Plattformen sind komplex, dynamisch und stark verteilt. Ohne eine solide Observierbarkeitsstrategie kann es schnell schwierig werden, Probleme zu erkennen und zu beheben. In dieser Serie gibt es einen umfassenden Überblick über die Grundlagen von Telemetriesignalen, den Einsatz von OpenTelemetry und Best Practices für Kubernetes-native Umgebungen. Den Anfang macht dieser Beitrag mit einer Einführung in das Thema und der Frage, warum Observierbarkeit im Jahr 2025 unverzichtbar ist. Weitere tiefgehende Einblicke und praxisnahe Beispiele folgen in den nächsten Teilen!"
 ---
 
-## Warum Observierbarkeit wichtiger denn je ist
+## Warum Observability wichtiger denn je ist
 
 Moderne Anwendungen sind zunehmend komplex, verteilt und dynamisch. Cloud-native Architekturen, Microservices und Kubernetes-basierte Plattformen bieten enorme Skalierbarkeit und Flexibilität, bringen jedoch auch betriebliche Herausforderungen mit sich. Wie stellt man sicher, dass Anwendungen wie erwartet laufen? Wie diagnostiziert und behebt man Probleme, bevor sie sich auf Benutzer auswirken? Die Antwort liegt in der Observability.
 
@@ -24,7 +24,7 @@ Observability bietet tiefgehende Einblicke in das Systemverhalten durch Telemetr
 
 ## Verständnis der Telemetriesignale
 
-Im Kern basiert Observierbarkeit auf drei primären Telemetriesignalen:
+Im Kern basiert Observability auf drei primären Telemetriesignalen:
 
 * **Logs**: Strukturierte oder unstrukturierte Aufzeichnungen von Ereignissen innerhalb eines Systems. Beispiel: Ein Fehler-Log, das eine fehlgeschlagene Datenbankverbindung dokumentiert.  
 * **Metriken**: Numerische Messwerte, die die Systemleistung über die Zeit darstellen. Beispiel: Die CPU-Auslastung eines Kubernetes-Pods.  
@@ -45,21 +45,21 @@ OpenTelemetry (OTel) ist ein Open-Source-Framework für Observability, das einen
 
 ## OpenTelemetry in einer Kubernetes-zentrierten Welt
 
-Kubernetes ist das Rückgrat moderner Infrastrukturen geworden, wodurch Observierbarkeit noch entscheidender wird. So passt OpenTelemetry zu Kubernetes-nativer Observability im Jahr 2025:
+Kubernetes ist das Rückgrat moderner Infrastrukturen geworden, wodurch Observability noch entscheidender wird. So passt OpenTelemetry zu Kubernetes-nativer Observability im Jahr 2025:
 
 ### 1. Instrumentierung in grossem Massstab
 
 Mit OpenTelemetry können Kubernetes-Workloads mühelos instrumentiert werden. Sidecars, DaemonSets oder der OpenTelemetry Operator ermöglichen eine automatische Instrumentierung über Cluster hinweg, wodurch manueller Aufwand minimiert wird.
 
-### 2 Zentrale Telemetrie-Erfassung
+### 2. Zentrale Telemetrie-Erfassung
 
 Der OpenTelemetry Collector, eine Schlüsselkomponente von OTel, aggregiert Logs, Metriken und Traces von Kubernetes-Workloads und leitet sie an Ihr Observability-Backend (z. B. Prometheus, Jaeger oder Grafana Tempo) weiter. Dies vereinfacht die Datenerfassung und optimiert gleichzeitig die Leistung.
 
-### 3 Multi-Cloud- und Hybrid-Observierbarkeit
+### 3. Multi-Cloud- und Hybrid-Observability
 
 Da Unternehmen zunehmend Multi-Cloud- und hybride Umgebungen nutzen, bietet OpenTelemetry eine konsistente Observability-Schicht über verschiedene Infrastrukturen hinweg und gewährleistet eine nahtlose Überwachung unabhängig vom Bereitstellungsort.
 
-### 4 Erweiterte Fehleranalyse durch korrelierte Daten
+### 4. Erweiterte Fehleranalyse durch korrelierte Daten
 
 Mit OpenTelemetry lassen sich Logs, Metriken und Traces korrelieren, wodurch eine schnellere Ursachenanalyse möglich ist. Beispiel: Ein HTTP-500-Fehler – Traces helfen, den fehlerhaften Service zu identifizieren, Logs liefern Fehlerdetails und Metriken zeigen eine mögliche Leistungsverschlechterung.
 
