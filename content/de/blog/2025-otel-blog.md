@@ -13,8 +13,10 @@ Priority: 0.9
 categories: ["Technologie", "OpenTelemetry", "Kubernetes"]
 authors: ['raffael-hertle']
 post_img: "images/blog/otel/tk-blogpost-otel-3000x2000.png"
-lead: "Moderne Kubernetes-Plattformen sind komplex, dynamisch und stark verteilt. Ohne eine solide Observierbarkeitsstrategie kann es schnell schwierig werden, Probleme zu erkennen und zu beheben. In dieser Serie gibt es einen umfassenden Überblick über die Grundlagen von Telemetriesignalen, den Einsatz von OpenTelemetry und Best Practices für Kubernetes-native Umgebungen. Den Anfang macht dieser Beitrag mit einer Einführung in das Thema und der Frage, warum Observierbarkeit im Jahr 2025 unverzichtbar ist. Weitere tiefgehende Einblicke und praxisnahe Beispiele folgen in den nächsten Teilen!"
+lead: "Moderne Kubernetes-Plattformen sind komplex, dynamisch und stark verteilt. Ohne eine solide Observierbarkeitsstrategie kann es schnell schwierig werden, Probleme zu erkennen und zu beheben."
 ---
+
+In dieser Serie gibt es einen umfassenden Überblick über die Grundlagen von Telemetriesignalen, den Einsatz von OpenTelemetry und Best Practices für Kubernetes-native Umgebungen. Den Anfang macht dieser Beitrag mit einer Einführung in das Thema und der Frage, warum Observierbarkeit im Jahr 2025 unverzichtbar ist. Weitere tiefgehende Einblicke und praxisnahe Beispiele folgen in den nächsten Teilen!
 
 ## Warum Observability wichtiger denn je ist
 

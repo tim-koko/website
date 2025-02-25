@@ -13,8 +13,10 @@ Priority: 0.9
 categories: ["Technologie", "OpenTelemetry", "Kubernetes"]
 authors: ['raffael-hertle']
 post_img: "images/blog/otel/tk-blogpost-otel-3000x2000.png"
-lead: "Modern Kubernetes platforms are complex, dynamic, and highly distributed. Without a solid observability strategy, detecting and resolving issues can quickly become a challenge. This series provides a comprehensive overview of telemetry signals, how to leverage OpenTelemetry, and best practices for Kubernetes-native environments. The first post kicks things off with an introduction to observability and why it’s essential in 2025. Stay tuned for more in-depth insights and real-world examples in the upcoming posts!"
+lead: "Modern Kubernetes platforms are complex, dynamic, and highly distributed. Without a solid observability strategy, detecting and resolving issues can quickly become a challenge. This series provides a comprehensive overview of telemetry signals, how to leverage OpenTelemetry, and best practices for Kubernetes-native environments."
 ---
+
+The first post kicks things off with an introduction to observability and why it’s essential in 2025. Stay tuned for more in-depth insights and real-world examples in the upcoming posts!
 
 ## Why Observability Matters More Than Ever
 
