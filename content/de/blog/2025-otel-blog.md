@@ -83,3 +83,7 @@ Trotz der klaren Vorteile investieren viele Unternehmen noch zu wenig in Observa
 Im Jahr 2025 erfordern Kubernetes-native Umgebungen eine ausgereifte Observabilitystrategie. OpenTelemetry stellt die Werkzeuge bereit, um dies zu erreichen – mit einem standardisierten, skalierbaren und anbieterunabhängigen Ansatz zur Telemetrieerfassung. Die Investition in Observability geht über reine Fehlerbehebung hinaus – sie ermöglicht eine Kultur des proaktiven Systemverständnisses und der Zuverlässigkeit.
 
 Wenn dein Team Observability bisher nicht priorisiert hat, ist jetzt der richtige Zeitpunkt. Dein zukünfitiges Ich (und deine Kunden) werden es dir danken.
+
+## Können wir auch dich unterstützen
+
+Möchtest auch du deine Observability verbessern oder hast du Fragen zum Thema? Dann melde dich bei uns!

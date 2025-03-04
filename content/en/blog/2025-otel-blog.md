@@ -83,3 +83,7 @@ Despite the clear benefits, many organizations still underinvest in observabilit
 In 2025, Kubernetes-native environments demand a mature observability strategy. OpenTelemetry provides the tools to achieve this, offering a standardized, scalable, and vendor-agnostic approach to telemetry collection. Investing in observability is not just about troubleshooting—it’s about enabling a culture of proactive system understanding and reliability.
 
 If your team hasn’t prioritized observability yet, now is the time. Your future self (and your customers) will thank you.
+
+### Can we support you too
+
+Would you also like to improve your observability or do you have questions about the topic? Then contact us!
