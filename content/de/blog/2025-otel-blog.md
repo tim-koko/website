@@ -1,9 +1,9 @@
 ---
 title: "Observability mit OpenTelemetry: Ein Kubernetes-nativer Ansatz"
-slug: "otel-blog"
+slug: "opentelemetry-introduction"
 description: ""
-date: 2025-02-24T00:00:00+00:00
-lastmod: 2025-02-24T00:00:00+00:00
+date: 2025-03-01T00:00:00+00:00
+lastmod: 2025-03-01T00:00:00+00:00
 draft: false
 images: ["images/blog/otel/tk-blogpost-otel-3000x2000.png"]
 img_border: true
@@ -31,6 +31,10 @@ Im Kern basiert Observability auf drei primären Telemetriesignalen:
 * **Logs**: Strukturierte oder unstrukturierte Aufzeichnungen von Ereignissen innerhalb eines Systems. Beispiel: Ein Fehler-Log, das eine fehlgeschlagene Datenbankverbindung dokumentiert.  
 * **Metriken**: Numerische Messwerte, die die Systemleistung über die Zeit darstellen. Beispiel: Die CPU-Auslastung eines Kubernetes-Pods.  
 * **Traces**: Verfolgung verteilter Transaktionen, die zeigen, wie Anfragen durch verschiedene Services fliessen. Beispiel: Der Ablauf einer Anfrage durch mehrere Microservices zur Identifizierung von Engpässen.
+
+{{< custom-image "../images/otel/telemetry-signals.png" >}}
+<br>
+<br>
 
 Einzeln liefern diese Signale wertvolle Informationen, aber in Kombination bieten sie eine ganzheitliche Sicht auf die Systemgesundheit und \-leistung.
 
