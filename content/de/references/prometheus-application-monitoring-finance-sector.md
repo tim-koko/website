@@ -21,8 +21,7 @@ Im Jahr 2024 implementierten wir für eine Schweizer Finanzkundin eine umfassend
 
 ## Über die Kundin
 
-Anonyme Schweizer Kundin
-Systemrelevante Schweizer Bank
+Anonyme Schweizer Kundin: Systemrelevante Schweizer Bank
 
 ## Herausforderung
 

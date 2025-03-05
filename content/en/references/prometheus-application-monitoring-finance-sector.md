@@ -21,8 +21,7 @@ In 2024, we implemented a comprehensive monitoring solution for a Swiss financia
 
 ## About the Client
 
-Anonymous Swiss Client  
-System-relevant Swiss Bank  
+Anonymous Swiss Client: System-relevant Swiss Bank  
 
 ## Challenge
 
