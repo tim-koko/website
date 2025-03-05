@@ -199,9 +199,9 @@
   <div class="col-lg-6 mb-8 mb-lg-12 pe-lg-14" data-scroll>
     <h2 >{{  .title }}</h2> 
   </div>
-{{ range $references := where $.Site.RegularPages "Type" "references" }}
+  {{ $references := where $.Site.RegularPages "Type" "references" }}
+  {{ range first 2 ($references) }}
 
-{{ with $references }}
   <div class="row gy-5 mb-8 position-relative" data-scroll>
     <div class="col-md-6 {{ if .Params.img_border }} needsborder {{ end }}">
 
@@ -213,18 +213,20 @@
     
     <div class="col-md-5 d-flex flex-column">
      <h2 class="h3 mb-4 pe-md-5 me-md-5 mt-auto">{{ .Title }}</h2>
-     <div class="mb-4 mb-lg-8 small">{{ .Params.excerpt }}</div>
+     <div class="mb-4 mb-lg-8 small">{{ .Params.lead }}</div>
      <a class="small stretched-link mb-auto" href="{{ .RelPermalink | safeURL }}">{{ i18n "readMore" }}
        <div class="icon-draw line"><svg xmlns="http://www.w3.org/2000/svg" width="84" height="10" viewBox="0 0 91.45565 10.81185"><path vector-effect="non-scaling-stroke" d="M1.41188,3.81092c30.82411-1.61772,52.39289,5.57187,86.64564,1.56359" fill="none" fill-rule="evenodd" stroke="#99e0bb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg></div>
      </a>
    </div>
-
-  
   </div>
-
   {{ end }}
-{{ end }}
-
+  {{ if $references }}
+  <div class="col-lg-6 mb-8 mb-lg-12 pe-lg-14 d-flex flex-column" data-scroll>
+    <a class="me-auto small" href="{{ relLangURL "/references" }}">{{ i18n "moreReferences" }}
+      <div class="icon-draw line" data-scroll="in"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.68 10"><path d="M1.71 3.12c31.49-.23 53.45 3.32 88.51 2.23"  style="fill:none;stroke:#99e0bb;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/></svg></div>
+    </a>
+  </div>
+  {{ end }}
 </section>
 {{ end }}
 

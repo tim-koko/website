@@ -11,7 +11,7 @@ Priority: 0.3
 client: "Schweizer Bank"
 post_img: "images/projects/tk-prometheus-marktdaten-monitoring-1500x1000.png"
 img_border: true
-excerpt: "Im Jahr 2024 implementierten wir für eine Schweizer Finanzkundin eine umfassende Monitoringlösung für die neue, zentrale Marktdatenplattform. Mit dem OpenShift Monitoring Stack und Prometheus schufen wir eine robuste Lösung zur einheitlichen Überwachung der über mehrere Cluster verteilten Plattform, die technische und fachliche Fehler erkennt und alarmiert sowie die Betriebssicherheit sicherstellt."
+lead: "Im Jahr 2024 implementierten wir für eine Schweizer Finanzkundin eine umfassende Monitoringlösung für die neue, zentrale Marktdatenplattform. Mit dem OpenShift Monitoring Stack und Prometheus schufen wir eine robuste Lösung zur einheitlichen Überwachung der über mehrere Cluster verteilten Plattform, die technische und fachliche Fehler erkennt und alarmiert sowie die Betriebssicherheit sicherstellt."
 techStack: "Red Hat OpenShift, Prometheus, Grafana, Alertmanager, Helm, Argo CD"
 link: ""
 ---

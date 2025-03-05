@@ -10,7 +10,7 @@ Sitemap:
 Priority: 0.3
 client: "Rhätische Bahn"
 post_img: "images/projects/rhb.jpg"
-excerpt: "Nebst virtualisierter Hardware sorgen Bare Metal-Maschinen für die nötige Rechenleistung, um eine Vielzahl unterschiedlicher, für den Bahnbetrieb wichtiger Applikationen auf OpenShift zu betreiben."
+lead: "Nebst virtualisierter Hardware sorgen Bare Metal-Maschinen für die nötige Rechenleistung, um eine Vielzahl unterschiedlicher, für den Bahnbetrieb wichtiger Applikationen auf OpenShift zu betreiben."
 techStack: "OpenShift, Helm, Argo CD, Prometheus, Grafana, Jenkins, OpenTelemetry"
 link: "https://rhb.ch"
 ---

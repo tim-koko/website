@@ -10,7 +10,7 @@ Sitemap:
 Priority: 0.3
 client: "Rhaetian Railway"
 post_img: "images/projects/rhb.jpg"
-excerpt: "In addition to virtualized hardware, bare metal machines provide the necessary computing power to run a variety of different applications crucial for railway operations on OpenShift."
+lead: "In addition to virtualized hardware, bare metal machines provide the necessary computing power to run a variety of different applications crucial for railway operations on OpenShift."
 techStack: "OpenShift, Helm, Argo CD, Prometheus, Grafana, Jenkins, OpenTelemetry"
 link: "https://rhb.ch"
 ---

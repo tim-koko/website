@@ -10,7 +10,7 @@ Sitemap:
 Priority: 0.3
 client: "Adcubum"
 post_img: "images/projects/adcubum.jpg"
-excerpt: "tim&koko is supporting Adcubum on their exciting journey into the cloud."
+lead: "tim&koko is supporting Adcubum on their exciting journey into the cloud."
 techStack: "OpenShift, Helm, Argo CD, Prometheus, Grafana, Jenkins, OpenTelemetry"
 link: "https://www.adcubum.com"
 ---
