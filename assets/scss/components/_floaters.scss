@@ -16,6 +16,14 @@
     left: 0;
   }
 
+  .references:not(.single) & {
+    right: 0;
+  }
+
+  .references.single & {
+    left: 0;
+  }
+
   .hero & {
     right: 7.5rem;
     left: auto;
