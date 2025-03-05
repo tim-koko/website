@@ -203,7 +203,7 @@
 
 {{ with $references }}
   <div class="row gy-5 mb-8 position-relative" data-scroll>
-    <div class="col-md-6">
+    <div class="col-md-6 {{ if .Params.img_border }} needsborder {{ end }}">
 
       {{with .Params.post_img }}
        {{ partial "img-srcset.html" (dict "img" . "size" 500 ) }}
