@@ -18,7 +18,7 @@ lead: "Kubernetes is a powerful system, but managing complex applications often 
 
 Kubernetes is built on a powerful automation model called the **Controller Pattern**, which ensures that the actual state of the cluster always matches the desired state. Every resource in Kubernetes—whether it's a **Deployment**, **Service**, or **ConfigMap**—is continuously managed by a **Controller**. These Controllers operate in a loop, constantly **observing**, **comparing**, and **reconciling** the cluster state.
 
-{{< custom-image "../images/operator-custom-resources/operator-pattern.png" >}}
+{{< svg "assets/images/blog/operator-custom-resources/operator-pattern.svg" >}}
 <br>
 <br>
 

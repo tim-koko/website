@@ -18,7 +18,7 @@ lead: "Kubernetes ist ein leistungsstarkes System, aber komplexe Anwendungen erf
 
 Kubernetes basiert auf einem leistungsstarken Automatisierungsmodell, dem **Controller-Pattern**, das sicherstellt, dass der tatsächliche Zustand des Clusters stets mit dem gewünschten Zustand übereinstimmt. Jede Ressource in Kubernetes—sei es ein **Deployment**, **Service** oder **ConfigMap**—wird kontinuierlich von einem **Controller** verwaltet. Diese Controller arbeiten in einem Loop und führen einen **Observe-, Compare- und Reconcileprozess** durch.
 
-{{< custom-image "../images/operator-custom-resources/operator-pattern.png" >}}
+{{< svg "assets/images/blog/operator-custom-resources/operator-pattern.svg" >}}
 <br>
 <br>
 
