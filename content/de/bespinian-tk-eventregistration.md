@@ -54,7 +54,7 @@ Die Teilnahme ist kostenlos. Mitbringen musst du nur deinen Laptop. Für die Lab
 
 ### Serverless mit bespinian
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+Zusammen spielen wir uns durch die zehn Stufen der Entwicklung und Bereitstellung serverloser Anwendungen. Jede Stufe stellt eine neue Herausforderung dar, der sich Teams stellen müssen, die sich für serverlose Architekturen entscheiden. Das Ziel dieses Tech-Labs ist es, diese Herausforderungen und Fallstricke zu meistern, sodass du ihnen in deinen eigenen Anwendungen nicht mehr begegnen musst. Dabei wenden wir Best Practices an, debuggen und sichern deine serverlosen Anwendungen auf Basis von AWS Lambda und anderen serverlosen Technologien.
 
 ### OpenShift Virtualization mit tim&koko
 
