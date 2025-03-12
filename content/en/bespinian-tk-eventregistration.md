@@ -54,7 +54,7 @@ Participation is free. All you need to bring is your laptop. The labs require an
 
 ### Serverless with bespinian
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+Together, we play through the ten levels of writing and deploying serverless applications. Each level represents a new challenge that teams who decide to go serverless usually face. The goal of this tech lab is that we can work our way through these challenges and caveats so that you don't have to face them in your own applications anymore. By doing so, we'll apply best practices, debug and harden your serverless applications based on AWS Lambda and other serverless technologies.
 
 ### OpenShift Virtualization with tim&koko
 
