@@ -55,8 +55,8 @@ begleiten dich Schritt für Schritt, sodass du die wichtigsten Konzepte und Funk
 
 ### Termine
 
-* 15.5.2025 – Bern
-* 26.6.2025 – Bern
+* 15.5.2025 – 13:30 Uhr, Bern
+* 26.6.2025 – 13:30 Uhr, Bern
 
 &nbsp;
 
