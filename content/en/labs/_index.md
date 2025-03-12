@@ -54,8 +54,8 @@ In this half-day lab, you'll first receive a theoretical introduction to the fun
 
 ### Dates
 
-* 15.5.2025 – Bern
-* 26.6.2025 – Bern
+* 15.5.2025 – 13:30, Bern
+* 26.6.2025 – 13:30, Bern
 
 &nbsp;
 
