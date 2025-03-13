@@ -1,7 +1,6 @@
 ---
 title: "Marktdaten Monitoring neu gedacht: Mit Prometheus zu mehr Betriebssicherheit und tieferen Kosten bei Schweizer Bank"
 description: ""
-lead: ""
 date: 2025-03-13T00:00:00+00:00
 lastmod: 2025-03-13T00:00:00+00:00
 draft: false
@@ -16,8 +15,6 @@ techStack: "Red Hat OpenShift, Prometheus, Grafana, Alertmanager, Helm, Argo CD"
 link: ""
 ---
 
-
-Im Jahr 2024 implementierten wir für eine Schweizer Finanzkundin eine umfassende Monitoringlösung für die neue, zentrale Marktdatenplattform. Mit dem OpenShift Monitoring Stack und Prometheus schufen wir eine robuste Lösung zur einheitlichen Überwachung der über mehrere Cluster verteilten Plattform, die technische und fachliche Fehler erkennt und alarmiert sowie die Betriebssicherheit sicherstellt.
 
 ## Über die Kundin
 
@@ -37,7 +34,7 @@ Um diesen Herausforderungen zu begegnen, setzten wir auf einen standardbasierten
 
 * **OpenShift Monitoring Stack (Prometheus):** Aufbauend auf dem bereits in OpenShift integrierten Monitoring Stack mit Prometheus, Alertmanager und Grafana, wurde eine zentrale Monitoring-Lösung geschaffen.
 * **Helm & ArgoCD:** Das Deployment aller Monitoring Komponenten erfolgte automatisiert und reproduzierbar via ArgoCD und Helm.
-* **Kubernetes & Applikations Monitoring:  Neben generischen Kubernetes Regeln zur Überwachung der Infrastruktur (CPU, Memory, Pod Status etc.) wurden spezifische Service Monitors und Prometheus Rules für jede einzelne Komponente der Marktdatenplattform definiert.
+* **Kubernetes & Applikations Monitoring:**  Neben generischen Kubernetes Regeln zur Überwachung der Infrastruktur (CPU, Memory, Pod Status etc.) wurden spezifische Service Monitors und Prometheus Rules für jede einzelne Komponente der Marktdatenplattform definiert.
 * **Fachliches Monitoring:** Zusätzlich zum technischen Monitoring wurden auch fachliche Metriken in Prometheus integriert. Dies ermöglichte die Überwachung fachlicher Prozesse und die Alarmierung bei fachlichen Fehlern.
 * **AlertmanagerConfig:** Eine komplexe Alertmanager Konfiguration wurde implementiert, um detaillierte Alarmierungsregeln und Mute-Intervalle für die Alarmierung abzubilden. Insgesamt wurden rund 30 Prometheus Rules definiert.
 
