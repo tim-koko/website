@@ -14,11 +14,6 @@ img_border: false
 lead: "Für die Baloise haben wir im Rahmen eines Proof of Concepts (PoC) eine innovative Tracing-Plattform auf Basis von OpenTelemetry und Grafana Tempo entwickelt. Ziel war es, eine Cloud-native Alternative zur bestehenden proprietären Lösung zu evaluieren."
 techStack: "Red Hat OpenShift, OpenTelemetry, Grafana Tempo, Prometheus, Grafana, Thanos, ArgoCD, Helm"
 link: ""
-
-# don't publish the page
-_build:
- list: never
- render: never
 ---
 
 
