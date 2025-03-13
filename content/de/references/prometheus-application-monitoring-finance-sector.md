@@ -2,15 +2,15 @@
 title: "Marktdaten Monitoring neu gedacht: Mit Prometheus zu mehr Betriebssicherheit und tieferen Kosten bei Schweizer Bank"
 description: ""
 lead: ""
-date: 2025-03-04T00:00:00+00:00
-lastmod: 2025-03-04T00:00:00+00:00
+date: 2025-03-13T00:00:00+00:00
+lastmod: 2025-03-13T00:00:00+00:00
 draft: false
-images: ["images/projects/tk-SOME-prometheus-marktdaten-monitoring-1200x630.png"]
+images: ["images/projects/tk-Ref-Banking-1200x630px-og.png"]
 Sitemap:
 Priority: 0.3
 client: "Schweizer Bank"
-post_img: "images/projects/tk-prometheus-marktdaten-monitoring-1500x1000.png"
-img_border: true
+post_img: "images/projects/tk-Ref-Banking-1500x1000px.png"
+img_border: false
 lead: "Im Jahr 2024 implementierten wir für eine Schweizer Finanzkundin eine umfassende Monitoringlösung für die neue, zentrale Marktdatenplattform. Mit dem OpenShift Monitoring Stack und Prometheus schufen wir eine robuste Lösung zur einheitlichen Überwachung der über mehrere Cluster verteilten Plattform, die technische und fachliche Fehler erkennt und alarmiert sowie die Betriebssicherheit sicherstellt."
 techStack: "Red Hat OpenShift, Prometheus, Grafana, Alertmanager, Helm, Argo CD"
 link: ""
@@ -21,7 +21,7 @@ Im Jahr 2024 implementierten wir für eine Schweizer Finanzkundin eine umfassend
 
 ## Über die Kundin
 
-Anonyme Schweizer Kundin: Systemrelevante Schweizer Bank
+Anonyme Schweizer Kundin: Schweizer Bank
 
 ## Herausforderung
 
