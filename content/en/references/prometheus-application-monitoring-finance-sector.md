@@ -5,12 +5,12 @@ lead: ""
 date: 2025-03-04T00:00:00+00:00
 lastmod: 2025-03-04T00:00:00+00:00
 draft: false
-images: ["images/projects/tk-SOME-prometheus-marktdaten-monitoring-1200x630.png"]
+images: ["images/projects/tk-Ref-Banking-1200x630px-og.png"]
 Sitemap:
 Priority: 0.3
 client: "Swiss Bank"
-post_img: "images/projects/tk-prometheus-marktdaten-monitoring-1500x1000.png"
-img_border: true
+post_img: "images/projects/tk-Ref-Banking-1500x1000px.png"
+img_border: false
 lead: "In 2024, we implemented a comprehensive monitoring solution for a Swiss financial client to support their new central market data platform. Utilizing the OpenShift Monitoring Stack and Prometheus, we created a robust solution for unified monitoring across multiple clusters, detecting and alerting on technical and business errors while ensuring operational security."
 techStack: "Red Hat OpenShift, Prometheus, Grafana, Alertmanager, Helm, Argo CD"
 link: ""
@@ -21,7 +21,7 @@ In 2024, we implemented a comprehensive monitoring solution for a Swiss financia
 
 ## About the Client
 
-Anonymous Swiss Client: System-relevant Swiss Bank  
+Anonymous Swiss Client: Swiss Bank  
 
 ## Challenge
 
