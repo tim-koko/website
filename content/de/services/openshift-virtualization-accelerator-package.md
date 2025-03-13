@@ -8,7 +8,7 @@ image: "images/landing-pages/tk-landingpage-labs-1500x600.png"
 date: 2022-10-31T00:00:00+00:00
 lastmod: 2024-08-24T00:00:00+00:00
 draft: false
-blogposts: [ 'kubevirt-introduction', 'kubevirt-training']
+blogposts: [ 'openshift-virtualization', 'kubevirt-training']
 images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]
 Sitemap:
   Priority: 0.3
