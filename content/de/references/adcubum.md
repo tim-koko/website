@@ -5,12 +5,12 @@ lead: ""
 date: 2023-03-29T00:00:00+00:00
 lastmod: 2023-03-29T00:00:00+00:00
 draft: false
-images: []
+images: ["images/projects/adcubum.jpg"]
 Sitemap:
 Priority: 0.3
 client: "Adcubum"
 post_img: "images/projects/adcubum.jpg"
-excerpt: "tim&koko unterstützt Adcubum auf ihrem spannenden Weg in die Cloud."
+lead: "tim&koko unterstützt Adcubum auf ihrem spannenden Weg in die Cloud."
 techStack: "OpenShift, Helm, Argo CD, Prometheus, Grafana, Jenkins, OpenTelemetry"
 link: "https://www.adcubum.com"
 ---

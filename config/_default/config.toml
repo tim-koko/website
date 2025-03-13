@@ -35,7 +35,7 @@ rssLimit = 10
 
     [[languages.de.menu.main]]
     name = "Referenzen"
-    url = "/#references"
+    url = "/references"
     weight = 4
 
     [[languages.de.menu.main]]
@@ -72,7 +72,7 @@ rssLimit = 10
 
     [[languages.en.menu.main]]
     name = "References"
-    url = "/en/#references"
+    url = "/en/references"
     weight = 4
 
     [[languages.en.menu.main]]

@@ -91,6 +91,14 @@
   }
 }
 
+.references .menu-link[href*="references"] {
+  color: #fff;
+
+  @include media-breakpoint-up(lg) {
+    color: $green;
+  }
+}
+
 @media (max-width: 380px) {
   .menu-link {
     font-size: 3rem;
