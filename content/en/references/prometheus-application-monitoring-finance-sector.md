@@ -2,8 +2,8 @@
 title: "Rethinking Market Data Monitoring: Enhanced Operational Security and Cost Reduction with Prometheus at a Swiss Bank"
 description: ""
 lead: ""
-date: 2025-03-04T00:00:00+00:00
-lastmod: 2025-03-04T00:00:00+00:00
+date: 2025-03-13T00:00:00+00:00
+lastmod: 2025-03-13T00:00:00+00:00
 draft: false
 images: ["images/projects/tk-Ref-Banking-1200x630px-og.png"]
 Sitemap:
