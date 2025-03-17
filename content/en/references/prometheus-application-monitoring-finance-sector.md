@@ -12,6 +12,7 @@ post_img: "images/projects/tk-Ref-Banking-1500x1000px.png"
 img_border: false
 lead: "In 2024, we implemented a comprehensive monitoring solution for a Swiss financial client to support their new central market data platform. Utilizing the OpenShift Monitoring Stack and Prometheus, we created a robust solution for unified monitoring across multiple clusters, detecting and alerting on technical and business errors while ensuring operational security."
 techStack: "Red Hat OpenShift, Prometheus, Grafana, Alertmanager, Helm, Argo CD"
+copy: "Photo © iStock"
 link: ""
 ---
 
