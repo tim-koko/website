@@ -27,6 +27,13 @@
       </div>
       {{ end }}
     </div>
+    <div class="col-lg-2">
+      {{with .Params.copy }}
+      <div class="small">
+        {{ . }}
+      </div>
+      {{ end }}
+    </div>
       <div class="col-lg-3 d-flex">
         {{with .Params.link }}
         <div class="small ms-lg-auto">
