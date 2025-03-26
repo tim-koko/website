@@ -15,8 +15,6 @@ formSelect:
   dates:
   - option: "15.5.2025 – Bern"
     value: "bern-2025-05-15"
-  - option: "26.6.2025 – Bern"
-    value: "bern-2025-06-26"
   - option: "bei zusätzlichen Terminen informieren."
     value: "weitere-daten"
 images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]
@@ -56,7 +54,6 @@ begleiten dich Schritt für Schritt, sodass du die wichtigsten Konzepte und Funk
 ### Termine
 
 * 15.5.2025 – 13:30 Uhr, Bern
-* 26.6.2025 – 13:30 Uhr, Bern
 
 &nbsp;
 
