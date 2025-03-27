@@ -121,7 +121,7 @@ about:
   title: "About us – We live Cloud Native"
   text: "<p>At tim&koko, people are at the centre of everything we do. We are committed to a corporate culture characterised by curiosity, co-creation and courage. Our heads may be in the cloud, but our feet are rooted firmly on the ground.</p>"
   persons:
-     - name: "Marie Steck"
+    - name: "Marie Steck"
       title: "Project Manager"
       img: "images/team/marie.jpg"
       linkedin: "https://www.linkedin.com/in/marie-steck-2476b2338/"
