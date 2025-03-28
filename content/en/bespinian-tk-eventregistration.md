@@ -24,6 +24,13 @@ images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]
 img_border: false
 Sitemap:
   Priority: 0.3
+
+
+# don't publish the page
+_build:
+ list: never
+ render: never
+
 ---
 
 Excited for thrilling tech talks, hands-on labs, and a party that brings people together?
