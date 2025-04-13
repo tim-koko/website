@@ -16,6 +16,11 @@ images: ["images/landing-pages/tk-landingpage-kubetrain-1200x630.png"]
 img_border: true
 Sitemap:
   Priority: 0.3
+
+# don't publish the page
+_build:
+ list: never
+ render: never
 ---
 
 ## Join Us for a Pre-Apéro Before Boarding the KubeTrain in Paris!

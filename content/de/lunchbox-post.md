@@ -34,6 +34,11 @@ images:
   - "images/landing-pages/tk-puzzle-lunchbag-post-1500x1000.png"
 Sitemap:
   Priority: 0.3
+
+# don't publish the page
+_build:
+ list: never
+ render: never
 ---
 
 
