@@ -27,18 +27,19 @@
       </div>
       {{ end }}
     </div>
-    <div class="col-lg-2">
-      {{with .Params.copy }}
-      <div class="small">
-        {{ . }}
-      </div>
-      {{ end }}
-    </div>
+    
       <div class="col-lg-2 d-flex">
         {{with .Params.link }}
         <div class="small ms-lg-auto">
           <div class="text-secondary">Link</div> 
           <a href="{{ . }}" target="_blank" rel="noopener">{{ replace . "https://" "" }}</a>
+        </div>
+        {{ end }}
+      </div>
+      <div class="col-lg-2  d-flex">
+        {{with .Params.copy }}
+        <div class="small  ms-lg-auto">
+          {{ . }}
         </div>
         {{ end }}
       </div>
