@@ -10,7 +10,7 @@
 
   <div class="row gy-4 mb-10 mb-lg-28">
     
-    <div class="col-lg-7">
+    <div class="col-lg-5">
       {{with .Params.client }}
       <div class="mb-4 small">
         <div class="text-secondary">Client</div> 
@@ -19,7 +19,7 @@
       {{ end }}
       <a class="extra-small mb-2 me-2 px-3 py-1 border border-2 border-light rounded-pill" href="{{ relLangURL "/references" }}">{{ i18n "referenzen" }}</a>
     </div>
-    <div class="col-lg-2">
+    <div class="col-lg-3">
       {{with .Params.techStack }}
       <div class="small">
         <div class="text-secondary">Tech Stack</div> 
@@ -27,18 +27,19 @@
       </div>
       {{ end }}
     </div>
-    <div class="col-lg-2">
-      {{with .Params.copy }}
-      <div class="small">
-        {{ . }}
-      </div>
-      {{ end }}
-    </div>
-      <div class="col-lg-3 d-flex">
+    
+      <div class="col-lg-2 d-flex">
         {{with .Params.link }}
         <div class="small ms-lg-auto">
           <div class="text-secondary">Link</div> 
           <a href="{{ . }}" target="_blank" rel="noopener">{{ replace . "https://" "" }}</a>
+        </div>
+        {{ end }}
+      </div>
+      <div class="col-lg-2  d-flex">
+        {{with .Params.copy }}
+        <div class="small  ms-lg-auto">
+          {{ . }}
         </div>
         {{ end }}
       </div>

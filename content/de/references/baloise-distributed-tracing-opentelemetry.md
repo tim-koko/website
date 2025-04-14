@@ -1,28 +1,24 @@
 ---
-title: "Baloise - Distributed Tracing Plattform PoC auf Basis von OpenTelemetry und Grafana Tempo"
+title: "Baloise – Distributed Tracing Plattform PoC auf Basis von OpenTelemetry und Grafana Tempo"
 description: ""
 lead: ""
-date: 2025-03-04T00:00:00+00:00
-lastmod: 2025-03-04T00:00:00+00:00
+date: 2025-04-14T00:00:00+00:00
+lastmod: 2025-04-14T00:00:00+00:00
 draft: false
-images: ["images/landing-pages/tk-giveaway-2024-1500x1000.png"]
+images: ["images/projects/tk-Ref-Baloise-OtelPoc-1200x630px-og.png"]
 Sitemap:
 Priority: 0.3
 client: "Baloise"
-post_img: "images/landing-pages/tk-giveaway-2024-1500x1000.png"
+post_img: "images/projects/tk-Ref-Baloise-OtelPoc-1500x1000px.png"
 img_border: false
 lead: "Für die Baloise haben wir im Rahmen eines Proof of Concepts (PoC) eine innovative Tracing-Plattform auf Basis von OpenTelemetry und Grafana Tempo entwickelt. Ziel war es, eine Cloud-native Alternative zur bestehenden proprietären Lösung zu evaluieren."
 techStack: "Red Hat OpenShift, OpenTelemetry, Grafana Tempo, Prometheus, Grafana, Thanos, ArgoCD, Helm"
-link: ""
-
-# don't publish the page
-_build:
- list: never
- render: never
+copy: "Bild © Baloise, Ralph Dinkel"
+link: "https://baloise.com"
 ---
 
 
-Für die Baloise haben wir im Rahmen eines Proof of Concepts (PoC) eine innovative Tracing-Plattform auf Basis von OpenTelemetry und Grafana Tempo entwickelt. Ziel war es, eine Cloud-native Alternative zur bestehenden proprietären Lösung zu evaluieren. Der PoC bestätigte erfolgreich, dass der Open-Source-Stack die hohen Anforderungen der Baloise erfüllt, eine nahtlose Integration in die bestehende Observability-Infrastruktur ermöglicht und die Grundlage für ein vereinfachtes Tracing-Onboarding der Entwicklungsteams schafft. Durch die Expertise von tim&koko konnte die Baloise wertvolle Erkenntnisse gewinnen und den Grundstein für eine moderne, skalierbare und kosteneffiziente Tracing-Strategie legen.
+Der PoC bestätigte erfolgreich, dass der Open-Source-Stack die hohen Anforderungen der Baloise erfüllt, eine nahtlose Integration in die bestehende Observability-Infrastruktur ermöglicht und die Grundlage für ein vereinfachtes Tracing-Onboarding der Entwicklungsteams schafft. Durch die Expertise von tim&koko konnte die Baloise wertvolle Erkenntnisse gewinnen und den Grundstein für eine moderne, skalierbare und kosteneffiziente Tracing-Strategie legen.
 
 ## Über die Kundin
 
@@ -64,9 +60,9 @@ In Kooperation mit tim&koko initiierte Baloise einen Proof of Concept (PoC) zur 
 
 ## Kundenstatement
 
-“Ich möchte euch nochmals für die exzellente Unterstützung danken. Ich denke wir wären nicht so schnell so weit gekommen ohne euch, wenn überhaupt.”
+«Ich möchte euch nochmals für die exzellente Unterstützung danken. Ich denke wir wären nicht so schnell so weit gekommen ohne euch, wenn überhaupt.»
 
-Michael Mühlebach & Product Owner
+**Michael Mühlebach**, Product Owner IT-Services
 
 ## Fazit & Lessons Learned
 
