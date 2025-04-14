@@ -3,7 +3,7 @@ title: "Migration von ZooKeeper basierten Kafka-Clustern zu KRaft"
 slug: "kafka-zookeeper-kraft-migration"
 description: ""
 date: 2024-05-16T00:00:00+00:00
-lastmod: 2024-05-16T00:00:00+00:00
+lastmod: 2025-04-10T00:00:00+00:00
 draft: false
 images: ["images/blog/kraft/tk-blogpost-01_kraft_share-image.jpg"]
 Sitemap:
@@ -70,8 +70,8 @@ empfohlen.
 
 Seit mehr als einem Jahr und der Einführung von Kafka 3.3 sind KRaft basierte Kafka-Cluster produktionsreif. Der
 zu Beginn fehlende Migrationspfad von ZooKeeper zu KRaft wurde mit der Version 3.6 nachgeliefert. ZooKeeper wurde
-bereits offiziell als Deprecated markiert und der erste Release von Kafka 4.0 ohne ZooKeeper wird noch im Jahr 2024
-erwartet. Es ist zu erwarten, dass nach der letzten Version mit ZooKeeper-Unterstützung noch während 12 Monaten
+bereits offiziell als Deprecated markiert und der erste Release von Kafka 4.0 ist im März 2025
+erschienen. Es ist zu erwarten, dass nach der letzten Version mit ZooKeeper-Unterstützung noch während 12 Monaten
 kritische Bugfixes für ZooKeeper basierte Cluster ausgeliefert werden.
 
 {{< svg "assets/images/blog/kraft/kafka-kraft-migration-timeline.svg" >}}
@@ -84,7 +84,7 @@ kritische Bugfixes für ZooKeeper basierte Cluster ausgeliefert werden.
 
 Die Migration von ZooKeeper zu KRaft muss durch einen Bridge Release erfolgen. Dies sind Releases, die einerseits den
 ZooKeeper und KRaft Modus unterstützen sowie Tooling für die Migration beinhalten. Da Kafka 4.0 ZooKeeper nicht mehr
-unterstützt und 3.8 die letzten Features für Kafka 3 liefert, muss eine Migration also zwischen Version 3.6.2 und 3.8
+unterstützt und 3.9 die letzten Features für Kafka 3 liefert, muss eine Migration also zwischen Version 3.6.2 und 3.9
 erfolgen.
 
 {{< svg "assets/images/blog/kraft/kafka-kraft-migration-releases.svg" >}}
