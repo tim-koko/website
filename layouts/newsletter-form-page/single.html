@@ -1,0 +1,57 @@
+{{ define "main" }}
+<div class="container-fluid  pt-25 pt-lg-30">
+
+
+  {{ with .Params.image }}
+  <div class="mb-10 mb-lg-20">
+    {{ partial "img-srcset.html" (dict "img" . "size" 1200) }}
+  </div>
+  {{ end }}
+
+
+  <div class="row">
+
+    <div class="col-lg-5">
+
+      {{ with .Params.smallTitle}}
+      <div class="bigger mb-4">{{ . }}</div>
+      {{ end }}
+      <h1 class="mb-5 mb-md-8">{{ .Params.titleVisible }}{{ with .Params.titleSublineVisible}}<br><span>{{ . }}</span>{{ end }}</h1>
+      {{ .Content }}
+
+    </div>
+    <div class="col-lg-6 offset-lg-1 pt-4">
+      <form  name="Newsletter" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" >
+        <input type="hidden" name="bot-field" />
+        <input type="hidden" name="form-name" value="Newsletter" />
+
+        <div class="row ">
+          <div class="col-md-6">
+            <div class="mb-6 form-floating">
+              <input type="text" class="form-control" id="first-name" name="first-name" placeholder="{{ i18n "gibDeinVornameEin" }}" required />
+              <label for="first-name">{{ i18n "vorname" }}</label>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="mb-6 form-floating">
+              <input type="text" class="form-control" id="last-name" name="last-name" placeholder="{{ i18n "gibDeinNachnameEin" }}" required />
+              <label for="last-name">{{ i18n "nachname" }}</label>
+            </div>
+          </div>
+
+        </div>
+        <div class="mb-6 form-floating">
+          <input type="email" class="form-control" id="email" name="email" placeholder="{{ i18n "gibDeineEmailEin" }}" required />
+          <label for="email">{{ i18n "email" }}</label>
+        </div>
+
+        <button type="submit" class="btn btn-outline-light rounded-pill px-3  border-1"  >{{ i18n "anmelden" }}</button>
+        <div class="message-success d-none">{{ i18n "messageSuccess" }}</div>
+        <div class="message-error d-none">{{ i18n "messageError" }}</div>
+
+
+    </div>
+  </div>
+</div>
+{{ end }}
