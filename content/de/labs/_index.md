@@ -23,9 +23,9 @@ Sitemap:
 
 
 # # don't publish the page
-# _build:
-#  list: never
-#  render: never
+_build:
+ list: never
+ render: never
 ---
 
 

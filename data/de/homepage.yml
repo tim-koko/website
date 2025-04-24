@@ -16,17 +16,17 @@ hero:
   linktext: ""
 
   
-  # news:
-  #   title: "News – OpenShift Virtualization Accelerator-Paket"
-  #   text: "Unser OpenShift Virtualization Accelerator-Paket bietet Kund:innen einen einfachen, klar definierten und messbaren Einstieg in die Welt der Virtualisierung mit OpenShift Virtualization."
-  #   link: "/services/openshift-virtualization-accelerator/"
-  #   linktext: "Mehr erfahren"
-  
   news:
-    title: "News – OpenShift Virtualization Labs"
-    text: "Anfangs 2025 startet unsere OpenShift Virtualization Lab Serie. Erfahre, wie Container und virtuelle Maschinen auf einer Plattform integriert werden können."
-    link: "/labs/"
-    linktext: "Mehr erfahren und anmelden"
+    title: "News – OpenShift Virtualization Accelerator-Paket"
+    text: "Unser OpenShift Virtualization Accelerator-Paket bietet Kund:innen einen einfachen, klar definierten und messbaren Einstieg in die Welt der Virtualisierung mit OpenShift Virtualization."
+    link: "/services/openshift-virtualization-accelerator/"
+    linktext: "Mehr erfahren"
+  
+  # news:
+  #   title: "News – OpenShift Virtualization Labs"
+  #   text: "Anfangs 2025 startet unsere OpenShift Virtualization Lab Serie. Erfahre, wie Container und virtuelle Maschinen auf einer Plattform integriert werden können."
+  #   link: "/labs/"
+  #   linktext: "Mehr erfahren und anmelden"
   
   # news:
   #   title: "Wir sind tim&koko!"
