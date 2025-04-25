@@ -28,6 +28,7 @@
     "lint:markdown": "markdownlint-cli2 \"*.md\" \"content/**/*.md\"",
     "lint:markdown-fix": "markdownlint-cli2-fix \"*.md\" \"content/**/*.md\"",
     "server": "exec-bin node_modules/.bin/hugo/hugo server",
+    "server:no-cache": "exec-bin node_modules/.bin/hugo/hugo server --disableFastRender",
     "test": "npm run -s lint",
     "env": "env",
     "precheck": "npm version",

@@ -11,14 +11,27 @@
 
   <div class="row">
     <div class="col-lg-1"></div>
+    {{ if not .Params.formSelect.dates }}
     <div class="col-lg-10">
- 
+    
+      {{ with .Params.smallTitle}}
+        <div class="bigger mb-4">{{ . }}</div>
+      {{ end }}
+      <h1 class="mb-5 mb-md-8">{{ .Params.titleVisible }}{{ with .Params.titleSublineVisible}}<br><span>{{ . }}</span>{{ end }}</h1>
+
+      {{ .Params.noLabsText}}
+      <br>
+      <br>
+    </div>
+    {{ else }}
+    <div class="col-lg-10">
         {{ with .Params.smallTitle}}
           <div class="bigger mb-4">{{ . }}</div>
         {{ end }}
         <h1 class="mb-5 mb-md-8">{{ .Params.titleVisible }}{{ with .Params.titleSublineVisible}}<br><span>{{ . }}</span>{{ end }}</h1>
         {{ .Content }}
     </div>
+    {{ end }}
     <div class="col-lg-1"></div>
     <div class="col-lg-2"></div>
     <div class="col-lg-8 pt-10">
@@ -47,6 +60,7 @@
         <input type="email" class="form-control" id="email" name="email" placeholder="{{ i18n "gibDeineEmailEin" }}" required />
         <label for="email">{{ i18n "email" }}</label>
       </div>
+      {{ if .Params.formSelect.dates }}
       <div class="mb-6 form-floating">
         <textarea class="form-control textarea" id="message" name="message" rows="5" style="height: 100px" placeholder="{{ i18n "gibDeineNachrichtEin" }}"></textarea>
         <label for="message">{{ or .Params.form.LabelNachricht (i18n "nachricht") }}</label>
@@ -64,6 +78,7 @@
           </label>
         </div>
       </div>
+      {{ end }}
       <div class="mb-6">
         <div class="form-check">
           <input class="form-check-input" type="checkbox" value="" id="agbCheck" required>
