@@ -12,11 +12,8 @@ netlifyFormname: "lab-registration"
 form:
   LabelNachricht: "Gibt es noch etwas, das wir wissen müssen?"
 formSelect:
-  dates:
-  - option: "15.5.2025 – Bern"
-    value: "bern-2025-05-15"
-  - option: "bei zusätzlichen Terminen informieren."
-    value: "weitere-daten"
+  dates: null
+noLabsText: "Momentan sind keine weiteren Durchführungen geplant. Melde dich für unseren Newsletter an, um keine News zu verpassen!"
 images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]
 Sitemap:
   Priority: 0.3

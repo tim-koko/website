@@ -13,20 +13,16 @@ netlifyFormname: "lab-registration"
 form:
   LabelNachricht: "Something we should know?"
 formSelect:
-  dates:
-  - option: "15.5.2025 – Bern"
-    value: "bern-2025-05-15"
-  - option: "inform me about additional dates"
-    value: "weitere-daten"
+  dates: null
+noLabsText: "Currently there are no upcoming labs. Subscribe to our newsletter to stay in the loop!"
 images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]
 Sitemap:
   Priority: 0.3
 
-
 # # don't publish the page
 # _build:
-#  list: never
-#  render: never
+#   list: never
+#   render: never
 ---
 
 
