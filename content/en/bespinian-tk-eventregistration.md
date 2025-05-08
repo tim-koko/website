@@ -32,7 +32,7 @@ Excited for thrilling tech talks, hands-on labs, and a party that brings people 
 
 We – [bespinian](https://bespinian.ch) & [tim&koko](https://tim-koko.ch/) – are joining forces to unite not only our expertise but also the cloud community. Together, we create a space for inspiration, exchange, and plenty of networking.  
 
-📅 **November 30, 2025**  
+📅 **October 30, 2025**  
 
 🔧 **Hands-on Labs starting 2pm**  
 
