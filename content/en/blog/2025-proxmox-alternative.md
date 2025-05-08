@@ -5,14 +5,14 @@ description: ""
 date: 2025-04-23T00:00:00+00:00
 lastmod: 2025-04-23T00:00:00+00:00
 draft: false
-images: ["images/blog/proxmox/proxmox-blog-3000x2000.png"]
+images: ["images/blog/proxmox/tk-blogpost-proxmox-1200x630.png"]
 Sitemap:
 Priority: 0.92
 
 categories: ["Technologie", "OpenTelemetry", "Kubernetes"]
 authors: ['raffael-hertle']
 
-post_img: "images/blog/proxmox/proxmox-blog-3000x2000.png"
+post_img: "images/blog/proxmox/tk-blogpost-proxmox-1500x1000.png"
 img_border: true
 lead: "The enterprise virtualization landscape is shifting. With rising costs and tighter licensing models, organizations are re-evaluating their long-standing reliance on VMware. For many, it's no longer just a question of price—it's about flexibility, control, and avoiding vendor lock-in."
 # don't publish the page

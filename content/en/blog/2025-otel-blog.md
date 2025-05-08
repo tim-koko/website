@@ -5,14 +5,14 @@ description: ""
 date: 2025-03-01T00:00:00+00:00
 lastmod: 2025-03-01T00:00:00+00:00
 draft: false
-images: ["images/blog/otel/tk-blogpost-otel-3000x2000.png"]
+images: ["images/blog/otel/tk-blogpost-otel-1200x630.png"]
 img_border: true
 Sitemap:
 Priority: 0.9
 
 categories: ["Technologie", "OpenTelemetry", "Kubernetes"]
 authors: ['raffael-hertle']
-post_img: "images/blog/otel/tk-blogpost-otel-3000x2000.png"
+post_img: "images/blog/otel/tk-blogpost-otel-1500x1000.png"
 lead: "Modern Kubernetes platforms are complex, dynamic, and highly distributed. Without a solid observability strategy, detecting and resolving issues can quickly become a challenge. This series provides a comprehensive overview of telemetry signals, how to leverage OpenTelemetry, and best practices for Kubernetes-native environments."
 ---
 
@@ -28,8 +28,8 @@ Observability provides deep insights into system behavior through telemetry data
 
 At its core, observability is built upon three primary telemetry signals:
 
-* **Logs**: Structured or unstructured records of events within a system. Example: An error log indicating a failed database connection.  
-* **Metrics**: Numeric measurements representing system performance over time. Example: CPU utilization of a Kubernetes pod.  
+* **Logs**: Structured or unstructured records of events within a system. Example: An error log indicating a failed database connection.
+* **Metrics**: Numeric measurements representing system performance over time. Example: CPU utilization of a Kubernetes pod.
 * **Traces**: Distributed transaction tracking, showing how requests propagate across services. Example: A request flow across multiple microservices, identifying bottlenecks.
 
 {{< custom-image "../images/otel/telemetry-signals.png" >}}
@@ -44,9 +44,9 @@ OpenTelemetry (OTel) is an open-source observability framework that provides a u
 
 ### **Key Features of OpenTelemetry:**
 
-* **Vendor-Neutral**: Avoid vendor lock-in by using standardized APIs and SDKs.  
-* **Unified Instrumentation**: Collect logs, metrics, and traces with a single framework.  
-* **Extensive Ecosystem Support**: Works with major programming languages and observability backends.  
+* **Vendor-Neutral**: Avoid vendor lock-in by using standardized APIs and SDKs.
+* **Unified Instrumentation**: Collect logs, metrics, and traces with a single framework.
+* **Extensive Ecosystem Support**: Works with major programming languages and observability backends.
 * **Automatic Instrumentation**: Easily integrate with popular frameworks without modifying code.
 
 ## OpenTelemetry in a Kubernetes-Centric World
@@ -73,9 +73,9 @@ Using OpenTelemetry, you can correlate logs, metrics, and traces, enabling faste
 
 Despite the clear benefits, many organizations still underinvest in observability. The result? Increased downtime, prolonged incident resolution, and frustrated engineers. By adopting OpenTelemetry, organizations can:
 
-* Reduce Mean Time to Resolution (MTTR) for incidents.  
-* Enhance system reliability and customer satisfaction.  
-* Lower operational costs by optimizing resource usage.  
+* Reduce Mean Time to Resolution (MTTR) for incidents.
+* Enhance system reliability and customer satisfaction.
+* Lower operational costs by optimizing resource usage.
 * Gain insights into performance bottlenecks before they impact users.
 
 ## Conclusion: The Future is Observability-Driven

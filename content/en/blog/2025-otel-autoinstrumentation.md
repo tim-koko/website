@@ -5,14 +5,14 @@ description: ""
 date: 2025-04-23T00:00:00+00:00
 lastmod: 2025-04-23T00:00:00+00:00
 draft: false
-images: ["images/blog/otel/tk-blogpost-otel-3000x2000.png"]
+images: ["images/blog/otel/tk-blogpost-otel-1200x630.png"]
 Sitemap:
 Priority: 0.92
 
 categories: ["Technologie", "OpenTelemetry", "Kubernetes"]
 authors: ['raffael-hertle']
 
-post_img: "images/blog/otel/tk-blogpost-otel-3000x2000.png"
+post_img: "images/blog/otel/tk-blogpost-otel-1500x1000.png"
 img_border: true
 lead: "As part of our ongoing series exploring the OpenTelemetry ecosystem in Kubernetes-native environments, today we’ll look under the hood at one of its most powerful features: **auto instrumentation for applications via the OpenTelemetry Operator**."
 # don't publish the page

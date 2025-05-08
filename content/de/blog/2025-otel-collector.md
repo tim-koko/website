@@ -5,14 +5,14 @@ description: ""
 date: 2025-05-08T00:00:00+00:00
 lastmod: 2025-05-08T00:00:00+00:00
 draft: false
-images: ["images/blog/otel/tk-blogpost-otel-3000x2000.png"]
+images: ["images/blog/otel/tk-blogpost-otel-1200x630.png"]
 Sitemap:
 Priority: 0.92
 
 categories: ["Technologie", "OpenTelemetry", "Kubernetes"]
 authors: ['raffael-hertle']
 
-post_img: "images/blog/otel/tk-blogpost-otel-3000x2000.png"
+post_img: "images/blog/otel/tk-blogpost-otel-1500x1000.png"
 img_border: true
 lead: "Im Rahmen der vertieften Auseinandersetzung mit OpenTelemetry folgt nun ein Blick auf eine zentrale Komponente: den OpenTelemetry Collector. Dieser spielt eine entscheidende Rolle innerhalb der Architektur und stellt einen zentralen Dienst zur Verfügung, der Telemetriedaten empfangen, verarbeiten und weiterleiten kann. In Kubernetes-Umgebungen erleichtert der OpenTelemetry Operator die Bereitstellung und Verwaltung dieses Collectors erheblich."
 ---

@@ -5,14 +5,14 @@ description: ""
 date: 2025-04-23T00:00:00+00:00
 lastmod: 2025-04-23T00:00:00+00:00
 draft: false
-images: ["images/blog/otel/tk-blogpost-otel-3000x2000.png"]
+images: ["images/blog/otel/tk-blogpost-otel-1200x630.png"]
 Sitemap:
 Priority: 0.92
 
 categories: ["Technologie", "OpenTelemetry", "Kubernetes"]
 authors: ['raffael-hertle']
 
-post_img: "images/blog/otel/tk-blogpost-otel-3000x2000.png"
+post_img: "images/blog/otel/tk-blogpost-otel-1500x1000.png"
 img_border: true
 lead: "Im Rahmen der Blogserie rund um das OpenTelemetry-Ökosystem in Kubernetes-nativen Umgebungen wird in diesem Beitrag ein besonders hilfreiches Feature unter die Lupe genommen: die Auto-Instrumentierung von Java-Applikationen mittels des OpenTelemetry Operators."
 # don't publish the page
