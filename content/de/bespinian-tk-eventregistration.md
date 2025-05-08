@@ -26,22 +26,17 @@ Sitemap:
   Priority: 0.3
 
 
-# don't publish the page
-_build:
- list: never
- render: never
-
 ---
 
 Lust auf spannende Tech-Talks, praxisnahe Labs und eine Party, die verbindet?
 
 Wir – [bespinian](https://bespinian.ch) & [tim&koko](https://tim-koko.ch/) – tun uns zusammen, um nicht nur unsere Kräfte, sondern auch die Cloud-Community zu vereinen. Gemeinsam schaffen wir Raum für Inspiration, Austausch und jede Menge Networking.
 
-📅 **26.06.2025**
+📅 **30.10.2025**
 
 🔧 **Hands-on Labs ab 14:00 Uhr**
 
-👾 **Ab 17:00 ab zur Party in der JAIL Bar (Gerechtigkeitsgasse 53)**
+👾 **Ab 17:30 ab zur Party in der JAIL Bar (Gerechtigkeitsgasse 53)**
 
 * Leckeres Essen und Getränke zum Anstossen
 * Lockere Atmosphäre
