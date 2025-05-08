@@ -13,7 +13,11 @@ netlifyFormname: "lab-registration"
 form:
   LabelNachricht: "Something we should know?"
 formSelect:
-  dates: null
+  dates: #null
+  - option: "30.10.2025 – Bern"
+    value: "bern-2025-10-30"
+  - option: "bei zusätzlichen Terminen informieren."
+    value: "weitere-daten"
 noLabsText: "Currently there are no upcoming labs. Subscribe to our newsletter to stay in the loop!"
 images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]
 Sitemap:
@@ -48,7 +52,7 @@ In this half-day lab, you'll first receive a theoretical introduction to the fun
 
 ### Dates
 
-* 15.5.2025 – 13:30, Bern
+* 30.10.2025 – 13:30, Bern
 
 &nbsp;
 
