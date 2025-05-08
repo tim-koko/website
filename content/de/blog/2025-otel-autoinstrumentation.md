@@ -17,8 +17,8 @@ img_border: true
 lead: "Im Rahmen der Blogserie rund um das OpenTelemetry-Ökosystem in Kubernetes-nativen Umgebungen wird in diesem Beitrag ein besonders hilfreiches Feature unter die Lupe genommen: die Auto-Instrumentierung von Java-Applikationen mittels des OpenTelemetry Operators."
 # don't publish the page
 _build:
- list: never
- render: never
+  list: never
+  render: never
 ---
 
 Der Fokus liegt dabei auf der Funktionsweise der Java-Auto-Instrumentierung und ihrer nahtlosen Integration in Kubernetes-basierte Workflows.

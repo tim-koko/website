@@ -17,8 +17,8 @@ img_border: true
 lead: "As part of our ongoing series exploring the OpenTelemetry ecosystem in Kubernetes-native environments, today we’ll look under the hood at one of its most powerful features: **auto instrumentation for applications via the OpenTelemetry Operator**."
 # don't publish the page
 _build:
- list: never
- render: never
+  list: never
+  render: never
 ---
 
 If you're already familiar with the OpenTelemetry Operator and what it brings to the table (if not, check out [our previous post on Operators and Custom Resources](http://tim-koko.ch/blog/operators-custom-resources/)), this post will focus specifically on **how Java auto instrumentation works**, and how it integrates seamlessly in a Kubernetes workflow.

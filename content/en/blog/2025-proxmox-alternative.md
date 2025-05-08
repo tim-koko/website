@@ -16,9 +16,9 @@ post_img: "images/blog/proxmox/proxmox-blog-3000x2000.png"
 img_border: true
 lead: "The enterprise virtualization landscape is shifting. With rising costs and tighter licensing models, organizations are re-evaluating their long-standing reliance on VMware. For many, it's no longer just a question of price—it's about flexibility, control, and avoiding vendor lock-in."
 # don't publish the page
-# _build:
-#  list: never
-#  render: never
+_build:
+  list: never
+  render: never
 ---
 
 Even in the era of cloud-native computing and Kubernetes, **virtual machines remain a critical part of enterprise infrastructure**. Many workloads are not yet containerized, and some may never be, due to legacy application constraints, licensing limitations, or performance characteristics. VMs continue to provide strong isolation, predictable performance, and support for traditional operational models. As such, finding a robust, future-proof virtualization platform remains essential.

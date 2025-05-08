@@ -16,9 +16,9 @@ post_img: "images/blog/proxmox/proxmox-blog-3000x2000.png"
 img_border: true
 lead: "Die Virtualisierungslandschaft im Enterprise-Umfeld befindet sich im Wandel. Mit steigenden Kosten und restriktiveren Lizenzmodellen wird die langjährige Abhängigkeit von VMware zunehmend hinterfragt. Dabei geht es längst nicht mehr nur um finanzielle Aspekte, sondern um Flexibilität, Kontrolle und das Vermeiden von Vendor-Lock-in."
 # don't publish the page
-# _build:
-#  list: never
-#  render: never
+_build:
+  list: never
+  render: never
 ---
 
 

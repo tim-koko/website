@@ -2,8 +2,8 @@
 title: "Understanding OpenTelemetry Collectors in Kubernetes"
 slug: "otel-collector"
 description: ""
-date: 2025-04-23T00:00:00+00:00
-lastmod: 2025-04-23T00:00:00+00:00
+date: 2025-05-08T00:00:00+00:00
+lastmod: 2025-05-08T00:00:00+00:00
 draft: false
 images: ["images/blog/otel/tk-blogpost-otel-3000x2000.png"]
 Sitemap:
@@ -15,10 +15,6 @@ authors: ['raffael-hertle']
 post_img: "images/blog/otel/tk-blogpost-otel-3000x2000.png"
 img_border: true
 lead: "As part of our deep dive into OpenTelemetry, we now turn our attention to the OpenTelemetry Collector. The Collector is a crucial component in OpenTelemetry’s architecture, providing a centralized mechanism to receive, process, and export telemetry data. In a Kubernetes-native environment, the OpenTelemetry Operator simplifies the deployment and management of the Collector."
-# don't publish the page
-_build:
- list: never
- render: never
 ---
 
 ### What is the OpenTelemetry Collector?
