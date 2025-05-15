@@ -31,7 +31,7 @@ The name tim&koko wasn’t chosen by chance. It’s inspired by the female goril
 In the tech world, we’re fluent in many “languages” and of course English – the lingua franca of the IT world. And as a company based in Bern, we also speak Swiss German – and yes, even High German when necessary. 😉
 But there’s more. We’re fascinated by languages not just in our work, but in our private lives as well. As a team, we speak a total of ten different languages.
 
-Admittedly, apart from Sarah, who once lived and worked in Geneva, our French is a bit rusty, but we still manage – at the very least, we can always order a beer. 
+Admittedly, apart from Sarah, who once lived and worked in Geneva, our French is a bit rusty, but we still manage – at the very least, we can always order a beer.
 
 ### Dutch, Swedish, Italian, Greek, Spanish, and Indonesian
 
