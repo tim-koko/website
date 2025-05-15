@@ -21,7 +21,6 @@ _build:
   render: never
 ---
 
-
 ### Our Name, Our Philosophy
 
 The name tim&koko wasn’t chosen by chance. It’s inspired by the female gorilla Koko, who famously learned to communicate using sign language, demonstrating just how powerful and connective language can be. This kind of connection is what we strive for – not just technically. For us, communication on equal footing is more than just a marketing promise – it’s part of our everyday work.
