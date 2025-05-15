@@ -31,7 +31,6 @@ Der Name tim&koko ist kein Zufall. Er ist inspiriert vom Gorilla-Weibchen Koko, 
 In der Tech-Welt sind wir in vielen "Sprachen" zuhause und natürlich auch Englisch, der Lingua Franca der IT-Welt. Als Berner Unternehmen sprechen wir ausserdem Schweizerdeutsch – und ja, auch Hochdeutsch, wenn es sein muss. 😉
 Aber wir können noch mehr. Sprachen faszinieren uns nicht nur beruflich, sondern auch privat. Gemeinsam sprechen wir insgesamt zehn Sprachen.
 
-
 Zugegeben, abgesehen von Sarah, die mal in Genf gelebt und gearbeitet hat, ist unser Französisch ist ein bisschen eingerostet, aber wir kriegen es hin - zumindest ein Bier bestellen klappt immer.
 
 ### Holländisch, Schwedisch, Italienisch, Griechisch, Spanisch und Indonesisch - die Exoten im Team
@@ -45,4 +44,3 @@ Zugegeben, abgesehen von Sarah, die mal in Genf gelebt und gearbeitet hat, ist u
 - **Spanisch:** Marie hat ihre Sprachkenntnisse im mexikanischen Tierheim perfektioniert. Nach über einem Jahr in Lateinamerika und regelmässigen Spanischkursen in der Schweiz und Spanien sind Gespräche für sie kein Problem mehr.
 
 - **Indonesich:** Chrigu wollte es etwas exotischer und hat sich an Indoeisch gewagt. Gemeinsam mit seiner Partnerin besucht er zweimal wöchentlich einen Kurs - organisiert von der indonesischen Botschaft. Ein geplanter Urlaub in Indonesien sorgt für den zusätzlichen Motivationsschub.
-
