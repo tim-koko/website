@@ -15,11 +15,7 @@ authors: ['marie-steck']
 post_img: "images/blog/sprachen/tk-blogpost-sprachen-1500x1000.png"
 img_border: true
 lead: "Als Cloud Native Consultants und Architekten sprechen wir viele Sprachen - nicht nur die der Maschinen. Unser Ansatz ist technologische Exzellenz kombiniert mit Kommunikation auf Augenhöhe."
-# don't publish the page
-_build:
-  list: never
-  render: never
----
+
 
 
 ### Unser Name, unsere Philosophie
