@@ -2,8 +2,8 @@
 title: "We Speak More Than Just Tech Languages"
 slug: "nicht-nur-tech-sprachen"
 description: ""
-date: 2025-04-23T00:00:00+00:00
-lastmod: 2025-04-23T00:00:00+00:00
+date: 2025-05-28T00:00:00+00:00
+lastmod: 2025-05-28T00:00:00+00:00
 draft: false
 images: ["images/blog/sprachen/tk-blogpost-sprachen-1200x630.png"]
 Sitemap:
@@ -15,12 +15,7 @@ authors: ['marie-steck']
 post_img: "images/blog/sprachen/tk-blogpost-sprachen-1500x1000.png"
 img_border: true
 lead: "As Cloud Native consultants and architects, we speak many languages – and not just the ones machines understand. Our approach is a combination of technological excellence and communication on equal footing."
-# don't publish the page
-_build:
-  list: never
-  render: never
 ---
-
 
 ### Our Name, Our Philosophy
 
