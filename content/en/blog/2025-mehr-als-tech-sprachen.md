@@ -2,8 +2,8 @@
 title: "We Speak More Than Just Tech Languages"
 slug: "nicht-nur-tech-sprachen"
 description: ""
-date: 2025-04-23T00:00:00+00:00
-lastmod: 2025-04-23T00:00:00+00:00
+date: 2025-05-28T00:00:00+00:00
+lastmod: 2025-05-28T00:00:00+00:00
 draft: false
 images: ["images/blog/sprachen/tk-blogpost-sprachen-1200x630.png"]
 Sitemap:
