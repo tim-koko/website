@@ -11,7 +11,7 @@ Sitemap:
 Priority: 0.4
 
 categories: ["Technologie", "Quarkus", "Developer", "Java"]
-authors: ['raffael-hertle']
+authors: []
 post_img: "images/blog/quarkus/tk-blogpost-02_quarkus.jpg"
 lead: "Mit Quarkus bekommt das Java Ökosystem einen immensen Developer Experience Boost! In diesem kurzen Beitrag tauchen wir in die Welt von Quarkus!"
 ---
@@ -44,7 +44,7 @@ applying codestarts...
 
 -----------
 [SUCCESS] ✅  quarkus project has been successfully generated in:
---> /home/rhertle/code/quarkus-blog/example
+--> /home/user/code/quarkus-blog/example
 -----------
 Navigate into this directory and get started: quarkus dev
 ```
@@ -82,11 +82,11 @@ $ quarkus image build --clean --native
 [...]
 [INFO] [io.quarkus.container.image.docker.deployment.DockerProcessor] --> 86dada6ff299
 [INFO] [io.quarkus.container.image.docker.deployment.DockerProcessor] STEP 7/7: CMD ["./application", "-Dquarkus.http.host=0.0.0.0"]
-[INFO] [io.quarkus.container.image.docker.deployment.DockerProcessor] COMMIT rhertle/example:1.0.0-SNAPSHOT
+[INFO] [io.quarkus.container.image.docker.deployment.DockerProcessor] COMMIT user/example:1.0.0-SNAPSHOT
 [INFO] [io.quarkus.container.image.docker.deployment.DockerProcessor] --> 73d5afa48475
-[INFO] [io.quarkus.container.image.docker.deployment.DockerProcessor] Successfully tagged localhost/rhertle/example:1.0.0-SNAPSHOT
+[INFO] [io.quarkus.container.image.docker.deployment.DockerProcessor] Successfully tagged localhost/user/example:1.0.0-SNAPSHOT
 [INFO] [io.quarkus.container.image.docker.deployment.DockerProcessor] 73d5afa4847564080a7bdae0d93246e64d80823a7c17d5c23840fca81cff7583
-[INFO] [io.quarkus.container.image.docker.deployment.DockerProcessor] Built container image rhertle/example:1.0.0-SNAPSHOT (null)
+[INFO] [io.quarkus.container.image.docker.deployment.DockerProcessor] Built container image user/example:1.0.0-SNAPSHOT (null)
 
 [INFO] [io.quarkus.deployment.QuarkusAugmentor] Quarkus augmentation completed in 351699ms
 [INFO] ------------------------------------------------------------------------
@@ -100,7 +100,7 @@ $ quarkus image build --clean --native
 Wie man schon vermuten kann, dauert der native Build einiges länger und ist viel ressourcenintensiver - das ist normal. Die nativ kompilierte Applikation erreicht Lichtgeschwindigkeits-ähnliche Startup Zeiten! Um dies zu demonstrieren und selbst zu erleben, starten wir den Container selbst:
 
 ```bash
-$ docker run rhertle/example:1.0.0-SNAPSHOT
+$ docker run user/example:1.0.0-SNAPSHOT
 Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
 __  ____  __  _____   ___  __ ____  ______
  --/ __ \/ / / / _ | / _ \/ //_/ / / / __/

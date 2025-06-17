@@ -11,7 +11,7 @@ Sitemap:
 Priority: 0.9
 
 categories: ["Technologie", "OpenTelemetry", "Kubernetes"]
-authors: ['raffael-hertle']
+authors: []
 post_img: "images/blog/otel/tk-blogpost-otel-1500x1000.png"
 lead: "Modern Kubernetes platforms are complex, dynamic, and highly distributed. Without a solid observability strategy, detecting and resolving issues can quickly become a challenge. This series provides a comprehensive overview of telemetry signals, how to leverage OpenTelemetry, and best practices for Kubernetes-native environments."
 ---
