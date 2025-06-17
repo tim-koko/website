@@ -11,7 +11,7 @@ Sitemap:
 Priority: 0.3
 
 categories: ["Technology", "Quarkus", "Developer", "Java"]
-authors: ['raffael-hertle']
+authors: []
 post_img: "images/blog/quarkus/tk-blogpost-02_quarkus.jpg"
 lead: "With Quarkus the Java ecosystem becomes a big developer experience boost. Let's explore some features and dive into Quarkus!"
 ---
@@ -47,7 +47,7 @@ applying codestarts...
 
 -----------
 [SUCCESS] ✅  quarkus project has been successfully generated in:
---> /home/rhertle/code/quarkus-blog/example
+--> /home/user/code/quarkus-blog/example
 -----------
 Navigate into this directory and get started: quarkus dev
 ```
@@ -89,11 +89,11 @@ $ quarkus image build --clean --native
 [...]
 [INFO] [io.quarkus.container.image.docker.deployment.DockerProcessor] --> 86dada6ff299
 [INFO] [io.quarkus.container.image.docker.deployment.DockerProcessor] STEP 7/7: CMD ["./application", "-Dquarkus.http.host=0.0.0.0"]
-[INFO] [io.quarkus.container.image.docker.deployment.DockerProcessor] COMMIT rhertle/example:1.0.0-SNAPSHOT
+[INFO] [io.quarkus.container.image.docker.deployment.DockerProcessor] COMMIT user/example:1.0.0-SNAPSHOT
 [INFO] [io.quarkus.container.image.docker.deployment.DockerProcessor] --> 73d5afa48475
-[INFO] [io.quarkus.container.image.docker.deployment.DockerProcessor] Successfully tagged localhost/rhertle/example:1.0.0-SNAPSHOT
+[INFO] [io.quarkus.container.image.docker.deployment.DockerProcessor] Successfully tagged localhost/user/example:1.0.0-SNAPSHOT
 [INFO] [io.quarkus.container.image.docker.deployment.DockerProcessor] 73d5afa4847564080a7bdae0d93246e64d80823a7c17d5c23840fca81cff7583
-[INFO] [io.quarkus.container.image.docker.deployment.DockerProcessor] Built container image rhertle/example:1.0.0-SNAPSHOT (null)
+[INFO] [io.quarkus.container.image.docker.deployment.DockerProcessor] Built container image user/example:1.0.0-SNAPSHOT (null)
 
 [INFO] [io.quarkus.deployment.QuarkusAugmentor] Quarkus augmentation completed in 351699ms
 [INFO] ------------------------------------------------------------------------
@@ -109,7 +109,7 @@ build will be fully optimized to run as a single native binary and will generate
 test the startup times, we simply run the container with our preferred container runtime:
 
 ```bash
-$ docker run rhertle/example:1.0.0-SNAPSHOT
+$ docker run user/example:1.0.0-SNAPSHOT
 Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
 __  ____  __  _____   ___  __ ____  ______
  --/ __ \/ / / / _ | / _ \/ //_/ / / / __/

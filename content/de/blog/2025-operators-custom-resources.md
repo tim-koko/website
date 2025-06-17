@@ -11,7 +11,7 @@ Sitemap:
 Priority: 0.9
 
 categories: ["Technologie", "OpenTelemetry", "Kubernetes"]
-authors: ['raffael-hertle']
+authors: []
 post_img: "images/blog/operator-custom-resources/tk-blogpost-operator-3000x2000.png"
 lead: "Kubernetes ist ein leistungsstarkes System, aber komplexe Anwendungen erfordern oft mehr als nur die integrierten Ressourcen. Hier kommen Operators und Custom Resources ins Spiel. Sie ermöglichen eine native Verwaltung spezialisierter Software, indem sie die Kubernetes-API erweitern und Automatisierung auf ein neues Level heben. In diesem Beitrag schauen wir uns an, wie der OpenTelemetry Operator funktioniert, welche CustomResourceDefinitions (CRDs) er einführt und warum Operators ein essenzieller Bestandteil moderner Kubernetes-Umgebungen sind."
 ---

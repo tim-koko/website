@@ -13,7 +13,7 @@ Priority: 0.9
 additionalblogposts: [ 'kubevirt-introduction', 'kubevirt-usecases', 'kubevirt-training' ]
 
 categories: ["Technologie", "KubeVirt", "Kubernetes"]
-authors: ['raffael-hertle']
+authors: []
 post_img: "images/blog/openshift-virtualization/tk-blogpost-ocp-virtualization.jpg"
 lead: "Red Hat OpenShift Virtualization bietet als eine Erweiterung von Red Hat OpenShift eine Möglichkeit, virtuelle Maschinen einfach und effizient in dein bestehendes OpenShift Umfeld standardisiert zu integrieren. Es erlaubt, die traditionellen Virtualisierungslösungen und die Cloud Native Welt zu einer zuverlässigen, konsistenten und standardisierten Hybrid Cloud Anwendungsplattform zusammenzuführen."
 ---
