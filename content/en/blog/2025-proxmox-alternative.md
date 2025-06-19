@@ -2,8 +2,8 @@
 title: "Leaving VMware: Evaluating Proxmox, OpenStack, and KubeVirt as Modern Alternatives"
 slug: "proxmox-alternative"
 description: ""
-date: 2025-04-23T00:00:00+00:00
-lastmod: 2025-04-23T00:00:00+00:00
+date: 2025-06-19T00:00:00+00:00
+lastmod: 2025-06-19T00:00:00+00:00
 draft: false
 images: ["images/blog/proxmox/tk-blogpost-proxmox-1200x630.png"]
 Sitemap:
@@ -15,10 +15,6 @@ authors: []
 post_img: "images/blog/proxmox/tk-blogpost-proxmox-1500x1000.png"
 img_border: true
 lead: "The enterprise virtualization landscape is shifting. With rising costs and tighter licensing models, organizations are re-evaluating their long-standing reliance on VMware. For many, it's no longer just a question of price—it's about flexibility, control, and avoiding vendor lock-in."
-# don't publish the page
-_build:
-  list: never
-  render: never
 ---
 
 Even in the era of cloud-native computing and Kubernetes, **virtual machines remain a critical part of enterprise infrastructure**. Many workloads are not yet containerized, and some may never be, due to legacy application constraints, licensing limitations, or performance characteristics. VMs continue to provide strong isolation, predictable performance, and support for traditional operational models. As such, finding a robust, future-proof virtualization platform remains essential.
