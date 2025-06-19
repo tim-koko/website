@@ -2,8 +2,8 @@
 title: "VMware Exitstrategie: Proxmox, OpenStack und KubeVirt als moderne Alternativen im Vergleich"
 slug: "proxmox-alternative"
 description: ""
-date: 2025-04-23T00:00:00+00:00
-lastmod: 2025-04-23T00:00:00+00:00
+date: 2025-06-19T00:00:00+00:00
+lastmod: 2025-06-19T00:00:00+00:00
 draft: false
 images: ["images/blog/proxmox/tk-blogpost-proxmox-1200x630.png"]
 Sitemap:
@@ -15,10 +15,6 @@ authors: []
 post_img: "images/blog/proxmox/tk-blogpost-proxmox-1500x1000.png"
 img_border: true
 lead: "Die Virtualisierungslandschaft im Enterprise-Umfeld befindet sich im Wandel. Mit steigenden Kosten und restriktiveren Lizenzmodellen wird die langjährige Abhängigkeit von VMware zunehmend hinterfragt. Dabei geht es längst nicht mehr nur um finanzielle Aspekte, sondern um Flexibilität, Kontrolle und das Vermeiden von Vendor-Lock-in."
-# don't publish the page
-_build:
-  list: never
-  render: never
 ---
 
 
