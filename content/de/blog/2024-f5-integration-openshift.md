@@ -10,7 +10,7 @@ Sitemap:
 Priority: 0.8
 
 categories: ["Technologie", "OpenShift", "Networking", "F5"]
-authors: ['benjamin-affolter']
+authors: []
 img_border: true
 post_img: "images/blog/openshift-f5/tk_blogpost-rh-openshift-f5-1500x1000.jpg"
 lead: "Der F5 CIS Operator ist eine interessante Option, um Applikationen automatisch über einen Enterprise Load Balancer erreichbar zu machen. Die Integration funktioniert aber unter Umständen nicht, wie das auf den ersten Blick erwartet werden könnte."
