@@ -1,4 +1,3 @@
----
 title: "Auto-Instrumentierung von Java-Applikationen mit dem OpenTelemetry Operator in Kubernetes"
 slug: "otel-autoinstrumentation"
 description: ""
