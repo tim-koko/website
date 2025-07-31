@@ -1,3 +1,4 @@
+---
 title: "Auto-Instrumentierung von Java-Applikationen mit dem OpenTelemetry Operator in Kubernetes"
 slug: "otel-autoinstrumentation"
 description: ""
@@ -14,6 +15,7 @@ authors: []
 post_img: "images/blog/otel/tk-blogpost-otel-1500x1000.png"
 img_border: true
 lead: "Im Rahmen der Blogserie rund um das OpenTelemetry-Ökosystem in Kubernetes-nativen Umgebungen wird in diesem Beitrag ein besonders hilfreiches Feature unter die Lupe genommen: die Auto-Instrumentierung von Java-Applikationen mittels des OpenTelemetry Operators."
+---
 
 Der Fokus liegt dabei auf der Funktionsweise der Java-Auto-Instrumentierung und ihrer nahtlosen Integration in Kubernetes-basierte Workflows.
 
