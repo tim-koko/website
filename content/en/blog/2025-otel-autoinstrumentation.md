@@ -2,8 +2,8 @@
 title: "Deep Dive into Auto Instrumentation for Java with the OpenTelemetry Operator in Kubernetes"
 slug: "otel-autoinstrumentation"
 description: ""
-date: 2025-04-23T00:00:00+00:00
-lastmod: 2025-04-23T00:00:00+00:00
+date: 2025-07-31T00:00:00+00:00
+lastmod: 2025-07-31T00:00:00+00:00
 draft: false
 images: ["images/blog/otel/tk-blogpost-otel-1200x630.png"]
 Sitemap:
@@ -15,10 +15,6 @@ authors: []
 post_img: "images/blog/otel/tk-blogpost-otel-1500x1000.png"
 img_border: true
 lead: "As part of our ongoing series exploring the OpenTelemetry ecosystem in Kubernetes-native environments, today we’ll look under the hood at one of its most powerful features: **auto instrumentation for applications via the OpenTelemetry Operator**."
-# don't publish the page
-_build:
-  list: never
-  render: never
 ---
 
 If you're already familiar with the OpenTelemetry Operator and what it brings to the table (if not, check out [our previous post on Operators and Custom Resources](http://tim-koko.ch/blog/operators-custom-resources/)), this post will focus specifically on **how Java auto instrumentation works**, and how it integrates seamlessly in a Kubernetes workflow.
