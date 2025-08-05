@@ -10,7 +10,8 @@ Sitemap:
 Priority: 0.9
 
 categories: ["News", "tim&koko", "Review of the year"]
-authors: ['livia-affolter']
+authors: []
+additionalblogposts: [ 'nicht-nur-tech-sprachen', 'unsere-werte']
 post_img: "images/blog/review24/tk-blogpost-review-1500x1000.jpg"
 lead: "As 2024 draws to a close, we at tim&koko look back on a year full of exciting developments, inspiring moments and great experiences. For us, 2024 was characterized by growth - as a team, as a company and in our partnerships. For our annual review, we asked our team what their personal highlights of the year were. "
 ---

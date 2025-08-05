@@ -10,7 +10,8 @@ Sitemap:
 Priority: 0.9
 
 categories: ["News", "tim&koko", "Jahresrückblick"]
-authors: ['livia-affolter']
+authors: []
+additionalblogposts: [ 'nicht-nur-tech-sprachen', 'unsere-werte']
 post_img: "images/blog/review24/tk-blogpost-review-1500x1000.jpg"
 lead: "Das Jahr 2024 neigt sich dem Ende zu, und bei tim&koko blicken wir auf ein Jahr voller spannender Entwicklungen, inspirierender Momente und grossartiger Erlebnisse zurück. Für uns war 2024 geprägt von Wachstum – als Team, als Unternehmen und in unseren Partnerschaften. Für unseren Jahresrückblick, haben wir unser Team gefragt, was ihre ganz persönlichen Highlights des Jahres waren."
 ---

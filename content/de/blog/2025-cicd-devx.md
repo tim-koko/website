@@ -12,6 +12,7 @@ Priority: 0.91
 
 categories: ["Technologie", "GitlabCI", "Kubernetes"]
 authors: []
+additionalblogposts: [ 'quarkus-developer-experience', 'supply-chain-security-01']
 post_img: "images/blog/cicd-devx/tk-blogpost-cicd-devx-3000x2000.png"
 lead: "GitLab wird in breiter Masse als beliebtes VCS Tool und Continuous Integration Tool verwendet. In diesem Beitrag möchten wir einen Erfahrungsbericht vorstellen, wie wir die Möglichkeiten der Plattform ausschöpfen, um die Developer Produktivität massgebend zu verbessern und zudem durch Automatisierung die Supply Chain Security zu erhöhen."
 ---

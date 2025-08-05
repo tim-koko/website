@@ -11,6 +11,7 @@ Priority: 0.92
 
 categories: ["tim&koko", "Members", "Behind the Scenes"]
 authors: ['marie-steck']
+additionalblogposts: ['tim-koko-jahresrueckblick', 'weekly-sync']
 
 post_img: "images/blog/sprachen/tk-blogpost-sprachen-1500x1000.png"
 img_border: true

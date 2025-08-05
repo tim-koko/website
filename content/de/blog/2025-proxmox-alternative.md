@@ -11,6 +11,7 @@ Priority: 0.92
 
 categories: ["Technologie", "OpenTelemetry", "Kubernetes"]
 authors: []
+additionalblogposts: [ 'kubevirt-usecases', 'openshift-virtualization']
 
 post_img: "images/blog/proxmox/tk-blogpost-proxmox-1500x1000.png"
 img_border: true
