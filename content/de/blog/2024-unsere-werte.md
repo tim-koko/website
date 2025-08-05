@@ -11,7 +11,7 @@ Sitemap:
 Priority: 0.9
 
 categories: ["News", "tim&koko", "Werte", "Behind the Scenes"]
-authors: ['livia-affolter']
+authors: []
 post_img: "images/blog/unsere-werte/tk-blogpost-werte.jpg"
 lead: "Unsere Werte prägen, wie wir arbeiten und miteinander umgehen. Sie sind nicht nur Leitlinien, sondern Teil unseres Alltags. Sie helfen uns, gemeinsam Ziele zu erreichen, und bieten Orientierung für die Zusammenarbeit mit unseren Kund:innen."
 ---

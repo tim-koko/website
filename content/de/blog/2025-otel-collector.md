@@ -11,6 +11,7 @@ Priority: 0.92
 
 categories: ["Technologie", "OpenTelemetry", "Kubernetes"]
 authors: []
+additionalblogposts: [ 'opentelemetry-introduction', 'otel-autoinstrumentation']
 
 post_img: "images/blog/otel/tk-blogpost-otel-1500x1000.png"
 img_border: true

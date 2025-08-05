@@ -12,6 +12,7 @@ Priority: 0.9
 
 categories: ["Technologie", "OpenTelemetry", "Kubernetes"]
 authors: []
+additionalblogposts: [ 'otel-collector', 'otel-autoinstrumentation']
 post_img: "images/blog/otel/tk-blogpost-otel-1500x1000.png"
 lead: "Moderne Kubernetes-Plattformen sind komplex, dynamisch und stark verteilt. Ohne eine solide Observierbarkeitsstrategie kann es schnell schwierig werden, Probleme zu erkennen und zu beheben."
 ---

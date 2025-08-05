@@ -11,7 +11,8 @@ Sitemap:
 Priority: 0.9
 
 categories: ["News", "tim&koko", "Brand", "Behind the Scenes"] 
-authors: ['sarah-pfeiffer'] 
+authors: ['sarah-pfeiffer']
+additionalblogposts: [ 'brand-plattform-tim-koko', 'neuer-brand-name']
 
 post_img: "images/blog/unsere-markenstrategie/20221018-TimKoko_Bern_0306.jpg" # das Bild, dass in der Blogübersicht und im Blogpost oben angezeigt wird
 lead: "Nach dem Prinzip von Open Source möchten wir euch transparente Einblicke in unsere Firmen-DNA geben – in unsere Werte, Überzeugungen und das, was wir sowohl intern als auch extern bei tim&koko leben. 

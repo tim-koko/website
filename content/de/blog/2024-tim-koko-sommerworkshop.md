@@ -10,7 +10,8 @@ Sitemap:
 Priority: 0.9
 
 categories: ["News", "tim&koko", "Workshop"]
-authors: ['livia-affolter']
+authors: []
+additionalblogposts: [ 'nicht-nur-tech-sprachen', 'unsere-werte']
 post_img: "images/blog/workshop24/TK_BlogPost_SommerWorkshop2024_1.jpg"
 lead: "Manchmal braucht es einen Schritt zurück, um gestärkt und als Team verbunden in die Zukunft zu gehen."
 ---
