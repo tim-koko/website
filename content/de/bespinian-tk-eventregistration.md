@@ -4,7 +4,7 @@ slug: "bespinian-tk-event-2025"
 description: ""
 titleVisible: "Let’s get Cloudy!"
 titleSublineVisible: "bespinian und tim&koko laden ein!"
-image: "images/landing-pages/tk-landingpage-labs-1500x600.png"
+image: "images/landing-pages/30-10-25_Let's get cloudy.png"
 lead: ""
 date: 2025-01-19T00:00:00+00:00
 lastmod: 2025-01-19T00:00:00+00:00
@@ -18,7 +18,7 @@ formSelect:
     value: "lab-serverless-bespinian"
   - option: "OpenShift Virtualization – tim&koko"
     value: "lab-ocpv-tk"
-  - option: "Nur Party ab 17:00"
+  - option: "Nur Party ab 17:30"
     value: "evening-only"
 images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]
 img_border: false
