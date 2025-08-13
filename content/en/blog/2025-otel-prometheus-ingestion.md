@@ -23,6 +23,7 @@ This blog post demonstrates how to send OTLP metrics to Prometheus 3 in a Kubern
 ### Prerequisites
 
 Ensure you have the following components installed in your Kubernetes cluster:
+
 * **Prometheus 3** (with the OpenTelemetry ingestion endpoint enabled)
 * **OpenTelemetry Operator** (for managing OpenTelemetry Collector instances)
 * **A sample application** that generates OTLP metrics
@@ -123,15 +124,17 @@ spec:
 ```
 
 #### Verifying Metrics in Prometheus
+
 After deploying the sample application, verify that metrics are successfully flowing into Prometheus:
 
 1. Access the Prometheus UI:
+
 ```shell
 kubectl port-forward svc/prometheus-operated 9090 -n monitoring
 ```
+
 2. Navigate to http://localhost:9090 and use the Prometheus expression browser to check for incoming OTLP metrics.
 
 ### Conclusion
 
 With Prometheus 3's OpenTelemetry endpoint, integrating OTLP metrics into a Kubernetes-based observability stack becomes much simpler. This setup allows teams to leverage OpenTelemetry's powerful telemetry collection capabilities while continuing to use Prometheus as a reliable backend for metrics storage and querying.
-
