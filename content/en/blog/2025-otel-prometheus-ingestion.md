@@ -127,13 +127,13 @@ spec:
 
 After deploying the sample application, verify that metrics are successfully flowing into Prometheus:
 
-1. Access the Prometheus UI:
+* Access the Prometheus UI:
 
 ```shell
 kubectl port-forward svc/prometheus-operated 9090 -n monitoring
 ```
 
-2. Navigate to http://localhost:9090 and use the Prometheus expression browser to check for incoming OTLP metrics.
+* Navigate to http://localhost:9090 and use the Prometheus expression browser to check for incoming OTLP metrics.
 
 ### Conclusion
 
