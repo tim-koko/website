@@ -18,7 +18,7 @@ formSelect:
     value: "lab-serverless-bespinian"
   - option: "OpenShift Virtualization – tim&koko"
     value: "lab-ocpv-tk"
-  - option: "Party only starting at 17:00"
+  - option: "Party only starting at 17:30"
     value: "evening-only"
 images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]
 img_border: false
