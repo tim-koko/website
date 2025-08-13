@@ -2,8 +2,8 @@
 title: "Verwendung des OpenTelemetry-Endpunkts in Prometheus 3 zum Erfassen von OTLP-Metriken in Kubernetes"
 slug: "otel-collector"
 description: ""
-date: 2025-08-12T00:00:00+00:00
-lastmod: 2025-08-12T00:00:00+00:00
+date: 2025-08-13T00:00:00+00:00
+lastmod: 2025-08-13T00:00:00+00:00
 draft: false
 images: ["images/blog/otel/tk-blogpost-otel-1200x630.png"]
 Sitemap:

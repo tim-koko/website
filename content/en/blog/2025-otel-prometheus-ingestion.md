@@ -2,9 +2,9 @@
 title: "Using Prometheus 3 OpenTelemetry Endpoint to Ingest OTLP Metrics in Kubernetes"
 slug: "otel-prometheus-ingestion"
 description: ""
-date: 2025-08-21T00:00:00+00:00
-lastmod: 2025-08-21T00:00:00+00:00
-draft: true
+date: 2025-08-13T00:00:00+00:00
+lastmod: 2025-08-13T00:00:00+00:00
+draft: false
 images: ["images/blog/otel/tk-blogpost-otel-1200x630.png"]
 Sitemap:
 Priority: 0.92
