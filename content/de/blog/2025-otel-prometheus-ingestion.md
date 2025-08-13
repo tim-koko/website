@@ -1,6 +1,6 @@
 ---
 title: "Verwendung des OpenTelemetry-Endpunkts in Prometheus 3 zum Erfassen von OTLP-Metriken in Kubernetes"
-slug: "otel-collector"
+slug: "otel-prometheus-ingestion"
 description: ""
 date: 2025-08-13T00:00:00+00:00
 lastmod: 2025-08-13T00:00:00+00:00
@@ -22,7 +22,7 @@ Dieser Blogbeitrag zeigt, wie OTLP-Metriken in einer Kubernetes-Umgebung, in der
 
 ### Voraussetzungen
 
-Stellen Sie sicher, dass in Ihrem Kubernetes-Cluster die folgenden Komponenten installiert sind:
+Im Kubernetes-Cluster müssen die folgenden Komponenten installiert sein:
 
 * Prometheus 3 (mit aktiviertem OpenTelemetry-Empfangs-Endpunkt)
 * OpenTelemetry Operator (zur Verwaltung von OpenTelemetry-Collector-Instanzen)
@@ -68,7 +68,7 @@ spec:
 
 #### Konfiguration von Prometheus 3 zur Annahme von OTLP-Metriken über den Prometheus Operator
 
-Um den OTLP-Endpunkt in Prometheus über den Prometheus Operator zu aktivieren, passen Sie die Prometheus-Custom Resource wie folgt an:
+Um den OTLP-Endpunkt in Prometheus über den Prometheus Operator zu aktivieren, passen wir die Prometheus-Custom-Resource wie folgt an:
 
 ```yaml
 apiVersion: monitoring.coreos.com/v1
@@ -91,7 +91,7 @@ spec:
       memory: 400Mi
 ```
 
-Diese Flags aktivieren den OTLP-Metrik-Endpunkt unter /api/v1/otlp.
+Diese Flags aktivieren den OTLP-Metrik-Endpunkt unter `/api/v1/otlp`.
 
 #### Bereitstellen einer Beispielanwendung mit OTLP-Metriken
 
@@ -133,7 +133,7 @@ Nachdem die Beispielanwendung bereitgestellt wurde, überprüfen Sie, ob die Met
 kubectl port-forward svc/prometheus-operated 9090 -n monitoring
 ```
 
-* Navigieren Sie zu http://localhost:9090 und verwenden Sie den Prometheus Expression-Browser, um die eingehenden OTLP-Metriken zu überprüfen.
+* Wir navigieren zu `http://localhost:9090` und verwenden den Prometheus-Expression-Browser um die eingehenden OTLP-Metriken zu überprüfen.
 
 ### Fazit
 

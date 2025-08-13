@@ -91,7 +91,7 @@ spec:
       memory: 400Mi
 ```
 
-These flags enable the OTLP metrics endpoint at /api/v1/otlp.
+These flags enable the OTLP metrics endpoint at `/api/v1/otlp`.
 
 #### Deploying a Sample Application with OTLP Metrics
 
@@ -133,7 +133,7 @@ After deploying the sample application, verify that metrics are successfully flo
 kubectl port-forward svc/prometheus-operated 9090 -n monitoring
 ```
 
-* Navigate to http://localhost:9090 and use the Prometheus expression browser to check for incoming OTLP metrics.
+* Navigate to `http://localhost:9090` and use the Prometheus expression browser to check for incoming OTLP metrics.
 
 ### Conclusion
 
