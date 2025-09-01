@@ -18,7 +18,7 @@ link: "https://www.centrisag.ch"
 
 
 Durch den Wechsel des Storage-Systems mussten sämtliche Applikationen, die auf Red Hat OpenShift persistente Daten
-ablegen, auf das neue Storage-System migriert werden. Tim&Koko hat die Storage-Migration der Kafka-Cluster geplant
+ablegen, auf das neue Storage-System migriert werden. tim&koko hat die Storage-Migration der Kafka-Cluster geplant
 und gemeinsam mit den Kafka-Administratoren der Centris erfolgreich umgesetzt. Das gewählte Vorgehen unterstützt den
 regulären Cluster-Lifecycle und ermöglicht bereits Vorarbeiten für absehbare Migrationen wie die
 Zookeeper-zu-KRaft-Migration. So konnten nicht nur die Hauptziele der Storage-Migration erreicht werden – zusätzlich
@@ -86,7 +86,7 @@ Datenverschiebung. Schrittweise wurde der neue KafkaNodePool erweitert und der a
 
 ## Kundenstatement
 
-«Wir haben die Zusammenarbeit mit Tim&Koko durchwegs als sehr angenehm, effizient und zielorientiert empfunden.
+«Wir haben die Zusammenarbeit mit tim&koko durchwegs als sehr angenehm, effizient und zielorientiert empfunden.
 Mit der gewählten Migrationsvariante konnte die Storage-Migration aller Kafka Cluster ohne Downtime und somit ohne
 Service-Impact für unsere Kunden durchgeführt werden. Kompetenter Partner – gerne wieder.»
 

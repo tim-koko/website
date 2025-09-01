@@ -18,7 +18,7 @@ link: "https://www.centrisag.ch"
 
 
 Due to the change in storage system, all applications that store persistent data on Red Hat OpenShift had to be migrated
-to the new storage system. Tim&Koko planned the storage migration of the Kafka clusters and successfully implemented it
+to the new storage system. tim&koko planned the storage migration of the Kafka clusters and successfully implemented it
 together with the Kafka administrators of Centris. The chosen approach supports the regular cluster lifecycle and enables
 preparatory work for foreseeable migrations such as the ZooKeeper to KRaft migration. This not only achieved the main
 goals of the storage migration, but also created sustainable technological added value for Centris.
