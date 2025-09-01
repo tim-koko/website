@@ -23,7 +23,6 @@ together with the Kafka administrators of Centris. The chosen approach supports 
 preparatory work for foreseeable migrations such as the ZooKeeper to KRaft migration. This not only achieved the main
 goals of the storage migration, but also created sustainable technological added value for Centris.
 
-
 ## About Centris AG
 
 Centris AG is a leading IT service provider for Swiss health and accident insurers. The company was founded in 1947 and
