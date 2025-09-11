@@ -33,7 +33,7 @@ Besonders wichtig ist unser Teamtag am Donnerstag: Da wird gemeinsam gegessen, g
 
 tim&koko ist zwar aus den Babyschuhen eines Startups herausgewachsen, aber noch weit entfernt von einem starren, alteingesessenen Unternehmen. Prozesse werden hinterfragt, Ideen sind willkommen – und Mitdenken ist ausdrücklich erwünscht.
 Was mir besonders auffällt: tim&koko ist nicht nur ein grosszügiger Arbeitgeber, sondern es ist dem ganzen Team wichtig, dass es allen Mitarbeitenden gut geht. Das merkt man im Alltag.
-Falls du jetzt auch unbedingt Teil von unserem Team werden willst, hast du Glück! Denn wir halten zur Zeit die Augen offen nach einer Person, welche Bock hat, in spannenden Projekten mit Kubernetes, Container-Technologien, CI/CD, Messaging und Co. mitzuwirken. Das Stelleninserat findest du hier: https://tim-koko.ch/jobs/
+Falls du jetzt auch unbedingt Teil von unserem Team werden willst, hast du Glück! Denn wir halten zur Zeit die Augen offen nach einer Person, welche Bock hat, in spannenden Projekten mit Kubernetes, Container-Technologien, CI/CD, Messaging und Co. mitzuwirken. Das Stelleninserat findest du [hier](https://tim-koko.ch/jobs/).
 
 ### Mein Fazit
 
