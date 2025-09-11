@@ -5,7 +5,7 @@ description: ""
 date: 2025-09-11T00:00:00+00:00
 lastmod: 2025-09-11T00:00:00+00:00
 draft: false
-images: ["images/blog/sprachen/tk-blogpost-6-monate-1200x630.png"]
+images: ["images/blog/6-monate/tk-blogpost-6-monate-1200x630.png"]
 Sitemap:
 Priority: 0.92
 
@@ -13,7 +13,7 @@ categories: ["tim&koko", "Members", "Behind the Scenes"]
 authors: ['marie-steck']
 additionalblogposts: ['tim-koko-jahresrueckblick', 'weekly-sync']
 
-post_img: "images/blog/sprachen/tk-blogpost-6-monate-1500x1000.png"
+post_img: "images/blog/6-monate/tk-blogpost-6-monate-1500x1000.png"
 img_border: true
 lead: "It’s hard to believe it’s already been six months since I started at tim&koko. Time has flown by – so it feels like the perfect moment to share a glimpse into life at the tim&koko HQ and reflect on my journey so far."
 ---
@@ -33,7 +33,7 @@ Our team day every Thursday is especially important: we always make time to eat 
 
 tim&koko has grown out of the early startup phase, having learned what works and what doesn’t – but it's still far from being a rigid, traditional company. Processes are questioned, new ideas are welcome, and critical thinking is encouraged.
 What I appreciate most: tim&koko isn’t just generous – the company truly cares about the well-being of every team member.
-If you’re eager to become part of our team, you’re in luck! We’re currently looking for someone who’s excited to work on exciting projects with Kubernetes, container technologies, CI/CD, messaging, and more. You can find the job posting here: https://tim-koko.ch/jobs/
+If you’re eager to become part of our team, you’re in luck! We’re currently looking for someone who’s excited to work on exciting projects with Kubernetes, container technologies, CI/CD, messaging, and more. You can find the job posting [here](https://tim-koko.ch/en/jobs/).
 
 ### Mein Fazit
 
