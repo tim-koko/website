@@ -5,7 +5,7 @@ description: ""
 date: 2025-09-11T00:00:00+00:00
 lastmod: 2025-09-11T00:00:00+00:00
 draft: false
-images: ["images/blog/sprachen/tk-blogpost-6-monate-1200x630.png"]
+images: ["images/blog/6-monate/tk-blogpost-6-monate-1200x630.png"]
 Sitemap:
 Priority: 0.92
 
@@ -13,7 +13,7 @@ categories: ["tim&koko", "Members", "Behind the Scenes"]
 authors: ['marie-steck']
 additionalblogposts: ['tim-koko-jahresrueckblick', 'weekly-sync']
 
-post_img: "images/blog/sprachen/tk-blogpost-6-monate-1500x1000.png"
+post_img: "images/blog/6-monate/tk-blogpost-6-monate-1500x1000.png"
 img_border: true
 lead: "Kaum zu glauben, dass es schon sechs Monate her ist, seit ich bei tim&koko gestartet habe. Die Zeit ist wie im Flug vergangen – höchste Zeit, einen kleinen Einblick ins tim&koko HQ zu geben und ein erstes Fazit zu ziehen."
 ---
