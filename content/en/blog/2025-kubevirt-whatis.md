@@ -82,9 +82,7 @@ curl -L -o virtctl https://github.com/kubevirt/kubevirt/releases/download/${V}/v
 chmod +x virtctl
 ```
 
-Now it is time to start your first VM. Use the following command to create a new VirtualMachine resource in your Kubernetes cluster.
-
-Create a file `vm-cirros.yaml` with the following content:
+Now it is time to start your first VM. Create a file named `vm-cirros.yaml` with the following content:
 
 ```yaml
 kind: VirtualMachine
@@ -119,16 +117,16 @@ spec:
             image: quay.io/kubevirt/cirros-container-disk-demo
 ```
 
-Apply your specified virtual machine with kubectl:
+Use the following command to create the new VirtualMachine resource in your Kubernetes cluster:
 
 ```shell
-kubectl apply -n kubevirt -f vm-cirros.yaml
+kubectl apply -f vm-cirros.yaml
 ```
 
 This will create the virtual machine resource in the cluster. Since we have set the `runStrategy` to `Always` we request KubeVirt to make sure the VM is always running. It is therefore expected that the KubeVirt Operator will automatically pick up the resource and create a running VM instance. A pod encapsulating a virtual machine is always called `virt-launcher-<vm-name>-*`.
 
 ```shell
-kubectl -n kubevirt get pods
+kubectl get pods
 NAME                          READY   STATUS    RESTARTS   AGE
 virt-launcher-vm-cirros-k9dlb   3/3     Running   0          10m
 ...
