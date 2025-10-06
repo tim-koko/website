@@ -10,17 +10,17 @@ img_border: true
 Sitemap:
 Priority: 0.9
 
-additionalblogposts: [ 'kubevirt-introduction', 'kubevirt-training']
+additionalblogposts: [ 'kubevirt-introduction', 'kubevirt-training', 'kubevirt-usecases']
 
 categories: ["Technology", "KubeVirt", "Kubernetes"]
 authors: ['christof-luethi']
 post_img: "images/blog/kubevirt/tk-blogpost-kubevirt.jpg"
-lead: "Running containers on Kubernetes is now the standard — but many organizations still depend on critical workloads that live inside virtual machines. Rewriting or replacing them isn’t always realistic. KubeVirt bridges this gap, extending Kubernetes so you can run and manage virtual machines just like containers — with the same APIs, tools, and automation you already use."
+lead: "Running containers on Kubernetes is now the standard - but many organizations still depend on critical workloads that live inside virtual machines. Rewriting or replacing them isn’t always realistic. KubeVirt bridges this gap, extending Kubernetes so you can run and manage virtual machines just like containers - with the same APIs, tools, and automation you already use."
 ---
 
 ### What is KubeVirt
 
-KubeVirt was initiated by Red Hat in 2016 and has been available as open-source software since 2017. The project is part of the Cloud Native Computing Foundation (CNCF) and has moved to the Incubating maturity level in April 2022.
+KubeVirt was initiated by Red Hat in 2016 and has been available as open-source software since 2017. The project is part of the Cloud Native Computing Foundation (CNCF) and moved to the Incubating maturity level in April 2022.
 
 KubeVirt is a Kubernetes extension based on the operator pattern. This allows us to run and manage virtual machines (VMs) alongside containers - all with the same APIs, tools, and workflows.
 
@@ -32,10 +32,10 @@ KubeVirt lets you:
 
 - Run VMs inside Kubernetes, just like Pods.
 - Use the same Kubernetes tools - kubectl, Helm, ArgoCD, etc.
-- Use the same cloud native Workflows - GitOps, Pipelines
-- Manage both containers and VMs from a single control plane
+- Use the same cloud-native Workflows - GitOps, pipelines
+- Manage both containers and VMs from a single control plane.
 
-KubeVirt is not about replacing VMs, it’s about unifying how you build and run them.
+KubeVirt is not about replacing VMs - it’s about unifying how you build and run them.
 
 ### Core concepts
 
@@ -56,17 +56,17 @@ KubeVirt Operator (CR),Manages lifecycle of the KubeVirt components on the clust
 Under the hood:
 
 - KubeVirt uses the Linux KVM Hypervisor (Kernel-Based Virtual Machines)
-- KVM Virtual Machines are a regular Linux processes
-- KubeVirt/Kubernetes isolates this process with Linux Kernel Features like Control Groups (cgroups) and Kernel Namespaces - just like any other containerized process.
-- Each KVM Process runs encapsulated in a Pod. Kubernetes does not know anything about VMs - there are only pods and containers.
+- KVM virtual machines are regular Linux processes
+- KubeVirt/Kubernetes isolates this process with Linux kernel features like control groups (cgroups) and kernel namespaces - just like any other containerized process.
+- Each KVM process runs encapsulated in a pod. Kubernetes does not know anything about VMs - there are only pods and containers.
 - The Kubernetes scheduler decides where to run the VM Pod
-- KubeVirt uses a DeamonSet to prepare the VM Pod (Network, Devices, …)
-- VM Pods run tooling to communicate with the KVM Hypervisor (QEMU, libvirt) to start the Virtual Machine inside the VM Pod
-- Networking and storage use the same CNI and CSI plugins from Kubernetes
+- KubeVirt uses a DaemonSet to prepare the VM Pod (network, devices, ...)
+- VM pods run tooling to communicate with the KVM hypervisor (QEMU, libvirt) to start the virtual machine inside the VM Pod
+- Networking and storage use the same CNI and CSI plugins from kubernetes
 
 ### Start your first VM
 
-As a prerequisite to start virtual machines on your kubernetes cluster you need to have the KubeVirt operator up and running. You can install the operator using
+As a prerequisite to starting virtual machines on your kubernetes cluster, you need to have the KubeVirt operator up and running. You can install the operator using
 
 ```shell
 export V=$(curl -s https://storage.googleapis.com/kubevirt-prow/release/kubevirt/kubevirt/stable.txt)
@@ -74,7 +74,7 @@ kubectl create -f "https://github.com/kubevirt/kubevirt/releases/download/${V}/k
 kubectl create -f "https://github.com/kubevirt/kubevirt/releases/download/${V}/kubevirt-cr.yaml"
 ```
 
-To interact with the virtual machine you most likely want to use the `virtctl` tool. You can download `virtctl` from the [github releases](https://github.com/kubevirt/kubevirt/releases/) page or directly within your shell:
+To interact with the virtual machine, you most likely want to use the `virtctl` tool. You can download `virtctl` from the [github releases](https://github.com/kubevirt/kubevirt/releases/) page or directly within your shell:
 
 ```shell
 ARCH=$(uname -s | tr A-Z a-z)-$(uname -m | sed 's/x86_64/amd64/') || windows-amd64.exe
@@ -119,7 +119,7 @@ spec:
             image: quay.io/kubevirt/cirros-container-disk-demo
 ```
 
-Apply your specified virtual machine with kubectl.
+Apply your specified virtual machine with kubectl:
 
 ```shell
 kubectl apply -n kubevirt -f vm-cirros.yaml
@@ -134,17 +134,17 @@ virt-launcher-vm-cirros-k9dlb   3/3     Running   0          10m
 ...
 ```
 
-You can use the `virtctl` command to manage the state (start, stop, ...) of your vm as well as to enter the console, ssh or vnc to your VM:
+You can use the `virtctl` command to manage the state (start, stop, ...) of your VM as well as to enter the console, ssh or vnc to your VM:
 
 ```shell
-virtctl -n kubevirt console vm-cirros
+virtctl console vm-cirros
 login as 'cirros' user. default password: 'gocubsgo'. use 'sudo' for root.
 cirros login:
 ```
 
-Congratulations, you have successfully started your first virtual machine on kubernetes.
+Congratulations, you have successfully started your first virtual machine on Kubernetes.
 
-### When to Use KubeVirt
+### When to use KubeVirt
 
 Use KubeVirt when you:
 
@@ -157,4 +157,4 @@ Use KubeVirt when you:
 
 ### Why KubeVirt matters
 
-KubeVirt matters because it unifies the management of virtual machines and containers under a single Kubernetes control plane. This allows teams to modernize at their own pace — running legacy applications as VMs while building new services as containers. By treating VMs as native Kubernetes resources, KubeVirt enables consistent automation, observability, and GitOps workflows across all workloads. It removes the need for parallel infrastructures, reduces operational complexity, and bridges the gap between traditional virtualization and cloud-native computing.
+KubeVirt matters because it unifies the management of virtual machines and containers under a single Kubernetes control plane. This allows teams to modernize at their own pace - running legacy applications as VMs while building new services as containers. By treating VMs as native Kubernetes resources, KubeVirt enables consistent automation, observability, and GitOps workflows across all workloads. It removes the need for parallel infrastructures, reduces operational complexity, and bridges the gap between traditional virtualization and cloud-native computing.
