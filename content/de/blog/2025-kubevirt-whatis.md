@@ -1,5 +1,5 @@
 ---
-title: "What Is KubeVirt? Run Virtual Machines on Kubernetes Like Containers"
+title: "What is KubeVirt? Run Virtual Machines on Kubernetes like containers"
 slug: "kubevirt-whatis"
 description: ""
 date: 2025-10-06T00:00:00+00:00
