@@ -44,6 +44,7 @@ Having deployed our first function, we have no idea what it does and if it succe
   "responseBody": "All good"
 }
 ```
+
 ✅ **Don’t wait until production issues arise to implement structured logging.**
 
 ### Level 2: Tracin’ it!
