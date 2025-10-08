@@ -2,8 +2,8 @@
 title: "Level Up Your Serverless Game"
 slug: "serverless"
 description: ""
-date: 2025-10-09T00:00:00+00:00
-lastmod: 2025-10-09T00:00:00+00:00
+date: 2025-10-08T00:00:00+00:00
+lastmod: 2025-10-08T00:00:00+00:00
 draft: false
 images: ["images/blog/bespinian/tk-blogpost-serverless-1200x630.png"]
 Sitemap:
