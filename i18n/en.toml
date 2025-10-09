@@ -82,6 +82,9 @@ other = "Donate the equivalent for a good cause."
 [anmelden]
 other = "Submit"
 
+[absenden]
+other = "Submit"
+
 [agb]
 other = "Terms and Conditions."
 
@@ -108,6 +111,9 @@ other = "Thank you for your registration!"
 
 [messageError]
 other = "Sorry, an error occurred!"
+
+[orderSuccess]
+other = "Thank you for your order!"
 
 [referenzen]
 other = "References"
