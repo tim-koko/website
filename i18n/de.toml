@@ -73,11 +73,17 @@ other = "Gib deine Adresse ein"
 [bienenwachstuch]
 other = "tim&koko Bienenwachstuch von Planet Bee."
 
+[tuetenhueter]
+other = "tim&koko Tütenhüter"
+
 [spende]
 other = "Gegenwert für einen guten Zweck spenden!"
 
 [anmelden]
 other = "Anmelden"
+
+[absenden]
+other = "Absenden"
 
 [agb]
 other = "Geschäftsbedingungen"
@@ -105,6 +111,9 @@ other = "Danke für deine Anmeldung!"
 
 [messageError]
 other = "Sorry, ein Fehler ist aufgetreten!"
+
+[orderSuccess]
+other = "Danke für deine Bestellung!"
 
 [referenzen]
 other = "Referenzen"

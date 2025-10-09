@@ -10,21 +10,21 @@
 
 
   <div class="row">
- 
+
     <div class="col-lg-5">
- 
+
         {{ with .Params.smallTitle}}
           <div class="bigger mb-4">{{ . }}</div>
         {{ end }}
         <h1 class="mb-5 mb-md-8">{{ .Params.titleVisible }}{{ with .Params.titleSublineVisible}}<br><span>{{ . }}</span>{{ end }}</h1>
         {{ .Content }}
- 
+
     </div>
     <div class="col-lg-6 offset-lg-1 pt-4">
     <form  name="{{ .Params.netlifyFormname }}" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" >
       <input type="hidden" name="bot-field" />
       <input type="hidden" name="form-name" value="{{ .Params.netlifyFormname }}" />
-      
+
       <div class="row ">
 
        <div class="col-md-6">
@@ -56,9 +56,9 @@
       </div>
       <div class="mb-6">
         <div class="form-check">
-          <input class="form-check-input" type="radio" value="Bienenwachstuch" checked="checked" id="bienenwachstuch" name="giveaway" />
-          <label class="form-check-label" for="bienenwachstuch">
-            {{ i18n "bienenwachstuch" }}
+          <input class="form-check-input" type="radio" value="Tuetenhueter" checked="checked" id="tuetenhueter" name="giveaway" />
+          <label class="form-check-label" for="tuetenhueter">
+            {{ i18n "tuetenhueter" }}
           </label>
         </div>
         <div class="form-check">
@@ -66,29 +66,29 @@
           <label class="form-check-label" for="spende">
             {{ i18n "spende" }}
           </label>
-        </div>  
+        </div>
       </div>
       <div class="mb-6">
         <div class="form-check">
           <input class="form-check-input" type="checkbox" value="" id="agbCheck" required>
           <label class="form-check-label" for="agbCheck">
-            {{ i18n "ichHabeDie" }}  <a href="{{ relLangURL "/datenschutzerklaerung/" }}" target="_blank">{{ i18n "datenschutzbestimmungen" }}</a> {{ i18n "gelesen" }}  
+            {{ i18n "ichHabeDie" }}  <a href="{{ relLangURL "/datenschutzerklaerung/" }}" target="_blank">{{ i18n "datenschutzbestimmungen" }}</a> {{ i18n "gelesen" }}
           </label>
-        </div>   
+        </div>
       </div>
       <div class="mb-6">
         <div class="form-check">
           <input class="form-check-input" type="checkbox" value="" name="newsletter" id="newsletterCheck">
           <label class="form-check-label" for="newsletterCheck">
-            {{ i18n "fuerDenNewsletterAnmelden" }} 
+            {{ i18n "fuerDenNewsletterAnmelden" }}
           </label>
-        </div>   
+        </div>
       </div>
 
-      <button type="submit" class="btn btn-outline-light rounded-pill px-3  border-1"  >{{ i18n "anmelden" }}</button>
-    
+      <button type="submit" class="btn btn-outline-light rounded-pill px-3  border-1"  >{{ i18n "absenden" }}</button>
+
     </form>
-    <div class="message-success d-none">{{ i18n "messageSuccess" }}</div>
+    <div class="message-success d-none">{{ i18n "orderSuccess" }}</div>
     <div class="message-error d-none">{{ i18n "messageError" }}</div>
 
 

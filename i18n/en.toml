@@ -73,10 +73,16 @@ other = "Enter your address"
 [bienenwachstuch]
 other = "tim&koko beeswax cloth from Planet Bee."
 
+[tuetenhueter]
+other = "tim&koko tütenhüter"
+
 [spende]
 other = "Donate the equivalent for a good cause."
 
 [anmelden]
+other = "Submit"
+
+[absenden]
 other = "Submit"
 
 [agb]
@@ -105,6 +111,9 @@ other = "Thank you for your registration!"
 
 [messageError]
 other = "Sorry, an error occurred!"
+
+[orderSuccess]
+other = "Thank you for your order!"
 
 [referenzen]
 other = "References"
