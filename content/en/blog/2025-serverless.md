@@ -15,8 +15,10 @@ additionalblogposts: []
 
 post_img: "images/blog/bespinian/tk-blogpost-serverless-1500x1000.png"
 img_border: true
-lead: "Is your serverless project running into unexpected snags? You’re not alone. From basic misconfigurations to frustrating deployment nightmares, we’ve seen the same pitfalls trap countless teams. This guide is your cheat sheet to avoiding those common mistakes and accelerating your journey to serverless mastery. Think of each level as a lesson learned—a mistake you don’t have to make. From basic misconfigurations to complex deployment nightmares, the patterns are frustratingly consistent. We’ve compiled this blog post to help you avoid these common pitfalls and accelerate your journey to serverless excellence. Think of each level as a lesson learned, a mistake you don’t have to make. To learn more about the details and apply the learnings yourself, follow our open source [Serverless Workshop](https://github.com/bespinian/serverless-workshop). This blog post as well as the workshop both use AWS Lambda but the learnings can be applied to any function as a service (FaaS) platform. Now, let’s dive in."
+lead: "Is your serverless project running into unexpected snags? You’re not alone. From basic misconfigurations to frustrating deployment nightmares, we’ve seen the same pitfalls trap countless teams."
 ---
+
+This guide is your cheat sheet to avoiding those common mistakes and accelerating your journey to serverless mastery. Think of each level as a lesson learned—a mistake you don’t have to make. From basic misconfigurations to complex deployment nightmares, the patterns are frustratingly consistent. Lena from bespinian has compiled this blog post to help you avoid these common pitfalls and accelerate your journey to serverless excellence. Think of each level as a lesson learned, a mistake you don’t have to make. To learn more about the details and apply the learnings yourself, follow the bespinian open source [Serverless Workshop](https://github.com/bespinian/serverless-workshop). This blog post as well as the workshop both use AWS Lambda but the learnings can be applied to any function as a service (FaaS) platform. Now, let’s dive in.
 
 ### Level 0 - This is easy!
 
@@ -32,7 +34,7 @@ To get started, we need to create our first function. Many projects jump into co
 
 Having deployed our first function, we have no idea what it does and if it succeeds or not. When things go wrong, it’s very hard to debug and investigate issues. Many serverless projects suffer from poor observability, making troubleshooting a nightmare. Using structured logging (e.g., formatted as JSON), we get a set of logs that we can query and which give us custom insights into what our function does. We’ll know if it succeeds or fails in doing so and get context about what went wrong if things don’t go as expected. Such a log line could look as follows:
 
-```yaml
+```json
 {
   "correlationId": "9ac54d82-75e0-4f0d-ae3c-e84ca400b3bd",
   "requestId": "58d9c96e-ae9f-43db-a353-c48e7a70bfa8",
