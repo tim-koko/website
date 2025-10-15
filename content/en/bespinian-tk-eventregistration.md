@@ -30,29 +30,29 @@ Sitemap:
 
 Excited for thrilling tech talks, hands-on labs, and a party that brings people together?
 
-We – [bespinian](https://bespinian.ch) & [tim&koko](https://tim-koko.ch/) – are joining forces to unite not only our expertise but also the cloud community. Together, we create a space for inspiration, exchange, and plenty of networking.  
+We – [bespinian](https://bespinian.io) & [tim&koko](https://tim-koko.ch/) – are joining forces to unite not only our expertise but also the cloud community. Together, we create a space for inspiration, exchange, and plenty of networking.
 
-📅 **October 30, 2025**  
+📅 **October 30, 2025**
 
-🔧 **Hands-on Labs starting 2pm**  
+🔧 **Hands-on Labs starting 2pm**
 
 👾 **Party from 5:30 PM at JAIL Bar (Gerechtigkeitsgasse 53)**
 
-* Delicious food and drinks to toast with  
-* A relaxed atmosphere  
-* And, of course, the best people from the cloud community!  
+* Delicious food and drinks to toast with
+* A relaxed atmosphere
+* And, of course, the best people from the cloud community!
 
-Whether you're here just for the party or for the tech as well – it's up to you. Spots are limited – secure yours by signing up via the registration form!  
+Whether you're here just for the party or for the tech as well – it's up to you. Spots are limited – secure yours by signing up via the registration form!
 
-We look forward to welcoming you to our event and celebrating the cloud world together with you!  
+We look forward to welcoming you to our event and celebrating the cloud world together with you!
 
 **bespinian und tim&koko**
 <br/><br/>
 
 ## Hands-on Labs in the Afternoon
 
-Serverless meets OpenShift Virtualization – a powerful combination for the efficient deployment and management of cloud resources.  
-Participation is free. All you need to bring is your laptop. The labs require an internet browser and direct internet access.  
+Serverless meets OpenShift Virtualization – a powerful combination for the efficient deployment and management of cloud resources.
+Participation is free. All you need to bring is your laptop. The labs require an internet browser and direct internet access.
 
 ### Serverless with bespinian
 
@@ -60,4 +60,4 @@ Together, we play through the ten levels of writing and deploying serverless app
 
 ### OpenShift Virtualization with tim&koko
 
-In this half-day workshop, you'll first receive a theoretical introduction to the fundamentals of OpenShift Virtualization. Then, you'll apply what you've learned directly in hands-on labs. Our experts will guide you step by step so that you can experience the key concepts and features in practice. You will deploy, start, stop, scale, live migrate, configure VMs on an OpenShift cluster, and much more.  
+In this half-day workshop, you'll first receive a theoretical introduction to the fundamentals of OpenShift Virtualization. Then, you'll apply what you've learned directly in hands-on labs. Our experts will guide you step by step so that you can experience the key concepts and features in practice. You will deploy, start, stop, scale, live migrate, configure VMs on an OpenShift cluster, and much more.
