@@ -5,7 +5,7 @@ description: ""
 date: 2025-10-30T00:00:00+00:00
 lastmod: 2025-10-30T00:00:00+00:00
 draft: false
-images: ["images/blog/6-monate/tk-blogpost-6-monate-1200x630.png"]
+images: ["images/blog/cnz/tk-blogpost-cnz-1200x630.png"]
 Sitemap:
 Priority: 0.92
 
@@ -13,7 +13,7 @@ categories: ["tim&koko", "Members", "Behind the Scenes"]
 authors: ['marie-steck']
 additionalblogposts: ['6-monate-tk', 'weekly-sync']
 
-post_img: "images/blog/6-monate/tk-blogpost-6-monate-1500x1000.png"
+post_img: "images/blog/cnz/tk-blogpost-cnz-1500x1000.png"
 img_border: true
 lead: "Kaum zu glauben, dass bereits vier Monate vergangen sind, seit wir uns im Zürcher Abaton versammelt haben – für inspirierende Talks, spannende Diskussionen und einen ausgelassenen Apéro auf der Dachterrasse des SOHO. Cloud Native Zürich (CNZ) bleibt vielen von uns als ein Tag voller Energie, Wissenstransfer und Community-Spirit in Erinnerung."
 ---
