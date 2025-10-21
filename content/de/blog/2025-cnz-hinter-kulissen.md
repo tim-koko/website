@@ -15,7 +15,7 @@ additionalblogposts: ['6-monate-tk', 'serverless']
 
 post_img: "images/blog/cnz/tk-blogpost-cnz-1500x1000.png"
 img_border: true
-lead: "Kaum zu glauben, dass bereits vier Monate vergangen sind, seit wir uns im Zürcher Abaton versammelt haben – für inspirierende Talks, spannende Diskussionen und einen ausgelassenen Apéro auf der Dachterrasse des SOHO. Cloud Native Zürich (CNZ) bleibt vielen von uns als ein Tag voller Energie, Wissenstransfer und Community-Spirit in Erinnerung."
+lead: "Kaum zu glauben, dass bereits vier Monate vergangen sind, seit wir uns im Zürcher Abaton versammelt haben – für inspirierende Talks, spannende Diskussionen und einen ausgelassenen Apéro auf der Dachterrasse des SOHO. [Cloud Native Zürich (CNZ)](https://cloudnativezurich.ch/) bleibt vielen von uns als ein Tag voller Energie, Wissenstransfer und Community-Spirit in Erinnerung."
 ---
 
 Doch was steckt eigentlich alles hinter einem solchen Event? Wer sind die Menschen, die monatelang im Hintergrund die Fäden ziehen, damit wir einen reibungslosen und inspirierenden Tag erleben dürfen?
