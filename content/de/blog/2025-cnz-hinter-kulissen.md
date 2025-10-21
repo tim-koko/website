@@ -2,8 +2,8 @@
 title: "Cloud Native Day Zürich - Ein Blick hinter die Kulissen"
 slug: "cnz-hinter-kulissen"
 description: ""
-date: 2025-10-30T00:00:00+00:00
-lastmod: 2025-10-30T00:00:00+00:00
+date: 2025-10-21T00:00:00+00:00
+lastmod: 2025-10-21T00:00:00+00:00
 draft: false
 images: ["images/blog/cnz/tk-blogpost-cnz-1200x630.png"]
 Sitemap:
