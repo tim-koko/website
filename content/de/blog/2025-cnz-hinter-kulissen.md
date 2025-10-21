@@ -15,7 +15,7 @@ additionalblogposts: ['6-monate-tk', 'serverless']
 
 post_img: "images/blog/cnz/tk-blogpost-cnz-1500x1000.png"
 img_border: true
-lead: "Kaum zu glauben, dass bereits vier Monate vergangen sind, seit wir uns im Zürcher Abaton versammelt haben – für inspirierende Talks, spannende Diskussionen und einen ausgelassenen Apéro auf der Dachterrasse des SOHO. Cloud Native Zürich (CNZ) bleibt vielen von uns als ein Tag voller Energie, Wissenstransfer und Community-Spirit in Erinnerung."
+lead: "Kaum zu glauben, dass bereits vier Monate vergangen sind, seit wir uns im Zürcher Abaton versammelt haben – für inspirierende Talks, spannende Diskussionen und einen ausgelassenen Apéro auf der Dachterrasse des SOHO. [Cloud Native Zürich (CNZ)](https://cloudnativezurich.ch/) bleibt vielen von uns als ein Tag voller Energie, Wissenstransfer und Community-Spirit in Erinnerung."
 ---
 
 Doch was steckt eigentlich alles hinter einem solchen Event? Wer sind die Menschen, die monatelang im Hintergrund die Fäden ziehen, damit wir einen reibungslosen und inspirierenden Tag erleben dürfen?
@@ -47,3 +47,6 @@ Natürlich wären Thömu, Phil und Milena alleine aufgeschmissen – ein Event w
 
 Ja, es ist viel Arbeit. Und ja, manchmal auch ein bisschen Chaos. Aber was bleibt, ist ein starkes Gefühl von Zusammenhalt, Inspiration und Freude. Der Cloud Native Day Zürich ist mehr als nur ein Tech-Event – er ist eine Plattform für Austausch, Innovation und echtes Miteinander.
 Wir sind stolz, Teil dieser Community zu sein – und freuen uns schon jetzt auf den nächsten CNZ!
+
+Und das Beste: Die Tickets für den [Cloud Native Day 2026](https://cloudnativezurich.ch/) sind bereits erhältlich.
+Sichere dir jetzt deinen Platz und sei auch im nächsten Jahr wieder dabei - [hier](https://tickets.cloudnativezurich.ch/) geht's zu den Tickets.

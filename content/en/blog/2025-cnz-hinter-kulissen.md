@@ -15,7 +15,7 @@ additionalblogposts: ['6-monate-tk', 'serverless']
 
 post_img: "images/blog/cnz/tk-blogpost-cnz-1500x1000.png"
 img_border: true
-lead: "Hard to believe it’s already been four months since we gathered at the Abaton in Zurich – for inspiring talks, thought-provoking discussions, and a relaxed aperitif on the rooftop terrace of SOHO. Cloud Native Zurich (CNZ) remains a day full of energy, knowledge sharing, and community spirit in our memories."
+lead: "Hard to believe it’s already been four months since we gathered at the Abaton in Zurich – for inspiring talks, thought-provoking discussions, and a relaxed aperitif on the rooftop terrace of SOHO. [Cloud Native Zurich (CNZ)](https://cloudnativezurich.ch/) remains a day full of energy, knowledge sharing, and community spirit in our memories."
 ---
 
 But what really goes on behind the scenes of such an event? Who are the people working tirelessly for months to ensure everything runs smoothly and the day becomes an inspiring experience?
@@ -47,3 +47,6 @@ Of course, Thömu, Phil, and Milena couldn’t do it alone – an event like CNZ
 
 Yes, it’s a lot of work. And yes, sometimes it’s a little chaotic. But what remains is a strong sense of connection, inspiration, and joy. The Cloud Native Day Zurich is more than just a tech event – it’s a platform for exchange, innovation, and true community.
 We’re proud to be part of this journey – and we’re already looking forward to the next CNZ!
+
+And the best part: Tickets for the [Cloud Native Day 2026](https://cloudnativezurich.ch/) are already available.
+Secure your spot now and join us again next year – click [here](https://tickets.cloudnativezurich.ch/) to get your tickets.
