@@ -15,7 +15,7 @@ additionalblogposts: ['6-monate-tk', 'serverless']
 
 post_img: "images/blog/cnz/tk-blogpost-cnz-1500x1000.png"
 img_border: true
-lead: "Hard to believe it’s already been four months since we gathered at the Abaton in Zurich – for inspiring talks, thought-provoking discussions, and a relaxed aperitif on the rooftop terrace of SOHO. Cloud Native Zurich (CNZ) remains a day full of energy, knowledge sharing, and community spirit in our memories."
+lead: "Hard to believe it’s already been four months since we gathered at the Abaton in Zurich – for inspiring talks, thought-provoking discussions, and a relaxed aperitif on the rooftop terrace of SOHO. [Cloud Native Zurich (CNZ)](https://cloudnativezurich.ch/) remains a day full of energy, knowledge sharing, and community spirit in our memories."
 ---
 
 But what really goes on behind the scenes of such an event? Who are the people working tirelessly for months to ensure everything runs smoothly and the day becomes an inspiring experience?
