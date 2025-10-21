@@ -47,5 +47,7 @@ Natürlich wären Thömu, Phil und Milena alleine aufgeschmissen – ein Event w
 
 Ja, es ist viel Arbeit. Und ja, manchmal auch ein bisschen Chaos. Aber was bleibt, ist ein starkes Gefühl von Zusammenhalt, Inspiration und Freude. Der Cloud Native Day Zürich ist mehr als nur ein Tech-Event – er ist eine Plattform für Austausch, Innovation und echtes Miteinander.
 Wir sind stolz, Teil dieser Community zu sein – und freuen uns schon jetzt auf den nächsten CNZ!
+
 Und das Beste: Die Tickets für den [Cloud Native Day 2026](https://cloudnativezurich.ch/) sind bereits erhältlich.
+
 Sichere dir jetzt deinen Platz und sei auch im nächsten Jahr wieder dabei - [hier](https://tickets.cloudnativezurich.ch/) geht's zu den Tickets.
