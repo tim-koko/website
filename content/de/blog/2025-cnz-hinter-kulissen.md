@@ -11,7 +11,7 @@ Priority: 0.92
 
 categories: ["tim&koko", "Members", "Behind the Scenes"]
 authors: ['marie-steck']
-additionalblogposts: ['6-monate-tk', 'weekly-sync']
+additionalblogposts: ['6-monate-tk', 'serverless']
 
 post_img: "images/blog/cnz/tk-blogpost-cnz-1500x1000.png"
 img_border: true
