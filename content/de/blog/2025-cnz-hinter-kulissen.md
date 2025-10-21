@@ -26,7 +26,7 @@ Während viele von uns den letzten CNZ noch Revue passieren lassen, sind Thömu,
 In einem wöchentlichen Call besprechen sie aktuelle To-Dos, bereiten den Call for Papers vor, stimmen sich zur Speaker-Auswahl ab und halten das grosse Ganze im Blick. Der Call for Papers läuft offiziell von Januar bis März, damit das Programm im Frühling finalisiert und die technische Umsetzung rechtzeitig geplant werden kann.
 Doch bis zur Hauptprobe und dem grossen Tag im Juni gibt es noch jede Menge zu tun. Daher haben die drei ihre Aufgaben klar verteilt – Teamwork auf höchstem Niveau:
 
-## Wer macht was?
+### Wer macht was?
 
 **Phil** ist unser Zahlenmensch und Strippenzieher im Hintergrund. Er sorgt nicht nur dafür, dass der Event finanziell möglich ist, sondern pflegt auch den engen Kontakt zu Sponsoren, organisiert den Speaker-Event, koordiniert die Zusammenarbeit mit Location und Catering – kurzum: Er stellt sicher, dass es Cloud Native Zurich überhaupt gibt.
 
@@ -39,11 +39,11 @@ Doch bis zur Hauptprobe und dem grossen Tag im Juni gibt es noch jede Menge zu t
 Am Event-Tag zeigt sich, wie wichtig strukturierte Vorbereitung und ein eingespieltes Team sind. Die letzten Tage vor dem CNZ sind traditionell etwas hektisch – kleinere Herausforderungen, spontane Änderungen, steigende Nervosität. Doch genau hier zahlt sich die Rollenverteilung und das Vertrauen im Team aus.
 Phil kümmert sich weiterhin um die Sponsoren vor Ort, Milena hält die Kommunikation am Laufen und sorgt für einen konsistenten Auftritt auf allen Kanälen. Thömu sorgt für einen reibungslosen Ablauf der Sessions, kümmert sich um die Speaker-Betreuung und sorgt dafür, dass sich alle auf der Bühne wohlfühlen. Denn: Gute Talks entstehen nicht nur durch Expertise, sondern auch durch eine Umgebung, in der sich Speaker wertgeschätzt fühlen.
 
-## Das Team hinter dem Team
+### Das Team hinter dem Team
 
 Natürlich wären Thömu, Phil und Milena alleine aufgeschmissen – ein Event wie der CNZ lebt von der Unterstützung vieler helfender Hände. Von der Technikcrew über das Catering-Team, die Helfer:innen vor Ort und unsere tim&koko-Crew bis hin zu den Multimediaproduzent:innen: Ohne diese Menschen wäre der CNZ nicht möglich. Nicht zu vergessen: Unsere Sponsoren, die nicht nur finanziell unterstützen, sondern mit ihren Ständen, Giveaways und Fachgesprächen zur Vielfalt des Events beitragen.
 
-## Ein Tag für die Community - von der Community
+### Ein Tag für die Community - von der Community
 
 Ja, es ist viel Arbeit. Und ja, manchmal auch ein bisschen Chaos. Aber was bleibt, ist ein starkes Gefühl von Zusammenhalt, Inspiration und Freude. Der Cloud Native Day Zürich ist mehr als nur ein Tech-Event – er ist eine Plattform für Austausch, Innovation und echtes Miteinander.
 Wir sind stolz, Teil dieser Community zu sein – und freuen uns schon jetzt auf den nächsten CNZ!
