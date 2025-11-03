@@ -25,7 +25,10 @@ img_border: false
 Sitemap:
   Priority: 0.3
 
-
+# don't publish the page
+_build:
+ list: never
+ render: never
 ---
 
 Lust auf spannende Tech-Talks, praxisnahe Labs und eine Party, die verbindet?
