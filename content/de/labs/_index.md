@@ -13,8 +13,6 @@ form:
   LabelNachricht: "Gibt es noch etwas, das wir wissen müssen?"
 formSelect:
   dates: #null
-  - option: "30.10.2025 – Bern"
-    value: "bern-2025-10-30"
   - option: "bei zusätzlichen Terminen informieren."
     value: "weitere-daten"
 noLabsText: "Momentan sind keine weiteren Durchführungen geplant. Melde dich für unseren Newsletter an, um keine News zu verpassen!"
@@ -54,7 +52,7 @@ begleiten dich Schritt für Schritt, sodass du die wichtigsten Konzepte und Funk
 
 ### Termine
 
-* 30.10.2025 – 14:00 Uhr, Bern
+* Zur Zeit gibt es keine Termine
 
 &nbsp;
 

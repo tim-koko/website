@@ -14,8 +14,6 @@ form:
   LabelNachricht: "Something we should know?"
 formSelect:
   dates: #null
-  - option: "30.10.2025 – Bern"
-    value: "bern-2025-10-30"
   - option: "bei zusätzlichen Terminen informieren."
     value: "weitere-daten"
 noLabsText: "Currently there are no upcoming labs. Subscribe to our newsletter to stay in the loop!"
@@ -52,7 +50,7 @@ In this half-day lab, you'll first receive a theoretical introduction to the fun
 
 ### Dates
 
-* 30.10.2025 – 14:00, Bern
+* There are currently no dates available
 
 &nbsp;
 
