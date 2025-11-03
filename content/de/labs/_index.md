@@ -54,7 +54,7 @@ begleiten dich Schritt für Schritt, sodass du die wichtigsten Konzepte und Funk
 
 ### Termine
 
-* 30.10.2025 – 14:00 Uhr, Bern
+* Zur Zeit gibt es keine Termine
 
 &nbsp;
 
