@@ -7,7 +7,7 @@ lastmod: 2024-10-30T00:00:00+00:00
 draft: false
 images: ["images/blog/neuer-brandname/timkoko-neuer-brandname-blogpost-1500x1000.jpg"]
 Sitemap:
-Priority: 0.8
+  Priority: 0.8
 
 categories: ["News", "tim&koko", "Brand", "Behind the Scenes"]
 authors: ['sarah-pfeiffer']

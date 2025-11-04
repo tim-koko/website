@@ -8,7 +8,7 @@ lastmod: 2023-03-29T00:00:00+00:00
 draft: false
 images: []
 Sitemap:
-Priority: 0.3
+  Priority: 0.3
 
 categories: ["Technologie"]
 post_img: "images/blog/test.jpg"

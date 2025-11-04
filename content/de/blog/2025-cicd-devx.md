@@ -8,7 +8,7 @@ draft: false
 images: ["images/blog/cicd-devx/tk-blogpost-cicd-devx-3000x2000.png"]
 img_border: true
 Sitemap:
-Priority: 0.91
+  Priority: 0.91
 
 categories: ["Technologie", "GitlabCI", "Kubernetes"]
 authors: []

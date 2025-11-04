@@ -8,7 +8,7 @@ draft: false
 images: ["images/blog/kubevirt/tk-blogpost-kubevirt_share-image.jpg"]
 img_border: true
 Sitemap:
-Priority: 0.9
+  Priority: 0.9
 
 additionalblogposts: [ 'kubevirt-introduction', 'kubevirt-training']
 

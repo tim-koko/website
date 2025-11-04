@@ -7,7 +7,7 @@ lastmod: 2024-12-16T00:00:00+00:00
 draft: false
 images: ["images/blog/review24/tk-blogpost-review-1200x630.jpg"]
 Sitemap:
-Priority: 0.9
+  Priority: 0.9
 
 categories: ["News", "tim&koko", "Jahresrückblick"]
 authors: []

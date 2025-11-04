@@ -7,14 +7,14 @@ lastmod: 2025-10-21T00:00:00+00:00
 draft: false
 images: ["images/blog/cnz/tk-blogpost-cnz-1200x630.png"]
 Sitemap:
-Priority: 0.92
+  Priority: 0.92
 
 categories: ["tim&koko", "Members", "Behind the Scenes"]
 authors: ['marie-steck']
 additionalblogposts: ['6-monate-tk', 'serverless']
 
 post_img: "images/blog/cnz/tk-blogpost-cnz-1500x1000.png"
-img_border: true
+img_border: false
 lead: "Kaum zu glauben, dass bereits vier Monate vergangen sind, seit wir uns im Zürcher Abaton versammelt haben – für inspirierende Talks, spannende Diskussionen und einen ausgelassenen Apéro auf der Dachterrasse des SOHO. [Cloud Native Zürich (CNZ)](https://cloudnativezurich.ch/) bleibt vielen von uns als ein Tag voller Energie, Wissenstransfer und Community-Spirit in Erinnerung."
 ---
 

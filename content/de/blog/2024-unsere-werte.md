@@ -8,7 +8,7 @@ draft: false
 images: ["images/blog/unsere-werte/tk-blogpost-werte-some.png"]
 img_border: false
 Sitemap:
-Priority: 0.9
+  Priority: 0.9
 
 categories: ["News", "tim&koko", "Werte", "Behind the Scenes"]
 authors: []

@@ -1,10 +1,11 @@
 ---
 title: "Thomas Philipona"
 slug: "thomas-philipona"
-seo_title: ""
 description: ""
 draft: false
-
+date: 2022-04-01T00:00:00+00:00
+lastmod: 2022-11-01T00:00:00+00:00
+tk_teammamber: true
 image: "/images/team/thoemu.jpg"
 designation: "Founder"
 linkedin: "https://www.linkedin.com/in/thomas-philipona-thun/"

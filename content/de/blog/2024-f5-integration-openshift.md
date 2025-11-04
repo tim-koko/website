@@ -7,7 +7,7 @@ lastmod: 2024-11-12T00:00:00+00:00
 draft: false
 images: ["images/blog/openshift-f5/tk_blogpost-rh-openshift-f5-1200x630.jpg"]
 Sitemap:
-Priority: 0.8
+  Priority: 0.8
 
 categories: ["Technologie", "OpenShift", "Networking", "F5"]
 authors: []

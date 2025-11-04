@@ -8,7 +8,7 @@ draft: false
 images: ["images/blog/openshift-virtualization/tk-blogpost-ocp-virtualization-some.jpg"]
 img_border: true
 Sitemap:
-Priority: 0.9
+  Priority: 0.9
 
 additionalblogposts: [ 'kubevirt-introduction', 'kubevirt-usecases', 'kubevirt-training' ]
 

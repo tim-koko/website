@@ -7,7 +7,7 @@ lastmod: 2024-10-23T00:00:00+00:00
 draft: false
 images: ["images/blog/brand-plattform/tk-blogpost-brandplattform-tim-koko.png"]
 Sitemap:
-Priority: 0.8
+  Priority: 0.8
 
 categories: ["News", "tim&koko", "Brand", "Behind the Scenes"]
 authors: ['thomas-philipona']

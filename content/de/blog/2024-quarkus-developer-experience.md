@@ -8,7 +8,7 @@ draft: false
 images: ["images/blog/quarkus/tk-blogpost-02_quarkus_share-image.jpg"]
 img_border: true
 Sitemap:
-Priority: 0.4
+  Priority: 0.4
 
 categories: ["Technologie", "Quarkus", "Developer", "Java"]
 authors: []

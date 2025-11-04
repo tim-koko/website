@@ -7,7 +7,7 @@ lastmod: 2024-05-31T00:00:00+00:00
 draft: false
 images: ["images/blog/TK_BlogPost_2-3_RZ.png"]
 Sitemap:
-Priority: 0.8
+  Priority: 0.8
 
 categories: ["News", "tim&koko"]
 authors: ['sarah-pfeiffer']
