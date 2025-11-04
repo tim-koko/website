@@ -6,7 +6,7 @@ lastmod: 2025-09-01T00:00:00+00:00
 draft: false
 images: ["images/projects/tk-Ref-Centris-1200x630px-og.jpg"]
 Sitemap:
-Priority: 0.3
+  Priority: 0.3
 client: "Centris AG"
 post_img: "images/projects/tk-Ref-Centris-1500x1000px.jpg"
 img_border: false

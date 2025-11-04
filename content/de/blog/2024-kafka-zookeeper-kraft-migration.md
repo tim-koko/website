@@ -7,7 +7,7 @@ lastmod: 2025-04-10T00:00:00+00:00
 draft: false
 images: ["images/blog/kraft/tk-blogpost-01_kraft_share-image.jpg"]
 Sitemap:
-Priority: 0.3
+  Priority: 0.3
 
 categories: ["Technologie", "Apache Kafka", "Messaging"]
 authors: ['christof-luethi']

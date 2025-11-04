@@ -8,7 +8,7 @@ draft: false
 images: ["images/blog/operator-custom-resources/tk-blogpost-operator-3000x2000.png"]
 img_border: true
 Sitemap:
-Priority: 0.9
+  Priority: 0.9
 
 categories: ["Technologie", "OpenTelemetry", "Kubernetes"]
 authors: []

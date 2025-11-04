@@ -8,7 +8,7 @@ draft: false
 images: ["images/blog/scs/supply-chain-security-blog-SOME.png"]
 img_border: true
 Sitemap:
-Priority: 0.91
+  Priority: 0.91
 categories: ["Technologie", "Kubernetes", "Security"]
 authors: []
 additionalblogposts: [ 'quarkus-developer-experience', 'cicd-devx']

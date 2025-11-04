@@ -10,6 +10,7 @@ date: 2025-10-09T00:00:00+00:00
 lastmod: 2025-10-09T00:00:00+00:00
 draft: false
 sitemap_exclude: true
+feed_exclude: true
 type: "giveaway-form-page"
 netlifyFormname: "giveaway"
 images: ["images/landing-pages/tk-giveaway-2024-1500x1000.png"]

@@ -8,7 +8,7 @@ draft: false
 images: ["images/blog/kubevirt-training/kubevirt-training-some-1200x630.png"]
 img_border: false
 Sitemap:
-Priority: 0.9
+  Priority: 0.9
 
 
 additionalblogposts: [ 'kubevirt-introduction', 'kubevirt-usecases']

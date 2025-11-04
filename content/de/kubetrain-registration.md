@@ -10,6 +10,7 @@ date: 2025-01-19T00:00:00+00:00
 lastmod: 2025-01-19T00:00:00+00:00
 draft: false
 sitemap_exclude: true
+feed_exclude: true
 type: "event-registration-kubetrein-page"
 netlifyFormname: "kubetrain-preapero-registration"
 images: ["images/landing-pages/tk-landingpage-kubetrain-1200x630.png"]

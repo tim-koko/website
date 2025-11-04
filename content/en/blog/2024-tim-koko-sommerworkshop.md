@@ -7,7 +7,7 @@ lastmod: 2024-08-08T00:00:00+00:00
 draft: false
 images: ["images/blog/workshop24/TK_BlogPost_SommerWorkshop2024_1.jpg"]
 Sitemap:
-Priority: 0.9
+  Priority: 0.9
 
 categories: ["News", "tim&koko", "Workshop"]
 authors: []

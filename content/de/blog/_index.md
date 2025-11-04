@@ -3,11 +3,11 @@ title: "Insights – Themen, die uns beschäftigen"
 description: ""
 lead: ""
 date: 2024-05-15T00:00:00+00:00
-lastmod: 2024-05-15T00:00:00+00:00
+lastmod: 2025-11-04T00:00:00+00:00
 draft: false
 images: []
 Sitemap:
-Priority: 0.3
+  Priority: 0.7
 dataScroll: true
 ---
 

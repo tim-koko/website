@@ -7,7 +7,7 @@ lastmod: 2025-10-21T00:00:00+00:00
 draft: false
 images: ["images/blog/cnz/tk-blogpost-cnz-1200x630.png"]
 Sitemap:
-Priority: 0.92
+  Priority: 0.92
 
 categories: ["tim&koko", "Members", "Behind the Scenes"]
 authors: ['marie-steck']

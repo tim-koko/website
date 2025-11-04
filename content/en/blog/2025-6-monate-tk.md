@@ -7,7 +7,7 @@ lastmod: 2025-09-11T00:00:00+00:00
 draft: false
 images: ["images/blog/6-monate/tk-blogpost-6-monate-1200x630.png"]
 Sitemap:
-Priority: 0.92
+  Priority: 0.92
 
 categories: ["tim&koko", "Members", "Behind the Scenes"]
 authors: ['marie-steck']

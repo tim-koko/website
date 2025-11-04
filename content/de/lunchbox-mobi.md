@@ -10,6 +10,7 @@ date: 2022-10-31T00:00:00+00:00
 lastmod: 2024-08-24T00:00:00+00:00
 draft: false
 sitemap_exclude: true
+feed_exclude: true
 type: "lunchbox-form-page"
 blogposts: [ 'kubevirt-introduction', 'kubevirt-training']
 netlifyFormname: "lunchbag-mobi"

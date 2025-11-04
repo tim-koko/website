@@ -7,7 +7,7 @@ lastmod: 2025-08-20T00:00:00+00:00
 draft: false
 images: []
 Sitemap:
-Priority: 0.3
+  Priority: 0.3
 smallTitle: "Stellenbeschieb"
 
 # don't publish the page

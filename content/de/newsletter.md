@@ -6,7 +6,6 @@ lead: ""
 date: 2025-04-24T00:00:00+00:00
 lastmod: 2025-04-24T00:00:00+00:00
 draft: false
-sitemap_exclude: true
 titleVisible: "tim&koko"
 titleSublineVisible: "Newsletter"
 type: "newsletter-form-page"

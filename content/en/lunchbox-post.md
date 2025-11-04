@@ -10,6 +10,7 @@ date: 2025-01-14T00:00:00+00:00
 lastmod: 2025-01-14T00:00:00+00:00
 draft: false
 sitemap_exclude: true
+feed_exclude: true
 type: "lunchbox-form-page"
 blogposts:
   - 'openshift-virtualization'

@@ -8,7 +8,7 @@ draft: false
 images: ["images/blog/unsere-markenstrategie/20221018-TimKoko_Bern_0306.jpg"] # Open Graph bild, das angezeigt wird, wenn man die URL bspw. im google chat oder auf LinkedIn postet
 img_border: false 
 Sitemap:
-Priority: 0.9
+  Priority: 0.9
 
 categories: ["News", "tim&koko", "Brand", "Behind the Scenes"] 
 authors: ['sarah-pfeiffer']

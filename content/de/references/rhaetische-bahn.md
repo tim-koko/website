@@ -7,7 +7,7 @@ lastmod: 2023-03-29T00:00:00+00:00
 draft: false
 images: ["images/projects/rhb.jpg"]
 Sitemap:
-Priority: 0.3
+  Priority: 0.3
 client: "Rhätische Bahn"
 post_img: "images/projects/rhb.jpg"
 lead: "Nebst virtualisierter Hardware sorgen Bare Metal-Maschinen für die nötige Rechenleistung, um eine Vielzahl unterschiedlicher, für den Bahnbetrieb wichtiger Applikationen auf OpenShift zu betreiben."

@@ -6,7 +6,7 @@ lastmod: 2025-03-13T00:00:00+00:00
 draft: false
 images: ["images/projects/tk-Ref-Banking-1200x630px-og.png"]
 Sitemap:
-Priority: 0.3
+  Priority: 0.3
 client: "Schweizer Bank"
 post_img: "images/projects/tk-Ref-Banking-1500x1000px.png"
 img_border: false
