@@ -27,7 +27,7 @@ exports.handler = async (event) => {
 
     // Google Chat's expected JSON payload structure for a simple message
     const googleChatPayload = {
-        text: chatMessage
+        text: chatMessage,
     };
 
     // 3. Send the POST request to the Google Chat Webhook URL
@@ -45,7 +45,7 @@ exports.handler = async (event) => {
             console.error('Google Chat Webhook failed:', response.status, response.statusText);
             return {
                 statusCode: 500,
-                body: 'Error forwarding to Google Chat'
+                body: 'Error forwarding to Google Chat',
             };
         }
 
@@ -54,14 +54,14 @@ exports.handler = async (event) => {
         // This function must return a response object, even if the action is successful
         return {
             statusCode: 200,
-            body: 'Form submission forwarded successfully'
+            body: 'Form submission forwarded successfully',
         };
 
     } catch (error) {
         console.error('Network or Fetch Error:', error);
         return {
             statusCode: 500,
-            body: `Internal Server Error: ${error.message}`
+            body: `Internal Server Error: ${error.message}`,
         };
     }
 };
