@@ -41,8 +41,6 @@
       {{ end }}
 
      </div>
-
-
   </div>  
 
   <div class="mb-16 mb-lg-32 d-flex flex-wrap">
@@ -53,7 +51,8 @@
 
 
   <div class="row">
-    <div class="col-lg-2 pt-lg-11 mb-10">
+    {{/* no zurück button anymore
+     <div class="col-lg-2 pt-lg-11 mb-10">  
       <a class="small d-flex flex-column" href="{{ relLangURL "/blog/" }}">{{ i18n "goBack" }}
         <svg class="mt-1" width="31px" height="14px" viewBox="0 0 31 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="RT-tk-–-UI-Design-Desktop-RZ" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -67,10 +66,8 @@
 
 
       </a>
-     </div>
-    <div class="col-lg-8">
-
-   
+     </div>*/}}
+    <div class="col-lg-10  offset-lg-1">
 
         <h1 class="h2 mb-8 mb-lg-16">{{ .Title }}</h1>
         {{/*
@@ -101,23 +98,16 @@
         <div class="entry-content">
                   {{ .Content | safeHTML}}
         </div>
-
     </div>
- 
   </div>
 
 
 
 
   <footer class="row py-5">
-
-
-        <div class="col-lg-8 offset-lg-2">
-
+        <div class="col-lg-12">
           <div class="d-flex align-items-center small  my-12 my-lg-28">
-
             <div class="border-top border-2 border-secondary flex-grow-1 me-4"></div>
-
             <div class="d-flex  align-items-center justify-content-end ">
               {{ i18n "sharePost" }}
 

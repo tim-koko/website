@@ -12,7 +12,7 @@ Sitemap:
 
 additionalblogposts: [ 'kubevirt-introduction', 'kubevirt-usecases']
 
-categories: ["Technologie", "KubeVirt", "Kubernetes"]
+categories: ["Technology", "KubeVirt", "Kubernetes"]
 authors: ['thomas-philipona']
 post_img: "images/blog/kubevirt-training/kubevirt-training-blogpost-1500x1000.png"
 lead: "With this two-day training you will get a quick, easy, and hands-on introduction to the world of KubeVirt."

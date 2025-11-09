@@ -10,7 +10,7 @@ img_border: true
 Sitemap:
   Priority: 0.9
 
-categories: ["Technologie", "OpenTelemetry", "Kubernetes"]
+categories: ["Technology", "OpenTelemetry", "Kubernetes"]
 authors: []
 additionalblogposts: [ 'otel-collector', 'otel-autoinstrumentation']
 post_img: "images/blog/otel/tk-blogpost-otel-1500x1000.png"

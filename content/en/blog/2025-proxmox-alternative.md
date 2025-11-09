@@ -9,7 +9,7 @@ images: ["images/blog/proxmox/tk-blogpost-proxmox-1200x630.png"]
 Sitemap:
   Priority: 0.92
 
-categories: ["Technologie", "OpenTelemetry", "Kubernetes"]
+categories: ["Technology", "OpenTelemetry", "Kubernetes"]
 authors: []
 additionalblogposts: [ 'kubevirt-usecases', 'openshift-virtualization']
 

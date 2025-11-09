@@ -10,7 +10,7 @@ img_border: false
 Sitemap:
   Priority: 0.9
 
-categories: ["News", "tim&koko", "Werte", "Behind the Scenes"]
+categories: ["News", "tim&koko", "Values", "Behind the Scenes"]
 authors: []
 post_img: "images/blog/unsere-werte/tk-blogpost-werte.jpg"
 lead: "Our values shape how we work and treat each other. They are not just guidelines, but part of our everyday life. They help us to achieve our goals together and provide orientation for working with our customers."

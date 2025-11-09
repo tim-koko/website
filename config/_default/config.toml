@@ -119,7 +119,7 @@ rssLimit = 10
   priority = 0.5
 
 [taxonomies]
-  category = "categories"
+#  category = "categories"
   authors = "authors"
 
 
