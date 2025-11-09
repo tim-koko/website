@@ -1,6 +1,3 @@
-// netlify/functions/submission-created.js
-const fetch = require('node-fetch');
-
 // The Netlify function handler that runs after a form submission
 exports.handler = async (event) => {
     // 1. Get the Google Chat Webhook URL from environment variables
