@@ -9,7 +9,7 @@ images: ["images/blog/openshift-f5/tk_blogpost-rh-openshift-f5-1200x630.jpg"]
 Sitemap:
   Priority: 0.8
 
-categories: ["technology", "OpenShift", "network", "F5"]
+categories: ["Technology", "OpenShift", "Network", "F5"]
 authors: []
 img_border: true
 post_img: "images/blog/openshift-f5/tk_blogpost-rh-openshift-f5-1500x1000.jpg"

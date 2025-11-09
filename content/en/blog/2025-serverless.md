@@ -9,7 +9,7 @@ images: ["images/blog/bespinian/tk-blogpost-serverless-1200x630.png"]
 Sitemap:
   Priority: 0.92
 
-categories: ["Technologie", "Serverless", "Gastbeitrag"]
+categories: ["Technology", "Serverless", "Guestpost"]
 authors: [lena-fuhrimann]
 additionalblogposts: []
 
