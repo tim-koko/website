@@ -1,7 +1,7 @@
 ---
 title: "Rhaetian Railway – Cloud-Native Railway Operations with OpenShift"
 description: ""
-lead: ""
+lead: "In addition to virtualized hardware, bare metal machines provide the necessary computing power to run a variety of different applications crucial for railway operations on OpenShift."
 date: 2023-03-29T00:00:00+00:00
 lastmod: 2023-03-29T00:00:00+00:00
 draft: false
@@ -10,7 +10,6 @@ Sitemap:
   Priority: 0.3
 client: "Rhaetian Railway"
 post_img: "images/projects/rhb.jpg"
-lead: "In addition to virtualized hardware, bare metal machines provide the necessary computing power to run a variety of different applications crucial for railway operations on OpenShift."
 techStack: "OpenShift, Helm, Argo CD, Prometheus, Grafana, Jenkins, OpenTelemetry"
 link: "https://rhb.ch"
 ---

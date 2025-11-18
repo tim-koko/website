@@ -1,7 +1,7 @@
 ---
 title: "Rhätische Bahn – Cloud-native Bahnbetrieb mit OpenShift"
 description: ""
-lead: ""
+lead: "Nebst virtualisierter Hardware sorgen Bare Metal-Maschinen für die nötige Rechenleistung, um eine Vielzahl unterschiedlicher, für den Bahnbetrieb wichtiger Applikationen auf OpenShift zu betreiben."
 date: 2023-03-29T00:00:00+00:00
 lastmod: 2023-03-29T00:00:00+00:00
 draft: false
@@ -10,7 +10,6 @@ Sitemap:
   Priority: 0.3
 client: "Rhätische Bahn"
 post_img: "images/projects/rhb.jpg"
-lead: "Nebst virtualisierter Hardware sorgen Bare Metal-Maschinen für die nötige Rechenleistung, um eine Vielzahl unterschiedlicher, für den Bahnbetrieb wichtiger Applikationen auf OpenShift zu betreiben."
 techStack: "OpenShift, Helm, Argo CD, Prometheus, Grafana, Jenkins, OpenTelemetry"
 link: "https://rhb.ch"
 ---

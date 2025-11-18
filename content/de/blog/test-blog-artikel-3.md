@@ -1,7 +1,7 @@
 ---
 title: "Artikel 3 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy ein. (max. 75 Zeichen)"
 description: ""
-lead: ""
+lead: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod"
 date: 2023-03-29T00:00:00+00:00
 lastmod: 2023-03-29T00:00:00+00:00
 draft: false
@@ -13,7 +13,6 @@ categories: ["Technologie"]
 post_img: "images/blog/test.jpg"
 post_img_caption: "Optionale Bildlegende..."
 post_img_credits: "Optionale Bildcredits"
-lead: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod"
 
 # don't publish the page
 _build:
