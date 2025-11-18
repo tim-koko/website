@@ -63,7 +63,7 @@
     "stylelint-config-standard-scss": "^6.1"
   },
   "otherDependencies": {
-    "hugo": "0.136.2"
+    "hugo": "0.152.2"
   },
   "dependencies": {
     "@lottiefiles/dotlottie-web": "^0.56.0",

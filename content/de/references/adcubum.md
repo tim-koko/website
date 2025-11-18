@@ -1,7 +1,7 @@
 ---
 title: "Adcubum – Syrius auf dem Weg in die Cloud"
 description: ""
-lead: ""
+lead: "tim&koko unterstützt Adcubum auf ihrem spannenden Weg in die Cloud."
 date: 2023-03-29T00:00:00+00:00
 lastmod: 2023-03-29T00:00:00+00:00
 draft: false
@@ -10,7 +10,6 @@ Sitemap:
   Priority: 0.3
 client: "Adcubum"
 post_img: "images/projects/adcubum.jpg"
-lead: "tim&koko unterstützt Adcubum auf ihrem spannenden Weg in die Cloud."
 techStack: "OpenShift, Helm, Argo CD, Prometheus, Grafana, Jenkins, OpenTelemetry"
 link: "https://www.adcubum.com"
 ---
