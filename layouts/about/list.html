@@ -68,8 +68,9 @@
 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 gy-10">
       {{ range .values }}
-        <div class="col">
-            <h3 class="mb-3">{{ .title }}</h3>
+        <div class="col" data-scroll>
+            {{ .icon | safeHTML }}
+            <h3 class="mb-3 mt-2">{{ .title }}</h3>
               {{ .text }} 
         </div>
       {{ end }}

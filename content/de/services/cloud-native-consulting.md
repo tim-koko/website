@@ -1,8 +1,8 @@
 ---
-title: "tim&koko OpenShift Virtualization Accelerator-Paket"
-slug: "openshift-virtualization-accelerator"
+title: "tim&koko Cloud Native Consulting"
+#slug: "openshift-virtualization-accelerator"
 description: "Unser Accelerator Paket für einen schnellen Einstig in die OpenShift Virtualization Welt"
-titleVisible: "OpenShift Virtualization"
+titleVisible: "Cloud Native Consulting"
 titleSublineVisible: "Accelerator-Paket"
 image: "images/landing-pages/tk-landingpage-labs-1500x600.png"
 date: 2022-10-31T00:00:00+00:00

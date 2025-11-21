@@ -1,7 +1,7 @@
 ---
 title: "Referenzen – Die besten Kund:innen der Welt"
 translationKey: references
-slug: referenzen
+url: referenzen
 description: ""
 lead: ""
 date: 2025-03-04T00:00:00+00:00

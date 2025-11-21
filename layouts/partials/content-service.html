@@ -1,5 +1,5 @@
 
-  <div  data-scroll class="row gy-5 mb-8 position-relative ">
+  <div  data-scroll class="row gy-5 mb-16 mb-lg-32 position-relative ">
    
    <div class="col-md-auto h1">
       <span>{{ printf "%02d" .index }}</span>
@@ -10,8 +10,10 @@
     <div class="col-md {{ if .Params.img_border }} needsborder {{ end }}">
       <h2 class="mb-4 pe-md-5 me-md-5 mt-auto">{{ .Title }}</h2>
 
-     {{with .Params.post_img }}
-     {{ partial "img-srcset.html" (dict "img" . "size" 500 ) }}
+     {{with .Params.icon }}
+     <div class="icon-draw" data-scroll>  
+        {{ . | safeHTML }}
+     </div>
      {{ end }}
      
     </div>
