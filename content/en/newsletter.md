@@ -13,7 +13,7 @@ Sitemap:
   Priority: 0.2
 
 # don't publish the page
-#_build:
-# list: never
-# render: never
+# build:
+#   list: never
+#   render: never
 ---

@@ -16,9 +16,9 @@ post_img_credits: "Optionale Bildcredits"
 
 
 # don't publish the page
-_build:
- list: never
- render: never
+build:
+  list: never
+  render: never
 ---
 
 Hier kommt dann der ganze Lauftext

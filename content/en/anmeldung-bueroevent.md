@@ -18,9 +18,9 @@ Sitemap:
   Priority: 0.3
 
 # don't publish the page
-_build:
- list: never
- render: never
+build:
+  list: never
+  render: never
 ---
 
 Our  autumn event is just around the corner!

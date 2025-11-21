@@ -27,9 +27,9 @@ Sitemap:
   Priority: 0.3
 
 # don't publish the page
-_build:
- list: never
- render: never
+build:
+  list: never
+  render: never
 ---
 
 Excited for thrilling tech talks, hands-on labs, and a party that brings people together?

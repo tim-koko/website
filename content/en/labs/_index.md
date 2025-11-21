@@ -1,6 +1,5 @@
 ---
 title: "tim&koko OpenShift Virtualization labs"
-slug: "lunchbag-mobi-2024"
 description: "Hands-on tim&koko lab - OpenShift Virtualization"
 titleVisible: "OpenShift Virtualization"
 titleSublineVisible: "tim&koko lab"
@@ -22,7 +21,7 @@ Sitemap:
   Priority: 0.3
 
 # # don't publish the page
-# _build:
+# build:
 #   list: never
 #   render: never
 ---

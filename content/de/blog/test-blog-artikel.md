@@ -14,9 +14,9 @@ categories: ["Technologie"]
 post_img: "images/blog/test.jpg"
 
 # don't publish the page
-_build:
- list: never
- render: never
+build:
+  list: never
+  render: never
 ---
 
 
