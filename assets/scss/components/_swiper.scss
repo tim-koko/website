@@ -29,11 +29,11 @@
     height: 100%;
     z-index: 10;
     pointer-events: none;
-    background: linear-gradient(to right, rgb(10 20 50 / 100%), rgb(10 20 50 / 0%));
+    background: linear-gradient(to right, rgba(10, 20, 50, 1), rgba(10, 20, 50, 0)); /* stylelint-disable-line */
   }
 
   &.with-fade::after {
     right: 0;
-    background: linear-gradient(to left, rgb(10 20 50 / 100%), rgb(10 20 50 / 0%));
+    background: linear-gradient(to left, rgba(10, 20, 50, 1), rgba(10, 20, 50, 0)); /* stylelint-disable-line */
   }
 }
