@@ -1,6 +1,6 @@
 # Job Button
 job:
-  active: true
+  active: false
   title: "Join the Team"
   percent: "80-100%"
   place: "Bern, Schweiz"

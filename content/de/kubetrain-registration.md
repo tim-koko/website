@@ -19,9 +19,9 @@ Sitemap:
   Priority: 0.3
 
 # don't publish the page
-_build:
- list: never
- render: never
+build:
+  list: never
+  render: never
 ---
 
 ## Pre-Apéro vor der Abfahrt des KubeTrains in Paris!

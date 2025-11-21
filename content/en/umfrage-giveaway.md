@@ -17,9 +17,9 @@ images: ["images/landing-pages/tk-giveaway-2024-1500x1000.png"]
 Sitemap:
   Priority: 0.3
 # don't publish the page
-#_build:
-# list: never
-# render: never
+# build:
+#   list: never
+#   render: never
 ---
 
 A little joy for you!

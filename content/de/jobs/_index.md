@@ -11,9 +11,9 @@ Sitemap:
 smallTitle: "Stellenbeschieb"
 
 # don't publish the page
-#_build:
-# list: never
-# render: never
+build:
+  list: never
+  render: never
 ---
 
 &nbsp;
