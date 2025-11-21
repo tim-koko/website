@@ -18,6 +18,15 @@ Sitemap:
 # build:
 #   list: never
 #   render: never
+
+abstract: 
+  text: "Ein:e erfahrene:r tim&koko Cloud Native Consultant steht während des ganzen Prozesses unterstützend zur Seite – Mit Fachwissen, konkreten Anweisungen oder auch mal mit aufmunternden Worten. Das Cloud Native Consulting beinhaltet:"
+  list:
+    - "das Begleiten deiner ganzen Cloud Native Journey von A-Z"
+    - "Beratung zum magischen Dreieck: Technologie, Kultur und Prozesse"
+    - "Cloud Architektur Design und Lösungsarchitektur"
+
+
 ---
 
 

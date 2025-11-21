@@ -1,0 +1,39 @@
+:root {
+  --swiper-theme-color: var(--bs-dark);
+
+  // --swiper-navigation-size: 40px;
+  // --swiper-pagination-color: #fff;
+  --swiper-pagination-color-active: var(--bs-dark);
+  --swiper-pagination-bullet-size: 1.4rem;
+  --swiper-pagination-bullet-inactive-color: #fff;
+  --swiper-pagination-bullet-inactive-opacity: 1;
+}
+
+.swiper-pagination-bullet {
+  border: 1px solid var(--swiper-pagination-color-active);
+}
+
+/* override swipers transition */
+.swiper-logos {
+  &.autoplay > .swiper-wrapper {
+    transition-timing-function: linear;
+  }
+
+  // add gradient elements before and after
+  &.with-fade::before,
+  &.with-fade::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 6rem;
+    height: 100%;
+    z-index: 10;
+    pointer-events: none;
+    background: linear-gradient(to right, rgb(10 20 50 / 100%), rgb(10 20 50 / 0%));
+  }
+
+  &.with-fade::after {
+    right: 0;
+    background: linear-gradient(to left, rgb(10 20 50 / 100%), rgb(10 20 50 / 0%));
+  }
+}

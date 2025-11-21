@@ -13,6 +13,15 @@ images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]
 Sitemap:
   Priority: 0.3
 
+abstract: 
+  text: "Mit unserer umfassenden Erfahrung in klassischer Virtualisierung und Kubernetes unterstützen wir Unternehmen dabei, Workloads nahtlos zu modernisieren und erfolgreich zu migrieren. Zusätzlich bieten wir spezialisierte Trainings an, um Dein Team fit für die Zukunft zu machen. Dieses Paket hilft dir, sehr schnell die Möglichkeiten der Kubernetes-basierten Virtualisierung zu erkunden und herauszufinden, wie hoch das Potenzial für eine neue oder parallele Strategie sein könnte. Nach Abschluss des Accelerator-Pakets verfügst Du über:"
+  list:
+    - Massgeschneiderte Virtualisierungsstrategie
+    - Geschultes und befähigtes Team
+    - Proof-of-Concept (PoC-)Umgebung
+    - Klare Migrations-Roadmap
+    - Verbesserte Ressourcennutzung und Kosteneinsparungen
+    - Alternative Virtualisierungsplattfom
 
 # # don't publish the page
 # build:

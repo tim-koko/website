@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="container-fluid  pt-5 pt-lg-30">
+<div class="container-fluid  pt-5 pt-lg-30 mb-16 mb-lg-32">
   <div class="row">
  
     <div class="col-lg-5 offset-lg-1_ mb-8 mb-lg-16 {{ if page.Params.img_border }} needsborder {{ end }}">
@@ -16,24 +16,68 @@
       </div>
     </div>
   </div>
+</div>
 
 
+<section   class="container-fluid  mb-16 mb-lg-32">
 
-  <div class=" my-5">
-      {{ range (.Paginator 10).Pages }}
+      {{ range $index, $item := (.Paginator 10).Pages }}
        
-          {{ partial "content-blog" . }} 
+          {{ partial "content-service" (dict "item" $item "index" (add $index 1)) }} 
    
         {{ end }}
-  </div>
+ 
 
   <div class="row my-5">
       <div class="col-lg-10 offset-lg-1 d-flex">
         
- 
+      
         {{ template "_internal/pagination.html" . }}
       </div>
   </div>
  
-</div>
+</section>
+
+
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ with $data.homepage.references }}
+<section   class="container-fluid  mb-16 mb-lg-32">
+  <div class="col-lg-6 mb-8 mb-lg-12 pe-lg-14" data-scroll>
+    <h2 >{{  .title }}</h2> 
+
+    {{ .text }}
+  </div>
+  {{ $references := where $.Site.RegularPages "Type" "references" }}
+  {{ range first 2 ($references) }}
+
+  <div class="row gy-5 mb-8 position-relative" data-scroll>
+    <div class="col-md-6 {{ if .Params.img_border }} needsborder {{ end }}">
+
+      {{with .Params.post_img }}
+       {{ partial "img-srcset.html" (dict "img" . "size" 500 ) }}
+     {{ end }}
+ 
+     </div>
+    
+    <div class="col-md-5 d-flex flex-column">
+     <h2 class="h3 mb-4 pe-md-5 me-md-5 mt-auto">{{ .Title }}</h2>
+     <div class="mb-4 mb-lg-8 small">{{ .Params.lead }}</div>
+     <a class="small stretched-link mb-auto" href="{{ .RelPermalink | safeURL }}">{{ i18n "readMore" }}
+       <div class="icon-draw line"><svg xmlns="http://www.w3.org/2000/svg" width="84" height="10" viewBox="0 0 91.45565 10.81185"><path vector-effect="non-scaling-stroke" d="M1.41188,3.81092c30.82411-1.61772,52.39289,5.57187,86.64564,1.56359" fill="none" fill-rule="evenodd" stroke="#99e0bb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg></div>
+     </a>
+   </div>
+  </div>
+  {{ end }}
+  {{ if $references }}
+  <div class="col-lg-6 mb-8 mb-lg-12 pe-lg-14 d-flex flex-column" data-scroll>
+    <a class="me-auto small" href="{{ relLangURL "/references" }}">{{ i18n "moreReferences" }}
+      <div class="icon-draw line" data-scroll="in"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.68 10"><path d="M1.71 3.12c31.49-.23 53.45 3.32 88.51 2.23"  style="fill:none;stroke:#99e0bb;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/></svg></div>
+    </a>
+  </div>
+  {{ end }}
+</section>
+{{ end }}
+
 {{ end }}

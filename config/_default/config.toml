@@ -18,35 +18,37 @@ rssLimit = 10
     contentDir = "content/de"
 
     # menu
-    [[languages.de.menu.main]]
-    name = "Cloud Native"
-    url = "/#cloud-native"
-    weight = 1
+   # [[languages.de.menu.main]]
+   # name = "Cloud Native"
+   # url = "/#cloud-native"
+   # weight = 1
 
     [[languages.de.menu.main]]
     name = "Services"
-    url = "/#services"
-    weight = 2
-
-    [[languages.de.menu.main]]
-    name = "Über Uns"
-    url = "/#about"
-    weight = 3
+    url = "/services"
+    weight = 1
 
     [[languages.de.menu.main]]
     name = "Referenzen"
-    url = "/references"
-    weight = 4
-
-    [[languages.de.menu.main]]
-    name = "Partner"
-    url = "/#partner"
-    weight = 5
+    url = "/referenzen"
+    weight = 2
 
     [[languages.de.menu.main]]
     name = "Blog"
     url = "/blog"
-    weight = 6
+    weight = 3
+
+    [[languages.de.menu.main]]
+    name = "Über Uns"
+    url = "/ueber-uns"
+    weight = 4
+
+
+    #[[languages.de.menu.main]]
+    #name = "Partner"
+    #url = "/#partner"
+    #weight = 5
+
 
   [languages.en]
     languageName = "English"
@@ -55,35 +57,37 @@ rssLimit = 10
     contentDir = "content/en"
 
      # menu
-    [[languages.en.menu.main]]
-    name = "Cloud Native"
-    url = "/en/#cloud-native"
-    weight = 1
+    #[[languages.en.menu.main]]
+    #name = "Cloud Native"
+    #url = "/en/#cloud-native"
+    #weight = 1
 
     [[languages.en.menu.main]]
     name = "Services"
-    url = "/en/#services"
-    weight = 2
-
-    [[languages.en.menu.main]]
-    name = "About"
-    url = "/en/#about"
-    weight = 3
+    url = "/en/services"
+    weight = 1
 
     [[languages.en.menu.main]]
     name = "References"
     url = "/en/references"
-    weight = 4
-
-    [[languages.en.menu.main]]
-    name = "Partner"
-    url = "/en/#partner"
-    weight = 5
+    weight = 2
 
     [[languages.en.menu.main]]
     name = "Blog"
     url = "/en/blog"
-    weight = 6
+    weight = 3
+
+    [[languages.en.menu.main]]
+    name = "About"
+    url = "/en/about"
+    weight = 4
+
+
+    #[[languages.en.menu.main]]
+    #name = "Partner"
+    #url = "/en/#partner"
+    #weight = 5
+
 
 # add redirects/headers
 [outputs]

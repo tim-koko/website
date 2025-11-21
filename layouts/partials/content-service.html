@@ -1,0 +1,43 @@
+
+  <div  data-scroll class="row gy-5 mb-8 position-relative ">
+   
+   <div class="col-md-auto h1">
+      <span>{{ printf "%02d" .index }}</span>
+    </div>
+   
+    {{ with .item }}
+
+    <div class="col-md {{ if .Params.img_border }} needsborder {{ end }}">
+      <h2 class="mb-4 pe-md-5 me-md-5 mt-auto">{{ .Title }}</h2>
+
+     {{with .Params.post_img }}
+     {{ partial "img-srcset.html" (dict "img" . "size" 500 ) }}
+     {{ end }}
+     
+    </div>
+    
+    <div class="col-md-5 d-flex flex-column">
+      
+        {{with .Params.abstract }}
+        <div class="mb-4 mb-lg-8">
+          {{ .text }}
+        </div>
+        {{ if .list }}
+        <ul class="mb-4 mb-lg-8 small_">
+          {{ range .list }}
+          <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+        {{ end }}
+        {{ end }}
+               
+        <a class="small stretched-link mb-auto" href="{{ .RelPermalink | safeURL }}">{{ i18n "readMore" }}
+          <div class="icon-draw line"><svg xmlns="http://www.w3.org/2000/svg" width="84" height="10" viewBox="0 0 91.45565 10.81185"><path vector-effect="non-scaling-stroke" d="M1.41188,3.81092c30.82411-1.61772,52.39289,5.57187,86.64564,1.56359" fill="none" fill-rule="evenodd" stroke="#99e0bb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg></div>
+        </a>
+  
+
+      </div>
+    {{ end }}
+    </div>
+
+ 

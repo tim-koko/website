@@ -107,72 +107,47 @@ services:
         </ul>
         <p><a href=\"/services/openshift-virtualization-accelerator/\">read more</a></p>"
 
-# Slideshow Section
-slideshow:
-  images:
-    - img: "images/slideshow/20221018-TK_Bern_0521@2x.jpg"
-    - img: "images/slideshow/tk-Bilder_11.jpg"
-    - img: "images/slideshow/20221018-TK_Bern_1083@2x.jpg"
-    - img: "images/slideshow/20221018-TK_Bern_0324@2x.jpg"
-    - img: "images/slideshow/20221018-TK_Bern_0745@2x.jpg"
-    - img: "images/slideshow/20221018-TK_Bern_0103@2x.jpg"
+
 
 # About us Section
 about:
   title: "About us – We live Cloud Native"
   text: "<p>At tim&koko, people are at the centre of everything we do. We are committed to a corporate culture characterised by curiosity, co-creation and courage. Our heads may be in the cloud, but our feet are rooted firmly on the ground.</p>"
-  persons:
-    - name: "Marie Steck"
-      title: "Project Manager"
-      img: "images/team/marie.jpg"
-      linkedin: "https://www.linkedin.com/in/marie-steck-2476b2338/"
-    - name: "Christof Lüthi"
-      title: "Cloud Architect"
-      img: "images/team/chrigu.jpg"
-      linkedin: "https://www.linkedin.com/in/christof-luethi/"
-      github: "https://github.com/christofluethi"
-    - name: "Sarah Pfeiffer"
-      title: "Project Manager"
-      img: "images/team/sarah.jpg"
-      linkedin: "https://www.linkedin.com/in/pfeiffersarah/"
-      twitter: "https://twitter.com/jamok_sarita"
-    - name: "Thomas Philipona"
-      title: "Founder"
-      img: "images/team/thoemu.jpg"
-      linkedin: "https://www.linkedin.com/in/thomas-philipona-thun/"
-      twitter: "https://twitter.com/tphilipona"
-      github: "https://github.com/phil-pona"
+  img: "images/slideshow/20221018-TK_Bern_0745@2x.jpg"
+  link: "/en/about/"
+
 
 # References Section
 references:
   title: "References – The best customers in the world"
-  text: ""
+  text: "Quis mollit ut exercitation quis aliquip, laboris. Exercitation quis aliquip laboris anim duis labore irure. Aliquip laboris anim duis labore irure. Anim duis labore irure, fugiat. Irure, fugiat excepteur anim labore."
 
-# Partner Section
-partner:
-  title: "Our partners – Together we’ll go the furthest"
-  text: "<p>Competition? We prefer companionship. We choose to work side by side with partners who are pursuing the same goals. That's why we share our experiences, successes and challenges with the community, are active open source contributors and trust that our partners will do the same. This way, we always learn from and with like-minded people - and find solutions that we would never have come up with on our own.</p>"
+
+# Technologies Section
+clients:
+  title: "Kund:innen die uns vertrauen"
   item:
-    - title: "acend GmbH"
-      label: "Cloud Native Trainings"
-      img: "images/partner/acend.svg"
-      link: "https://acend.ch"
-    - title: "BEGASOFT"
-      label: "Cloud & Container Platform"
-      img: "images/partner/begasoft.svg"
-      link: "https://www.begasoft.ch/"
-    - title: "bespinian"
-      label: "Cloud Native Engineering"
-      img: "images/partner/bespinian.svg"
-      link: "https://bespinian.io/"
-    - title: "Puzzle ITC"
-      label: "Cloud Native Collaboration"
-      img: "images/partner/puzzle_itc.png"
-      link: "https://puzzle.ch/"
-    - title: "Red Hat"
-      label: "Cloud Native Solutions Provider"
-      img: "images/partner/redhat.png"
-      link: "https://www.redhat.com/"
+    - title: "ArgoCD"
+      img: "images/tech/argo-horizontal-white.svg"
+    - title: "GO"
+      img: "images/tech/Go-Logo_White.svg"
+    - title: "Helm"
+      img: "images/tech/helm-horizontal-white.svg"
+    - title: "Kubernetes"
+      img: "images/tech/Kubernetes_logo_without_workmark.svg"
+    - title: "KubeVirt"
+      img: "images/tech/kubevirt_logo_only.svg"
+    - title: "Prometheus"
+      img: "images/tech/Prometheus_software_logo.svg"
+    - title: "Cilium"
+      img: "images/tech/cilium-logo-white.svg"
+    - title: "Kafka"
+      img: "images/tech/apache_kafka.svg"
+    - title: "Tekton"
+      img: "images/tech/tekton-stacked-white.svg"
+    - title: "Terraform"
+      img: "images/tech/Terraform_VerticalLogo_White_RGB.svg"
+
 
 # Prefooter Section
 prefooter:

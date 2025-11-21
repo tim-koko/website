@@ -2,6 +2,8 @@ import  Flickity from 'flickity';
 //import anime from 'animejs'; // old home slider
   
 
+export default function() {
+//console.log('slideshow loaded');
 
 const articleSlideshows = document.querySelectorAll('.entry-content .slides');
 
@@ -156,3 +158,5 @@ if (!document.body.classList.contains('touch')) {
 
 }
 */
+
+}

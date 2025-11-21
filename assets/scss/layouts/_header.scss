@@ -125,7 +125,7 @@
     @include media-breakpoint-up(lg) {
       width: 10rem;
 
-      .headroom-not-top & {
+      .headroom--not-top & { /* stylelint-disable-line */
         width: 7rem;
       }
     }
@@ -144,7 +144,7 @@
     left: 0;
     z-index: 1030;
 
-    &.headroom-not-top {
+    &.headroom--not-top { /* stylelint-disable-line */
       background: $blue;
       box-shadow: 0 -10px 16px 10px rgba($green, 0.6);
       transform: translateY(-4rem);
@@ -160,7 +160,7 @@
     }
   }
 
-  &.headroom-not-top {
+  &.headroom--not-top { /* stylelint-disable-line */
     .email path {
       stroke-dashoffset: 0 !important;
     }
@@ -306,7 +306,7 @@
   }
 
   @include media-breakpoint-up(lg) {
-    .headroom-top & {
+    .headroom--top & { /* stylelint-disable-line */
       &:hover {
         .hello,
         .arrow {
