@@ -29,9 +29,7 @@
   </div>
   {{ if .link }}
   <div class="col-md-7 ps-lg-22 mt-8 d-flex flex-column" data-scroll>
-    <a class="me-auto small" href="{{ .link }}">{{ .linktext }}
-      <div class="icon-draw line" data-scroll="in"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.68 10"><path d="M1.71 3.12c31.49-.23 53.45 3.32 88.51 2.23"  style="fill:none;stroke:#99e0bb;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/></svg></div>
-    </a>
+    <a class="line me-auto small_" href="{{ .link }}">{{ .linktext }}</a>
   </div>
   {{ end }}
 </div>
@@ -45,9 +43,7 @@
       <p>{{ .text | safeHTML }}</p>
       
       {{ if .link }}
-      <a class="me-auto small" href="{{ .link }}">{{ .linktext }}
-        <div class="icon-draw line" data-scroll="in"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.68 10"><path d="M1.71 3.12c31.49-.23 53.45 3.32 88.51 2.23"  style="fill:none;stroke:#99e0bb;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/></svg></div>
-      </a>
+      <a class="line me-auto small_" href="{{ .link }}">{{ .linktext }}</a>
       {{ end }}
     </div>
     {{ end }}
@@ -128,7 +124,7 @@
     {{ .text | safeHTML }}
   </div>
   
-  <div class="row row-cols-1 row-cols-lg-2  gy-10">
+  <div class="row row-cols-1 row-cols-lg-2  gy-10 mb-8">
     {{ range .item }}
     <div class="col" data-scroll>
 
@@ -138,6 +134,11 @@
     </div>
     {{ end }}
   </div>
+
+   {{ $page := $.Site.GetPage "/services" }}
+    <div  data-scroll>
+      <a class="line me-auto " href="{{ $page.Permalink }}">{{ i18n "moreServices" }}</a>
+    </div>
 </section>
 {{ end }}
 
@@ -149,12 +150,11 @@
 
     <div class="col-lg-6" data-scroll>
       <h2 class="mb-4 mb-lg-8">{{ .title }}</h2> 
-      {{ .text | safeHTML }}
-
+      <div class="mb-8">
+        {{ .text | safeHTML }}
+      </div>
       {{with .link }}
-       <a class="small stretched-link_ mb-auto" href="{{ . | safeURL }}">{{ i18n "readMore" }}
-       <div class="icon-draw line"><svg xmlns="http://www.w3.org/2000/svg" width="84" height="10" viewBox="0 0 91.45565 10.81185"><path vector-effect="non-scaling-stroke" d="M1.41188,3.81092c30.82411-1.61772,52.39289,5.57187,86.64564,1.56359" fill="none" fill-rule="evenodd" stroke="#99e0bb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg></div>
-     </a>
+       <a class="line stretched-link_ mb-auto" href="{{ . | safeURL }}">{{ i18n "discoverMore" }}</a>
      {{ end }}
     </div>
     <div class="col-lg-6">
@@ -167,7 +167,6 @@
   <div class="row row-cols-1 row-cols-lg-2  gy-10">
     {{ range .item }}
     <div class="col" data-scroll>
-
        <div class="icon-draw mb-3">{{ .img | safeHTML }}</div>
       <h3 class="mb-2 mb-lg-4">{{ .title }}</h3> 
       {{ .text | safeHTML }}
@@ -179,18 +178,15 @@
 
 
 
-
- 
-
-
-
-
 {{ with $data.homepage.references }}
 <section   class="container-fluid  mb-16 mb-lg-32">
   <div class="col-lg-6 mb-8 mb-lg-12 pe-lg-14" data-scroll>
     <h2 >{{  .title }}</h2> 
-
-    {{ .text }}
+    <div class="mb-8">
+      {{ .text }}
+      </div>
+      {{ $page := $.Site.GetPage "/references" }}
+      <a class="line me-auto " href="{{ $page.Permalink }}">{{ i18n "moreReferences" }}</a>
   </div>
   {{ $references := where $.Site.RegularPages "Type" "references" }}
   {{ range first 2 ($references) }}
@@ -206,20 +202,12 @@
     
     <div class="col-md-5 d-flex flex-column">
      <h2 class="h3 mb-4 pe-md-5 me-md-5 mt-auto">{{ .Title }}</h2>
-     <div class="mb-4 mb-lg-8 small">{{ .Params.lead }}</div>
-     <a class="small stretched-link mb-auto" href="{{ .RelPermalink | safeURL }}">{{ i18n "readMore" }}
-       <div class="icon-draw line"><svg xmlns="http://www.w3.org/2000/svg" width="84" height="10" viewBox="0 0 91.45565 10.81185"><path vector-effect="non-scaling-stroke" d="M1.41188,3.81092c30.82411-1.61772,52.39289,5.57187,86.64564,1.56359" fill="none" fill-rule="evenodd" stroke="#99e0bb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg></div>
-     </a>
+     <div class="mb-4 mb-lg-8 small_">{{ .Params.lead }}</div>
+     <a class="line small_ stretched-link mb-auto" href="{{ .RelPermalink | safeURL }}">{{ i18n "readMore" }}</a>
    </div>
   </div>
   {{ end }}
-  {{ if $references }}
-  <div class="col-lg-6 mb-8 mb-lg-12 pe-lg-14 d-flex flex-column" data-scroll>
-    <a class="me-auto small" href="{{ relLangURL "/references" }}">{{ i18n "moreReferences" }}
-      <div class="icon-draw line" data-scroll="in"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.68 10"><path d="M1.71 3.12c31.49-.23 53.45 3.32 88.51 2.23"  style="fill:none;stroke:#99e0bb;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/></svg></div>
-    </a>
-  </div>
-  {{ end }}
+
 </section>
 {{ end }}
 

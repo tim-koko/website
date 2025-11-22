@@ -17,6 +17,8 @@ rssLimit = 10
     languageCode = "de-ch"
     contentDir = "content/de"
 
+    [languages.de.permalinks]
+    references = "/referenzen/:slug"
     # menu
    # [[languages.de.menu.main]]
    # name = "Cloud Native"
