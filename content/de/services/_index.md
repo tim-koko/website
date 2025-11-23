@@ -1,5 +1,5 @@
 ---
-title: "Services – Gemeinsam mit unseren Services, nach oben"
+title: "Services – Gemeinsam ganz nach oben"
 description: ""
 lead: ""
 date: 2024-05-15T00:00:00+00:00

@@ -1,5 +1,5 @@
 ---
-title: "tim&koko OpenShift Virtualization Accelerator-Paket"
+title: "OpenShift Virtualization Accelerator-Paket"
 slug: "openshift-virtualization-accelerator"
 description: "Unser Accelerator Paket für einen schnellen Einstig in die OpenShift Virtualization Welt"
 titleVisible: "OpenShift Virtualization"
@@ -14,7 +14,7 @@ Sitemap:
   Priority: 0.3
 
 abstract: 
-  text: "Mit unserer umfassenden Erfahrung in klassischer Virtualisierung und Kubernetes unterstützen wir Unternehmen dabei, Workloads nahtlos zu modernisieren und erfolgreich zu migrieren. Zusätzlich bieten wir spezialisierte Trainings an, um Dein Team fit für die Zukunft zu machen. Dieses Paket hilft dir, sehr schnell die Möglichkeiten der Kubernetes-basierten Virtualisierung zu erkunden und herauszufinden, wie hoch das Potenzial für eine neue oder parallele Strategie sein könnte. Nach Abschluss des Accelerator-Pakets verfügst Du über:"
+  text: "Mit unserer umfassenden Erfahrung in klassischer Virtualisierung und Kubernetes unterstützen wir Unternehmen dabei, Workloads nahtlos zu modernisieren und erfolgreich zu migrieren. Nach Abschluss des Accelerator-Pakets verfügst Du über:"
   list:
     - Massgeschneiderte Virtualisierungsstrategie
     - Geschultes und befähigtes Team

@@ -10,7 +10,7 @@ job:
 hero:
   small_title: "Into the Cloud"
   title: 'Cloud Native <span class="d-block">Transformation</span> leicht gemacht.'
-  lead: "tim&koko begleitet Unternehmen ganz nach oben. Genauer gesagt: In die Cloud. Mit einer Beratung auf Augenhöhe und technologischen Lösungen, die ungenutztes Potenzial erschliessbar machen."
+  lead: "tim&koko begleitet Unternehmen ganz nach oben. Genauer gesagt: Auf das nächste Level. Mit einer Beratung auf Augenhöhe und technologischen Lösungen, die ungenutztes Potenzial erschliessbar machen."
   img: "images/20221018-TK_Bern_0112@4x.jpg"
   link: ""
   linktext: ""
@@ -78,8 +78,9 @@ services:
         "<p>Ein:e erfahrene:r tim&koko Cloud Native Consultant steht während des ganzen Prozesses unterstützend zur Seite – Mit Fachwissen, konkreten Anweisungen oder auch mal mit aufmunternden Worten. Das Cloud Native Consulting beinhaltet:</p>
         <ul>
         <li>das Begleiten deiner ganzen Cloud Native Journey von A-Z</li>
+        <li>on Premises im eigenen Datacenter oder in der Cloud</li>
         <li>Beratung zum magischen Dreieck: Technologie, Kultur und Prozesse</li>
-        <li>Cloud Architektur Design und Lösungsarchitektur</li>
+        <li>Solution Architektur und Architektur Review</li>
         <li>Coaching & Training von Mitarbeitenden</li>
         <li>Workshops, Reviews</li>
         </ul>"
@@ -94,11 +95,23 @@ services:
         <li>Automation, GitOps</li>
         <li>Implementation und Integration von Observability Aspekten</li>
         </ul>"
+    - title: "Cloud Native Training"
+      img: '<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 128 128"><path d="M25.07971,101.39095c1.08769,.56998,2.19782,1.09533,3.31743,1.59828,8.38185,3.76533,17.42496,6.34731,24.83329,11.81246" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M52.64419,114.40868c8.69498-2.61883,17.03858-6.42566,24.73234-11.28431,4.4732-2.82486,13.03079-7.78225,18.01851-9.51711" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M25.59534,100.75901c5.29637-1.03523,10.23989-3.37951,15.11994-5.70242,6.70244-3.19038,13.67727-5.61539,20.37971-8.80576,1.47218-.70076,7.62724-2.45924,6.78272-2.45924l5.42086,2.11677c5.41773,2.52705,14.40593,5.49104,22.09647,7.69891" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M14.15488,66.74878c3.70617,11.28153,7.0498,22.68461,10.02387,34.18525" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M14.38677,66.54784c15.26864-4.5679,30.39121-9.63414,45.33618-15.18815" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M59.50307,51.44281c1.751,10.82397,4.69427,21.45064,8.75802,31.6208" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M24.12219,34.12307c2.99834-2.50135,6.23496-4.71695,9.65175-6.60703" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M24.10401,34.02439c3.01556,2.18233,6.27997,4.02051,9.70963,5.46746" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M47.36394,41.04024c-3.64858-4.98072-6.32359-10.67182-7.83041-16.65925" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M50.60208,26.65577c3.88853,1.20288,7.72027,2.5893,11.4782,4.15311,.28017,.11659,.58475,.25759,.70802,.53489,.25937,.58342-.44567,1.106-1.01878,1.3874-2.93033,1.43884-5.44062,3.72095-7.15136,6.50132" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M76.35553,59.28298c3.55741,3.69977,6.75065,7.74952,9.5186,12.07177" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M77.65478,71.6642c2.40137-4.57906,4.34098-9.40012,5.7799-14.3664" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M74.67769,66.79458c4.37691-1.54456,8.95081-2.52994,13.57544-2.92464" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M99.4837,81.05783c5.00702-2.47449,8.20871-7.21117,9.41632-12.02071,1.20761-4.80954,.65998-9.72509-.23927-14.47367-.65194-3.44261-1.5081-6.90426-3.42192-9.91268s-5.02539-5.548-8.94429-6.30674-8.62804,.60217-10.82413,3.6861c-.71424,1.00299-1.15104,2.18714-.9618,3.311,.47022,2.79255,4.27755,3.90907,7.53659,4.14622,2.87155,.20895,5.78962,.13851,8.6827-.20961,3.11562-.3749,6.42203-1.08157,8.69777-3.06981,6.67334-5.83028,2.73004-14.62168-.89065-18.20141s-9.424-4.94954-15.04867-5.27166c-4.69097-.26865-9.4717,.07956-14.1304,1.02919" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M85.88424,14.17309c-3.33611,2.26237-8.08577,5.9889-10.73677,10.89727,5.21741,2.14529,9.76069,4.44936,14.44189,5.09037" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M61.33389,102.41691c2.89454-.97525,5.67383-2.29209,8.26176-3.91445" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/></svg>'
+      text:
+        "<p>In Zusammenarbeit mit acend bieten wir dir praxisnahme Cloud Native Trainings, bei denen dir mehr als nur das technische Know-how in Erinnerung bleiben wird. Von Engineers für Engineers.
+        </p>
+        <ul>
+        <li>Hands-on</li>
+        <li>Geschultes und befähigtes Team</li>
+        <li>mit Herzblut vermittelt von unseren Trainern</li>
+        <li>von Kubernetes, OpenShift, Helm, Argo CD, ...</li>
+        <li>... über Terraform, Go, Tekton</li>
+        <li>zu Prometheus, Serverless und Cilium</li>
+        </ul>"
     - title: "OpenShift Virtualization Accelerator-Paket"
       img: '<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 128 128"><path d="M25.07971,101.39095c1.08769,.56998,2.19782,1.09533,3.31743,1.59828,8.38185,3.76533,17.42496,6.34731,24.83329,11.81246" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M52.64419,114.40868c8.69498-2.61883,17.03858-6.42566,24.73234-11.28431,4.4732-2.82486,13.03079-7.78225,18.01851-9.51711" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M25.59534,100.75901c5.29637-1.03523,10.23989-3.37951,15.11994-5.70242,6.70244-3.19038,13.67727-5.61539,20.37971-8.80576,1.47218-.70076,7.62724-2.45924,6.78272-2.45924l5.42086,2.11677c5.41773,2.52705,14.40593,5.49104,22.09647,7.69891" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M14.15488,66.74878c3.70617,11.28153,7.0498,22.68461,10.02387,34.18525" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M14.38677,66.54784c15.26864-4.5679,30.39121-9.63414,45.33618-15.18815" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M59.50307,51.44281c1.751,10.82397,4.69427,21.45064,8.75802,31.6208" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M24.12219,34.12307c2.99834-2.50135,6.23496-4.71695,9.65175-6.60703" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M24.10401,34.02439c3.01556,2.18233,6.27997,4.02051,9.70963,5.46746" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M47.36394,41.04024c-3.64858-4.98072-6.32359-10.67182-7.83041-16.65925" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M50.60208,26.65577c3.88853,1.20288,7.72027,2.5893,11.4782,4.15311,.28017,.11659,.58475,.25759,.70802,.53489,.25937,.58342-.44567,1.106-1.01878,1.3874-2.93033,1.43884-5.44062,3.72095-7.15136,6.50132" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M76.35553,59.28298c3.55741,3.69977,6.75065,7.74952,9.5186,12.07177" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M77.65478,71.6642c2.40137-4.57906,4.34098-9.40012,5.7799-14.3664" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M74.67769,66.79458c4.37691-1.54456,8.95081-2.52994,13.57544-2.92464" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M99.4837,81.05783c5.00702-2.47449,8.20871-7.21117,9.41632-12.02071,1.20761-4.80954,.65998-9.72509-.23927-14.47367-.65194-3.44261-1.5081-6.90426-3.42192-9.91268s-5.02539-5.548-8.94429-6.30674-8.62804,.60217-10.82413,3.6861c-.71424,1.00299-1.15104,2.18714-.9618,3.311,.47022,2.79255,4.27755,3.90907,7.53659,4.14622,2.87155,.20895,5.78962,.13851,8.6827-.20961,3.11562-.3749,6.42203-1.08157,8.69777-3.06981,6.67334-5.83028,2.73004-14.62168-.89065-18.20141s-9.424-4.94954-15.04867-5.27166c-4.69097-.26865-9.4717,.07956-14.1304,1.02919" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M85.88424,14.17309c-3.33611,2.26237-8.08577,5.9889-10.73677,10.89727,5.21741,2.14529,9.76069,4.44936,14.44189,5.09037" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><path d="M61.33389,102.41691c2.89454-.97525,5.67383-2.29209,8.26176-3.91445" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/></svg>'
       text:
         "<p>Mit unserer umfassenden Erfahrung in klassischer Virtualisierung und Kubernetes unterstützen wir Unternehmen dabei, Workloads nahtlos zu modernisieren und erfolgreich zu migrieren.
-        Zusätzlich bieten wir spezialisierte Trainings an, um Dein Team fit für die Zukunft zu machen. Dieses Paket hilft dir, sehr schnell die Möglichkeiten der Kubernetes-basierten Virtualisierung zu erkunden und herauszufinden, wie hoch das Potenzial für eine neue oder parallele Strategie sein könnte.
         Nach Abschluss des Accelerator-Pakets verfügst Du über:</p>
         <ul>
         <li>Massgeschneiderte Virtualisierungsstrategie</li>
@@ -109,19 +122,20 @@ services:
         <li>Alternative Virtualisierungsplattfom</li>
         </ul>
         <p><a href=\"/services/openshift-virtualization-accelerator/\">mehr erfahren</a></p>"
+    
 
 
 # About us Section
 about:
   title: "Über uns – Wir leben Cloud Native"
-  text: "<p>Bei tim&koko steht der Mensch im Zentrum. Wir setzen uns für eine Unternehmenskultur ein, die von Neugier, Ko-Kreation und Mut geprägt ist. Unser Kopf mag zwar in der Cloud sein, aber wir stehen mit beiden Beinen auf dem Boden.</p>"
+  text: "<p>Bei tim&koko steht der Mensch im Zentrum. Wir setzen uns für eine Unternehmenskultur ein, die von Neugier, Ko-Kreation und Mut geprägt ist. Wir greifen zwar nach den Sternen, bleiben aber mit beiden Beinen auf dem Boden.</p>"
   img: "images/slideshow/20221018-TK_Bern_0745@2x.jpg"
   link: "/ueber-uns/"
 
 # References Section
 references:
   title: "Referenzen – Die besten Kund:innen der Welt"
-  text: "Quis mollit ut exercitation quis aliquip, laboris. Exercitation quis aliquip laboris anim duis labore irure. Aliquip laboris anim duis labore irure. Anim duis labore irure, fugiat. Irure, fugiat excepteur anim labore."
+  text: "Ob innovative Lösungen, massgeschneiderte Implementierungen oder spannende Herausforderungen – unsere Referenzen zeigen, was wir als Unternehmen leisten und wie wir unsere Kund:innen unterstützen."
 
 
 # Technologies Section
@@ -164,7 +178,7 @@ newsletter:
 
 # Footer
 footer:
-  title: "Dürfen wir dich in die Cloud begleiten?"
+  title: "Dürfen wir dich auf deiner Reise begleiten?"
   text: "Der Weg in die Zukunft ist gemeinsam deutlich kürzer. Kontaktiere uns für ein unverbindliches Kennenlernen."
   sayHello: " Sag Hallo."
   email: "hallo@tim-koko.ch"

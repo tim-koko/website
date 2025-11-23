@@ -14,8 +14,8 @@ translationKey: "about"
 
 # About us Section
 about:
-  title: "About us – We live Cloud Native"
-  text: "<p>At tim&koko, people are at the centre of everything we do. We are committed to a corporate culture characterised by curiosity, co-creation and courage. Our heads may be in the cloud, but our feet are rooted firmly on the ground.</p>"
+  title: "We are tim&koko"
+  text: "<p>Our team combines expertise, openness, and the courage to explore new paths. We build bridges between modern technology and the people who use it. We roll up our sleeves, try things out, think ahead — and help companies reach the next level.</p>"
   persons:
     - name: "Marie Steck"
       title: "Project Manager"
@@ -94,4 +94,4 @@ partner:
 
 ---
 
-Bei tim&koko steht der Mensch im Zentrum. Wir setzen uns für eine Unternehmenskultur ein, die von Neugier, Ko-Kreation und Mut geprägt ist. Unser Kopf mag zwar in der Cloud sein, aber wir stehen mit beiden Beinen auf dem Boden.
+At tim&koko, people are at the centre of everything we do. We are committed to a corporate culture characterised by curiosity, co-creation and courage. Our heads may be in the cloud, but our feet are rooted firmly on the ground.
