@@ -34,7 +34,6 @@ wait simply meant accumulating 38 pre-1.0 releases as Strimzi tracked ongoing tr
 
 {{< svg "assets/images/blog/kafka-strimzi-v1/strimzi-kafka-api-v1.svg" >}}
 
-
 ## Introduction
 
 Strimzi continues to evolve and align its APIs toward long-term stability. As the upstream to Streams for Apache Kafka

@@ -36,7 +36,6 @@ der nun anstehenden Version 1.0.0 ansammelten.
 
 {{< svg "assets/images/blog/kafka-strimzi-v1/strimzi-kafka-api-v1.svg" >}}
 
-
 ## Einführung
 
 Strimzi entwickelt sich weiter und richtet seine APIs auf langfristige Stabilität aus. Als Upstream für Streams for Apache Kafka
@@ -102,8 +101,8 @@ Neben dem Entfernen der veralteten Properties enthält die neue Version von Stri
 * Die Auflösung von Konflikten in Template-Sections in `Kafka` and `KafkaNodePool` wurden geändert (siehe [Strimzi Proposal #120](https://github.com/strimzi/proposals/blob/main/120-improve-template-behavior-in-Kafka-node-pools.md))
   * Templates werden neu auf Property-Ebene gemerged. Der `KafkaNodePool` hat dabei priorität, sofern ein Property doppelt definiert ist.
 * Die Build-Funktionalität von Kafka Connect, um benutzerdefinierte Connect-Images zu erstellen, wurde geändert (siehe [Strimzi Proposal #114](https://github.com/strimzi/proposals/blob/main/114-use-buildah-instead-of-kaniko.md))
-   * Das verwendete Kaniko-Projekt wird nicht mehr weiter entwicklet und wurde daher als veraltet markiert.
-   * _Buildah_ wird der neue Ersatz von Kaniko sein. Im Moment ist _Buildah_ aber noch deaktiviert.
+  * Das verwendete Kaniko-Projekt wird nicht mehr weiter entwicklet und wurde daher als veraltet markiert.
+  * _Buildah_ wird der neue Ersatz von Kaniko sein. Im Moment ist _Buildah_ aber noch deaktiviert.
 * Kafka Connect ermöglicht die Angabe der genauen Version in KafkaConnector.
 
 Eine vollständige Liste der Änderungen ist in den [Release Notes](https://github.com/strimzi/strimzi-kafka-operator/releases/tag/0.49.0) zu finden.
