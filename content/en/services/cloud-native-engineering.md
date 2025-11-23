@@ -38,4 +38,3 @@ Are you ready to take your virtualization to the next level? Let’s discuss it 
 &nbsp;
 
 <a class="btn btn-primary rounded-pill" href="mailto:hallo@tim-koko.ch">contact us</a>
-
