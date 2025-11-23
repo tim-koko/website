@@ -23,7 +23,7 @@ der API-Version `v1` ist ein wichtiger Meilenstein für Administratoren, die Apa
 optimiert die Ressourcendefinitionen, vereinheitlicht die Benennung der Komponenten und entfernt veraltete Properties, die sich über
 mehrere Strimzi-Release-Zyklen angesammelt haben.
 
-## The History
+## Der Weg zu Strimzi 1.0.0
 
 Die Versionierung der Strimzi-API verlief langsam, da die ersten Versionen experimentell waren. Das Projekt reifte aber schnell
 als neue Funktionen, Bugfixes und Produktive Umgebungen und Nutzerfeedback hinzukamen. Als das Team die Version `1.0.0`
