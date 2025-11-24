@@ -52,7 +52,7 @@ module.exports = {
         'swiper',
         ...whitelister([
           './assets/scss/**/*.scss',
-          '@hyas/images/assets/scss/components/_images.scss',
+          //'@hyas/images/assets/scss/components/_images.scss',
           //'./assets/scss/components/_alerts.scss',
           // './assets/scss/components/_buttons.scss',
           //'./assets/scss/components/_code.scss',
