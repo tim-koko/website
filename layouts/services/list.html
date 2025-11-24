@@ -25,19 +25,11 @@
 <section   class="container-fluid  mb-16_ mb-lg-32_">
 
       {{ range $index, $item := (.Paginator 10).Pages }}
-       
           {{ partial "content-service" (dict "item" $item "index" (add $index 1)) }} 
-   
         {{ end }}
  
 
-  <div class="row my-5">
-      <div class="col-lg-10 offset-lg-1 d-flex">
-        
-      
-        {{ template "_internal/pagination.html" . }}
-      </div>
-  </div>
+   {{ partial "pager.html" . }}
  
 </section>
 
@@ -62,7 +54,7 @@
     <div class="col-md-6 {{ if .Params.img_border }} needsborder {{ end }}">
 
       {{with .Params.post_img }}
-      {{- partial "img" (dict "page" $.Page "src" . "width" 1200   "alt" "" ) }}
+        {{- partial "img" (dict "page" $.Page "src" . "width" 616 "process" "fill 1200x800"  "alt" "" "loading" "lazy") }}
      {{ end }}
  
      </div>

@@ -9,7 +9,7 @@
       {{ .Description }}
     </article>
     {{ end -}}
-    {{ template "_internal/pagination.html" . -}}
+       {{ partial "pager.html" . }}
   </div>
 </div>
 {{ end }}

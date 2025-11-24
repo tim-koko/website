@@ -4,7 +4,7 @@
     <div class="col-md-6 {{ if .Params.img_border }} needsborder {{ end }}">
 
      {{with .Params.post_img }}
-      {{ partial "img-srcset.html" (dict "img" . "size" 500 ) }}
+        {{- partial "img" (dict "page" $.Page "src" . "width" 616 "process" "fill 1200x800"  "alt" "" "loading" "lazy") }}
     {{ end }}
 
     </div>

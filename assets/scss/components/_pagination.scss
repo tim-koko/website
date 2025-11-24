@@ -1,31 +1,83 @@
 .pagination {
+  gap: 1.2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-tag {
+  font-size: 1em;
+  border-radius: 50rem;
+  border: 1px solid var(--bs-white);
+  color: #fff;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  line-height: 1.45;
+
+  &.current,
+  &:hover {
+    background-color: var(--bs-white);
+    color: var(--bs-dark);
+  }
+
+  &.prev,
+  &.next {
+    border: none;
+    align-items: center;
+
+    &:hover {
+      background-color: transparent;
+    }
+  }
+}
+
+/* old pagination styles - keep for reference
+.pagination {
   --bs-pagination-font-size: 1em;
   --bs-pagination-padding-x: 1rem;
   --bs-pagination-padding-y: 0;
+  --bs-pagination-active-bg: var(--bs-white);
 
   margin: auto;
+  gap: 1.2rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .page-link {
-  border-radius: 0 !important;
+  border-radius: 50rem !important;
   color: #fff;
-  border-color: var(--bs-primary);
+  //border-color: var(--bs-primary);
   background-color: transparent;
+
+  &[aria-label="Previous"],
+  &[aria-label="Next"],
+  &[aria-label="Last"],
+  &[aria-label="First"] {
+    border: none;
+    border-radius: 0 !important;
+  }
 
   &:hover {
     z-index: 2;
     color: var(--bs-primary);
     text-decoration: none;
-    background-color: var(--bs-secondary);
-    border-color: var(--bs-primary);
+    //background-color: var(--bs-secondary);
+    //border-color: var(--bs-primary);
   }
 }
 
 .page-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   &.active .page-link {
     z-index: 3;
     color: var(--bs-primary);
-    background-color: var(--bs-secondary);
+    //background-color: var(--bs-secondary);
     border-color: var(--bs-primary);
   }
 
@@ -33,3 +85,4 @@
     display: none;
   }
 }
+*/
