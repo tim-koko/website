@@ -3,7 +3,7 @@
 
   {{with .Params.post_img }}
   <div class="mb-4 mb-lg-8 {{ if page.Params.img_border }} needsborder {{ end }}">
-    {{ partial "img-srcset.html" (dict "img" . "size" 1200  ) }}
+    {{- partial "img" (dict "page" $.Page "src" . "width" 2400   "alt" "" ) }}
   </div>
   {{ end }}
 

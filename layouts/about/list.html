@@ -3,7 +3,7 @@
   <div class="row">
  
     <div class="col-lg-6   mb-8 mb-lg-16 ">
-        <h1 class="h2 mb-lg-8">{{ .Title }}</h1>
+        <h1 class="h2 mb-6 mb-lg-12">{{ .Title }}</h1>
         {{ .Content }}
     </div>
     
@@ -29,7 +29,7 @@
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 gy-10">
       {{ range .persons }}
       <div class="col" data-scroll>
-        {{ partial "img-srcset.html" (dict "img" .img "size" 300 "alt" .name) }}
+        {{- partial "img" (dict "page" . "src" (.img) "width" 400 "process" "fill 800x1066 Top"  "alt" (.name) ) }}
         <div class="lead cloud-text mb-5_" data-scroll><span>
           {{ .name }}<br>
           {{ .title }}
@@ -88,7 +88,7 @@
       {{ if .img }} 
       <div class="div" data-scroll>
         <div class="cloud-img position-relative top-0 left-0" data-speed="0">
-          {{ partial "img-srcset.html" (dict "img" .img "size" 800 "alt" "") }}
+        {{- partial "img" (dict "page" . "src" (.img) "width" 800  "alt" "" ) }}
         </div>
       </div>
       {{ end }}

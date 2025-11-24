@@ -4,7 +4,7 @@
 
   {{ with .Params.image }}
       <div class="mb-10 mb-lg-20">
-        {{ partial "img-srcset.html" (dict "img" . "size" 1200) }}
+        {{- partial "img" (dict "page" $.Page "src" (.) "width" 2400   "alt" "" ) }}
       </div>
   {{ end }}
 

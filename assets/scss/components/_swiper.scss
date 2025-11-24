@@ -37,3 +37,7 @@
     background: linear-gradient(to left, rgba(10, 20, 50, 1), rgba(10, 20, 50, 0)); /* stylelint-disable-line */
   }
 }
+
+.slides .swiper-button-prev svg {
+  transform: rotate(180deg);
+}
