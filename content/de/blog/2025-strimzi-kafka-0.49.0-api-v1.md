@@ -5,7 +5,7 @@ description: ""
 date: 2025-11-21T00:00:00+00:00
 lastmod: 2025-11-21T00:00:00+00:00
 draft: false
-images: ["images/blog/kafka-strimzi-v1/tk-blogpost-strimzi-kafka-api-v1-share-image.jpg"]
+images: ["images/blog/kafka-strimzi-v1/tk-blogpost-strimzi-v1-share-image.jpg"]
 Sitemap:
   Priority: 0.92
 
@@ -13,7 +13,7 @@ categories: ["Technologie", "Apache Kafka", "Messaging", "Strimzi"]
 authors: ['christof-luethi']
 additionalblogposts: [ 'kafka-zookeeper-kraft-migration', 'kafka-4']
 
-post_img: "images/blog/kafka-strimzi-v1/tk-blogpost-strimzi-kafka-api-v1.jpg"
+post_img: "images/blog/kafka-strimzi-v1/tk-blogpost-strimzi-v1.jpg"
 img_border: true
 lead: "Nach mehr als acht Jahren Strimzi-Veröffentlichungen führt die neueste Version 0.49.0 des Strimzi Operator die API-Version v1 ein. Damit ist es nur noch eine Frage der Zeit, bis Strimzi 1.0.0 veröffentlicht wird."
 ---
