@@ -1,6 +1,7 @@
-<div class="col-4 col-xl  d-flex flex-column mb-5 position-relative {{ if .Params.img_border }} needsborder {{ end }}">
+<div class="col-sm-6 col-xl  d-flex flex-column mb-5 position-relative {{ if .Params.img_border }} needsborder {{ end }}">
   {{ with .Params.post_img }}
-  {{ partial "img-srcset.html" (dict "img" . "size" 500  ) }}
+          {{- partial "img" (dict "page" $.Page "src" . "width" 616 "process" "fill 1200x800"  "alt" "" "loading" "lazy") }}
+
   {{ end }}
 
   <div class="d-flex my-4 my-lg-4 small text-white">

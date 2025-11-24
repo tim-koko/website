@@ -8,16 +8,8 @@
     transform: scale(0.55);
   }
 
-  .blog:not(.single) & {
-    right: 0;
-  }
-
   .blog.single & {
     left: 0;
-  }
-
-  .references:not(.single) & {
-    right: 0;
   }
 
   .references.single & {

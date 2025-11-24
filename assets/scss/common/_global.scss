@@ -60,6 +60,7 @@ h1,
 .h1 {
   font-size: 3.6rem;
   line-height: 1.2;
+  font-feature-settings: "salt";
 
   @include media-breakpoint-up(md) {
     font-size: 6rem;
