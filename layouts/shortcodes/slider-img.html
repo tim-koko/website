@@ -1,9 +1,8 @@
 {{ $img := .Get "src"   }}
 {{ $image := resources.Get $img  }}
-{{ $size := 1600   }}
 
 <div class="swiper-slide">
-  {{- partial "img" (dict "page" $.Page "src" ($image) "width" $size "process" "fill 1600x1200"  "alt" (.Get "caption") ) }}
+  {{- partial "img" (dict "page" $.Page "src" ($image) "width" 995 "process" "resize 1990x"  "alt" (.Get "caption") ) }}
   <div class="caption d-none">{{ .Get "caption" }}</div>
   <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
 </div>
