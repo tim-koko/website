@@ -28,7 +28,7 @@
 
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 gy-10">
       {{ range .persons }}
-      <div class="col" data-scroll>
+      <div class="col person" data-scroll>
         {{- partial "img" (dict "page" . "src" (.img) "width" 400 "process" "fill 800x1066 Top"  "alt" (.name) "loading" "lazy") }}
         <div class="lead cloud-text mb-5_" data-scroll><span>
           {{ .name }}<br>
@@ -83,7 +83,7 @@
 {{ with .Params.slideshow }}
 <div class="container-fluid px-0 px-md-10 px-lg-16 px-xxl-30 mb-16 mb-lg-32">
 
-  <div class="img-cloud">
+  <div class="img-cloud position-relative">
     {{ range .images }}
       {{ if .img }} 
       <div class="div" data-scroll>
@@ -92,6 +92,13 @@
         </div>
       </div>
       {{ end }}
+    {{ end }}
+
+    {{ with .text1 }}  
+    <div class="lead col-lg-4 position-absolute top-50" data-scroll><span>{{ . }}</span></div>
+    {{ end }}
+    {{ with .text2 }}  
+      <div class="lead col-lg-4 position-absolute translate-middle-x start-50 bottom-0" data-scroll><span>{{ . }}</span></div>
     {{ end }}
   </div>
    

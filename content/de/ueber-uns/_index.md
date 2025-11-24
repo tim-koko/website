@@ -64,6 +64,9 @@ slideshow:
     - img: "images/slideshow/20221018-TK_Bern_0324@2x.jpg"
     - img: "images/slideshow/20221018-TK_Bern_0745@2x.jpg"
     - img: "images/slideshow/20221018-TK_Bern_0103@2x.jpg"
+  text1: "Wir feiern kleine Erfolge genauso wie grosse Deployments"
+  text2: "Am liebsten lösen wir Probleme gemeinsam mit Kaffee und einer guten Portion Neugier" 
+
 
 # Partner Section
 partner:
