@@ -66,7 +66,8 @@
       right: -6rem;
     }
 
-    .blog.single & {
+    .blog.single &,
+    .references.single & {
       right: auto;
       left: 0;
     }
@@ -131,7 +132,8 @@
     }
     */
 
-    .blog.single & {
+    .blog.single &,
+    .references.single {
       right: auto;
       left: 20rem;
 
