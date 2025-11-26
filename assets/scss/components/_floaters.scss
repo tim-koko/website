@@ -8,7 +8,8 @@
     transform: scale(0.55);
   }
 
-  .blog.single & {
+  .blog.single &,
+  .references.single & {
     left: 0;
   }
 
@@ -133,7 +134,7 @@
     */
 
     .blog.single &,
-    .references.single {
+    .references.single & {
       right: auto;
       left: 20rem;
 
@@ -160,7 +161,8 @@
       left: 7rem;
     }
 
-    .blog.single & {
+    .blog.single &,
+    .references.single & {
       right: auto;
       left: 17rem;
       top: 6rem;
@@ -188,7 +190,8 @@
       }
     }
 
-    .blog.single & {
+    .blog.single &,
+    .references.single & {
       right: auto;
       left: 36rem;
     }
