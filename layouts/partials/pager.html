@@ -14,11 +14,13 @@
   <a href="{{ $pag.Prev.URL }}" aria-label="Previous" class="page-tag prev"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" fill="none" viewBox="0 0 8 14"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m6.75 12.75-6-6 6-6"/></svg></a>
   {{ end }}
 
+  {{/*
   <!-- First page (if current page is greater than allowed limit) -->
   {{ if ge $pag.PageNumber $max_links }}
-  <a href="{{ $pag.First.URL }}" aria-label="First" class="page-tag">1</a>
+   <a href="{{ $pag.First.URL }}" aria-label="First" class="page-tag">1</a> 
   <span>...</span>
   {{ end }}
+  */}}
 
   <!-- Iterate the pager to show pages within ruleset -->
   {{ range $pag.Pagers }}
@@ -48,11 +50,13 @@
     {{ end }}
   {{ end }}
 
+  {{/*
   <!-- Show the last page index -->
   {{ if le $pag.PageNumber (sub $pag.TotalPages (sub $max_links 1)) }}
   <span>...</span>
-  <a href="{{ $pag.Last.URL }}" aria-label="Last" class="page-tag">{{ $pag.TotalPages }}</a>
+  <a href="{{ $pag.Last.URL }}" aria-label="Last" class="page-tag">{{ $pag.TotalPages }}</a> 
   {{ end }}
+  */}}
 
   {{ if $pag.HasNext }}
   <a href="{{ $pag.Next.URL }}" aria-label="Next" class="page-tag next"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" fill="none" viewBox="0 0 8 14"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m.75.75 6 6-6 6"/></svg></a>

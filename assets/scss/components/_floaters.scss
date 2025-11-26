@@ -92,7 +92,11 @@
   &:nth-child(2) {
     // border: 1px solid green;
     top: -5rem;
-    right: -13rem;
+    right: -6rem;
+
+    .home & {
+      right: -13rem;
+    }
 
     #cloud-native & {
       top: 7rem;
@@ -116,6 +120,7 @@
       }
     }
 
+    /*
     .blog:not(.single) & {
       top: -6rem;
       right: 18rem;
@@ -124,6 +129,7 @@
         transform: rotate(200deg);
       }
     }
+    */
 
     .blog.single & {
       right: auto;
