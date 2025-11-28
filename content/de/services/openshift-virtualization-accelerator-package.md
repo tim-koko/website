@@ -13,6 +13,8 @@ images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]
 Sitemap:
   Priority: 0.3
 
+morelinkenabled: true
+
 abstract: 
   text: "Mit unserer umfassenden Erfahrung in klassischer Virtualisierung und Kubernetes unterstützen wir Unternehmen dabei, Workloads nahtlos zu modernisieren und erfolgreich zu migrieren. Nach Abschluss des Accelerator-Pakets verfügst Du über:"
   list:

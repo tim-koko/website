@@ -13,6 +13,8 @@ images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]
 Sitemap:
   Priority: 0.3
 
+morelinkenabled: false
+
 abstract: 
   text: "In Zusammenarbeit mit acend bieten wir dir praxisnahme Cloud Native Trainings, bei denen dir mehr als nur das technische Know-how in Erinnerung bleiben wird. Von Engineers für Engineers."
   list:

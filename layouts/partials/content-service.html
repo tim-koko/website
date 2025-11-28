@@ -32,8 +32,9 @@
         </ul>
         {{ end }}
         {{ end }}
-               
+        {{ if .Params.morelinkenabled }}
         <a class="line stretched-link mb-auto" href="{{ .RelPermalink | safeURL }}">{{ i18n "readMore" }}</a>
+        {{ end }}
 
       </div>
     {{ end }}
