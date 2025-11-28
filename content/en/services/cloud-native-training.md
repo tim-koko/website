@@ -13,6 +13,9 @@ images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]
 Sitemap:
   Priority: 0.3
 
+sitemap_exclude: true
+feed_exclude: true
+
 morelinkenabled: false
 
 abstract: 
