@@ -234,9 +234,9 @@
     <div class="swiper swiper-logos autoplay with-fade" data-autoplay="false_" data-scroll>
       <div class="swiper-wrapper">
         {{ range .item }}
-        <div class="swiper-slide h-auto d-flex flex-column text-center col-4 col-sm-3 col-md-2 col-lg-2" >
-          <div class="px-3 my-auto">
-            <img class="img-fluid" src="{{ (resources.Get .img).RelPermalink }}" width="75" height="75" alt="{{ .title }}" loading="lazy">
+        <div class="swiper-slide h-auto d-flex flex-column text-center col-4 col-sm-3 col-md-2_ col-lg-2_" >
+          <div class="px-4 px-lg-6 my-auto">
+            <img class="img-fluid" src="{{ (resources.Get .img).RelPermalink }}" width="150" height="75" alt="{{ .title }}" loading="lazy">
           </div>
         {{/*  <div class="mt-3 small">{{ .title }}</div> */}}
         </div>

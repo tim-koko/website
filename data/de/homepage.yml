@@ -142,26 +142,15 @@ references:
 clients:
   title: "Kund:innen die uns vertrauen"
   item:
-    - title: "ArgoCD"
-      img: "images/tech/argo-horizontal-white.svg"
-    - title: "GO"
-      img: "images/tech/Go-Logo_White.svg"
-    - title: "Helm"
-      img: "images/tech/helm-horizontal-white.svg"
-    - title: "Kubernetes"
-      img: "images/tech/Kubernetes_logo_without_workmark.svg"
-    - title: "KubeVirt"
-      img: "images/tech/kubevirt_logo_only.svg"
-    - title: "Prometheus"
-      img: "images/tech/Prometheus_software_logo.svg"
-    - title: "Cilium"
-      img: "images/tech/cilium-logo-white.svg"
-    - title: "Kafka"
-      img: "images/tech/apache_kafka.svg"
-    - title: "Tekton"
-      img: "images/tech/tekton-stacked-white.svg"
-    - title: "Terraform"
-      img: "images/tech/Terraform_VerticalLogo_White_RGB.svg"
+    - title: "Baloise"
+      img: "images/clients/baloise.svg"
+    - title: "Raiffeisen"
+      img: "images/clients/raiffeisen.svg"
+    - title: "Swisscom"
+      img: "images/clients/swisscom.png"
+    - title: "die Mobiliar"
+      img: "images/clients/diemobiliar.png"
+
 
 
 
