@@ -10,9 +10,9 @@ img_border: true
 Sitemap:
   Priority: 0.3
 
-categories: ["Technology", "Apache Kafka", "Messaging"]
+categories: ["Technology", "Apache Kafka", "Messaging", "Strimzi"]
 authors: ['christof-luethi']
-additionalblogposts: [ 'kafka-4', 'supply-chain-security-01']
+additionalblogposts: [ 'kafka-4', 'strimzi-kafka-0.49.0-api-v1']
 post_img: "images/blog/kraft/tk-blogpost-01_kraft.jpg"
 lead: "With the 3.6.2 release, Apache Kafka provides a production ready migration path from Apache ZooKeeper-based clusters to KRaft. What you need to know and what you should consider for the migration is summarized here."
 ---
