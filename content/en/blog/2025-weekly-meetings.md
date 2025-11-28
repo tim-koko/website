@@ -5,6 +5,7 @@ date: 2025-02-06T00:00:00+00:00
 lastmod: 2025-02-06T00:00:00+00:00
 draft: false
 images: ["images/blog/weekly-meetings/tk_blogpost-weekly-meetings-1500x1000.png"]
+img_border: false 
 categories: ["tim&koko", "Behind the Scenes", "weekly"]
 authors: []
 additionalblogposts: [ 'nicht-nur-tech-sprachen', 'unsere-werte']
