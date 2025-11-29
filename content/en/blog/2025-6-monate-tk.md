@@ -14,7 +14,7 @@ authors: ['marie-steck']
 additionalblogposts: ['tim-koko-jahresrueckblick', 'weekly-sync']
 
 post_img: "images/blog/6-monate/tk-blogpost-6-monate-1500x1000.png"
-img_border: true
+img_border: false
 lead: "It’s hard to believe it’s already been six months since I started at tim&koko. Time has flown by – so it feels like the perfect moment to share a glimpse into life at the tim&koko HQ and reflect on my journey so far."
 ---
 

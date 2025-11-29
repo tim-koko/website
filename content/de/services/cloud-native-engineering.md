@@ -12,6 +12,10 @@ blogposts: [ 'openshift-virtualization', 'kubevirt-training']
 images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]
 Sitemap:
   Priority: 0.3
+sitemap_exclude: true
+feed_exclude: true
+
+morelinkenabled: false
 
 abstract: 
   text: "Dir fehlen Zeit und Nerven, um dich mit Cloud Native Technologien auseinanderzusetzen? Als leidenschaftliche Engineers nehmen wir das gerne ab, damit du dich mit ruhigem Gewissen um das kümmern kannst, was dir Freude bereitet. Das Cloud Engineering beinhaltet:"

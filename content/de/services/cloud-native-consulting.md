@@ -12,6 +12,10 @@ blogposts: [ 'openshift-virtualization', 'kubevirt-training']
 images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]
 Sitemap:
   Priority: 0.3
+sitemap_exclude: true
+feed_exclude: true
+
+morelinkenabled: false
 
 abstract: 
   text: "Ein:e erfahrene:r tim&koko Cloud Native Consultant steht während des ganzen Prozesses unterstützend zur Seite – Mit Fachwissen, konkreten Anweisungen oder auch mal mit aufmunternden Worten. Das Cloud Native Consulting beinhaltet:"

@@ -13,6 +13,11 @@ images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]
 Sitemap:
   Priority: 0.3
 
+sitemap_exclude: true
+feed_exclude: true
+
+morelinkenabled: false
+
 abstract: 
   text: "Don't have the time or the energy to deal with cloud native technologies? As passionate engineers, we're happy to take that off your plate so you can focus on what you love with peace of mind. Cloud Engineering includes:"
   list:

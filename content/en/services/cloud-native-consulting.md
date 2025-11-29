@@ -12,6 +12,10 @@ blogposts: [ 'openshift-virtualization', 'kubevirt-training']
 images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]
 Sitemap:
   Priority: 0.3
+sitemap_exclude: true
+feed_exclude: true
+
+morelinkenabled: false
 
 abstract: 
   text: "An experienced tim&koko Cloud Native Consultant will provide support throughout the process – with expertise, concrete instructions or sometimes words of encouragement. Cloud Native Consulting includes:"
