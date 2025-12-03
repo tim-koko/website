@@ -77,11 +77,12 @@
     <h2 class="h3 mb-4 mb-lg-8">{{ .title | safeHTML }}</h2> 
     {{ .text | safeHTML }}
   </div>
-
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 gy-10">
       {{ range .values }}
         <div class="col" data-scroll>
-            {{ .icon | safeHTML }}
+            {{ with .icon }}
+              <div class="icon-draw">{{ . | safeHTML }}</div>
+            {{ end }}
             <h3 class="mb-3 mt-2">{{ .title }}</h3>
               {{ .text }} 
         </div>
