@@ -66,14 +66,17 @@
             </nav>
 
             {{ if hugo.IsMultilingual }}
+            {{ $page := . }}
             <div class="language-menu ms-lg-auto mb-1 d-flex">
               {{ range .Site.Languages }}
                 {{ if eq . $.Site.Language }}
                   <a  class="nav-link active p-2 p-lg-0 mx-1 ms-lg-4" href="#">{{ .Lang }}</a>
                 {{ else }}
-                  {{ range $.Translations }}
-                  <a  class="nav-link  p-2 p-lg-0 mx-1 ms-lg-4" href="{{ .RelPermalink }}">{{ .Language.Lang }}</a>
+                 {{ if $page.IsTranslated }}
+                  {{ range $page.Translations }}
+                  <a  class="nav-link  p-2 p-lg-0 mx-1 ms-lg-4" href="{{ .Permalink }}">{{ .Lang | humanize }}</a>
                   {{ end }}
+                {{ end }}
                 {{ end }}
               {{ end }}
             </div>

@@ -1,39 +1,50 @@
+/* eslint-disable no-undef */
 // app.js for concatenation of smaller libraryies
 // to reduce http requests of small files
 'use strict';
 
-// Prefetch in-viewport links during idle time
-//import { listen } from 'quicklink/dist/quicklink.mjs';
-//listen();
 
-// detect Windows and touch devices
-import './assets/js/check-os-touch';
+import Swup from 'swup';
+import SwupBodyClassPlugin from '@swup/body-class-plugin';
+import SwupHeadPlugin from '@swup/head-plugin';
+//import SwupDebugPlugin from '@swup/debug-plugin';
 
-// lazy sizes for image loading
-import 'lazysizes';
+import starterScripts from './assets/js/views/starter-scripts';
+import onEveryPage from './assets/js/views/on-every-page';
 
-// global alert
-import './assets/js/alert';
+// Include parts of Bootstrap
 
-// home 3D animation
-import './assets/js/home-animation';
+/* eslint-disable no-unused-vars */
+import {
+  //Alert,
+  Button,
+  //Carousel,
+  Collapse,
+  Dropdown,
+  Modal,
+  Offcanvas,
+  //Popover,
+  //ScrollSpy,
+  //Tab,
+  //Toast,
+  //Tooltip
+} from 'bootstrap';
 
-// fade in elements
-import './assets/js/scroll-out';
+const swup = new Swup({
+  containers: ['#main', '#main-menu' , '.language-menu' ],
+  ignoreVisit: (url, { el } = {}) => el.closest('.language-menu') ,
+  plugins: [
+    new SwupBodyClassPlugin(),
+    new SwupHeadPlugin({ persistAssets: true }),
+  ],
+});
 
-// icons animations
-import './assets/js/icon-animations';
+swup.hooks.on('page:view', (visit) => {
+  //console.log('New page loaded:', visit.to.url);
+  onEveryPage();
+});
 
-// slideshow
-import './assets/js/slideshow';
 
-// mobile-menu
-import './assets/js/mobile-menu';
+  starterScripts();
+  onEveryPage();
 
-import './assets/js/scroll-top';
-
-// logo animation
-import './assets/js/logo-animation';
-
-// form netlify submission 
-import './assets/js/form-netlify';

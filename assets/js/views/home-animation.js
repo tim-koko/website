@@ -1,5 +1,15 @@
 
-import { map, lerp, getMousePos, calcWinsize, getRandomNumber, isTouch } from './utils';
+import { map, lerp, getMousePos, calcWinsize, getRandomNumber, isTouch } from 'js/utils/utils';
+
+
+export default function() {
+
+const els = document.querySelectorAll('.floater');
+const imgs = document.querySelectorAll('.cloud-img');
+
+if (els.length === 0 && imgs.length === 0) {
+  return;
+}
 
 // Calculate the viewport size
 let winsize = calcWinsize();
@@ -54,8 +64,7 @@ function moveParallax(el) {
 }
 
 
-const els = document.querySelectorAll('.floater');
-const imgs = document.querySelectorAll('.cloud-img');
+
 
 if (!isTouch())  {
 
@@ -79,4 +88,5 @@ if (!isTouch())  {
     
     imgs.forEach(item => moveParallax(item));
   }
+}
 }

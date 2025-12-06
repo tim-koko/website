@@ -1,0 +1,43 @@
+
+  <div  data-scroll class="row gy-5 mb-16 mb-lg-32 position-relative ">
+   
+   <div class="col-md-auto h1">
+      <span>{{ printf "%02d" .index }}</span>
+    </div>
+   
+    {{ with .item }}
+
+    <div class="col-md {{ if .Params.img_border }} needsborder {{ end }}">
+      <h2 class="mb-4 pe-md-5 me-md-5 mt-auto">{{ .Title }}</h2>
+
+     {{with .Params.icon }}
+     <div class="icon-draw" data-scroll>  
+        {{ . | safeHTML }}
+     </div>
+     {{ end }}
+     
+    </div>
+    
+    <div class="col-md-5 d-flex flex-column">
+      
+        {{with .Params.abstract }}
+        <div class="mb-4 mb-lg-8">
+          {{ .text }}
+        </div>
+        {{ if .list }}
+        <ul class="mb-4 mb-lg-8 small_">
+          {{ range .list }}
+          <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+        {{ end }}
+        {{ end }}
+        {{ if .Params.morelinkenabled }}
+        <a class="line stretched-link mb-auto" href="{{ .RelPermalink | safeURL }}">{{ i18n "readMore" }}</a>
+        {{ end }}
+
+      </div>
+    {{ end }}
+    </div>
+
+ 

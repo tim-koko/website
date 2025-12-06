@@ -1,8 +1,9 @@
 {{ $img := .Get "src"   }}
 {{ $image := resources.Get $img  }}
-{{ $size := 1600   }}
 
-<div class="carousel-cell">
-  <img class="carousel-cell-image" data-flickity-lazyload="{{  ($image.Resize (printf "%sx" (string  $size))).RelPermalink }}" alt="" />                
+<div class="swiper-slide">
+  {{- partial "img" (dict "page" $.Page "src" ($image) "width" 995 "process" "resize 1990x"  "alt" (.Get "caption") ) }}
   <div class="caption d-none">{{ .Get "caption" }}</div>
- </div>
+  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+</div>
+       

@@ -10,8 +10,14 @@ other = "Offene Stelle"
 [readMore]
 other = "Weiterlesen"
 
+[discoverMore]
+other = "Mehr erfahren"
+
 [moreReferences]
 other = "Weitere Referenzen"
+
+[moreServices]
+other = "Services entdecken"
 
 [published]
 other = "Veröffentlicht"

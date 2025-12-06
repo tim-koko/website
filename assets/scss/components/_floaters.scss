@@ -8,16 +8,9 @@
     transform: scale(0.55);
   }
 
-  .blog:not(.single) & {
-    right: 0;
-  }
-
-  .blog.single & {
+  .blog.single &,
+  .references.single & {
     left: 0;
-  }
-
-  .references:not(.single) & {
-    right: 0;
   }
 
   .references.single & {
@@ -35,7 +28,7 @@
   }
 
   #prefooter & {
-    left: 3rem;
+    right: 32%;
     top: -8rem;
   }
 
@@ -74,7 +67,8 @@
       right: -6rem;
     }
 
-    .blog.single & {
+    .blog.single &,
+    .references.single & {
       right: auto;
       left: 0;
     }
@@ -100,7 +94,11 @@
   &:nth-child(2) {
     // border: 1px solid green;
     top: -5rem;
-    right: -13rem;
+    right: -6rem;
+
+    .home & {
+      right: -13rem;
+    }
 
     #cloud-native & {
       top: 7rem;
@@ -124,6 +122,7 @@
       }
     }
 
+    /*
     .blog:not(.single) & {
       top: -6rem;
       right: 18rem;
@@ -132,8 +131,10 @@
         transform: rotate(200deg);
       }
     }
+    */
 
-    .blog.single & {
+    .blog.single &,
+    .references.single & {
       right: auto;
       left: 20rem;
 
@@ -160,7 +161,8 @@
       left: 7rem;
     }
 
-    .blog.single & {
+    .blog.single &,
+    .references.single & {
       right: auto;
       left: 17rem;
       top: 6rem;
@@ -188,7 +190,8 @@
       }
     }
 
-    .blog.single & {
+    .blog.single &,
+    .references.single & {
       right: auto;
       left: 36rem;
     }

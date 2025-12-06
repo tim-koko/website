@@ -1,17 +1,23 @@
 /** Import Bootstrap functions */
 @import "bootstrap/scss/functions";
+@import "swiper/swiper";
+
+// @import 'swiper/css/navigation';
+// @import 'swiper/css/pagination';
+// @import 'swiper/css/effect-fade';
+// @import 'swiper/css/autoplay';
 
 /** Import theme variables */
 @import "common/variables";
 
 /** Import Bootstrap */
 @import "bootstrap/scss/bootstrap";
-@import "flickity/dist/flickity.min";
 
 /** Import theme styles */
 @import "common/fonts";
 @import "common/global";
 @import "common/custom";
+@import "common/swup";
 @import "components/alerts";
 @import "components/buttons";
 @import "components/pagination";
@@ -22,7 +28,7 @@
 // @import "components/comments";
 // @import "components/forms";
 @import "components/images";
-@import "components/flickity";
+@import "components/swiper";
 @import "components/scroll-out";
 @import "components/floaters";
 @import "layouts/footer";

@@ -1,3 +1,11 @@
+export default function() {
+
+  const forms = document.querySelectorAll('form');
+
+  if (forms.length === 0) {
+    return;
+  }
+
 const handleSubmit = (event) => {
   event.preventDefault();
 
@@ -31,10 +39,10 @@ const handleSubmit = (event) => {
 };
 
 
-const forms = document.querySelectorAll('form');
 
 if (forms.length > 0) {
   forms.forEach(form => {
     form.addEventListener('submit', handleSubmit);
   });
+}
 }

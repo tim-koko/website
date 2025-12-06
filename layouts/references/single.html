@@ -3,7 +3,7 @@
 
   {{with .Params.post_img }}
   <div class="mb-4 mb-lg-8 {{ if page.Params.img_border }} needsborder {{ end }}">
-    {{ partial "img-srcset.html" (dict "img" . "size" 1200  ) }}
+    {{- partial "img" (dict "page" $.Page "src" . "width" 2400   "alt" "" ) }}
   </div>
   {{ end }}
 
@@ -17,7 +17,9 @@
         {{ . }}
       </div>
       {{ end }}
-      <a class="extra-small mb-2 me-2 px-3 py-1 border border-2 border-light rounded-pill" href="{{ relLangURL "/references" }}">{{ i18n "referenzen" }}</a>
+       {{ $page := $.Site.GetPage "/references" }}
+
+      <a class="extra-small mb-2 me-2 px-3 py-1 border border-2 border-light rounded-pill" href="{{ $page.Permalink }}">{{ i18n "referenzen" }}</a>
     </div>
     <div class="col-lg-3">
       {{with .Params.techStack }}
