@@ -119,6 +119,7 @@
 {{ end }}
 
 
+{{ if .Params.partner.enabled }}
 {{ with .Params.partner }}
 <section id="partner" class="section container-fluid mb-16 mb-lg-32">
     <div class="col-lg-7 mb-8 mb-lg-16" data-scroll>
@@ -144,6 +145,7 @@
 
  
 </section>
+{{ end }}
 {{ end }}
 
 

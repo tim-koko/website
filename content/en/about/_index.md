@@ -70,6 +70,7 @@ slideshow:
 
 # Partner Section
 partner:
+  enabled: false
   title: "Our partners – Together we’ll go the furthest"
   text: "<p>Competition? We prefer companionship. We choose to work side by side with partners who are pursuing the same goals. That's why we share our experiences, successes and challenges with the community, are active open source contributors and trust that our partners will do the same. This way, we always learn from and with like-minded people - and find solutions that we would never have come up with on our own.</p>"
   item:
