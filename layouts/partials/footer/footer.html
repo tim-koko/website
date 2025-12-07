@@ -1,5 +1,5 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
-<footer class="footer mt-auto pt-20 pt-lg-40 pb-10">
+<footer class="footer mt-auto pt-20 pt-lg-40 pb-10" role="contentinfo">
   <div class="container-fluid">
 {{ with $data.homepage.footer }}
     <div class="h3">{{ .title }} </div>

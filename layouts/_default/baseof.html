@@ -3,8 +3,11 @@
   {{ partial "head/head.html" . }}
   {{- partial "head/body-class.html" . -}}
   <body class="{{ delimit (.Scratch.Get "class") " " }}" data-bs-spy="scroll" data-bs-target="#main-menu">
+       <a class="visually-hidden-focusable" href="#main">
+        {{  i18n "skipToContent" }}
+      </a>
     {{ partial "header/header.html" . }}
-    <main id="main" class="wrap transition-fade" role="document">
+    <main id="main" class="wrap transition-fade" role="main">
       <div class="content">
         {{ block "main" . }}{{ end }}
       </div>
