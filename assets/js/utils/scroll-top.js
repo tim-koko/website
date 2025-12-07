@@ -1,5 +1,5 @@
 
-import anime from 'animejs';
+import { animate } from 'animejs';
 import {  getScrollPercent } from 'js/utils/utils';
 
 export default function() {

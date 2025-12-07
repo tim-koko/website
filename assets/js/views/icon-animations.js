@@ -1,4 +1,4 @@
-import anime from 'animejs';
+import { animate } from 'animejs';
 import ScrollOut from 'scroll-out';
 
 export default function() {
