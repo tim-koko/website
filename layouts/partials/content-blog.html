@@ -28,7 +28,7 @@
       
         <h2 class="h3 mb-4 mt-auto">{{ .Title }}</h2>
         <div class="mb-4 mb-lg-8 ">{{ .Params.lead }}</div>
-        <a class="line stretched-link mb-auto" href="{{ .RelPermalink | safeURL }}">{{ i18n "readMore" }}</a>
+        <a class="line stretched-link mb-auto" href="{{ .RelPermalink | safeURL }}">{{ i18n "readMore" }}<span class="visually-hidden" aria-hidden="true"> {{ .Title }}</span></a>
       </div>
     </div>
 

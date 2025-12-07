@@ -2,12 +2,14 @@ import Headroom from 'headroom.js';
 import scrollTop from 'js/utils/scroll-top';
 import logoAnimation from 'js/views/logo-animation';
 import checkOSTouch from 'js/utils/check-os-touch';
+import cookieNotice from 'js/utils/alert';
 
 export default function() {
 
   checkOSTouch();
   scrollTop();
   logoAnimation();
+  cookieNotice();
 
     /* Headroom */
    var myElement = document.querySelector('.banner');
