@@ -1,7 +1,7 @@
 ---
 title: "Your Access to the tim&koko Brand: Everything You Need to Know About Our Brand."
 slug: "brand-plattform-tim-koko"
-description: ""
+description: "Our DNA at a glance: Explore the tim&koko brand platform. Access all assets, guidelines, and strategies for a consistent brand experience."
 date: 2024-10-23T00:00:00+00:00
 lastmod: 2024-10-23T00:00:00+00:00
 draft: false

@@ -1,7 +1,7 @@
 ---
 title: "How we came up with our new name"
 slug: "neuer-brand-name"
-description: ""
+description: "The story behind tim&koko: How we found our new name. A journey from technical ideas to Tim Berners-Lee and Koko the gorilla. Read the story."
 date: 2024-10-30T00:00:00+00:00
 lastmod: 2024-10-30T00:00:00+00:00
 draft: false

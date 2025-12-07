@@ -1,7 +1,7 @@
 ---
 title: "Migration von ZooKeeper basierten Kafka-Clustern zu KRaft"
 slug: "kafka-zookeeper-kraft-migration"
-description: ""
+description: "Kafka Migration: Von ZooKeeper zu KRaft. Schritt-für-Schritt-Guide, Dual-Write & Limitationen. So gelingt der Umstieg auf moderne Cluster."
 date: 2024-05-16T00:00:00+00:00
 lastmod: 2025-04-10T00:00:00+00:00
 draft: false

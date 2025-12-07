@@ -1,7 +1,7 @@
 ---
 title: "VMware Exitstrategie: Proxmox, OpenStack und KubeVirt als moderne Alternativen im Vergleich"
 slug: "proxmox-alternative"
-description: ""
+description: "Weg von VMware? Wir vergleichen Proxmox, OpenStack & KubeVirt als moderne Alternativen. Finde die passende Strategie für deine Infrastruktur."
 date: 2025-06-19T00:00:00+00:00
 lastmod: 2025-06-19T00:00:00+00:00
 draft: false

@@ -1,7 +1,7 @@
 ---
 title: "tim&koko annual review 2024"
 slug: "tim-koko-jahresrueckblick"
-description: ""
+description: "tim&koko 2024 Year in Review: Team growth, rebranding, events, and tech highlights like KubeVirt. A look back at an inspiring year."
 date: 2024-12-16T00:00:00+00:00
 lastmod: 2024-12-16T00:00:00+00:00
 draft: false

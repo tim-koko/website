@@ -1,7 +1,7 @@
 ---
 title: "Hands-on KubeVirt Basics Training"
 slug: "kubevirt-training"
-description: ""
+description: "KubeVirt meistern: Unser 2-tägiges Hands-on Training. Lerne VMs in Kubernetes zu verwalten. Praxisnah & intensiv. Jetzt Platz sichern!"
 date: 2024-10-07T00:00:00+00:00
 lastmod: 2024-10-07T00:00:00+00:00
 draft: false

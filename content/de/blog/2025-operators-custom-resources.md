@@ -1,7 +1,7 @@
 ---
 title: "Kubernetes Operators und Custom Resources: Komplexität vereinfachen"
 slug: "operators-custom-resources"
-description: ""
+description: "Kubernetes verstehen: Wie Operators & Custom Resources (CRDs) komplexe Apps automatisieren. Deep Dive am Beispiel des OpenTelemetry Operators."
 date: 2025-03-11T00:00:00+00:00
 lastmod: 2025-03-11T00:00:00+00:00
 draft: false

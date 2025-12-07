@@ -1,7 +1,7 @@
 ---
 title: "Deep Dive into Auto Instrumentation for Java with the OpenTelemetry Operator in Kubernetes"
 slug: "otel-autoinstrumentation"
-description: ""
+description: "Automate your monitoring: Instrument Java apps in Kubernetes with the OpenTelemetry Operator – zero code changes. Read the guide now!"
 date: 2025-07-31T00:00:00+00:00
 lastmod: 2025-07-31T00:00:00+00:00
 draft: false

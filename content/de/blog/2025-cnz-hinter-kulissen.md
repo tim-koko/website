@@ -1,7 +1,7 @@
 ---
 title: "Cloud Native Day Zürich - Ein Blick hinter die Kulissen"
 slug: "cnz-hinter-kulissen"
-description: ""
+description: "Hinter den Kulissen des Cloud Native Day Zürich: Wie unser Team das Event organisiert. Community, Herzblut & Teamwork. Der Backstage-Bericht."
 date: 2025-10-21T00:00:00+00:00
 lastmod: 2025-10-21T00:00:00+00:00
 draft: false

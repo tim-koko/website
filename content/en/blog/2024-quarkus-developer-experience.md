@@ -1,7 +1,7 @@
 ---
 title: "Quarkus Developer Experience"
 slug: "quarkus-developer-experience"
-description: ""
+description: "Boost your Java dev experience with Quarkus! Fast startup, live coding, and dev services. Discover how Quarkus makes building microservices a joy."
 date: 2024-05-21T00:00:00+00:00
 lastmod: 2024-05-21T00:00:00+00:00
 draft: false

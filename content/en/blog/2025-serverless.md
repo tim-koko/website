@@ -1,7 +1,7 @@
 ---
 title: "Level Up Your Serverless Game"
 slug: "serverless"
-description: ""
+description: "Master Serverless: Avoid 10 common pitfalls from logging to security. A practical guide to building better AWS Lambda functions. Level up now!"
 date: 2025-10-09T00:00:00+00:00
 lastmod: 2025-10-09T00:00:00+00:00
 draft: false

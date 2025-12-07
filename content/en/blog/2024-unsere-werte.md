@@ -1,7 +1,7 @@
 ---
 title: "Our Values: The Foundation of Our Work"
 slug: "our-values"
-description: ""
+description: "Authentic, brave & human. Our values are our compass. Learn how we work at tim&koko, what drives us, and what connects us as a team."
 date: 2024-12-02T00:00:00+00:00
 lastmod: 2024-12-02T00:00:00+00:00
 draft: false

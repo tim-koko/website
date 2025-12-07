@@ -1,7 +1,7 @@
 ---
 title: "KubeVirt Journey - Potenzial und Einsatzgebiete von KubeVirt"
 slug: "kubevirt-usecases"
-description: ""
+description: "KubeVirt Potenzial nutzen: Infrastruktur vereinheitlichen & Workflows modernisieren. Von Legacy-Migration bis Hardware-Zugriff – die Use Cases."
 date: 2024-11-21T00:00:00+00:00
 lastmod: 2024-11-21T00:00:00+00:00
 draft: false

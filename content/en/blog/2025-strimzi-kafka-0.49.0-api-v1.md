@@ -1,7 +1,7 @@
 ---
 title: "Strimzi 0.49.0 introduces new stable v1 API version of Strimzi CRDs"
 slug: "strimzi-kafka-0.49.0-api-v1"
-description: ""
+description: "Strimzi 0.49.0 is here: The stable v1 API for Kafka on Kubernetes. All info on changes, KRaft support & the upgrade process."
 date: 2025-11-21T00:00:00+00:00
 lastmod: 2025-11-21T00:00:00+00:00
 draft: false

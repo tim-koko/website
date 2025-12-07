@@ -1,6 +1,6 @@
 ---
 title: "Artikel 3 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy ein. (max. 75 Zeichen)"
-description: ""
+description: "SEO Optimierte Description"
 lead: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod"
 date: 2023-03-29T00:00:00+00:00
 lastmod: 2023-03-29T00:00:00+00:00

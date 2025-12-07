@@ -1,7 +1,7 @@
 ---
 title: "Shared goals, shared path: our tim&koko summer workshop"
 slug: "tim-koko-sommerworkshop"
-description: ""
+description: "Shared goals, shared path: Insights from our summer workshop. Teambuilding, values, and our vision for 2029. How we grow together as a team."
 date: 2024-08-08T00:00:00+00:00
 lastmod: 2024-08-08T00:00:00+00:00
 draft: false
