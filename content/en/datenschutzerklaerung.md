@@ -1,6 +1,6 @@
 ---
-title: "Datenschutzerklärung"
-description: ""
+title: "Privacy Policy"
+description: "Your privacy matters to us. Learn transparently how we protect, process, and use your personal data. Read our full Privacy Policy here."
 lead: ""
 date: 2022-05-28T00:00:00+00:00
 lastmod: 2024-02-13T00:00:00+00:00
@@ -10,219 +10,206 @@ Sitemap:
   Priority: 0.2
 ---
 
-In dieser Datenschutzerklärung beschreiben wir, die Tim&Koko AG, wie wir Personendaten erheben und bearbeiten. Unter Personendaten werden für die Zwecke dieser Datenschutzerklärung alle Angaben verstanden, die sich auf eine bestimmte oder bestimmbare Person beziehen.
+In this Privacy Policy, we, Tim&Koko AG, describe how we collect and process personal data. For the purposes of this Privacy Policy, personal data refers to all information relating to an identified or identifiable person.
 
-## 1. Verantwortliche Stelle und Kontakt
+## 1. Controller and Contact
 
-Verantwortlich für die Datenbearbeitungen, die wir hier beschreiben, ist die Tim&Koko AG. Anfragen zum Datenschutz können per Brief oder E-Mail an uns gerichtet werden:
+Tim&Koko AG is responsible for the data processing described here. Data protection inquiries can be sent to us by letter or e-mail:
 
 Tim&Koko AG  
 Thomas Philipona  
-Gerechtigkeitsgasse  
+Gerechtigkeitsgasse 80
 3011 Bern
 
 E-Mail: hallo@tim-koko.ch  
 Website: https://tim-koko.ch
 
-## 2. Erhebung und Bearbeitung von Personendaten
+## 2. Collection and Processing of Personal Data
 
-Wir bearbeiten Personendaten insbesondere in den folgenden Kategorien von Bearbeitungen.
+We process personal data in particular within the following categories of processing:
 
-* Kunden- und Personendaten, die wir zur Leistungserbringung benötigen und erhalten haben;
-* Personendaten, die wir bei der Leistungserbringung indirekt von unseren Kunden erhalten;
-* Beim Besuch unserer Website;
-* Bei der Teilnahme an einer Veranstaltung von uns;
-* Wenn wir kommunizieren;
-* Wenn wir aus gesetzlichen oder regulatorischen Gründen dazu verpflichtet sind;
-* Wenn wir unsere Sorgfaltspflichten oder sonstige berechtigte Interessen wahrnehmen.
+* Client and personal data that we require and have received for the provision of services;
+* Personal data that we receive indirectly from our clients during the provision of services;
+* When visiting our website;
+* When participating in one of our events;
+* When we communicate;
+* When we are obliged to do so for legal or regulatory reasons;
+* When we perform our due diligence obligations or pursue other legitimate interests.
 
-Detailliertere Informationen finden Sie in den folgenden Beschreibungen der jeweiligen Kategorien von Bearbeitungen.
+More detailed information can be found in the following descriptions of the respective processing categories.
 
-## 3. Zwecke der Datenbearbeitung und Personendaten
+## 3. Purposes of Data Processing and Personal Data
 
-Wir können Ihre Personendaten zu mehreren Zwecken bearbeiten. Primär bearbeiten wir diese, um unsere Dienstleistungen Ihnen gegenüber erbringen zu können.
+We may process your personal data for several purposes. Primarily, we process this data to provide our services to you.
 
-### 3.1 Erbringung von Dienstleistungen
+### 3.1 Provision of Services
 
-Wir bearbeiten in erster Linie die Personendaten, die wir im Rahmen unserer Mandatsbeziehungen mit unseren Kunden und sonstigen Vertragsbeziehungen mit Geschäftspartnern von diesen und weiteren daran beteiligten Personen erhalten.
+We primarily process personal data that we receive from our clients and other business partners involved in the context of our mandate relationships and other contractual relationships.
 
-Bei den Personendaten unserer Kunden handelt es sich insbesondere um folgende Informationen:
+Personal data of our clients includes, in particular, the following information:
 
-* Kontaktinformationen (z.B. Name, Vorname, Adresse, Telefonnummer, E-Mail);
-* Persönliche Informationen (z.B. Geburtsdatum, Stellenbezeichnung etc.);
-* Finanzinformationen (z.B. Daten zu Bankverbindungen);
-* Angaben, welche Sie im Rahmen der Kommunikation mit uns bereitstellen.
+* Contact information (e.g., last name, first name, address, telephone number, e-mail);
+* Personal information (e.g., date of birth, job title, etc.);
+* Financial information (e.g., bank details);
+* Information provided by you within the scope of communication with us.
 
-Diese Personendaten bearbeiten wir für die beschriebenen Zwecke gestützt auf die folgenden Rechtsgrundlagen:
+We process this personal data for the described purposes based on the following legal bases:
 
-* Abschluss oder Abwicklung eines Vertrages mit der betroffenen Person bzw. zugunsten der betroffenen Person, inkl. Vertragsanbahnung und allfällige Durchsetzung (z.B. Beratung, Treuhand);
-* Erfüllung einer gesetzlichen Verpflichtung (z. B. Informationen offen zu legen);
-* Wahrung berechtigter Interessen, (z.B. für administrative Zwecke, unsere Rechte durchzusetzen, uns gegen Ansprüche zu verteidigen oder um mögliche Interessenkonflikte zu prüfen);
-* Einwilligung (z.B. um Ihnen Informationen zuzusenden).
+* Conclusion or execution of a contract with the data subject or for the benefit of the data subject, including contract initiation and any enforcement (e.g., consulting, fiduciary services);
+* Fulfillment of a legal obligation (e.g., to disclose information);
+* Safeguarding legitimate interests (e.g., for administrative purposes, to enforce our rights, to defend ourselves against claims, or to check for potential conflicts of interest);
+* Consent (e.g., to send you information).
 
-### 3.2 Indirekte Datenbearbeitung aus Leistungserbringung
+### 3.2 Indirect Data Processing from Service Provision
 
-Wenn wir Leistungen für unsere Kunden erbringen, kann es vorkommen, dass wir auch Personendaten bearbeiten, die wir nicht direkt bei den betroffenen Personen erhoben haben oder Personendaten von Drittpersonen. Diese Personendaten benötigen wir, um Verträge mit unseren Kunden zu erfüllen. Wir erhalten diese Personendaten von unseren Kunden oder von Dritten, die von unseren Kunden beauftragt werden.
-Bei den Personendaten der Personen, die mit unseren Kunden in einer Beziehung stehen, handelt es sich insbesondere um folgende Informationen:
+When we provide services to our clients, we may also process personal data that we have not collected directly from the data subjects or personal data of third parties. We require this personal data to fulfill contracts with our clients. We receive this personal data from our clients or from third parties commissioned by our clients.
+Personal data of persons who have a relationship with our clients includes, in particular, the following information:
 
-* Kontaktinformationen (z.B. Name, Vorname, Adresse, Telefonnummer, E-Mail);
-* Finanzinformationen (z.B. Daten zu Bankverbindungen).
+* Contact information (e.g., last name, first name, address, telephone number, e-mail);
+* Financial information (e.g., bank details).
 
-Diese Personendaten bearbeiten wir für die beschriebenen Zwecke gestützt auf die folgenden Rechtsgrundlagen:
+We process this personal data for the described purposes based on the following legal bases:
 
-* Abschluss oder Abwicklung eines Vertrages mit der betroffenen Person bzw. zugunsten der betroffenen Person (z. B. wenn wir unsere vertraglichen Pflichten wahrnehmen);
-* Erfüllung einer gesetzlichen Verpflichtung (z. B. wenn wir unsere Pflichten als Revisionsstelle wahrnehmen oder verpflichtet sind, Informationen offen zu legen).
+* Conclusion or execution of a contract with the data subject or for the benefit of the data subject (e.g., when we perform our contractual duties);
+* Fulfillment of a legal obligation (e.g., when we perform our duties as an auditor or are obliged to disclose information).
 
-### 3.3 Nutzung unserer Webseite
+### 3.3 Use of Our Website
 
-Um unsere Webseite zu nutzen, müssen keine Personendaten offengelegt werden. Der Server erfasst jedoch mit jedem Aufruf eine Reihe von Benutzerinformationen, welche vorübergehend in den Logfiles des Servers gespeichert werden.
+No personal data needs to be disclosed to use our website. However, with each access, the server collects a series of user information, which is temporarily stored in the server's log files.
 
-Bei der Nutzung dieser allgemeinen Informationen findet keine Zuordnung zu einer bestimmten Person statt. Die Erfassung dieser Informationen bzw. Daten ist technisch erforderlich, um unsere Webseite anzuzeigen und dessen Stabilität und Sicherheit zu gewährleisten. Diese Informationen werden zudem erhoben, um die Webseite zu verbessern und ihre Nutzung zu analysieren.
+When using this general information, no assignment to a specific person takes place. The collection of this information or data is technically necessary to display our website and to ensure its stability and security. This information is also collected to improve the website and analyze its usage.
 
-Dabei handelt es sich insbesondere um folgende Informationen:
+This includes, in particular, the following information:
 
-* Kontaktinformationen (z.B. Name, Vorname, Adresse, Telefonnummer, E-Mail);
-* Weitere Informationen, die sie uns via Webseite übermitteln;
-* Automatisch an uns oder unsere Dienstleister übermittelte technische Informationen, Informationen zum Nutzerverhalten oder der Einstellungen der Webseite (z.B. Name des Internetserviceproviders, IP-Adresse, UDI, Gerätetyp, Browser, Betriebssystem, Datum und Uhrzeit des Zugriffs, Anzahl Klicks auf der Seite, Klick auf Links etc.)
+* Contact information (e.g., last name, first name, address, telephone number, e-mail);
+* Further information that you transmit to us via the website;
+* Technical information automatically transmitted to us or our service providers, information on user behavior or website settings (e.g., name of the internet service provider, IP address, UDI, device type, browser, operating system, date and time of access, number of clicks on the page, clicks on links, etc.).
 
-Diese Personendaten bearbeiten wir für die beschriebenen Zwecke gestützt auf die folgenden Rechtsgrundlagen:
+We process this personal data for the described purposes based on the following legal bases:
 
-* Wahrung berechtigter Interessen, (z.B. für administrative Zwecke, um unsere Qualität zu verbessern, Daten zu analysieren oder unsere Dienstleistungen bekannt zu machen).
+* Safeguarding legitimate interests (e.g., for administrative purposes, to improve our quality, to analyze data, or to promote our services).
 
-### 3.4 Direkte Kommunikation, Besuche und Veranstaltungen
+### 3.4 Direct Communication, Visits, and Events
 
-Wenn Sie mit uns Kontakt aufnehmen (z.B. via Telefon, E-Mail oder Chat) oder wir Sie kontaktieren, bearbeiten wir die dafür notwendigen Personendaten. Wir bearbeiten diese Personendaten ebenfalls, wenn Sie uns besuchen. In diesem Fall kann es sein, dass Sie vor ihrem Besuch oder am Empfang Ihre Kontaktdaten hinterlassen müssen. Diese werden von uns für eine gewisse Zeit aufbewahrt, um unsere Infrastruktur und unsere Informationen zu schützen.
-Für die Durchführung von Telefonkonferenzen, Online-Meetings, Videokonferenzen und/oder Webinare («Online-Meetings») nutzen wir entsprechend sichere Anwendungen.
-Bei der Organisation und Durchführung von Veranstaltungen bearbeiten wir Personendaten für das Veranstaltungsmanagement und die Teilnehmerbetreuung, einschließlich der Verwaltung von Anmeldungen, Kommunikation mit Teilnehmern und Koordination mit Dienstleistern.
+If you contact us (e.g., via telephone, e-mail, or chat) or if we contact you, we process the necessary personal data. We also process this personal data when you visit us. In this case, you may be required to leave your contact details before your visit or at the reception. These are kept by us for a certain period to protect our infrastructure and information.
+For the conduct of telephone conferences, online meetings, video conferences, and/or webinars ("Online Meetings"), we use appropriately secure applications.
+When organizing and holding events, we process personal data for event management and participant support, including the administration of registrations, communication with participants, and coordination with service providers.
 
-Wir bearbeiten dabei insbesondere folgende Informationen:
+In doing so, we process, in particular, the following information:
 
-* Kontaktinformationen (z.B. Name, Vorname, Adresse, Telefonnummer, E-Mail);
-* Randdaten zur Kommunikation (z.B. IP-Adresse, Dauer der Kommunikation, Kommunikationskanal);
-* Andere Informationen, die der Nutzer während der Verwendung des Videokonferenzdienstes hochladet, bereitstellt oder erstellt sowie für die Wartung des bereitgestellten Dienstes verwendete Metadaten;
-* Persönliche Informationen (z.B. Beruf, Funktion, Titel, Arbeitgeberfirma);
-* Bildaufnahmen;
-* Zeitpunkt und Grund des Besuchs.
+* Contact information (e.g., last name, first name, address, telephone number, e-mail);
+* Metadata regarding communication (e.g., IP address, duration of communication, communication channel);
+* Other information that the user uploads, provides, or creates while using the video conferencing service, as well as metadata used for the maintenance of the provided service;
+* Personal information (e.g., profession, function, title, employer company);
+* Image recordings;
+* Time and reason for the visit.
 
-Diese Personendaten bearbeiten wir für die beschriebenen Zwecke gestützt auf die folgenden Rechtsgrundlagen:
+We process this personal data for the described purposes based on the following legal bases:
 
-* Erfüllung einer vertraglichen Pflicht mit der betroffenen Person bzw. zugunsten der betroffenen Person, inkl. Vertragsanbahnung und allfällige Durchsetzung (Erbringung einer Dienstleistung);
-* Wahrung berechtigter Interessen (z.B. Sicherheit, Nachvollziehbarkeit sowie Abwicklung und Administration von Kundenbeziehungen).
-* Einwilligung
+* Fulfillment of a contractual obligation with the data subject or for the benefit of the data subject, including contract initiation and any enforcement (provision of a service);
+* Safeguarding legitimate interests (e.g., security, traceability, as well as handling and administration of client relationships);
+* Consent.
 
-### 3.5 Information und Marketing
+### 3.5 Information and Marketing
 
-Wir bearbeiten Personendaten, um Ihnen attraktive Angebote zu machen und Kundenbeziehungen zu pflegen. Dazu gehört das Versenden von Mitteilungen und Angeboten, sowohl in schriftlicher als auch in elektronischer Form, sowie die Durchführung von Marketingaktionen. Diese Aktionen können unsere eigenen Angebote oder die von Werbepartnern umfassen.
-Um Ihnen personalisierte Angebote zu unterbreiten, können wir Daten wie Grunddaten, Vertragsdaten, Kommunikationsdaten, Verhaltens- und Transaktionsdaten sowie Präferenzdaten verwenden. Dies ermöglicht es uns, Ihnen relevante Informationen und Angebote zu unterbreiten.
+We process personal data to provide you with attractive offers and to maintain client relationships. This includes sending messages and offers, both in written and electronic form, as well as conducting marketing campaigns. These campaigns may include our own offers or those of advertising partners.
+To provide you with personalized offers, we may use data such as basic data, contract data, communication data, behavioral and transactional data, as well as preference data. This allows us to provide you with relevant information and offers.
 
-Zu den Arten von Mitteilungen und Angeboten können gehören:
+Types of messages and offers may include:
 
-* Werbe-E-Mails, In-App-Nachrichten und andere elektronische Mitteilungen;
-* Werbebroschüren, Zeitschriften und andere gedruckte Materialien;
-* Werbemitteilungen über verschiedene Medienplattformen;
-* Einladungen zu Veranstaltungen.
+* Promotional e-mails, in-app messages, and other electronic communications;
+* Promotional brochures, magazines, and other printed materials;
+* Promotional messages via various media platforms;
+* Invitations to events.
 
-Sie haben immer die Möglichkeit, Marketingkontakte abzulehnen, und Sie können Newsletter und andere elektronische Mitteilungen einfach über einen Abmeldelink oder über Ihr Kundenkonto abbestellen.
+You always have the option to decline marketing contacts, and you can easily unsubscribe from newsletters and other electronic communications via an unsubscribe link or via your customer account.
 
-Ihre Personendaten bearbeiten wir für den beschriebenen Zweck gestützt auf den folgenden Rechtsgrundlagen:
+We process your personal data for the described purpose based on the following legal bases:
 
-* Einwilligung;
-* Wahrung berechtigter Interessen, (z.B. Daten zu analysieren oder unsere Dienstleistungen bekannt zu machen).
+* Consent;
+* Safeguarding legitimate interests (e.g., to analyze data or to promote our services).
 
-### 3.6 Bewerbungen
+### 3.6 Job Applications
 
-Sie können per Post oder über die auf unserer Webseite angegebene E-Mail-Adresse Ihre Bewerbung für eine Stelle bei uns einreichen. Die Bewerbungsunterlagen und sämtliche damit an uns bekanntgegebenen Personendaten werden streng vertraulich behandelt, keinem Dritten bekanntgegeben und nur zum Zweck der Bearbeitung Ihrer Bewerbung für eine Anstellung bei uns bearbeitet. Ohne Ihre gegenteilige Zustimmung wird Ihr Bewerbungsdossier nach dem Abschluss des Bewerbungsverfahrens entweder an Sie zurückgesendet oder gelöscht/vernichtet, soweit es nicht einer gesetzlichen Aufbewahrungspflicht unterliegt. Rechtsgrundlagen für die Bearbeitung Ihrer Daten bilden Ihre Einwilligung, die Erfüllung des Vertrages mit Ihnen und unsere berechtigten Interessen.
+You can submit your application for a position with us by post or via the e-mail address provided on our website. The application documents and all personal data disclosed to us in this context will be treated strictly confidentially, will not be disclosed to any third party, and will only be processed for the purpose of processing your application for employment with us. Unless you agree otherwise, your application file will be returned to you or deleted/destroyed after the conclusion of the application process, provided it is not subject to a statutory retention obligation. The legal bases for processing your data are your consent, the fulfillment of the contract with you, and our legitimate interests.
 
-Wir bearbeiten dabei insbesondere folgende Informationen:
+In doing so, we process, in particular, the following information:
 
-* Kontaktinformationen (z.B. Name, Vorname, Adresse, Telefonnummer, E-Mail);
-* Persönliche Informationen (z.B. Beruf, Funktion, Titel, Arbeitgeberfirma);
-* Bewerbungsunterlagen (z.B. Motivationsschreiben, Zeugnisse, Diplome, Lebenslauf);
-* Bewertungsinformationen (z.B. Beurteilung Personalberater, Referenzauskünfte, Assessments).
+* Contact information (e.g., last name, first name, address, telephone number, e-mail);
+* Personal information (e.g., profession, function, title, employer company);
+* Application documents (e.g., cover letter, certificates, diplomas, CV);
+* Evaluation information (e.g., assessment by recruitment consultants, reference checks, assessments).
 
-Diese Personendaten bearbeiten wir für die beschriebenen Zwecke gestützt auf die folgenden Rechtsgrundlagen:
+We process this personal data for the described purposes based on the following legal bases:
 
-* Wahrung berechtigter Interessen (z.B. Anstellung neuer Mitarbeitenden); inkl. Vertragsanbahnung und allfällige Durchsetzung;
-* Einwilligung.
+* Safeguarding legitimate interests (e.g., hiring new employees), including contract initiation and any enforcement;
+* Consent.
 
-### 3.7 Newsletter-Nutzung
+### 3.7 Use of Newsletter
 
-Soweit Sie unseren Newsletter abonnieren, nutzen wir Ihre E-Mail-Adresse und weitere Kontaktdaten, um Ihnen den Newsletter zu senden. Sie können unseren Newsletter mit Ihrer Einwilligung abonnieren. Pflichtangabe für die Übersendung des Newsletters sind Ihr vollständiger Name sowie Ihre E-Mailadresse, die wir nach Ihrer Anmeldung speichern. Rechtsgrundlagen für die Verarbeitung Ihrer Daten im Zusammenhang mit unserem Newsletter bildet Ihre Einwilligung in die Übersendung des Newsletters. Diese können Sie jederzeit widerrufen und den Newsletter abbestellen (direkt im Newsletter oder per Mail an <hallo@tim-koko.ch>).
+If you subscribe to our newsletter, we use your e-mail address and other contact details to send you the newsletter. You can subscribe to our newsletter with your consent. Mandatory information for sending the newsletter is your full name and your e-mail address, which we store after your registration. The legal basis for processing your data in connection with our newsletter is your consent to the sending of the newsletter. You can revoke this consent at any time and unsubscribe from the newsletter (directly in the newsletter or by e-mail to <hallo@tim-koko.ch>).
 
-## 4. Datenweitergabe und Datenübermittlung
+## 4. Data Transfer and Data Transmission
 
-Wir geben Ihre Daten nur an Dritte weiter, wenn dies zur Erbringung unserer Leistung notwendig ist, wenn diese Dritten für uns eine Dienstleistung erbringen, wenn wir dazu gesetzlich oder behördlich verpflichtet sind, wenn wir ein überwiegendes Interesse an der Weitergabe der Personendaten haben oder Sie uns dazu Ihre Einwilligung erteilt oder uns dazu aufgefordert haben.
+We only pass on your data to third parties if this is necessary for the provision of our services, if these third parties provide a service for us, if we are obliged to do so by law or by official order, if we have an overriding interest in the disclosure of the personal data, or if you have given us your consent or requested us to do so.
 
-Folgende Kategorien von Empfänger können Personendaten von uns erhalten:
+The following categories of recipients may receive personal data from us:
 
-* Dienstleister (z.B. IT-Dienstleister, Hosting-Provider, Lieferanten, Berater, Rechtsanwälte, Versicherungen).
-* Dritte im Rahmen unserer gesetzlichen oder vertraglichen Verpflichtungen, Behörden, staatliche Einrichtungen, Gerichte.
+* Service providers (e.g., IT service providers, hosting providers, suppliers, consultants, lawyers, insurance companies).
+* Third parties within the scope of our legal or contractual obligations, authorities, government institutions, courts.
 
-Mit Dienstleistern, die in unserem Auftrag Personendaten bearbeiten, schliessen wir Verträge, die diese verpflichten, den Datenschutz zu gewährleisten. Unsere Dienstleister befinden sich mehrheitlich in der Schweiz oder in der EU / im EWR. Sollte eine Datenübermittlung in andere Länder, die über kein angemessenes Datenschutzniveau verfügen, erforderlich sein, erfolgt diese auf Basis der EU-Standardvertragsklauseln oder anderer geeigneter Instrumente.
+We conclude contracts with service providers who process personal data on our behalf, obliging them to guarantee data protection. Most of our service providers are located in Switzerland or the EU / EEA. Should a data transfer to other countries that do not have an adequate level of data protection be necessary, this will be done on the basis of the EU Standard Contractual Clauses or other suitable instruments.
 
-## 5. Dauer der Aufbewahrung von Personendaten
+## 5. Retention Period of Personal Data
 
-Wir bearbeiten und speichern Ihre Personendaten, solange es für die Erfüllung unserer vertraglichen und gesetzlichen Pflichten oder sonst die mit der Bearbeitung verfolgten Zwecke erforderlich ist, d.h. für die Dauer der gesamten Geschäftsbeziehung (von der Anbahnung, Abwicklung bis zur Beendigung eines Vertrags) sowie darüber hinaus gemäss den gesetzlichen Aufbewahrungs- und Dokumentationspflichten. Wir bewahren Personendaten für die Zeit auf, in der Ansprüche gegen unser Unternehmen geltend gemacht werden können (während der gesetzlichen Verjährungsfrist) und soweit wir anderweitig gesetzlich dazu verpflichtet sind oder berechtigte Geschäftsinteressen dies erfordern (z.B. für Beweis- und Dokumentationszwecke). Sobald Ihre Personendaten für die oben genannten Zwecke nicht mehr erforderlich sind, werden sie grundsätzlich und soweit möglich gelöscht oder anonymisiert.
+We process and store your personal data as long as it is necessary for the fulfillment of our contractual and legal obligations or otherwise for the purposes pursued with the processing, i.e., for the duration of the entire business relationship (from initiation and processing to the termination of a contract) as well as beyond that in accordance with statutory retention and documentation obligations. We retain personal data for the period during which claims can be asserted against our company (during the statutory limitation period) and insofar as we are otherwise legally obliged to do so or legitimate business interests require it (e.g., for evidence and documentation purposes). As soon as your personal data is no longer required for the above-mentioned purposes, it will be deleted or anonymized as far as possible in principle.
 
-## 6. Datensicherheit
+## 6. Data Security
 
-Wir werden Ihre Daten sicher aufbewahren und alle angemessenen Massnahmen ergreifen, um Ihre Daten vor Verlust, Zugriff, Missbrauch oder Änderungen zu schützen.
-Unsere Mitarbeitenden und alle Vertragspartner, die Zugang zu Ihren Daten haben, sind zur Einhaltung der datenschutzrechtlichen Bestimmungen verpflichtet.
-Wir treffen nach Massgabe der gesetzlichen Vorgaben unter Berücksichtigung des Stands der Technik, der Implementierungskosten und der Art, des Umfangs, der Umstände und der Zwecke der Bearbeitung sowie der unterschiedlichen Eintrittswahrscheinlichkeiten und des Ausmasses der Bedrohung der Rechte und Freiheiten natürlicher Personen geeignete technische und organisatorische Massnahmen, um ein dem Risiko angemessenes Schutzniveau zu gewährleisten.
-Zu den Massnahmen gehören insbesondere die Sicherung der Vertraulichkeit, Integrität und Verfügbarkeit von Daten durch Kontrolle des physischen und elektronischen Zugangs zu den Daten als auch des sie betreffenden Zugriffs, der Eingabe, der Weitergabe, der Sicherung der Verfügbarkeit und ihrer Trennung. Des Weiteren haben wir Verfahren eingerichtet, die eine Wahrnehmung von Betroffenenrechten, die Löschung von Daten und Reaktionen auf die Gefährdung der Daten gewährleisten. Ferner berücksichtigen wir den Schutz Personendaten bereits bei der Entwicklung bzw. Auswahl von Hardware, Software sowie Verfahren entsprechend dem Prinzip des Datenschutzes, durch Technikgestaltung und durch datenschutzfreundliche Voreinstellungen.
+We will keep your data secure and take all reasonable measures to protect your data from loss, access, misuse, or alteration.
+Our employees and all contractual partners who have access to your data are obliged to comply with data protection regulations.
+We take appropriate technical and organizational measures in accordance with legal requirements, taking into account the state of the art, the implementation costs, and the nature, scope, circumstances, and purposes of the processing, as well as the different probabilities of occurrence and the extent of the threat to the rights and freedoms of natural persons, to ensure a level of protection appropriate to the risk.
+Measures include, in particular, ensuring the confidentiality, integrity, and availability of data by controlling physical and electronic access to the data as well as access to, input, transfer, and ensuring the availability of the data and its separation. Furthermore, we have established procedures to ensure the exercise of data subject rights, the deletion of data, and responses to data compromise. Furthermore, we consider the protection of personal data already during the development or selection of hardware, software, and procedures in accordance with the principle of data protection, through privacy by design and through privacy-friendly default settings.
 
-## 7. Ihre Rechte
+## 7. Your Rights
 
-Sie haben im Zusammen mit unserer Bearbeitung von Personendaten die folgenden Rechte:
+In connection with our processing of personal data, you have the following rights:
 
-* Recht auf Auskunft über zu Ihnen bei uns gespeicherte Personendaten, den Zweck der Bearbeitung, die Herkunft sowie über Empfänger, an die Personendaten weitergegeben werden;
-* Recht auf Berichtigung, falls Ihre Daten nicht korrekt oder nicht vollständig sind;
-* Recht, die Löschung der bearbeiteten Personendaten zu verlangen;
-* Recht auf Datenübertragbarkeit;
-* Recht einer Datenbearbeitung zu widersprechen oder eine Einwilligung zur Bearbeitung von Personendaten jederzeit ohne Angabe von Gründen zu widerrufen;
-* Recht auf Beschwerde an eine zuständige Aufsichtsbehörde, sofern rechtlich vorgesehen.
+* Right to information about personal data stored by us about you, the purpose of processing, the origin, and recipients to whom personal data is passed on;
+* Right to rectification if your data is incorrect or incomplete;
+* Right to request the deletion of processed personal data;
+* Right to data portability;
+* Right to object to data processing or to revoke consent to the processing of personal data at any time without giving reasons;
+* Right to lodge a complaint with a competent supervisory authority, if provided for by law.
 
-Um diese Rechte geltend zu machen, wenden Sie sich an die unter Ziff. 1 angegebene Adresse.
+To exercise these rights, please contact the address given in Section 1.
 
-Bitte beachten Sie aber, dass wir uns vorbehalten, unsererseits die gesetzlich vorgesehenen Einschränkungen geltend zu machen, etwa wenn wir zur Aufbewahrung oder Bearbeitung gewisser Daten verpflichtet sind, daran ein überwiegendes Interesse haben oder sie für die Geltendmachung von Ansprüchen benötigen. Falls Kosten für Sie anfallen, werden wir Sie vorab informieren. Das Widerrufen einer Einwilligung zur Bearbeitung berührt nicht die bis zu diesem Zeitpunkt erfolgte rechtmässige Bearbeitung.
+Please note, however, that we reserve the right to assert the restrictions provided for by law on our part, for example, if we are obliged to retain or process certain data, have an overriding interest in doing so, or require it for the assertion of claims. If costs are incurred for you, we will inform you in advance. The revocation of consent to processing does not affect the lawfulness of processing carried out up to that point.
 
 ## 8. Social Media
 
-Wir sind auf Social-Media-Plattformen und anderen Online-Plattformen präsent, um mit interessierten Personen zu kommunizieren und sie über uns und unser Angebot zu informieren. Dabei können Personendaten auch ausserhalb der Schweiz und des Europäischen Wirtschaftsraumes (EWR) bearbeitet werden. Wenn Sie über solche Seiten mit uns kommunizieren oder Inhalte von uns kommentieren oder verbreiten, werden wir die entsprechenden Informationen sammeln und gemäss unserer Datenschutzrichtlinie bearbeiten. Wir haben das Recht, aber nicht die Pflicht, Inhalte vor oder nach ihrer Veröffentlichung zu prüfen und ohne Benachrichtigung zu löschen, soweit dies technisch möglich ist, oder sie dem Anbieter der betreffenden Plattform zu melden. Im Falle eines Verstosses gegen die Anstands- und Verhaltensregeln können wir das betreffende Nutzerkonto auch dem Anbieter der Plattform zur Sperrung oder Löschung melden.
-Wenn Sie unsere Social-Media-Seiten besuchen, können Daten (z.B. über Ihr Nutzerverhalten) auch direkt an den jeweiligen Anbieter übermittelt oder von diesem erhoben und zusammen mit anderen, dem Anbieter bereits bekannten Daten bearbeitet werden (z.B. zu Marketing- und Marktforschungszwecken und zur Personalisierung von Plattforminhalten). Sind wir gemeinsam mit dem Anbieter für bestimmte Bearbeitungen verantwortlich, schliessen wir mit dem Anbieter eine entsprechende Vereinbarung ab, deren wesentlichen Inhalt Sie beim Anbieter erfahren können. Weitere Informationen zur Datenbearbeitung durch die Anbieter von sozialen Netzwerken finden Sie in den Datenschutzbestimmungen der jeweiligen sozialen Netzwerke.
-Darüber hinaus gelten jeweils die Allgemeinen Geschäftsbedingungen (AGB) und Nutzungsbedingungen sowie die Datenschutzerklärungen und sonstigen Bestimmungen der einzelnen Betreiber solcher Online-Plattformen. Diese Bestimmungen informieren insbesondere über die Rechte der Betroffenen, zu denen insbesondere das Recht auf Auskunft gehört.
+We are present on social media platforms and other online platforms to communicate with interested persons and to inform them about us and our offers. In this context, personal data may also be processed outside of Switzerland and the European Economic Area (EEA). If you communicate with us via such pages or comment on or disseminate content from us, we will collect the corresponding information and process it in accordance with our Privacy Policy. We have the right, but not the obligation, to check content before or after its publication and to delete it without notification, as far as technically possible, or to report it to the provider of the respective platform. In the event of a violation of the rules of decency and conduct, we may also report the relevant user account to the provider of the platform for blocking or deletion.
+When you visit our social media pages, data (e.g., about your user behavior) may also be transmitted directly to the respective provider or collected by them and processed together with other data already known to the provider (e.g., for marketing and market research purposes and for personalizing platform content). If we are jointly responsible with the provider for certain processing, we conclude a corresponding agreement with the provider, the essential content of which you can find out from the provider. Further information on data processing by the providers of social networks can be found in the privacy policies of the respective social networks.
+In addition, the General Terms and Conditions (GTC) and Terms of Use as well as the privacy policies and other provisions of the individual operators of such online platforms apply. These provisions inform in particular about the rights of the data subjects, which specifically includes the right to information.
 
-## 9. Cookies und weitere Tracking-Technologien
+## 9. Cookies and Other Tracking Technologies
 
-Diese Website verwendet keine Cookies. Zur Analyse des Nutzungsverhalten der Website Besucher setzen wir das Cookie freie Analyticstool von <https://umami.is/> ein.
-<!-- INFO: Falls wir mal Cookies wollen
+This website does not use cookies. To analyze the usage behavior of website visitors, we use the cookie-free analytics tool from <https://umami.is/>.
 
-Hierbei handelt es sich um kleine Dateien, die Ihr Browser automatisch erstellt und die auf Ihrem Endgerät (Laptop, Tablet, Smartphone o.ä.) gespeichert werden, wenn Sie unsere Seite besuchen.
-Im Cookie werden Informationen abgelegt, die sich jeweils im Zusammenhang mit dem spezifisch eingesetzten Endgerät ergeben. Dies bedeutet jedoch nicht, dass wir dadurch unmittelbar Kenntnis von Ihrer Identität erhalten. Der Einsatz von Cookies dient einerseits dazu, die Nutzung unseres Angebots für Sie angenehmer zu gestalten. So setzen wir sogenannte Session-Cookies ein, um zu erkennen, dass Sie einzelne Seiten unserer Website bereits besucht haben. Diese werden nach Verlassen unserer Seite automatisch gelöscht.
-Darüber hinaus setzen wir ebenfalls zur Optimierung der Benutzerfreundlichkeit temporäre Cookies ein, die für einen bestimmten festgelegten Zeitraum auf Ihrem Endgerät gespeichert werden. Besuchen Sie unsere Seite erneut, um unsere Dienste in Anspruch zu nehmen, wird automatisch erkannt, dass Sie bereits bei uns waren und welche Eingaben und Einstellungen sie getätigt haben, um diese nicht noch einmal eingeben zu müssen. Zum anderen setzten wir Cookies ein, um die Nutzung unserer Website statistisch zu erfassen und zum Zwecke der Optimierung unseres Angebotes für Sie auszuwerten. Diese Cookies ermöglichen es uns, bei einem erneuten Besuch unserer Seite automatisch zu erkennen, dass Sie bereits bei uns waren. Diese Cookies werden nach einer jeweils definierten Zeit automatisch gelöscht.
-Die durch Cookies bearbeiteten Daten sind für die genannten Zwecke erforderlich. Die meisten Browser akzeptieren Cookies automatisch. Sie können Ihren Browser jedoch so konfigurieren, dass keine Cookies auf Ihrem Computer gespeichert werden oder stets ein Hinweis erscheint, bevor ein neues Cookie angelegt wird. Die vollständige Deaktivierung von Cookies kann jedoch dazu führen, dass Sie nicht alle Funktionen unserer Website nutzen können.
- -->
+## 10. Server Log Files
 
-## 10. Server-Log-Files
+The provider of this website automatically collects and stores information in so-called server log files, which your browser automatically transmits to us. These are:
 
-Der Provider dieser Website erhebt und speichert automatisch Informationen in so genannten Server-Log Files, die Ihr Browser automatisch an uns übermittelt. Dies sind:
-
-* Browsertyp und Browserversion
-* verwendetes Betriebssystem
+* Browser type and browser version
+* Operating system used
 * Referrer URL
-* Hostname des zugreifenden Rechners
-* Uhrzeit der Serveranfrage
+* Hostname of the accessing computer
+* Time of the server request
 
-Diese Daten sind nicht bestimmten Personen zuordenbar. Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen. Wir behalten uns vor, diese Daten nachträglich zu prüfen, wenn uns konkrete Anhaltspunkte für eine rechtswidrige Nutzung bekannt werden.
+This data cannot be assigned to specific persons. A merging of this data with other data sources is not undertaken. We reserve the right to check this data retrospectively if we become aware of concrete indications of illegal use.
 
-<!-- ## 11 Dienste von Dritten
+## 11. Changes to the Privacy Policy
 
-Wir verwenden Dienste von Dritten, um unser Angebot dauerhaft, nutzerfreundlich, sicher und zuverlässig bereitstellen zu können. Solche Dienste dienen auch dazu, Inhalte in unsere Website einbetten zu können. Solche Dienste – beispielsweise Hosting- und Speicherdienste – benötigen Ihre Internet Protocol (IP)-Adresse, da solche Dienste die entsprechenden Inhalte ansonsten nicht übermitteln können. Solche Dienste können sich ausserhalb der Schweiz und des Europäischen Wirtschaftsraumes (EWR) befinden, sofern ein angemessener Datenschutz gewährleistet ist.
-Für ihre eigenen sicherheitsrelevanten, statistischen und technischen Zwecke können Dritte, deren Dienste wir nutzen, auch Daten im Zusammenhang mit unserem Angebot sowie aus anderen Quellen – unter anderem mit Cookies, Logdateien und Zählpixeln – aggregiert, anonymisiert oder pseudonymisiert bearbeiten.
--->
-
-## 11. Änderung der Datenschutzerklärung
-
-Wir behalten uns vor, diese Datenschutzerklärung bei Änderungen anzupassen. Wir werden über solche Anpassungen und Ergänzungen in geeigneter Form informieren, insbesondere durch Veröffentlichung der jeweils aktuellen Datenschutzerklärung auf unserer Website.
+We reserve the right to adapt this Privacy Policy in the event of changes. We will inform about such adjustments and additions in an appropriate form, in particular by publishing the respective current Privacy Policy on our website.
 
 November 2024

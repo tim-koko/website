@@ -1,6 +1,7 @@
 ---
 title: "tim&koko Weekly Sync"
 slug: "weekly-sync"
+description: "Mehr als nur Status-Updates: Wie wir unsere Weekly Syncs gestalten, um Teamgeist, Austausch und Effizienz zu fördern. Tipps für deine Meetings."
 date: 2025-02-06T00:00:00+00:00
 lastmod: 2025-02-06T00:00:00+00:00
 draft: false

@@ -1,6 +1,6 @@
 ---
 title: "Rhätische Bahn – Cloud-native Bahnbetrieb mit OpenShift"
-description: ""
+description: "Cloud Native auf Schienen: Wir unterstützen die Rhätische Bahn beim OpenShift-Betrieb. Hybride Umgebung für kritische Bahn-Apps. Einblicke gibt's hier!"
 lead: "Nebst virtualisierter Hardware sorgen Bare Metal-Maschinen für die nötige Rechenleistung, um eine Vielzahl unterschiedlicher, für den Bahnbetrieb wichtiger Applikationen auf OpenShift zu betreiben."
 date: 2023-03-29T00:00:00+00:00
 lastmod: 2023-03-29T00:00:00+00:00

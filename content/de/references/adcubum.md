@@ -1,6 +1,6 @@
 ---
 title: "Adcubum – Syrius auf dem Weg in die Cloud"
-description: ""
+description: "Wir begleiten Adcubum und Syrius in die Cloud. Als Product Owner & Architekten unterstützen wir bei der OpenShift-Migration & Tracing. Zur Cloud Journey!"
 lead: "tim&koko unterstützt Adcubum auf ihrem spannenden Weg in die Cloud."
 date: 2023-03-29T00:00:00+00:00
 lastmod: 2023-03-29T00:00:00+00:00

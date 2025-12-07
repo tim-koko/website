@@ -1,7 +1,7 @@
 ---
 title: "Quarkus Developer Experience"
 slug: "quarkus-developer-experience"
-description: ""
+description: "Java-Entwicklung mit Turbo: Quarkus bietet schnellen Startup, Live Coding & Dev Services. Erlebe echte Developer Joy für deine Microservices."
 date: 2024-05-21T00:00:00+00:00
 lastmod: 2024-05-21T00:00:00+00:00
 draft: false

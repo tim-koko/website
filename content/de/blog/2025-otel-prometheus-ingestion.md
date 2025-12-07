@@ -1,7 +1,7 @@
 ---
 title: "Verwendung des OpenTelemetry-Endpunkts in Prometheus 3 zum Erfassen von OTLP-Metriken in Kubernetes"
 slug: "otel-prometheus-ingestion"
-description: ""
+description: "Integration leicht gemacht: Sende OTLP-Metriken direkt an Prometheus 3. Ein Guide für Kubernetes-Setups mit OpenTelemetry & Prometheus Operator."
 date: 2025-08-13T00:00:00+00:00
 lastmod: 2025-08-13T00:00:00+00:00
 draft: false

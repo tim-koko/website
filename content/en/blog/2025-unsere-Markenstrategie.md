@@ -1,7 +1,7 @@
 ---
 title: "Our Brand Strategy – What tim&koko Is All About"
 slug: "unsere-markenstrategie" 
-description: "" 
+description: "Into the Cloud: Our DNA, our drive & our mindset. An honest look at the tim&koko brand. Cloud Native, humanity & courage." 
 date: 2025-07-07T15:00:00+00:00 
 lastmod: 2025-07-07T15:00:00+00:00 
 draft: false 

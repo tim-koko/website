@@ -1,10 +1,10 @@
 ---
 title: "References – The best customers in the world"
 translationKey: references
-description: ""
+description: "Discover our Cloud Native success stories: Engineering, Consulting & Training. Real success with Kubernetes, Kafka, ArgoCD & OpenTelemetry. View projects!"
 lead: ""
 date: 2025-03-04T00:00:00+00:00
-lastmod: 2025-04-14T08:00:00+00:00
+lastmod: 2025-12-07T08:00:00+00:00
 draft: false
 images: []
 Sitemap:

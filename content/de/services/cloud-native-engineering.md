@@ -1,7 +1,7 @@
 ---
 title: "Cloud Native Engineering"
 slug: "cloud-native-engineering"
-description: "Unser Service Cloud Native Engineering umfasst die tatkräftige Unterstützung bei Containern, Kubernetes, Pipelines, GitOps und Observability, wobei wir dir als leidenschaftliche Engineers die komplexe Technik abnehmen, damit du Zeit und Nerven sparst und dich auf das konzentrieren kannst, was dir Freude bereitet."
+description: "Fokus auf dein Business, wir machen die Tech. Cloud Native Engineering für Kubernetes, GitOps, CI/CD & Observability. Wir packen an – melde dich!"
 titleVisible: "Cloud Native Engineering"
 titleSublineVisible: "Engineering"
 image: "images/landing-pages/tk-landingpage-labs-1500x600.png"

@@ -1,7 +1,7 @@
 ---
 title: "F5-Integration mit OpenShift"
 slug: "f5-integration-openshift"
-description: "Wie die F5 Container Ingress Services für OpenShift genutzt werden können"
+description: "F5 Load Balancer auf OpenShift automatisieren: Eine Anleitung zur Integration via F5 CIS Operator, CRDs & TransportServer. Effizienz steigern!"
 date: 2024-11-12T00:00:00+00:00
 lastmod: 2024-11-12T00:00:00+00:00
 draft: false

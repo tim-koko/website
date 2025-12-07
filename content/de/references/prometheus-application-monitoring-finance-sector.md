@@ -1,6 +1,6 @@
 ---
 title: "Marktdaten Monitoring neu gedacht: Mit Prometheus zu mehr Betriebssicherheit und tieferen Kosten bei Schweizer Bank"
-description: ""
+description: "Marktdaten-Monitoring neu gedacht: Für eine Schweizer Bank implementierten wir Prometheus auf OpenShift. Mehr Betriebssicherheit, tiefere Kosten. Zum Case!"
 date: 2025-03-13T00:00:00+00:00
 lastmod: 2025-03-13T00:00:00+00:00
 draft: false

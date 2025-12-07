@@ -1,7 +1,7 @@
 ---
 title: "Cloud Native Training"
 slug: "cloud-native-training"
-description: "Die Cloud Native Trainings umfassen praxisnahe Hands-on-Formate, bei denen wir dein Team mit Herzblut und Expertenwissen zu Technologien wie Kubernetes, Terraform oder Cilium befähigen, sodass weit mehr als nur technisches Know-how in Erinnerung bleibt."
+description: "DPraxisnahe Cloud Native Trainings: Von Engineers für Engineers. Lerne Kubernetes, OpenShift, ArgoCD, Terraform & Go. Hands-on & mit Herzblut. Buche jetzt!"
 titleVisible: "Cloud Native"
 titleSublineVisible: "Training"
 image: "images/landing-pages/tk-landingpage-labs-1500x600.png"

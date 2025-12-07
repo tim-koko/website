@@ -1,7 +1,7 @@
 ---
 title: "Wie wir zu unserem neuen Brandnamen kamen."
 slug: "neuer-brand-name"
-description: ""
+description: "Die Story hinter tim&koko: Wie wir unseren Namen fanden. Eine Reise von Technik zu Tim Berners-Lee & Koko dem Gorilla. Cloud Native mit Herz."
 date: 2024-10-30T00:00:00+00:00
 lastmod: 2024-10-30T00:00:00+00:00
 draft: false

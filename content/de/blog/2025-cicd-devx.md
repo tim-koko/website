@@ -1,7 +1,7 @@
 ---
 title: "Effiziente CI/CD-Pipelines mit GitLab: Produktivität und Sicherheit vereint"
 slug: "cicd-devx"
-description: ""
+description: "DevSecOps in der Praxis: Optimiere GitLab CI/CD mit Components, Renovate & Cosign. Mehr Produktivität & Sicherheit für deine Pipelines."
 date: 2025-01-29T00:00:00+00:00
 lastmod: 2025-01-29T00:00:00+00:00
 draft: false

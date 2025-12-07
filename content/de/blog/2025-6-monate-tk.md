@@ -1,7 +1,7 @@
 ---
 title: "Arbeiten bei tim&koko - Ein Rückblick nach sechs Monaten"
 slug: "6-monate-tk"
-description: ""
+description: "Ein Blick hinter die Kulissen: Marie zieht Fazit nach 6 Monaten bei tim&koko. Erfahre mehr über unsere Kultur, den Team-Spirit & offene Jobs."
 date: 2025-09-11T00:00:00+00:00
 lastmod: 2025-09-11T00:00:00+00:00
 draft: false

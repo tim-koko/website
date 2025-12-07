@@ -1,7 +1,7 @@
 ---
 title: "OpenShift Virtualization Accelerator Package"
 slug: "openshift-virtualization-accelerator"
-description: "Our Accelerator package for a quick entry into the world of OpenShift Virtualization"
+description: "Modernize VMs with OpenShift Virtualization. Get strategy, PoC & migration roadmap with our Accelerator Package. The future-proof alternative. Learn more!"
 titleVisible: "OpenShift Virtualization"
 titleSublineVisible: "Accelerator-Package"
 image: "images/landing-pages/tk-landingpage-labs-1500x600.png"

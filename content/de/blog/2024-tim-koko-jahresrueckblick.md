@@ -1,7 +1,7 @@
 ---
 title: "tim&koko Jahresrückblick 2024"
 slug: "tim-koko-jahresrueckblick"
-description: ""
+description: "tim&koko Jahresrückblick 2024: Team-Wachstum, Rebranding, Events & Tech-Highlights. Ein Blick zurück auf ein bewegtes & erfolgreiches Jahr."
 date: 2024-12-16T00:00:00+00:00
 lastmod: 2024-12-16T00:00:00+00:00
 draft: false

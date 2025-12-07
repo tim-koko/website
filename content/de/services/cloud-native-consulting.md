@@ -1,7 +1,7 @@
 ---
 title: "Cloud Native Consulting"
 slug: "cloud-native-consulting"
-description: "Unser Service Cloud Native Beratung umfasst weit mehr als nur Technik: Wir begleiten deine Journey von A bis Z (on Premises oder Cloud) durch Solution Architektur, Workshops und Trainings und harmonisieren Technologie, Kultur und Prozesse – immer unterstützt durch einen Consultant auf Augenhöhe"
+description: "Dein Partner für die Cloud Native Journey: Von Strategie bis Architektur. Wir beraten zu Tech, Kultur & Prozessen – On-Prem & Cloud. Jetzt starten!"
 titleVisible: "Cloud Native"
 titleSublineVisible: "Consulting"
 image: "images/landing-pages/tk-landingpage-labs-1500x600.png"

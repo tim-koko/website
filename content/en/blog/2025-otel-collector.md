@@ -1,7 +1,7 @@
 ---
 title: "Understanding OpenTelemetry Collectors in Kubernetes"
 slug: "otel-collector"
-description: ""
+description: "Central telemetry collection: The OpenTelemetry Collector in Kubernetes explained. Learn how to efficiently collect logs, metrics & traces."
 date: 2025-05-08T00:00:00+00:00
 lastmod: 2025-05-08T00:00:00+00:00
 draft: false

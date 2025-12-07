@@ -1,7 +1,7 @@
 ---
 title: "We Speak More Than Just Tech Languages"
 slug: "nicht-nur-tech-sprachen"
-description: ""
+description: "Java, Go & Greek? At tim&koko, we speak more than just tech. Meet our team and our 10 spoken languages. Get personal insights here!"
 date: 2025-05-28T00:00:00+00:00
 lastmod: 2025-05-28T00:00:00+00:00
 draft: false

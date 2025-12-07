@@ -1,7 +1,7 @@
 ---
 title: "KubeVirt Journey - Introduction to the Management of Virtual Machines on Kubernetes"
 slug: "kubevirt-introduction"
-description: ""
+description: "Intro to KubeVirt: Run VMs alongside containers on Kubernetes. Learn the architecture, concepts, and how it bridges the gap between old and new."
 date: 2024-09-09T00:00:00+00:00
 lastmod: 2024-09-09T00:00:00+00:00
 draft: false
