@@ -1,6 +1,6 @@
 ---
 title: "Impressum"
-description: ""
+description: "Das Impressum von tim&koko. Hier findest du alle Angaben zu Geschäftsführung, Anschrift und Handelsregister. Transparenz zählt."
 lead: ""
 date: 2022-10-31T00:00:00+00:00
 lastmod: 2024-08-24T00:00:00+00:00

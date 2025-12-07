@@ -1,6 +1,6 @@
 ---
 title: "Join the Team"
-description: ""
+description: "Join the team! We are looking for Cloud Native enthusiasts with courage & heart. Great culture, modern tech, and real impact. See our open positions!"
 lead: ""
 date: 2025-08-20T00:00:00+00:00
 lastmod: 2025-08-20T00:00:00+00:00

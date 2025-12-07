@@ -1,6 +1,6 @@
 ---
 title: "Datenschutzerklärung"
-description: ""
+description: "Deine Privatsphäre ist uns wichtig. Hier informieren wir dich transparent, wie wir deine Daten schützen und verarbeiten. Unsere Datenschutzerklärung."
 lead: ""
 date: 2022-05-28T00:00:00+00:00
 lastmod: 2024-08-24T00:00:00+00:00
@@ -18,7 +18,7 @@ Verantwortlich für die Datenbearbeitungen, die wir hier beschreiben, ist die Ti
 
 Tim&Koko AG  
 Thomas Philipona  
-Gerechtigkeitsgasse  
+Gerechtigkeitsgasse 80
 3011 Bern
 
 E-Mail: hallo@tim-koko.ch  

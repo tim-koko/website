@@ -1,6 +1,6 @@
 ---
 title : "Impress"
-description: ""
+description: "The imprint of tim&koko. Transparency is key – find all details regarding management, address, and commercial register here."
 lead: ""
 date: 2022-10-31T00:00:00+00:00
 lastmod: 2024-08-24T00:00:00+00:00

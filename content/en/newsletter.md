@@ -1,7 +1,7 @@
 ---
 title: "newsletter"
 slug: "newsletter"
-description: ""
+description: "Cloud Native insights delivered to your inbox. Get the latest on Kubernetes, tech trends, and team updates. No spam, just value. Subscribe now!"
 lead: ""
 date: 2025-04-24T00:00:00+00:00
 lastmod: 2025-04-24T00:00:00+00:00
