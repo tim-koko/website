@@ -4,11 +4,11 @@
   {{- partial "head/body-class.html" . -}}
   <body class="{{ delimit (.Scratch.Get "class") " " }}" data-bs-spy="scroll" data-bs-target="#main-menu">
     {{ partial "header/header.html" . }}
-    <div id="main" class="wrap transition-fade" role="document">
+    <main id="main" class="wrap transition-fade" role="document">
       <div class="content">
         {{ block "main" . }}{{ end }}
       </div>
-    </div>
+    </main>
     {{ block "sidebar-footer" . }}{{ end }}
     {{ partial "footer/footer.html" . }}
     {{ partial "footer/script-footer.html" . }}

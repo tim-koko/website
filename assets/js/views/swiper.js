@@ -8,7 +8,7 @@ export default function(){
     const swiperMedia = document.querySelectorAll('.swiper-logos');
 
     if (swiperMedia) {
-      console.log(swiperMedia);
+      //console.log(swiperMedia);
 
       swiperMedia.forEach(media => {
 
