@@ -1,6 +1,6 @@
 ---
 title: "Centris – Kafka Storage Migration"
-description: ""
+description: "Zero Downtime Migration für Centris: Wir migrierten Kafka Storage im laufenden Betrieb. Einsatz von Cruise Control & OpenShift Streams. Zum Projekt!"
 date: 2025-09-01T00:00:00+00:00
 lastmod: 2025-09-01T00:00:00+00:00
 draft: false

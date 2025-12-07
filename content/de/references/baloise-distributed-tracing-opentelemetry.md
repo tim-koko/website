@@ -1,7 +1,7 @@
 ---
 title: "Baloise – Distributed Tracing Plattform PoC auf Basis von OpenTelemetry und Grafana Tempo"
 description: ""
-lead: "Für die Baloise haben wir im Rahmen eines Proof of Concepts (PoC) eine innovative Tracing-Plattform auf Basis von OpenTelemetry und Grafana Tempo entwickelt. Ziel war es, eine Cloud-native Alternative zur bestehenden proprietären Lösung zu evaluieren."
+lead: "Cloud Native Tracing für die Baloise: Erfolgreicher PoC mit OpenTelemetry & Grafana Tempo. Die skalierbare Alternative zu proprietären Tools. Mehr Infos."
 date: 2025-04-14T00:00:00+00:00
 lastmod: 2025-04-14T00:00:00+00:00
 draft: false
