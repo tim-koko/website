@@ -1,9 +1,9 @@
 ---
 title: "Über uns – Wir leben Cloud Native"
-description: ""
+description: "Expertise trifft Mut: Wir verbinden Cloud Native Tech mit Menschen. Wir packen an und heben dein Unternehmen auf das nächste Level."
 lead: ""
 date: 2025-03-04T00:00:00+00:00
-lastmod: 2025-04-14T08:00:00+00:00
+lastmod: 2025-12-07T08:00:00+00:00
 draft: false
 images: []
 Sitemap:
