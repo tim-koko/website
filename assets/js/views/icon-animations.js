@@ -1,16 +1,17 @@
-import { animate } from 'animejs';
+import { animate, createDrawable, stagger } from 'animejs';
 import ScrollOut from 'scroll-out';
 
 export default function() {
 
-  if (document.querySelectorAll('.icon-draw').length === 0) {
+  const iconPaths = document.querySelectorAll('.icon-draw svg path');
+
+  if (iconPaths.length === 0) {
     return;
   }
 
   //set all paths to 0
-  animate({
-    targets: '.icon-draw svg path',
-    strokeDashoffset: [0,animate.setDashoffset],
+  animate(createDrawable(iconPaths), {
+    draw: 0,
     duration: 0,
   });
 
@@ -20,12 +21,14 @@ export default function() {
     //threshold: 0.9,
     once: true,
     onShown: function(el) {
-      animate({
-        targets: el.querySelectorAll(`:scope ${'svg path'}`),
-        strokeDashoffset: [animate.setDashoffset, 0],
-        easing: 'easeOutSine',
+
+      const paths = el.querySelectorAll('svg path');
+
+      animate(createDrawable(paths), {
+        draw: '0 1',
+        ease: 'outSine',
         duration: 400,
-        delay: function(el, i) { return i * 250 },
+        delay: stagger(250),
       });
     },
     onHidden: function(el) {
