@@ -141,3 +141,6 @@ other = "Dessert"
 
 [chooseOption]
 other = "Bitte wähle eine Option"
+
+[skipToContent]
+other = "Zum Hauptinhalt springen"

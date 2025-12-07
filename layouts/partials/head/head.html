@@ -2,10 +2,10 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {{ block "head/resource-hints" . }}{{ partial "head/resource-hints.html" . }}{{ end }}
-  {{ block "head/stylesheet" . }}{{ partial "head/stylesheet.html" . }}{{ end }}
-  {{ block "head/seo" . }}{{ partial "head/seo.html" . }}{{ end }}
   {{ block "head/favicons" . }}{{ partial "head/favicons.html" . }}{{ end }}
+  {{ block "head/stylesheet" . }}{{ partial "head/stylesheet.html" . }}{{ end }}
+  {{ block "head/resource-hints" . }}{{ partial "head/resource-hints.html" . }}{{ end }}
+  {{ block "head/seo" . }}{{ partial "head/seo.html" . }}{{ end }}
   {{ block "head/script-header" . }}{{ partial "head/script-header.html" . }}{{ end }}
   {{ if eq "true" (getenv  "HUGO_UMAMI_CODE") }}<script defer src="https://cloud.umami.is/script.js" data-website-id="9fdfb4f5-e583-4313-b8af-8a3e4a89d915"></script>{{ end }}
 </head>
