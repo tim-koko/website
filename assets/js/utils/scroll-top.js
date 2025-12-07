@@ -11,7 +11,7 @@ export default function() {
     
     const scrollElement = window.document.scrollingElement || window.document.body || window.document.documentElement;
     //var destination = $(location.hash).offset().top - $('.main').offset().top;
-    anime({
+    animate({
       targets: scrollElement,
       scrollTop: 0,
       duration: 666,
@@ -46,7 +46,7 @@ export default function() {
           topEl = document.querySelector('body'),
           destination =  offset(targetEl).top  - offset(topEl).top;
       
-      anime({
+      animate({
         targets: scrollElement,
         scrollTop: (destination > window.scrollY ? destination-50 : destination-50),
         duration: 666,

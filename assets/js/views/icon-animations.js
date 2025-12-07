@@ -8,9 +8,9 @@ export default function() {
   }
 
   //set all paths to 0
-  anime({
+  animate({
     targets: '.icon-draw svg path',
-    strokeDashoffset: [0,anime.setDashoffset],
+    strokeDashoffset: [0,animate.setDashoffset],
     duration: 0,
   });
 
@@ -20,9 +20,9 @@ export default function() {
     //threshold: 0.9,
     once: true,
     onShown: function(el) {
-      anime({
+      animate({
         targets: el.querySelectorAll(`:scope ${'svg path'}`),
-        strokeDashoffset: [anime.setDashoffset, 0],
+        strokeDashoffset: [animate.setDashoffset, 0],
         easing: 'easeOutSine',
         duration: 400,
         delay: function(el, i) { return i * 250 },
