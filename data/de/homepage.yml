@@ -100,6 +100,8 @@ clients:
       img: "images/clients/begasoft.svg"
     - title: "CSS Versicherung"
       img: "images/clients/css.svg"
+    - title: "Centris"
+      img: "images/clients/centris.svg"
     # - title: "Kanton Luzern"
     #   img: "images/clients/kanton-luzern.svg"
     - title: "die Mobiliar"
