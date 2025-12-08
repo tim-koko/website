@@ -1,6 +1,6 @@
 @font-face {
   font-family: Athletics-Regular;
-  src: url("/fonts/Athletics-Regular.woff") format("woff"), url("/fonts/Athletics-Regular.woff2") format("woff2");
+  src: url("/fonts/Athletics-Regular.woff2") format("woff2"), url("/fonts/Athletics-Regular.woff") format("woff");
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizelegibility;
@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: Athletics-Bold;
-  src: url("/fonts/Athletics-Bold.woff") format("woff"), url("/fonts/Athletics-Bold.woff2") format("woff2");
+  src: url("/fonts/Athletics-Bold.woff2") format("woff2"), url("/fonts/Athletics-Bold.woff") format("woff");
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizelegibility;
