@@ -1,11 +1,11 @@
 {
-  "name": "@hyas/core",
-  "description": "Hyas core",
-  "version": "1.5.5",
+  "name": "@im-koko/website",
+  "description": "Tim-Koko Website",
+  "version": "1.9.1",
   "browserslist": [
     "defaults"
   ],
-  "repository": "https://github.com/h-enk/hyas",
+  "repository": "https://github.com/tim-koko/website",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -32,7 +32,6 @@
     "precheck": "npm version",
     "check": "hugo version",
     "latest:hugo": "gh release view --repo gohugoio/hugo",
-    "latest:hyas": "gh release view --repo h-enk/hyas",
     "copy:katex-fonts": "shx cp ./node_modules/katex/dist/fonts/* ./static/fonts/",
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
@@ -41,13 +40,12 @@
     "@babel/core": "^7.17",
     "@babel/preset-env": "^7.16",
     "@fullhuman/postcss-purgecss": "^7.0",
-    "@hyas/images": "^3.1.0",
+    "@thulite/images": "^3.3.3",
     "@popperjs/core": "^2.11",
     "auto-changelog": "^2.4",
     "autoprefixer": "^10.4",
     "bootstrap": "^5.1",
     "eslint": "^9.39.1",
-    "exec-bin": "^1.0.0",
     "globals": "^16.5.0",
     "hugo-extended": "^0.152.2",
     "lazysizes": "^5.3",
