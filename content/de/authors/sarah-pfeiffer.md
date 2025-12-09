@@ -16,7 +16,7 @@ email: "sarah@tim-koko.ch"
 
 Sarah ist abenteuerlustig, neugierig und offen für Neues, bricht gerne aus der Komfortzone aus und sucht ständig nach neuen Herausforderungen.
 
-**Steckbrief**
+#### Steckbrief
 
 Usere Project Managerin & Certified Task Masterin – auch ohne Feldstecher behält sie jedes noch so kleine To-do im Blick.
 
