@@ -19,20 +19,26 @@ Thomas (Spitzname Thömu) kam 2015 erstmals mit Containern und Kubernetes in Ber
 Er hat zahlreiche Vorträge gehalten, unter anderem als Speaker bei den DevOpsDays, der KCD München und verschiedenen Schweizer Meetups.
 
 **Steckbrief**
+
 Unser Founder & Chief Fübi Quality Manager – kurz: den Mann, der Multitasking neu definiert.
 
 🦸‍♂️ Superpower
+
 Kümmert sich um drei Dinge gleichzeitig, ohne den Überblick zu verlieren – Chaos ist bei Thömu einfach gut organisiert.
 
 📖 Gebrauchsanweisung
+
 Täglich mindestens 4 Tassen Kaffee zuführen. Alternativ funktioniert auch Bier.
 
 🤔 Wenn nicht hier, dann …
+
 Wäre er vermutlich Gitarren-Rockstar.
 
 🎓 Life Hack
+
 Container sind wie Pflanzen: regelmässig giessen, sonst sterben sie.
 
 🐶 Spirit Animal
+
 Faultier am Montag, Nashorn ab Dienstag – langsamer Start, aber danach mit dem Kopf durch die Wand.
 
