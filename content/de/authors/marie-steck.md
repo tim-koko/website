@@ -33,7 +33,9 @@ Auf einem Techno-Festival mit Dauerkarte und Zeltplatz-Abo.
 Ist bestechlich mit Schokolade
 
 🐶 Spirit Animal
+
 Eichhörnchen – sammelt Aufgaben wie Nüsse und weiss trotzdem, wo sie alle versteckt sind.
 
 🎓 Life Hack
+
 „Ctrl + Z“ rettet mehr Leben als man denkt.
