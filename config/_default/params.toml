@@ -77,9 +77,9 @@ alertText = ""
 
   errorHandler = "warning"
 
-  # Images (@hyas/images)
-[hyas_images]
-  [hyas_images.defaults]
+# Images (@thulite/images)
+[thulite_images]
+  [thulite_images.defaults]
     decoding = "async" # sync, async, or auto (default)
     fetchpriority = "auto" # high, low, or auto (default) 
     loading = "lazy" # eager or lazy (default)
@@ -88,10 +88,10 @@ alertText = ""
     process = "" # "fill 1600x900" or "fill 2100x900" for example
     lqip = "16x webp q20" # "16x webp q20" or "21x webp q20" for example
 
-  [hyas_images.landscape]
+  [thulite_images.landscape]
     normalize = "1600x1200" # "1360x765" # "1600x900" (default)
     widths = [480, 576, 768, 1025, 1200, 1440] # [480, 640, 800, 1024]
-  [hyas_images.portrait]
+  [thulite_images.portrait]
     normalize = "765x1360" # "900x1600" (default)
     lqip = "9x16" # "9x16" (default)
     widths = [480, 640, 800, 1024]
