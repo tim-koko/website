@@ -14,3 +14,4 @@ email: "marie@tim-koko.ch"
 
 ---
 
+Between beaches, bus rides, and techno, Marie never loses her grip. She thinks ahead, brings structure and good vibes, and keeps things running even when chaos hits.
