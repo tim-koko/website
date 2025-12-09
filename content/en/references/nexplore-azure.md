@@ -27,7 +27,8 @@ Nexplore AG is a leading Swiss IT company based in Thun and Bern. The company su
 As part of a project, a new container-based platform is being built that meets the highest requirements for availability, security, and operational transparency.
 The central challenges lay particularly in:
 
-* Establishing the **deployment architecture** based on GitOps and Argo CD, and elaborating fundamental architectural decisions (e.g., operating model, security, logging strategies)
+* Establishing the **deployment architecture** based on GitOps and Argo CD,
+* and elaborating fundamental architectural decisions (e.g., operating model, security, logging strategies)
 * Integrating a complete **observability stack** with end-to-end tracing, metrics, logs, container scanning, and alerting
 * The **step-by-step establishment** of operational processes, roles, and responsibilities
 * Building a resilient **monitoring and alerting foundation** incl. role-based dashboards, KPIs, and SLOs
