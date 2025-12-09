@@ -1,5 +1,6 @@
 const autoprefixer = require('autoprefixer');
-const purgecss = require('@fullhuman/postcss-purgecss');
+const purgecssModule = require('@fullhuman/postcss-purgecss');
+const purgecss = purgecssModule && purgecssModule.default ? purgecssModule.default : purgecssModule;
 const whitelister = require('purgecss-whitelister');
 
 module.exports = {
