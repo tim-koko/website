@@ -12,13 +12,11 @@
   },
   "scripts": {
     "init": "shx rm -rf .git && git init -b main",
-    "create": "exec-bin node_modules/.bin/hugo/hugo new",
+    "create": "hugo new",
     "prestart": "npm run clean",
-    "start": "exec-bin node_modules/.bin/hugo/hugo server --logLevel info  --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost",
-    "start:lan": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --baseURL=http://192.168.1.10 --port=1313",
+    "start": "hugo server --logLevel info  --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost",
     "prebuild": "npm run clean",
-    "build": "exec-bin node_modules/.bin/hugo/hugo --gc --minify",
-    "build:lan": "exec-bin node_modules/.bin/hugo/hugo --gc --minify --baseURL=http://192.168.1.10:8080",
+    "build": "hugo --gc --minify",
     "build:preview": "npm run build -D -F",
     "clean": "shx rm -rf public resources",
     "clean:install": "shx rm -rf package-lock.json node_modules ",
@@ -27,16 +25,15 @@
     "lint:styles": "stylelint \"assets/scss/**/*.{css,sass,scss,sss,less}\"",
     "lint:markdown": "markdownlint-cli2 \"*.md\" \"content/**/*.md\"",
     "lint:markdown-fix": "markdownlint-cli2-fix \"*.md\" \"content/**/*.md\"",
-    "server": "exec-bin node_modules/.bin/hugo/hugo server",
-    "server:no-cache": "exec-bin node_modules/.bin/hugo/hugo server --disableFastRender",
+    "server": "hugo server",
+    "server:no-cache": "hugo server --disableFastRender",
     "test": "npm run -s lint",
     "env": "env",
     "precheck": "npm version",
-    "check": "exec-bin node_modules/.bin/hugo/hugo version",
+    "check": "hugo version",
     "latest:hugo": "gh release view --repo gohugoio/hugo",
     "latest:hyas": "gh release view --repo h-enk/hyas",
     "copy:katex-fonts": "shx cp ./node_modules/katex/dist/fonts/* ./static/fonts/",
-    "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo",
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "devDependencies": {
@@ -52,7 +49,7 @@
     "eslint": "^9.39.1",
     "exec-bin": "^1.0.0",
     "globals": "^16.5.0",
-    "hugo-installer": "^4.0",
+    "hugo-extended": "^0.152.2",
     "lazysizes": "^5.3",
     "markdownlint-cli2": "^0.20.0",
     "postcss": "^8.4",
@@ -62,9 +59,6 @@
     "shx": "^0.3",
     "stylelint": "^14.3",
     "stylelint-config-standard-scss": "^6.1"
-  },
-  "otherDependencies": {
-    "hugo": "0.152.2"
   },
   "dependencies": {
     "@lottiefiles/dotlottie-web": "^0.56.0",
