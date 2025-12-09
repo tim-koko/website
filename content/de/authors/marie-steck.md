@@ -14,3 +14,4 @@ email: "marie@tim-koko.ch"
 
 ---
 
+Zwschen Strand, Busfahrten und Techno verliert Marie nie den Überblick. Sie denkt mit, sorgt für Struktur, gute Laune und funktioniert auch dann, wenn's mal chaotisch wird.
