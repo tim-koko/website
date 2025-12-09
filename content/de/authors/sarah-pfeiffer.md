@@ -37,4 +37,5 @@ Wäre sie mehrere Tage auf einer Wanderung unterwegs – und hätte am Ende Kret
 Känguru – immer was im Beutel (Plan B, Snacks, oder gleich das ganze Projekt).
 
 📦 Hidden Skill
+
 Züchtet Mikroalgen, fährt mit dem VW T3 durch Istanbul und kennt die besten Beläge für eine klimaresiliente Stadt.
