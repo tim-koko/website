@@ -4,11 +4,11 @@ description: "Platform engineering for Nexplore: Building a sustainable AKS foun
 date: 2025-12-09T00:00:00+00:00
 lastmod: 2025-12-09T00:00:00+00:00
 draft: false
-images: ["images/landing-pages/tk-giveaway-2024-1500x1000.png"]
+images: ["images/projects/tk-Ref-Nexplore-1200-600px-og.png"]
 Sitemap:
   Priority: 0.3
 client: "Nexplore AG"
-post_img: "images/landing-pages/tk-giveaway-2024-1500x1000.png"
+post_img: "images/projects/tk-Ref-Nexplore-1500-1000px.png"
 img_border: false
 lead: "Since spring 2025, tim&koko has been involved in a security-relevant platform project led by Nexplore. We provide support in close collaboration with the internal platform team, focusing on engineering, consulting, and project management, as well as establishing the operational organization and relevant operational processes."
 techStack: "Kubernetes, Azure, AKS, OpenTelemetry, Argo CD, Helm, Prometheus, Grafana"

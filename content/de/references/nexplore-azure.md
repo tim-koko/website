@@ -4,11 +4,11 @@ description: "ZPlattform-Aufbau für Nexplore: Wir unterstützen mit Kubernetes 
 date: 2025-12-09T00:00:00+00:00
 lastmod: 2025-12-09T00:00:00+00:00
 draft: false
-images: ["images/landing-pages/tk-giveaway-2024-1500x1000.png"]
+images: ["images/projects/tk-Ref-Nexplore-1200-600px-og.png"]
 Sitemap:
   Priority: 0.3
 client: "Nexplore AG"
-post_img: "images/landing-pages/tk-giveaway-2024-1500x1000.png"
+post_img: "images/projects/tk-Ref-Nexplore-1500-1000px.png"
 img_border: false
 lead: "Seit Frühjahr 2025 ist tim&koko in ein sicherheitsrelevantes Plattformprojekt involviert, das durch Nexplore verantwortet wird. Die Unterstützung erfolgt in enger Zusammenarbeit mit dem internen Plattformteam, mit Fokus auf Engineering, Beratung, Projektmanagement sowie dem Aufbau der Betriebsorganisation und relevanten Betriebsprozessen."
 techStack: "Kubernetes, Azure, AKS, OpenTelemetry, Argo CD, Helm, Prometheus, Grafana"
