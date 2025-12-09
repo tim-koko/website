@@ -37,4 +37,5 @@ Wünscht sich in jedem Weekly den Sommer zurück – selbst im Juli.
 vermutlich auf einer Reise und erklimmt einen Vulkan, stapft durch den Amazonas oder sagt unter dem Meeresspiegel bunten Fischen Guten Tag.
 
 🐶 Spirit Animal
+
 Blattschneiderameise – Trägt zuverlässig Daten von A nach B, arbeitet perfekt im Team und baut unglaublich effiziente Datenpipelines und Infrastrukturen.
