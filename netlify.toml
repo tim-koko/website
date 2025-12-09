@@ -43,6 +43,12 @@
   force = true
 [[redirects]]
 # redirect old blog post to new one
+  from = "/references/"
+  to = "/referenzen/"
+  status = 301
+  force = true
+[[redirects]]
+# redirect old blog post to new one
   from = "/references/baloise-distributed-tracing-opentelemetry/*"
   to = "/referenzen/baloise-distributed-tracing-plattform-poc-auf-basis-von-opentelemetry-und-grafana-tempo/"
   status = 301
