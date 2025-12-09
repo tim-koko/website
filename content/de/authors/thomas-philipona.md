@@ -18,7 +18,7 @@ Thomas (Spitzname Thömu) kam 2015 erstmals mit Containern und Kubernetes in Ber
 
 Er hat zahlreiche Vorträge gehalten, unter anderem als Speaker bei den DevOpsDays, der KCD München und verschiedenen Schweizer Meetups.
 
-**Steckbrief**
+#### Steckbrief
 
 Unser Founder & Chief Fübi Quality Manager – kurz: den Mann, der Multitasking neu definiert.
 
@@ -41,4 +41,3 @@ Container sind wie Pflanzen: regelmässig giessen, sonst sterben sie.
 🐶 Spirit Animal
 
 Faultier am Montag, Nashorn ab Dienstag – langsamer Start, aber danach mit dem Kopf durch die Wand.
-
