@@ -26,21 +26,17 @@ Unser Founder & Chief Fübi Quality Manager – kurz: den Mann, der Multitasking
 
 Kümmert sich um drei Dinge gleichzeitig, ohne den Überblick zu verlieren – Chaos ist bei Thömu einfach gut organisiert.
 
-
 📖 Gebrauchsanweisung
 
 Täglich mindestens 4 Tassen Kaffee zuführen. Alternativ funktioniert auch Bier.
-
 
 🤔 Wenn nicht hier, dann …
 
 Wäre er vermutlich Gitarren-Rockstar.
 
-
 🎓 Life Hack
 
 Container sind wie Pflanzen: regelmässig giessen, sonst sterben sie.
-
 
 🐶 Spirit Animal
 
