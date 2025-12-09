@@ -16,18 +16,24 @@ email: "christof@tim-koko.ch"
 
 Er reist und entdeckt gerne Neues. Ob per Frachtschiff durch den Amazonas, zu Fuss auf ausbrechende Vulkane, mit Tauchflaschen unter dem Meeresspiegel oder mit neuen Technologien durch die Cloud-native Landschaft - er fühlt sich überall zu Hause.
 
+**Steckbrief**
+
 Chrigu ist unser Kafka Wizard und Cloud Architekt:
 
 🦸‍♂️ Superpower
+
 Team-Flüsterer – Kennt die richtige Balance zwischen motivieren, pushen und einfach zuhören.
 
 ☕ Lieblings-Treibstoff
+
 Kaffee, Mate – Hauptsache das Koffein knallt im Kopf und hält die Synapsen im Dauer-Sprint.
 
 💡 Fun Fact
+
 Wünscht sich in jedem Weekly den Sommer zurück – selbst im Juli.
 
 🤔 Wenn nicht hier, dann …
+
 vermutlich auf einer Reise und erklimmt einen Vulkan, stapft durch den Amazonas oder sagt unter dem Meeresspiegel bunten Fischen Guten Tag.
 
 🐶 Spirit Animal
