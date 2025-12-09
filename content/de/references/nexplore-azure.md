@@ -1,6 +1,6 @@
 ---
 title: "Nexplore – Aufbau und Etablierung einer Azure Kubernetes-Plattform"
-description: "ZPlattform-Aufbau für Nexplore: Wir unterstützen mit Kubernetes Engineering (AKS), Observability & Betriebsorganisation. Nachhaltige Strukturen für die Zukunft."
+description: "Plattform-Aufbau für Nexplore: Wir unterstützen mit Kubernetes Engineering (AKS), Observability & Betriebsorganisation. Nachhaltige Strukturen für die Zukunft."
 date: 2025-12-09T00:00:00+00:00
 lastmod: 2025-12-09T00:00:00+00:00
 draft: false
