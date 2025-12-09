@@ -16,7 +16,7 @@ email: "christof@tim-koko.ch"
 
 Er reist und entdeckt gerne Neues. Ob per Frachtschiff durch den Amazonas, zu Fuss auf ausbrechende Vulkane, mit Tauchflaschen unter dem Meeresspiegel oder mit neuen Technologien durch die Cloud-native Landschaft - er fühlt sich überall zu Hause.
 
-**Steckbrief**
+#### Steckbrief
 
 Chrigu ist unser Kafka Wizard und Cloud Architekt:
 
