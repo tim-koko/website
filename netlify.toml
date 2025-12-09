@@ -35,6 +35,37 @@
   status = 301
   force = true
 
+[[redirects]]
+# redirect old blog post to new one
+  from = "/references/centris/*"
+  to = "/referenzen/centris-kafka-storage-migration/"
+  status = 301
+  force = true
+[[redirects]]
+# redirect old blog post to new one
+  from = "/references/baloise-distributed-tracing-opentelemetry/*"
+  to = "/referenzen/baloise-distributed-tracing-plattform-poc-auf-basis-von-opentelemetry-und-grafana-tempo/"
+  status = 301
+  force = true
+[[redirects]]
+# redirect old blog post to new one
+  from = "/references/prometheus-application-monitoring-finance-sector/*"
+  to = "/referenzen/marktdaten-monitoring-neu-gedacht-mit-prometheus-zu-mehr-betriebssicherheit-und-tieferen-kosten-bei-schweizer-bank/"
+  status = 301
+  force = true
+[[redirects]]
+# redirect old blog post to new one
+  from = "/references/adcubum/*"
+  to = "/referenzen/adcubum-syrius-auf-dem-weg-in-die-cloud/"
+  status = 301
+  force = true
+[[redirects]]
+# redirect old blog post to new one
+  from = "/references/rhaetische-bahn/*"
+  to = "/referenzen/rhätische-bahn-cloud-native-bahnbetrieb-mit-openshift/"
+  status = 301
+  force = true
+
 [dev]
   framework = "#custom"
   command = "npm run start"
