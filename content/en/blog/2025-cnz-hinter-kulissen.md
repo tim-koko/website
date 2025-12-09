@@ -49,4 +49,4 @@ Yes, it’s a lot of work. And yes, sometimes it’s a little chaotic. But what 
 We’re proud to be part of this journey – and we’re already looking forward to the next CNZ!
 
 And the best part: Tickets for the [Cloud Native Day 2026](https://cloudnativezurich.ch/) are already available.
-Secure your spot now and join us again next year – click [here](https://tickets.cloudnativezurich.ch/) to get your tickets.
+Secure your spot now and join us again next year – visit [tickets.cloudnativezurich.ch](https://tickets.cloudnativezurich.ch/) to get your tickets.

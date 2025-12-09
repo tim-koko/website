@@ -33,7 +33,7 @@ Our team day every Thursday is especially important: we always make time to eat 
 
 tim&koko has grown out of the early startup phase, having learned what works and what doesn’t – but it's still far from being a rigid, traditional company. Processes are questioned, new ideas are welcome, and critical thinking is encouraged.
 What I appreciate most: tim&koko isn’t just generous – the company truly cares about the well-being of every team member.
-If you’re eager to become part of our team, you’re in luck! We’re currently looking for someone who’s excited to work on exciting projects with Kubernetes, container technologies, CI/CD, messaging, and more. You can find the job posting [here](https://tim-koko.ch/en/jobs/).
+If you’re eager to become part of our team, you’re in luck! We’re currently looking for someone who’s excited to work on exciting projects with Kubernetes, container technologies, CI/CD, messaging, and more. You can find the job posting [on this site](https://tim-koko.ch/en/jobs/).
 
 ### Mein Fazit
 
