@@ -14,3 +14,28 @@ email: "marie@tim-koko.ch"
 
 ---
 
+Zwschen Strand, Busfahrten und Techno verliert Marie nie den Überblick. Sie denkt mit, sorgt für Struktur, gute Laune und funktioniert auch dann, wenn's mal chaotisch wird.
+
+#### Steckbrief
+
+Unsere Chief of Everything Everywhere All at Once – kurz: Marie.
+
+🦸‍♂️ Superpower
+
+Begleicht Rechnungen, organisiert Events und schreibt Linkedin Posts am Strand oder während einer 15h Busfahrt
+
+🤔 Wenn nicht hier, dann …
+
+Auf einem Techno-Festival mit Dauerkarte und Zeltplatz-Abo.
+
+📖 Gebrauchsanweisung
+
+Ist bestechlich mit Schokolade
+
+🐶 Spirit Animal
+
+Eichhörnchen – sammelt Aufgaben wie Nüsse und weiss trotzdem, wo sie alle versteckt sind.
+
+🎓 Life Hack
+
+„Ctrl + Z“ rettet mehr Leben als man denkt.
