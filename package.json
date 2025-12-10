@@ -44,7 +44,7 @@
     "@popperjs/core": "^2.11",
     "auto-changelog": "^2.4",
     "autoprefixer": "^10.4",
-    "bootstrap": "^5.1",
+    "bootstrap": "^5.3",
     "eslint": "^9.39.1",
     "globals": "^16.5.0",
     "hugo-extended": "^0.152.2",
