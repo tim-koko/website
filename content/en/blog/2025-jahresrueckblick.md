@@ -5,7 +5,7 @@ description: "Our review of the year 2025."
 date: 2025-12-17T00:00:00+00:00
 lastmod: 2025-12-17T00:00:00+00:00
 draft: false
-images: ["images/rueckblick/tk-blogpost-2025-rueckblick-1200x630.png"]
+images: ["images/blog/rueckblick/tk-blogpost-2025-rueckblick-1200x630.png"]
 Sitemap:
   Priority: 0.92
 
