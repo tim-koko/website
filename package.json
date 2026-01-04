@@ -59,7 +59,7 @@
     "stylelint-config-standard-scss": "^6.1"
   },
   "dependencies": {
-    "@lottiefiles/dotlottie-web": "^0.58.1",
+    "@lottiefiles/dotlottie-web": "^0.60.0",
     "@swup/body-class-plugin": "^3.3.0",
     "@swup/debug-plugin": "^4.1.0",
     "@swup/head-plugin": "^2.3.1",
