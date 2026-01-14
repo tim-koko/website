@@ -38,7 +38,7 @@
   "devDependencies": {
     "@babel/cli": "^7.17",
     "@babel/core": "^7.28",
-    "@babel/preset-env": "^7.16",
+    "@babel/preset-env": "^7.28",
     "@fullhuman/postcss-purgecss": "^7.0",
     "@thulite/images": "^3.3.3",
     "@popperjs/core": "^2.11",
