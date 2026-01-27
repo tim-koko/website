@@ -2,8 +2,8 @@
 title: "What is KubeVirt? Run Virtual Machines on Kubernetes like containers"
 slug: "kubevirt-whatis"
 description: ""
-date: 2025-10-06T00:00:00+00:00
-lastmod: 2025-10-06T00:00:00+00:00
+date: 2026-01-26T00:00:00+00:00
+lastmod: 2026-01-26T00:00:00+00:00
 draft: false
 images: ["images/blog/kubevirt/tk-blogpost-kubevirt_share-image.jpg"]
 img_border: true
