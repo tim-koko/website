@@ -39,7 +39,7 @@
     "@babel/cli": "^7.28",
     "@babel/core": "^7.28",
     "@babel/preset-env": "^7.28",
-    "@fullhuman/postcss-purgecss": "^7.0",
+    "@fullhuman/postcss-purgecss": "^8.0",
     "@thulite/images": "^3.3.3",
     "@popperjs/core": "^2.11",
     "auto-changelog": "^2.4",
