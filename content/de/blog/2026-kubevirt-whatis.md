@@ -42,7 +42,7 @@ Bei KubeVirt geht es nicht darum, virtuelle Maschinen zu ersetzen – sondern da
 {{< csvtable "responsive" "," >}}
 KubeVirt Ressource / Tool,Beschreibung,Kubernetes Analogie
 VirtualMachine (VM),Definiert die Konfiguration und den Lebenszyklus einer virtuellen Maschine,Deployment
-VirtualMachineInstance (VMI),Eine laufende Instanz einer virtuellen Maschine; wird erstellt, wenn eine VirtualMachine gestartet wird,Pod
+VirtualMachineInstance (VMI),Eine laufende Instanz einer virtuellen Maschine; wird erstellt wenn eine VirtualMachine gestartet wird,Pod
 VirtualMachineInstanceReplicaSet (VMIRS),Stellt eine gewünschte Anzahl von VM-Instanzen sicher (ähnlich wie beim Skalieren eines zustandslosen VM-Workloads),ReplicaSet
 DataVolume (DV),Verwaltet Festplatten-Images – unterstützt durch den Containerized Data Importer (CDI),PersistentVolumeClaim
 PersistentVolumeClaim (PVC),Fordert Speicherplatz für VM-Festplatten an (Block- oder File),PersistentVolumeClaim
