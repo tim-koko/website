@@ -40,7 +40,7 @@
     "@babel/core": "^7.28",
     "@babel/preset-env": "^7.28",
     "@fullhuman/postcss-purgecss": "^8.0",
-    "@thulite/images": "^3.3.3",
+    "@thulite/images": "^3.3.4",
     "@popperjs/core": "^2.11",
     "auto-changelog": "^2.4",
     "autoprefixer": "^10.4",
