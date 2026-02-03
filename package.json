@@ -47,7 +47,7 @@
     "bootstrap": "^5.3",
     "eslint": "^9.39.2",
     "globals": "^17.3.0",
-    "hugo-extended": "^0.155.1",
+    "hugo-extended": "^0.155.2",
     "lazysizes": "^5.3",
     "markdownlint-cli2": "^0.20.0",
     "postcss": "^8.4",
