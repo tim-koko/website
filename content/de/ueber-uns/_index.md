@@ -17,6 +17,11 @@ about:
   title: "Wir sind tim&koko"
   text: "<p>Unser Team vereint Expertise, Offenheit und den Mut, neue Wege zu gehen. Wir bauen Brücken zwischen moderner Technologie und den Menschen, die sie nutzen. Wir packen an, probieren aus, denken weiter – und bringen Unternehmen damit auf das nächste Level.</p>"
   persons:
+    - name: "Miriam Streit"
+      title: "Platform Engineer"
+      img: "images/team/temp.jpg"
+      linkedin: "https://www.linkedin.com/in/miriam-streit/"
+      github: "https://github.com/miriamstreit"
     - name: "Marie Steck"
       title: "Project Manager"
       img: "images/team/marie.jpg"
