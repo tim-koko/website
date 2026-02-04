@@ -18,7 +18,7 @@ Sarah ist abenteuerlustig, neugierig und offen für Neues, bricht gerne aus der 
 
 #### Steckbrief
 
-Usere Project Managerin & Certified Task Masterin – auch ohne Feldstecher behält sie jedes noch so kleine To-do im Blick.
+Unsere Project Managerin & Certified Task Masterin – auch ohne Feldstecher behält sie jedes noch so kleine To-do im Blick.
 
 🦸‍♂️ Superpower
 
