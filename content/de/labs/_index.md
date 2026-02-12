@@ -13,6 +13,8 @@ form:
   LabelNachricht: "Gibt es noch etwas, das wir wissen müssen?"
 formSelect:
   dates: #null
+  - option: "23. April 2026, 13:30 - 16:30 Uhr"
+    value: "2026-04-23"
   - option: "bei zusätzlichen Terminen informieren."
     value: "weitere-daten"
 noLabsText: "Momentan sind keine weiteren Durchführungen geplant. Melde dich für unseren Newsletter an, um keine News zu verpassen!"
@@ -52,7 +54,9 @@ begleiten dich Schritt für Schritt, sodass du die wichtigsten Konzepte und Funk
 
 ### Termine
 
-* Zur Zeit gibt es keine Termine
+* 23\. April 2026, 13:30 - 16:30 Uhr Labs, ab 16:30 Uhr Apéro bei Puzzle ICT
+
+<!-- * Zur Zeit gibt es keine Termine -->
 
 &nbsp;
 

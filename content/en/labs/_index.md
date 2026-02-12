@@ -13,7 +13,9 @@ form:
   LabelNachricht: "Something we should know?"
 formSelect:
   dates: #null
-  - option: "bei zusätzlichen Terminen informieren."
+  - option: "April 23, 2026, 13:30 - 16:30"
+    value: "2026-04-23"
+  - option: "notify me about additional dates"
     value: "weitere-daten"
 noLabsText: "Currently there are no upcoming labs. Subscribe to our newsletter to stay in the loop!"
 images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]
@@ -49,7 +51,9 @@ In this half-day lab, you'll first receive a theoretical introduction to the fun
 
 ### Dates
 
-* There are currently no dates available
+* April 23, 2026, 13:30 - 16:30 Labs, Apéro at Puzzle ICT from 16:30
+
+<!-- * There are currently no dates available -->
 
 &nbsp;
 
