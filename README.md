@@ -5,13 +5,13 @@
 Install nvm and use it to deploy node: <https://github.com/nvm-sh/nvm>
 
 ```bash
-nvm install 22
+nvm install 24
 ```
 
 ## Install dependencies
 
 ```bash
-nvm  use 22
+nvm  use 24
 npm ci
 ```
 

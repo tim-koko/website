@@ -1,5 +1,7 @@
+@use "sass:map";
 /** Import Bootstrap functions */
 @import "bootstrap/scss/functions";
+
 
 // Color system
 
@@ -69,7 +71,7 @@ $spacers: (
 
 /* stylelint-disable */
 @for $i from 1 through 80 {
-  $spacers: map-merge(  
+  $spacers: map.merge(
   $spacers,
   (
     $i: ($i * 0.4rem)
