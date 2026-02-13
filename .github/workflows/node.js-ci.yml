@@ -26,6 +26,9 @@ jobs:
 
     - name: Install dependencies
       run: npm ci
+    
+    - name: Make sass-embedded executable
+      run: chmod +x node_modules/sass-embedded-*/dart-sass-embedded/*
 
     - name: Run Website test script
       run: npm test
