@@ -26,6 +26,8 @@
           "content",
           "return",
           "function",
+          "use",
+          "forward",
           "tailwind",
           "apply",
           "responsive",
