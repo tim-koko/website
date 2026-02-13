@@ -32,5 +32,3 @@ jobs:
 
     - name: Build production website
       run: npm run build
-      env:
-        PATH: ${{ github.workspace }}/node_modules/.bin:${{ env.PATH }}
