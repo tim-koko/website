@@ -13,8 +13,6 @@ form:
   LabelNachricht: "Gibt es noch etwas, das wir wissen müssen?"
 formSelect:
   dates: #null
-  - option: "23. April 2026, 13:30 - 16:30 Uhr"
-    value: "2026-04-23"
   - option: "bei zusätzlichen Terminen informieren."
     value: "weitere-daten"
 noLabsText: "Momentan sind keine weiteren Durchführungen geplant. Melde dich für unseren Newsletter an, um keine News zu verpassen!"
@@ -54,7 +52,7 @@ begleiten dich Schritt für Schritt, sodass du die wichtigsten Konzepte und Funk
 
 ### Termine
 
-* 23\. April 2026, 13:30 - 16:30 Uhr Labs, ab 16:30 Uhr Apéro bei Puzzle ICT
+* 23\. April 2026, 13:15 - 16:30 Uhr Labs, ab 16:30 Uhr Apéro bei Puzzle ICT. [Melde dich hier an!](https://www.puzzle.ch/events/techlabs-zu-backstage-openshift-virtualization-und-softwareentwicklung-mit-ki)
 
 <!-- * Zur Zeit gibt es keine Termine -->
 
@@ -76,4 +74,4 @@ Nutze die Gelegenheit, um OpenShift Virtualization live zu erleben und dein Wiss
 
 ### Anmeldung
 
-Fülle das Anmeldeformular aus, um dich für einen der beiden Workshop-Termine anzumelden.
+Fülle das Anmeldeformular aus, um dich für einen der Workshop-Termine anzumelden.
