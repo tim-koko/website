@@ -5,7 +5,7 @@ description: ""
 date: 2026-02-17T00:00:00+00:00
 lastmod: 2026-02-17T00:00:00+00:00
 draft: false
-images: ["images/blog/acned/tk-blogpost-acend-uebernahme-1200x630.png"]
+images: ["images/blog/acend/tk-blogpost-acend-uebernahme-1200x630.png"]
 img_border: false
 Sitemap:
 Priority: 0.9
