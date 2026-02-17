@@ -36,6 +36,7 @@ Das macht acend zu einem zentralen Baustein unserer langfristigen Vision.
 ### Was ändert sich bei acend?
 
 Inhaltlich bleibt vieles gleich und wird sogar erweitert:
+
 * Die bestehenden Technologien und Trainings bleiben erhalten.
 * Seit Anfang Jahr wurde das Portfolio um das neue Training „Softwareentwicklung mit KI“ ergänzt.
 * Trainings können weiterhin von Einzelpersonen und Firmen gebucht werden.
@@ -60,6 +61,7 @@ Weitere Infos: [https://cloudnativezurich.ch/workshops/](https://cloudnativezuri
 ### Wie geht es weiter?
 
 Am 23. April 2026 planen wir zudem einen [Tech Lab Day](https://www.puzzle.ch/events/techlabs-zu-backstage-openshift-virtualization-und-softwareentwicklung-mit-ki), bei dem sich Interessierte zwischen folgenden Labs entscheiden können:
+
 * OpenShift Virtualization
 * Backstage
 * Softwareentwicklung mit KI Lab (neu)

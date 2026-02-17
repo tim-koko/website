@@ -37,6 +37,7 @@ This makes acend a central building block of our long-term vision.
 ### What is changing at acend?
 
 In terms of content, much remains the same and is even being expanded:
+
 * Existing technologies and trainings remain.
 * Since the beginning of the year, the portfolio has been expanded with the new training “Software Development with AI.”
 * Trainings can still be booked by individuals and companies.
@@ -60,9 +61,10 @@ More info: [https://cloudnativezurich.ch/workshops/](https://cloudnativezurich.c
 ### What’s next?
 
 On April 23, 2026, we are also planning a [Tech Lab Day](https://www.puzzle.ch/events/techlabs-zu-backstage-openshift-virtualization-und-softwareentwicklung-mit-ki), where participants can choose between the following labs:
+
 * OpenShift Virtualization
 * Backstage
 * Software Development with AI Lab (new)
-* 
+
 We are also looking forward to running the [workshops](https://cloudnativezurich.ch/workshops/) at the Cloud Native Day.
 **acend is and remains a place for exchange, learning, and inspiration.**
