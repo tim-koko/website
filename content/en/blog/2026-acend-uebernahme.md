@@ -6,7 +6,7 @@ date: 2026-02-17T00:00:00+00:00
 lastmod: 2026-02-17T00:00:00+00:00
 draft: false
 images: ["images/blog/acned/tk-blogpost-acend-uebernahme-1200x630.png"]
-img_border: true
+img_border: false
 Sitemap:
 Priority: 0.9
 
@@ -15,7 +15,6 @@ additionalblogposts: [ 'kubevirt-introduction', '2025-jahresrueckblick', 'cnz-hi
 categories: ["Technology", "Behind the Scenes", "tim&koko"]
 authors: ['marie-steck']
 post_img: "images/blog/acend/tk-blogpost-acend-uebernahme-1500x1000.png"
-img_border: true
 lead: "It has been known since last year that acend is now part of tim&koko and [Puzzle](www.puzzle.ch) ist. acend GmbH is owned 50% by each of the two companies. This acquisition allows the existing acend brand to continue and ideally complements the portfolio of tim&koko and Puzzle.
 With acend, we are expanding our offering with a strong focus on hands-on IT training and creating a continuous chain from consulting to engineering and through to training."
 ---
