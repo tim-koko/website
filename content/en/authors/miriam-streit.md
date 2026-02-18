@@ -6,7 +6,7 @@ draft: false
 date: 2025-02-01T00:00:00+00:00
 lastmod: 2025-02-01T00:00:00+00:00
 tk_teammamber: true
-image: "/images/team/temp.jpg"
+image: "/images/team/miriam.jpg"
 designation: "Platform Engineer"
 linkedin: "https://www.linkedin.com/in/miriam-streit/"
 github: "https://github.com/miriamstreit"
