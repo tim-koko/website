@@ -19,7 +19,7 @@ about:
   persons:
     - name: "Miriam Streit"
       title: "Platform Engineer"
-      img: "images/team/temp.jpg"
+      img: "images/team/miriam.jpg"
       linkedin: "https://www.linkedin.com/in/miriam-streit/"
       github: "https://github.com/miriamstreit"
     - name: "Marie Steck"
