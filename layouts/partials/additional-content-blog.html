@@ -15,7 +15,9 @@
       {{ end }}
   </div>
       <h6 class="h4 mb-4">{{ .Title }}</h6>
-      <a href="{{ .RelPermalink }}" class="stretched-link me-auto small">{{ i18n "readMore" }}
-      <div class="icon-draw line"><svg xmlns="http://www.w3.org/2000/svg" width="84" height="10" viewBox="0 0 91.45565 10.81185"><path vector-effect="non-scaling-stroke" d="M1.41188,3.81092c30.82411-1.61772,52.39289,5.57187,86.64564,1.56359" fill="none" fill-rule="evenodd" stroke="#99e0bb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg></div>
+      <a href="{{ .RelPermalink }}" class="line stretched-link me-auto small">{{ i18n "readMore" }}
+      {{/* We don't do a drawn line anymore
+        <div class="icon-draw line"><svg xmlns="http://www.w3.org/2000/svg" width="84" height="10" viewBox="0 0 91.45565 10.81185"><path vector-effect="non-scaling-stroke" d="M1.41188,3.81092c30.82411-1.61772,52.39289,5.57187,86.64564,1.56359" fill="none" fill-rule="evenodd" stroke="#99e0bb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg></div> 
+        */}}
       </a>
 </div>
