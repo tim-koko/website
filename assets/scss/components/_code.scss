@@ -12,14 +12,14 @@ pre {
   line-height: $line-height-base;
   margin: 1.5rem 0;
   overflow: auto;
-  padding: 1.5rem 1.5rem;
+  padding: 1.5rem;
   tab-size: 4;
 }
 
 code {
   background: $blue-lighter;
   color: $gray-lighter;
-  padding: 0.5rem  0.5rem  0.25rem  0.5rem;
+  padding: 0.5rem 0.5rem 0.25rem;
 }
 
 pre code {

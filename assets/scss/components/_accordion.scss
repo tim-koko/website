@@ -5,11 +5,9 @@
   --bs-accordion-active-bg: transparent;
   --bs-accordion-border-color: #{$white};
   --bs-accordion-btn-color: #{$white};
-
   --bs-accordion-btn-padding-x: 1.6rem;
   --bs-accordion-btn-padding-y: 1.6rem;
   --bs-accordion-body-padding-x: 1.6rem;
-
 
   @include media-breakpoint-up(sm) {
     --bs-accordion-btn-padding-x: 2rem;
@@ -50,9 +48,9 @@
 
     &::before,
     &::after {
-      content: '';
+      content: "";
       position: absolute;
-      background-color: currentColor;
+      background-color: currentcolor;
       border-radius: 2px;
       transition: transform 0.25s ease, opacity 0.25s ease;
     }

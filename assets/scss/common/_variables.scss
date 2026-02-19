@@ -8,15 +8,17 @@ $green: #99e0bb;
 $white: #fff;
 $black: #333;
 
-$blue-lighter: #3A425A;
-$blue-lighter2: #6C7284;
-$blue-lighter3: #B5B8C1;
-$blue-lighter4: #E6E7EA;
+// Blue lighter shades
+$blue-lighter: #3a425a;
+$blue-lighter2: #6c7284;
+$blue-lighter3: #b5b8c1;
+$blue-lighter4: #e6e7ea;
 
-$green-darker: #89A395;
-$green-dark: #92C6AB;
-$green-light: #C8EEDA;
-$green-lighter: #E3F7ED;
+// Green shades
+$green-darker: #89a395;
+$green-dark: #92c6ab;
+$green-light: #c8eeda;
+$green-lighter: #e3f7ed;
 
 // additional colors
 $gray-darker: #586069;
@@ -26,16 +28,18 @@ $gray-200: #f6f8fa;
 $gray-light: #fafbfc;
 $gray-lighter: #f8f8f2;
 
+// Theme colors
 $primary: $blue;
 $secondary: $green;
 
-
+// Syntax highlighting
 $literal-string: $green-darker;
 $variable-name: $green-dark;
 $nametag: $green;
 $numbers: $green-dark;
 $operator: $green;
 $comment: $blue-lighter3;
+
 // Options
 //
 // Quickly modify global styling by enabling or disabling optional features.
