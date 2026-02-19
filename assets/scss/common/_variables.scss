@@ -2,20 +2,40 @@
 @import "bootstrap/scss/functions";
 
 // Color system
-
+// TK Colors
 $blue: #0a1432;
 $green: #99e0bb;
 $white: #fff;
 $black: #333;
+
+$blue-lighter: #3A425A;
+$blue-lighter2: #6C7284;
+$blue-lighter3: #B5B8C1;
+$blue-lighter4: #E6E7EA;
+
+$green-darker: #89A395;
+$green-dark: #92C6AB;
+$green-light: #C8EEDA;
+$green-lighter: #E3F7ED;
+
+// additional colors
 $gray-darker: #586069;
 $gray-dark: #6a737d;
 $gray: #dfe2e5;
 $gray-200: #f6f8fa;
 $gray-light: #fafbfc;
-$blue-dark: #038;
+$gray-lighter: #f8f8f2;
+
 $primary: $blue;
 $secondary: $green;
 
+
+$literal-string: $green-darker;
+$variable-name: $green-dark;
+$nametag: $green;
+$numbers: $green-dark;
+$operator: $green;
+$comment: $blue-lighter3;
 // Options
 //
 // Quickly modify global styling by enabling or disabling optional features.

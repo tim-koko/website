@@ -299,3 +299,12 @@ pre {
     position: absolute;
   }
 }
+
+
+.bg-primary {
+  background-color: $blue;
+}
+
+.bg-primarylight {
+  background: $blue-lighter;
+}
