@@ -1,5 +1,6 @@
 ---
 title: "Nexplore – Building and Establishing a Kubernetes Platform on Azure"
+slug: "nexplore-aufbau-und-etablierung-einer-azure-kubernetes-plattform"
 description: "Platform engineering for Nexplore: Building a sustainable AKS foundation. We support with Kubernetes, Observability & operational processes. Read the case!"
 date: 2025-12-09T00:00:00+00:00
 lastmod: 2025-12-09T00:00:00+00:00

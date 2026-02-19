@@ -2,19 +2,43 @@
 @import "bootstrap/scss/functions";
 
 // Color system
-
+// TK Colors
 $blue: #0a1432;
 $green: #99e0bb;
 $white: #fff;
 $black: #333;
+
+// Blue lighter shades
+$blue-lighter: #3a425a;
+$blue-lighter2: #6c7284;
+$blue-lighter3: #b5b8c1;
+$blue-lighter4: #e6e7ea;
+
+// Green shades
+$green-darker: #89a395;
+$green-dark: #92c6ab;
+$green-light: #c8eeda;
+$green-lighter: #e3f7ed;
+
+// additional colors
 $gray-darker: #586069;
 $gray-dark: #6a737d;
 $gray: #dfe2e5;
 $gray-200: #f6f8fa;
 $gray-light: #fafbfc;
-$blue-dark: #038;
+$gray-lighter: #f8f8f2;
+
+// Theme colors
 $primary: $blue;
 $secondary: $green;
+
+// Syntax highlighting
+$literal-string: $green-darker;
+$variable-name: $green-dark;
+$nametag: $green;
+$numbers: $green-dark;
+$operator: $green;
+$comment: $blue-lighter3;
 
 // Options
 //

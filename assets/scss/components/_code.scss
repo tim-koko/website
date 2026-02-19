@@ -3,23 +3,23 @@ code,
 kbd,
 samp {
   font-family: $font-family-monospace;
-  font-size: $font-size-sm;
+  font-size: $font-size-xl;
 }
 
 pre {
-  background: $gray-200;
-  color: $gray-900;
-  line-height: $line-height-lg;
+  background: $blue-lighter;
+  color: $gray-lighter;
+  line-height: $line-height-base;
   margin: 1.5rem 0;
   overflow: auto;
-  padding: 1.1rem 1.5rem;
+  padding: 1.5rem;
   tab-size: 4;
 }
 
 code {
-  background: $gray-200;
-  color: $gray-900;
-  padding: 0.25rem 0.5rem;
+  background: $blue-lighter;
+  color: $gray-lighter;
+  padding: 0.5rem 0.5rem 0.25rem;
 }
 
 pre code {

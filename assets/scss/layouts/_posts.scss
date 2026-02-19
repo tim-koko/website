@@ -16,3 +16,16 @@
     width: 5rem;
   }
 }
+
+.infobox-content {
+  li {
+    line-height: 1.7;
+  }
+}
+
+.infobox-content ul {
+  @include media-breakpoint-up(md) {
+    column-count: 2;
+    column-gap: 4rem;
+  }
+}

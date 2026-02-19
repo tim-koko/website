@@ -257,17 +257,6 @@ small,
   opacity: 0.5;
 }
 
-pre {
-  background: #cde9d9;
-  color: var(--bs-primary);
-  padding: 2rem 2rem 1rem;
-
-  @include media-breakpoint-up(lg) {
-    padding: 5rem 4rem 3rem;
-    margin: 4rem 4rem 8rem;
-  }
-}
-
 .contain {
   object-fit: contain;
   width: 100%;
@@ -297,5 +286,23 @@ pre {
 @include media-breakpoint-up(lg) {
   .position-lg-absolute {
     position: absolute;
+  }
+}
+
+.bg-primary {
+  background-color: $blue;
+}
+
+.bg-primarylight {
+  background: $blue-lighter;
+}
+
+.blockquote {
+  font-size: 1.9rem;
+  line-height: 1.157;
+
+  @include media-breakpoint-up(md) {
+    font-size: 3.6rem;
+    line-height: 1.277;
   }
 }

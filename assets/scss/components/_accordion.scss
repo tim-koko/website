@@ -1,0 +1,91 @@
+.accordion {
+  --bs-accordion-color: #{$white};
+  --bs-accordion-bg: transparent;
+  --bs-accordion-active-color: #{$white};
+  --bs-accordion-active-bg: transparent;
+  --bs-accordion-border-color: #{$white};
+  --bs-accordion-btn-color: #{$white};
+  --bs-accordion-btn-padding-x: 1.6rem;
+  --bs-accordion-btn-padding-y: 1.6rem;
+  --bs-accordion-body-padding-x: 1.6rem;
+
+  @include media-breakpoint-up(sm) {
+    --bs-accordion-btn-padding-x: 2rem;
+    --bs-accordion-btn-padding-y: 2.2rem;
+    --bs-accordion-body-padding-x: 2rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    --bs-accordion-btn-padding-y: 2.8rem;
+    --bs-accordion-body-padding-y: 0;
+  }
+
+  font-size: inherit;
+}
+
+.accordion-header {
+  margin: 0;
+  padding: 0;
+}
+
+.accordion-button {
+  font-size: 2rem;
+  box-shadow: none !important;
+
+  @include media-breakpoint-up(lg) {
+    font-size: 2.2rem;
+  }
+
+  &::after {
+    content: none;
+  }
+
+  .icon-plus {
+    position: relative;
+    width: 1.4rem;
+    height: 1.4rem;
+    flex-shrink: 0;
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      background-color: currentcolor;
+      border-radius: 2px;
+      transition: transform 0.25s ease, opacity 0.25s ease;
+    }
+
+    // horizontal bar
+    &::before {
+      width: 100%;
+      height: 2px;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+    }
+
+    // vertical bar
+    &::after {
+      width: 2px;
+      height: 100%;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  &:not(.collapsed) .icon-plus::after {
+    transform: translateX(-50%) rotate(90deg);
+    opacity: 0;
+  }
+
+  .title {
+    transition: transform 0.3s ease;
+  }
+
+  &[aria-expanded="false"]:hover {
+    .title {
+      transform: translateX(1rem);
+    }
+  }
+}

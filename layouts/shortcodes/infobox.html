@@ -1,0 +1,22 @@
+
+<div class="{{ if eq (.Get "size") "narrow" }}col-lg-10 offset-lg-1{{ end }} mb-8 mb-lg-16">
+  <div class="bg-primarylight py-6 py-lg-12">
+      <div data-scroll class="infobox-content {{ if eq (.Get "size") "wide" }}px-4 px-lg-0 col-lg-8 offset-lg-2{{ else }}px-4 px-lg-20 px-xl-24{{ end }}">
+        {{ if .Get "title" }}
+        <h3 class="h2 mb-4 mb-lg-6 d-flex align-items-center gap-4 gap-lg-6">
+          {{ if .Get "title_icon" }}
+              {{ .Get "title_icon" | safeHTML  }}
+          {{ end }}
+          {{ .Get "title" }}</h3>
+        {{ end }}
+        <div class="mb-lg-6">
+          {{ .Inner | markdownify}}
+        </div>
+        {{ with .Get "text" }}
+        <div class="mb-lg-6">
+          {{ . | markdownify }}
+        </div>
+        {{ end }}
+      </div>
+  </div>
+</div>

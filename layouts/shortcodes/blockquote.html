@@ -1,0 +1,10 @@
+  <div class="blockquote mb-6 mb-lg-6">
+    {{ if .Get "quote" }}
+    «{{ .Get "quote" }}»
+    {{ end }}
+    {{ .Inner | markdownify}}
+  </div>
+  <div class="">
+    <div class="bold">{{ .Get "name" }}</div> 
+    {{ .Get "function" }}
+  </div>
