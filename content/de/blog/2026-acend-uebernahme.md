@@ -31,6 +31,7 @@ acend ist in der Cloud Community längst ein Begriff. Über die Jahre wurden unz
 Inhalte, Slides, Lab-Setups, Übungen und didaktische Konzepte.
 Durch die Übernahme können wir dieses wertvolle Wissen nun direkt unseren Kund:innen zugänglich machen und unser bestehendes Angebot perfekt ergänzen.
 
+
 Gemeinsam bieten wir neu alles aus einer Hand: 
 **Consulting → Engineering → Enablement & Training**
 Das macht acend zu einem zentralen Baustein unserer langfristigen Vision.
@@ -50,6 +51,7 @@ Die grösste Veränderung findet im Hintergrund statt: Entscheidungen werden neu
 
 In einem ersten Schritt wurden die laufenden Kosten so weit wie möglich reduziert, um die GmbH wieder auf eine gesunde Basis zu bringen. Dazu gehörte unter anderem die Auflösung des Standorts im Breitsch inklusive Trainingsraum.
 Trainings finden heute entweder direkt bei den Kund:innen statt oder in flexibel gemieteten Räumen, falls unsere eigenen Räumlichkeiten nicht ausreichen.
+
 
 Leider mussten wir auch bei den Personalkosten Einschnitte vornehmen und uns von den Festanstellungen trennen. Die operativen Arbeiten werden aktuell von den Members von tim&koko und Puzzle übernommen.
 
