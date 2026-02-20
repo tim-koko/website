@@ -15,13 +15,14 @@ additionalblogposts: [ 'kubevirt-introduction', '2025-jahresrueckblick', 'cnz-hi
 categories: ["Technology", "Behind the Scenes", "tim&koko"]
 authors: ['marie-steck']
 post_img: "images/blog/acend/tk-blogpost-acend-uebernahme-1500x1000.png"
-lead: "Bereits seit letztem Jahr ist bekannt, dass acend nun Teil von tim&koko sowie [Puzzle](www.puzzle.ch) ist. Die acend GmbH gehört zu jeweils 50 % den beiden Unternehmen. Durch diese Übernahme kann der bestehende acend-Brand weitergeführt werden und ergänzt das Portfolio von tim&koko und Puzzle ideal.
+lead: "Bereits seit letztem Jahr ist bekannt, dass acend nun Teil von tim&koko sowie [Puzzle](https://www.puzzle.ch/) ist. Die acend GmbH gehört zu jeweils 50 % den beiden Unternehmen. Durch diese Übernahme kann der bestehende acend-Brand weitergeführt werden und ergänzt das Portfolio von tim&koko und Puzzle ideal.
 Mit acend erweitern wir unser Angebot um einen starken Fokus auf praxisnahe IT-Trainings und schaffen eine durchgängige Kette von Consulting über Engineering bis hin zu Schulung."
 ---
 
 ### Was ist acend?
 
-Die Ursprungsidee von [acend](www.acend.ch) war es, IT-Schulungen neu zu denken. Die Gründer:innen wollten Trainings schaffen, die nicht nur Wissen vermitteln, sondern lehrreich, unterhaltsam und nachhaltig sind – Trainings, die im Gedächtnis bleiben.
+Die Ursprungsidee von [acend](https://acend.ch/) war es, IT-Schulungen neu zu denken. Die Gründer:innen wollten Trainings schaffen, die nicht nur Wissen vermitteln, sondern lehrreich, unterhaltsam und nachhaltig sind – Trainings, die im Gedächtnis bleiben.
+
 Wissenschaftlich ist belegt, dass Menschen Inhalte besonders gut behalten, wenn Lernen mit Erlebnissen und Praxis verknüpft wird. Genau hier setzt acend an.
 Die Trainer:innen von acend vermitteln ihr Wissen anschaulich, praxisbezogen und aus erster Hand. Die Teilnehmenden werden dort abgeholt, wo sie stehen, und die Inhalte werden individuell auf die Bedürfnisse der Kund:innen zugeschnitten – egal ob Einzelperson oder Unternehmen.
 
@@ -32,7 +33,9 @@ Inhalte, Slides, Lab-Setups, Übungen und didaktische Konzepte.
 Durch die Übernahme können wir dieses wertvolle Wissen nun direkt unseren Kund:innen zugänglich machen und unser bestehendes Angebot perfekt ergänzen.
 
 Gemeinsam bieten wir neu alles aus einer Hand:
+
 **Consulting → Engineering → Enablement & Training**
+
 Das macht acend zu einem zentralen Baustein unserer langfristigen Vision.
 
 ### Was ändert sich bei acend?
@@ -57,7 +60,7 @@ Leider mussten wir auch bei den Personalkosten Einschnitte vornehmen und uns von
 
 Nicht alles stand im Zeichen der Reduktion. In der Vergangenheit wurde bereits viel Zeit und Budget in eine neue Website investiert. Dieses bestehende Fundament konnten wir übernehmen, weiterentwickeln und in den Monaten vor dem Jahreswechsel finalisieren. Im Januar ging die neue Website schliesslich online.
 
-Zusätzlich haben wir unsere Zusammenarbeit mit [Cloud Native Zürich](www.cloudnativezuerich.ch) gesichert.
+Zusätzlich haben wir unsere Zusammenarbeit mit [Cloud Native Zürich](https://cloudnativezurich.ch/) gesichert.
 Dieses Jahr bieten wir dort insgesamt sieben Workshops an. Darunter auch das neue Softwareentwicklung mit KI-Training.
 Weitere Infos: [https://cloudnativezurich.ch/workshops/](https://cloudnativezurich.ch/workshops/)
 
