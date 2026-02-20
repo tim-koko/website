@@ -34,7 +34,7 @@ Durch die Übernahme können wir dieses wertvolle Wissen nun direkt unseren Kund
 
 Gemeinsam bieten wir neu alles aus einer Hand:
 
-**Consulting → Engineering → Enablement & Training**
+Consulting → Engineering → Enablement & Training
 
 Das macht acend zu einem zentralen Baustein unserer langfristigen Vision.
 
