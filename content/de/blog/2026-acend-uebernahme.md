@@ -21,7 +21,7 @@ Mit acend erweitern wir unser Angebot um einen starken Fokus auf praxisnahe IT-T
 
 ### Was ist acend?
 
-Die Ursprungsidee von acend war es, IT-Schulungen neu zu denken. Die Gründer:innen wollten Trainings schaffen, die nicht nur Wissen vermitteln, sondern lehrreich, unterhaltsam und nachhaltig sind – Trainings, die im Gedächtnis bleiben.
+Die Ursprungsidee von [acend](www.acend.ch) war es, IT-Schulungen neu zu denken. Die Gründer:innen wollten Trainings schaffen, die nicht nur Wissen vermitteln, sondern lehrreich, unterhaltsam und nachhaltig sind – Trainings, die im Gedächtnis bleiben.
 Wissenschaftlich ist belegt, dass Menschen Inhalte besonders gut behalten, wenn Lernen mit Erlebnissen und Praxis verknüpft wird. Genau hier setzt acend an.
 Die Trainer:innen von acend vermitteln ihr Wissen anschaulich, praxisbezogen und aus erster Hand. Die Teilnehmenden werden dort abgeholt, wo sie stehen, und die Inhalte werden individuell auf die Bedürfnisse der Kund:innen zugeschnitten – egal ob Einzelperson oder Unternehmen.
 
@@ -30,7 +30,9 @@ Die Trainer:innen von acend vermitteln ihr Wissen anschaulich, praxisbezogen und
 acend ist in der Cloud Community längst ein Begriff. Über die Jahre wurden unzählige Stunden in die Entwicklung hochwertiger Trainings investiert:
 Inhalte, Slides, Lab-Setups, Übungen und didaktische Konzepte.
 Durch die Übernahme können wir dieses wertvolle Wissen nun direkt unseren Kund:innen zugänglich machen und unser bestehendes Angebot perfekt ergänzen.
-Gemeinsam bieten wir neu alles aus einer Hand: Consulting → Engineering → Enablement & Training
+
+Gemeinsam bieten wir neu alles aus einer Hand: 
+**Consulting → Engineering → Enablement & Training**
 Das macht acend zu einem zentralen Baustein unserer langfristigen Vision.
 
 ### Was ändert sich bei acend?
@@ -38,7 +40,7 @@ Das macht acend zu einem zentralen Baustein unserer langfristigen Vision.
 Inhaltlich bleibt vieles gleich und wird sogar erweitert:
 
 * Die bestehenden Technologien und Trainings bleiben erhalten.
-* Seit Anfang Jahr wurde das Portfolio um das neue Training „Softwareentwicklung mit KI“ ergänzt.
+* Seit Anfang Jahr wurde das Portfolio um das neue Training [„Softwareentwicklung mit KI“](https://acend.ch/trainings/ai-dev/) ergänzt.
 * Trainings können weiterhin von Einzelpersonen und Firmen gebucht werden.
 * Auch viele der bisherigen Trainer:innen bleiben Teil von acend.
 
@@ -48,6 +50,7 @@ Die grösste Veränderung findet im Hintergrund statt: Entscheidungen werden neu
 
 In einem ersten Schritt wurden die laufenden Kosten so weit wie möglich reduziert, um die GmbH wieder auf eine gesunde Basis zu bringen. Dazu gehörte unter anderem die Auflösung des Standorts im Breitsch inklusive Trainingsraum.
 Trainings finden heute entweder direkt bei den Kund:innen statt oder in flexibel gemieteten Räumen, falls unsere eigenen Räumlichkeiten nicht ausreichen.
+
 Leider mussten wir auch bei den Personalkosten Einschnitte vornehmen und uns von den Festanstellungen trennen. Die operativen Arbeiten werden aktuell von den Members von tim&koko und Puzzle übernommen.
 
 #### Nicht nur Rückbau: Was wurde aufgebaut?
