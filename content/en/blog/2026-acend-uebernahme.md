@@ -35,7 +35,7 @@ Through the acquisition, we can now make this valuable knowledge directly access
 
 Together, we now provide everything from a single source:
 
-**Consulting → Engineering → Enablement & Training**
+Consulting → Engineering → Enablement & Training
 
 This makes acend a central building block of our long-term vision.
 
