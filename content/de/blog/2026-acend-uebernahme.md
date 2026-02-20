@@ -31,8 +31,8 @@ acend ist in der Cloud Community längst ein Begriff. Über die Jahre wurden unz
 Inhalte, Slides, Lab-Setups, Übungen und didaktische Konzepte.
 Durch die Übernahme können wir dieses wertvolle Wissen nun direkt unseren Kund:innen zugänglich machen und unser bestehendes Angebot perfekt ergänzen.
 
-Gemeinsam bieten wir neu alles aus einer Hand: 
-Consulting → Engineering → Enablement & Training
+Gemeinsam bieten wir neu alles aus einer Hand:
+**Consulting → Engineering → Enablement & Training**
 Das macht acend zu einem zentralen Baustein unserer langfristigen Vision.
 
 ### Was ändert sich bei acend?
