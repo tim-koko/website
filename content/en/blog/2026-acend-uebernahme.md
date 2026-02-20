@@ -21,7 +21,7 @@ With acend, we are expanding our offering with a strong focus on hands-on IT tra
 
 ### What is acend?
 
-The original idea behind acend was to rethink IT training. The founders wanted to create training that not only conveys knowledge, but is also engaging, entertaining, and sustainable – training that people actually remember.
+The original idea behind [acend](www.acend.ch) was to rethink IT training. The founders wanted to create training that not only conveys knowledge, but is also engaging, entertaining, and sustainable – training that people actually remember.
 Scientific research shows that people retain content particularly well when learning is combined with experiences and practical application. This is exactly where acend comes in.
 acend’s trainers share their knowledge in a clear, hands-on way and from real-world experience. Participants are met where they are, and the content is tailored individually to the needs of the clients – whether individuals or companies.
 
@@ -31,7 +31,7 @@ acend has long been a well-known name in the cloud community. Over the years, co
 materials, slides, lab setups, exercises, and didactic concepts.
 Through the acquisition, we can now make this valuable knowledge directly accessible to our customers and perfectly complement our existing offering.
 Together, we now provide everything from a single source:
-Consulting → Engineering → Enablement & Training
+**Consulting → Engineering → Enablement & Training**
 This makes acend a central building block of our long-term vision.
 
 ### What is changing at acend?
@@ -39,7 +39,7 @@ This makes acend a central building block of our long-term vision.
 In terms of content, much remains the same and is even being expanded:
 
 * Existing technologies and trainings remain.
-* Since the beginning of the year, the portfolio has been expanded with the new training “Software Development with AI.”
+* Since the beginning of the year, the portfolio has been expanded with the new training [“Software Development with AI”](https://acend.ch/trainings/ai-dev/).
 * Trainings can still be booked by individuals and companies.
 * Many of the previous trainers remain part of acend.
 
