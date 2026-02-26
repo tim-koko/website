@@ -73,6 +73,6 @@ On April 23, 2026, we are also planning a [Tech Lab Day](https://www.puzzle.ch/e
 * Backstage
 * Software Development with AI Lab (new)
 
-We are also looking forward to running the [workshops](https://cloudnativezurich.ch/workshops/) at the Cloud Native Day.
+We are also looking forward to running the [workshops](https://cloudnativezurich.ch/workshops/) at Cloud Native Zurich.
 
 **acend is and remains a place for exchange, learning, and inspiration.**
