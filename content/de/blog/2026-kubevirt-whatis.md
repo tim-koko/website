@@ -12,7 +12,7 @@ Priority: 0.9
 
 additionalblogposts: [ 'kubevirt-introduction', 'kubevirt-training', 'kubevirt-usecases']
 
-categories: ["Technology", "KubeVirt", "Kubernetes"]
+categories: ["Technologie", "KubeVirt", "Kubernetes"]
 authors: ['christof-luethi']
 post_img: "images/blog/kubevirt/tk-blogpost-kubevirt.jpg"
 lead: "Das Ausführen von Containern auf Kubernetes ist heute der Standard – dennoch sind viele Organisationen weiterhin auf geschäftskritische Workloads angewiesen, die in virtuellen Maschinen laufen. Diese neu zu schreiben oder zu ersetzen, ist nicht immer realistisch. KubeVirt schliesst diese Lücke, indem es Kubernetes erweitert und ermöglicht, virtuelle Maschinen genauso wie Container zu betreiben und zu verwalten – mit denselben APIs, Tools und Automatisierungen, die bereits im Einsatz sind."
