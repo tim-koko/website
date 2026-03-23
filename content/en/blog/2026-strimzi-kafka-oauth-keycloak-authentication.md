@@ -47,7 +47,6 @@ Keycloak, and OAuth 2.0 offers several advantages:
 
 {{< svg "assets/images/blog/strimzi-kafka/strimzi-kafka-oauth2-keycloak-authn.svg" >}}
 
-
 ### Key Keycloak Concepts
 
 Before diving into the configuration, here is a brief overview of the Keycloak concepts relevant for authentication:
