@@ -5,15 +5,15 @@ description: ""
 date: 2026-03-23T00:00:00+00:00
 lastmod: 2026-03-23T00:00:00+00:00
 draft: false
-images: ["images/blog/strimzi-kafka/tk-blogpost-strimzi-kafka-oauth-share-image.jpg"]
+images: ["images/blog/kafka-strimzi-v1/tk-blogpost-strimzi-v1-share-image.jpg"]
 Sitemap:
   Priority: 0.92
 
-categories: ["Technology", "Apache Kafka", "Messaging", "Strimzi", "OAuth2"]
+categories: ["Technology", "Apache Kafka", "Messaging", "Strimzi"]
 authors: ['christof-luethi']
-additionalblogposts: [ 'kafka-zookeeper-kraft-migration', "kafka-4" ]
+additionalblogposts: [ 'strimzi-kafka-0.49.0-api-v1', "kafka-4", 'kafka-zookeeper-kraft-migration' ]
 
-post_img: "images/blog/strimzi-kafka/tk-blogpost-strimzi-kafka-oauth.jpg"
+post_img: "images/blog/kafka-strimzi-v1/tk-blogpost-strimzi-v1.jpg"
 img_border: true
 lead: "In multi-tenant Kafka environments, managing credentials and identities at scale requires more than static passwords. This first part of our two-part series covers setting up OAuth 2.0 authentication on a Strimzi-managed Kafka cluster using Keycloak - from broker listener configuration to provisioning tenant clients and verifying token-based authentication."
 ---
