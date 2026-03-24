@@ -25,7 +25,7 @@ and verified that token-based authentication works. At this point any authentica
 This second part covers the authorization side: configuring the `KeycloakAuthorizer` on the Kafka broker and setting up
 Keycloak's Authorization Services to enforce that each tenant can only access their own topics and consumer groups.
 
-{{< svg "assets/images/blog/strimzi-kafka/strimzi-kafka-oauth2-keycloak-authz.svg" >}}
+{{< svg "assets/images/blog/kafka-strimzi/strimzi-kafka-oauth2-keycloak-authz.svg" >}}
 
 ### Keycloak Authorization Concepts
 
@@ -103,13 +103,13 @@ spec:
 
 {{< csvtable "responsive" ";" >}}
 Property;Value;Description
-`strimzi.authorization.delegate.to.kafka.acl`;`true`;When the KeycloakAuthorizer denies a request, it delegates the decision to Kafka's built-in ACL system. This allows mixing OAuth users with TLS/ACL users on the same cluster.
-`strimzi.authorization.client.id`;`kafka-broker`;The Keycloak client used by the broker for authorization lookups.
-`strimzi.authorization.token.endpoint.uri`;`http://...`;The Keycloak token endpoint used to fetch authorization grants.
-`strimzi.authorization.grants.refresh.period.seconds`;`60`;How often the broker refreshes the grants of active sessions.
-`strimzi.authorization.reuse.grants`;`true`;Reuse cached grants for existing sessions instead of fetching new ones.
-`strimzi.authorization.grants.max.idle.time.seconds`;`300`;Idle grants are evicted from cache after this time.
-`strimzi.authorization.enable.metrics`;`true`;Enable metrics for monitoring authorization performance.
+strimzi.authorization.delegate.to.kafka.acl;true;When the KeycloakAuthorizer denies a request, it delegates the decision to Kafka's built-in ACL system. This allows mixing OAuth users with TLS/ACL users on the same cluster.
+strimzi.authorization.client.id;kafka-broker;The Keycloak client used by the broker for authorization lookups.
+strimzi.authorization.token.endpoint.uri;-;The Keycloak token endpoint used to fetch authorization grants.
+strimzi.authorization.grants.refresh.period.seconds;60;How often the broker refreshes the grants of active sessions.
+strimzi.authorization.reuse.grants;true;Reuse cached grants for existing sessions instead of fetching new ones.
+strimzi.authorization.grants.max.idle.time.seconds;300;Idle grants are evicted from cache after this time.
+strimzi.authorization.enable.metrics;true;Enable metrics for monitoring authorization performance.
 {{< /csvtable >}}
 
 ### SuperUsers
