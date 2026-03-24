@@ -1,5 +1,5 @@
 ---
-title: "Kafka OAuth Authorization with Strimzi and Keycloak"
+title: "Kafka OAuth 2 Authorization with Strimzi and Keycloak"
 slug: "kafka-oauth-strimzi-keycloak-authorization"
 description: ""
 date: 2026-03-24T01:00:00+00:00
