@@ -46,7 +46,6 @@ The Keycloak Authorization Services provide four building blocks that work toget
 The relationship flows as: **Clients** belong to **Groups** which are targeted by **Policies** which are tied to
 **Permissions** granting **Scopes** on **Resources**.
 
-
 ### Kafka Security Model
 
 The Kafka security model understands the following actions (scopes) on the different resource types:
@@ -59,7 +58,6 @@ Cluster;Create, Describe, Alter, DescribeConfigs, AlterConfigs, IdempotentWrite,
 TransactionalId;Describe, Write
 DelegationToken;Describe
 {{< /csvtable >}}
-
 
 ## Kafka Broker Authorization Configuration
 
@@ -101,7 +99,6 @@ spec:
       # ... (as configured in Part 1)
 ```
 
-
 ### Key Authorization Properties
 
 {{< csvtable "responsive" ";" >}}
@@ -114,7 +111,6 @@ Property;Value;Description
 `strimzi.authorization.grants.max.idle.time.seconds`;`300`;Idle grants are evicted from cache after this time.
 `strimzi.authorization.enable.metrics`;`true`;Enable metrics for monitoring authorization performance.
 {{< /csvtable >}}
-
 
 ### SuperUsers
 
@@ -133,7 +129,6 @@ authorization:
 > It is recommended to have at least one superuser that does not depend on Keycloak (e.g., a TLS-authenticated user
 > like `CN=my-superuser`). This ensures cluster access even when Keycloak is unavailable.
 
-
 ### ACL Delegation
 
 The `KeycloakAuthorizer` supports delegating `DENIED` requests from the Keycloak authorization to the underlying
@@ -142,10 +137,9 @@ method. This is only supported in KRaft mode and is a feature of the Keycloak au
 
 Example broker log showing ACL delegation:
 
-```
+```text
 Authorization GRANTED by ACL - non-oauth user: User:CN=tk, operation: DESCRIBE, resource: TOPIC:timkoko-topic-demo-v0
 ```
-
 
 ### Logging Authorization
 
@@ -161,7 +155,6 @@ spec:
         logger.oauth.name: io.strimzi.kafka.oauth
         logger.oauth.level: DEBUG
 ```
-
 
 ## Keycloak Authorization Setup
 
@@ -193,7 +186,6 @@ BROKER_UUID=$(curl -s -H "Authorization: Bearer $TOKEN" \
   "${KEYCLOAK_URL}/admin/realms/${REALM}/clients" \
   | jq -r '.[] | select(.clientId=="kafka-broker") | .id')
 ```
-
 
 ### Configure Authorization Services
 
@@ -241,7 +233,6 @@ curl -s -X DELETE \
   -H "Authorization: Bearer $TOKEN"
 ```
 
-
 ### Create Authorization Scopes
 
 Create the Kafka operation scopes on the broker's authorization services. These scopes are derived from the
@@ -258,7 +249,6 @@ for scope in Create Write Read Delete Describe Alter \
   echo "Scope ${scope} created."
 done
 ```
-
 
 ### Create Resources
 
@@ -303,7 +293,6 @@ for tenant in timkoko acmecorp umbrellacorp; do
 done
 ```
 
-
 ### Create Policies
 
 Tying a permission to a Keycloak group is done with a policy of type `group`. The policies use `logic=POSITIVE`
@@ -339,7 +328,6 @@ for tenant in timkoko acmecorp umbrellacorp; do
   done
 done
 ```
-
 
 ### Create Permissions
 
@@ -404,11 +392,9 @@ done
 This ensures that members of the reader group get read access to the consumer group and the topics. The writer group
 allows access to write to the topics.
 
-
 ## Verify Authorization
 
 With authentication and authorization fully configured, we can verify that multi-tenant isolation works correctly.
-
 
 ### Inspect an Authorization Token
 
@@ -452,7 +438,6 @@ The `authorization` section in the decoded token should contain the granted perm
 ```
 
 Notice that only `timkoko-*` resources are present — there is no access to `acmecorp-*` or `umbrellacorp-*` resources.
-
 
 ### Test Authorization from a Kafka CLI Pod
 
@@ -539,7 +524,6 @@ ERROR [Consumer clientId=...] Topic authorization failed for topics [umbrellacor
 org.apache.kafka.common.errors.TopicAuthorizationException: Not authorized to access topics: [umbrellacorp-topic-demo-v0]
 ```
 
-
 ## Summary
 
 Combining Strimzi, Keycloak, and OAuth 2 provides a scalable, centralized approach to Kafka security:
@@ -554,7 +538,6 @@ Combining Strimzi, Keycloak, and OAuth 2 provides a scalable, centralized approa
 
 Onboarding new tenants requires only: creating a Keycloak client, adding it to the appropriate groups, creating the
 authorization resources, policies, and permissions — without modifying the Kafka cluster configuration itself.
-
 
 ## Do you need help or guidance?
 
