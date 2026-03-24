@@ -1,9 +1,9 @@
 ---
-title: "Kafka OAuth 2.0 Authentication with Strimzi and Keycloak (Part 1)"
+title: "Kafka OAuth 2 Authentifizierung mit Strimzi und Keycloak"
 slug: "strimzi-kafka-oauth-keycloak-authentication"
 description: ""
-date: 2026-03-23T00:00:00+00:00
-lastmod: 2026-03-23T00:00:00+00:00
+date: 2026-03-24T00:00:00+00:00
+lastmod: 2026-03-24T00:00:00+00:00
 draft: false
 images: ["images/blog/kafka-strimzi-v1/tk-blogpost-strimzi-v1-share-image.jpg"]
 Sitemap:
@@ -15,98 +15,108 @@ additionalblogposts: [ 'strimzi-kafka-0.49.0-api-v1', "kafka-4", 'kafka-zookeepe
 
 post_img: "images/blog/kafka-strimzi-v1/tk-blogpost-strimzi-v1.jpg"
 img_border: true
-lead: "In multi-tenant Kafka environments, managing credentials and identities at scale requires more than static passwords. This first part of our two-part series covers setting up OAuth 2.0 authentication on a Strimzi-managed Kafka cluster using Keycloak - from broker listener configuration to provisioning tenant clients and verifying token-based authentication."
+lead: "In Multi-Tenant Kafka-Umgebungen reichen statische Passwörter für die Verwaltung von Credentials und Identitäten nicht mehr aus. Dieser erste Teil unserer zweiteiligen Serie behandelt die Einrichtung von OAuth 2 Authentifizierung auf einem Strimzi-verwalteten Kafka-Cluster mit Keycloak - von der Broker-Listener-Konfiguration über die Provisionierung von Tenant-Clients bis zur Verifizierung der Token-basierten Authentifizierung."
 ---
 
-In modern event-driven architectures, Apache Kafka often serves as the central nervous system connecting multiple
-teams, services, and even organizations. As Kafka adoption grows, so does the need for a robust, centralized identity
-and access management solution.
+In modernen Event-Driven Architekturen fungiert Apache Kafka oft als zentrales Nervensystem, das mehrere Teams,
+Services und sogar Organisationen verbindet. Mit zunehmender Kafka-Nutzung wächst auch der Bedarf an einer robusten,
+zentralisierten Lösung für Identity- und Access-Management.
 
-This two-part series walks through configuring a Strimzi-managed Kafka cluster with OAuth 2.0 authentication and
-Keycloak-based authorization - a production-grade approach to multi-tenant Kafka security on Kubernetes.
+Diese zweiteilige Serie zeigt die Konfiguration eines Strimzi-verwalteten Kafka-Clusters mit OAuth 2 Authentifizierung
+und Keycloak-basierter Autorisierung - ein produktionsreifer Ansatz für Multi-Tenant Kafka-Security auf Kubernetes.
 
-- **Part 1 (this post):** OAuth authentication - configuring the broker, provisioning Keycloak clients, and verifying token-based access.
-- **Part 2:** Keycloak authorization - fine-grained, resource-level permissions using Authorization Services.
+- **Teil 1 (dieser Beitrag):** OAuth Authentifizierung - Konfiguration des Brokers, Provisionierung von Keycloak-Clients und Verifizierung des Token-basierten Zugriffs.
+- **Teil 2:** Keycloak Autorisierung - feingranulare, ressourcenbasierte Berechtigungen mittels Authorization Services.
 
-### Why OAuth with Strimzi and Keycloak?
+### Warum OAuth mit Strimzi und Keycloak?
 
-Traditional Kafka authentication mechanisms like SASL/PLAIN or SASL/SCRAM require managing credentials directly within
-the Kafka ecosystem. This becomes cumbersome at scale, especially in multi-tenant environments. Combining Strimzi,
-Keycloak, and OAuth 2.0 offers several advantages:
+Traditionelle Kafka-Authentifizierungsmechanismen wie SASL/PLAIN oder SASL/SCRAM erfordern die direkte Verwaltung von
+Credentials innerhalb des Kafka-Ökosystems. Bei wachsender Nutzung wird dies schnell unübersichtlich, insbesondere in
+Multi-Tenant-Umgebungen. Die Kombination von Strimzi, Keycloak und OAuth 2 bietet mehrere Vorteile:
 
-- **Centralized identity management:** Keycloak provides a single source of truth for all client identities, secrets,
-  and access policies. When integrated with LDAP or Active Directory federation, organizational structures map directly
-  to Kafka access controls.
-- **Token-based security:** Short-lived JWT tokens replace long-lived static credentials. Tokens are validated locally
-  on the broker using JWKS, eliminating per-request calls to Keycloak and keeping latency low.
-- **Multi-tenant isolation:** Prefix-based resource patterns (e.g., `Topic:timkoko-*`) combined with group-based
-  policies ensure tenants can only access their own data.
-- **Fine-grained authorization:** Keycloak Authorization Services allow defining permissions at the resource and scope
-  level - controlling exactly which clients can read, write, or manage specific topics and consumer groups. This is
-  covered in Part 2.
+- **Zentralisiertes Identity-Management:** Keycloak bietet eine einzige Quelle der Wahrheit für alle Client-Identitäten,
+  Secrets und Zugriffsrichtlinien. Durch die Integration mit LDAP oder Active Directory Federation lassen sich
+  Organisationsstrukturen direkt auf Kafka-Zugriffskontrollen abbilden.
+- **Token-basierte Sicherheit:** Kurzlebige JWT-Tokens ersetzen langlebige statische Credentials. Tokens werden lokal
+  auf dem Broker mittels JWKS validiert, wodurch Anfragen pro Request an Keycloak entfallen und die Latenz tief bleibt.
+- **Multi-Tenant-Isolation:** Präfix-basierte Ressourcenmuster (z.B. `Topic:timkoko-*`) in Kombination mit
+  gruppenbasierten Richtlinien stellen sicher, dass Tenants nur auf ihre eigenen Daten zugreifen können.
+- **Feingranulare Autorisierung:** Keycloak Authorization Services ermöglichen die Definition von Berechtigungen auf
+  Ressourcen- und Scope-Ebene - so lässt sich genau steuern, welche Clients lesen, schreiben oder bestimmte Topics
+  und Consumer Groups verwalten dürfen. Dies wird in Teil 2 behandelt.
 
 {{< svg "assets/images/blog/strimzi-kafka/strimzi-kafka-oauth2-keycloak-authn.svg" >}}
 
-### Key Keycloak Concepts
+### Keycloak-Konzepte im Überblick
 
-Before diving into the configuration, here is a brief overview of the Keycloak concepts relevant for authentication:
+Bevor wir in die Konfiguration einsteigen, hier ein kurzer Überblick über die relevanten Keycloak-Konzepte für die
+Authentifizierung:
 
-- **Realm:** An isolated namespace for managing users, clients, and policies. We create a dedicated `kafka` realm to
-  keep Kafka-related configuration separate from other applications sharing the same Keycloak instance.
-- **Client (Service Account):** Represents a Kafka application. Each tenant and the broker itself gets its own client
-  with a `client_id` and `client_secret`, using the `client_credentials` grant type. Clients are configured with
-  `serviceAccountsEnabled: true` as there are no interactive user logins involved.
-- **Audience Mapper:** A protocol mapper ensuring the `aud` claim in the JWT includes `kafka-broker`, so brokers can
-  verify the token was issued for Kafka and not for another service.
-- **Groups:** Organize service accounts into logical units. Each tenant gets a parent group with `reader` and `writer`
-  subgroups. These become relevant in Part 2 for authorization.
-- **Authorization Services:** Enabled only on the `kafka-broker` client, providing resources, scopes, policies, and
-  permissions - covered in detail in Part 2.
+- **Realm:** Ein isolierter Namespace für die Verwaltung von Benutzern, Clients und Richtlinien. Wir erstellen einen
+  dedizierten `kafka`-Realm, um die Kafka-bezogene Konfiguration von anderen Anwendungen auf derselben
+  Keycloak-Instanz zu trennen.
+- **Client (Service Account):** Repräsentiert eine Kafka-Anwendung. Jeder Tenant und der Broker selbst erhält einen
+  eigenen Client mit `client_id` und `client_secret`, unter Verwendung des `client_credentials` Grant-Typs. Clients
+  werden mit `serviceAccountsEnabled: true` konfiguriert, da keine interaktiven Benutzer-Logins involviert sind.
+- **Audience Mapper:** Ein Protocol Mapper, der sicherstellt, dass der `aud`-Claim im JWT `kafka-broker` enthält.
+  Damit können die Broker verifizieren, dass das Token für Kafka ausgestellt wurde und nicht für einen anderen Service.
+- **Groups:** Organisieren Service Accounts in logische Einheiten. Jeder Tenant erhält eine übergeordnete Gruppe mit
+  `reader`- und `writer`-Untergruppen. Diese werden in Teil 2 für die Autorisierung relevant.
+- **Authorization Services:** Nur auf dem `kafka-broker`-Client aktiviert. Stellt Ressourcen, Scopes, Richtlinien und
+  Berechtigungen bereit - wird in Teil 2 im Detail behandelt.
 
-### Prerequisites
+### Voraussetzungen
 
-This guide assumes:
+Dieser Guide setzt folgendes voraus:
 
-- A Kubernetes cluster with the Strimzi Operator (v0.49.0+) installed
-- A Kafka cluster running in KRaft mode managed by Strimzi (API version `kafka.strimzi.io/v1`)
-- A Keycloak instance running and accessible within the cluster (e.g., `http://keycloak-service.keycloak.svc.cluster.local:8080`)
-- A Keycloak realm named `kafka` already created
+- Ein Kubernetes-Cluster mit installiertem Strimzi Operator (v0.49.0+)
+- Ein Kafka-Cluster im KRaft-Modus, verwaltet durch Strimzi (API-Version `kafka.strimzi.io/v1`)
+- Eine Keycloak-Instanz, die innerhalb des Clusters läuft und erreichbar ist (z.B. `http://keycloak-service.keycloak.svc.cluster.local:8080`)
+- Ein Keycloak-Realm namens `kafka` wurde bereits erstellt
 
-### Users
+### Benutzer
 
-The following users are configured in this setup:
+Die folgenden Benutzer werden in diesem Setup konfiguriert:
 
-| User            | Kafka User        | Password / Secret       | Auth Method | Description                                  |
-|-----------------|-------------------|-------------------------|-------------|----------------------------------------------|
-| Kafka Broker    | kafka-broker      | kafka-broker-secret     | OAuth       | Kafka Broker Client (Authorization Services) |
-| Kafka Admin     | kafka-admin       | kafka-admin-secret      | OAuth       | Kafka Admin (superuser)                      |
-| Company A       | timkoko           | timkoko-secret          | OAuth       | Sample Tenant A (timkoko)                    |
-| Company B       | acmecorp          | acmecorp-secret         | OAuth       | Sample Tenant B (acme corp.)                 |
-| Company C       | umbrellacorp      | umbrellacorp-secret     | OAuth       | Sample Tenant C (umbrella corp.)             |
+{{< csvtable "responsive" "," >}}
+Benutzer,Kafka User,Passwort / Secret,Beschreibung
+Kafka Broker,kafka-broker,kafka-broker-secret,Kafka Broker Client (Authorization Services)
+Kafka Admin,kafka-admin,kafka-admin-secret,Kafka Admin (Superuser)
+Organisation A,timkoko,timkoko-secret,Beispiel-Tenant A (timkoko)
+Organisation B,acmecorp,acmecorp-secret,Beispiel-Tenant B (acme corp.)
+Organisation C,umbrellacorp,umbrellacorp-secret,Beispiel-Tenant C (umbrella corp.)
+{{< /csvtable >}}
 
 ### Topics
 
-The following topics are created for testing:
+Die folgenden Topics werden zum Testen erstellt:
 
-| Topic                      | Tenant / Org   | Description                              |
-|----------------------------|----------------|------------------------------------------|
-| timkoko-topic-demo-v0      | timkoko        | Topic accessible by timkoko user         |
-| acmecorp-topic-demo-v0     | acmecorp       | Topic accessible by acmecorp user        |
-| umbrellacorp-topic-demo-v0 | umbrellacorp   | Topic accessible by umbrellacorp user    |
+{{< csvtable "responsive" "," >}}
+Topic,Tenant / Org,Beschreibung
+timkoko-topic-demo-v0,timkoko,Topic zugänglich für timkoko-Benutzer
+acmecorp-topic-demo-v0,acmecorp,Topic zugänglich für acmecorp-Benutzer
+umbrellacorp-topic-demo-v0,umbrellacorp,Topic zugänglich für umbrellacorp-Benutzer
+{{< /csvtable >}}
 
-## Kafka Cluster Configuration
+## Kafka-Cluster-Konfiguration
 
-### Listener and Authentication
+### Listener und Authentifizierung
 
-The Strimzi Kafka resource supports multiple listeners, each with its own authentication method. We configure three
-listeners: a plain TLS listener, a mutual TLS listener, and an OAuth listener.
+Die Strimzi-Kafka-Ressource unterstützt mehrere Listener, die jeweils eine eigene Authentifizierungsmethode haben
+können. Wir konfigurieren drei Listener: einen TLS-Listener ohne Client-Authentifizierung, einen Mutual-TLS-Listener
+und einen OAuth-Listener.
 
-> In Strimzi 0.52.0, the dedicated `oauth` and `keycloak` authentication types will be removed. OAuth is now
-> configured using `type: custom` with SASL and the appropriate callback handlers. See the
-> [Strimzi proposal](https://github.com/strimzi/proposals/blob/main/112-deprecate-and-remove-oauth-authentication-and-authorization.md)
-> for details.
+{{< svg "assets/images/blog/strimzi-kafka/strimzi-kafka-oauth2-keycloak-authn.svg" >}}
 
-A cluster configuration with multiple listeners and different authentication methods looks like this:
+
+{{< svg "assets/images/blog/strimzi-kafka/strimzi-kafka-oauth2-keycloak-listeners.svg" >}}
+
+> In Strimzi 0.52.0 werden die dedizierten Authentifizierungstypen `oauth` und `keycloak` entfernt. OAuth wird neu
+> mittels `type: custom` mit SASL und den entsprechenden Callback-Handlern konfiguriert. Siehe den
+> [Strimzi-Proposal](https://github.com/strimzi/proposals/blob/main/112-deprecate-and-remove-oauth-authentication-and-authorization.md)
+> für Details.
+
+Eine Cluster-Konfiguration mit mehreren Listenern und unterschiedlichen Authentifizierungsmethoden sieht wie folgt aus:
 
 ```yaml
 apiVersion: kafka.strimzi.io/v1
@@ -116,7 +126,7 @@ metadata:
 spec:
   kafka:
     config:
-      # Required for OAuth authentication and Keycloak authorization
+      # Erforderlich für OAuth-Authentifizierung und Keycloak-Autorisierung
       principal.builder.class: io.strimzi.kafka.oauth.server.OAuthKafkaPrincipalBuilder
     listeners:
       - name: plain
@@ -160,33 +170,33 @@ spec:
                 oauth.enable.metrics="true" \
                 oauth.jwks.min.refresh.pause.seconds="1";
     authorization:
-      # Authorization configuration is covered in Part 2
+      # Autorisierungskonfiguration wird in Teil 2 behandelt
       ...
 ```
 
-Key configuration choices:
+Wichtige Konfigurationsentscheide:
 
-**Fast local JWT validation:** The broker validates tokens locally using the JWKS endpoint (`oauth.jwks.endpoint.uri`)
-instead of calling Keycloak's introspection endpoint for every request. This enhances performance and reduces network
-calls. However, it relies on short-lived tokens and does not handle revoked tokens - the broker validates that the token
-is signed by the issuer but does not check if it has been revoked. This is partially mitigated with short-lived tokens
-(configured to 600 seconds in Keycloak). The most secure method would be the `introspect` endpoint but this
-requires connecting to Keycloak for every token validation.
+**Schnelle lokale JWT-Validierung:** Der Broker validiert Tokens lokal mittels JWKS-Endpoint (`oauth.jwks.endpoint.uri`),
+anstatt für jede Anfrage den Introspection-Endpoint von Keycloak aufzurufen. Dies verbessert die Performance und
+reduziert Netzwerk-Aufrufe. Allerdings wird dabei auf kurzlebige Tokens gesetzt, und zurückgezogene Tokens werden nicht
+erkannt - der Broker prüft nur, ob das Token vom Issuer signiert wurde, nicht ob es widerrufen wurde. Dies wird
+teilweise durch kurzlebige Tokens (konfiguriert auf 600 Sekunden in Keycloak) abgemildert. Die sicherste Methode wäre
+der `introspect`-Endpoint, der jedoch bei jeder Token-Validierung eine Verbindung zu Keycloak erfordert.
 
-**Audience check:** `oauth.check.audience="true"` ensures the token's `aud` claim contains `kafka-broker`, preventing
-tokens issued for other services from being accepted.
+**Audience-Check:** `oauth.check.audience="true"` stellt sicher, dass der `aud`-Claim des Tokens `kafka-broker`
+enthält. Damit wird verhindert, dass Tokens akzeptiert werden, die für andere Services ausgestellt wurden.
 
-**Secret reference:** The broker client secret is stored as a Kubernetes Secret and referenced using Strimzi's
-`KubernetesSecretConfigProvider` syntax: `${secrets:NAMESPACE/SECRET_NAME:KEY}`.
+**Secret-Referenz:** Das Broker-Client-Secret wird als Kubernetes Secret gespeichert und über Strimzis
+`KubernetesSecretConfigProvider`-Syntax referenziert: `${secrets:NAMESPACE/SECRET_NAME:KEY}`.
 
-**Inter-broker communication:** According to Strimzi it is best to use mTLS for inter-broker communication. This is
-the default and does not require any change. See the
-[Strimzi documentation](https://github.com/strimzi/strimzi-kafka-oauth?tab=readme-ov-file#configuring-the-client-side-of-inter-broker-communication)
-for details.
+**Inter-Broker-Kommunikation:** Gemäss Strimzi wird für die Inter-Broker-Kommunikation am besten mTLS verwendet. Dies
+ist die Standardkonfiguration und erfordert keine Änderung. Siehe die
+[Strimzi-Dokumentation](https://github.com/strimzi/strimzi-kafka-oauth?tab=readme-ov-file#configuring-the-client-side-of-inter-broker-communication)
+für Details.
 
-### Broker OAuth Secret and RBAC
+### Broker OAuth Secret und RBAC
 
-The broker needs access to its OAuth client secret stored as a Kubernetes Secret:
+Der Broker benötigt Zugriff auf sein OAuth-Client-Secret, das als Kubernetes Secret gespeichert ist:
 
 ```yaml
 apiVersion: v1
@@ -195,15 +205,15 @@ metadata:
   name: broker-oauth-secret
 type: Opaque
 data:
-  secret: a2Fma2EtYnJva2VyLXNlY3JldA==  # base64 encoded client secret
+  secret: a2Fma2EtYnJva2VyLXNlY3JldA==  # base64-kodiertes Client-Secret
 ```
 
-For the Kafka pods to read this secret, an additional `Role` and `RoleBinding` is required. Make sure you allow the pods to read the secret.
+Damit die Kafka-Pods dieses Secret lesen können, werden zusätzlich eine `Role` und ein `RoleBinding` benötigt. Stelle sicher, dass die Pods das Secret lesen dürfen.
 
-### Create Tenant Topics
+### Tenant-Topics erstellen
 
-Define the tenant topics using Strimzi's `KafkaTopic` custom resource. Each topic follows the naming convention
-`<tenant>-topic-demo-v0`:
+Die Tenant-Topics werden mittels Strimzis `KafkaTopic` Custom Resource definiert. Jedes Topic folgt der
+Namenskonvention `<tenant>-topic-demo-v0`:
 
 ```yaml
 apiVersion: kafka.strimzi.io/v1
@@ -246,26 +256,26 @@ spec:
     retention.ms: 3600000
 ```
 
-Because the authorization resources use prefix matching (`Topic:timkoko-*`), any topic starting with the tenant name
-is automatically covered by the respective permissions.
+Da die Autorisierungsressourcen Präfix-Matching verwenden (`Topic:timkoko-*`), wird jedes Topic, das mit dem
+Tenant-Namen beginnt, automatisch von den entsprechenden Berechtigungen abgedeckt.
 
-## Keycloak User Setup
+## Keycloak User-Setup
 
-All Keycloak configuration is done in the `kafka` realm via the Keycloak Admin REST API.
+Die gesamte Keycloak-Konfiguration erfolgt im `kafka`-Realm über die Keycloak Admin REST API.
 
-> **Port-forwarding for local access:** If Keycloak is running inside the Kubernetes cluster and not accessible from outside, use port-forwarding to
-> access the admin API from your local machine:
+> **Port-Forwarding für lokalen Zugriff:** Falls Keycloak innerhalb des Kubernetes-Clusters läuft und von aussen nicht erreichbar ist, kann mittels Port-Forwarding
+> auf die Admin-API von der lokalen Maschine zugegriffen werden:
 >
 > ```shell
 > kubectl port-forward -n keycloak svc/keycloak-service 8080:8080
 > ```
 >
-> This makes Keycloak available at `http://localhost:8080`. All `curl` commands in this guide target this local
-> address. Adjust the URL if your Keycloak instance is exposed differently.
+> Damit ist Keycloak unter `http://localhost:8080` erreichbar. Alle `curl`-Befehle in diesem Guide verwenden diese
+> lokale Adresse. Passe die URL an, falls deine Keycloak-Instanz anders exponiert ist.
 
-### Obtain Admin Token
+### Admin-Token beziehen
 
-All API calls require a Keycloak admin token:
+Alle API-Aufrufe benötigen einen Keycloak-Admin-Token:
 
 ```shell
 KEYCLOAK_URL="http://localhost:8080"
@@ -280,9 +290,10 @@ TOKEN=$(curl -s \
   | jq -r .access_token)
 ```
 
-### Create the Broker Client
+### Broker-Client erstellen
 
-The `kafka-broker` client is used by the Kafka brokers. It has Authorization Services enabled (used in Part 2):
+Der `kafka-broker`-Client wird von den Kafka-Brokern verwendet. Er hat Authorization Services aktiviert (wird in
+Teil 2 verwendet):
 
 ```shell
 curl -s -X POST "${KEYCLOAK_URL}/admin/realms/${REALM}/clients" \
@@ -310,13 +321,13 @@ curl -s -X POST "${KEYCLOAK_URL}/admin/realms/${REALM}/clients" \
   }'
 ```
 
-The `authorizationServicesEnabled: true` setting enables the Keycloak Authorization Services on this client. This is
-a prerequisite for the authorization setup in Part 2.
+Die Einstellung `authorizationServicesEnabled: true` aktiviert die Keycloak Authorization Services auf diesem Client.
+Dies ist eine Voraussetzung für das Autorisierungs-Setup in Teil 2.
 
-### Create Tenant Clients
+### Tenant-Clients erstellen
 
-Each tenant gets a service account client. These clients do not have Authorization Services enabled - they are regular
-OAuth clients that authenticate using `client_credentials`:
+Jeder Tenant erhält einen Service-Account-Client. Diese Clients haben keine Authorization Services aktiviert - es
+sind reguläre OAuth-Clients, die sich mittels `client_credentials` authentifizieren:
 
 ```shell
 for tenant in timkoko acmecorp umbrellacorp; do
@@ -346,13 +357,14 @@ for tenant in timkoko acmecorp umbrellacorp; do
 done
 ```
 
-### Add Audience Mapper
+### Audience Mapper hinzufügen
 
-Every client needs an audience mapper so the issued JWT contains `aud: kafka-broker`. This is required because the
-broker is configured with `oauth.check.audience="true"` and validates that the token was explicitly issued for Kafka.
+Jeder Client benötigt einen Audience Mapper, damit das ausgestellte JWT `aud: kafka-broker` enthält. Dies ist
+erforderlich, weil der Broker mit `oauth.check.audience="true"` konfiguriert ist und prüft, ob das Token explizit
+für Kafka ausgestellt wurde.
 
-To allow checking the audience, we add an audience mapper for each client. This adds the `aud: kafka-broker` field
-to the token:
+Um die Audience-Prüfung zu ermöglichen, fügen wir für jeden Client einen Audience Mapper hinzu. Dieser ergänzt das
+Feld `aud: kafka-broker` im Token:
 
 ```shell
 CLIENTS=$(curl -s -H "Authorization: Bearer ${TOKEN}" \
@@ -375,19 +387,19 @@ for client_id in kafka-broker timkoko acmecorp umbrellacorp; do
         "access.token.claim": "true"
       }
     }'
-  echo "Audience mapper created for ${client_id} (${CLIENT_UUID})"
+  echo "Audience Mapper erstellt für ${client_id} (${CLIENT_UUID})"
 done
 ```
 
-### Create Groups and Assign Service Accounts
+### Gruppen erstellen und Service Accounts zuweisen
 
-Each tenant gets a parent group with `reader` and `writer` subgroups. The tenant's service account is added to both
-subgroups. Having distinct reader and writer groups allows giving specific read-access when needed, for example for
-debugging purposes on a development stage.
+Jeder Tenant erhält eine übergeordnete Gruppe mit `reader`- und `writer`-Untergruppen. Der Service Account des
+Tenants wird beiden Untergruppen zugewiesen. Separate Reader- und Writer-Gruppen ermöglichen es, bei Bedarf gezielt
+nur Lesezugriff zu vergeben, beispielsweise für Debugging-Zwecke auf einer Entwicklungsumgebung.
 
 ```shell
 for tenant in timkoko acmecorp umbrellacorp; do
-  # Create parent group
+  # Übergeordnete Gruppe erstellen
   curl -s -X POST "${KEYCLOAK_URL}/admin/realms/${REALM}/groups" \
     -H "Authorization: Bearer ${TOKEN}" \
     -H "Content-Type: application/json" \
@@ -397,7 +409,7 @@ for tenant in timkoko acmecorp umbrellacorp; do
     "${KEYCLOAK_URL}/admin/realms/${REALM}/groups?search=${tenant}" \
     | jq -r '.[0].id')
 
-  # Create reader and writer subgroups
+  # Reader- und Writer-Untergruppen erstellen
   for subgroup in "${tenant}-reader" "${tenant}-writer"; do
     curl -s -X POST "${KEYCLOAK_URL}/admin/realms/${REALM}/groups/${PARENT_ID}/children" \
       -H "Authorization: Bearer ${TOKEN}" \
@@ -405,7 +417,7 @@ for tenant in timkoko acmecorp umbrellacorp; do
       -d "{\"name\": \"${subgroup}\"}"
   done
 
-  # Add the service account to both groups
+  # Service Account beiden Gruppen zuweisen
   CLIENT_UUID=$(curl -s -H "Authorization: Bearer ${TOKEN}" \
     "${KEYCLOAK_URL}/admin/realms/${REALM}/clients" \
     | jq -r ".[] | select(.clientId==\"${tenant}\") | .id")
@@ -423,11 +435,11 @@ for tenant in timkoko acmecorp umbrellacorp; do
       -H "Authorization: Bearer ${TOKEN}" \
       "${KEYCLOAK_URL}/admin/realms/${REALM}/users/${SA_UUID}/groups/${GROUP_ID}"
   done
-  echo "Groups and membership configured for ${tenant}"
+  echo "Gruppen und Mitgliedschaften konfiguriert für ${tenant}"
 done
 ```
 
-The resulting group structure looks like this:
+Die resultierende Gruppenstruktur sieht wie folgt aus:
 
 - timkoko
   - timkoko-reader
@@ -439,14 +451,14 @@ The resulting group structure looks like this:
   - umbrellacorp-reader
   - umbrellacorp-writer
 
-## Verify Authentication
+## Authentifizierung verifizieren
 
-With the broker and Keycloak clients configured, we can verify that OAuth authentication works by obtaining a token
-and inspecting it.
+Mit dem konfigurierten Broker und den Keycloak-Clients können wir nun prüfen, ob die OAuth-Authentifizierung
+funktioniert, indem wir ein Token beziehen und untersuchen.
 
-### Obtain and Inspect a Token
+### Token beziehen und untersuchen
 
-Fetch a `client_credentials` token for the `timkoko` client:
+Ein `client_credentials`-Token für den `timkoko`-Client beziehen:
 
 ```shell
 KEYCLOAK_URL="http://localhost:8080"
@@ -461,13 +473,13 @@ ACCESS_TOKEN=$(curl -s "${KEYCLOAK_URL}/realms/${REALM}/protocol/openid-connect/
 echo ${ACCESS_TOKEN}
 ```
 
-Decode and inspect the token payload:
+Token-Payload dekodieren und untersuchen:
 
 ```shell
 echo ${ACCESS_TOKEN} | jq -R 'split(".") | .[1] | @base64d | fromjson'
 ```
 
-The decoded token should contain (among other fields):
+Das dekodierte Token sollte (unter anderem) folgende Felder enthalten:
 
 ```json
 {
@@ -481,19 +493,19 @@ The decoded token should contain (among other fields):
 }
 ```
 
-Verify the following:
+Folgendes sollte überprüft werden:
 
-- `aud` contains `kafka-broker` - the audience mapper is working
-- `preferred_username` is set - the broker uses this as the Kafka principal via `oauth.username.claim`
-- `exp` is approximately 600 seconds in the future - the token lifespan is configured correctly
+- `aud` enthält `kafka-broker` - der Audience Mapper funktioniert
+- `preferred_username` ist gesetzt - der Broker verwendet dies als Kafka-Principal über `oauth.username.claim`
+- `exp` liegt ungefähr 600 Sekunden in der Zukunft - die Token-Lebensdauer ist korrekt konfiguriert
 
-### Test Authentication from a Kafka CLI Pod
+### Authentifizierung von einem Kafka-CLI-Pod testen
 
-To test end-to-end authentication against the Kafka cluster, use a CLI pod running inside the Kubernetes cluster. The
-following example uses the Apache Kafka `OAuthBearerLoginCallbackHandler`:
+Um die End-to-End-Authentifizierung gegen den Kafka-Cluster zu testen, verwenden wir einen CLI-Pod innerhalb des
+Kubernetes-Clusters. Das folgende Beispiel verwendet den Apache Kafka `OAuthBearerLoginCallbackHandler`:
 
 ```shell
-# From inside a pod with Kafka CLI tools and access to the cluster CA certificate
+# Innerhalb eines Pods mit Kafka-CLI-Tools und Zugriff auf das Cluster-CA-Zertifikat
 cat > /tmp/client.properties <<EOF
 bootstrap.servers=my-kafka-cluster-kafka-bootstrap:9094
 security.protocol=SASL_SSL
@@ -508,15 +520,15 @@ ssl.truststore.location=/certs/truststore.p12
 ssl.truststore.password=\${TRUSTSTORE_PASSWORD}
 EOF
 
-# List topics - should authenticate successfully
+# Topics auflisten - sollte erfolgreich authentifizieren
 kafka-topics --bootstrap-server my-kafka-cluster-kafka-bootstrap:9094 \
   --command-config /tmp/client.properties --list
 ```
 
-If authentication is successful, the command connects to the broker and returns the list of topics. If the token or
-audience is invalid, you will see an `SaslAuthenticationException`.
+Bei erfolgreicher Authentifizierung verbindet sich der Befehl mit dem Broker und gibt die Liste der Topics zurück.
+Falls das Token oder die Audience ungültig ist, wird eine `SaslAuthenticationException` angezeigt.
 
-Alternatively, using the Strimzi `JaasClientOauthLoginCallbackHandler`:
+Alternativ mit dem Strimzi `JaasClientOauthLoginCallbackHandler`:
 
 ```shell
 cat > /tmp/client-strimzi.properties <<EOF
@@ -531,7 +543,7 @@ ssl.truststore.location=/certs/truststore.p12
 ssl.truststore.password=\${TRUSTSTORE_PASSWORD}
 EOF
 
-# Set credentials via environment variables
+# Credentials über Umgebungsvariablen setzen
 export OAUTH_CLIENT_ID=timkoko
 export OAUTH_CLIENT_SECRET=timkoko-secret
 
@@ -539,21 +551,23 @@ kafka-topics.sh --bootstrap-server my-kafka-cluster-kafka-bootstrap:9094 \
   --command-config /tmp/client-strimzi.properties --list
 ```
 
-> The Strimzi `JaasClientOauthLoginCallbackHandler` provides improved logging, metrics, enhanced caching and retries
-> for token handling. It is easier to use in a Kubernetes setup as it supports configuration using environment
-> variables. However, it requires the `strimzi-kafka-oauth-client` library which might not be available in all
-> environments. The Apache Kafka `OAuthBearerLoginCallbackHandler` is production-ready since Kafka 2.8 and is
-> available in all Kafka distributions.
+> Der Strimzi `JaasClientOauthLoginCallbackHandler` bietet verbessertes Logging, Metriken, erweitertes Caching und
+> Retries für die Token-Verarbeitung. Er ist in einem Kubernetes-Setup einfacher zu verwenden, da er die Konfiguration
+> über Umgebungsvariablen unterstützt. Allerdings benötigt er die `strimzi-kafka-oauth-client`-Library, die
+> möglicherweise nicht in allen Umgebungen verfügbar ist. Der Apache Kafka `OAuthBearerLoginCallbackHandler` ist seit
+> Kafka 2.8 produktionsreif und in allen Kafka-Distributionen verfügbar.
 
-## What's Next
+## Wie weiter?
 
-At this point, all tenant clients can authenticate against the Kafka cluster using OAuth tokens issued by Keycloak.
-However, there are no authorization rules in place yet - any authenticated client can access any topic.
+Zu diesem Zeitpunkt können sich alle Tenant-Clients mittels OAuth-Tokens von Keycloak gegen den Kafka-Cluster
+authentifizieren. Allerdings sind noch keine Autorisierungsregeln vorhanden - jeder authentifizierte Client kann auf
+jedes Topic zugreifen.
 
-In **Part 2**, we configure the `KeycloakAuthorizer` on the Kafka broker and set up Keycloak's Authorization Services
-with scopes, resources, policies, and permissions to enforce fine-grained, multi-tenant access control.
+In **Teil 2** konfigurieren wir den `KeycloakAuthorizer` auf dem Kafka-Broker und richten die Keycloak Authorization
+Services mit Scopes, Ressourcen, Richtlinien und Berechtigungen ein, um feingranulare, Multi-Tenant-Zugriffskontrollen
+durchzusetzen.
 
-## Do you need help or guidance?
+## Brauchst du Hilfe oder Beratung?
 
-Do you need help setting up OAuth authentication for your Kafka cluster or do you have general questions about Apache
-Kafka? Do not hesitate to contact us.
+Brauchst du Hilfe bei der Einrichtung von OAuth-Authentifizierung für deinen Kafka-Cluster oder hast du allgemeine
+Fragen zu Apache Kafka? Zögere nicht, uns zu kontaktieren.

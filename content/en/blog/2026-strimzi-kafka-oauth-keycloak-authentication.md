@@ -1,9 +1,9 @@
 ---
-title: "Kafka OAuth 2.0 Authentication with Strimzi and Keycloak (Part 1)"
+title: "Kafka OAuth 2 Authentication with Strimzi and Keycloak"
 slug: "strimzi-kafka-oauth-keycloak-authentication"
 description: ""
-date: 2026-03-23T00:00:00+00:00
-lastmod: 2026-03-23T00:00:00+00:00
+date: 2026-03-24T00:00:00+00:00
+lastmod: 2026-03-24T00:00:00+00:00
 draft: false
 images: ["images/blog/kafka-strimzi-v1/tk-blogpost-strimzi-v1-share-image.jpg"]
 Sitemap:
@@ -15,14 +15,14 @@ additionalblogposts: [ 'strimzi-kafka-0.49.0-api-v1', "kafka-4", 'kafka-zookeepe
 
 post_img: "images/blog/kafka-strimzi-v1/tk-blogpost-strimzi-v1.jpg"
 img_border: true
-lead: "In multi-tenant Kafka environments, managing credentials and identities at scale requires more than static passwords. This first part of our two-part series covers setting up OAuth 2.0 authentication on a Strimzi-managed Kafka cluster using Keycloak - from broker listener configuration to provisioning tenant clients and verifying token-based authentication."
+lead: "In multi-tenant Kafka environments, managing credentials and identities at scale requires more than static passwords. This first part of our two-part series covers setting up OAuth 2 authentication on a Strimzi-managed Kafka cluster using Keycloak - from broker listener configuration to provisioning tenant clients and verifying token-based authentication."
 ---
 
 In modern event-driven architectures, Apache Kafka often serves as the central nervous system connecting multiple
 teams, services, and even organizations. As Kafka adoption grows, so does the need for a robust, centralized identity
 and access management solution.
 
-This two-part series walks through configuring a Strimzi-managed Kafka cluster with OAuth 2.0 authentication and
+This two-part series walks through configuring a Strimzi-managed Kafka cluster with OAuth 2 authentication and
 Keycloak-based authorization - a production-grade approach to multi-tenant Kafka security on Kubernetes.
 
 - **Part 1 (this post):** OAuth authentication - configuring the broker, provisioning Keycloak clients, and verifying token-based access.
@@ -32,7 +32,7 @@ Keycloak-based authorization - a production-grade approach to multi-tenant Kafka
 
 Traditional Kafka authentication mechanisms like SASL/PLAIN or SASL/SCRAM require managing credentials directly within
 the Kafka ecosystem. This becomes cumbersome at scale, especially in multi-tenant environments. Combining Strimzi,
-Keycloak, and OAuth 2.0 offers several advantages:
+Keycloak, and OAuth 2 offers several advantages:
 
 - **Centralized identity management:** Keycloak provides a single source of truth for all client identities, secrets,
   and access policies. When integrated with LDAP or Active Directory federation, organizational structures map directly
@@ -76,23 +76,25 @@ This guide assumes:
 
 The following users are configured in this setup:
 
-| User            | Kafka User        | Password / Secret       | Auth Method | Description                                  |
-|-----------------|-------------------|-------------------------|-------------|----------------------------------------------|
-| Kafka Broker    | kafka-broker      | kafka-broker-secret     | OAuth       | Kafka Broker Client (Authorization Services) |
-| Kafka Admin     | kafka-admin       | kafka-admin-secret      | OAuth       | Kafka Admin (superuser)                      |
-| Company A       | timkoko           | timkoko-secret          | OAuth       | Sample Tenant A (timkoko)                    |
-| Company B       | acmecorp          | acmecorp-secret         | OAuth       | Sample Tenant B (acme corp.)                 |
-| Company C       | umbrellacorp      | umbrellacorp-secret     | OAuth       | Sample Tenant C (umbrella corp.)             |
+{{< csvtable "responsive" "," >}}
+User,Kafka User,Password / Secret,Description
+Kafka Broker,kafka-broker,kafka-broker-secret,Kafka Broker Client (Authorization Services)
+Kafka Admin,kafka-admin,kafka-admin-secret,Kafka Admin (superuser)
+Organization A,timkoko,timkoko-secret,Sample Tenant A (timkoko)
+Organization B,acmecorp,acmecorp-secret,Sample Tenant B (acme corp.)
+Organization C,umbrellacorp,umbrellacorp-secret,Sample Tenant C (umbrella corp.)
+{{< /csvtable >}}
 
 ### Topics
 
 The following topics are created for testing:
 
-| Topic                      | Tenant / Org   | Description                              |
-|----------------------------|----------------|------------------------------------------|
-| timkoko-topic-demo-v0      | timkoko        | Topic accessible by timkoko user         |
-| acmecorp-topic-demo-v0     | acmecorp       | Topic accessible by acmecorp user        |
-| umbrellacorp-topic-demo-v0 | umbrellacorp   | Topic accessible by umbrellacorp user    |
+{{< csvtable "responsive" "," >}}
+Topic,Tenant / Org,Description
+timkoko-topic-demo-v0,timkoko,Topic accessible by timkoko user
+acmecorp-topic-demo-v0,acmecorp,Topic accessible by acmecorp user
+umbrellacorp-topic-demo-v0,umbrellacorp,Topic accessible by umbrellacorp user
+{{< /csvtable >}}
 
 ## Kafka Cluster Configuration
 
@@ -100,6 +102,8 @@ The following topics are created for testing:
 
 The Strimzi Kafka resource supports multiple listeners, each with its own authentication method. We configure three
 listeners: a plain TLS listener, a mutual TLS listener, and an OAuth listener.
+
+{{< svg "assets/images/blog/strimzi-kafka/strimzi-kafka-oauth2-keycloak-listeners.svg" >}}
 
 > In Strimzi 0.52.0, the dedicated `oauth` and `keycloak` authentication types will be removed. OAuth is now
 > configured using `type: custom` with SASL and the appropriate callback handlers. See the
@@ -176,7 +180,7 @@ requires connecting to Keycloak for every token validation.
 **Audience check:** `oauth.check.audience="true"` ensures the token's `aud` claim contains `kafka-broker`, preventing
 tokens issued for other services from being accepted.
 
-**Secret reference:** The broker client secret is stored as a Kubernetes Secret and referenced using Strimzi's
+**Secret reference:** The broker client secret is stored as a Kubernetes Secret and referenced using Strimzis
 `KubernetesSecretConfigProvider` syntax: `${secrets:NAMESPACE/SECRET_NAME:KEY}`.
 
 **Inter-broker communication:** According to Strimzi it is best to use mTLS for inter-broker communication. This is
@@ -202,7 +206,7 @@ For the Kafka pods to read this secret, an additional `Role` and `RoleBinding` i
 
 ### Create Tenant Topics
 
-Define the tenant topics using Strimzi's `KafkaTopic` custom resource. Each topic follows the naming convention
+Define the tenant topics using Strimzis `KafkaTopic` custom resource. Each topic follows the naming convention
 `<tenant>-topic-demo-v0`:
 
 ```yaml
