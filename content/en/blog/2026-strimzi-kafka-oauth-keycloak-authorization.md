@@ -468,6 +468,7 @@ kafka-topics --bootstrap-server my-kafka-cluster-kafka-bootstrap:9094 \
 ```
 
 Expected output:
+
 ```text
 timkoko-topic-demo-v0
 ```
@@ -502,6 +503,7 @@ echo "hello" | kafka-console-producer \
 ```
 
 Expected error:
+
 ```text
 ERROR [Producer clientId=console-producer] Topic authorization failed for topics [acmecorp-topic-demo-v0]
 org.apache.kafka.common.errors.TopicAuthorizationException: Not authorized to access topics: [acmecorp-topic-demo-v0]
@@ -519,6 +521,7 @@ kafka-console-consumer \
 ```
 
 Expected error:
+
 ```text
 ERROR [Consumer clientId=...] Topic authorization failed for topics [umbrellacorp-topic-demo-v0]
 org.apache.kafka.common.errors.TopicAuthorizationException: Not authorized to access topics: [umbrellacorp-topic-demo-v0]
