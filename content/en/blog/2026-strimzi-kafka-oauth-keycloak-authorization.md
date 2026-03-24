@@ -256,7 +256,7 @@ Resources define what we are protecting. The general pattern is `RESOURCE_TYPE:N
 with `*` highly reduces the number of resources needed.
 
 For each tenant we create a `Topic` and `Group` resource. The scopes defined on a resource specify which operations
-are *possible* on this resource — they do not implicate that access is granted automatically.
+are **possible** on this resource — they do not implicate that access is granted automatically.
 
 ```shell
 for tenant in timkoko acmecorp umbrellacorp; do
@@ -468,7 +468,7 @@ kafka-topics --bootstrap-server my-kafka-cluster-kafka-bootstrap:9094 \
 ```
 
 Expected output:
-```
+```text
 timkoko-topic-demo-v0
 ```
 
@@ -502,7 +502,7 @@ echo "hello" | kafka-console-producer \
 ```
 
 Expected error:
-```
+```text
 ERROR [Producer clientId=console-producer] Topic authorization failed for topics [acmecorp-topic-demo-v0]
 org.apache.kafka.common.errors.TopicAuthorizationException: Not authorized to access topics: [acmecorp-topic-demo-v0]
 ```
@@ -519,7 +519,7 @@ kafka-console-consumer \
 ```
 
 Expected error:
-```
+```text
 ERROR [Consumer clientId=...] Topic authorization failed for topics [umbrellacorp-topic-demo-v0]
 org.apache.kafka.common.errors.TopicAuthorizationException: Not authorized to access topics: [umbrellacorp-topic-demo-v0]
 ```
