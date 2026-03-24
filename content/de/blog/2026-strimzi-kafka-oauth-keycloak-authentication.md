@@ -106,9 +106,6 @@ Die Strimzi-Kafka-Ressource unterstützt mehrere Listener, die jeweils eine eige
 können. Wir konfigurieren drei Listener: einen TLS-Listener ohne Client-Authentifizierung, einen Mutual-TLS-Listener
 und einen OAuth-Listener.
 
-{{< svg "assets/images/blog/strimzi-kafka/strimzi-kafka-oauth2-keycloak-authn.svg" >}}
-
-
 {{< svg "assets/images/blog/strimzi-kafka/strimzi-kafka-oauth2-keycloak-listeners.svg" >}}
 
 > In Strimzi 0.52.0 werden die dedizierten Authentifizierungstypen `oauth` und `keycloak` entfernt. OAuth wird neu
