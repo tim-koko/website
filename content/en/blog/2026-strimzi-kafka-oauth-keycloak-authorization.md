@@ -25,7 +25,7 @@ and verified that token-based authentication works. At this point any authentica
 This second part covers the authorization side: configuring the `KeycloakAuthorizer` on the Kafka broker and setting up
 Keycloak's Authorization Services to enforce that each tenant can only access their own topics and consumer groups.
 
-{{< svg "assets/images/blog/kafka-strimzi/strimzi-kafka-oauth2-keycloak-authz.svg" >}}
+{{< svg "assets/images/blog/kafka-strimzi/strimzi-kafka-oauth2-keycloak-authz-services.svg" >}}
 
 ### Keycloak Authorization Concepts
 
@@ -395,6 +395,8 @@ allows access to write to the topics.
 ## Verify Authorization
 
 With authentication and authorization fully configured, we can verify that multi-tenant isolation works correctly.
+
+{{< svg "assets/images/blog/kafka-strimzi/strimzi-kafka-oauth2-keycloak-authz.svg" >}}
 
 ### Inspect an Authorization Token
 
