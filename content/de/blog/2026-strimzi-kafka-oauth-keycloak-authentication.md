@@ -449,6 +449,8 @@ Die resultierende Gruppenstruktur sieht wie folgt aus:
   - umbrellacorp-reader
   - umbrellacorp-writer
 
+{{< custom-image "../images/kafka-strimzi/strimzi-kafka-oauth-keycloak-groups.png" "960" >}}
+
 ## Authentifizierung verifizieren
 
 Mit dem konfigurierten Broker und den Keycloak-Clients können wir nun prüfen, ob die OAuth-Authentifizierung
