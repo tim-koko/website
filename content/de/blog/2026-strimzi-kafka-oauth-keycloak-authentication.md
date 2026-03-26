@@ -358,7 +358,6 @@ Ansicht der angelegten Clients:
 
 {{< custom-image "../images/kafka-strimzi/strimzi-kafka-oauth-keycloak-clients.png" "960" >}}
 
-
 ### Audience Mapper hinzufügen
 
 Jeder Client benötigt einen Audience Mapper, damit das ausgestellte JWT `aud: kafka-broker` enthält. Dies ist
@@ -502,7 +501,6 @@ Folgendes sollte überprüft werden:
 
 Um die End-to-End-Authentifizierung gegen den Kafka-Cluster zu testen, verwenden wir einen CLI-Pod innerhalb des
 Kubernetes-Clusters.
-
 
 ```yaml
 apiVersion: apps/v1
