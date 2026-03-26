@@ -2,8 +2,8 @@
 title: "Kafka OAuth 2 Authentication with Strimzi and Keycloak"
 slug: "strimzi-kafka-oauth-keycloak-authentication"
 description: ""
-date: 2026-03-24T00:00:00+00:00
-lastmod: 2026-03-24T00:00:00+00:00
+date: 2026-03-26T00:00:00+00:00
+lastmod: 2026-03-26T00:00:00+00:00
 draft: false
 images: ["images/blog/kafka-strimzi-v1/tk-blogpost-strimzi-v1-share-image.jpg"]
 Sitemap:
@@ -49,7 +49,7 @@ Keycloak, and OAuth 2 offers several advantages:
 
 ### Key Keycloak Concepts
 
-Before diving into the configuration, here is a brief overview of the Keycloak concepts relevant for authentication:
+Before we go into the configuration details, here is a brief overview of the Keycloak concepts relevant for authentication:
 
 - **Realm:** An isolated namespace for managing users, clients, and policies. We create a dedicated `kafka` realm to
   keep Kafka-related configuration separate from other applications sharing the same Keycloak instance.
@@ -350,6 +350,10 @@ for tenant in timkoko acmecorp umbrellacorp; do
 done
 ```
 
+Final view of the clients:
+
+{{< custom-image "../images/kafka-strimzi/strimzi-kafka-oauth-keycloak-clients.png" "960" >}}
+
 ### Add Audience Mapper
 
 Every client needs an audience mapper so the issued JWT contains `aud: kafka-broker`. This is required because the
@@ -359,8 +363,7 @@ To allow checking the audience, we add an audience mapper for each client. This 
 to the token:
 
 ```shell
-CLIENTS=$(curl -s -H "Authorization: Bearer ${TOKEN}" \
-  "${KEYCLOAK_URL}/admin/realms/${REALM}/clients")
+CLIENTS=$(curl -s -H "Authorization: Bearer ${TOKEN}" "${KEYCLOAK_URL}/admin/realms/${REALM}/clients")
 
 for client_id in kafka-broker timkoko acmecorp umbrellacorp; do
   CLIENT_UUID=$(echo ${CLIENTS} | jq -r ".[] | select(.clientId==\"${client_id}\") | .id")
@@ -379,13 +382,12 @@ for client_id in kafka-broker timkoko acmecorp umbrellacorp; do
         "access.token.claim": "true"
       }
     }'
-  echo "Audience mapper created for ${client_id} (${CLIENT_UUID})"
 done
 ```
 
 ### Create Groups and Assign Service Accounts
 
-Each tenant gets a parent group with `reader` and `writer` subgroups. The tenant's service account is added to both
+For demonstration purpose, each tenant gets a parent group with `reader` and `writer` subgroups. The tenants service account is added to both
 subgroups. Having distinct reader and writer groups allows giving specific read-access when needed, for example for
 debugging purposes on a development stage.
 
@@ -427,7 +429,6 @@ for tenant in timkoko acmecorp umbrellacorp; do
       -H "Authorization: Bearer ${TOKEN}" \
       "${KEYCLOAK_URL}/admin/realms/${REALM}/users/${SA_UUID}/groups/${GROUP_ID}"
   done
-  echo "Groups and membership configured for ${tenant}"
 done
 ```
 
@@ -443,6 +444,8 @@ The resulting group structure looks like this:
   - umbrellacorp-reader
   - umbrellacorp-writer
 
+{{< custom-image "../images/kafka-strimzi/strimzi-kafka-oauth-keycloak-groups.png" "960" >}}
+
 ## Verify Authentication
 
 With the broker and Keycloak clients configured, we can verify that OAuth authentication works by obtaining a token
@@ -453,9 +456,6 @@ and inspecting it.
 Fetch a `client_credentials` token for the `timkoko` client:
 
 ```shell
-KEYCLOAK_URL="http://localhost:8080"
-REALM="kafka"
-
 ACCESS_TOKEN=$(curl -s "${KEYCLOAK_URL}/realms/${REALM}/protocol/openid-connect/token" \
   -d "client_id=timkoko" \
   -d "client_secret=timkoko-secret" \
@@ -478,9 +478,12 @@ The decoded token should contain (among other fields):
   "iss": "http://keycloak-service.keycloak.svc.cluster.local:8080/realms/kafka",
   "sub": "...",
   "aud": "kafka-broker",
+  "typ": "Bearer",
   "preferred_username": "service-account-timkoko",
   "azp": "timkoko",
   "scope": "openid profile",
+  "client_id": "timkoko",
+  "iat": 1234567290,
   "exp": 1234567890
 }
 ```
@@ -493,11 +496,62 @@ Verify the following:
 
 ### Test Authentication from a Kafka CLI Pod
 
-To test end-to-end authentication against the Kafka cluster, use a CLI pod running inside the Kubernetes cluster. The
-following example uses the Apache Kafka `OAuthBearerLoginCallbackHandler`:
+To test end-to-end authentication against the Kafka cluster, use a CLI pod running inside the Kubernetes cluster.
+
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kafka-cli
+  labels:
+    app: kafka-cli
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kafka-cli
+  template:
+    metadata:
+      labels:
+        app: kafka-cli
+    spec:
+      containers:
+        - name: kafka
+          env:
+          - name: KAFKA_OPTS
+            value: -Dorg.apache.kafka.sasl.oauthbearer.allowed.urls=http://keycloak-service.keycloak.svc.cluster.local:8080/realms/kafka/protocol/openid-connect/token
+          - name: TRUSTSTORE_PASSWORD
+            valueFrom:
+              secretKeyRef:
+                key: ca.password
+                name: my-kafka-cluster-cluster-ca-cert
+          image: quay.io/strimzi/kafka:0.49.0-kafka-4.1.1
+          command:
+            - tail
+            - -f
+            - /dev/null
+          resources:
+            requests:
+              memory: "256Mi"
+              cpu: "100m"
+            limits:
+              memory: "512Mi"
+              cpu: "500m"
+          volumeMounts:
+          - mountPath: /certs/truststore.p12
+            name: cluster-cert
+            subPath: ca.p12
+      volumes:
+      - name: cluster-cert
+        secret:
+          defaultMode: 420
+          secretName: my-kafka-cluster-cluster-ca-cert
+```
+
+The following example uses the Apache Kafka `OAuthBearerLoginCallbackHandler`:
 
 ```shell
-# From inside a pod with Kafka CLI tools and access to the cluster CA certificate
+# From inside the CLI pod with Kafka CLI tools and access to the cluster CA certificate
 cat > /tmp/client.properties <<EOF
 bootstrap.servers=my-kafka-cluster-kafka-bootstrap:9094
 security.protocol=SASL_SSL
@@ -509,12 +563,11 @@ sasl.login.callback.handler.class=org.apache.kafka.common.security.oauthbearer.O
 sasl.oauthbearer.token.endpoint.url=http://keycloak-service.keycloak.svc.cluster.local:8080/realms/kafka/protocol/openid-connect/token
 ssl.truststore.type=PKCS12
 ssl.truststore.location=/certs/truststore.p12
-ssl.truststore.password=\${TRUSTSTORE_PASSWORD}
+ssl.truststore.password=${TRUSTSTORE_PASSWORD}
 EOF
 
 # List topics - should authenticate successfully
-kafka-topics --bootstrap-server my-kafka-cluster-kafka-bootstrap:9094 \
-  --command-config /tmp/client.properties --list
+./bin/kafka-topics.sh --bootstrap-server my-kafka-cluster-kafka-bootstrap:9094 --command-config /tmp/client.properties --list
 ```
 
 If authentication is successful, the command connects to the broker and returns the list of topics. If the token or
@@ -532,15 +585,15 @@ sasl.jaas.config=org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginMo
 sasl.login.callback.handler.class=io.strimzi.kafka.oauth.client.JaasClientOauthLoginCallbackHandler
 ssl.truststore.type=PKCS12
 ssl.truststore.location=/certs/truststore.p12
-ssl.truststore.password=\${TRUSTSTORE_PASSWORD}
+ssl.truststore.password=${TRUSTSTORE_PASSWORD}
 EOF
 
 # Set credentials via environment variables
 export OAUTH_CLIENT_ID=timkoko
 export OAUTH_CLIENT_SECRET=timkoko-secret
 
-kafka-topics.sh --bootstrap-server my-kafka-cluster-kafka-bootstrap:9094 \
-  --command-config /tmp/client-strimzi.properties --list
+# List topics - should authenticate successfully
+./bin/kafka-topics.sh --bootstrap-server my-kafka-cluster-kafka-bootstrap:9094 --command-config /tmp/client-strimzi.properties --list
 ```
 
 > The Strimzi `JaasClientOauthLoginCallbackHandler` provides improved logging, metrics, enhanced caching and retries
