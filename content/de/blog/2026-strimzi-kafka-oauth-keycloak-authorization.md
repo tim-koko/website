@@ -2,8 +2,8 @@
 title: "Kafka OAuth 2 Autorisierung mit Strimzi und Keycloak"
 slug: "kafka-oauth-strimzi-keycloak-authorization"
 description: ""
-date: 2026-03-24T01:00:00+00:00
-lastmod: 2026-03-24T01:00:00+00:00
+date: 2026-03-30T01:00:00+00:00
+lastmod: 2026-03-30T01:00:00+00:00
 draft: false
 images: ["images/blog/kafka-strimzi-v1/tk-blogpost-strimzi-v1-share-image.jpg"]
 img_border: true
@@ -42,6 +42,7 @@ Die Keycloak Authorization Services stellen vier Bausteine bereit, die zusammens
   definieren, welche Operationen möglich sind.
 - **Policies:** Definieren, welche Benutzergruppen wir mit Berechtigungen ansprechen wollen. Wir verwenden
   gruppenbasierte Richtlinien, die Berechtigungen an Keycloak-Gruppen wie `timkoko-reader` oder `acmecorp-writer` binden.
+  Ein weiteres gängiges Muster ist die Verwendung von rollenbasierten Richtlinien.
 - **Permissions:** Verbinden spezifische Ressourcen, Aktions-Scopes und Richtlinien miteinander, um zu definieren, dass
   _bestimmte Benutzer U bestimmte Aktionen A auf Ressource R ausführen können_.
 
@@ -252,7 +253,6 @@ for scope in Create Write Read Delete Describe Alter \
     -H "Authorization: Bearer ${TOKEN}" \
     -H "Content-Type: application/json" \
     -d '{"name":"'${scope}'","displayName":"'${scope}' kafka operation"}'
-  echo "Scope ${scope} erstellt."
 done
 ```
 
@@ -296,7 +296,6 @@ for tenant in timkoko acmecorp umbrellacorp; do
       "scopes": [{"name":"Read"},{"name":"Describe"},{"name":"Delete"}],
       "ownerManagedAccess": false
     }'
-  echo "Ressourcen für ${tenant} erstellt."
 done
 ```
 
@@ -331,7 +330,6 @@ for tenant in timkoko acmecorp umbrellacorp; do
           {"id": "'${GROUP_UUID}'", "extendChildren": false}
         ]
       }'
-    echo "Richtlinie ${tenant}-${role}-policy erstellt."
   done
 done
 ```
@@ -362,7 +360,6 @@ for tenant in timkoko acmecorp umbrellacorp; do
       "policies": ["'${tenant}'-reader-policy"],
       "decisionStrategy": "AFFIRMATIVE"
     }'
-  echo "Berechtigung ${tenant}-read-topics erstellt."
 
   # 2. Consumer-Group-Berechtigung
   curl -s -X POST \
@@ -377,7 +374,6 @@ for tenant in timkoko acmecorp umbrellacorp; do
       "policies": ["'${tenant}'-reader-policy"],
       "decisionStrategy": "AFFIRMATIVE"
     }'
-  echo "Berechtigung ${tenant}-consumer-group erstellt."
 
   # 3. Schreibberechtigung auf Topics
   curl -s -X POST \
@@ -392,7 +388,6 @@ for tenant in timkoko acmecorp umbrellacorp; do
       "policies": ["'${tenant}'-writer-policy"],
       "decisionStrategy": "AFFIRMATIVE"
     }'
-  echo "Berechtigung ${tenant}-write-topics erstellt."
 done
 ```
 
@@ -432,11 +427,7 @@ Der `authorization`-Abschnitt im dekodierten Token sollte die gewährten Berecht
     "permissions": [
       {
         "rsname": "Topic:timkoko-*",
-        "scopes": ["Read", "Describe"]
-      },
-      {
-        "rsname": "Topic:timkoko-*",
-        "scopes": ["Write", "Describe"]
+        "scopes": ["Read", "Write", "Describe"]
       },
       {
         "rsname": "Group:timkoko-*",
@@ -452,7 +443,7 @@ Beachte, dass nur `timkoko-*`-Ressourcen vorhanden sind - es gibt keinen Zugriff
 
 ### Autorisierung von einem Kafka-CLI-Pod testen
 
-Client-Konfiguration erstellen und gegen den Kafka-Cluster testen:
+Im CLI Pod aus dem [Teil 1 Authentifizierung](https://tim-koko.ch/de/blog/strimzi-kafka-oauth-keycloak-authentication/) erstellen wir die Client-Konfiguration um gegen den Kafka-Cluster zu testen:
 
 ```shell
 # Innerhalb eines Pods mit Kafka-CLI-Tools
@@ -460,22 +451,21 @@ cat > /tmp/client.properties <<EOF
 bootstrap.servers=my-kafka-cluster-kafka-bootstrap:9094
 security.protocol=SASL_SSL
 sasl.mechanism=OAUTHBEARER
-sasl.jaas.config=org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModule required \
-  clientId="timkoko" \
-  clientSecret="timkoko-secret";
+sasl.jaas.config=org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModule required;
 sasl.login.callback.handler.class=org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginCallbackHandler
+sasl.oauthbearer.client.credentials.client.id=timkoko
+sasl.oauthbearer.client.credentials.client.secret=timkoko-secret
 sasl.oauthbearer.token.endpoint.url=http://keycloak-service.keycloak.svc.cluster.local:8080/realms/kafka/protocol/openid-connect/token
 ssl.truststore.type=PKCS12
 ssl.truststore.location=/certs/truststore.p12
-ssl.truststore.password=\${TRUSTSTORE_PASSWORD}
+ssl.truststore.password=${TRUSTSTORE_PASSWORD}
 EOF
 ```
 
 **Topics auflisten** - sollte nur das eigene Tenant-Topic anzeigen:
 
 ```shell
-kafka-topics --bootstrap-server my-kafka-cluster-kafka-bootstrap:9094 \
-  --command-config /tmp/client.properties --list
+./bin/kafka-topics.sh --bootstrap-server my-kafka-cluster-kafka-bootstrap:9094 --command-config /tmp/client.properties --list
 ```
 
 Erwartete Ausgabe:
@@ -484,19 +474,20 @@ Erwartete Ausgabe:
 timkoko-topic-demo-v0
 ```
 
-**Auf eigenes Topic produzieren** - sollte erfolgreich sein:
+**In eigenes Topic produzieren** - sollte erfolgreich sein:
 
 ```shell
-echo "hello from timkoko" | kafka-console-producer \
+echo "hello from timkoko" | ./bin/kafka-console-producer.sh \
   --bootstrap-server my-kafka-cluster-kafka-bootstrap:9094 \
   --producer.config /tmp/client.properties \
+  --producer-property enable.idempotence=false \
   --topic timkoko-topic-demo-v0
 ```
 
 **Vom eigenen Topic konsumieren** - sollte erfolgreich sein:
 
 ```shell
-kafka-console-consumer \
+./bin/kafka-console-consumer.sh \
   --bootstrap-server my-kafka-cluster-kafka-bootstrap:9094 \
   --consumer.config /tmp/client.properties \
   --topic timkoko-topic-demo-v0 \
@@ -504,12 +495,13 @@ kafka-console-consumer \
   --from-beginning --max-messages 1
 ```
 
-**Auf ein Topic eines anderen Tenants produzieren** - sollte verweigert werden:
+**In ein Topic eines anderen Tenants produzieren** - sollte verweigert werden:
 
 ```shell
-echo "hello" | kafka-console-producer \
+echo "hello" | ./bin/kafka-console-producer.sh  \
   --bootstrap-server my-kafka-cluster-kafka-bootstrap:9094 \
   --producer.config /tmp/client.properties \
+  --producer-property enable.idempotence=false \
   --topic acmecorp-topic-demo-v0
 ```
 
@@ -523,19 +515,12 @@ org.apache.kafka.common.errors.TopicAuthorizationException: Not authorized to ac
 **Von einem Topic eines anderen Tenants konsumieren** - sollte verweigert werden:
 
 ```shell
-kafka-console-consumer \
+./bin/kafka-console-consumer.sh \
   --bootstrap-server my-kafka-cluster-kafka-bootstrap:9094 \
   --consumer.config /tmp/client.properties \
   --topic umbrellacorp-topic-demo-v0 \
   --group timkoko-sneaky-group \
   --from-beginning --max-messages 1
-```
-
-Erwarteter Fehler:
-
-```text
-ERROR [Consumer clientId=...] Topic authorization failed for topics [umbrellacorp-topic-demo-v0]
-org.apache.kafka.common.errors.TopicAuthorizationException: Not authorized to access topics: [umbrellacorp-topic-demo-v0]
 ```
 
 ## Zusammenfassung
