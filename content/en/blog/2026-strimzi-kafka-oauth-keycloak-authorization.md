@@ -327,10 +327,14 @@ for tenant in timkoko acmecorp umbrellacorp; do
 done
 ```
 
+{{< custom-image "../images/kafka-strimzi/strimzi-kafka-oauth-keycloak-authorization-policies.png" "960" >}}
+
 ### Create Permissions
 
 The final piece ties everything together. Permissions bind a resource with defined scopes to a group policy. Depending
 on the effective client, multiple permissions must be created.
+
+{{< custom-image "../images/kafka-strimzi/strimzi-kafka-oauth-keycloak-authorization-permissions.png" "960" >}}
 
 For each tenant we create three permissions:
 
@@ -386,6 +390,8 @@ done
 
 This ensures that members of the reader group get read access to the consumer group and the topics. The writer group
 allows access to write to the topics.
+
+{{< custom-image "../images/kafka-strimzi/strimzi-kafka-oauth-keycloak-authorization-permission-details.png" "960" >}}
 
 ## Verify Authorization
 

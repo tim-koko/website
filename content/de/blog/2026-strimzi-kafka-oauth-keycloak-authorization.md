@@ -334,10 +334,14 @@ for tenant in timkoko acmecorp umbrellacorp; do
 done
 ```
 
+{{< custom-image "../images/kafka-strimzi/strimzi-kafka-oauth-keycloak-authorization-policies.png" "960" >}}
+
 ### Berechtigungen erstellen
 
 Das letzte Puzzlestück verbindet alles miteinander. Berechtigungen verknüpfen eine Ressource mit definierten Scopes
 und einer Gruppenrichtlinie. Je nach effektivem Client müssen mehrere Berechtigungen erstellt werden.
+
+{{< custom-image "../images/kafka-strimzi/strimzi-kafka-oauth-keycloak-authorization-permissions.png" "960" >}}
 
 Für jeden Tenant erstellen wir drei Berechtigungen:
 
@@ -393,6 +397,8 @@ done
 
 Dies stellt sicher, dass Mitglieder der Reader-Gruppe Lesezugriff auf die Consumer Group und die Topics erhalten.
 Die Writer-Gruppe ermöglicht den Schreibzugriff auf die Topics.
+
+{{< custom-image "../images/kafka-strimzi/strimzi-kafka-oauth-keycloak-authorization-permission-details.png" "960" >}}
 
 ## Autorisierung verifizieren
 
