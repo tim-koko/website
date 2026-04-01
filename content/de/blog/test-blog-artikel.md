@@ -19,9 +19,9 @@ post_img: "images/blog/test.jpg"
 lead: "Einleitungstext"
 
 # don't publish the page
-build:
-  list: never
-  render: never
+# build:
+#  list: never
+#  render: never
 ---
 
 Diese Seite dient als Hilfe für die Formatierung von Content
