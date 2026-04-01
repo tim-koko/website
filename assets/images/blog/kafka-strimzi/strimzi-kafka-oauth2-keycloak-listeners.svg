@@ -1,0 +1,1648 @@
+<svg
+   version="1.1"
+   viewBox="0.0 0.0 894.0 819.0"
+   fill="none"
+   stroke="none"
+   stroke-linecap="square"
+   stroke-miterlimit="10"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <rect
+       x="306.85489"
+       y="324.14249"
+       width="6.4828496"
+       height="39.977573"
+       id="rect67" />
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter68"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feFlood
+         result="result1"
+         flood-color="rgb(10,20,50)"
+         flood-opacity="1"
+         id="feFlood67" />
+      <feImage
+         xlink:href=""
+         result="result2"
+         id="feImage67" />
+      <feBlend
+         result="result4"
+         in2="result1"
+         mode="multiply"
+         id="feBlend67" />
+      <feMerge
+         result="result3"
+         id="feMerge68">
+        <feMergeNode
+           in="result1"
+           id="feMergeNode67" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode68" />
+      </feMerge>
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter75"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feFlood
+         result="result1"
+         flood-color="rgb(10,20,50)"
+         flood-opacity="1"
+         id="feFlood74" />
+      <feImage
+         xlink:href=""
+         result="result2"
+         id="feImage74" />
+      <feBlend
+         result="result4"
+         in2="result1"
+         mode="multiply"
+         id="feBlend74" />
+      <feMerge
+         result="result3"
+         id="feMerge75">
+        <feMergeNode
+           in="result1"
+           id="feMergeNode74" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode75" />
+      </feMerge>
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter77"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feFlood
+         result="result1"
+         flood-color="rgb(10,20,50)"
+         flood-opacity="1"
+         id="feFlood75" />
+      <feImage
+         xlink:href=""
+         result="result2"
+         id="feImage75" />
+      <feBlend
+         result="result4"
+         in2="result1"
+         mode="multiply"
+         id="feBlend75" />
+      <feMerge
+         result="result3"
+         id="feMerge77">
+        <feMergeNode
+           in="result1"
+           id="feMergeNode76" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode77" />
+      </feMerge>
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter79"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feFlood
+         result="result1"
+         flood-color="rgb(10,20,50)"
+         flood-opacity="1"
+         id="feFlood77" />
+      <feImage
+         xlink:href=""
+         result="result2"
+         id="feImage77" />
+      <feBlend
+         result="result4"
+         in2="result1"
+         mode="multiply"
+         id="feBlend77" />
+      <feMerge
+         result="result3"
+         id="feMerge79">
+        <feMergeNode
+           in="result1"
+           id="feMergeNode78" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode79" />
+      </feMerge>
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter81"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feFlood
+         result="result1"
+         flood-color="rgb(10,20,50)"
+         flood-opacity="1"
+         id="feFlood79" />
+      <feImage
+         xlink:href=""
+         result="result2"
+         id="feImage79" />
+      <feBlend
+         result="result4"
+         in2="result1"
+         mode="multiply"
+         id="feBlend79" />
+      <feMerge
+         result="result3"
+         id="feMerge81">
+        <feMergeNode
+           in="result1"
+           id="feMergeNode80" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode81" />
+      </feMerge>
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter83"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feFlood
+         result="result1"
+         flood-color="rgb(10,20,50)"
+         flood-opacity="1"
+         id="feFlood81" />
+      <feImage
+         xlink:href=""
+         result="result2"
+         id="feImage81" />
+      <feBlend
+         result="result4"
+         in2="result1"
+         mode="multiply"
+         id="feBlend81" />
+      <feMerge
+         result="result3"
+         id="feMerge83">
+        <feMergeNode
+           in="result1"
+           id="feMergeNode82" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode83" />
+      </feMerge>
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter85"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feFlood
+         result="result1"
+         flood-color="rgb(10,20,50)"
+         flood-opacity="1"
+         id="feFlood84" />
+      <feImage
+         xlink:href=""
+         result="result2"
+         id="feImage84" />
+      <feBlend
+         result="result4"
+         in2="result1"
+         mode="multiply"
+         id="feBlend84" />
+      <feMerge
+         result="result3"
+         id="feMerge85">
+        <feMergeNode
+           in="result1"
+           id="feMergeNode84" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode85" />
+      </feMerge>
+    </filter>
+  </defs>
+  <g
+     id="g66">
+    <rect
+       x="46"
+       y="168"
+       width="190"
+       height="650"
+       fill-opacity="0.4"
+       fill="#dae8fc"
+       stroke="#6c8ebf"
+       stroke-opacity="0.4"
+       pointer-events="all"
+       id="rect1" />
+    <rect
+       x="395"
+       y="158"
+       width="170"
+       height="650"
+       fill="#dae8fc"
+       stroke="#6c8ebf"
+       pointer-events="all"
+       id="rect2" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g2">
+      <text
+         x="480"
+         y="805"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text2">Kafka Broker</text>
+    </g>
+    <rect
+       x="345"
+       y="186"
+       width="210"
+       height="392"
+       fill-opacity="0.5"
+       fill="#ffe6cc"
+       stroke="#d79b00"
+       stroke-opacity="0.5"
+       stroke-dasharray="3, 3"
+       pointer-events="all"
+       id="rect3" />
+    <rect
+       x="55"
+       y="158"
+       width="190"
+       height="650"
+       fill="#dae8fc"
+       stroke="#6c8ebf"
+       pointer-events="all"
+       id="rect4" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g4">
+      <text
+         x="150"
+         y="805"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text4">Kafka Broker</text>
+    </g>
+    <rect
+       x="60"
+       y="175"
+       width="500"
+       height="90"
+       fill="none"
+       stroke="rgb(0, 0, 0)"
+       stroke-dasharray="3, 3"
+       pointer-events="all"
+       id="rect5"
+       style="stroke:#a64bff;stroke-opacity:1" />
+    <rect
+       x="100"
+       y="195"
+       width="180"
+       height="50"
+       fill="#e1d5e7"
+       stroke="#9673a6"
+       pointer-events="all"
+       id="rect6" />
+    <g
+       transform="translate(2.7414248,-14.546174)"
+       id="g6">
+      <text
+         x="102"
+         y="224"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         id="text6"
+         style="font-size:10.6667px;white-space:pre;inline-size:119.944;display:inline"
+         xml:space="preserve"><tspan
+           x="102"
+           y="224"
+           id="tspan2"><tspan
+   style="font-weight:bold;-inkscape-font-specification:'Helvetica Bold'"
+   id="tspan1">CONTROLPLANE-9090</tspan>
+</tspan><tspan
+           x="102"
+           y="237.33338"
+           id="tspan3">SSL
+</tspan><tspan
+           x="102"
+           y="250.66675"
+           id="tspan4">Client Authentication</tspan></text>
+    </g>
+    <rect
+       x="234"
+       y="205"
+       width="60"
+       height="30"
+       fill="none"
+       stroke="none"
+       transform="rotate(-90,264,220)"
+       pointer-events="all"
+       id="rect7" />
+    <g
+       transform="rotate(-90,263.5,220)"
+       id="g7">
+      <text
+         x="264"
+         y="224"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text7">9090</text>
+    </g>
+    <rect
+       x="26"
+       y="205"
+       width="90"
+       height="30"
+       fill="none"
+       stroke="none"
+       transform="rotate(-90,71,220)"
+       pointer-events="all"
+       id="rect8" />
+    <g
+       transform="rotate(-90,70.5,220)"
+       id="g8">
+      <text
+         x="71"
+         y="224"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text8">Control Plane</text>
+    </g>
+    <rect
+       x="60"
+       y="283"
+       width="500"
+       height="305"
+       fill="none"
+       stroke="rgb(0, 0, 0)"
+       stroke-dasharray="3, 3"
+       pointer-events="all"
+       id="rect9"
+       style="stroke:#ffae30;stroke-opacity:1" />
+    <rect
+       x="365"
+       y="195"
+       width="180"
+       height="50"
+       fill="#e1d5e7"
+       stroke="#9673a6"
+       pointer-events="all"
+       id="rect10" />
+    <rect
+       x="350"
+       y="205"
+       width="60"
+       height="30"
+       fill="none"
+       stroke="none"
+       transform="rotate(-90,380,220)"
+       pointer-events="all"
+       id="rect11" />
+    <g
+       transform="rotate(-90,379.5,220)"
+       id="g11">
+      <text
+         x="380"
+         y="224"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text11">9090</text>
+    </g>
+    <rect
+       x="365"
+       y="292"
+       width="180"
+       height="50"
+       fill="#ffe6cc"
+       stroke="#d79b00"
+       pointer-events="all"
+       id="rect12" />
+    <rect
+       x="350"
+       y="302"
+       width="60"
+       height="30"
+       fill="none"
+       stroke="none"
+       transform="rotate(-90,380,317)"
+       pointer-events="all"
+       id="rect13" />
+    <g
+       transform="rotate(-90,379.5,317)"
+       id="g13">
+      <text
+         x="380"
+         y="321"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text13">9091</text>
+    </g>
+    <rect
+       x="415"
+       y="367"
+       width="180"
+       height="50"
+       fill="#ffe6cc"
+       stroke="#d79b00"
+       stroke-dasharray="3, 3"
+       pointer-events="all"
+       id="rect14" />
+    <g
+       transform="translate(1.5,1.5)"
+       id="g14">
+      <text
+         x="420.05603"
+         y="381.4838"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         id="text14"><tspan
+           id="tspan70"
+           x="420.05603"
+           y="381.4838"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">PLAIN-9092</tspan><tspan
+           id="tspan71"
+           x="420.05603"
+           y="396.4838">SSL</tspan></text>
+    </g>
+    <rect
+       x="550"
+       y="377"
+       width="60"
+       height="30"
+       fill="none"
+       stroke="none"
+       transform="rotate(-90,580,392)"
+       pointer-events="all"
+       id="rect15" />
+    <g
+       transform="rotate(-90,579.5,392)"
+       id="g15">
+      <text
+         x="580"
+         y="396"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text15">9092</text>
+    </g>
+    <rect
+       x="416"
+       y="423"
+       width="180"
+       height="50"
+       fill="#ffe6cc"
+       stroke="#d79b00"
+       pointer-events="all"
+       id="rect16" />
+    <rect
+       x="551"
+       y="433"
+       width="60"
+       height="30"
+       fill="none"
+       stroke="none"
+       transform="rotate(-90,581,448)"
+       pointer-events="all"
+       id="rect17" />
+    <g
+       transform="rotate(-90,580.5,448)"
+       id="g17">
+      <text
+         x="581"
+         y="452"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text17">9093</text>
+    </g>
+    <rect
+       x="416"
+       y="478.04999"
+       width="180"
+       height="76.949997"
+       fill="#ffe6cc"
+       stroke="#d79b00"
+       pointer-events="all"
+       id="rect18" />
+    <rect
+       x="551"
+       y="486.14999"
+       width="60"
+       height="24.299999"
+       fill="none"
+       stroke="none"
+       transform="rotate(-90,581,498.3)"
+       pointer-events="all"
+       id="rect19" />
+    <g
+       transform="rotate(-90,580.5,498.3)"
+       id="g19">
+      <text
+         x="581"
+         y="502"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text19">9094</text>
+    </g>
+    <rect
+       x="426"
+       y="531.89001"
+       width="120"
+       height="42.110001"
+       fill="#ffe6cc"
+       stroke="#d79b00"
+       stroke-dasharray="3, 3"
+       pointer-events="all"
+       id="rect20" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g20">
+      <text
+         x="486"
+         y="551"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         text-anchor="middle"
+         id="text20"><tspan
+           id="tspan73"
+           x="486"
+           y="551">fast local JWT</tspan><tspan
+           id="tspan74"
+           x="486"
+           y="566">validation</tspan></text>
+    </g>
+    <rect
+       x="0"
+       y="0"
+       width="190"
+       height="88"
+       fill="#dae8fc"
+       stroke="#6c8ebf"
+       pointer-events="all"
+       id="rect21" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g21">
+      <text
+         x="95"
+         y="19"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text21">KRaft Controller</text>
+    </g>
+    <rect
+       x="225"
+       y="0"
+       width="190"
+       height="88"
+       fill="#dae8fc"
+       stroke="#6c8ebf"
+       pointer-events="all"
+       id="rect22" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g22">
+      <text
+         x="320"
+         y="19"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text22">KRaft Controller</text>
+    </g>
+    <rect
+       x="440"
+       y="0"
+       width="190"
+       height="88"
+       fill="#dae8fc"
+       stroke="#6c8ebf"
+       pointer-events="all"
+       id="rect23" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g23">
+      <text
+         x="535"
+         y="19"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text23">KRaft Controller</text>
+    </g>
+    <rect
+       x="250"
+       y="30"
+       width="140"
+       height="85"
+       fill="#e1d5e7"
+       stroke="#9673a6"
+       pointer-events="all"
+       id="rect24" />
+    <rect
+       x="290"
+       y="85"
+       width="60"
+       height="30"
+       fill="none"
+       stroke="none"
+       pointer-events="all"
+       id="rect25" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g25">
+      <text
+         x="320"
+         y="104"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text25">9090</text>
+    </g>
+    <rect
+       x="25"
+       y="30"
+       width="140"
+       height="85"
+       fill="#e1d5e7"
+       stroke="#9673a6"
+       pointer-events="all"
+       id="rect26" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g26" />
+    <rect
+       x="65"
+       y="85"
+       width="60"
+       height="30"
+       fill="none"
+       stroke="none"
+       pointer-events="all"
+       id="rect27" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g27">
+      <text
+         x="95"
+         y="104"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text27">9090</text>
+    </g>
+    <rect
+       x="465"
+       y="30"
+       width="140"
+       height="85"
+       fill="#e1d5e7"
+       stroke="#9673a6"
+       pointer-events="all"
+       id="rect28" />
+    <rect
+       x="505"
+       y="85"
+       width="60"
+       height="30"
+       fill="none"
+       stroke="none"
+       pointer-events="all"
+       id="rect29" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g29">
+      <text
+         x="535"
+         y="104"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text29">9090</text>
+    </g>
+    <g
+       transform="translate(318.29979,-13.481208)"
+       id="g6-8">
+      <text
+         x="221.944"
+         y="224"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         id="text6-7"
+         style="font-size:10.6667px;text-align:end;text-anchor:end;white-space:pre;inline-size:119.944;display:inline"
+         xml:space="preserve"><tspan
+           x="221.944"
+           y="224"
+           id="tspan6"><tspan
+   style="font-weight:bold;-inkscape-font-specification:'Helvetica Bold'"
+   id="tspan5">CONTROLPLANE-9090</tspan>
+</tspan><tspan
+           x="221.944"
+           y="237.33338"
+           id="tspan7">SSL
+</tspan><tspan
+           x="221.944"
+           y="250.66675"
+           id="tspan8">Client Authentication</tspan></text>
+    </g>
+    <g
+       transform="translate(-66.130116,-175.8702)"
+       id="g6-8-7">
+      <text
+         x="161.972"
+         y="224"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         id="text6-7-5"
+         style="font-size:10.6667px;text-align:center;text-anchor:middle;white-space:pre;inline-size:119.944;display:inline"
+         xml:space="preserve"><tspan
+           x="161.972"
+           y="224"
+           id="tspan10"><tspan
+   style="font-weight:bold;-inkscape-font-specification:'Helvetica Bold'"
+   id="tspan9">CONTROLPLANE-9090</tspan>
+</tspan><tspan
+           x="161.972"
+           y="237.33338"
+           id="tspan11">SSL
+</tspan><tspan
+           x="161.972"
+           y="250.66675"
+           id="tspan12">Client Authentication</tspan></text>
+    </g>
+    <path
+       d="m 95,115 v 20 h 225 v -13.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path29" />
+    <path
+       d="m 320,116.12 3.5,7 -3.5,-1.75 -3.5,1.75 z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path30" />
+    <path
+       d="m 535,115 v 20 H 320 v -13.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path31" />
+    <path
+       d="m 320,116.12 3.5,7 -3.5,-1.75 -3.5,1.75 z"
+       fill="rgb(0, 0, 0)"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path32"
+       style="fill:#ffffff;stroke:#ffffff;stroke-opacity:1" />
+    <rect
+       x="100"
+       y="292"
+       width="180"
+       height="50"
+       fill="#ffe6cc"
+       stroke="#d79b00"
+       pointer-events="all"
+       id="rect32" />
+    <path
+       d="m 285.37,317 h 73.26"
+       fill="none"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path33"
+       style="fill:#ffffff;stroke:#ffffff;stroke-opacity:1" />
+    <path
+       d="m 280.12,317 7,-3.5 -1.75,3.5 1.75,3.5 z"
+       fill="rgb(0, 0, 0)"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path34"
+       style="fill:#ffffff;stroke:#ffffff;stroke-opacity:1" />
+    <path
+       d="m 363.88,317 -7,3.5 1.75,-3.5 -1.75,-3.5 z"
+       fill="rgb(0, 0, 0)"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path35"
+       style="fill:#ffffff;stroke:#ffffff;stroke-opacity:1" />
+    <g
+       transform="translate(-0.5,-1.6896439)"
+       id="g35"
+       style="fill:#ffffff">
+      <text
+         x="315"
+         y="320"
+         fill="rgb(0, 0, 0)"
+         font-family="Helvetica"
+         font-size="11px"
+         text-anchor="middle"
+         id="text35"
+         style="white-space:pre;inline-size:55.215;display:inline;fill:#ffffff"
+         transform="translate(3.6889722,-5.271291)"
+         xml:space="preserve"><tspan
+           x="315"
+           y="320"
+           id="tspan13">replication
+</tspan><tspan
+           x="315"
+           y="333.74999"
+           id="tspan14">traffic</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text67"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect67);display:inline;fill:#ffffff;stroke:#ffffff;stroke-width:3.671" />
+    </g>
+    <rect
+       x="234"
+       y="302"
+       width="60"
+       height="30"
+       fill="none"
+       stroke="none"
+       transform="rotate(-90,264,317)"
+       pointer-events="all"
+       id="rect35" />
+    <g
+       transform="rotate(-90,263.5,317)"
+       id="g36">
+      <text
+         x="264"
+         y="321"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text36">9091</text>
+    </g>
+    <rect
+       x="26"
+       y="390"
+       width="90"
+       height="30"
+       fill="none"
+       stroke="none"
+       transform="rotate(-90,71,405)"
+       pointer-events="all"
+       id="rect36" />
+    <g
+       transform="rotate(-90,70.5,405)"
+       id="g37">
+      <text
+         x="71"
+         y="409"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text37">Data Plane</text>
+    </g>
+    <rect
+       x="345"
+       y="638"
+       width="215"
+       height="142"
+       fill-opacity="0.5"
+       fill="#d5e8d4"
+       stroke="#82b366"
+       stroke-opacity="0.5"
+       stroke-dasharray="3, 3"
+       pointer-events="all"
+       id="rect37" />
+    <rect
+       x="415.04181"
+       y="728.04181"
+       width="119.91641"
+       height="48.174515"
+       fill="#d5e8d4"
+       stroke="#82b366"
+       pointer-events="all"
+       id="rect38"
+       style="stroke-width:1.08359" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g38">
+      <text
+         x="475"
+         y="742"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         text-anchor="middle"
+         id="text38"><tspan
+           id="tspan88"
+           x="475"
+           y="742"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">Delegate</tspan><tspan
+           id="tspan89"
+           x="475"
+           y="757">StandardAuthorizer</tspan><tspan
+           x="475"
+           y="772"
+           id="tspan90">Kafka ACLs</tspan></text>
+    </g>
+    <path
+       d="m 476,691 h -1 v 30.63"
+       fill="none"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path38"
+       style="fill:#ffffff;stroke:#ffffff;stroke-opacity:1" />
+    <path
+       d="m 475,726.88 -3.5,-7 3.5,1.75 3.5,-1.75 z"
+       fill="rgb(0, 0, 0)"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path39"
+       style="fill:#ffffff;stroke:#ffffff;stroke-opacity:1" />
+    <g
+       transform="translate(3.5,-0.5)"
+       id="g39">
+      <text
+         x="477"
+         y="712"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="11px"
+         id="text39">delegate</text>
+    </g>
+    <path
+       d="m 552.37,563.47 81.13,0.03 V 630 h 81.13"
+       fill="none"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path40"
+       style="stroke:#ffffff;stroke-opacity:1" />
+    <path
+       d="m 547.12,563.47 7,-3.49 -1.75,3.49 1.75,3.51 z"
+       fill="rgb(0, 0, 0)"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path41"
+       style="fill:#ffffff;stroke:#ffffff;stroke-opacity:1" />
+    <path
+       d="m 719.88,630 -7,3.5 1.75,-3.5 -1.75,-3.5 z"
+       fill="rgb(0, 0, 0)"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path42"
+       style="fill:#ffffff;stroke:#ffffff;stroke-opacity:1" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g42"
+       style="fill:#ffffff;filter:url(#filter77)">
+      <text
+         x="634"
+         y="600"
+         fill="rgb(0, 0, 0)"
+         font-family="Helvetica"
+         font-size="11px"
+         text-anchor="middle"
+         id="text42"
+         style="fill:#ffffff">fetch JWKS public keys</text>
+    </g>
+    <rect
+       x="416"
+       y="649"
+       width="120"
+       height="42"
+       fill="#d5e8d4"
+       stroke="#82b366"
+       pointer-events="all"
+       id="rect42" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g43">
+      <text
+         x="476"
+         y="666"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         text-anchor="middle"
+         id="text43"><tspan
+           id="tspan86"
+           x="476"
+           y="666"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">Custom AuthZ</tspan><tspan
+           x="476"
+           y="681"
+           id="tspan87">KeycloakAuthorizer</tspan></text>
+    </g>
+    <path
+       d="m 416,504 h -11 v 166 h 4.63"
+       fill="none"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path43"
+       style="stroke:#ffffff;stroke-opacity:1" />
+    <path
+       d="m 414.88,670 -7,3.5 1.75,-3.5 -1.75,-3.5 z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path44" />
+    <path
+       d="m 416,448 h -11 v 222 h 4.63"
+       fill="none"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path45"
+       style="stroke:#ffffff;stroke-opacity:1" />
+    <path
+       d="m 414.88,670 -7,3.5 1.75,-3.5 -1.75,-3.5 z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path46" />
+    <path
+       d="m 415,392 h -10 v 278 h 4.63"
+       fill="none"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path47"
+       style="stroke:#ffffff;stroke-opacity:1" />
+    <path
+       d="m 414.88,670 -7,3.5 1.75,-3.5 -1.75,-3.5 z"
+       fill="rgb(0, 0, 0)"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path48"
+       style="fill:#ffffff;stroke:#ffffff;stroke-opacity:1" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g48">
+      <text
+         x="405"
+         y="610"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="11px"
+         text-anchor="middle"
+         id="text48"
+         style="fill:#ffffff;filter:url(#filter85)"><tspan
+           id="tspan83"
+           x="405"
+           y="610">authorization for</tspan><tspan
+           id="tspan84"
+           x="405"
+           y="623.75">non superusers</tspan></text>
+    </g>
+    <rect
+       x="315"
+       y="694"
+       width="90"
+       height="30"
+       fill="none"
+       stroke="none"
+       transform="rotate(-90,360,709)"
+       pointer-events="all"
+       id="rect48" />
+    <g
+       transform="rotate(-90,359.5,709)"
+       id="g49">
+      <text
+         x="360"
+         y="713"
+         fill="rgb(0, 0, 0)"
+         font-family="Helvetica"
+         font-size="12px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text49"
+         style="fill:#ffffff">Authorizer</text>
+    </g>
+    <rect
+       x="278.5"
+       y="439.5"
+       width="161"
+       height="30"
+       fill="none"
+       stroke="none"
+       transform="rotate(-90,359,454.5)"
+       pointer-events="all"
+       id="rect49" />
+    <g
+       transform="rotate(-90,358.5,454.5)"
+       id="g50"
+       style="fill:#ffffff">
+      <text
+         x="359"
+         y="458"
+         fill="rgb(0, 0, 0)"
+         font-family="Helvetica"
+         font-size="12px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text50"
+         style="fill:#ffffff">Listener / Authentication</text>
+    </g>
+    <path
+       d="M 763.5,610 V 547.37"
+       fill="none"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path50"
+       style="stroke:#ffffff;stroke-opacity:1" />
+    <path
+       d="m 763.5,542.12 3.5,7 -3.5,-1.75 -3.5,1.75 z"
+       fill="rgb(0, 0, 0)"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path51"
+       style="fill:#ffffff;stroke:#ffffff;stroke-opacity:1" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g51"
+       style="fill:#ffffff;filter:url(#filter81)">
+      <text
+         x="765"
+         y="579"
+         fill="rgb(0, 0, 0)"
+         font-family="Helvetica"
+         font-size="11px"
+         text-anchor="middle"
+         id="text51"
+         style="fill:#ffffff">accessToken</text>
+    </g>
+    <path
+       d="M 714.63,670 H 542.37"
+       fill="none"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path52"
+       style="stroke:#ffffff;stroke-opacity:1" />
+    <path
+       d="m 719.88,670 -7,3.5 1.75,-3.5 -1.75,-3.5 z"
+       fill="rgb(0, 0, 0)"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path53"
+       style="fill:#ffffff;stroke:#ffffff;stroke-opacity:1" />
+    <path
+       d="m 537.12,670 7,-3.5 -1.75,3.5 1.75,3.5 z"
+       fill="rgb(0, 0, 0)"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path54"
+       style="fill:#ffffff;stroke:#ffffff;stroke-opacity:1" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g54"
+       style="fill:#ffffff;filter:url(#filter79)">
+      <text
+         x="628"
+         y="673"
+         fill="rgb(0, 0, 0)"
+         font-family="Helvetica"
+         font-size="11px"
+         text-anchor="middle"
+         id="text54"
+         style="fill:#ffffff">fetch grants</text>
+    </g>
+    <rect
+       x="721"
+       y="610"
+       width="170"
+       height="80"
+       fill="#dae8fc"
+       stroke="#6c8ebf"
+       pointer-events="all"
+       id="rect54" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g55">
+      <text
+         x="806"
+         y="654"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text55">Keycloak</text>
+    </g>
+    <path
+       d="m 848.5,541 v 62.63"
+       fill="none"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path55"
+       style="stroke:#ffffff;stroke-opacity:1" />
+    <path
+       d="m 848.5,608.88 -3.5,-7 3.5,1.75 3.5,-1.75 z"
+       fill="rgb(0, 0, 0)"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path56"
+       style="fill:#ffffff;stroke:#ffffff;stroke-opacity:1" />
+    <g
+       transform="translate(-0.5,1.0280223)"
+       id="g56"
+       style="fill:#ffffff;filter:url(#filter83)">
+      <text
+         x="849"
+         y="577"
+         fill="rgb(0, 0, 0)"
+         font-family="Helvetica"
+         font-size="11px"
+         text-anchor="middle"
+         id="text56"
+         style="fill:#ffffff">client credentials...</text>
+    </g>
+    <path
+       d="m 721,504 h -63.9 v -5.7 h -57.58"
+       fill="none"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path57"
+       style="stroke:#ffffff;stroke-opacity:1" />
+    <path
+       d="m 597.225,498.3 7,-3.5 -1.75,3.5 1.75,3.5 z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path58"
+       style="fill:#ffffff;stroke:#ffffff;stroke-opacity:1" />
+    <g
+       transform="translate(-0.5,-8.5)"
+       id="g58"
+       style="fill:#ffffff">
+      <text
+         x="657"
+         y="504"
+         fill="rgb(0, 0, 0)"
+         font-family="Helvetica"
+         font-size="11px"
+         text-anchor="middle"
+         id="text58"
+         style="fill:#ffffff">client connection</text>
+    </g>
+    <rect
+       x="721"
+       y="467"
+       width="170"
+       height="74"
+       fill="#f8cecc"
+       stroke="#b85450"
+       pointer-events="all"
+       id="rect58" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g59">
+      <text
+         x="806"
+         y="508"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text59">Kafka Client OAUTH</text>
+    </g>
+    <path
+       d="m 721,415 h -62.5 v 33 h -56.13"
+       fill="none"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path59"
+       style="stroke:#ffffff;stroke-opacity:1" />
+    <path
+       d="m 597.12,448 7,-3.5 -1.75,3.5 1.75,3.5 z"
+       fill="rgb(0, 0, 0)"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path60"
+       style="fill:#ffffff;stroke:#ffffff;stroke-opacity:1" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g60"
+       style="fill:#ffffff;filter:url(#filter75)">
+      <text
+         x="659"
+         y="435"
+         fill="rgb(0, 0, 0)"
+         font-family="Helvetica"
+         font-size="11px"
+         text-anchor="middle"
+         id="text60"
+         style="fill:#ffffff">client connection</text>
+    </g>
+    <rect
+       x="721"
+       y="378"
+       width="170"
+       height="74"
+       fill="#f8cecc"
+       stroke="#b85450"
+       pointer-events="all"
+       id="rect60" />
+    <g
+       transform="translate(-0.5,-6.5)"
+       id="g61">
+      <text
+         x="806"
+         y="419"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text61"><tspan
+           id="tspan91"
+           x="806"
+           y="419">Kafka Client Other</tspan><tspan
+           id="tspan92"
+           x="806"
+           y="434"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:Helvetica">(e.g. Client Auth)</tspan></text>
+    </g>
+    <path
+       d="m 365,220 h -40 v -85 h -5 v -20"
+       fill="none"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path61"
+       style="stroke:#ffffff;stroke-opacity:1" />
+    <path
+       d="m 279,220 h 36 v -85 h 5 v -20"
+       fill="none"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path62"
+       style="stroke:#ffffff;stroke-opacity:1" />
+    <path
+       d="M 95,121.37 V 135 h 440 v -13.63"
+       fill="none"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path63"
+       style="stroke:#ffffff;stroke-opacity:1" />
+    <path
+       d="m 95,116.12 3.5,7 -3.5,-1.75 -3.5,1.75 z"
+       fill="rgb(0, 0, 0)"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path64"
+       style="fill:#ffffff;stroke:#ffffff;stroke-opacity:1" />
+    <path
+       d="m 535,116.12 3.5,7 -3.5,-1.75 -3.5,1.75 z"
+       fill="rgb(0, 0, 0)"
+       stroke="rgb(0, 0, 0)"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path65"
+       style="fill:#ffffff;stroke:#ffffff;stroke-opacity:1" />
+    <g
+       transform="translate(2.0402375,11.229881)"
+       id="g65"
+       style="opacity:1;filter:url(#filter68)">
+      <text
+         x="315"
+         y="138"
+         fill="rgb(0, 0, 0)"
+         font-family="Helvetica"
+         font-size="11px"
+         text-anchor="middle"
+         id="text65"
+         style="fill:#ffffff">metadata traffic</text>
+    </g>
+    <g
+       transform="translate(158.41032,-175.88801)"
+       id="g6-8-7-2">
+      <text
+         x="161.972"
+         y="224"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         id="text6-7-5-8"
+         style="font-size:10.6667px;text-align:center;text-anchor:middle;white-space:pre;inline-size:119.944;display:inline"
+         xml:space="preserve"><tspan
+           x="161.972"
+           y="224"
+           id="tspan16"><tspan
+   style="font-weight:bold;-inkscape-font-specification:'Helvetica Bold'"
+   id="tspan15">CONTROLPLANE-9090</tspan>
+</tspan><tspan
+           x="161.972"
+           y="237.33338"
+           id="tspan17">SSL
+</tspan><tspan
+           x="161.972"
+           y="250.66675"
+           id="tspan18">Client Authentication</tspan></text>
+    </g>
+    <g
+       transform="translate(372.92654,-175.65203)"
+       id="g6-8-7-9">
+      <text
+         x="161.972"
+         y="224"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         id="text6-7-5-3"
+         style="font-size:10.6667px;text-align:center;text-anchor:middle;white-space:pre;inline-size:119.944;display:inline"
+         xml:space="preserve"><tspan
+           x="161.972"
+           y="224"
+           id="tspan20"><tspan
+   style="font-weight:bold;-inkscape-font-specification:'Helvetica Bold'"
+   id="tspan19">CONTROLPLANE-9090</tspan>
+</tspan><tspan
+           x="161.972"
+           y="237.33338"
+           id="tspan21">SSL
+</tspan><tspan
+           x="161.972"
+           y="250.66675"
+           id="tspan22">Client Authentication</tspan></text>
+    </g>
+    <text
+       x="102"
+       y="224"
+       fill="#000000"
+       font-family="Helvetica"
+       font-size="12px"
+       id="text6-5"
+       style="font-size:10.6667px;white-space:pre;inline-size:119.944;display:inline"
+       xml:space="preserve"
+       transform="translate(5.03066,84.40402)"><tspan
+         x="102"
+         y="224"
+         id="tspan24"><tspan
+   style="font-weight:bold;-inkscape-font-specification:'Helvetica Bold'"
+   id="tspan23">REPLICATION-9091</tspan>
+</tspan><tspan
+         x="102"
+         y="237.33338"
+         id="tspan25">SSL
+</tspan><tspan
+         x="102"
+         y="250.66675"
+         id="tspan26">Client Authentication</tspan></text>
+    <text
+       x="221.944"
+       y="224"
+       fill="#000000"
+       font-family="Helvetica"
+       font-size="12px"
+       id="text6-5-3"
+       style="font-size:10.6667px;text-align:end;text-anchor:end;white-space:pre;inline-size:119.944;display:inline"
+       xml:space="preserve"
+       transform="translate(317.03222,83.696053)"><tspan
+         x="221.944"
+         y="224"
+         id="tspan28"><tspan
+   style="font-weight:bold;-inkscape-font-specification:'Helvetica Bold'"
+   id="tspan27">REPLICATION-9091</tspan>
+</tspan><tspan
+         x="221.944"
+         y="237.33338"
+         id="tspan29">SSL
+</tspan><tspan
+         x="221.944"
+         y="250.66675"
+         id="tspan30">Client Authentication</tspan></text>
+    <g
+       transform="translate(1.8355462,56.427943)"
+       id="g14-7">
+      <text
+         x="420.05603"
+         y="381.4838"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         id="text14-6"><tspan
+           id="tspan70-5"
+           x="420.05603"
+           y="381.4838"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">TLS-9093</tspan><tspan
+           id="tspan71-6"
+           x="420.05603"
+           y="396.4838">SSL</tspan><tspan
+           x="420.05603"
+           y="411.4838"
+           id="tspan72">Client Authentication</tspan></text>
+    </g>
+    <g
+       transform="translate(1.1520666,110.40078)"
+       id="g14-7-7">
+      <text
+         x="420.05603"
+         y="381.4838"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         id="text14-6-4"><tspan
+           id="tspan70-5-5"
+           x="420.05603"
+           y="381.4838"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">OAUTH-9094</tspan><tspan
+           id="tspan71-6-2"
+           x="420.05603"
+           y="396.4838">SASL_SSL</tspan><tspan
+           x="420.05603"
+           y="411.4838"
+           id="tspan72-5">OAuth Bearer Auth</tspan></text>
+    </g>
+  </g>
+</svg>
