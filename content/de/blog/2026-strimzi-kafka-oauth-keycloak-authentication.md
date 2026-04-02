@@ -2,8 +2,8 @@
 title: "Kafka OAuth 2 Authentifizierung mit Strimzi und Keycloak"
 slug: "strimzi-kafka-oauth-keycloak-authentication"
 description: ""
-date: 2026-03-26T00:00:00+00:00
-lastmod: 2026-03-26T00:00:00+00:00
+date: 2026-03-31T00:00:00+00:00
+lastmod: 2026-03-31T00:00:00+00:00
 draft: false
 images: ["images/blog/kafka-strimzi-v1/tk-blogpost-strimzi-v1-share-image.jpg"]
 Sitemap:
@@ -562,10 +562,10 @@ cat > /tmp/client.properties <<EOF
 bootstrap.servers=my-kafka-cluster-kafka-bootstrap:9094
 security.protocol=SASL_SSL
 sasl.mechanism=OAUTHBEARER
-sasl.jaas.config=org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModule required \
-  clientId="timkoko" \
-  clientSecret="timkoko-secret";
+sasl.jaas.config=org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModule required;
 sasl.login.callback.handler.class=org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginCallbackHandler
+sasl.oauthbearer.client.credentials.client.id=timkoko
+sasl.oauthbearer.client.credentials.client.secret=timkoko-secret
 sasl.oauthbearer.token.endpoint.url=http://keycloak-service.keycloak.svc.cluster.local:8080/realms/kafka/protocol/openid-connect/token
 ssl.truststore.type=PKCS12
 ssl.truststore.location=/certs/truststore.p12
