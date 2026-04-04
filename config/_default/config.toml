@@ -152,3 +152,9 @@ rssLimit = 10
   hint = 'picture'
   quality = 75
   resampleFilter = 'Lanczos'
+
+
+[build]
+  [[build.transpilers]]
+    extension = "scss"
+    name = "dartsass"

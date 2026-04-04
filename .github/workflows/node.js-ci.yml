@@ -13,7 +13,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node: [22.x]
+        node: [24.x]
 
     steps:
     - name: Check out Website project
@@ -26,6 +26,13 @@ jobs:
 
     - name: Install dependencies
       run: npm ci
+
+    - name: Debug sass-embedded
+      run: |
+        npx sass --version
+        which sass || echo "sass not in PATH"
+        ls -la node_modules/.bin/sass
+        ls -la node_modules/sass-embedded*/dart-sass/ || true
 
     - name: Run Website test script
       run: npm test
