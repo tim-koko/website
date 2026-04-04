@@ -45,7 +45,7 @@
     "auto-changelog": "^2.4",
     "autoprefixer": "^10.4",
     "bootstrap": "^5.3",
-    "eslint": "^9.39.2",
+    "eslint": "^10.0.0",
     "globals": "^17.3.0",
     "hugo-extended": "^0.155.3",
     "lazysizes": "^5.3",
