@@ -40,7 +40,7 @@ icon: <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="htt
 
 &nbsp;
 
-## Cloud Native Consulting: Dein Kompass im Technologie-Dschungel
+## Dein Kompass im Technologie-Dschungel
 
 <br><br/>
 Cloud Native ist kein Produkt, das man kauft, sondern eine Methode, die man beherrschen muss. Bevor die erste Zeile Code geschrieben wird oder der erste Cluster startet, braucht es ein solides Fundament.
