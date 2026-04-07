@@ -8,7 +8,7 @@ image: "images/landing-pages/tk-landingpage-labs-1500x600.png"
 date: 2025-11-23T00:00:00+00:00
 lastmod: 2025-11-23T00:00:00+00:00
 draft: false
-blogposts: [ 'openshift-virtualization', 'kubevirt-training']
+blogposts: [ 'strimzi-kafka-oauth-keycloak-authentication', 'otel-autoinstrumentation']
 images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]
 Sitemap:
   Priority: 0.3
