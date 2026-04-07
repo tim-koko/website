@@ -86,10 +86,11 @@ Wir sind nicht die Berater:innen, die im Anzug kommen, eine Powerpoint präsenti
 ### Egal ob On-Prem oder Cloud: Lass uns deine Infrastruktur zukunftssicher machen.
 
 Kubernetes kann komplex sein – mit uns als Partner wird es zu deinem grössten Wettbewerbsvorteil. Lass uns bei einem (virtuellen) Kaffee darüber sprechen, wo ihr gerade feststeckt oder wo die Reise hingehen soll. Wir freuen uns darauf, mit dir durchzustarten! 🚀🚀🚀
-<br><br/>
 
-{{< references referenceslugs="nexplore-aufbau-und-etablierung-einer-azure-kubernetes-plattform,centris-kafka-storage-migration, baloise-distributed-tracing-plattform-poc-auf-basis-von-opentelemetry-und-grafana-tempo" displaytype="referencelistsmall" >}}
 
 &nbsp;
 
 <a class="btn btn-primary rounded-pill" href="mailto:hallo@tim-koko.ch">tim&koko kontaktieren</a>
+<br><br/>
+
+{{< references referenceslugs="nexplore-aufbau-und-etablierung-einer-azure-kubernetes-plattform,centris-kafka-storage-migration, baloise-distributed-tracing-plattform-poc-auf-basis-von-opentelemetry-und-grafana-tempo" displaytype="referencelistsmall" >}}
