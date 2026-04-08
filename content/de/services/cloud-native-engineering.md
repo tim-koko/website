@@ -38,6 +38,7 @@ icon: <svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="
 &nbsp;
 
 ## Wir bauen die Strasse, während du Gas gibst
+
 <br><br/>
 Technologie soll dich beflügeln, nicht ausbremsen. Doch die Realität im Cloud-Native-Universum sieht oft anders aus: Komplexe YAML-Files, widerspenstige Cluster und Pipelines, die genau dann stehenbleiben, wenn es brennt.
 <br><br/>
@@ -111,6 +112,7 @@ Wir sind kein „Black-Box“-Dienstleister. Wir verstehen uns als verlängerter
 <br><br/>
 
 ### Brauchst du zusätzliche Engineering-Power?
+
 Lass uns die Ärmel hochkrempeln. Wir unterstützen dich punktuell bei Engpässen oder übernehmen den Aufbau ganzer Plattformen.
 &nbsp;
 

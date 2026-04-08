@@ -94,7 +94,6 @@ Wir sind nicht die Berater:innen, die im Anzug kommen, eine Powerpoint präsenti
 
 Kubernetes kann komplex sein – mit uns als Partner wird es zu deinem grössten Wettbewerbsvorteil. Lass uns bei einem (virtuellen) Kaffee darüber sprechen, wo ihr gerade feststeckt oder wo die Reise hingehen soll. Wir freuen uns darauf, mit dir durchzustarten! 🚀🚀🚀
 
-
 &nbsp;
 
 <a class="btn btn-primary rounded-pill" href="mailto:hallo@tim-koko.ch">tim&koko kontaktieren</a>
