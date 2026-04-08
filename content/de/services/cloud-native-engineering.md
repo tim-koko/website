@@ -81,9 +81,11 @@ Wir liefern nicht nur Konzepte, sondern fertigen, stabilen Code und automatisier
 ### So arbeiten wir: Engineering auf Augenhöhe
 
 Wir sind kein „Black-Box“-Dienstleister. Wir verstehen uns als verlängerter Arm deines Teams.
+
 * **Embedded Engineering:** Wir integrieren uns in deine bestehenden Sprints und Workflows. Wir sind da, wo die Arbeit passiert – im Slack, im Jira oder direkt im Code-Review.
 * **Pragmatismus vor Dogmatismus:** Wir wählen die Tools, die dein Problem lösen, nicht die, die gerade am lautesten auf Social Media gehyped werden.
 * **Qualität durch Standards:** Wir setzen auf bewährte Cloud Native Prinzipien (CNCF Standards), damit deine Lösung auch in fünf Jahren noch wartbar und unabhängig bleibt.
+
 <br><br/>
 
 ### Warum du uns das Engineering überlassen solltest
@@ -91,6 +93,7 @@ Wir sind kein „Black-Box“-Dienstleister. Wir verstehen uns als verlängerter
 * **Zeitersparnis:** Während wir uns durch die Tiefen der Kubernetes-Dokumentation graben, entwickelst du Features, die deine Kunden glücklich machen.
 * **Nerven aus Stahl:** Wir lieben die Herausforderungen, die dich nachts wachhalten – von komplexen Ingress-Controllern bis hin zu flüchtigen Netzwerkfehlern.
 * **Wissenstransfer inklusive:** Wir bauen nichts „im Stillen Kämmerlein“. Dein Team sieht, was wir tun, und lernt bei jedem Schritt mit.
+
 <br><br/>
 
 {{< infobox
@@ -103,6 +106,7 @@ Wir sind kein „Black-Box“-Dienstleister. Wir verstehen uns als verlängerter
 * **CI/CD:** GitLab CI, GitHub Actions, ArgoCD, Flux
 * **Observability:** Prometheus, Grafana, Loki, Tempo, OpenTelemetry
 * **Event Streaming:** Kafka
+
 {{< /infobox>}}
 <br><br/>
 

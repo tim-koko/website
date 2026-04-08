@@ -51,9 +51,11 @@ Bei tim&koko begleiten wir dich auf dieser Reise: ohne unnötiges Fachchinesisch
 ### Das tim&koko Magische Dreieck
 
 Technologie allein löst keine Probleme. Unser Consulting betrachtet immer das grosse Ganze:
+
 * **Technologie-Wahl:** Wir bewerten den CNCF-Stack und wählen die Tools, die zu deiner Strategie passen – nicht die, die gerade im Trend liegen, egal ob On-Premises oder bei Hyperscalern.
 * **Kultur-Transformation:** Wir beraten das Management und die Teams beim Mindset-Wechsel hin zu DevOps und Self-Service-Strukturen.
 * **Prozess-Design:** Automatisierung von A bis Z. Wir etablieren CI/CD-Pipelines und GitOps-Workflows, damit Deployments sicher und auf Knopfdruck funktionieren.
+
 <br><br/>
 
 #### Unser Vorgehen: Deine Journey zu Kubernetes & Co.
@@ -62,14 +64,17 @@ Technologie allein löst keine Probleme. Unser Consulting betrachtet immer das g
 * **Plattform-Aufbau:** Wir unterstützen dich beim Setup deiner Kubernetes-Umgebung. Wir achten auf Security, Monitoring und Logging von Tag 1 an.
 * **Hands-on Migration & Entwicklung:** Wir begleiten die Migration deiner Workloads. Dabei coachen wir deine Entwickler:innen direkt am Projekt, damit das Wissen im Haus bleibt.
 * **Operational Excellence:** Wir zeigen dir, wie man Cloud-Native-Systeme stabil betreibt. Von Self-Healing-Mechanismen bis hin zu automatisierten Skalierungsstrategien.
+
 <br><br/>
 
 ### Cloud Native Prinzipien – Infrastruktur ist Nebensache
 
 Wir fokussieren uns darauf, deine IT-Landschaft nach modernen Cloud-Native-Standards zu gestalten. Das Ziel: Deine Anwendungen sollen portabel, skalierbar und resilient sein.
+
 * **Kubernetes als Fundament:** Wir etablieren Kubernetes als das Betriebssystem deines Rechenzentrums. Damit schaffst du eine einheitliche Ebene über verschiedene Infrastrukturen hinweg.
 * **On-Premises & Hybrid:** Du möchtest die volle Kontrolle über deine Daten im eigenen Datacenter behalten, aber die Agilität der Cloud nutzen? Wir bringen Cloud-Native-Workflows direkt auf deine eigene Hardware.
 * **Vermeidung von Vendor Lock-in:** Durch den konsequenten Einsatz von Open-Source-Standards (CNCF Stack) sorgen wir dafür, dass du jederzeit die Freiheit hast, deine Infrastruktur zu wechseln, ohne den Code anfassen zu müssen.
+
 <br><br/>
 
 {{< infobox
@@ -78,9 +83,11 @@ Wir fokussieren uns darauf, deine IT-Landschaft nach modernen Cloud-Native-Stand
   title="Warum tim&koko" >}}
 
 Wir sind nicht die Berater:innen, die im Anzug kommen, eine Powerpoint präsentieren und wieder verschwinden.
+
 * **Wir denken Infrastruktur-agnostisch:** Wir zwingen dich nicht in eine bestimmte Cloud. Wir bauen Systeme, die dort laufen, wo es für dein Business am meisten Sinn ergibt.
 * **Wir beherrschen die Klaviatur:** <br/>Ob Bare-Metal im eigenen Keller, vSphere oder Managed Kubernetes in der Cloud – wir kennen die Tücken der jeweiligen Schichten.
 * **Begleitung auf Augenhöhe:** Wir sind kein externes "Expertenteam", das Lösungen über den Zaun wirft. Wir werden Teil deines Teams, bis ihr die Plattform sicher selbst steuern könnt.
+
 {{< /infobox>}}
 
 ### Egal ob On-Prem oder Cloud: Lass uns deine Infrastruktur zukunftssicher machen.
