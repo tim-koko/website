@@ -1,5 +1,5 @@
 ---
-title: "Kafka OAuth 2 Authentication with Strimzi and Keycloak"
+title: "Kafka OAuth 2 Authentication with Strimzi and Keycloak - Part 1"
 slug: "strimzi-kafka-oauth-keycloak-authentication"
 description: ""
 date: 2026-03-24T00:00:00+00:00
@@ -554,7 +554,7 @@ kafka-topics.sh --bootstrap-server my-kafka-cluster-kafka-bootstrap:9094 \
 At this point, all tenant clients can authenticate against the Kafka cluster using OAuth tokens issued by Keycloak.
 However, there are no authorization rules in place yet - any authenticated client can access any topic.
 
-In **Part 2**, we configure the `KeycloakAuthorizer` on the Kafka broker and set up Keycloak's Authorization Services
+In [Part 2](https://tim-koko.ch/blog/kafka-oauth-strimzi-keycloak-authorization/), we configure the `KeycloakAuthorizer` on the Kafka broker and set up Keycloak's Authorization Services
 with scopes, resources, policies, and permissions to enforce fine-grained, multi-tenant access control.
 
 ## Do you need help or guidance?
