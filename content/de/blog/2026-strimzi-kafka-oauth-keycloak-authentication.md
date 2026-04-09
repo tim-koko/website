@@ -1,5 +1,5 @@
 ---
-title: "Kafka OAuth 2 Authentifizierung mit Strimzi und Keycloak"
+title: "Kafka OAuth 2 Authentifizierung mit Strimzi und Keycloak - Teil 1"
 slug: "strimzi-kafka-oauth-keycloak-authentication"
 description: ""
 date: 2026-03-24T00:00:00+00:00
@@ -562,7 +562,7 @@ jedes Topic zugreifen.
 
 In **Teil 2** konfigurieren wir den `KeycloakAuthorizer` auf dem Kafka-Broker und richten die Keycloak Authorization
 Services mit Scopes, Ressourcen, Richtlinien und Berechtigungen ein, um feingranulare, Multi-Tenant-Zugriffskontrollen
-durchzusetzen.
+durchzusetzen. [Hier weiterlesen.](https://tim-koko.ch/blog/kafka-oauth-strimzi-keycloak-authorization)
 
 ## Brauchst du Hilfe oder Beratung?
 
