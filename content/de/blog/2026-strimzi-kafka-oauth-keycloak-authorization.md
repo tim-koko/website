@@ -18,7 +18,7 @@ post_img: "images/blog/kafka-strimzi-v1/tk-blogpost-strimzi-v1.jpg"
 lead: "Mit OAuth-Authentifizierung im Einsatz ist der nächste Schritt die Durchsetzung feingranularer Zugriffskontrollen. In diesem zweiten Teil konfigurieren wir den KeycloakAuthorizer auf dem Kafka-Broker und richten die Keycloak Authorization Services ein - Scopes, Ressourcen, Richtlinien und Berechtigungen - um Multi-Tenant Topic-Isolation zu erreichen."
 ---
 
-In [Teil 1 Authentifizierung](https://tim-koko.ch/de/blog/strimzi-kafka-oauth-keycloak-authentication/) haben wir einen Strimzi-verwalteten Kafka-Cluster
+In [Teil 1 Authentifizierung](https://tim-koko.ch/blog/strimzi-kafka-oauth-keycloak-authentication/) haben wir einen Strimzi-verwalteten Kafka-Cluster
 mit OAuth 2 Authentifizierung mittels Keycloak konfiguriert, Tenant-Clients (timkoko, acmecorp, umbrellacorp) provisioniert
 und verifiziert, dass die Token-basierte Authentifizierung funktioniert. Zu diesem Zeitpunkt kann jeder authentifizierte
 Client noch auf jedes Topic zugreifen.
