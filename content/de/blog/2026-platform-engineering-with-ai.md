@@ -8,7 +8,7 @@ draft: true
 images: ["images/blog/TODO"]
 img_border: true
 Sitemap:
-Priority: 0.9
+  Priority: 0.9
 
 additionalblogposts: []
 

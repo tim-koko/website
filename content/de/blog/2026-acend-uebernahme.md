@@ -8,7 +8,7 @@ draft: false
 images: ["images/blog/acend/tk-blogpost-acend-uebernahme-1200x630.png"]
 img_border: false
 Sitemap:
-Priority: 0.9
+  Priority: 0.9
 
 additionalblogposts: [ 'kubevirt-introduction', '2025-jahresrueckblick', 'cnz-hinter-kulissen']
 
