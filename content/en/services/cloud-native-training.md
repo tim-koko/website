@@ -16,7 +16,7 @@ Sitemap:
 sitemap_exclude: true
 feed_exclude: true
 
-morelinkenabled: false
+morelinkenabled: true
 
 abstract: 
   text: "In partnership with acend, we offer you practical Cloud Native trainings that will leave you with more than just technical know-how. By engineers, for engineers."
@@ -39,8 +39,122 @@ icon: <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="htt
 
 &nbsp;
 
-Are you ready to take your virtualization to the next level? Let’s discuss it over a coffee! We’re excited to kick things off with you! 🚀🚀🚀
+## We show you how it’s done – you make it happen
+
+Knowledge grows when it’s shared – that is exactly our approach. We want to provide you and your team with directly applicable know-how that isn't just theoretical, but can be implemented immediately in practice.
+
+For a particularly intensive learning experience, we collaborate with our training partner [acend](https://acend.ch/). Together, we develop trainings that are tailor-made, practical, and interactive – perfectly aligned with modern IT environments, Cloud Native approaches, and DevOps processes. acend complements our expertise ideally: the combination of technical depth and pedagogical experience ensures that every training session is concrete, understandable, and effective.
+
+Whether open workshops or individually tailored trainings – we design programs that address your team's needs and deliver real added value. Contact us, and together we will find the content that best moves you forward.
+<br><br/>
+
+### Our Trainings
+
+{{< accordion >}}
+
+{{< accordion-item title="Software Development with AI" index="0" >}}
+**Using AI effectively from Requirements Engineering and Coding to Testing and Deployment**<br><br/>
+Artificial Intelligence has arrived in software development – but there is often a gap between marketing promises and productive use in a team. Many tools promise higher productivity, but daily operations lack clear rules, suitable use cases, and a shared roadmap.
+
+In this two-day training, software teams learn how to integrate AI into their existing development process in a practical and secure way – from requirements and implementation to testing, documentation, and operations.
+
+By the end, participants will have practiced use cases, clear guidelines on data protection and security, and a prioritized roadmap for establishing AI responsibly within the team.
+
+Examples and exercises are shown using the Atlassian tool stack (Jira, Confluence), GitHub Copilot, Playwright, and Azure, but can be applied to other tools and providers.
+{{< /accordion-item >}}
+
+{{< accordion-item title="GitLab CI/CD" index="1" >}}
+**GitLab is much more than a source version control system. It is a build server and an application development platform.**<br><br/>
+This training provides a practical and easy-to-understand introduction to Continuous Integration and Deployment (CI/CD) with GitLab. We start with a compact Git introduction to ensure all participants master the foundation for modern DevOps workflows.
+{{< /accordion-item >}}
+
+{{< accordion-item title="KubeVirt" index="2" >}}
+**KubeVirt enables DevOps teams to run traditional virtual machines and non-containerizable workloads on Kubernetes.**<br><br/>
+This allows us to unify the way we work with containers and virtual machines and utilize standardized processes such as GitOps.
+{{< /accordion-item >}}
+
+{{< accordion-item title="Containers & Kubernetes" index="3" >}}
+**From the basics to a self-deployed, container-based application on Kubernetes in two days.**<br><br/>
+Container technologies, and Kubernetes in particular, have gained enormous importance in recent years and have become a major driver of digitalization.
+{{< /accordion-item >}}
+
+{{< accordion-item title="Containers & OpenShift" index="4" >}}
+**Containers and OpenShift – from theory to practice in a short time.**<br><br/>
+Container technologies have grown significantly in importance. Based on these technologies – including Kubernetes – OpenShift offers a comprehensive and convenient container platform solution.
+{{< /accordion-item >}}
+
+{{< accordion-item title="Tekton" index="5" >}}
+**Next-generation Kubernetes-native CI/CD building blocks.**<br><br/>
+With Tekton, the Kubernetes ecosystem gains a flexible way to integrate Continuous Integration and Continuous Delivery systems. Using a modular approach, steps, tasks, and pipelines become standardized cloud-native resources. In the Tekton Basics training, you will get the chance to gain insight into how the CI/CD world is seamlessly integrated into cloud-centric environments.
+{{< /accordion-item >}}
+
+{{< accordion-item title="Go" index="6" >}}
+**Introduction to Go for software developers, architects, and DevOps engineers.**<br><br/>
+Go is an open-source programming language developed by Google. The focus was on pragmatism to allow for the creation of simple and clean code that executes efficiently. Go is frequently used for applications and infrastructure components based on scalable network services, cloud computing, and containers.
+{{< /accordion-item >}}
+
+{{< accordion-item title="Argo CD" index="7" >}}
+**Next-generation application deployment and operations.**<br><br/>
+GitOps is a natural extension of Infrastructure-as-Code and Continuous Delivery, focusing on using Git as the Single Source of Truth for your system. Changes to infrastructure and applications are made declaratively via a Git repository, with an automated process ensuring the current state of your system reflects the state of the repository.
+{{< /accordion-item >}}
+
+{{< accordion-item title="Cilium" index="8" >}}
+**eBPF-based Networking**<br><br/>
+This one-day training in German or English provides a practical and easy-to-understand introduction to Cilium, an eBPF-based networking, observability, and security stack for cloud and on-premise infrastructure.
+{{< /accordion-item >}}
+
+{{< accordion-item title="Helm" index="9" >}}
+**A practical introduction to the most popular package manager for applications on Kubernetes.**<br><br/>
+This one-day training in German or English offers a practical and clear introduction to Helm, the most well-known package manager for applications on Kubernetes. Using Helm, even complex applications can be defined, installed, managed, and operated on container platforms.
+{{< /accordion-item >}}
+
+{{< accordion-item title="MLOps Data Science" index="10" >}}
+**A practical introduction and comprehensive insight into MLOps.**<br><br/>
+This two-day training provides data science specialists with a practice-oriented introduction to MLOps, which optimizes the entire machine learning lifecycle through automation and standardization. With a focus on code and data versioning as well as model parameter monitoring, it ensures consistent and reproducible results. Continuous Integration and Continuous Deployment (CI/CD) accelerate the market launch of new ML solutions and improve the efficiency of the development process.
+{{< /accordion-item >}}
+
+{{< accordion-item title="MLOps Developer" index="11" >}}
+**A practical introduction and comprehensive insight into MLOps.**<br><br/>
+This two-day training provides a practical introduction to MLOps, which optimizes the machine learning lifecycle through automation and standardization. Versioning of code and data, as well as monitoring model parameters, ensures consistent, reproducible results. Continuous Integration and Continuous Deployment (CI/CD) accelerate the market launch of new ML products.
+{{< /accordion-item >}}
+
+{{< accordion-item title="OpenShift Operations" index="12" >}}
+**OpenShift - Operations Mastery for System Engineers.**<br><br/>
+With OpenShift, Red Hat promises a Kubernetes solution that boasts "automated operations" and other advantages for both operations and development.
+{{< /accordion-item >}}
+
+{{< accordion-item title="Prometheus" index="13" >}}
+**Prometheus – Introduction to the modern monitoring platform.**<br><br/>
+Prometheus is a modern and widely used metric-based monitoring system. Prometheus is often used in connection with dynamic platforms in container environments such as Kubernetes and OpenShift, but is also suitable for monitoring traditional environments.
+{{< /accordion-item >}}
+
+{{< accordion-item title="Serverless" index="14" >}}
+**Level up your Serverless Game - Hands-on Best Practices for Serverless and FaaS**<br><br/>
+Serverless technologies are currently experiencing a significant boom. They range from Function as a Service (FaaS) to complete database and queuing systems, as well as authentication and monitoring solutions. In this training, we will primarily look at FaaS and create functions that follow common best practices and run in AWS Lambda. We will learn about specific pitfalls and characteristics of these platforms and how to handle them.
+{{< /accordion-item >}}
+
+{{< accordion-item title="Terraform" index="15" >}}
+**Write, Plan and Apply. IaC made easy.**<br><br/>
+Terraform offers a wide range of functions to manage infrastructure declaratively as code. The configuration files, which are typically stored in a Git repository, are used by Terraform as the Single Source of Truth. Based on these files, infrastructure is built or entire applications are configured.
+{{< /accordion-item >}}
+
+{{< accordion-item title="Quarkus" index="16" >}}
+**Get started with Quarkus, the Supersonic Subatomic Java Toolkit**<br><br/>
+Quarkus was created to give Java developers the ability to build applications for a modern, cloud-native world. Quarkus is a Kubernetes-native Java framework tailored for GraalVM and HotSpot, developed from the best Java libraries and standards.
+
+In this training, we will walk through a complete development cycle together, starting from bootstrapping a Quarkus application to running it as a container. You will be well-supported by our practice-tested trainers with a good mix of theory and hands-on labs.
+{{< /accordion-item >}}
+
+{{< accordion-item title="Ansible" index="17" >}}
+**Ansible Kickstart Training**<br><br/>
+This two-day training is aimed at IT professionals in system administration, architecture, and software development who want to acquire solid basic knowledge of Ansible. Ansible is an open-source tool for automation, orchestration, and general configuration and administration of computers. It combines software distribution, ad-hoc command execution, and configuration management. Servers are managed via SSH, among other methods, and require no additional software on the managed system. The kickstart training provides insight into the technology and demonstrates how Ansible can be used efficiently through hands-on labs.
+{{< /accordion-item >}}
+
+{{< /accordion >}}
 
 &nbsp;
 
 <a class="btn btn-primary rounded-pill" href="mailto:hallo@tim-koko.ch">contact us</a>
+<br><br/>
+
+{{< references referenceslugs="nexplore-aufbau-und-etablierung-einer-azure-kubernetes-plattform,centris-kafka-storage-migration, baloise-distributed-tracing-plattform-poc-auf-basis-von-opentelemetry-und-grafana-tempo" displaytype="referencelistsmall" >}}

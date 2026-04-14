@@ -42,7 +42,7 @@ icon: <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="htt
 
 <br><br/>
 Cloud Native isn't a product you buy; it's a methodology you must master. Before the first line of code is written or the first cluster starts, a solid foundation is required.
-This is exactly where we come in: for us, consulting means setting the right course. We provide the strategy and the architecture – in short: the necessary know-how to ensure your journey in your own data center, or into the public or private cloud, doesn't end in chaos.
+This is exactly where we come in: for us, consulting means setting the right course. We provide the strategy and the architecture. In short: the necessary know-how to ensure your journey in your own data center, or into the public or private cloud, doesn't end in chaos.
 At tim&koko, we accompany you on this journey: without unnecessary technical jargon, but with plenty of passion and a hands-on mentality.
 <br><br/>
 
