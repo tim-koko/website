@@ -5,8 +5,8 @@ description: "Dein Partner für effizientes Cloud Native Projektmanagement: Wir 
 titleVisible: "Cloud Native"
 titleSublineVisible: "Projectmanagement"
 image: "images/landing-pages/tk-landingpage-labs-1500x600.png"
-date: 2026-03-23T00:00:00+00:00
-lastmod: 2026-03-23T00:00:00+00:00
+date: 2025-11-22T00:00:00+00:00
+lastmod: 2025-11-22T00:00:00+00:00
 draft: false
 blogposts: [ 'strimzi-kafka-oauth-keycloak-authentication', 'kubevirt-whatis']
 images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]
@@ -41,10 +41,12 @@ icon: <svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="
 Projekte scheitern selten an Technologie – meist liegt der Grund in fehlender Struktur, unklaren Abläufen, unkoordinierten Teams oder dem Chaos beim Übergang in den Betrieb. Bei Cloud Native Projekten kommen komplexe Pipelines, verteilte Cluster und agile Methoden hinzu.
 
 Hier kommen wir ins Spiel: Wir bringen Struktur, Transparenz und agile Arbeitsweisen in deine Cloud Native Projekte sowie komplexe Cloud-Architekture. So kann dein Team fokussiert am Kerngeschäft arbeiten, ohne dass das Projektchaos die Oberhand gewinnt. Wir sprechen die Sprache deiner Engineers und sorgen dafür, dass das Business die Kontrolle behält.
+<br><br/>
 
 ## Was wir für dich managen
 
 Wir liefern nicht nur Pläne, wir schaffen umsetzbare Strukturen, transparente Prozesse und nachhaltige Ergebnisse.
+<br><br/>
 
 <table style="width:100%; border-collapse: collapse;">
   <thead>
@@ -70,17 +72,18 @@ Wir liefern nicht nur Pläne, wir schaffen umsetzbare Strukturen, transparente P
   </tbody>
 </table>
 
+<br><br/>
 ### So arbeiten wir: Projektmanagement auf Augenhöhe
 
 * **Embedded PM:** Wir integrieren uns direkt in deine Teams und Sprints. Planung, Reviews und Retros finden dort statt, wo gearbeitet wird.
 * **Pragmatismus vor Dogmatismus:** Tools und Methoden passen sich deinem Projekt an. Nicht umgekehrt.
 * **Transparenz & Standards:** Alle Prozesse, Reports und Boards sind nachvollziehbar und langfristig wartbar.
-
 <br><br/>
 
 ### Warum wir den Unterschied machen
 
 Ein klassischer PM verwaltet Termine. Wir steuern den gesamten Lifecycle deiner Cloud-Plattform. Als Embedded PMs arbeiten wir direkt in deinen Sprints und schlagen die Brücke zwischen Management und Engineering.
+<br><br/>
 
 * **Deep Tech & Architektur:**  Wir begleiten Architektur-Entscheide mit technischem Sachverstand. Wir wissen, wie sich ein Cluster-Upgrade auf den Release-Zyklus auswirkt und halten den Tech-Stack im Griff.
 * **Vom Projekt in den Betrieb:** Wir planen die Betriebseinführung ab Tag 1. Wir etablieren Service-Prozesse und sorgen für ein reibungsloses Onboarding deines Ops-Teams.
@@ -88,6 +91,7 @@ Ein klassischer PM verwaltet Termine. Wir steuern den gesamten Lifecycle deiner 
 * **Pragmatismus statt Dogma:** Wir besetzen die Rollen, die du brauchst – ob PL, Scrum Master, PO, Business Analyst oder Applikations Manager. Unsere Methoden passen sich deinem Team an, nicht umgekehrt.
 * **Risiken im Griff:** Wir identifizieren Bottlenecks, Abhängigkeiten und mögliche Stolperfallen frühzeitig.
 * **Nachhaltige Standards:** Wir hinterlassen keine Zettelwirtschaft, sondern transparente Prozesse und Boards, die auch langfristig wartbar bleiben.
+<br><br/>
 
 {{< infobox
   size="wide"
@@ -98,7 +102,6 @@ Ein klassischer PM verwaltet Termine. Wir steuern den gesamten Lifecycle deiner 
 * **Projektmanagement-Tools:** Jira, Trello, Confluence, Miro
 * **DevOps & Cloud Native Prozesse:** CI/CD-Pipelines, GitOps-Workflows, Observability-Integration
 * **Kommunikation & Kollaboration:** Slack, MS Teams, Git-Review
-
 {{< /infobox>}}
 <br><br/>
 
