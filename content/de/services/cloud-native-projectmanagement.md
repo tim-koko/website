@@ -98,6 +98,8 @@ Ein klassischer PM verwaltet Termine. Wir steuern den gesamten Lifecycle deiner 
 * **Projektmanagement-Tools:** Jira, Trello, Confluence, Miro
 * **DevOps & Cloud Native Prozesse:** CI/CD-Pipelines, GitOps-Workflows, Observability-Integration
 * **Kommunikation & Kollaboration:** Slack, MS Teams, Git-Review
+
+{{< /infobox>}}
 <br><br/>
 
 ### Keine Lust mehr auf Projektchaos?
