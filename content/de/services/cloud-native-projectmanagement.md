@@ -73,6 +73,7 @@ Wir liefern nicht nur Pläne, wir schaffen umsetzbare Strukturen, transparente P
 </table>
 
 <br><br/>
+
 ### So arbeiten wir: Projektmanagement auf Augenhöhe
 
 * **Embedded PM:** Wir integrieren uns direkt in deine Teams und Sprints. Planung, Reviews und Retros finden dort statt, wo gearbeitet wird.
