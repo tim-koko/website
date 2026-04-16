@@ -40,7 +40,7 @@ icon: <svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="
 
 Projekte scheitern selten an Technologie – meist liegt der Grund in fehlender Struktur, unklaren Abläufen, unkoordinierten Teams oder dem Chaos beim Übergang in den Betrieb. Bei Cloud Native Projekten kommen komplexe Pipelines, verteilte Cluster und agile Methoden hinzu.
 
-Hier kommen wir ins Spiel: Wir bringen Struktur, Transparenz und agile Arbeitsweisen in deine Cloud Native Projekte sowie komplexe Cloud-Architekture. So kann dein Team fokussiert am Kerngeschäft arbeiten, ohne dass das Projektchaos die Oberhand gewinnt. Wir sprechen die Sprache deiner Engineers und sorgen dafür, dass das Business die Kontrolle behält.
+Hier kommen wir ins Spiel: Wir bringen Struktur, Transparenz und agile Arbeitsweisen in deine Cloud Native Projekte sowie komplexe Cloud-Architekturen. So kann dein Team fokussiert am Kerngeschäft arbeiten, ohne dass das Projektchaos die Oberhand gewinnt. Wir sprechen die Sprache deiner Engineers und sorgen dafür, dass das Business die Kontrolle behält.
 <br><br/>
 
 ## Was wir für dich managen
