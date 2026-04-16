@@ -83,15 +83,14 @@ Wir liefern nicht nur Pläne, wir schaffen umsetzbare Strukturen, transparente P
 
 ### Warum wir den Unterschied machen
 
-Ein klassischer PM verwaltet Termine. Wir steuern den gesamten Lifecycle deiner Cloud-Plattform. Als Embedded PMs arbeiten wir direkt in deinen Sprints und schlagen die Brücke zwischen Management und Engineering.
+Klassisches Projektmanagement verwaltet nur den Status Quo. Wir steuern den gesamten Lifecycle deiner Cloud-Plattform – direkt im Sprint, nah am Code und mit Blick auf das Business.
 <br><br/>
 
-* **Deep Tech & Architektur:**  Wir begleiten Architektur-Entscheide mit technischem Sachverstand. Wir wissen, wie sich ein Cluster-Upgrade auf den Release-Zyklus auswirkt und halten den Tech-Stack im Griff.
-* **Vom Projekt in den Betrieb:** Wir planen die Betriebseinführung ab Tag 1. Wir etablieren Service-Prozesse und sorgen für ein reibungsloses Onboarding deines Ops-Teams.
-* **Cloud FinOps & Budget:** Volle Kontrolle über Kosten und Aufwände. Wir behalten neben den Projektaufwänden auch deine Cloud-Consumption im Griff.
-* **Pragmatismus statt Dogma:** Wir besetzen die Rollen, die du brauchst – ob PL, Scrum Master, PO, Business Analyst oder Applikations Manager. Unsere Methoden passen sich deinem Team an, nicht umgekehrt.
-* **Risiken im Griff:** Wir identifizieren Bottlenecks, Abhängigkeiten und mögliche Stolperfallen frühzeitig.
-* **Nachhaltige Standards:** Wir hinterlassen keine Zettelwirtschaft, sondern transparente Prozesse und Boards, die auch langfristig wartbar bleiben.
+* **Architektur mit Plan:**  Wir begleiten Architektur-Entscheide mit technischem Sachverstand. Wir wissen, wie sich ein Cluster-Upgrade auf den Release-Zyklus auswirkt und halten den Tech-Stack im Griff.
+* **Vom Projekt in den Betrieb:** Wir planen den Betrieb ab Tag 1. Kein „Over the Wall“-Throw, sondern ein reibungsloses Onboarding für dein Ops-Team.
+* **FinOps im Griff:** Wir jonglieren nicht nur mit Deadlines, sondern auch mit Cloud-Consumption und Budgets.
+* **Rollen-Agilität:** Ob PO, Scrum Master oder Business Analyst – wir füllen die Lücke, die dich gerade bremst. Pragmatisch und ohne Methodendogma.
+* **Nachhaltig organisiert:** Wir hinterlassen keine Leichen, sondern skalierbare Prozesse und saubere Boards, die dein Team auch ohne uns weiterführen kann.
 <br><br/>
 
 {{< infobox

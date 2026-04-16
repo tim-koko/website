@@ -80,17 +80,16 @@ We don't just deliver plans; we create actionable structures, transparent proces
 * **Transparency & Standards:** All processes, reports, and boards are traceable and maintainable in the long term.
 <br><br/>
 
-### Why we make the difference
+### Why We Make the Difference
 
-A classic PM manages deadlines. We steer the entire lifecycle of your cloud platform. As embedded PMs, we work directly in your sprints and bridge the gap between management and engineering.
+Classic project management only manages the status quo. We steer the entire lifecycle of your cloud platform – directly in the sprint, close to the code, and with a focus on the business.
 <br><br/>
 
-* **Deep Tech & Architecture:** We support architectural decisions with technical expertise. We know how a cluster upgrade affects the release cycle and keep the tech stack under control.
-* **From Project to Operations:** We plan the operational rollout from day 1. We establish service processes and ensure smooth onboarding for your ops team.
-* **Cloud FinOps & Budget:** Full control over costs and efforts. In addition to project costs, we also keep your cloud consumption in check.
-* **Pragmatism instead of Dogma:** We fill the roles you need – whether PM, Scrum Master, PO, Business Analyst, or Application Manager. Our methods adapt to your team, not the other way around.
-* **Risks under control:** We identify bottlenecks, dependencies, and potential pitfalls early on.
-* **Sustainable Standards:** We don't leave a paper trail of chaos behind, but rather transparent processes and boards that remain maintainable in the long term.
+* **Architecture with a Plan:** We support architectural decisions with technical expertise. We know how a cluster upgrade affects the release cycle and keep the tech stack under control.
+* **From Project to Operations:** We plan for operations from day one. No "over the wall" handoffs, but a smooth onboarding for your ops team.
+* **FinOps Under Control:** We don't just juggle deadlines; we also manage cloud consumption and budgets.
+* **Role Agility:** Whether PO, Scrum Master, or Business Analyst – we fill the gap that is currently slowing you down. Pragmatically and without methodological dogma.
+* **Sustainably Organized:** We don't leave any "skeletons in the closet," but rather scalable processes and clean boards that your team can continue to maintain without us.
 <br><br/>
 
 {{< infobox
