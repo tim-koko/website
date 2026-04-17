@@ -8,14 +8,14 @@ image: "images/landing-pages/tk-landingpage-labs-1500x600.png"
 date: 2025-11-23T00:00:00+00:00
 lastmod: 2025-11-23T00:00:00+00:00
 draft: false
-blogposts: [ 'openshift-virtualization', 'kubevirt-training']
+blogposts: [ 'strimzi-kafka-oauth-keycloak-authentication', 'kubevirt-whatis']
 images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]
 Sitemap:
   Priority: 0.3
 sitemap_exclude: true
 feed_exclude: true
 
-morelinkenabled: false
+morelinkenabled: true
 
 abstract: 
   text: "In Zusammenarbeit mit acend bieten wir dir praxisnahme Cloud Native Trainings, bei denen dir mehr als nur das technische Know-how in Erinnerung bleiben wird. Von Engineers für Engineers."
@@ -38,7 +38,118 @@ icon: <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="htt
 
 &nbsp;
 
-Bist du bereit, deine Plattform auf das nächste Level zu bringen? Lass uns das Ganze doch bei einem Kaffee besprechen! Wir freuen uns darauf, mit dir durchzustarten! 🚀🚀🚀
+## Wir zeigen, wie’s geht – du setzt um
+
+Wissen wächst, wenn man es teilt – genau das ist unser Ansatz. Wir möchten dir und deinem Team direkt anwendbares Know-how vermitteln, das nicht nur theoretisch ist, sondern sich sofort in der Praxis umsetzen lässt.
+
+Für ein besonders intensives Lernerlebnis arbeiten wir mit unserem Schulungspartner [acend](https://acend.ch/) zusammen. Gemeinsam entwickeln wir Trainings, die massgeschneidert, praxisnah und interaktiv sind – perfekt abgestimmt auf moderne IT-Umgebungen, Cloud Native Ansätze und DevOps-Prozesse. acend ergänzt unsere Expertise ideal: Die Kombination aus technischer Tiefe und didaktischer Erfahrung sorgt dafür, dass jedes Training konkret, verständlich und effektiv ist.
+
+Ob offene Workshops oder individuell zugeschnittene Trainings – wir gestalten Programme, die auf die Bedürfnisse deines Teams eingehen und echte Mehrwerte liefern. Kontaktiere uns, und wir finden gemeinsam heraus, welche Inhalte euch am besten weiterbringen.
+<br><br/>
+
+### Unsere Trainings
+
+{{< accordion >}}
+
+{{< accordion-item title="Software-Entwicklung mit KI" index="0" >}}
+**KI sinnvoll nutzen vom Requirements-Engineering, Coding bis zum Testing und Deployment**<br><br/>
+Künstliche Intelligenz ist in der Software-Entwicklung angekommen – doch zwischen Marketingversprechen und produktivem Einsatz im Team klafft oft eine Lücke. Viele Tools versprechen mehr Produktivität, aber im Alltag fehlen klare Regeln, passende Use-Cases und ein gemeinsamer Fahrplan.
+
+In diesem zweitägigen Training lernen Software-Teams, wie sie KI praxisnah und sicher in ihren bestehenden Entwicklungsprozess integrieren – von Anforderungen über Implementierung und Tests bis hin zu Dokumentation und Betrieb.
+
+Am Ende verfügen die Teilnehmenden über geübte Anwendungsfälle, klare Leitplanken zu Datenschutz und Sicherheit sowie einen priorisierten Fahrplan, wie sie KI im Team verantwortungsvoll etablieren können.
+
+Die Beispiele und Übungen werden mit den Tool-Stack von Atlassian (Jira, Confluence), GitHub Copilot, Playwright und Azure gezeigt, und lassen sich auf andere Tools und Anbieter übertragen.
+{{< /accordion-item>}}
+
+{{< accordion-item title="GitLab CI/CD" index="1" >}}
+**GitLab ist weit mehr als ein Source-Versionskontrollsystem. Es ist ein Build Server und eine Application Development Platform.**<br><br/>
+Dieses Training bietet einen praktischen und klar verständlichen Einstieg in Continuous Integration und Deployment (CI/CD) mit GitLab. Wir starten mit einem kompakten Git-Einstieg, um sicherzustellen, dass alle Teilnehmenden das Fundament für moderne DevOps-Workflows beherrschen.
+{{< /accordion-item>}}
+
+{{< accordion-item title="KubeVirt" index="2" >}}
+**KubeVirt ermöglicht DevOps-Teams, herkömmliche virtuelle Maschinen und nicht containerisierbare Workloads auf Kubernetes zu betreiben.**<br><br/>
+Dadurch können wir die Arbeitsweise für Container und virtuelle Maschinen vereinheitlichen und standardisierte Prozesse wie GitOps nutzen.
+{{< /accordion-item>}}
+
+{{< accordion-item title="Container & Kubernetes" index="3" >}}
+**In zwei Tagen von den Grundlagen zur selbst deployten, containerbasierten Applikation auf Kubernetes.**<br><br/>
+Container-Technologien und insbesondere Kubernetes haben in den letzten Jahren enorm an Bedeutung gewonnen und wurden zu einem wichtigen Treiber der Digitalisierung.
+{{< /accordion-item>}}
+
+{{< accordion-item title="Container & OpenShift" index="4" >}}
+**Container und OpenShift – in kurzer Zeit von der Theorie zur Praxis.**<br><br/>
+Container-Technologien haben in den letzten Jahren enorm an Bedeutung gewonnen. Open­Shift bietet basierend auf diesen Technologien – unter anderem Kubernetes – eine umfassende und komfortable Container Plattform-Lösung.
+{{< /accordion-item>}}
+
+{{< accordion-item title="Tekton" index="5" >}}
+**Kubernetes-eigene CI-/CD-Bausteine der nächsten Generation.**<br><br/>
+Mit Tekton bekommt das Kubernetes Ökosystem eine flexible Möglichkeit, Continuous-Integration- und Continuous-Delivery-Systeme zu integrieren. Mit einem modularen Ansatz werden Steps, Tasks und Pipelines zu standardisierten cloud-native Ressourcen. Im Tekton Basics Training bekommst du die Möglichkeit, selbst einen Einblick zu bekommen, wie die CI/CD Welt nahtlos in cloud-zentrierten Umgebungen integriert wird.
+{{< /accordion-item>}}
+
+{{< accordion-item title="Go" index="6" >}}
+**Einführung in Go für Software Entwickler, Architekten und DevOps Engineers.**<br><br/>
+Go ist eine Open Source-Programmiersprache, die von Google entwickelt wurde. Das Augenmerk lag dabei auf Pragmatismus, damit möglichst einfacher und sauberer Programmcode erstellt werden kann, welcher effizient ausgeführt wird. Go kommt häufig zum Einsatz bei Anwendungen und Infrastrukturkomponenten, welche auf skalierbaren Netzwerkdiensten, Cloud Computing und Containern basieren.
+{{< /accordion-item>}}
+
+{{< accordion-item title="Argo CD" index="7" >}}
+**Anwendungsbereitstellung und -betrieb der nächsten Generation.**<br><br/>
+GitOps ist eine natürliche Erweiterung von Infrastructure-as-Code und Continuous Delivery mit dem Fokus auf der Verwendung von Git als Single Source of Truth für dein System. Änderungen an Infrastruktur und Anwendungen werden deklarativ über ein Git Repository vorgenommen, wobei ein automatisierter Prozess sicherstellt, dass der aktuelle Zustand deines Systems den Zustand des Repository widerspiegelt.
+{{< /accordion-item>}}
+
+{{< accordion-item title="Cilium" index="8" >}}
+**eBPF-basiertes Networking**<br><br/>
+Dieses eintägige Training auf Deutsch oder Englisch bietet einen praktischen und klar verständlichen Einstieg in Cilium, einem eBFP basierten Network, Observability und Security Stack für die Cloud und auf on-premise Infrastruktur.
+{{< /accordion-item>}}
+
+{{< accordion-item title="Helm" index="9" >}}
+**Ein praktischer Einstieg in den bekanntesten Paketmanager für Applikationen auf Kubernetes.**<br><br/>
+Dieses eintägige Training auf Deutsch oder Englisch bietet einen praktischen und klar verständlichen Einstieg zu Helm, dem bekanntesten Paketmanager für Applikationen auf Kubernetes. Mittels Helm können auch komplexe Applikationen auf Container Plattformen definiert, installiert, verwaltet und betrieben werden.
+{{< /accordion-item>}}
+
+{{< accordion-item title="MLOps Data Science" index="10" >}}
+**Ein praktischer Einstieg und umfassender Einblick in MLOps.**<br><br/>
+Dieses zweitägige Training bietet Data-Science-Spezialisten eine praxisorientierte Einführung in MLOps, das durch Automatisierung und Standardisierung den gesamten Machine-Learning-Lebenszyklus optimiert. Mit Fokus auf Code- und Datenversionierung sowie Modellparameterüberwachung sorgt es für konsistente und reproduzierbare Ergebnisse. Continuous Integration und Continuous Deployment (CI/CD) beschleunigen die Markteinführung neuerms-Lösungen und verbessern die Effizienz des Entwicklungsprozesses.
+{{< /accordion-item>}}
+
+{{< accordion-item title="MLOps Developer" index="11" >}}
+**Ein praktischer Einstieg und umfassender Einblick in MLOps.**<br><br/>
+Dieses zweitägige Training bietet einen praktischen Einstieg in MLOps, das den Machine-Learning-Lebenszyklus durch Automatisierung und Standardisierung optimiert. Die Versionierung von Code und Daten sowie die Überwachung der Modellparameter sorgen für konsistente, reproduzierbare Ergebnisse. Continuous Integration und Continuous Deployment (CI/CD) beschleunigen die Markteinführung neuer ML-Produkte.
+{{< /accordion-item>}}
+
+{{< accordion-item title="OpenShift Operations" index="12" >}}
+**OpenShift - Operations Mastery für System Engineers.**<br><br/>
+Mit OpenShift verspricht Red Hat eine Kubernetes-Lösung, die mit «automated operations» und weiteren Vorzügen für Betrieb und Entwicklung auftrumpft.
+{{< /accordion-item>}}
+
+{{< accordion-item title="Prometheus" index="13" >}}
+**Prometheus – Einstieg in die moderne Monitoring Plattform.**<br><br/>
+Prometheus ist ein modernes und weit verbreitetes, auf Metriken basiertes Monitoringsystem. Prometheus kommt oft im Zusammenhang mit dynamischen Plattformen im Container-Umfeld wie beispielsweise Kubernetes und OpenShift zum Einsatz, eignet sich jedoch auch für die Überwachung klassischer Umgebungen.
+{{< /accordion-item>}}
+
+{{< accordion-item title="Serverless" index="14" >}}
+**Level up your Serverless Game - Hands-on Best Practices für Serverless und FaaS**<br><br/>
+Serverless Technologien erfahren momentan einen ziemlichen Boom. Sie reichen von Function as a Service (FaaS) über komplette Datenbank- und Queueingsysteme bis hin zu Authentisierungs- und Monitoringlösungen. In diesem Training werden wir uns vor allem FaaS anschauen und entsprechende Functions erstellen, welche die gängigen Best Practices befolgen und in AWS Lambda laufen. Dabei lernen wir gewisse Stolpersteine und Eigenheiten dieser Plattformen kennen und wie man damit umgeht.
+{{< /accordion-item>}}
+
+{{< accordion-item title="Terraform" index="15" >}}
+**Write, Plan and Apply. IaC made easy.**<br><br/>
+Um seine Infrastruktur deklarativ als Code zu verwalten, bietet Terraform einen breiten Funktionsumfang an. Die Konfigurationsdateien, welche typischerweise in einem Git Repository gespeichert sind, werden von Terraform als Single Source of Truth verwendet. Anhand dieser Dateien wird beispielsweie Infrastruktur aufgebaut oder es werden ganze Applikationen konfiguriert.
+{{< /accordion-item>}}
+
+{{< accordion-item title="Quarkus" index="16" >}}
+**Starte mit Quarkus, dem Supersonic Subatomic Java Toolkit**<br><br/>
+Quarkus wurde geschaffen, um Java-Entwicklern die Möglichkeit zu geben, Anwendungen für eine moderne, Cloud-native Welt zu erstellen. Quarkus ist ein Kubernetes-natives Java-Framework, das auf GraalVM und HotSpot zugeschnitten ist und aus den besten Java-Bibliotheken und -Standards entwickelt wurde.
+
+In diesem Training werden wir gemeinsam einen kompletten Entwicklungszyklus durchlaufen und beginnen beim Bootstrapping einer Quarkus-Anwendung bis zu deren Ausführung als Container. Immer gut begleitet von unseren praxiserprobten Trainern und mit einem guten Mix aus Theorie und Hands-on Labs.
+{{< /accordion-item>}}
+
+{{< accordion-item title="Ansible" index="17" >}}
+**Ansible Kickstart-Training**<br><br/>
+Dieses zweitägige Training richtet sich an IT-Fachkräfte aus den Bereichen Systemadministration, Architektur und Softwareentwicklung, die fundierte Grundkenntnisse zu Ansible erwerben wollen. Ansible ist ein Open-Source-Werkzeug zur Automatisierung, Orchestrierung und allgemeinen zur Konfiguration und Administration von Computern. Es kombiniert Softwareverteilung, Ad-hoc-Kommandoausführung und Konfigurationsmanagement. Die Verwaltung der Server erfolgt unter anderem über SSH und erfordert keinerlei zusätzliche Software auf dem zu verwaltenden System. Das Kickstart-Training gibt einen Einblick in die Technologie und zeigt anhand von Hands-on-Labs, wie sich Ansible effizient nutzen lässt.
+{{< /accordion-item>}}
+
+{{< /accordion >}}
 
 &nbsp;
 
