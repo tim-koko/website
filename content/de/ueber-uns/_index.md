@@ -100,6 +100,33 @@ partner:
       img: "images/partner/redhat.png"
       link: "https://www.redhat.com/"
 
+# Community Section
+community:
+  enabled: true
+  title: "Mitgliedschaften & Beteiligungen – Weil Impact ein Zusammenspiel ist"
+  text: "<p>Im stillen Kämmerlein sitzen? Ist nicht unser Ding. Um wirklich etwas zu bewegen, braucht es starken Rückhalt und ein lebendiges Ökosystem. Deshalb engagieren wir uns gezielt in Verbänden, Netzwerken und Initiativen, die unsere Werte teilen. Durch unsere Mitgliedschaften und Beteiligungen bringen wir nicht nur unsere Expertise ein, sondern unterstützen auch zukunftsweisende Ideen mit Ressourcen und Herzblut. Denn wir sind überzeugt: Die besten Impulse entstehen dort, wo viele kluge Köpfe zusammenspielen.</p>"
+  item:
+    - title: "CH Open"
+      label: ""
+      img: "images/community/chopen.png"
+      link: "https://www.ch-open.ch/"
+    - title: "Cloud Native Zurich"
+      label: ""
+      img: "images/community/cnz.svg"
+      link: "https://cloudnativezurich.ch/"
+    - title: "Digital Impact Network"
+      label: ""
+      img: "images/community/DIN.png"
+      link: "https://digitalimpact.ch/"
+    - title: "guild42"
+      label: ""
+      img: "images/community/guild42.svg"
+      link: "https://guild42.ch/"
+    - title: "swiss ITC"
+      label: ""
+      img: "images/community/swiss-ict.png"
+      link: "https://www.swissict.ch/"
+
 ---
 
 Bei tim&koko steht der Mensch im Zentrum. Wir setzen uns für eine Unternehmenskultur ein, die von Neugier, Ko-Kreation und Mut geprägt ist. Wir greifen zwar nach den Sternen, bleiben aber mit beiden Beinen auf dem Boden.
