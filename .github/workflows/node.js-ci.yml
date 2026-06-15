@@ -13,14 +13,14 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node: [22.x]
+        node: [24.x]
 
     steps:
     - name: Check out Website project
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Set up Node.js ${{ matrix.node }}
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node }}
 

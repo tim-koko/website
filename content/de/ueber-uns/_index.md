@@ -75,7 +75,7 @@ slideshow:
 
 # Partner Section
 partner:
-  enabled: false
+  enabled: true
   title: "Partner:innen – Gemeinsam kommen wir weiter"
   text: "<p>Konkurrenzkampf? Kennen wir nicht. Wir arbeiten lieber Seite an Seite mit Partner:innen, die das gleiche Ziel verfolgen. Darum teilen wir unsere Erfahrungen, Erfolge und Herausforderungen mit der Community, sind aktive Open Source Contributor:innen und vertrauen darauf, dass unsere Partner:innen das auch tun. So lernen wir stets von und mit Gleichgesinnten – und finden Lösungen, auf die wir von alleine wohl nie gekommen wären.</p>"
   item:
@@ -99,6 +99,37 @@ partner:
       label: "Cloud Native Solutions Provider"
       img: "images/partner/redhat.png"
       link: "https://www.redhat.com/"
+
+# Community Section
+community:
+  enabled: true
+  title: "Mitgliedschaften & Beteiligungen – Weil Impact ein Zusammenspiel ist"
+  text: "<p>Im stillen Kämmerlein sitzen? Ist nicht unser Ding. Um wirklich etwas zu bewegen, braucht es starken Rückhalt und ein lebendiges Ökosystem. Deshalb engagieren wir uns gezielt in Verbänden, Netzwerken und Initiativen, die unsere Werte teilen. Durch unsere Mitgliedschaften und Beteiligungen bringen wir nicht nur unsere Expertise ein, sondern unterstützen auch zukunftsweisende Ideen mit Ressourcen und Herzblut. Denn wir sind überzeugt: Die besten Impulse entstehen dort, wo viele kluge Köpfe zusammenspielen.</p>"
+  item:
+    - title: "CH Open"
+      label: ""
+      img: "images/community/chopen.png"
+      link: "https://www.ch-open.ch/"
+    - title: "Cloud Native Zurich"
+      label: ""
+      img: "images/community/cnz.svg"
+      link: "https://cloudnativezurich.ch/"
+    - title: "Digital Impact Network"
+      label: ""
+      img: "images/community/DIN.png"
+      link: "https://digitalimpact.ch/"
+    - title: "guild42"
+      label: ""
+      img: "images/community/guild42.svg"
+      link: "https://guild42.ch/"
+    - title: "Netzwerk SDS"
+      label: ""
+      img: "images/community/netzwerk_sds.svg"
+      link: "https://netzwerksds.ch/"
+    - title: "swiss ITC"
+      label: ""
+      img: "images/community/swiss-ict.png"
+      link: "https://www.swissict.ch/"
 
 ---
 
