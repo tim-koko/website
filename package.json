@@ -46,7 +46,7 @@
     "autoprefixer": "^10.5",
     "bootstrap": "^5.3",
     "eslint": "^9.39.2",
-    "globals": "^17.3.0",
+    "globals": "^17.6.0",
     "hugo-extended": "^0.155.3",
     "lazysizes": "^5.3",
     "markdownlint-cli2": "^0.22.1",
