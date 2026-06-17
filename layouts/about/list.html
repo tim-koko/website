@@ -127,7 +127,7 @@
       {{ .text | safeHTML }}
     </div>
   <div class="col-lg-10 mx-auto">
-    {{ partial "logo-display.html" (dict "items" .item "layout" .layout "imageWidth" 150 "imageHeight" 75 "labelField" "label" "hasLink" true "useRatio" false) }}
+    {{ partial "logo-display.html" (dict "items" .item "layout" .layout "imageWidth" 150 "imageHeight" 75 "labelField" "label" "hasLink" true "useRatio" false "slideClass" "col-4 col-sm-3") }}
   </div>
 </section>
 {{ end }}
@@ -142,7 +142,7 @@
       {{ .text | safeHTML }}
     </div>
   <div class="col-lg-10 mx-auto">
-    {{ partial "logo-display.html" (dict "items" .item "layout" .layout "imageWidth" 150 "imageHeight" 75 "labelField" "label" "hasLink" true "useRatio" false) }}
+    {{ partial "logo-display.html" (dict "items" .item "layout" .layout "imageWidth" 150 "imageHeight" 75 "labelField" "label" "hasLink" true "useRatio" false "slideClass" "col-4 col-sm-3") }}
   </div>
 </section>
 {{ end }}
