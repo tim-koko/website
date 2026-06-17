@@ -76,6 +76,7 @@ slideshow:
 # Partner Section
 partner:
   enabled: true
+  layout: slider
   title: "Our partners – Together we’ll go the furthest"
   text: "<p>Competition? We prefer companionship. We choose to work side by side with partners who are pursuing the same goals. That's why we share our experiences, successes and challenges with the community, are active open source contributors and trust that our partners will do the same. This way, we always learn from and with like-minded people - and find solutions that we would never have come up with on our own.</p>"
   item:
@@ -103,6 +104,7 @@ partner:
 # Community Section
 community:
   enabled: true
+  layout: grid
   title: "Memberships & Affiliations – Because impact is a collaborative effort"
   text: "<p>Working in isolation? Not our style. To make a real difference, you need strong support and a vibrant ecosystem. That’s why we actively engage in associations, networks, and initiatives that share our values. Through our memberships and affiliations, we don’t just contribute our expertise—we also back forward-thinking ideas with resources and passion. Because we are convinced: the best inspiration comes from bright minds working together.</p>"
   item:

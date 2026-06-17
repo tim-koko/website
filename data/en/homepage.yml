@@ -87,6 +87,7 @@ references:
 
 # Technologies Section
 clients:
+  layout: grid
   title: "Kund:innen die uns vertrauen"
   item:
     - title: "Aargauische Kantonalbank"

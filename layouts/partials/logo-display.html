@@ -1,0 +1,51 @@
+{{/*
+  Renders a list of logos as either a grid or an auto-scrolling Swiper slider.
+
+  Expected context (dict):
+    items       - list of logo items
+    layout      - "grid" renders a static grid; anything else renders the slider
+    imageWidth  - img width attribute
+    imageHeight - img height attribute
+    labelField  - field name on each item to use as label ("label", "title", or "" for none)
+    hasLink     - bool, wrap image in <a href=".link">
+    useRatio    - bool, wrap image in a ratio-21x9 container (for landscape logos)
+*/}}
+{{ $items      := .items }}
+{{ $layout     := .layout }}
+{{ $imgW       := .imageWidth }}
+{{ $imgH       := .imageHeight }}
+{{ $labelField := .labelField }}
+{{ $hasLink    := .hasLink }}
+{{ $useRatio   := .useRatio }}
+
+{{ if eq $layout "grid" }}
+<div class="row row-cols-2 row-cols-sm-3 row-cols-lg-5 g-6 g-lg-8 justify-content-center" data-scroll>
+  {{ range $items }}
+  {{ $label := "" }}{{ if $labelField }}{{ $label = index . $labelField }}{{ end }}
+  <div class="col d-flex flex-column align-items-center text-center">
+    <div class="px-3 my-auto{{ if $useRatio }} ratio ratio-21x9{{ end }}">
+      {{ if $hasLink }}<a class="d-block" href="{{ .link }}">{{ end }}
+        <img class="{{ if $useRatio }}contain{{ else }}img-fluid{{ end }}" src="{{ (resources.Get .img).RelPermalink }}" width="{{ $imgW }}" height="{{ $imgH }}" alt="{{ .title }}" loading="lazy">
+      {{ if $hasLink }}</a>{{ end }}
+    </div>
+    {{ if $label }}<div class="mt-3 small">{{ $label }}</div>{{ end }}
+  </div>
+  {{ end }}
+</div>
+{{ else }}
+<div class="swiper swiper-logos autoplay with-fade" data-scroll>
+  <div class="swiper-wrapper">
+    {{ range $items }}
+    {{ $label := "" }}{{ if $labelField }}{{ $label = index . $labelField }}{{ end }}
+    <div class="swiper-slide h-auto d-flex flex-column text-center col-4 col-sm-3 col-md-2 col-lg-2">
+      <div class="px-3 my-auto{{ if $useRatio }} ratio ratio-21x9{{ end }}">
+        {{ if $hasLink }}<a class="d-block" href="{{ .link }}">{{ end }}
+          <img class="{{ if $useRatio }}contain{{ else }}img-fluid{{ end }}" src="{{ (resources.Get .img).RelPermalink }}" width="{{ $imgW }}" height="{{ $imgH }}" alt="{{ .title }}" loading="lazy">
+        {{ if $hasLink }}</a>{{ end }}
+      </div>
+      {{ if $label }}<div class="mt-3 small">{{ $label }}</div>{{ end }}
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

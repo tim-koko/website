@@ -123,27 +123,12 @@
 {{ with .Params.partner }}
 <section id="partner" class="section container-fluid mb-16 mb-lg-32">
     <div class="col-lg-7 mb-8 mb-lg-16" data-scroll>
-      <h2 class="h3 mb-4 mb-lg-8">{{ .title }}</h2> 
-      {{ .text | safeHTML }} 
+      <h2 class="h3 mb-4 mb-lg-8">{{ .title }}</h2>
+      {{ .text | safeHTML }}
     </div>
   <div class="col-lg-10 mx-auto">
-    <div class="swiper swiper-logos autoplay with-fade"   data-scroll>
-      <div class="swiper-wrapper">
-        {{ range .item }}
-        <div class="swiper-slide h-auto d-flex flex-column text-center col-4 col-sm-3 col-md-2_ col-lg-2_" >
-          <div class="px-3 my-auto">
-            <a class="d-block" href="{{ .link }}">
-            <img class="img-fluid" src="{{ (resources.Get .img).RelPermalink }}" width="150" height="75" alt="{{ .title }}" loading="lazy">
-            </a>
-          </div>
-          <div class="mt-3 small">{{ .label }}</div> 
-        </div>
-        {{ end }}
-      </div>
-    </div>
+    {{ partial "logo-display.html" (dict "items" .item "layout" .layout "imageWidth" 150 "imageHeight" 75 "labelField" "label" "hasLink" true "useRatio" false) }}
   </div>
-
- 
 </section>
 {{ end }}
 {{ end }}
@@ -153,27 +138,12 @@
 {{ with .Params.community }}
 <section id="community" class="section container-fluid mb-16 mb-lg-32">
     <div class="col-lg-7 mb-8 mb-lg-16" data-scroll>
-      <h2 class="h3 mb-4 mb-lg-8">{{ .title }}</h2> 
-      {{ .text | safeHTML }} 
+      <h2 class="h3 mb-4 mb-lg-8">{{ .title }}</h2>
+      {{ .text | safeHTML }}
     </div>
   <div class="col-lg-10 mx-auto">
-    <div class="swiper swiper-logos autoplay with-fade"   data-scroll>
-      <div class="swiper-wrapper">
-        {{ range .item }}
-        <div class="swiper-slide h-auto d-flex flex-column text-center col-4 col-sm-3 col-md-2_ col-lg-2_" >
-          <div class="px-3 my-auto">
-            <a class="d-block" href="{{ .link }}">
-            <img class="img-fluid" src="{{ (resources.Get .img).RelPermalink }}" width="150" height="75" alt="{{ .title }}" loading="lazy">
-            </a>
-          </div>
-          <div class="mt-3 small">{{ .label }}</div> 
-        </div>
-        {{ end }}
-      </div>
-    </div>
+    {{ partial "logo-display.html" (dict "items" .item "layout" .layout "imageWidth" 150 "imageHeight" 75 "labelField" "label" "hasLink" true "useRatio" false) }}
   </div>
-
- 
 </section>
 {{ end }}
 {{ end }}
