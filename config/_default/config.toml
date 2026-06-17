@@ -114,11 +114,6 @@ rssLimit = 10
   isPlainText = true
   notAlternative = true
 
-[caches]
-  [caches.getjson]
-    dir = ":cacheDir/:project"
-    maxAge = "10s"
-
 [sitemap]
   changefreq = "monthly"
   filename = "sitemap.xml"
