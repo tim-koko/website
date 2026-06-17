@@ -68,9 +68,9 @@
             {{ if hugo.IsMultilingual }}
             {{ $page := . }}
             <div class="language-menu ms-lg-auto mb-1 d-flex">
-              {{ range .Site.Languages }}
-                {{ if eq . $.Site.Language }}
-                  <a  class="nav-link active p-2 p-lg-0 mx-1 ms-lg-4" href="#">{{ .Lang }}</a>
+              {{ range hugo.Sites }}
+                {{ if eq .Language $page.Site.Language }}
+                  <a  class="nav-link active p-2 p-lg-0 mx-1 ms-lg-4" href="#">{{ .Language.Lang }}</a>
                 {{ else }}
                  {{ if $page.IsTranslated }}
                   {{ range $page.Translations }}

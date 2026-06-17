@@ -54,6 +54,10 @@ footer = '<a href="mailto:hallo@tim-koko.ch">hallo@tim-koko.ch</a>'
 # Feed
 copyRight = ""
 
+[author]
+  name = "tim&koko"
+  email = "hallo@tim-koko.ch"
+
 # Alert
 alert = true
 alertDismissable = true

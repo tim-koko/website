@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $data := index hugo.Data .Site.Language.Lang }}
 
 {{ with $data.homepage.hero }}
 <div class="hero container-fluid pt-20 pt-lg-22 mb-10 mb-lg-0">
