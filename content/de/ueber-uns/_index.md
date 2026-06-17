@@ -76,6 +76,7 @@ slideshow:
 # Partner Section
 partner:
   enabled: true
+  layout: slider
   title: "Partner:innen – Gemeinsam kommen wir weiter"
   text: "<p>Konkurrenzkampf? Kennen wir nicht. Wir arbeiten lieber Seite an Seite mit Partner:innen, die das gleiche Ziel verfolgen. Darum teilen wir unsere Erfahrungen, Erfolge und Herausforderungen mit der Community, sind aktive Open Source Contributor:innen und vertrauen darauf, dass unsere Partner:innen das auch tun. So lernen wir stets von und mit Gleichgesinnten – und finden Lösungen, auf die wir von alleine wohl nie gekommen wären.</p>"
   item:
@@ -103,6 +104,7 @@ partner:
 # Community Section
 community:
   enabled: true
+  layout: grid
   title: "Mitgliedschaften & Beteiligungen – Weil Impact ein Zusammenspiel ist"
   text: "<p>Im stillen Kämmerlein sitzen? Ist nicht unser Ding. Um wirklich etwas zu bewegen, braucht es starken Rückhalt und ein lebendiges Ökosystem. Deshalb engagieren wir uns gezielt in Verbänden, Netzwerken und Initiativen, die unsere Werte teilen. Durch unsere Mitgliedschaften und Beteiligungen bringen wir nicht nur unsere Expertise ein, sondern unterstützen auch zukunftsweisende Ideen mit Ressourcen und Herzblut. Denn wir sind überzeugt: Die besten Impulse entstehen dort, wo viele kluge Köpfe zusammenspielen.</p>"
   item:
