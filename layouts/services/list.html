@@ -48,7 +48,7 @@
 
 
 
-{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $data := index hugo.Data .Site.Language.Lang }}
 
 {{ with $data.homepage.references }}
 <section   class="container-fluid  mb-16 mb-lg-32">

@@ -12,9 +12,9 @@ rssLimit = 10
 
 [languages]
   [languages.de]
-    languageName = "Deutsch"
+    label = "Deutsch"
     weight = 1
-    languageCode = "de-ch"
+    locale = "de-ch"
     contentDir = "content/de"
 
     [languages.de.permalinks]
@@ -53,9 +53,9 @@ rssLimit = 10
 
 
   [languages.en]
-    languageName = "English"
+    label = "English"
     weight = 2
-    languageCode = "en-us"
+    locale = "en-us"
     contentDir = "content/en"
 
      # menu
@@ -144,6 +144,14 @@ rssLimit = 10
 [imaging]
   anchor = 'Smart'
   bgColor = '#ffffff'
-  hint = 'picture'
-  quality = 75
   resampleFilter = 'Lanczos'
+
+[imaging.jpeg]
+  quality = 75
+
+[imaging.webp]
+  quality = 75
+  hint = 'picture'
+
+[imaging.avif]
+  quality = 75
