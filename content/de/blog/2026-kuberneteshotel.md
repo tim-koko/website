@@ -12,7 +12,7 @@ Sitemap:
 
 additionalblogposts: [ '2025-jahresrueckblick', 'cnz-hinter-kulissen', '6-monate-tk']
 
-categories: ["Technologie", "Kubernetes", "für dummies"]
+categories: ["Technologie", "Kubernetes", "for dummies"]
 authors: ['marie-steck']
 post_img: "images/blog/kubernetes-hotel/tk-blogpost-kubernetes-hotel-1500x1000.png"
 lead: "Wer heute in der IT-Welt unterwegs ist, kommt an einem Begriff nicht vorbei: Kubernetes. Doch wenn Entwickler von Pods, Nodes, Cilium und GitOps sprechen, schalten Aussenstehende oft ab. Schade eigentlich, denn das Prinzip dahinter ist genial und lässt sich am besten mit einem hochmodernen, vollautomatisierten Bungalow-Hotel erklären."
@@ -34,7 +34,7 @@ Bevor die ersten Gäste einziehen, braucht das Hotel ein Fundament. Hier gibt es
 
 * **Das „Bare Metal“-Hotel:** Die Engineers gehen selbst in den Wald, fällen die Bäume, mischen den Beton und bauen das Hotel direkt auf dem nackten Boden (Bare Metal). Sie haben maximale Kontrolle über jede Schraube, müssen aber nachts auch selbst raus, wenn die Kläranlage streikt.
 
-## Der automatisierte Rohbau mit dem 3D-Drucker (IaC)
+### Der automatisierte Rohbau mit dem 3D-Drucker (IaC)
 
 In einem modernen IT-Hotel klickt niemand mehr Zimmer mit der Maus zusammen. Man nutzt Infrastructure-as-Code (IaC). Aktuell oft mit Tools wie Terraform.
 Das ist wie ein gigantischer 3D-Drucker. Man füttert ihn mit einem digitalen Bauplan (Code) und drückt auf Start. Der Drucker giesst vollautomatisch das Fundament, zieht die Wände hoch und schliesst das Hotel an die Strasse an. Exakt nach Plan, ohne menschliche Fehler.
@@ -42,7 +42,7 @@ Das ist wie ein gigantischer 3D-Drucker. Man füttert ihn mit einem digitalen Ba
 ### Die Inneneinrichtung per Einkaufsliste (GitOps)
 
 Das Hotel steht, aber die Zimmer sind leer. Jetzt kommt GitOps ins Spiel. Das ist das Prinzip, bei dem das Hotel sich permanent selbst mit einer digitalen Einkaufsliste abgleicht.
-Auf der Liste steht: „Zimmer 101 braucht ein Bett, einen Fernseher und eine Minibar.“ Wenn ein Sturm das Bett zerstört, merkt das System das sofort, gleicht es mit der Einkaufsliste ab und baut vollautomatisch ein neues Bett auf. Der Hotel-Manager sorgt dafür, dass der Ist-Zustand immer dem Soll-Zustand entspricht.
+Auf der Liste steht: „Zimmer 101 braucht ein Bett, einen Fernseher und eine Minibar.“ Wenn ein Gast das Bett zerstört, merkt das System das sofort, gleicht es mit der Einkaufsliste ab und baut vollautomatisch ein neues Bett auf. Der Hotel-Manager sorgt dafür, dass der Ist-Zustand immer dem Soll-Zustand entspricht.
 
 #### Die Zimmer-Designer: Wer baut die Fenster und wo ist der Lichtschalter?
 
