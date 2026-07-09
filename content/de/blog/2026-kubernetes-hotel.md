@@ -54,7 +54,7 @@ Während das Plattformteam die Steckdosen verlegt, entscheiden die Entwickler, w
 
 * **Der Zimmerservice im Hintergrund (Backend):** Wenn der Gast den Knopf für den Zimmerservice drückt, sieht er nicht, was im Keller passiert. Das Backend-Team baut die unsichtbare Logik: Wie schnell wird die Bestellung an die Küche weitergeleitet? Wie wird die Zimmerrechnung korrekt kalkuliert?
 
-* **Die Zimmer-Konfiguration:** Die Entwickler bestimmen die feinen Details der Zimmer. Sie packen die Software-Features in sogenannte Helm Charts. Das sind quasi die detaillierten Einrichtungspläne für jeden einzelnen Bungalow. Sie legen fest: „In diesem Zimmer befindet sich der Lichtschalter links neben der Tür, und der Fernseher startet automatisch auf Kanal 1.“
+* **Die Zimmer-Konfiguration:** Die Entwickler bestimmen die feinen Details der Zimmer. Sie packen die Software-Features in sogenannte Helm Charts. Das sind quasi die detaillierten Designpläne für jeden einzelnen Bungalow. Sie legen fest: „In diesem Zimmer ist das Sofa weiss, die Kissen blau, und der Fernseher startet automatisch auf Kanal 1.“
 
 Das Plattformteam sorgt also dafür, dass das Hotel Strom, Wasser und ein sicheres Dach hat. Die Applikations-Entwickler:innen sorgen dafür, dass der Aufenthalt für den Gast zu einem fantastischen Erlebnis wird. Erst durch dieses Zusammenspiel wird das Hotel lebendig.
 

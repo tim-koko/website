@@ -54,7 +54,7 @@ While the platform team lays down the electrical wiring, the developers decide w
 
 * **The Background Room Service (Backend):** When a guest presses the button for room service, they don't see what goes on in the basement. The backend team builds the invisible logic: How quickly is the order forwarded to the kitchen? How is the room bill calculated correctly?
 
-* **The Room Configuration:** The developers determine the fine details of the rooms. They pack the software features into so-called Helm Charts. These are essentially the detailed interior design plans for every single bungalow. They specify: "In this room, the light switch is to the left of the door, and the television automatically starts on channel 1."
+* **The Room Configuration:** The developers determine the fine details of the rooms. They pack the software features into so-called Helm Charts. These are essentially the detailed interior design plans for every single bungalow. They specify: "In this room, the sofa is white, the cushions are blue, and the television automatically starts on channel 1."
 
 The platform team ensures that the hotel has electricity, water, and a secure roof. The application developers make sure that the stay is a fantastic experience for the guest. Only through this teamwork does the hotel truly come to life.
 
