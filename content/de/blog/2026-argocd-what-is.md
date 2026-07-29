@@ -5,7 +5,7 @@ description: ""
 date: 2026-07-13T00:00:00+00:00 # fix 2026-07-13T00:00:00+00:00
 lastmod: 2026-07-13T00:00:00+00:00 # fix 2026-07-13T00:00:00+00:00
 draft: false
-#images: ["images/blog/argocd/argocd-what-is-1200x630.png"]
+images: ["images/blog/argocd/argocd-what-is-1200x630.png"]
 img_border: false
 Sitemap:
   Priority: 0.9
@@ -14,7 +14,7 @@ additionalblogposts: [ 'kubernetes-hotel', 'kubevirt-whatis']
 
 categories: ["Technologie", "Kubernetes", "ArgoCD"]
 authors: ['miriam-streit']
-#post_img: "images/blog/argocd/argocd-what-is-1500x1000.png"
+post_img: "images/blog/argocd/argocd-what-is-1500x1000.png"
 lead: "Klassische CI/CD-Pipelines stossen bei Kubernetes schnell an ihre Grenzen: Es fehlt die Transparenz beim Deployment, und manuelle Eingriffe sind weiterhin möglich und sorgen für Abweichungen zwischen Git und Cluster. Wie lassen sich diese Probleme lösen?"
 ---
 
