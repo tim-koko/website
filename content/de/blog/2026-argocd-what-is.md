@@ -134,4 +134,4 @@ Argo CD nimmt dem Thema Kubernetes-Deployment seine historische Komplexität. Es
 
 _Die Einführung von GitOps ist technisch schnell gemacht - die Herausforderung liegt meist in der passenden Repository-Struktur, dem Rechtemodell und den Prozessen im Team. Bei Bedarf an Unterstützung bei der Konzeption, der Integration in bestehende Systeme oder Schulungen für Entwickler- und Platform-Teams steht unser Consulting-Team gerne zur Verfügung._
 
-_Wer Argo CD lieber hands-on erlernen möchte: In unserem eintägigen [Argo CD Workshop bei Acend](https://acend.ch/trainings/argo-cd/) werden die Grundlagen direkt an einem bereitgestellten Testcluster erarbeitet - von der Installation über Application-Ressourcen bis hin zu Sync-Strategien und ApplicationSets._
+_Wer Argo CD lieber hands-on erlernen möchte: In unserem eintägigen [Argo CD Workshop bei acend](https://acend.ch/trainings/argo-cd/) werden die Grundlagen direkt an einem bereitgestellten Testcluster erarbeitet - von der Installation über Application-Ressourcen bis hin zu Sync-Strategien und ApplicationSets._

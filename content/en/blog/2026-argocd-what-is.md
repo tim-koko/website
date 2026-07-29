@@ -134,4 +134,4 @@ Argo CD removes the historical complexity from Kubernetes deployments. It closes
 
 _Adopting GitOps is technically straightforward - the challenge usually lies in the right repository structure, the permissions model, and the processes within the team. For support with conception, integration into existing systems, or training for development and platform teams, our consulting team is happy to help._
 
-_Prefer learning Argo CD hands-on? Our one-day [Argo CD Workshop at Acend](https://acend.ch/trainings/argo-cd/) covers the fundamentals directly on a provided test cluster - from installation through Application resources to sync strategies and ApplicationSets._
+_Prefer learning Argo CD hands-on? Our one-day [Argo CD Workshop at acend](https://acend.ch/trainings/argo-cd/) covers the fundamentals directly on a provided test cluster - from installation through Application resources to sync strategies and ApplicationSets._
