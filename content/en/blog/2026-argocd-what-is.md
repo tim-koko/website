@@ -2,11 +2,11 @@
 title: "What is ArgoCD? And why it can be compared to a thermostat"
 slug: "argocd-what-is"
 description: ""
-date: 2026-07-13T00:00:00+00:00 # fix 2026-07-13T00:00:00+00:00
-lastmod: 2026-07-13T00:00:00+00:00 # fix 2026-07-13T00:00:00+00:00
+date: 2026-07-30T00:00:00+00:00
+lastmod: 2026-07-30T00:00:00+00:00
 draft: false
 images: ["images/blog/argocd/argocd-what-is-1200x630.png"]
-img_border: false
+img_border: true
 Sitemap:
   Priority: 0.9
 
@@ -108,7 +108,7 @@ spec:
 
 - `syncPolicy`: This is where the magic happens. With `automated`, Argo CD synchronises changes in Git without manual intervention. `prune` deletes resources in the cluster when they are removed from Git. `selfHeal` ensures that manual changes in the cluster are immediately overwritten.
 
-### Real-World Insights: Why We Use Argo CD in Every Consulting Project
+### Real-World Insights: Why We Recommend Argo CD in Every Project
 
 In our client projects, Argo CD is not a "nice-to-have" but the standard building block for every platform. This comes down to tangible advantages in day-to-day project work:
 
@@ -132,6 +132,6 @@ In our client projects, Argo CD is not a "nice-to-have" but the standard buildin
 
 Argo CD removes the historical complexity from Kubernetes deployments. It closes the security gaps of classic CI pipelines, prevents drift, and gives teams full control over their infrastructure.
 
-_Adopting GitOps is technically straightforward - the challenge usually lies in the right repository structure, the permissions model, and the processes within the team. For support with conception, integration into existing systems, or training for development and platform teams, our consulting team is happy to help._
+_Adopting GitOps is technically straightforward - the challenge usually lies in the right repository structure, the permissions model, and the processes within the team. For support with conception, integration into existing systems, or training for development and platform teams, our team is happy to help._
 
 _Prefer learning Argo CD hands-on? Our one-day [Argo CD Workshop at acend](https://acend.ch/trainings/argo-cd/) covers the fundamentals directly on a provided test cluster - from installation through Application resources to sync strategies and ApplicationSets._
