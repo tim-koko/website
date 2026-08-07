@@ -2,8 +2,8 @@
 title: "What is ArgoCD? And why it can be compared to a thermostat"
 slug: "argocd-what-is"
 description: ""
-date: 2026-07-30T00:00:00+00:00
-lastmod: 2026-07-30T00:00:00+00:00
+date: 2026-08-07T00:00:00+00:00
+lastmod: 2026-08-07T00:00:00+00:00
 draft: false
 images: ["images/blog/argocd/argocd-what-is-1200x630.png"]
 img_border: true
