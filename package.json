@@ -67,7 +67,7 @@
     "animejs": "^4.5.0",
     "headroom.js": "^0.12.0",
     "scroll-out": "^2.2.12",
-    "swiper": "^12.2.0",
+    "swiper": "^14.2.0",
     "swup": "^4.8.2"
   }
 }
