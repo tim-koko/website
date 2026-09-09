@@ -1,5 +1,5 @@
 ---
-title: "Was ist ArgoEvents? fix"
+title: "Was ist Argo Events? Und warum es sich mit einem Bewegungsmelder vergleichen lässt"
 slug: "argoevents-what-is"
 description: ""
 date: 2026-09-09T00:00:00+00:00
@@ -10,32 +10,19 @@ img_border: true
 Sitemap:
   Priority: 0.9
 
-additionalblogposts: [ 'kubernetes-hotel', 'kubevirt-whatis', 'argocd-what-is']
+additionalblogposts: [ 'kubevirt-whatis', 'argocd-what-is', 'kubernetes-hotel' ]
 
 categories: ["Technologie", "Kubernetes", "ArgoCD"]
 authors: ['miriam-streit']
 post_img: "images/blog/argocd/argocd-what-is-1500x1000.png"
-lead: "lead - fix"
+lead: "Während Argo CD den Zustand verwaltet, fehlen auf Ereignisse aus der Aussenwelt oft saubere Standards: Eigene Receiver-Apps erzeugen Sicherheitsrisiken und Unübersichtlichkeit. Wie steuert man ereignisgesteuerte Aktionen genauso deklarativ wie den GitOps-Zustand?"
 ---
 
-## Argo Events: Schluss mit dem Skript-Chaos bei ereignisgesteuerten Kubernetes-Tasks
+Mit Argo Events. Als logische Ergänzung zu Argo CD verwandelt das Tool den Cluster in eine ereignisgesteuerte Plattform – vollautomatisch, deklarativ und ohne Skript-Wildwuchs.
 
-### Titel-Optionen
+### Das Problem: Der „Glue Code“-Sumpf
 
-1. **Argo Events: Ereignisgesteuerte Automatisierung ohne Skript-Chaos**
-2. **Wenn Kubernetes auf Reize reagiert: Eine Einführung in Argo Events**
-3. **Argo CD steuert den Zustand, Argo Events die Aktion: GitOps trifft Event-Driven K8s**
-
-### Lead-Texte
-
-* **Lead 1 (Frage):** Eigene Webhook-Empfänger, gebastelte Python-Skripte und CronJobs: Wie löst man ereignisgesteuerte Tasks auf Kubernetes, ohne im Wartungschaos von benutzerdefiniertem Glue-Code zu versinken? *(190 Zeichen)*
-* **Lead 2 (Antwort):** Mit Argo Events. Als logische Ergänzung zu Argo CD verwandelt das Tool deinen Cluster in eine ereignisgesteuerte Plattform – vollautomatisch, deklarativ und ohne Skript-Wildwuchs. *(185 Zeichen)*
-
----
-
-## Das Problem: Der „Glue Code“-Sumpf
-
-Kubernetes eignet sich hervorragend zur Verwaltung von Containern. Doch sobald Anwendungen auf Ereignisse aus der Aussenwelt reagieren müssen, stossen Standard-Ressourcen schnell an ihre Grenzen.
+Kubernetes eignet sich hervorragend zur Verwaltung von Containern. Doch sobald Anwendungen auf Ereignisse aus der Aussenwelt reagieren müssen, reichen Standard-Ressourcen schnell nicht mehr aus.
 
 Typische Szenarien im Cloud-Native-Alltag:
 
@@ -45,57 +32,40 @@ Typische Szenarien im Cloud-Native-Alltag:
 
 Wie lösen viele Teams diese Anforderungen heute? Sie schreiben eigene kleine Flask- oder Python-Apps als Webhook-Receiver, setzen Polling-Container auf oder pflegen unzählige CronJobs. Dieser selbstgeschriebene „Glue Code“ muss gebaut, gesichert, skaliert und gewartet werden. Fällt der Entwickler aus, der das Skript geschrieben hat, wird die Fehlersuche im Krisenfall zum Geduldspiel. Es entsteht ein unübersichtlicher Skript-Wildwuchs im Cluster.
 
----
+### Die Lösung: Was ist Argo Events?
 
-## Die Lösung: Was ist Argo Events?
+Im [ersten Teil](https://tim-koko.ch/blog/argocd-what-is/) unserer Serie haben wir gesehen, wie **Argo CD** den *gewünschten Zustand* (Desired State) der Infrastruktur kontinuierlich abgleicht. **Argo Events** ist der logische Partner für die andere Seite der Medaille: Es steuert die *Aktionen* (Events), die durch externe Reize ausgelöst werden.
 
-Im ersten Teil unserer Serie haben wir gesehen, wie **Argo CD** den *gewünschten Zustand* (Desired State) deiner Infrastruktur kontinuierlich abgleicht. **Argo Events** ist der logische Partner für die andere Seite der Medaille: Es steuert die *Aktionen* (Events), die durch externe Reize ausgelöst werden.
+Man kann sich Argo Events wie einen **Smart-Home-Bewegungsmelder** vorstellen: Der Sensor an der Wand registriert eine Bewegung an der Tür (EventSource), schickt das Signal über das Hausnetzwerk (EventBus), prüft, ob es draussen bereits dunkel ist (Sensor), und schaltet genau dann das Licht ein (Trigger). Genauso reagiert Argo Events auf Reize aus der Aussenwelt – etwa ein File-Upload oder ein Webhook – und führt vollautomatisch die passende Aktion im Cluster aus.
 
 Argo Events ist ein deklaratives, ereignisgesteuertes Automatisierungs-Framework für Kubernetes. Anstatt eigenen Code für den Empfang von Events zu schreiben, definiert man Event-Quellen und Reaktionen einfach als Kubernetes-Ressourcen (Custom Resources).
 
-Argo Events entkoppelt den Event-Erzeuger (z. B. einen GitHub-Webhook) strikt vom Event-Verarbeiter (z. B. einem Kubernetes-Job). Das Ergebnis: Keine einzige Zeile eigener Glue-Code mehr nötig.
+Es entkoppelt den Event-Erzeuger (z. B. einen GitHub-Webhook) strikt vom Event-Verarbeiter (z. B. einem Kubernetes-Job). Das Ergebnis: Keine einzige Zeile eigener Glue-Code mehr nötig.
 
----
-
-## Die Architektur: Die 4 Bausteine von Argo Events
+### Die Architektur: Die 4 Bausteine von Argo Events
 
 Die Funktionsweise von Argo Events basiert auf vier klaren Komponenten, die nahtlos ineinandergreifen:
 
 * **1. EventBus:** Das Fundament und der Transportweg im Cluster. Er fungiert als internes Nachrichtennetzwerk (meist auf Basis von NATS JetStream), das Events sicher und hochverfügbar zwischen EventSources und Sensoren leitet.
-* **2. EventSource:** Definiert, *woher* ein Ereignis kommt. Argo Events unterstützt über 20 Event-Quellen out-of-the-box – darunter Webhooks, S3/MinIO, Kafka, Pub/Sub, AWS SNS/SQS oder Cron-Timer.
+* **2. EventSource:** Definiert, *woher* ein Ereignis kommt. Argo Events unterstützt über 20 Event-Quellen out-of-the-box – darunter Webhooks, MinIO, Kafka, GCP PubSub, AWS SQS/SNS, GitHub/GitLab, Calendar, Slack oder K8s Resources.
 * **3. Sensor:** Der Filter und Entscheider. Er hört auf den EventBus, prüft Bedingungen (z. B. *"Stimmt der Payload-Inhalt?"*) und entscheidet, ob eine Aktion ausgelöst wird.
 * **4. Trigger:** Die eigentliche Aktion innerhalb des Sensors. Sobald der Sensor grünes Licht gibt, führt der Trigger das Resultat aus (z. B. Erzeugen eines K8s-Jobs oder Auslösen eines Argo CD Syncs).
 
-### Ablauf der Architektur
+#### Ablauf der Architektur
 
-```text
-[ Externe Quelle ] --(1. Event)--> [ EventSource ]
-                                        |
-                            (2. Event publizieren)
-                                        v
-                                  [ EventBus ]
-                                        |
-                              (3. Event abhören)
-                                        v
-                                   [ Sensor ]
-                            (Filtert & Prüft Logik)
-                                        |
-                             (4. Trigger ausführen)
-                                        v
-                           [ K8s Job / Argo CD Sync ]
-```
+{{< custom-image "../images/argocd/argo-events-architecture.png" >}}
 
----
+Bildquelle: [https://argoproj.github.io/argo-events/concepts/architecture/](https://argoproj.github.io/argo-events/concepts/architecture/)
 
-## Ein einfaches Beispiel: Vom Webhook zum Kubernetes-Job
+### Ein einfaches Beispiel: Vom Webhook zum Kubernetes-Job
 
-> **Voraussetzung:** Argo Events (inklusive der Argo Events CRDs und Controller) muss bereits in deinem Cluster installiert sein.
+> **Voraussetzung:** Argo Events (inklusive der Argo Events CRDs und Controller) muss bereits im Cluster installiert sein.
 
 Das folgende Beispiel demonstriert alle **4 Bausteine** in der Praxis. Wir empfangen einen Webhook abgesichert per Token und starten automatisch einen Kubernetes-Job.
 
-### 1. EventBus (Das Transportnetzwerk)
+#### 1. EventBus (Das Transportnetzwerk)
 
-Zuerst definieren wir den EventBus im Namespace. Er stellt die NATS-Infrastruktur bereit, über die Events fliessen:
+Zuerst definieren wir den EventBus im Namespace. Er stellt die Jetstream-Infrastruktur bereit, über welche die Events fliessen:
 
 ```yaml
 apiVersion: argoproj.io/v1alpha1
@@ -104,12 +74,11 @@ metadata:
   name: default
   namespace: argo-events
 spec:
-  nats:
-    native:
-      replicas: 3
+  jetstream:
+    version: latest
 ```
 
-### 2. EventSource (Webhook mit Secret-Validierung)
+#### 2. EventSource (Webhook mit Secret-Validierung)
 
 Die `EventSource` öffnet einen Endpunkt. Aus Sicherheitsgründen prüfen wir eingehende Anfragen direkt gegen ein Kubernetes-Secret (Header-Token):
 
@@ -126,7 +95,7 @@ spec:
       - port: 12000
         targetPort: 12000
   webhook:
-    beispiel-endpoint:
+    example-endpoint:
       port: "12000"
       endpoint: /payload
       method: POST
@@ -136,7 +105,7 @@ spec:
         key: token
 ```
 
-### 3. & 4. Sensor und Trigger (Filter & Ziel-Aktion)
+#### 3. & 4. Sensor und Trigger (Filter & Ziel-Aktion)
 
 Der `Sensor` hört auf den `EventBus`, verbindet sich mit der `EventSource` und führt bei Erfolg den definierten `Trigger` aus:
 
@@ -151,7 +120,7 @@ spec:
   dependencies:
     - name: webhook-dep
       eventSourceName: webhook-eventsource
-      eventName: beispiel-endpoint
+      eventName: example-endpoint
   triggers:
     # Der Trigger ist die vierte Komponente
     - template:
@@ -177,23 +146,19 @@ spec:
 **Der Ablauf auf einen Blick:**
 Ein HTTP-POST trifft auf die **EventSource** (2) -> Das Secret wird validiert -> Das Event wird auf den **EventBus** (1) gelegt -> Der **Sensor** (3) liest das Event und prüft die Abhängigkeiten -> Der **Trigger** (4) startet den K8s-Job.
 
----
+### Typische Anwendungsfälle: Wann lohnt sich der Einsatz von Argo Events?
 
-## Praxis-Einblick: Wo wir Skript-Chaos durch Argo Events ersetzen
+In der modernen Cloud-Native-Entwicklung gibt es wiederkehrende Szenarien, in denen der Wechsel von benutzerdefiniertem Eigenbau-Code zu Argo Events unmittelbare Vorteile bringt:
 
-In unseren Kundenprojekten setzen wir Argo Events ein, um unübersichtlichen Eigenbau-Code durch saubere Cloud-Native-Standards zu ersetzen:
-
-* **Ereignisgesteuerte Datenverarbeitung:** Statt Dauer-Container laufen zu lassen, die minütlich Ordner abfragen, reagiert Argo Events direkt auf S3-File-Uploads und startet ressourcenschonend nur dann einen Verarbeitungs-Pod, wenn tatsächlich Daten vorliegen.
-* **Sicherheit & Compliance out-of-the-box:** Enterprise-Kunden müssen Sicherheitsstandards einhalten. Argo Events deckt dies elegant ab:
-  * *Authentifizierung:* HMAC-Signaturen (z. B. GitHub Webhook Secret Validation) oder Token-Checks werden direkt von der `EventSource` übernommen.
-  * *Transport-Verschlüsselung:* Die Kommunikation über den `EventBus` lässt sich per TLS absichern.
+* **Ereignisgesteuerte Datenverarbeitung:** Statt Dauer-Container laufen zu lassen, die minütlich Ordner oder Buckets abfragen, reagiert Argo Events direkt auf S3-File-Uploads. Verarbeitungs-Pods werden ressourcenschonend nur dann gestartet, wenn tatsächlich neue Daten vorliegen.
+* **Event-Driven GitOps & Deployment-Trigger:** Benachrichtigungen von externen Systemen (wie Ticket-Systemen, Monitoring-Alerts oder Webhooks aus CI-Systemen) können genutzt werden, um über Argo CD gezielte Deployments oder Cluster-Synchronisationen auszulösen.
+* **Webhooks ohne Maintenance-Overhead:** Teams sparen sich das Schreiben, Patchen und Verwalten eigener Python-, Go- oder Node-Container, die einzig als Empfänger für Webhooks dienen.
+* **Sicherheits- & Compliance-Anforderungen:** Enterprise-Anforderungen an Authentifizierung und Autorisierung lassen sich deklarativ abdecken:
+  * *Authentifizierung:* HMAC-Signaturen (z. B. GitHub Webhook Secret Validation) oder Token-Checks übernimmt direkt die `EventSource`.
+  * *Transport-Verschlüsselung:* Die Kommunikation über den `EventBus` wird per TLS abgesichert.
   * *Feingranulares RBAC:* Über Kubernetes-Service-Accounts wird strikt begrenzt, welche Ressourcen ein `Sensor`-Trigger im Cluster überhaupt anlegen darf (Least-Privilege-Prinzip).
-* **Event-Driven GitOps:** Benachrichtigungen von externen Systemen (wie Ticket-Systemen, Monitoring-Alerts oder Webhooks) können direkt genutzt werden, um über Argo CD gezielte Deployments oder Cluster-Synchronisationen auszulösen.
-* **Kein Maintenance-Overhead für Webhook-Receiver:** Teams müssen keine eigenen Python- oder Go-Container mehr schreiben, testen, patchen oder in Container-Registries verwalten, nur um Nachrichten entgegenzunehmen.
 
----
-
-## Fazit & Ausblick
+### Fazit & Ausblick
 
 Argo Events beendet die Ära der gebastelten Skripte und benutzerdefinierten Event-Empfänger. Zusammen mit Argo CD entsteht eine Architektur, die nicht nur ihren Zustand im Griff hat, sondern auch dynamisch, sicher und wartungsfrei auf Reize aus der Umwelt reagiert.
 
@@ -201,4 +166,4 @@ Das Beste daran: Ein Trigger in Argo Events ist keineswegs auf einfache Kubernet
 
 *Im nächsten Teil unserer Blog-Serie widmen wir uns daher **Argo Workflows** – der mächtigen Workflow-Engine für Kubernetes.*
 
-*Möchtet ihr Skript-Chaos in euren Clustern beseitigen oder euer Team fit für das gesamte Argo-Ökosystem machen? Sprecht unser Consulting-Team gerne für individuelle Workshops und Architektur-Beratung an.*
+*Ob strategische Architektur-Beratung oder tatkräftige Hands-on-Unterstützung direkt in eurem Cloud-Native-Projekt: Sprecht unser Team gerne an, um Skript-Chaos nachhaltig aus euren Clustern zu verbannen.*
