@@ -18,14 +18,14 @@ post_img: "images/blog/argocd/argocd-what-is-1500x1000.png"
 lead: "Klassische CI/CD-Pipelines stossen bei Kubernetes schnell an ihre Grenzen: Es fehlt die Transparenz beim Deployment, und manuelle Eingriffe sind weiterhin möglich und sorgen für Abweichungen zwischen Git und Cluster. Wie lassen sich diese Probleme lösen?"
 ---
 
-# Argo Events: Schluss mit dem Skript-Chaos bei ereignisgesteuerten Kubernetes-Tasks
-
 ### Titel-Optionen
+
 1. **Argo Events: Ereignisgesteuerte Automatisierung ohne Skript-Chaos**
 2. **Wenn Kubernetes auf Reize reagiert: Eine Einführung in Argo Events**
 3. **Argo CD steuert den Zustand, Argo Events die Aktion: GitOps trifft Event-Driven K8s**
 
 ### Lead-Texte
+
 * **Lead 1 (Frage):** Eigene Webhook-Empfänger, gebastelte Python-Skripte und CronJobs: Wie löst man ereignisgesteuerte Tasks auf Kubernetes, ohne im Wartungschaos von benutzerdefiniertem Glue-Code zu versinken? *(190 Zeichen)*
 * **Lead 2 (Antwort):** Mit Argo Events. Als logische Ergänzung zu Argo CD verwandelt das Tool deinen Cluster in eine ereignisgesteuerte Plattform – vollautomatisch, deklarativ und ohne Skript-Wildwuchs. *(185 Zeichen)*
 
@@ -36,6 +36,7 @@ lead: "Klassische CI/CD-Pipelines stossen bei Kubernetes schnell an ihre Grenzen
 Kubernetes eignet sich hervorragend zur Verwaltung von Containern. Doch sobald Anwendungen auf Ereignisse aus der Aussenwelt reagieren müssen, stossen Standard-Ressourcen schnell an ihre Grenzen.
 
 Typische Szenarien im Cloud-Native-Alltag:
+
 * Eine neue Datei wird in einen S3-Bucket hochgeladen und muss verarbeitet werden.
 * Ein Git-Event oder ein Webhook aus einem externen Tool trifft ein.
 * Eine Nachricht landet in einem Kafka-Topic oder einem Message Broker.
@@ -48,7 +49,7 @@ Wie lösen viele Teams diese Anforderungen heute? Sie schreiben eigene kleine Fl
 
 Im ersten Teil unserer Serie haben wir gesehen, wie **Argo CD** den *gewünschten Zustand* (Desired State) deiner Infrastruktur kontinuierlich abgleicht. **Argo Events** ist der logische Partner für die andere Seite der Medaille: Es steuert die *Aktionen* (Events), die durch externe Reize ausgelöst werden.
 
-Argo Events ist ein deklaratives, ereignisgesteuertes Automatisierungs-Framework für Kubernetes. Anstatt eigenen Code für den Empfang von Events zu schreiben, definiert man Event-Quellen und Reaktionen einfach als Kubernetes-Ressourcen (Custom Resources). 
+Argo Events ist ein deklaratives, ereignisgesteuertes Automatisierungs-Framework für Kubernetes. Anstatt eigenen Code für den Empfang von Events zu schreiben, definiert man Event-Quellen und Reaktionen einfach als Kubernetes-Ressourcen (Custom Resources).
 
 Argo Events entkoppelt den Event-Erzeuger (z. B. einen GitHub-Webhook) strikt vom Event-Verarbeiter (z. B. einem Kubernetes-Job). Das Ergebnis: Keine einzige Zeile eigener Glue-Code mehr nötig.
 
@@ -91,6 +92,7 @@ Die Funktionsweise von Argo Events basiert auf vier klaren Komponenten, die naht
 Das folgende Beispiel demonstriert alle **4 Bausteine** in der Praxis. Wir empfangen einen Webhook abgesichert per Token und starten automatisch einen Kubernetes-Job.
 
 ### 1. EventBus (Das Transportnetzwerk)
+
 Zuerst definieren wir den EventBus im Namespace. Er stellt die NATS-Infrastruktur bereit, über die Events fliessen:
 
 ```yaml
@@ -106,6 +108,7 @@ spec:
 ```
 
 ### 2. EventSource (Webhook mit Secret-Validierung)
+
 Die `EventSource` öffnet einen Endpunkt. Aus Sicherheitsgründen prüfen wir eingehende Anfragen direkt gegen ein Kubernetes-Secret (Header-Token):
 
 ```yaml
@@ -132,6 +135,7 @@ spec:
 ```
 
 ### 3. & 4. Sensor und Trigger (Filter & Ziel-Aktion)
+
 Der `Sensor` hört auf den `EventBus`, verbindet sich mit der `EventSource` und führt bei Erfolg den definierten `Trigger` aus:
 
 ```yaml
@@ -168,7 +172,7 @@ spec:
                     restartPolicy: Never
 ```
 
-**Der Ablauf auf einen Blick:** 
+**Der Ablauf auf einen Blick:**
 Ein HTTP-POST trifft auf die **EventSource** (2) -> Das Secret wird validiert -> Das Event wird auf den **EventBus** (1) gelegt -> Der **Sensor** (3) liest das Event und prüft die Abhängigkeiten -> Der **Trigger** (4) startet den K8s-Job.
 
 ---
