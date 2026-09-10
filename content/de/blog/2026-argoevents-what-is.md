@@ -15,7 +15,7 @@ additionalblogposts: [ 'kubevirt-whatis', 'argocd-what-is', 'kubernetes-hotel' ]
 categories: ["Technologie", "Kubernetes", "ArgoCD"]
 authors: ['miriam-streit']
 post_img: "images/blog/argocd/argocd-what-is-1500x1000.png"
-lead: "Während Argo CD den Zustand verwaltet, fehlen auf Ereignisse aus der Aussenwelt oft saubere Standards: Eigene Receiver-Apps erzeugen Sicherheitsrisiken und Unübersichtlichkeit. Wie steuert man ereignisgesteuerte Aktionen genauso deklarativ wie den GitOps-Zustand?"
+lead: "Argo CD steuert zwar den Zustand, aber für externe Ereignisse fehlen klare Standards. Eigene Receiver-Apps sind meist unübersichtlich und bergen Sicherheitsrisiken. Wie steuert man ereignisgesteuerte Aktionen genauso deklarativ wie den GitOps-Zustand?"
 ---
 
 Mit Argo Events. Als logische Ergänzung zu Argo CD verwandelt das Tool den Cluster in eine ereignisgesteuerte Plattform – vollautomatisch, deklarativ und ohne Skript-Wildwuchs.
@@ -30,7 +30,7 @@ Typische Szenarien im Cloud-Native-Alltag:
 * Ein Git-Event oder ein Webhook aus einem externen Tool trifft ein.
 * Eine Nachricht landet in einem Kafka-Topic oder einem Message Broker.
 
-Wie lösen viele Teams diese Anforderungen heute? Sie schreiben eigene kleine Flask- oder Python-Apps als Webhook-Receiver, setzen Polling-Container auf oder pflegen unzählige CronJobs. Dieser selbstgeschriebene „Glue Code“ muss gebaut, gesichert, skaliert und gewartet werden. Fällt der Entwickler aus, der das Skript geschrieben hat, wird die Fehlersuche im Krisenfall zum Geduldspiel. Es entsteht ein unübersichtlicher Skript-Wildwuchs im Cluster.
+Wie lösen viele Teams diese Anforderungen heute? Sie schreiben eigene kleine Flask- oder Python-Apps als Webhook-Receiver, setzen Polling-Container auf oder pflegen unzählige CronJobs. Dieser selbstgeschriebene „Glue Code“ muss gebaut, gesichert, skaliert und gewartet werden. Fällt der oder die Entwickler:in aus, der das Skript geschrieben hat, wird die Fehlersuche im Krisenfall zum Geduldsspiel. Es entsteht ein unübersichtlicher Skript-Wildwuchs im Cluster.
 
 ### Die Lösung: Was ist Argo Events?
 
