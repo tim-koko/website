@@ -2,8 +2,8 @@
 title: "What is Argo Workflows? And why it can be compared to an automated production line"
 slug: "argoworkflows-what-is"
 description: ""
-date: 2026-09-15T00:00:00+00:00
-lastmod: 2026-09-15T00:00:00+00:00
+date: 2026-11-04T00:00:00+00:00
+lastmod: 2026-11-04T00:00:00+00:00
 draft: false
 images: ["images/blog/argocd/argocd-what-is-1200x630.png"]
 img_border: true
