@@ -66,7 +66,7 @@ Ein Abbau war also mehr als verdient. Um die Liquidität des Unternehmens sicher
 
 * **Phase 1 (Urlaub):** Sarah und Thömu bauten ihre Überstunden und Ferientage ab, während das eingespielte Team vor Ort das laufende Geschäft lückenlos weiterführte.
 
-* **Phase 2 (Workation):** Durch den schrittweisen Wiedereinstieg in Remotework wurden von unterwegs wieder aktiv Kundenprojekte bearbeitet und verrechenbare Stunden generiert. 
+* **Phase 2 (Workation):** Durch den schrittweisen Wiedereinstieg in Remotework wurden von unterwegs wieder aktiv Kundenprojekte bearbeitet und verrechenbare Stunden generiert.
 
 So liess sich der Traum vom Nordkap finanziell solide und fair mit dem Unternehmen vereinbaren, ohne das Tagesgeschäft aus dem Gleichgewicht zu bringen.
 
@@ -82,6 +82,7 @@ Eine längere Auszeit der Gründerinnen und Gründer fühlt sich im ersten Momen
 * **Vertrauen statt Kontrolle:** Wer Aufgaben abgibt, muss loslassen können. Eine solche Reise zwingt dazu, Micromanagement endgültig abzulegen und voll auf die Fähigkeiten des Teams zu vertrauen.
 
 * **Prozesse auf dem Prüfstand:** Wo gibt es noch implizites Wissen, das nur im Kopf der Gründer existiert? Die Vorbereitung deckt Lücken auf und macht das Unternehmen nachhaltig stabiler und unabhängiger.
+
 * **Vorbild für eine moderne Arbeitskultur:** Wenn die Führungsebene vorlebt, dass Work-Life-Balance, Auszeiten und Workations keine Lippenbekenntnisse sind, stärkt das die gesamte Unternehmenskultur.
 
 **Unser Fazit:** Traut euch! Ein Unternehmen, das ohne die ständige Präsenz der Gründer funktioniert, ist kein Risiko, sondern das Zeichen eines reifen, funktionierenden und skalierbaren Geschäftsmodells.
