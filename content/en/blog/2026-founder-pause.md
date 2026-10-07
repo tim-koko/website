@@ -5,7 +5,7 @@ description: ""
 date: 2026-10-01T00:00:00+00:00
 lastmod: 2026-10-01T00:00:00+00:00
 draft: false
-images: ["images/blog/kubernetes-hotel/tk-blogpost-kubernetes-hotel-1200x630.png"]
+images: ["images/blog/founder-pause/tk-blogpost-founder-pause-1200x630.png"]
 img_border: false
 Sitemap:
   Priority: 0.9
@@ -14,7 +14,7 @@ additionalblogposts: [ 'work-from-anywhere', 'kubernetes-hotel', 'argoworkflows-
 
 categories: ["Members", "Behind the Scenes", "tim&koko"]
 authors: ['marie-steck']
-post_img: "images/blog/kubernetes-hotel/tk-blogpost-kubernetes-hotel-1500x1000.png"
+post_img: "images/blog/founder-pause/tk-blogpost-founder-pause-1500x1000.png"
 lead: "The plan had been brewing for a long time: cycling all the way up to the North Cape. But how do you execute such an adventure when you founded your own company a few years ago and carry the responsibility for a team?"
 ---
 
