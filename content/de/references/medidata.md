@@ -19,8 +19,8 @@ link: "https://www.medidata.ch"
 
 # TODO Bildli, Statement, einheitlicher CTA
 
-tim&koko unterstützte MediData beim Aufbau einer Kafka-Messaging-Plattform von Grund auf und bei ihrer Integration in
-die bestehende Microservice-Architektur. Bisher tauschten die Services Daten über ActiveMQ oder gemeinsam genutzte
+tim&koko hat MediData von Grund auf beim Aufbau einer Kafka-Messaging-Plattform unterstützt und bei ihrer Integration in
+die bestehende Microservice-Architektur begleitet. Bisher tauschten die Services Daten über ActiveMQ oder gemeinsam genutzte
 Views in einer Oracle-Datenbank aus. Kafka soll diese Kommunikationswege im Rahmen des langfristigen
 Entkopplungsvorhabens schrittweise ablösen. Dabei galt es, die unterschiedlichen Verantwortlichkeiten der Teams,
 mehrere OpenShift-Umgebungen und den Schutz personenbezogener Daten von Anfang an zu berücksichtigen.
@@ -44,8 +44,7 @@ Datenschutz und Informationssicherheit bei MediData einen hohen Stellenwert.
 
 ## Herausforderung
 
-MediData wollte eine Kafka-Messaging-Plattform von Grund auf aufbauen und in die bestehende Microservice-Architektur integrieren. Bislang tauschten die Services Daten über ActiveMQ-Nachrichten oder geteilte Views in einer monolithischen Oracle-Datenbank aus. Im Rahmen eines langfristigen Entkopplungsvorhabens soll Kafka diese beiden Wege schrittweise
-ablösen. Die wesentlichen Herausforderungen waren:
+MediData wollte eine Kafka-Messaging-Plattform von Grund auf aufbauen und in die bestehende Microservice-Architektur integrieren. Bislang tauschten die Services Daten über ActiveMQ-Nachrichten oder geteilte Views in einer monolithischen Oracle-Datenbank aus. Im Rahmen eines langfristigen Entkopplungsvorhabens soll Kafka diese beiden Wege schrittweise ablösen. Die wesentlichen Herausforderungen waren:
 
 * **Integration in die bestehende Architektur:** Die neue Plattform musste sich in die vorhandenen Services und deren bisherige Kommunikationswege einfügen.
 * **Schrittweise Entkopplung:** ActiveMQ und gemeinsam genutzte Datenbank-Views sollten mittelfristig durch Kafka-Messaging ersetzt werden, ohne den Produktivbetrieb zu stören.
