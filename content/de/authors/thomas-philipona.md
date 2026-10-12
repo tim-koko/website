@@ -4,7 +4,7 @@ slug: "thomas-philipona"
 description: ""
 draft: false
 date: 2022-04-01T00:00:00+00:00
-lastmod: 2022-11-01T00:00:00+00:00
+lastmod: 2025-12-09T00:00:00+00:00
 tk_teammamber: true
 image: "/images/team/thoemu.jpg"
 designation: "Founder"

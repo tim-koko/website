@@ -3,7 +3,7 @@ title: "Wir sprechen nicht nur Tech-Sprachen"
 slug: "nicht-nur-tech-sprachen"
 description: "Java, Go & Griechisch? Bei tim&koko sprechen wir nicht nur Tech. Lerne unser Team und unsere 10 Sprachen kennen. Persönliche Einblicke hier!"
 date: 2025-05-28T00:00:00+00:00
-lastmod: 2025-05-28T00:00:00+00:00
+lastmod: 2025-08-05T00:00:00+00:00
 draft: false
 images: ["images/blog/sprachen/tk-blogpost-sprachen-1200x630.png"]
 Sitemap:

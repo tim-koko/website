@@ -22,6 +22,9 @@ other = "Discover Services"
 [published]
 other = "published"
 
+[updated]
+other = "updated"
+
 [sharePost]
 other = "Share article"
 

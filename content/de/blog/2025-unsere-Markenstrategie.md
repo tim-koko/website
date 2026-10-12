@@ -3,7 +3,7 @@ title: "Unsere Markenstrategie – Was tim&koko wirklich ausmacht"
 slug: "unsere-markenstrategie" 
 description: "Into the Cloud: Unsere DNA, unser Antrieb & unsere Haltung. Ein ehrlicher Einblick in die Marke tim&koko. Cloud Native, Menschlichkeit & Mut." 
 date: 2025-07-07T15:00:00+00:00 
-lastmod: 2025-07-07T15:00:00+00:00 
+lastmod: 2025-08-05T15:00:00+00:00 
 draft: false 
 images: ["images/blog/unsere-markenstrategie/20221018-TimKoko_Bern_0306.jpg"] # Open Graph bild, das angezeigt wird, wenn man die URL bspw. im google chat oder auf LinkedIn postet
 img_border: false 

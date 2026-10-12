@@ -7,7 +7,7 @@ titleSublineVisible: "Pre-Apéro in Paris"
 image: "images/landing-pages/tk-landingpage-kubetrain-1500x600.png"
 lead: ""
 date: 2025-01-19T00:00:00+00:00
-lastmod: 2025-01-19T00:00:00+00:00
+lastmod: 2025-01-20T00:00:00+00:00
 draft: false
 sitemap_exclude: true
 feed_exclude: true

@@ -22,6 +22,9 @@ other = "Services entdecken"
 [published]
 other = "Veröffentlicht"
 
+[updated]
+other = "Aktualisiert"
+
 [sharePost]
 other = "Beitrag teilen"
 

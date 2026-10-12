@@ -3,7 +3,7 @@ title: "KubeVirt Journey - Einführung in die Verwaltung von virtuellen Maschine
 slug: "kubevirt-introduction"
 description: "Einführung in KubeVirt: Betreibe VMs direkt auf Kubernetes. Lerne die Architektur & Konzepte kennen und verbinde klassische IT mit Cloud Native."
 date: 2024-09-09T00:00:00+00:00
-lastmod: 2024-09-09T00:00:00+00:00
+lastmod: 2025-01-10T00:00:00+00:00
 draft: false
 images: ["images/blog/kubevirt/tk-blogpost-kubevirt_share-image.jpg"]
 img_border: true

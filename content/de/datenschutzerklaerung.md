@@ -3,7 +3,7 @@ title: "Datenschutzerklärung"
 description: "Deine Privatsphäre ist uns wichtig. Hier informieren wir dich transparent, wie wir deine Daten schützen und verarbeiten. Unsere Datenschutzerklärung."
 lead: ""
 date: 2022-05-28T00:00:00+00:00
-lastmod: 2024-08-24T00:00:00+00:00
+lastmod: 2025-12-07T00:00:00+00:00
 draft: false
 images: []
 Sitemap:

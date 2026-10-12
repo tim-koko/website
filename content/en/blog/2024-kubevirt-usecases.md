@@ -3,7 +3,7 @@ title: "KubeVirt Journey - Potential and use cases of KubeVirt"
 slug: "kubevirt-usecases"
 description: "Unlock KubeVirt's potential: Modernize infrastructure and workflows. From legacy app migration to utilizing specialized hardware in Kubernetes."
 date: 2024-11-21T00:00:00+00:00
-lastmod: 2024-11-21T00:00:00+00:00
+lastmod: 2025-01-10T00:00:00+00:00
 draft: false
 images: ["images/blog/kubevirt/tk-blogpost-kubevirt_share-image.jpg"]
 img_border: true

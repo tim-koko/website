@@ -3,7 +3,7 @@ title: "Wir sind tim&koko – neuer Name, die gleichen Köpfe"
 slug: "tim-koko"
 description: "Wir sind tim&koko: Neuer Name, gleiches Team. Warum wir uns umbenannt haben und was Tim Berners-Lee & Koko damit zu tun haben. Hallo Cloud!"
 date: 2024-05-30T00:00:00+00:00
-lastmod: 2024-05-31T00:00:00+00:00
+lastmod: 2024-11-01T00:00:00+00:00
 draft: false
 images: ["images/blog/TK_BlogPost_2-3_RZ.png"]
 Sitemap:

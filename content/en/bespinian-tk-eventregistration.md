@@ -7,7 +7,7 @@ titleSublineVisible: "bespinian and tim&koko invite you!"
 image: "images/landing-pages/30-10-25_Let's get cloudy.png"
 lead: ""
 date: 2025-01-19T00:00:00+00:00
-lastmod: 2025-01-19T00:00:00+00:00
+lastmod: 2025-10-15T00:00:00+00:00
 draft: false
 sitemap_exclude: true
 feed_exclude: true

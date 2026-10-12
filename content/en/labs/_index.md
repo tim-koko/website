@@ -5,7 +5,7 @@ titleVisible: "OpenShift Virtualization"
 titleSublineVisible: "tim&koko lab"
 image: "images/landing-pages/tk-landingpage-labs-1500x600.png"
 date: 2022-10-31T00:00:00+00:00
-lastmod: 2024-08-24T00:00:00+00:00
+lastmod: 2026-02-16T00:00:00+00:00
 draft: false
 blogposts: [ 'kubevirt-introduction', 'kubevirt-training']
 netlifyFormname: "lab-registration"

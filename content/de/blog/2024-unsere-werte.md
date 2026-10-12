@@ -3,7 +3,7 @@ title: "Unsere Werte: Das Fundament in unserer Arbeit"
 slug: "unsere-werte"
 description: "Authentisch, mutig & menschlich. Unsere Werte sind unser Kompass. Erfahre, wie wir bei tim&koko arbeiten, was uns antreibt und verbindet."
 date: 2024-12-02T00:00:00+00:00
-lastmod: 2024-12-02T00:00:00+00:00
+lastmod: 2025-08-05T00:00:00+00:00
 draft: false
 images: ["images/blog/unsere-werte/tk-blogpost-werte-some.png"]
 img_border: false

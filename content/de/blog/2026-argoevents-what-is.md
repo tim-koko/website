@@ -3,7 +3,7 @@ title: "Was ist Argo Events? Und warum es sich mit einem Bewegungsmelder verglei
 slug: "argoevents-what-is"
 description: ""
 date: 2026-09-09T00:00:00+00:00
-lastmod: 2026-09-09T00:00:00+00:00
+lastmod: 2026-09-10T00:00:00+00:00
 draft: false
 images: ["images/blog/argocd/argocd-what-is-1200x630.png"]
 img_border: true

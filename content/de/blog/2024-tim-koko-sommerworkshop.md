@@ -3,7 +3,7 @@ title: "Gemeinsame Ziele, gemeinsamer Weg: Unser tim&koko Sommer-Workshop"
 slug: "tim-koko-sommerworkshop"
 description: "Gemeinsame Ziele & Wege: Einblicke in unseren Sommer-Workshop. Teambuilding, Werte & unsere Vision für 2029. So wachsen wir zusammen."
 date: 2024-08-08T00:00:00+00:00
-lastmod: 2024-08-08T00:00:00+00:00
+lastmod: 2025-08-05T00:00:00+00:00
 draft: false
 images: ["images/blog/workshop24/TK_BlogPost_SommerWorkshop2024_1.jpg"]
 Sitemap:

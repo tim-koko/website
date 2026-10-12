@@ -3,7 +3,7 @@ title: "We are tim&koko – new name, same people"
 slug: "tim-koko"
 description: "We are tim&koko: New name, same team. Why we rebranded and what Tim Berners-Lee and Koko the gorilla have to do with our Cloud Native spirit."
 date: 2024-05-30T00:00:00+00:00
-lastmod: 2024-05-31T00:00:00+00:00
+lastmod: 2024-11-01T00:00:00+00:00
 draft: false
 images: []
 Sitemap:

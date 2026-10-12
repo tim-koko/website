@@ -3,7 +3,7 @@ title: "Working at tim&koko – A Look Back After Six Months"
 slug: "6-monate-tk"
 description: "Behind the scenes: Marie recaps her first 6 months at tim&koko. Learn more about our culture, team spirit, and current job openings."
 date: 2025-09-11T00:00:00+00:00
-lastmod: 2025-09-11T00:00:00+00:00
+lastmod: 2025-12-09T00:00:00+00:00
 draft: false
 images: ["images/blog/6-monate/tk-blogpost-6-monate-1200x630.png"]
 Sitemap:

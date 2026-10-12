@@ -3,7 +3,7 @@ title: "F5-Integration mit OpenShift"
 slug: "f5-integration-openshift"
 description: "F5 Load Balancer auf OpenShift automatisieren: Eine Anleitung zur Integration via F5 CIS Operator, CRDs & TransportServer. Effizienz steigern!"
 date: 2024-11-12T00:00:00+00:00
-lastmod: 2024-11-12T00:00:00+00:00
+lastmod: 2025-07-07T00:00:00+00:00
 draft: false
 images: ["images/blog/openshift-f5/tk_blogpost-rh-openshift-f5-1200x630.jpg"]
 Sitemap:

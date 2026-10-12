@@ -3,7 +3,7 @@ title: "Kafka OAuth 2 Authentifizierung mit Strimzi und Keycloak - Teil 1"
 slug: "strimzi-kafka-oauth-keycloak-authentication"
 description: ""
 date: 2026-03-31T00:00:00+00:00
-lastmod: 2026-03-31T00:00:00+00:00
+lastmod: 2026-04-09T00:00:00+00:00
 draft: false
 images: ["images/blog/kafka-strimzi-v1/tk-blogpost-strimzi-v1-share-image.jpg"]
 Sitemap:

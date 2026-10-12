@@ -4,7 +4,7 @@ slug: "adcubum-syrius-auf-dem-weg-in-die-cloud"
 description: "Wir begleiten Adcubum und Syrius in die Cloud. Als Product Owner & Architekten unterstützen wir bei der OpenShift-Migration & Tracing. Zur Cloud Journey!"
 lead: "tim&koko unterstützt Adcubum auf ihrem spannenden Weg in die Cloud."
 date: 2023-03-29T00:00:00+00:00
-lastmod: 2023-03-29T00:00:00+00:00
+lastmod: 2025-03-13T00:00:00+00:00
 draft: false
 images: ["images/projects/adcubum.jpg"]
 Sitemap:

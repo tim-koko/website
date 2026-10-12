@@ -3,7 +3,7 @@ title: "Our Values: The Foundation of Our Work"
 slug: "our-values"
 description: "Authentic, brave & human. Our values are our compass. Learn how we work at tim&koko, what drives us, and what connects us as a team."
 date: 2024-12-02T00:00:00+00:00
-lastmod: 2024-12-02T00:00:00+00:00
+lastmod: 2025-08-05T00:00:00+00:00
 draft: false
 images: ["images/blog/unsere-werte/tk-blogpost-werte-some.png"]
 img_border: false

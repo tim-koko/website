@@ -3,7 +3,7 @@ title: "Jahresrückblick 2025"
 slug: "2025-jahresrueckblick"
 description: "Wir blicken zurück auf das Jahr 2025."
 date: 2025-12-17T00:00:00+00:00
-lastmod: 2025-12-17T00:00:00+00:00
+lastmod: 2025-12-18T00:00:00+00:00
 draft: false
 images: ["images/blog/rueckblick/tk-blogpost-2025-rueckblick-1200x630.png"]
 Sitemap:

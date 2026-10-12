@@ -3,7 +3,7 @@ title: "Hands-on KubeVirt Basics Training"
 slug: "kubevirt-training"
 description: "Master KubeVirt: Join our 2-day hands-on training. Learn to deploy and manage VMs on Kubernetes. Ideal for container experts. Book now!"
 date: 2024-10-07T00:00:00+00:00
-lastmod: 2024-10-07T00:00:00+00:00
+lastmod: 2025-01-13T00:00:00+00:00
 draft: false
 images: ["images/blog/kubevirt-training/kubevirt-training-some-1200x630.png"]
 img_border: false
