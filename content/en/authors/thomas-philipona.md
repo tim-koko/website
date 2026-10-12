@@ -17,3 +17,27 @@ email: "thomas@tim-koko.ch"
 Thomas (Nickname Thömu) first encountered containers and Kubernetes in 2015. Since then, cloud native technologies have been a constant companion in his professional life. As a Founder and Cloud Native Consultant, he assists various clients in migrating their workloads to the cloud and making them cloud ready. Additionally, he is actively involved in the community as part of the Cloud Native Zurich organizing team.
 
 He has given numerous talks, such as being a speaker at DevOpsDays, KCD Munich, and various Swiss meetups.
+
+#### Profile
+
+Our Founder & Chief Fübi Quality Manager – in short: the man who redefines multitasking.
+
+🦸‍♂️ Superpower
+
+Takes care of three things at once without losing track – with Thömu, chaos is simply well organised.
+
+📖 Instructions for use
+
+Supply with at least 4 cups of coffee a day. Beer works as an alternative.
+
+🤔 If not here, then …
+
+He'd probably be a guitar rock star.
+
+🎓 Life hack
+
+Containers are like plants: water them regularly or they die.
+
+🐶 Spirit animal
+
+Sloth on Monday, rhino from Tuesday – slow start, but then head first through the wall.
