@@ -4,7 +4,7 @@ slug: "miriam-streit"
 description: ""
 draft: false
 date: 2025-02-01T00:00:00+00:00
-lastmod: 2025-02-01T00:00:00+00:00
+lastmod: 2026-02-04T00:00:00+00:00
 tk_teammamber: true
 image: "/images/team/miriam.jpg"
 designation: "Platform Engineer"

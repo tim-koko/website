@@ -4,7 +4,7 @@ slug: "christof-luethi"
 description: ""
 draft: false
 date: 2024-05-01T00:00:00+00:00
-lastmod: 2024-05-01T00:00:00+00:00
+lastmod: 2026-10-12T00:00:00+00:00
 tk_teammamber: true
 image: "/images/team/chrigu.jpg"
 designation: "Cloud Architect"

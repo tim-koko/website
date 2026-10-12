@@ -3,7 +3,7 @@ title: "OpenShift Virtualization"
 slug: "openshift-virtualization"
 description: "VMs & Container vereint: Nutze OpenShift Virtualization für eine hybride Cloud-Plattform. Migration, Vorteile & Features im Überblick."
 date: 2025-01-09T00:00:00+00:00
-lastmod: 2025-01-09T00:00:00+00:00
+lastmod: 2025-06-17T00:00:00+00:00
 draft: false
 images: ["images/blog/openshift-virtualization/tk-blogpost-ocp-virtualization-some.jpg"]
 img_border: true

@@ -3,7 +3,7 @@ title: "Leaving VMware: Evaluating Proxmox, OpenStack, and KubeVirt as Modern Al
 slug: "proxmox-alternative"
 description: "Moving away from VMware? We compare Proxmox, OpenStack & KubeVirt as modern alternatives. Find the right strategy for your infrastructure."
 date: 2025-06-19T00:00:00+00:00
-lastmod: 2025-06-19T00:00:00+00:00
+lastmod: 2025-08-05T00:00:00+00:00
 draft: false
 images: ["images/blog/proxmox/tk-blogpost-proxmox-1200x630.png"]
 Sitemap:

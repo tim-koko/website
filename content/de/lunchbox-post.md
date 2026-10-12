@@ -7,7 +7,7 @@ titleSublineVisible: "tim&koko Lunchbag"
 image: "images/landing-pages/tk-puzzle-lunchbag-post-1500x1000.png"
 lead: ""
 date: 2025-01-14T00:00:00+00:00
-lastmod: 2025-01-14T00:00:00+00:00
+lastmod: 2025-01-16T00:00:00+00:00
 draft: false
 sitemap_exclude: true
 feed_exclude: true

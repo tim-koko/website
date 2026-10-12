@@ -3,7 +3,7 @@ title: "Auto-Instrumentierung von Java-Applikationen mit dem OpenTelemetry Opera
 slug: "otel-autoinstrumentation"
 description: "Automatisiere dein Monitoring: Java-Apps in Kubernetes mit dem OpenTelemetry Operator instrumentieren – ohne Code-Anpassung. Jetzt Anleitung lesen!"
 date: 2025-07-31T00:00:00+00:00
-lastmod: 2025-07-31T00:00:00+00:00
+lastmod: 2025-08-05T00:00:00+00:00
 draft: false
 images: ["images/blog/otel/tk-blogpost-otel-1200x630.png"]
 Sitemap:

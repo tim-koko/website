@@ -4,7 +4,7 @@ slug: "marie-steck"
 description: ""
 draft: false
 date: 2025-03-01T00:00:00+00:00
-lastmod: 2025-03-01T00:00:00+00:00
+lastmod: 2026-10-12T00:00:00+00:00
 tk_teammamber: true
 image: "/images/team/marie.jpg"
 designation: "Project Manager"

@@ -3,7 +3,7 @@ title: "Join the Team"
 description: "Werde Teil von tim&koko! Wir suchen Cloud Native Talente mit Mut & Herz. Freu dich auf spannende Projekte, tolle Kultur & modernste Tech. Zu den Jobs!"
 lead: ""
 date: 2025-08-20T00:00:00+00:00
-lastmod: 2025-08-20T00:00:00+00:00
+lastmod: 2025-08-21T00:00:00+00:00
 draft: false
 images: []
 Sitemap:

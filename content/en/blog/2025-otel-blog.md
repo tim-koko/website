@@ -3,7 +3,7 @@ title: "Observability with OpenTelemetry: A Kubernetes-Native Approach"
 slug: "opentelemetry-introduction"
 description: "Observability in 2025: Why OpenTelemetry is essential for Kubernetes. Logs, metrics & traces combined. Go to the intro guide!"
 date: 2025-03-01T00:00:00+00:00
-lastmod: 2025-03-01T00:00:00+00:00
+lastmod: 2025-08-05T00:00:00+00:00
 draft: false
 images: ["images/blog/otel/tk-blogpost-otel-1200x630.png"]
 img_border: true

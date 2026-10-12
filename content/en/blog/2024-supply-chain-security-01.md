@@ -3,7 +3,7 @@ title: "Protecting Your Software Supply Chain: Security from Source to Deploymen
 slug: "supply-chain-security-01"
 description: "Secure your software supply chain: From code to deployment. Learn about SLSA, Sigstore, and how to sign container images with Cosign."
 date: 2024-09-29T14:00:00+00:00
-lastmod: 2024-09-29T14:00:00+00:00
+lastmod: 2025-08-05T14:00:00+00:00
 draft: false
 images: ["images/blog/scs/supply-chain-security-blog-SOME.png"]
 img_border: true

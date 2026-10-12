@@ -3,7 +3,7 @@ title: "Dein Zugang zur Marke tim&koko: Alles, was du über unseren Brand wissen
 slug: "brand-plattform-tim-koko"
 description: "Unsere DNA auf einen Blick: Entdecke die tim&koko Markenplattform. Alle Assets, Richtlinien & Strategien für ein konsistentes Markenerlebnis."
 date: 2024-10-23T00:00:00+00:00
-lastmod: 2024-10-23T00:00:00+00:00
+lastmod: 2024-11-01T00:00:00+00:00
 draft: false
 images: ["images/blog/brand-plattform/tk-blogpost-brandplattform-tim-koko.png"]
 Sitemap:

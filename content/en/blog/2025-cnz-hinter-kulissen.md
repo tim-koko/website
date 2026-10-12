@@ -3,7 +3,7 @@ title: "Cloud Native Day Zurich – A Look Behind the Scenes"
 slug: "cnz-hinter-kulissen"
 description: "Behind the scenes of Cloud Native Day Zurich: How our team organizes the event. Community, passion & teamwork. Read the backstage report."
 date: 2025-10-21T00:00:00+00:00
-lastmod: 2025-10-21T00:00:00+00:00
+lastmod: 2025-12-09T00:00:00+00:00
 draft: false
 images: ["images/blog/cnz/tk-blogpost-cnz-1200x630.png"]
 Sitemap:

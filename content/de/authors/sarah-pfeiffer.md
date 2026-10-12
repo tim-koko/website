@@ -4,7 +4,7 @@ slug: "sarah-pfeiffer"
 description: ""
 draft: false
 date: 2022-10-01T00:00:00+00:00
-lastmod: 2022-11-01T00:00:00+00:00
+lastmod: 2026-02-04T00:00:00+00:00
 tk_teammamber: true
 image: "/images/team/sarah.jpg"
 designation: "Project Manager"

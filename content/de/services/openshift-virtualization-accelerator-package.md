@@ -6,7 +6,7 @@ titleVisible: "OpenShift Virtualization"
 titleSublineVisible: "Accelerator-Paket"
 image: "images/landing-pages/tk-landingpage-labs-1500x600.png"
 date: 2022-10-31T00:00:00+00:00
-lastmod: 2024-08-24T00:00:00+00:00
+lastmod: 2025-12-06T00:00:00+00:00
 draft: false
 blogposts: [ 'openshift-virtualization', 'kubevirt-training']
 images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]

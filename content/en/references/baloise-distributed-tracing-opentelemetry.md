@@ -4,7 +4,7 @@ slug: "baloise-distributed-tracing-plattform-poc-auf-basis-von-opentelemetry-und
 description: ""
 lead: "Cloud Native Tracing for Baloise: Successful PoC using OpenTelemetry & Grafana Tempo. A scalable alternative to proprietary tools. See the results!"
 date: 2025-04-14T00:00:00+00:00
-lastmod: 2025-04-14T00:00:00+00:00
+lastmod: 2025-12-07T00:00:00+00:00
 draft: false
 images: ["images/projects/tk-Ref-Baloise-OtelPoc-1200x630px-og.png"]
 Sitemap:

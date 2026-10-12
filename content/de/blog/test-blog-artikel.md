@@ -3,7 +3,7 @@ title: "Titel (max. 75 Zeichen)"
 slug: "test-blog-artikel"
 description: "SEO Optimierte Description"
 date: 2023-03-29T00:00:00+00:00
-lastmod: 2023-03-29T00:00:00+00:00
+lastmod: 2026-02-19T00:00:00+00:00
 draft: false
 images: ["images/blog/test.jpg"]
 #braucht es nur bei blog post images für technologien

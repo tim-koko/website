@@ -3,7 +3,7 @@ title: "Rethinking Market Data Monitoring: Enhanced Operational Security and Cos
 slug: "marktdaten-monitoring-with-prometheus"
 description: "Rethinking market data monitoring: We implemented Prometheus on OpenShift for a Swiss bank. Enhanced stability, lower costs. Read the success story!"
 date: 2025-03-13T00:00:00+00:00
-lastmod: 2025-03-13T00:00:00+00:00
+lastmod: 2025-03-17T00:00:00+00:00
 draft: false
 images: ["images/projects/tk-Ref-Banking-1200x630px-og.png"]
 Sitemap:
