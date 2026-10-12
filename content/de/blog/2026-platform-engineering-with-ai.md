@@ -6,7 +6,7 @@ date: 2026-05-07T00:00:00+00:00
 lastmod: 2026-05-07T00:00:00+00:00
 draft: false
 images: ["images/blog/ai-training/tk-blogpost-ai-training-1200x630.png"]
-img_border: true
+img_border: false
 Sitemap:
   Priority: 0.9
 
