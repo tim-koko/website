@@ -69,5 +69,8 @@
     "scroll-out": "^2.2.12",
     "swiper": "^14.2.0",
     "swup": "^4.8.2"
+  },
+  "allowScripts": {
+    "hugo-extended@0.163.3": true
   }
 }
