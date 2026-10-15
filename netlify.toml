@@ -10,7 +10,7 @@
   command = "npm run build"
 
 [context.deploy-preview]
-  command = "npm run build -- -b $DEPLOY_PRIME_URL"
+  command = "ls -la node_modules/sass-embedded-linux-x64/dart-sass/src/; npx sass --version && npm run build -- -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
   command = "npm run build -- -b $DEPLOY_PRIME_URL"
