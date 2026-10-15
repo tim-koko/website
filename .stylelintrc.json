@@ -11,6 +11,8 @@
       true,
       {
         "ignoreAtRules": [
+          "use",
+          "forward",
           "extend",
           "at-root",
           "debug",
