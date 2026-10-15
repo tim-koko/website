@@ -4,13 +4,13 @@
 
 [build.environment]
   NODE_VERSION = "24.16.0"
-  NPM_VERSION = "11.6.2"
+  NPM_VERSION = "11.19.1"
 
 [context.production]
   command = "npm run build"
 
 [context.deploy-preview]
-  command = "ls -la node_modules/sass-embedded-linux-x64/dart-sass/src/; npx sass --version && npm run build -- -b $DEPLOY_PRIME_URL"
+  command = "npm run build -- -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
   command = "npm run build -- -b $DEPLOY_PRIME_URL"
