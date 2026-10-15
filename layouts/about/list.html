@@ -47,8 +47,8 @@
         {{- partial "img" (dict "page" . "src" (.img) "width" 400 "process" "fill 800x1066 Top"  "alt" (.name) "loading" "lazy") }}
         {{ with $authorPage }}</a>{{ end }}
         <div class="lead cloud-text mb-5_" data-scroll><span>
-          {{ with $authorPage }}<a href="{{ .RelPermalink }}">{{ end }}{{ .name }}{{ with $authorPage }}</a>{{ end }}<br>
-          {{ .title }}
+          {{ with $authorPage }}<a href="{{ .RelPermalink }}">{{ end }}{{ .name }}<br>
+          {{ .title }}{{ with $authorPage }}</a>{{ end }}
         </span></div>
         <div class="d-flex justify-content-end gap-3">
           {{ with .mail }}
