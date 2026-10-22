@@ -17,6 +17,10 @@ about:
   title: "Wir sind tim&koko"
   text: "<p>Unser Team vereint Expertise, Offenheit und den Mut, neue Wege zu gehen. Wir bauen Brücken zwischen moderner Technologie und den Menschen, die sie nutzen. Wir packen an, probieren aus, denken weiter – und bringen Unternehmen damit auf das nächste Level.</p>"
   persons:
+    - name: "Christian Bösch"
+      author: "christian-boesch"
+      title: "Cloud Architekt
+      img: "images/team/temp.jpg"
     - name: "Miriam Streit"
       author: "miriam-streit"
       title: "Platform Engineer"
