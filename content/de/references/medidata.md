@@ -1,7 +1,7 @@
 ---
 title: "MediData – Aufbau Kafka Plattform"
 slug: "medidata-aufbau-kafka-platform"
-description: "Kafka-Plattform für MediData: Aufbau von Grund auf, integriert in die bestehende Microservice-Architektur auf OpenShift."
+description: "Kafka-Plattform für MediData: Aufbau von Grund auf, integriert in die bestehende Microservice-Architektur auf Red Hat OpenShift."
 date: 2026-10-09T00:00:00+00:00
 lastmod: 2026-10-09T00:00:00+00:00
 draft: false
@@ -11,8 +11,8 @@ Sitemap:
 client: "MediData AG"
 post_img: "images/projects/tk-Ref-Centris-1500x1000px.jpg"
 img_border: false
-lead: "tim&koko unterstützt die MediData seit dem Frühling 2025 beim Aufbau einer Kafka-Messaging-Plattform von Grund auf. Sie soll die bestehende Microservice-Architektur ergänzen und ActiveMQ sowie geteilte Datenbank-Views schrittweise ablösen. Dabei ist es das Ziel, die unterschiedlichen Verantwortlichkeiten der Teams, mehrere OpenShift-Umgebungen und den Schutz personenbezogener Daten von Anfang an zu berücksichtigen."
-techStack: "Red Hat OpenShift, Streams for Apache Kafka, Apicurio Registry"
+lead: "tim&koko unterstützt die MediData seit dem Frühling 2026 beim Aufbau einer Kafka-Messaging-Plattform von Grund auf. Sie soll die bestehende Microservice-Architektur ergänzen und ActiveMQ sowie geteilte Datenbank-Views schrittweise ablösen. Dabei ist es das Ziel, die unterschiedlichen Verantwortlichkeiten der Teams, mehrere Red Hat OpenShift-Umgebungen und den Schutz personenbezogener Daten von Anfang an zu berücksichtigen."
+techStack: "Red Hat OpenShift, Red Hat Streams for Apache Kafka, Apicurio Registry"
 copy: "Bild © MediData AG"
 link: "https://www.medidata.ch"
 ---
@@ -51,26 +51,26 @@ MediData will eine Kafka-Messaging-Plattform von Grund auf aufbauen und in die b
 
 Als erster Schritt des Projekts sollte ein Proof of Concept gebaut werden, damit entschieden werden kann, ob Kafka die bisherigen Anforderungen abdeckt. Nach dieser Entscheidung begannen wir, den PoC Meilenstein für Meilenstein in eine produktionsreife Plattform weiterzuentwickeln. So hatten die MediData die Möglichkeit, schon zu Beginn erste Tests mit den Entwicklern auf der Plattform zu starten. Wir konnten das Feedback früh abholen und laufend einfliessend lassen.
 
-Da die MediData bereits zwei OnPrem RedHat OpenShift Cluster betreibt, fiel die Wahl des Ökosystems auf RedHat Streams for Apache Kafka, das auf dem OpenSource Projekt Strimzi basiert. Verlangt waren zwei Kafka-Cluster, die jeweils zwei Stages abdecken und auf dedizierten Nodes der OpenShift Cluster laufen. Sämtliche Konfigurationen und Tools der Cluster werden bereits mit GitOps verwaltet, daher war dies für die Kafka Plattform eine Grundanforderung. Dies ermöglicht uns, den Entwicklern zum Erstellen von neuen Topics und Usern einen Self-Service via GitLab-Merge-Request im entsprechenden Repository anzubieten.
+Da die MediData bereits zwei OnPrem Red Hat OpenShift Cluster betreibt, fiel die Wahl des Ökosystems auf Red Hat Streams for Apache Kafka, das auf dem OpenSource Projekt Strimzi basiert. Verlangt waren zwei Kafka-Cluster, die jeweils zwei Stages abdecken und auf dedizierten Nodes der Red Hat OpenShift Cluster laufen. Sämtliche Konfigurationen und Tools der Cluster werden bereits mit GitOps verwaltet, daher war dies für die Kafka Plattform eine Grundanforderung. Dies ermöglicht uns, den Entwicklern zum Erstellen von neuen Topics und Usern einen Self-Service via GitLab-Merge-Request im entsprechenden Repository anzubieten.
 
-### Authentication und Authorization
+### Authentifizierung und Autorisierung
 
-Beim Thema Authentication haben wir uns gemeinsam mit dem Projektteam für eine servicebasierte Architektur entschieden. Jede Applikation erhält einen eigenen KafkaUser mit den minimal benötigten Berechtigungen. Die Authorization wird mit einem Namenskonzept basierend auf Präfixen bei Topicnamen umgesetzt. Vorerst binden wir keine externe IDP wie Keycloak an.
+Beim Thema Authentifizierung haben wir uns gemeinsam mit dem Projektteam für eine servicebasierte Architektur entschieden, bei welcher jede Applikation als eigenständiger User abgebildet wird. Mittels Namenskonzept, basierend auf Präfixen für Topics und Konsumenten, erlaubt dies, nur die minimal benötigten Berechtigungen pro Applikation zu vergeben und das Need-to-know-Prinzip umzusetzen.
 
-### Ergänzung des Ökosystems
+### Ergänzung des Kafka Ökosystems
 
-Eine Kafka-Installation kommt selten allein. Zusätzlich dazu installierten wir bald die Apicurio Registry zur Verwaltung von Schemas. Die gratis zur Verfügung gestellten Pod- und ServiceMonitors und Grafana-Dashboards vom Strimzi importierten wir, damit Monitoring und Observability schon früh abgedeckt waren. Noch offen sind Tools für Benutzeroberflächen sowie für die Imports von Daten.
+Eine Kafka-Installation kommt selten allein. Zusätzlich zur aufgebauten Kafka-Plattform wurde die Apicurio Registry zur Verwaltung von Schemas installiert. Die Metriken der gesamten Kafka Plattform und ihres Ökosystems werden über PodMonitors und ServiceMonitors in Prometheus erfasst und in Grafana dargestellt, wofür wir die Dashboards von Strimzi verwendet haben. So konnte die Observability von Anfang an mit aufgebaut werden.
 
 ## Aktueller Stand & Ergebnisse
 
-Die Plattform ist mitten im Aufbau. Die Entwickler führen damit aktuell erste Tests durch und wir kümmern uns darum, die Plattform so bald wie möglich reif für die Produktion zu machen.
+Die Plattform steht den Entwicklungsteams für erste Tests und Integrationen zur Verfügung. Deren Feedback fliesst laufend in die Weiterentwicklung ein, während die Plattform schrittweise in die Produktion überführt wird.
 
 * Für den Aufbau der Infrastruktur haben wir auf GitOps gesetzt, was uns unter anderem einen Self-Service für die Entwickler ermöglicht und sich nahtlos in die restlichen Infrastruktur-Deployments integriert.
-* Die Authentifizierung erfolgt mittels KafkaUser Objekten. Später werden wir diese Objekte mit Vault synchronisieren. So wird das Need-to-know Prinzip von Anfang an umgesetzt und Vault behält die Hoheit über alle Credentials.
-* AKHQ sowie ein angenehmer Zugriff der Entwickler zwecks Troubleshooting stehen noch auf der Planung.
+* Die Authentifizierung erfolgt mittels KafkaUser-Objekten. In einer nächsten Phase werden deren Credentials mit Vault synchronisiert, um eine zentrale Verwaltung zu ermöglichen. Durch die Autorisierung und ein auf das Unternehmen abgestimmtes Namenskonzept konnte das Need-to-know-Prinzip durchgängig umgesetzt werden.
+* Die Kafka-Cluster wurden bereits zu Beginn mit einem Maintenance-Tooling und Monitoring versehen, um zukünftiges Troubleshooting zu vereinfachen.
+* Die Apicurio Schema-Registry erlaubt es den Entwicklern, ihre Schema-Versionen zentral zu verwalten und die Kompatibilität dieser Schemas zu managen.
+* AKHQ sowie ein User-Zugriff der Entwickler zwecks Troubleshooting werden in der nächsten Phase bereitgestellt.
 * Mit Debezium sollen zukünftig die Daten der Oracle Datenbanken in die Kafka Topics eingespiesen werden.
-* Die Kafka-Cluster wurden ganz am Anfang mit Maintenance-Tooling und Monitoring ergänzt, was zukünftiges Troubleshooting vereinfacht.
-* Eine Schema-Registry von Apicurio zur Verwaltung von Schema-Versionen rundet das Ökosystem ab.
 
 ## Kundenstatement
 
@@ -82,7 +82,7 @@ Die Plattform ist mitten im Aufbau. Die Entwickler führen damit aktuell erste T
 
 todo
 
-Haben Sie ähnliche Herausforderungen oder möchten Sie mehr über Apache Kafka erfahren? Kontaktieren Sie uns für ein unverbindliches Gespräch:
+Haben Sie ähnliche Herausforderungen oder möchten Sie mehr über Apache Kafka, Red Hat Streams for Apache Kafka oder Strimzi erfahren? Kontaktieren Sie uns für ein unverbindliches Gespräch:
 
 &nbsp;
 
