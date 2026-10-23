@@ -17,8 +17,6 @@ copy: "Bild © MediData AG"
 link: "https://www.medidata.ch"
 ---
 
-# TODO Bildli, Statement, Fazit, einheitlicher CTA
-
 Bei dem Projekt bringt tim&koko langjährige Erfahrung in den Bereichen Kafka, OpenShift Engineering, Betrieb, Security und Observability ein und unterstützt bei der Konzeption und Umsetzung der neuen Kafka-Plattform. Dabei wird eng mit dem Plattform-Team und den Entwicklern zusammengearbeitet, um eine auf sie zugeschnittene Lösung zu erarbeiten und das Wissen innerhalb der Firma zu verteilen.
 
 ## Über die MediData AG
