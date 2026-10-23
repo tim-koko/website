@@ -78,7 +78,9 @@ Die Plattform steht den Entwicklungsteams für erste Tests und Integrationen zur
 
 ## Fazit & Lessons Learned
 
-todo
+Der Aufbau der Kafka-Plattform bei MediData zeigt, wie sich ein Proof of Concept schrittweise zur Grundlage einer produktiven Messaging-Infrastruktur weiterentwickeln lässt. Die frühe Einbindung der Entwicklungsteams ermöglicht es, Anforderungen praxisnah zu prüfen und Rückmeldungen direkt in die Umsetzung einfliessen zu lassen. Gleichzeitig werden mit GitOps, einem abgestimmten Berechtigungskonzept und integriertem Monitoring die Voraussetzungen für den späteren Betrieb geschaffen.
+
+Entscheidend ist dabei nicht nur die technische Umsetzung, sondern auch die enge Zusammenarbeit mit dem Plattform-Team und den Entwicklern. So entsteht gemeinsam das Know-how, um die Plattform langfristig zu betreiben und weiterzuentwickeln. Damit legt MediData die Grundlage, bestehende Kommunikationswege schrittweise abzulösen und die Entkopplung ihrer Microservices voranzutreiben.
 
 Haben Sie ähnliche Herausforderungen oder möchten Sie mehr über Apache Kafka, Red Hat Streams for Apache Kafka oder Strimzi erfahren? Kontaktieren Sie uns für ein unverbindliches Gespräch:
 
