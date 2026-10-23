@@ -5,11 +5,11 @@ description: "Kafka-Plattform für MediData: Aufbau von Grund auf, integriert in
 date: 2026-10-09T00:00:00+00:00
 lastmod: 2026-10-09T00:00:00+00:00
 draft: false
-images: ["images/projects/tk-Ref-Centris-1200x630px-og.jpg"]
+images: ["images/landing-pages/tk-giveaway-2024-1500x1000.png"]
 Sitemap:
   Priority: 0.3
 client: "MediData AG"
-post_img: "images/projects/tk-Ref-Centris-1500x1000px.jpg"
+post_img: "images/landing-pages/tk-giveaway-2024-1500x1000.png"
 img_border: false
 lead: "tim&koko unterstützt die MediData seit dem Frühling 2026 beim Aufbau einer Kafka-Messaging-Plattform von Grund auf. Sie soll die bestehende Microservice-Architektur ergänzen und ActiveMQ sowie geteilte Datenbank-Views schrittweise ablösen. Dabei ist es das Ziel, die unterschiedlichen Verantwortlichkeiten der Teams, mehrere Red Hat OpenShift-Umgebungen und den Schutz personenbezogener Daten von Anfang an zu berücksichtigen."
 techStack: "Red Hat OpenShift, Red Hat Streams for Apache Kafka, Apicurio Registry"
@@ -17,7 +17,7 @@ copy: "Bild © MediData AG"
 link: "https://www.medidata.ch"
 ---
 
-Bei dem Projekt bringt tim&koko langjährige Erfahrung in den Bereichen Kafka, OpenShift Engineering, Betrieb, Security und Observability ein und unterstützt bei der Konzeption und Umsetzung der neuen Kafka-Plattform. Dabei wird eng mit dem Plattform-Team und den Entwicklern zusammengearbeitet, um eine auf sie zugeschnittene Lösung zu erarbeiten und das Wissen innerhalb der Firma zu verteilen.
+Bei dem Projekt bringt tim&koko langjährige Erfahrung in den Bereichen Kafka, OpenShift Engineering, Betrieb, Security und Observability ein und unterstützt bei der Konzeption und Umsetzung der neuen Kafka-Plattform. Dabei wird eng mit dem Plattform-Team und den Entwickler:innen zusammengearbeitet, um eine auf sie zugeschnittene Lösung zu erarbeiten und das Wissen innerhalb der Firma zu verteilen.
 
 ## Über die MediData AG
 
@@ -47,9 +47,9 @@ MediData will eine Kafka-Messaging-Plattform von Grund auf aufbauen und in die b
 
 ## Lösungsansatz
 
-Als erster Schritt des Projekts sollte ein Proof of Concept gebaut werden, damit entschieden werden kann, ob Kafka die bisherigen Anforderungen abdeckt. Nach dieser Entscheidung begannen wir, den PoC Meilenstein für Meilenstein in eine produktionsreife Plattform weiterzuentwickeln. So hatten die MediData die Möglichkeit, schon zu Beginn erste Tests mit den Entwicklern auf der Plattform zu starten. Wir konnten das Feedback früh abholen und laufend einfliessend lassen.
+Als erster Schritt des Projekts sollte ein Proof of Concept gebaut werden, damit entschieden werden kann, ob Kafka die bisherigen Anforderungen abdeckt. Nach dieser Entscheidung begannen wir, den PoC Meilenstein für Meilenstein in eine produktionsreife Plattform weiterzuentwickeln. So hatte die MediData die Möglichkeit, schon zu Beginn erste Tests mit den Entwickler:innen auf der Plattform zu starten. Wir konnten das Feedback früh abholen und laufend einfliessen lassen.
 
-Da die MediData bereits zwei OnPrem Red Hat OpenShift Cluster betreibt, fiel die Wahl des Ökosystems auf Red Hat Streams for Apache Kafka, das auf dem OpenSource Projekt Strimzi basiert. Verlangt waren zwei Kafka-Cluster, die jeweils zwei Stages abdecken und auf dedizierten Nodes der Red Hat OpenShift Cluster laufen. Sämtliche Konfigurationen und Tools der Cluster werden bereits mit GitOps verwaltet, daher war dies für die Kafka Plattform eine Grundanforderung. Dies ermöglicht uns, den Entwicklern zum Erstellen von neuen Topics und Usern einen Self-Service via GitLab-Merge-Request im entsprechenden Repository anzubieten.
+Da die MediData bereits zwei OnPrem Red Hat OpenShift Cluster betreibt, fiel die Wahl des Ökosystems auf Red Hat Streams for Apache Kafka, das auf dem OpenSource Projekt Strimzi basiert. Verlangt waren zwei Kafka-Cluster, die jeweils zwei Stages abdecken und auf dedizierten Nodes der Red Hat OpenShift Cluster laufen. Sämtliche Konfigurationen und Tools der Cluster werden bereits mit GitOps verwaltet, daher war dies für die Kafka Plattform eine Grundanforderung. Dies ermöglicht uns, den Entwickler:innen zum Erstellen von neuen Topics und Usern einen Self-Service via GitLab-Merge-Request im entsprechenden Repository anzubieten.
 
 ### Authentifizierung und Autorisierung
 
@@ -63,11 +63,11 @@ Eine Kafka-Installation kommt selten allein. Zusätzlich zur aufgebauten Kafka-P
 
 Die Plattform steht den Entwicklungsteams für erste Tests und Integrationen zur Verfügung. Deren Feedback fliesst laufend in die Weiterentwicklung ein, während die Plattform schrittweise in die Produktion überführt wird.
 
-* Für den Aufbau der Infrastruktur haben wir auf GitOps gesetzt, was uns unter anderem einen Self-Service für die Entwickler ermöglicht und sich nahtlos in die restlichen Infrastruktur-Deployments integriert.
+* Für den Aufbau der Infrastruktur haben wir auf GitOps gesetzt, was uns unter anderem einen Self-Service für die Entwickler:innen ermöglicht und sich nahtlos in die restlichen Infrastruktur-Deployments integriert.
 * Die Authentifizierung erfolgt mittels KafkaUser-Objekten. In einer nächsten Phase werden deren Credentials mit Vault synchronisiert, um eine zentrale Verwaltung zu ermöglichen. Durch die Autorisierung und ein auf das Unternehmen abgestimmtes Namenskonzept konnte das Need-to-know-Prinzip durchgängig umgesetzt werden.
 * Die Kafka-Cluster wurden bereits zu Beginn mit einem Maintenance-Tooling und Monitoring versehen, um zukünftiges Troubleshooting zu vereinfachen.
-* Die Apicurio Schema-Registry erlaubt es den Entwicklern, ihre Schema-Versionen zentral zu verwalten und die Kompatibilität dieser Schemas zu managen.
-* AKHQ sowie ein User-Zugriff der Entwickler zwecks Troubleshooting werden in der nächsten Phase bereitgestellt.
+* Die Apicurio Schema-Registry erlaubt es den Entwickler:innen, ihre Schema-Versionen zentral zu verwalten und die Kompatibilität dieser Schemas zu managen.
+* AKHQ sowie ein User-Zugriff der Entwickler:innen zwecks Troubleshooting werden in der nächsten Phase bereitgestellt.
 * Mit Debezium sollen zukünftig die Daten der Oracle Datenbanken in die Kafka Topics eingespiesen werden.
 
 ## Kundenstatement
@@ -80,7 +80,7 @@ Die Plattform steht den Entwicklungsteams für erste Tests und Integrationen zur
 
 Der Aufbau der Kafka-Plattform bei MediData zeigt, wie sich ein Proof of Concept schrittweise zur Grundlage einer produktiven Messaging-Infrastruktur weiterentwickeln lässt. Die frühe Einbindung der Entwicklungsteams ermöglicht es, Anforderungen praxisnah zu prüfen und Rückmeldungen direkt in die Umsetzung einfliessen zu lassen. Gleichzeitig werden mit GitOps, einem abgestimmten Berechtigungskonzept und integriertem Monitoring die Voraussetzungen für den späteren Betrieb geschaffen.
 
-Entscheidend ist dabei nicht nur die technische Umsetzung, sondern auch die enge Zusammenarbeit mit dem Plattform-Team und den Entwicklern. So entsteht gemeinsam das Know-how, um die Plattform langfristig zu betreiben und weiterzuentwickeln. Damit legt MediData die Grundlage, bestehende Kommunikationswege schrittweise abzulösen und die Entkopplung ihrer Microservices voranzutreiben.
+Entscheidend ist dabei nicht nur die technische Umsetzung, sondern auch die enge Zusammenarbeit mit dem Plattform-Team und den Entwickler:innen. So entsteht gemeinsam das Know-how, um die Plattform langfristig zu betreiben und weiterzuentwickeln. Damit legt MediData die Grundlage, bestehende Kommunikationswege schrittweise abzulösen und die Entkopplung ihrer Microservices voranzutreiben.
 
 Haben Sie ähnliche Herausforderungen oder möchten Sie mehr über Apache Kafka, Red Hat Streams for Apache Kafka oder Strimzi erfahren? Kontaktieren Sie uns für ein unverbindliches Gespräch:
 
