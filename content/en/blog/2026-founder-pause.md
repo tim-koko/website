@@ -2,8 +2,8 @@
 title: "Cycling to the North Cape: How to Step Away as a Founder Without Halting Your Business"
 slug: "founder-pause"
 description: ""
-date: 2026-10-01T00:00:00+00:00
-lastmod: 2026-10-01T00:00:00+00:00
+date: 2026-11-05T00:00:00+00:00
+lastmod: 2026-11-05T00:00:00+00:00
 draft: false
 images: ["images/blog/founder-pause/tk-blogpost-founder-pause-1200x630.png"]
 img_border: false
