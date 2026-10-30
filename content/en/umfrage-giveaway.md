@@ -1,10 +1,10 @@
 ---
 title: "tim&koko-giveaway"
-slug: "giveaway-2025"
+slug: "giveaway-2026"
 description: ""
 titleVisible: "Order"
 titleSublineVisible: "tim&koko giveaway"
-image: "images/landing-pages/tk-giveaway-2025-1500x1000.png"
+image: "images/landing-pages/tk-giveaway-2026-1500x1000.png"
 lead: ""
 date: 2025-10-09T00:00:00+00:00
 lastmod: 2025-10-09T00:00:00+00:00
@@ -17,13 +17,13 @@ images: ["images/landing-pages/tk-giveaway-2024-1500x1000.png"]
 Sitemap:
   Priority: 0.3
 # don't publish the page
-build:
-  list: never
-  render: never
+# build:
+#  list: never
+#  render: never
 ---
 
 A little joy for you!
 
-You have the opportunity to order a reusable Tütenhüter made by böörds in Switzerland, which we will send to you along with our Christmas card.
+You have the chance to order a practical blister plaster set – just in case the shoe pinches! We’ll send it to you along with our Christmas card.
 
-Fill out the form and look forward to a sustainable product for your household, which will reach you by mail during the Christmas season.
+Simply fill out the form and look forward to a handy helper for on the go, arriving in your mailbox just in time for the holiday season.
