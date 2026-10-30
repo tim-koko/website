@@ -4,7 +4,7 @@ slug: "giveaway-2026"
 description: ""
 titleVisible: "Bestellung"
 titleSublineVisible: "tim&koko Giveaway"
-image: "images/landing-pages/tk-giveaway-2025-1500x1000.png"
+image: "images/landing-pages/tk-giveaway-2026-1500x1000.png"
 lead: ""
 date: 2026-10-09T00:00:00+00:00
 lastmod: 2026-10-09T00:00:00+00:00
