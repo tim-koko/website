@@ -101,6 +101,7 @@ Classic project management only manages the status quo. We steer the entire life
 * **Project Management Tools:** Trello, Jira, Confluence, Miro, Notion – the toolset of your choice.
 * **DevOps & Cloud Native Processes:** Continuous Integration and Delivery, GitOps, Automation, Infrastructure as Code, FinOps, Observability
 {{< /infobox >}}
+
 <br><br/>
 
 ### Tired of project chaos?

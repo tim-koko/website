@@ -24,15 +24,15 @@ Wir haben uns für das Vertrauen entschieden. Von September 2025 bis Ende März 
 
 #### Die Perspektive des Unternehmens: Kontinuität trotz Zeitzonen
 
-* **Das Setup:** Marie reduzierte ihr Pensum auf 20 % (8 Stunden/Woche). Da sie diese Zeit flexibel über die Woche verteilte, war sie trotz Reisen fast jeden Tag für uns ansprechbar.<br></br>
-* **Die Praxis:** Dank klarer Abmachungen, sicherem VPN-Zugang und unserer eingespielten Kommunikation via Chat und Ticket-System liefen die Buchhaltung, Admin-Tasks und das Marketing nahtlos weiter. Kein Know-how-Verlust, kein Recruiting-Aufwand für eine Vertretung.<br></br>
+* **Das Setup:** Marie reduzierte ihr Pensum auf 20 % (8 Stunden/Woche). Da sie diese Zeit flexibel über die Woche verteilte, war sie trotz Reisen fast jeden Tag für uns ansprechbar.<br>
+* **Die Praxis:** Dank klarer Abmachungen, sicherem VPN-Zugang und unserer eingespielten Kommunikation via Chat und Ticket-System liefen die Buchhaltung, Admin-Tasks und das Marketing nahtlos weiter. Kein Know-how-Verlust, kein Recruiting-Aufwand für eine Vertretung.<br>
 * **Grenzenlose Zusammenarbeit:** Wir erinnern uns gern an die wöchentlichen Meetings, bei denen Marie im Dunkeln vom Campingplatz aus zugeschaltet war – irgendwo zwischen Südamerika, Australien, Neuseeland und Thailand. So konnten wir alle ein bisschen mitreisen.
 
 #### Maries Perspektive: Freiheit trifft Verantwortung
 
-* **Kein Neuland:** Da Marie bereits bei ihrem vorherigen Arbeitgeber Remote-Erfahrung sammeln konnte, wusste sie genau, worauf sie sich einlässt, und kannte die Chancen und Herausforderungen bereits. <br></br>
-* **Die Realität abseits von Postkarten-Idyllen:** Vom Strand aus arbeiten oder in der Wüste bei 50 Grad zu tippen? Klingt nett, gefällt dem Laptop aber gar nicht. Und im australischen oder brasilianischen Busch sucht man stabile Netze oft vergeblich. Manchmal bedeutete „Work from Anywhere“ auch: Den Business-Laptop im Rucksack auf eine anstrengende, hochalpine Vulkanwanderung mitschleppen, weil es im Zelt schlicht keinen sicheren Ort zum Zurücklassen gab. Marie musste ihre Route und Tage vorausplanen, um sicherzustellen, dass pünktlich zu den Calls eine stabile Internetverbindung stand. <br></br>
-* **Disziplin im Reisealltag:** 8 Stunden Arbeit pro Woche klingen im ersten Moment nach wenig. Wenn man diese Zeit aber sinnvoll auf vier Tage aufteilt, erfordert das inmitten von Backpacking und Zeitverschiebung einiges an eiserner Disziplin. <br></br>
+* **Kein Neuland:** Da Marie bereits bei ihrem vorherigen Arbeitgeber Remote-Erfahrung sammeln konnte, wusste sie genau, worauf sie sich einlässt, und kannte die Chancen und Herausforderungen bereits. <br>
+* **Die Realität abseits von Postkarten-Idyllen:** Vom Strand aus arbeiten oder in der Wüste bei 50 Grad zu tippen? Klingt nett, gefällt dem Laptop aber gar nicht. Und im australischen oder brasilianischen Busch sucht man stabile Netze oft vergeblich. Manchmal bedeutete „Work from Anywhere“ auch: Den Business-Laptop im Rucksack auf eine anstrengende, hochalpine Vulkanwanderung mitschleppen, weil es im Zelt schlicht keinen sicheren Ort zum Zurücklassen gab. Marie musste ihre Route und Tage vorausplanen, um sicherzustellen, dass pünktlich zu den Calls eine stabile Internetverbindung stand. <br>
+* **Disziplin im Reisealltag:** 8 Stunden Arbeit pro Woche klingen im ersten Moment nach wenig. Wenn man diese Zeit aber sinnvoll auf vier Tage aufteilt, erfordert das inmitten von Backpacking und Zeitverschiebung einiges an eiserner Disziplin. <br>
 * **Maries Fazit:** „Ich bin unglaublich dankbar für das Vertrauen und diese Chance. Zu wissen, dass zu Hause mein Job auf mich wartet, hat mir eine enorme Sicherheit gegeben. Und ganz ehrlich: Der Reisekasse hat die monatliche Lohnzahlung unterwegs natürlich auch nicht geschadet!“
 
 ### Was wir gelernt haben: Flexibilität ist ein Muss, von beiden Seiten!

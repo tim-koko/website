@@ -109,6 +109,7 @@ We are not a "black box" service provider. We see ourselves as an extension of y
 * **Event Streaming:** Kafka
 
 {{< /infobox >}}
+
 <br><br/>
 
 ### Need additional engineering power?

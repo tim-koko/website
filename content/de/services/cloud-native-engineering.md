@@ -108,6 +108,7 @@ Wir sind kein „Black-Box“-Dienstleister. Wir verstehen uns als verlängerter
 * **Event Streaming:** Kafka
 
 {{< /infobox>}}
+
 <br><br/>
 
 ### Brauchst du zusätzliche Engineering-Power?

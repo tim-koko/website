@@ -103,6 +103,7 @@ Klassisches Projektmanagement verwaltet nur den Status Quo. Wir steuern den gesa
 * **DevOps & Cloud Native Prozesse:** Continuous Integration und Delivery, GitOps, Automatisierung, Infrastructure as Code, FinOps, Observability
 
 {{< /infobox>}}
+
 <br><br/>
 
 ### Keine Lust mehr auf Projektchaos?
