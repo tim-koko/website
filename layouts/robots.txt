@@ -1,7 +1,22 @@
+{{- if eq (hugo.Environment) "production" -}}
 User-agent: *
-{{ if eq (hugo.Environment) "production" -}}
 Allow: /
+
+# AI assistants and AI search (see params.aiSearchBots)
+{{ range site.Params.aiSearchBots -}}
+User-agent: {{ . }}
+{{ end -}}
+Allow: /
+
+# AI training (see params.allowAITraining)
+{{ range site.Params.aiTrainingBots -}}
+User-agent: {{ . }}
+{{ end -}}
+{{ if site.Params.allowAITraining }}Allow: /{{ else }}Disallow: /{{ end }}
+
+# Overview for AI agents: {{ "llms.txt" | absURL }}
 {{ else -}}
+User-agent: *
 Disallow: /
 {{ end }}
 Sitemap: {{ "sitemap.xml" | absURL -}}

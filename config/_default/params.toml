@@ -37,6 +37,32 @@ schemaTwitter = "https://twitter.com/tim_und_koko"
 schemaLinkedIn = "https://www.linkedin.com/company/tim-koko/"
 schemaGitHub = "https://github.com/tim-koko"
 
+## AI crawlers (robots.txt)
+# Bots that fetch pages to answer questions in AI assistants and AI search
+# (ChatGPT, Claude, Perplexity, ...). Keep them allowed, otherwise tim&koko
+# won't show up in AI answers.
+aiSearchBots = [
+  "OAI-SearchBot",
+  "ChatGPT-User",
+  "Claude-SearchBot",
+  "Claude-User",
+  "PerplexityBot",
+  "Perplexity-User",
+  "MistralAI-User",
+  "DuckAssistBot",
+]
+# Bots that collect content for training AI models.
+# Set allowAITraining = false to block them.
+allowAITraining = true
+aiTrainingBots = [
+  "GPTBot",
+  "ClaudeBot",
+  "Google-Extended",
+  "Applebot-Extended",
+  "CCBot",
+  "meta-externalagent",
+]
+
 ## Chrome Browser
 themeColor = "#fff"
 

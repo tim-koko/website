@@ -35,6 +35,16 @@
   <link rel="canonical" href="{{ .Permalink | absURL }}">
 {{ end -}}
 
+{{ if .IsTranslated -}}
+  {{ $defaultLang := (index hugo.Sites 0).Home.Lang -}}
+  {{ range .AllTranslations -}}
+  <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
+  {{ if eq .Lang $defaultLang -}}
+  <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+  {{ end -}}
+  {{ end -}}
+{{ end -}}
+
 {{ partial "head/opengraph.html" . }}
 {{ partial "head/twitter_cards.html" . }}
 
