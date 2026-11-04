@@ -93,7 +93,28 @@ rssLimit = 10
 
 # add redirects/headers
 [outputs]
-  home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
+  home = ["HTML", "RSS", "REDIRECTS", "HEADERS", "LLMS"]
+
+# llms.txt: overview of the site for AI agents (https://llmstxt.org)
+[outputFormats.LLMS]
+  mediatype = "text/plain"
+  baseName = "llms"
+  isPlainText = true
+  notAlternative = true
+
+# Markdown versions (index.md) of content pages for AI agents.
+# Uses Hugo's built-in "markdown" output format.
+[[cascade]]
+  outputs = ["html", "markdown"]
+  [cascade.target]
+    kind = "page"
+    path = "{/blog/**,/references/**,/services/**,/authors/**}"
+
+[[cascade]]
+  outputs = ["html", "rss", "markdown"]
+  [cascade.target]
+    kind = "section"
+    path = "{/ueber-uns,/about}"
 
 # remove .{ext} from text/netlify
 [mediaTypes."text/netlify"]
