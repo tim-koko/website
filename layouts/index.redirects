@@ -18,4 +18,4 @@
 {{- end }}
 {{ $prefix }}/:section/page/1/ {{ $prefix }}/:section/ 301!
 {{- end }}
-{{- end }}
+{{- end -}}
