@@ -50,8 +50,8 @@ We don't just deliver plans; we create actionable structures, transparent proces
 <table style="width:100%; border-collapse: collapse;">
   <thead>
     <tr>
-      <th style="text-align:left; padding-right:20px; padding-bottom:20px; vertical-align:top;"><h4>Focus</h4></th>
-      <th style="text-align:left; padding-bottom:20px; vertical-align:top;"><h4>Your Result</h4></th>
+      <th class="h4" style="text-align:left; padding-right:20px; padding-bottom:20px; vertical-align:top;">Focus</th>
+      <th class="h4" style="text-align:left; padding-bottom:20px; vertical-align:top;">Your Result</th>
     </tr>
   </thead>
   <tbody>

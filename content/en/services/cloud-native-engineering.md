@@ -51,8 +51,8 @@ We don't just deliver concepts; we provide production-ready code and automated s
 <table style="width:100%; border-collapse: collapse;">
   <thead>
     <tr>
-      <th style="text-align:left; padding-right:20px; padding-bottom:20px; vertical-align:top;"><h4>Engineering Focus</h4></th>
-      <th style="text-align:left; padding-bottom:20px; vertical-align:top;"><h4>The Result for You</h4></th>
+      <th class="h4" style="text-align:left; padding-right:20px; padding-bottom:20px; vertical-align:top;">Engineering Focus</th>
+      <th class="h4" style="text-align:left; padding-bottom:20px; vertical-align:top;">The Result for You</th>
     </tr>
   </thead>
   <tbody>

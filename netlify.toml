@@ -52,7 +52,7 @@
 [[redirects]]
 # redirect old blog post to new one
   from = "/references/prometheus-application-monitoring-finance-sector/*"
-  to = "/referenzen/marktdaten-monitoring-neu-gedacht-mit-prometheus-zu-mehr-betriebssicherheit-und-tieferen-kosten-bei-schweizer-bank/"
+  to = "/referenzen/marktdaten-monitoring-with-prometheus/"
   status = 301
   force = true
 [[redirects]]

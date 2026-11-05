@@ -50,8 +50,8 @@ Wir liefern nicht nur Konzepte, sondern fertigen, stabilen Code und automatisier
 <table style="width:100%; border-collapse: collapse;">
   <thead>
     <tr>
-      <th style="text-align:left; padding-right:20px; padding-bottom:20px; vertical-align:top;"><h4>Engineering-Fokus</h4></th>
-      <th style="text-align:left; padding-bottom:20px; vertical-align:top;"><h4>Das Ergebnis für dich</h4></th>
+      <th class="h4" style="text-align:left; padding-right:20px; padding-bottom:20px; vertical-align:top;">Engineering-Fokus</th>
+      <th class="h4" style="text-align:left; padding-bottom:20px; vertical-align:top;">Das Ergebnis für dich</th>
     </tr>
   </thead>
   <tbody>
