@@ -50,7 +50,7 @@
     "eslint": "^10.12",
     "globals": "^17.6.0",
     "html-validate": "^11.18.0",
-    "hugo-extended": "^0.167.0",
+    "hugo-extended": "^0.169.0",
     "lazysizes": "^5.3",
     "markdownlint-cli2": "^0.23.3",
     "postcss": "^8.4",
