@@ -147,3 +147,36 @@ other = "Please choose an option"
 
 [skipToContent]
 other = "Skip to main content"
+# llms.txt
+[llmsIntro]
+other = "tim&koko (Tim&Koko AG) is a Swiss cloud native consulting and engineering company based in Bern, Switzerland. We support organisations with consulting, engineering, project management and training around Kubernetes, Red Hat OpenShift, OpenShift Virtualization (KubeVirt), platform engineering, GitOps, observability and event streaming with Apache Kafka."
+
+[llmsMarkdownNote]
+other = "All linked pages are available as Markdown. The HTML version is available at the same URL without \"index.md\"."
+
+[llmsServices]
+other = "Services"
+
+[llmsReferences]
+other = "References (customer projects)"
+
+[llmsAbout]
+other = "About us and team"
+
+[llmsBlog]
+other = "Blog"
+
+[llmsContact]
+other = "Contact"
+
+[llmsOptional]
+other = "Optional"
+
+[llmsOtherLanguage]
+other = "This overview in German"
+
+[llmsProfile]
+other = "Profile"
+
+[llmsAboutDescription]
+other = "Who we are, our team, our values, our partners as well as memberships and engagements."

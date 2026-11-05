@@ -12,7 +12,6 @@ blogposts: [ 'strimzi-kafka-oauth-keycloak-authentication', 'otel-autoinstrument
 images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]
 Sitemap:
   Priority: 0.3
-sitemap_exclude: true
 feed_exclude: true
 
 morelinkenabled: true
@@ -109,6 +108,7 @@ Wir sind kein „Black-Box“-Dienstleister. Wir verstehen uns als verlängerter
 * **Event Streaming:** Kafka
 
 {{< /infobox>}}
+
 <br><br/>
 
 ### Brauchst du zusätzliche Engineering-Power?

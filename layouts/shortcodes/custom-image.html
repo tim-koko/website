@@ -1,4 +1,9 @@
-<!--layouts/shortcodes/custom-image.html-->
-{{$src := .Get 0}}
-{{$width := .Get 1}}
-<img src="{{ $src }}" width="{{ $width }}" />
+{{- /*
+  Usage: {{< custom-image "path/to/image.png" "800" "Alt text" >}}
+  Width and alt text are optional. Without alt text the image is marked as
+  decorative (alt=""), so please add a description for informative images.
+*/ -}}
+{{- $src := .Get 0 -}}
+{{- $width := .Get 1 -}}
+{{- $alt := .Get 2 | default "" -}}
+<img src="{{ $src }}"{{ with $width }} width="{{ . }}"{{ end }} alt="{{ $alt }}">

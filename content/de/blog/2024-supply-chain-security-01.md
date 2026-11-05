@@ -127,6 +127,6 @@ Sobald wir signierte Images in unserer Supply Chain haben, können wir die Suppl
 
 Supply Chain Angriffe sind heutzutage alltäglich geworden. Umso wichtiger ist es unsere Supply Chain auf einem sinnvollen Masse zu instrumentieren, damit wir mit einem guten Gewissen unseren containerisierten Workload auf unseren Clustern deployen können. Das SLSA-Framework bietet uns eine kurze und auf den Punkt gebrachte Zusammenfassung über mögliche Massnahmen und Kriterien der Evaluation für Software Supply Chains. Durch den Einsatz von Tools wie Cosign, Rekor, Fulcio können wir die Integrität, Transparenz und Vertrauenswüdigkeit von Container-Images und unseren Artefakten verbessern und garantieren. Die Integration dieser Tools in unsere CI/CD Pipelines und Kubernetes Cluster gewährleistet eine durchgängige Security unserer Software Supply Chain.
 
-<br><hr><br>
+<hr>
 
 Möchtest du mehr erfahren über verschiedene Levels des SLSAs und gehärtete Kubernetes native Supply Chains, oder wenn auch wir dir helfen können deine Supply Chain Security ins nächste Level zu heben, melde dich jederzeit via <a href="mailto:hallo@tim-koko.ch">hallo@tim-koko.ch</a> und hoffentlich dürfen wir auch dich als Partner und/oder zufriedenen Kunden begrüssen!

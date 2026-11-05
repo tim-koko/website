@@ -449,7 +449,7 @@ Beachte, dass nur `timkoko-*`-Ressourcen vorhanden sind - es gibt keinen Zugriff
 
 ### Autorisierung von einem Kafka-CLI-Pod testen
 
-Im CLI Pod aus dem [Teil 1 Authentifizierung](https://tim-koko.ch/de/blog/strimzi-kafka-oauth-keycloak-authentication/) erstellen wir die Client-Konfiguration um gegen den Kafka-Cluster zu testen:
+Im CLI Pod aus dem [Teil 1 Authentifizierung](https://tim-koko.ch/blog/strimzi-kafka-oauth-keycloak-authentication/) erstellen wir die Client-Konfiguration um gegen den Kafka-Cluster zu testen:
 
 ```shell
 # Innerhalb eines Pods mit Kafka-CLI-Tools

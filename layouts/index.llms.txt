@@ -1,0 +1,54 @@
+{{- define "llms-item" -}}
+- [{{ .Title }}]({{ partial "llm/url.md" . }}){{ with .Description | default .Params.lead }}: {{ . | plainify | htmlUnescape | truncate 220 }}{{ end }}
+{{ end -}}
+
+# tim&koko
+
+> {{ .Description | plainify | htmlUnescape }}
+
+{{ i18n "llmsIntro" }}
+
+{{ i18n "llmsMarkdownNote" }}
+
+## {{ i18n "llmsServices" }}
+
+{{ range (where site.RegularPages "Section" "services").ByWeight -}}
+{{ template "llms-item" . }}
+{{- end }}
+## {{ i18n "llmsReferences" }}
+
+{{ range (where site.RegularPages "Section" "references").ByDate.Reverse -}}
+{{ template "llms-item" . }}
+{{- end }}
+## {{ i18n "llmsAbout" }}
+
+{{ with site.GetPage "/ueber-uns" | default (site.GetPage "/about") -}}
+- [{{ .Title }}]({{ partial "llm/url.md" . }}): {{ i18n "llmsAboutDescription" }}
+{{ end -}}
+{{- range (where (where site.RegularPages "Section" "authors") "Params.tk_teammamber" true).ByTitle -}}
+- [{{ .Title }}]({{ partial "llm/url.md" . }}){{ with .Params.designation }}: {{ . }}{{ end }}
+{{ end }}
+## {{ i18n "llmsBlog" }}
+
+{{ range (where site.RegularPages "Section" "blog").ByDate.Reverse -}}
+{{ template "llms-item" . }}
+{{- end }}
+## {{ i18n "llmsContact" }}
+
+- Tim&Koko AG, Gerechtigkeitsgasse 80, 3011 Bern, Switzerland
+- E-Mail: hallo@tim-koko.ch
+- Website: {{ .Permalink }}
+- LinkedIn: {{ site.Params.schemaLinkedIn }}
+- GitHub: {{ site.Params.schemaGitHub }}
+
+## {{ i18n "llmsOptional" }}
+
+{{ range .Translations -}}
+- [{{ i18n "llmsOtherLanguage" }}]({{ .Permalink }}llms.txt)
+{{ end -}}
+{{ with site.GetPage "/impressum" -}}
+- [{{ .Title }}]({{ .Permalink }})
+{{ end -}}
+{{ with site.GetPage "/datenschutzerklaerung" -}}
+- [{{ .Title }}]({{ .Permalink }})
+{{ end -}}

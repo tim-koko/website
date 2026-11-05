@@ -18,7 +18,8 @@ about:
   text: "<p>Our team combines expertise, openness, and the courage to explore new paths. We build bridges between modern technology and the people who use it. We roll up our sleeves, try things out, think ahead — and help companies reach the next level.</p>"
   persons:
     - name: "Christian Bösch"
-      title: "Cloud Architekt"
+      author: "christian-boesch"
+      title: "Cloud Architect"
       img: "images/team/temp.jpg"
     - name: "Miriam Streit"
       author: "miriam-streit"

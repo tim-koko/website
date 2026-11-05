@@ -67,13 +67,13 @@
       </div>
       <div class="mb-6">
         <div class="form-floating">
-          <select class="form-select" name="dates" id="dates" required>
+          <select class="form-select" name="dates" id="dates-select" required>
             <option selected disabled value="">{{ i18n "chooseOption" }}</option>
             {{ range .Params.formSelect.dates }}
             <option value="{{.value}}">{{.option}}</option>
             {{ end }}
           </select>
-          <label  for="dates">
+          <label  for="dates-select">
             {{ i18n "dates" }}
           </label>
         </div>

@@ -24,15 +24,15 @@ We chose trust. From September 2025 to the end of March 2026, Marie was on the r
 
 #### The Company's Perspective: Continuity Despite Time Zones
 
-* **The Setup:** Marie reduced her workload to 20% (8 hours/week). By spreading her hours flexibly throughout the week, she remained reachable almost every day despite being on the move.<br></br>
-* **The Reality:** Thanks to clear agreements, secure VPN access, and our well-established communication via chat and ticket systems, accounting, admin tasks, and marketing continued seamlessly. No loss of expertise, no recruiting effort for a temporary replacement.<br></br>
+* **The Setup:** Marie reduced her workload to 20% (8 hours/week). By spreading her hours flexibly throughout the week, she remained reachable almost every day despite being on the move.<br>
+* **The Reality:** Thanks to clear agreements, secure VPN access, and our well-established communication via chat and ticket systems, accounting, admin tasks, and marketing continued seamlessly. No loss of expertise, no recruiting effort for a temporary replacement.<br>
 * **Borderless Collaboration:** We fondly remember the weekly meetings where Marie dialed in from a campsite in the dark—somewhere between South America, Australia, New Zealand, and Thailand. It allowed all of us to travel along with her just a little bit.
 
 #### Marie's Perspective: Freedom Meets Responsibility
 
-* **Not Uncharted Territory:** Since Marie had already gained remote work experience with her previous employer, she knew exactly what she was getting into and was already familiar with the opportunities and challenges.<br></br>
-* **The Reality Beyond Postcard Idyls:** Working from the beach or typing in the desert at 50 degrees? Sounds nice, but the laptop doesn't like it at all. And you often search in vain for stable networks in the Australian or Brazilian bush. Sometimes "Work from Anywhere" also meant: carrying the business laptop in a backpack on a strenuous, high-alpine volcano hike because there was simply no safe place to leave it in the tent. Marie had to plan her route and days in advance to ensure a stable internet connection was up and running in time for calls.<br></br>
-* **Discipline in Everyday Travel:** 8 hours of work per week sounds like very little at first. However, splitting this time meaningfully across four days requires quite a bit of iron discipline amidst backpacking and time zones.<br></br>
+* **Not Uncharted Territory:** Since Marie had already gained remote work experience with her previous employer, she knew exactly what she was getting into and was already familiar with the opportunities and challenges.<br>
+* **The Reality Beyond Postcard Idyls:** Working from the beach or typing in the desert at 50 degrees? Sounds nice, but the laptop doesn't like it at all. And you often search in vain for stable networks in the Australian or Brazilian bush. Sometimes "Work from Anywhere" also meant: carrying the business laptop in a backpack on a strenuous, high-alpine volcano hike because there was simply no safe place to leave it in the tent. Marie had to plan her route and days in advance to ensure a stable internet connection was up and running in time for calls.<br>
+* **Discipline in Everyday Travel:** 8 hours of work per week sounds like very little at first. However, splitting this time meaningfully across four days requires quite a bit of iron discipline amidst backpacking and time zones.<br>
 * **Marie's Conclusion:** "I'm so grateful for the trust and this amazing opportunity. Knowing I had a job to come back to gave me peace of mind. And honestly: having a steady paycheck coming in while on the road certainly didn’t hurt the travel budget either!"
 
 ### What We Learned: Flexibility Is a Must, From Both Sides!

@@ -129,6 +129,6 @@ As soon as we are working with signed containers per default, we can implement m
 
 Securing the software supply chain is a critical aspect of maintaining a robust and secure Kubernetes environment. The SLSA framework brings a short and spot-on summary about the supply chain security. By leveraging tools like Cosign, Sigstore, and Fulcio, you can enhance the integrity, transparency, and trustworthiness of your container images and artifacts. Integrating these tools into your CI/CD pipelines and Kubernetes clusters ensures that your software supply chain remains secure from source to deployment.
 
-<br><hr><br>
+<hr>
 
 Would you like to learn more about the different levels of the SLSA framework and hardened kuberentes native software supply chains? Can we help to get your supply chain security to the next level? Get in touch with us at any times via <a href="mailto:hallo@tim-koko.ch">hallo@tim-koko.ch</a> and we would be glad to get to know you!
