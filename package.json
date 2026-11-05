@@ -33,7 +33,8 @@
     "check": "hugo version",
     "latest:hugo": "gh release view --repo gohugoio/hugo",
     "copy:katex-fonts": "shx cp ./node_modules/katex/dist/fonts/* ./static/fonts/",
-    "version": "auto-changelog -p && git add CHANGELOG.md"
+    "version": "auto-changelog -p && git add CHANGELOG.md",
+    "lint:html": "html-validate \"public/**/*.html\""
   },
   "devDependencies": {
     "@babel/cli": "^8.0.6",
@@ -48,6 +49,7 @@
     "bootstrap": "^5.3",
     "eslint": "^10.12",
     "globals": "^17.6.0",
+    "html-validate": "^11.18.0",
     "hugo-extended": "^0.167.0",
     "lazysizes": "^5.3",
     "markdownlint-cli2": "^0.23.3",

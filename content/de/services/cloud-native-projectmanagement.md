@@ -50,8 +50,8 @@ Wir liefern nicht nur Pläne, wir schaffen umsetzbare Strukturen, transparente P
 <table style="width:100%; border-collapse: collapse;">
   <thead>
     <tr>
-      <th style="text-align:left; padding-right:20px; padding-bottom:20px; vertical-align:top;"><h4>Fokus</h4></th>
-      <th style="text-align:left; padding-bottom:20px; vertical-align:top;"><h4>Dein Ergebnis</h4></th>
+      <th class="h4" style="text-align:left; padding-right:20px; padding-bottom:20px; vertical-align:top;">Fokus</th>
+      <th class="h4" style="text-align:left; padding-bottom:20px; vertical-align:top;">Dein Ergebnis</th>
     </tr>
   </thead>
   <tbody>

@@ -20,7 +20,7 @@
   {{- range $rowIndex, $columns := $dataRows -}}
   <tr>
     {{- range $index, $col := $columns -}}
-    <td {{ if eq $index 0 }}scope="row"{{end}} data-label="{{index $headerRow $index}}">{{ . }}</td>
+    <td data-label="{{index $headerRow $index}}">{{ . }}</td>
     {{- end -}}
   </tr>
   {{- end -}}

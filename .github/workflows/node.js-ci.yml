@@ -31,3 +31,6 @@ jobs:
 
     - name: Build production website
       run: npm run build
+
+    - name: Validate generated HTML
+      run: npm run lint:html

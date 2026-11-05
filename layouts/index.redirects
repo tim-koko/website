@@ -3,3 +3,19 @@
 {{ . }} {{ $p.RelPermalink -}}
 {{- end }}
 {{- end -}}
+{{- /*
+  Hugo always writes small HTML redirect pages for "/de/" (default language
+  root) and ".../page/1/" (first pagination page), even with disableAliases.
+  Netlify only reads the _redirects file in the site root, so the rules for
+  all languages are written there. The "!" forces the redirect even though
+  the HTML file exists (it stays as a fallback, see layouts/alias.html).
+*/ -}}
+{{- if eq .Site.Language.Lang hugo.Sites.Default.Language.Lang }}
+{{- range hugo.Sites }}
+{{- $prefix := strings.TrimSuffix "/" .Home.RelPermalink }}
+{{- if eq $prefix "" }}
+/{{ .Language.Lang }}/ / 301!
+{{- end }}
+{{ $prefix }}/:section/page/1/ {{ $prefix }}/:section/ 301!
+{{- end }}
+{{- end }}
