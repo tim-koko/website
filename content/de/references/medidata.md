@@ -2,14 +2,14 @@
 title: "MediData – Aufbau Kafka Plattform"
 slug: "medidata-aufbau-kafka-platform"
 description: "Kafka-Plattform für MediData: Aufbau von Grund auf, integriert in die bestehende Microservice-Architektur auf Red Hat OpenShift."
-date: 2026-10-09T00:00:00+00:00
-lastmod: 2026-10-09T00:00:00+00:00
+date: 2026-11-06T00:00:00+00:00
+lastmod: 2026-11-06T00:00:00+00:00
 draft: false
-images: ["images/projects/tk-Ref-MediData-1500x1000px-og.jpg"]
+images: ["images/projects/tk-Ref-MediData-1200x630px-og.png"]
 Sitemap:
   Priority: 0.3
 client: "MediData AG"
-post_img: "images/projects/tk-Ref-MediData-1500x1000px-og.jpg"
+post_img: "images/projects/tk-Ref-MediData-1500x1000px.png"
 img_border: false
 lead: "tim&koko unterstützt die MediData seit dem Frühling 2026 beim Aufbau einer Kafka-Messaging-Plattform von Grund auf. Sie soll die bestehende Microservice-Architektur ergänzen und ActiveMQ sowie geteilte Datenbank-Views schrittweise ablösen. Dabei ist es das Ziel, die unterschiedlichen Verantwortlichkeiten der Teams, mehrere Red Hat OpenShift-Umgebungen und den Schutz personenbezogener Daten von Anfang an zu berücksichtigen."
 techStack: "Red Hat OpenShift, Red Hat Streams for Apache Kafka, Apicurio Registry"
@@ -82,7 +82,7 @@ Der Aufbau der Kafka-Plattform bei MediData zeigt, wie sich ein Proof of Concept
 
 Entscheidend ist dabei nicht nur die technische Umsetzung, sondern auch die enge Zusammenarbeit mit dem Plattform-Team und den Entwickler:innen. So entsteht gemeinsam das Know-how, um die Plattform langfristig zu betreiben und weiterzuentwickeln. Damit legt MediData die Grundlage, bestehende Kommunikationswege schrittweise abzulösen und die Entkopplung ihrer Microservices voranzutreiben.
 
-Haben Sie ähnliche Herausforderungen oder möchten Sie mehr über Apache Kafka, Red Hat Streams for Apache Kafka oder Strimzi erfahren? Kontaktieren Sie uns für ein unverbindliches Gespräch:
+Hast Du ähnliche Herausforderungen oder möchtest Du mehr über Apache Kafka, Red Hat Streams for Apache Kafka oder Strimzi erfahren? Kontaktiere uns für ein unverbindliches Gespräch:
 
 &nbsp;
 
