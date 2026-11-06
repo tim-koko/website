@@ -143,7 +143,7 @@ alertText = ""
   sameAs = [
     "https://www.linkedin.com/company/tim-koko/",
     "https://github.com/tim-koko",
-    "https://twitter.com/tim_und_koko",
+    "https://www.instagram.com/tim_und_koko/",
   ]
   # Topics tim&koko is an expert in (schema.org knowsAbout)
   knowsAbout = [
