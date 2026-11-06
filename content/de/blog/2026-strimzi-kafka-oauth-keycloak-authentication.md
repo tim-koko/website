@@ -11,7 +11,7 @@ Sitemap:
 
 categories: ["Technology", "Apache Kafka", "Messaging", "Strimzi"]
 authors: ['christof-luethi']
-additionalblogposts: [ 'strimzi-kafka-0.49.0-api-v1', "kafka-4", 'kafka-zookeeper-kraft-migration' ]
+additionalblogposts: ['kafka-oauth-strimzi-keycloak-authorization', 'strimzi-kafka-0.49.0-api-v1']
 
 post_img: "images/blog/kafka-strimzi-v1/tk-blogpost-strimzi-v1.jpg"
 img_border: true
@@ -617,7 +617,7 @@ jedes Topic zugreifen.
 
 In **Teil 2** konfigurieren wir den `KeycloakAuthorizer` auf dem Kafka-Broker und richten die Keycloak Authorization
 Services mit Scopes, Ressourcen, Richtlinien und Berechtigungen ein, um feingranulare, Multi-Tenant-Zugriffskontrollen
-durchzusetzen. [Hier weiterlesen.](https://tim-koko.ch/blog/kafka-oauth-strimzi-keycloak-authorization)
+durchzusetzen. [Hier weiterlesen.]({{< relref "/blog/2026-strimzi-kafka-oauth-keycloak-authorization.md" >}})
 
 ## Brauchst du Hilfe oder Beratung?
 

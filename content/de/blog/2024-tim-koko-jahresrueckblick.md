@@ -23,7 +23,7 @@ Leidenschaft mit. Gemeinsam arbeiten wir daran, unseren Kund:innen die besten L�
 
 ### Renaming zu tim&koko
 
-Einer der grössten Meilensteine war unser [Renaming](https://tim-koko.ch/blog/neuer-brand-name/). Aus unserem alten Namen wurde tim&koko – ein frischer, klarer
+Einer der grössten Meilensteine war unser [Renaming]({{< relref "/blog/2024-neuer-brandname.md" >}}). Aus unserem alten Namen wurde tim&koko – ein frischer, klarer
 Ausdruck dessen, wer wir sind und wofür wir stehen. Unser Name tim&koko ehrt den britischen Informatiker Tim Berners-Lee,
 Schöpfer des World Wide Web, wie auch das Gorilla-Weibchen Koko, das in Gebärdensprache kommunizierte. Der Name steht für
 technologische Lösungen und Kommunikation auf Augenhöhe – genau wie unsere Arbeitsweise.
@@ -33,7 +33,7 @@ technologische Lösungen und Kommunikation auf Augenhöhe – genau wie unsere A
 ### Sommer Workshop
 
 Im Sommer kamen wir zusammen, um zu lernen, zu brainstormen und uns als Team weiterzuentwickeln. Kreative Ansätze, neue
-Ideen und jede Menge Teamgeist prägten diesen [Workshop](https://tim-koko.ch/blog/tim-koko-sommerworkshop/). Es war ein
+Ideen und jede Menge Teamgeist prägten diesen [Workshop]({{< relref "/blog/2024-tim-koko-sommerworkshop.md" >}}). Es war ein
 inspirierender Moment, der uns enger zusammengeschweisst hat. Während des Workshops stärkten wir an den drei gemeinsamen
 Tagen unser Teamgefühl, reflektierten über die Übereinstimmung persönlicher und Firmenwerte als Basis für eine gemeinsame
 Ausrichtung und entwickelten eine klare Vision für unsere Zukunft sowie unsere interne Organisation.
@@ -68,7 +68,7 @@ zusätzlicher Power für innovative Projekte.
 Ein grosses Thema für uns war 2024 die Virtualisierung in der Cloud – konkret: OpenShift Virtualization / KubeVirt. Wir
 haben unser Know-how in Blogposts auf unserer Webseite geteilt und freuen uns, dass dieses Thema so viel Resonanz
 gefunden hat. Für alle, die noch nicht reingelesen haben: Schaut unbedingt in unserem Blog vorbei oder meldet euch am
-besten direkt zu unserem kostenlosen Hands-on Labs an: [https://tim-koko.ch/labs](https://tim-koko.ch/labs)
+besten direkt zu unserem kostenlosen Hands-on Labs an: [https://tim-koko.ch/labs]({{< relref "/labs" >}})
 
 ### Danke für ein grossartiges Jahr!
 

@@ -14,9 +14,10 @@ authors: ['sarah-pfeiffer']
 
 post_img: "images/blog/neuer-brandname/timkoko-neuer-brandname-blogpost-1500x1000.jpg"
 lead: "When we founded our company, we had no idea how important it would be to find a brand we could truly identify with - and all the challenges that would come with it."
+additionalblogposts: ['tim-koko', 'brand-plattform-tim-koko']
 ---
 
-When we suddenly had to change our company name (find out in the blogpost [tim&koko new name](https://tim-koko.ch/en/blog/tim-koko/)), we faced a challenge that wasn’t easy to solve.
+When we suddenly had to change our company name (find out in the blogpost [tim&koko new name]({{< relref "/blog/2024-tim-koko.md" >}})), we faced a challenge that wasn’t easy to solve.
 
 One of the biggest hurdles was coming up with a catchy brand name that was both unique and unused by any other company worldwide. After what happened with our first name, we were extra cautious, and the search for a new name definitely cost us some sleepless nights.
 

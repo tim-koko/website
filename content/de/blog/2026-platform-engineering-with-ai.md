@@ -10,7 +10,7 @@ img_border: false
 Sitemap:
   Priority: 0.9
 
-additionalblogposts: []
+additionalblogposts: ['argocd-what-is', 'operators-custom-resources']
 
 categories: ["Technologie", "Künstliche Intelligenz"]
 authors: ['miriam-streit']

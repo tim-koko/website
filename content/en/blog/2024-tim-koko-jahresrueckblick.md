@@ -11,7 +11,7 @@ Sitemap:
 
 categories: ["News", "tim&koko", "Review of the year"]
 authors: []
-additionalblogposts: [ 'nicht-nur-tech-sprachen', 'unsere-werte']
+additionalblogposts: ['nicht-nur-tech-sprachen', 'our-values']
 post_img: "images/blog/review24/tk-blogpost-review-1500x1000.jpg"
 lead: "As 2024 draws to a close, we at tim&koko look back on a year full of exciting developments, inspiring moments and great experiences. For us, 2024 was characterized by growth - as a team, as a company and in our partnerships. For our annual review, we asked our team what their personal highlights of the year were. "
 ---
@@ -23,7 +23,7 @@ together to offer our customers the best solutions.
 
 ### Renaming to tim&koko
 
-One of the biggest milestones was our [renaming](https://tim-koko.ch/en/blog/neuer-brand-name/). Our old name became tim&koko - a fresh, clear expression of who we are
+One of the biggest milestones was our [renaming]({{< relref "/blog/2024-neuer-brandname.md" >}}). Our old name became tim&koko - a fresh, clear expression of who we are
 and what we stand for. Our name tim&koko honors the British computer scientist Tim Berners-Lee, creator of the World
 Wide Web, as well as the female gorilla Koko, who communicated in sign language. The name stands for technological
 solutions and communication at eye level - just like our way of working.
@@ -34,7 +34,7 @@ solutions and communication at eye level - just like our way of working.
 
 In the summer, we came together to learn, brainstorm and develop as a team. Creative approaches, new ideas and plenty
 of team spirit characterized this workshop. It was an inspiring moment that brought us closer together. During the three
-days of the [workshop](https://tim-koko.ch/en/blog/tim-koko-sommerworkshop/), we strengthened our team spirit, reflected
+days of the [workshop]({{< relref "/blog/2024-tim-koko-sommerworkshop.md" >}}), we strengthened our team spirit, reflected
 on the alignment of personal and company values as a basis for a common direction and developed a clear vision for our
 future and our internal organization.
 
@@ -65,7 +65,7 @@ for our customers: with bundled expertise, customized strategies and additional 
 
 A major topic for us in 2024 was virtualization in the cloud - specifically: OpenShift Virtualization / KubeVirt. We
 shared our expertise in blog posts on our website and are delighted that this topic was so well received. For anyone
-who hasn't read it yet: Be sure to check out our blog or sign up directly for our free hands-on labs: [https://tim-koko.ch/en/labs](https://tim-koko.ch/en/labs)
+who hasn't read it yet: Be sure to check out our blog or sign up directly for our free hands-on labs: [https://tim-koko.ch/en/labs]({{< relref "/labs" >}})
 
 ### Thank you for a great year!
 

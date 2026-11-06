@@ -10,7 +10,7 @@ img_border: true
 Sitemap:
   Priority: 0.9
 
-additionalblogposts: [ 'argocd-whatis', 'argoevents-what-is', 'kubevirt-what-is' ]
+additionalblogposts: ['argocd-what-is', 'argoevents-what-is', 'kubevirt-whatis']
 
 categories: ["Technologie", "Kubernetes", "ArgoCD"]
 authors: ['miriam-streit']
@@ -35,7 +35,7 @@ Viele Teams behelfen sich in solchen Situationen mit komplexen Wrapper-Skripten,
 
 ## Die Lösung: Was ist Argo Workflows?
 
-Nachdem im [ersten Teil](https://tim-koko.ch/blog/argocd-what-is/) dieser Serie **Argo CD** für den *Zustand* (Desired State) und im [zweiten Teil](https://tim-koko.ch/blog/argoevents-what-is/) **Argo Events** für das *Signal* (Triggering) vorgestellt wurden, übernimmt **Argo Workflows** den dritten zentralen Baustein der Plattform: die **Ausführung** (Execution) komplexer, mehrstufiger Logik.
+Nachdem im [ersten Teil]({{< relref "/blog/2026-argocd-what-is.md" >}}) dieser Serie **Argo CD** für den *Zustand* (Desired State) und im [zweiten Teil]({{< relref "/blog/2026-argoevents-what-is.md" >}}) **Argo Events** für das *Signal* (Triggering) vorgestellt wurden, übernimmt **Argo Workflows** den dritten zentralen Baustein der Plattform: die **Ausführung** (Execution) komplexer, mehrstufiger Logik.
 
 Man kann sich Argo Workflows wie eine **automatisierte Produktionsstrasse** im werkseigenen Betrieb vorstellen: Ein Rohstoff trifft ein und passiert nacheinander verschiedene spezialisierte Stationen. Bei Bedarf teilt sich das Fliessband für parallele Verarbeitungsschritte auf, führt Zwischenprodukte an einer Montagestation wieder zusammen und übergibt das Endergebnis an das Lager. Jede Station arbeitet isoliert, ist aber genau auf die vorangehenden und nachfolgenden Schritte abgestimmt.
 

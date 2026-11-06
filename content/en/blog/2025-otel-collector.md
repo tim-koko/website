@@ -11,7 +11,7 @@ Sitemap:
 
 categories: ["Technology", "OpenTelemetry", "Kubernetes"]
 authors: []
-additionalblogposts: [ 'opentelemetry-introduction', 'otel-autoinstrumentation']
+additionalblogposts: ['opentelemetry-introduction', 'otel-prometheus-ingestion']
 
 post_img: "images/blog/otel/tk-blogpost-otel-1500x1000.png"
 img_border: true

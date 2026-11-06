@@ -14,6 +14,7 @@ authors: ['thomas-philipona']
 
 post_img: "images/blog/brand-plattform/tk-blogpost-brandplattform-tim-koko.png"
 lead: "In einer zunehmend digitalen Welt ist eine klare und einheitliche Markenkommunikation wichtiger denn je. Unsere Markenplattform dient als zentrale Anlaufstelle, um unseren Brand zu präsentieren und ein konsistentes Markenerlebnis zu gewährleisten."
+additionalblogposts: ['unsere-markenstrategie', 'neuer-brand-name']
 ---
 
 Die einheitliche Markenkommunikation löst Herausforderungen, wie z. B. inkonsistente Nutzung von Logos, Farben oder Botschaften. Ob für uns intern oder externe Partner, die Plattform unterstützt dabei, unseren Brand auf allen Kanälen einheitlich und wirkungsvoll zu repräsentieren.

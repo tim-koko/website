@@ -26,7 +26,7 @@ build:
 
 ## Pre-Apéro vor der Abfahrt des KubeTrains in Paris!
 
-Die Teams von [tim&koko](https://tim-koko.ch/) und [The GoGrow Company](https://thegogrow.company/) (wir sind übrigens 2/3 des Teams hinter Cloud Native Zürich) laden euch zu einem besonderen Event ein, bevor wir offiziell den KubeTrain nach London besteigen.
+Die Teams von [tim&koko]({{< relref "/" >}}) und [The GoGrow Company](https://thegogrow.company/) (wir sind übrigens 2/3 des Teams hinter Cloud Native Zürich) laden euch zu einem besonderen Event ein, bevor wir offiziell den KubeTrain nach London besteigen.
 
 Warum bis zur Abfahrt warten, wenn wir schon vorher loslegen können? Kommt vorbei, quatscht mit uns und lasst uns gemeinsam die Vorfreude anheizen. Für Drinks und Snacks ist natürlich gesorgt – so starten wir gleich richtig durch!
 

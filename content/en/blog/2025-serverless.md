@@ -11,7 +11,7 @@ Sitemap:
 
 categories: ["Technology", "Serverless", "Guestpost"]
 authors: [lena-fuhrimann]
-additionalblogposts: []
+additionalblogposts: ['otel-autoinstrumentation', 'cicd-devx']
 
 post_img: "images/blog/bespinian/tk-blogpost-serverless-1500x1000.png"
 img_border: true

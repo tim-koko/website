@@ -10,7 +10,7 @@ img_border: false
 Sitemap:
   Priority: 0.9
 
-additionalblogposts: [ '2025-jahresrueckblick', 'cnz-hinter-kulissen', '6-monate-tk']
+additionalblogposts: ['argocd-what-is', 'operators-custom-resources']
 
 categories: ["Technologie", "Kubernetes", "for dummies"]
 authors: ['marie-steck']

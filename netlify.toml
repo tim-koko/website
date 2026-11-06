@@ -68,6 +68,54 @@
   status = 301
   force = true
 
+[[redirects]]
+# redirect old en reference URL to new one
+  from = "/en/references/centris/*"
+  to = "/en/references/centris-kafka-storage-migration/"
+  status = 301
+  force = true
+[[redirects]]
+# redirect old en reference URL to new one
+  from = "/en/references/baloise-distributed-tracing-opentelemetry/*"
+  to = "/en/references/baloise-distributed-tracing-plattform-poc-auf-basis-von-opentelemetry-und-grafana-tempo/"
+  status = 301
+  force = true
+[[redirects]]
+# redirect old en reference URL to new one
+  from = "/en/references/prometheus-application-monitoring-finance-sector/*"
+  to = "/en/references/marktdaten-monitoring-with-prometheus/"
+  status = 301
+  force = true
+[[redirects]]
+# redirect old en reference URL to new one
+  from = "/en/references/adcubum/*"
+  to = "/en/references/adcubum-syrius-auf-dem-weg-in-die-cloud/"
+  status = 301
+  force = true
+[[redirects]]
+# redirect old en reference URL to new one
+  from = "/en/references/rhaetische-bahn/*"
+  to = "/en/references/rhätische-bahn-cloud-native-bahnbetrieb-mit-openshift/"
+  status = 301
+  force = true
+[[redirects]]
+# German pages have no /de/ prefix (default language), e.g. /de/blog/... -> /blog/...
+# Not forced: /de/sitemap.xml is a real file (German sitemap) and must not be redirected.
+  from = "/de/*"
+  to = "/:splat"
+  status = 301
+[[redirects]]
+# the jobs page is currently not published. Not forced, so a published
+# jobs page takes precedence again automatically.
+  from = "/jobs/*"
+  to = "/ueber-uns/"
+  status = 301
+[[redirects]]
+# see above
+  from = "/en/jobs/*"
+  to = "/en/about/"
+  status = 301
+
 [dev]
   framework = "#custom"
   command = "npm run start"

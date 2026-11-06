@@ -11,7 +11,7 @@ Sitemap:
 
 categories: ["tim&koko", "Members", "Behind the Scenes"]
 authors: ['marie-steck']
-additionalblogposts: ['6-monate-tk', 'serverless']
+additionalblogposts: ['6-monate-tk', '2025-jahresrueckblick']
 
 post_img: "images/blog/cnz/tk-blogpost-cnz-1500x1000.png"
 img_border: false
