@@ -32,7 +32,7 @@ Lösungen. Zusammen kommen sie auf über 22'000 Anschlüsse; pro Jahr wickelt Me
 Transaktionen ab.
 
 Hinter dieser Reichweite steht eine kontinuierliche Weiterentwicklung: 2013 erhielt MediData die ISO-27001-
-Zertifizierung für Informationssicherheit, 2022 folgte der elektronische Versand von Rechnungen und Rechnungskopien
+Zertifizierung für Informationssicherheit und die VDSZ Verordnung über die Datenschutzzertifizierung, 2022 folgte der elektronische Versand von Rechnungen und Rechnungskopien
 an Patient:innen. Da über die Plattform besonders schützenswerte Gesundheitsdaten verarbeitet werden, haben
 Datenschutz und Informationssicherheit bei MediData einen hohen Stellenwert.
 
@@ -72,9 +72,9 @@ Die Plattform steht den Entwicklungsteams für erste Tests und Integrationen zur
 
 ## Kundenstatement
 
-«Statement»
+«Die Situation ist exzellent, der Plan ist übererfüllt und unsere Fachseite arbeitet bereits an der Adoption.»
 
-**Autor**, Rolle
+**Philipp Bartsch**, Platform Engineer / Product Owner
 
 ## Fazit & Lessons Learned
 
