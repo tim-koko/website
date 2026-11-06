@@ -29,7 +29,7 @@ Gemeinsam arbeiteten wir uns Schritt für Schritt aus dem Frühlingstief heraus.
 
 Wer tim&koko kennt, weiss: Wir lieben unsere Community – und wir sagen selten Nein zu einem guten Glas Bier oder Wein in geselliger Runde.
 Dieses Jahr durften wir uns gleich mehrfach in die Eventorganisation stürzen: Dreimal führten wir unser eigenes OpenShift Virtualization Lab durch, verwandelten in wenigen, hektischen Minuten einen Kinosaal in ein Meetup und organisierten das eine oder andere Fübi mit viel Herzblut.
-Thömu hat ausserdem Stunden in die Organisation des Cloud Native Zürich Events investiert. Am Tag selbst stand das Team auf Platz, um Thömu und die zwei weiteren Organisatoren zu unterstützen. Einen Blick hinter die Kulissen von Cloud Native Zürich findest du [hier](https://tim-koko.ch/blog/cnz-hinter-kulissen/).
+Thömu hat ausserdem Stunden in die Organisation des Cloud Native Zürich Events investiert. Am Tag selbst stand das Team auf Platz, um Thömu und die zwei weiteren Organisatoren zu unterstützen. Einen Blick hinter die Kulissen von Cloud Native Zürich findest du [hier]({{< relref "/blog/2025-cnz-hinter-kulissen.md" >}}).
 Natürlich waren wir nicht nur Organisatoren, sondern auch begeisterte Teilnehmende. Im Frühling reisten Thömu, Chrigu und Sarah nach London zur KubeCon – eine Konferenz, die jedes Jahr aufs Neue beweist, wie lebendig und gross die Cloud Native Community ist. Neben Talks, Networking und Tech-Tiefgang blieb auch Zeit für das, was uns ausmacht: gute Gespräche, gemeinsames Lachen und das ein oder andere Getränk beim Swiss Apéro. Wie in den Jahren zuvor reisten wir übrigens stilecht mit dem KubeTrain – und ja, es war wieder legendär.
 
 ### acend

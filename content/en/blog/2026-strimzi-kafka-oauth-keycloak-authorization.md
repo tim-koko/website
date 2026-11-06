@@ -18,7 +18,7 @@ post_img: "images/blog/kafka-strimzi-v1/tk-blogpost-strimzi-v1.jpg"
 lead: "With OAuth authentication in place, the next step is enforcing fine-grained access control. In this second part we configure the KeycloakAuthorizer on the Kafka broker and set up Keycloak's Authorization Services — scopes, resources, policies, and permissions — to achieve multi-tenant topic isolation."
 ---
 
-In [Part 1 Authentication](https://tim-koko.ch/en/blog/strimzi-kafka-oauth-keycloak-authentication/) we configured a Strimzi-managed Kafka
+In [Part 1 Authentication]({{< relref "/blog/2026-strimzi-kafka-oauth-keycloak-authentication.md" >}}) we configured a Strimzi-managed Kafka
 cluster with OAuth 2 authentication using Keycloak, provisioned tenant clients (timkoko, acmecorp, umbrellacorp),
 and verified that token-based authentication works. At this point any authenticated client can still access any topic.
 
@@ -440,7 +440,7 @@ Notice that only `timkoko-*` resources are present — there is no access to `ac
 
 ### Test Authorization from a Kafka CLI Pod
 
-Inside the CLI Pod from the [Part 1 Authentication](https://tim-koko.ch/en/blog/strimzi-kafka-oauth-keycloak-authentication/), create the client configuration and test against the Kafka cluster:
+Inside the CLI Pod from the [Part 1 Authentication]({{< relref "/blog/2026-strimzi-kafka-oauth-keycloak-authentication.md" >}}), create the client configuration and test against the Kafka cluster:
 
 ```shell
 # From inside a pod with Kafka CLI tools

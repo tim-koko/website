@@ -16,7 +16,7 @@ post_img: "images/blog/neuer-brandname/timkoko-neuer-brandname-blogpost-1500x100
 lead: "Als wir unsere Firma gegründet haben, ahnten wir noch nicht, wie wichtig es ist, einen Brand zu finden, mit dem wir uns identifizieren können – und was das alles mit sich bringt. "
 ---
 
-Als wir dann plötzlich unseren Firmennamen ändern mussten (warum erfährst du im Blogpost hier [tim&koko neuer Name](https://tim-koko.ch/blog/tim-koko/)), standen wir vor einer Herausforderung, die nicht ganz einfach zu lösen war.
+Als wir dann plötzlich unseren Firmennamen ändern mussten (warum erfährst du im Blogpost hier [tim&koko neuer Name]({{< relref "/blog/2024-tim-koko.md" >}})), standen wir vor einer Herausforderung, die nicht ganz einfach zu lösen war.
 
 Besonders das Finden eines &laquo;catchy&raquo; Brandnamens, der einzigartig ist und den noch keine andere Firma weltweit verwendet, war eine echte Herausforderung. Denn nach der &laquo;Geschichte&raquo; waren wir natürlich besonders vorsichtig und der neue Name hat uns einige Nächte den Schlaf geraubt.
 

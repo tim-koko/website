@@ -617,7 +617,7 @@ jedes Topic zugreifen.
 
 In **Teil 2** konfigurieren wir den `KeycloakAuthorizer` auf dem Kafka-Broker und richten die Keycloak Authorization
 Services mit Scopes, Ressourcen, Richtlinien und Berechtigungen ein, um feingranulare, Multi-Tenant-Zugriffskontrollen
-durchzusetzen. [Hier weiterlesen.](https://tim-koko.ch/blog/kafka-oauth-strimzi-keycloak-authorization)
+durchzusetzen. [Hier weiterlesen.]({{< relref "/blog/2026-strimzi-kafka-oauth-keycloak-authorization.md" >}})
 
 ## Brauchst du Hilfe oder Beratung?
 

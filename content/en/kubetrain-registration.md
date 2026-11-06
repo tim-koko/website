@@ -26,7 +26,7 @@ build:
 
 ## Join Us for a Pre-Apéro Before Boarding the KubeTrain in Paris!
 
-The teams at [tim&koko](https://tim-koko.ch/) and [The GoGrow Company](https://thegogrow.company/) (we're actually 2/3 of the team behind Cloud Native Zürich) invite you to a special before we officially board the KubeTrain.
+The teams at [tim&koko]({{< relref "/" >}}) and [The GoGrow Company](https://thegogrow.company/) (we're actually 2/3 of the team behind Cloud Native Zürich) invite you to a special before we officially board the KubeTrain.
 
 Why wait for the journey to begin when we can kick things off early? Let’s meet, mingle, and set the mood for an exciting experience ahead. Drinks and light snacks will be provided to help kick off the trip in style!
 

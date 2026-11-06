@@ -1,0 +1,13 @@
+{{- /*
+  Returns the absolute URL of the page being rendered, including the pager
+  (e.g. /blog/page/2/), for canonical and og:url.
+
+  The blog, references and services overviews paginate with `.Paginator 10`
+  (see layouts/<section>/list.html). Hugo allows only one paginator setup per
+  page, so the same call is used here. Keep the size in sync with those layouts.
+*/ -}}
+{{- $url := .Permalink -}}
+{{- if and .IsSection (in (slice "blog" "references" "services") .Section) -}}
+  {{- $url = (.Paginator 10).URL | absURL -}}
+{{- end -}}
+{{- return $url -}}

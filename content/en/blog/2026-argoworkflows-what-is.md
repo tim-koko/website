@@ -35,7 +35,7 @@ At that point, many teams turn to wrapper scripts, external CI/CD tooling, or cu
 
 ## The Solution: What is Argo Workflows?
 
-After presenting **Argo CD** for *state* (Desired State) in [part one](https://tim-koko.ch/en/blog/argocd-what-is/) and **Argo Events** for *signals* (Triggering) in [part two](https://tim-koko.ch/en/blog/argoevents-what-is/), **Argo Workflows** takes on the third core building block of the platform: the **execution** of complex, multi-stage logic.
+After presenting **Argo CD** for *state* (Desired State) in [part one]({{< relref "/blog/2026-argocd-what-is.md" >}}) and **Argo Events** for *signals* (Triggering) in [part two]({{< relref "/blog/2026-argoevents-what-is.md" >}}), **Argo Workflows** takes on the third core building block of the platform: the **execution** of complex, multi-stage logic.
 
 You can think of Argo Workflows like an **automated production line** in a factory: a raw material arrives and passes through various specialized stations one after another. If needed, the assembly line splits up for parallel processing steps, brings intermediate products back together at an assembly station, and hands off the final result to the warehouse. Each station works in isolation, yet is precisely coordinated with the preceding and following steps.
 

@@ -34,7 +34,7 @@ Wie lösen viele Teams diese Anforderungen heute? Sie schreiben eigene kleine Fl
 
 ### Die Lösung: Was ist Argo Events?
 
-Im [ersten Teil](https://tim-koko.ch/blog/argocd-what-is/) unserer Serie haben wir gesehen, wie **Argo CD** den *gewünschten Zustand* (Desired State) der Infrastruktur kontinuierlich abgleicht. **Argo Events** ist der logische Partner für die andere Seite der Medaille: Es steuert die *Aktionen* (Events), die durch externe Reize ausgelöst werden.
+Im [ersten Teil]({{< relref "/blog/2026-argocd-what-is.md" >}}) unserer Serie haben wir gesehen, wie **Argo CD** den *gewünschten Zustand* (Desired State) der Infrastruktur kontinuierlich abgleicht. **Argo Events** ist der logische Partner für die andere Seite der Medaille: Es steuert die *Aktionen* (Events), die durch externe Reize ausgelöst werden.
 
 Man kann sich Argo Events wie einen **Smart-Home-Bewegungsmelder** vorstellen: Der Sensor an der Wand registriert eine Bewegung an der Tür (EventSource), schickt das Signal über das Hausnetzwerk (EventBus), prüft, ob es draussen bereits dunkel ist (Sensor), und schaltet genau dann das Licht ein (Trigger). Genauso reagiert Argo Events auf Reize aus der Aussenwelt – etwa ein File-Upload oder ein Webhook – und führt vollautomatisch die passende Aktion im Cluster aus.
 

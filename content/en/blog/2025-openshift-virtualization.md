@@ -52,6 +52,6 @@ We are happy to answer any questions you may have. You can reach us best at [hal
 
 We also offer you the following opportunities to learn more about KubeVirt or OpenShift Virtualization:
 
-* [tim&koko labs](https://tim-koko.ch/en/labs/): Get to know the basics of OpenShift Virtualization in one afternoon and apply them directly in practical hands-on labs.
+* [tim&koko labs]({{< relref "/labs" >}}): Get to know the basics of OpenShift Virtualization in one afternoon and apply them directly in practical hands-on labs.
 * [KubeVirt Basics Training](https://acend.ch/en/trainings/kubevirt/): Two-day varied training with presentations and hands-on labs.
-* [OpenShift Virtualization Accelerator Package](https://tim-koko.ch/en/services/openshift-virtualization-accelerator/): We help you explore the possibilities of OpenShift Virtualization and find out how high the potential for a new or parallel strategy could be.
+* [OpenShift Virtualization Accelerator Package]({{< relref "/services/openshift-virtualization-accelerator-package.md" >}}): We help you explore the possibilities of OpenShift Virtualization and find out how high the potential for a new or parallel strategy could be.

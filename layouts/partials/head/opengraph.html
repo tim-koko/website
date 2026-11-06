@@ -2,12 +2,7 @@
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
 <meta property="og:title" content="{{ .Title }}">
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
-{{ if $.Scratch.Get "paginator" -}}
-  {{ $paginator := .Paginate (where .Site.RegularPages.ByDate.Reverse "Section" "blog" ) -}}
-  <meta property="og:url" content="{{ .Paginator.URL | absURL }}">
-{{ else -}}
-  <meta property="og:url" content="{{ .Permalink }}">
-{{ end -}}
+<meta property="og:url" content="{{ partial "head/page-url.html" . }}">
 {{ with .Site.Params.title -}}
   <meta property="og:site_name" content="{{ . }}">
 {{ end -}}

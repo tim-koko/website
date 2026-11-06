@@ -34,7 +34,7 @@ build:
 
 Excited for thrilling tech talks, hands-on labs, and a party that brings people together?
 
-We – [bespinian](https://bespinian.io) & [tim&koko](https://tim-koko.ch/) – are joining forces to unite not only our expertise but also the cloud community. Together, we create a space for inspiration, exchange, and plenty of networking.
+We – [bespinian](https://bespinian.io) & [tim&koko]({{< relref "/" >}}) – are joining forces to unite not only our expertise but also the cloud community. Together, we create a space for inspiration, exchange, and plenty of networking.
 
 📅 **October 30, 2025**
 

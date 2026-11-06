@@ -23,16 +23,17 @@
 {{ end -}}
   <meta name="author" content="{{ .Site.Params.metaautor }}" />
   <meta name="copyright" content="{{ .Site.Params.metacopyright }}" />
-{{ if $.Scratch.Get "paginator" }}
-  <link rel="canonical" href="{{ .Paginator.URL | absURL }}">
-  {{ if .Paginator.HasPrev -}}
-    <link rel="prev" href="{{ .Paginator.Prev.URL | absURL }}">
+{{- /* Each page of a paginated overview is its own canonical URL (Google recommendation) */ -}}
+  <link rel="canonical" href="{{ partial "head/page-url.html" . }}">
+{{ if and .IsSection (in (slice "blog" "references" "services") .Section) -}}
+  {{ with .Paginator 10 -}}
+  {{ if .HasPrev -}}
+    <link rel="prev" href="{{ .Prev.URL | absURL }}">
   {{ end -}}
-  {{ if .Paginator.HasNext -}}
-    <link rel="next" href="{{ .Paginator.Next.URL | absURL }}">
+  {{ if .HasNext -}}
+    <link rel="next" href="{{ .Next.URL | absURL }}">
   {{ end -}}
-{{ else  -}}
-  <link rel="canonical" href="{{ .Permalink | absURL }}">
+  {{ end -}}
 {{ end -}}
 
 {{ if .IsTranslated -}}

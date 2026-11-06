@@ -28,7 +28,7 @@ Diese Seite dient als Hilfe für die Formatierung von Content
 
 ## Links
 
-[tim&koko](https://tim-koko.ch/)
+[tim&koko]({{< relref "/" >}})
 
 <https://tim-koko.ch>
 

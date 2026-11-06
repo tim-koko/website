@@ -34,7 +34,7 @@ build:
 
 Lust auf spannende Tech-Talks, praxisnahe Labs und eine Party, die verbindet?
 
-Wir – [bespinian](https://bespinian.io) & [tim&koko](https://tim-koko.ch/) – tun uns zusammen, um nicht nur unsere Kräfte, sondern auch die Cloud-Community zu vereinen. Gemeinsam schaffen wir Raum für Inspiration, Austausch und jede Menge Networking.
+Wir – [bespinian](https://bespinian.io) & [tim&koko]({{< relref "/" >}}) – tun uns zusammen, um nicht nur unsere Kräfte, sondern auch die Cloud-Community zu vereinen. Gemeinsam schaffen wir Raum für Inspiration, Austausch und jede Menge Networking.
 
 📅 **30. Oktober 2025**
 
