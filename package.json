@@ -48,7 +48,7 @@
     "autoprefixer": "^10.5",
     "bootstrap": "^5.3",
     "eslint": "^10.14.0",
-    "globals": "^17.6.0",
+    "globals": "^17.14.0",
     "html-validate": "^11.18.0",
     "hugo-extended": "^0.169.0",
     "lazysizes": "^5.3",
