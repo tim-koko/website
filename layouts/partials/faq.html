@@ -1,0 +1,22 @@
+{{- /*
+  FAQ accordion from front matter `faq` (list of question/answer).
+  Uses the shared accordion partials with its own id prefix, so it can live on
+  a page that already has an accordion from the shortcode.
+  The same data is added to the JSON-LD as FAQPage (head/structured-data.html).
+*/ -}}
+{{- with .Params.faq }}
+{{- $items := "" }}
+{{- range $i, $item := . }}
+  {{- $items = printf "%s%s" $items (partial "accordion/item.html" (dict
+    "parent" "faq-accordion"
+    "prefix" "-faq-"
+    "index" $i
+    "title" $item.question
+    "body" ($item.answer | markdownify)
+  )) }}
+{{- end }}
+<section class="mt-12 mt-lg-20" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="mb-6 mb-lg-10">{{ i18n "faqTitle" }}</h2>
+  {{ partial "accordion/accordion.html" (dict "id" "faq-accordion" "content" ($items | safeHTML)) }}
+</section>
+{{- end }}

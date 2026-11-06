@@ -1,7 +1,7 @@
 ---
 title: "Kafka OAuth 2 Autorisierung mit Strimzi und Keycloak - Teil 2"
 slug: "kafka-oauth-strimzi-keycloak-authorization"
-description: ""
+description: "Kafka OAuth 2 mit Strimzi & Keycloak, Teil 2: Feingranulare Autorisierung mit dem KeycloakAuthorizer für isolierte Topics in Multi-Tenant-Clustern."
 date: 2026-04-01T01:00:00+00:00
 lastmod: 2026-04-01T01:00:00+00:00
 draft: false
@@ -334,14 +334,14 @@ for tenant in timkoko acmecorp umbrellacorp; do
 done
 ```
 
-{{< custom-image "../images/kafka-strimzi/strimzi-kafka-oauth-keycloak-authorization-policies.png" "960" >}}
+{{< custom-image "../images/kafka-strimzi/strimzi-kafka-oauth-keycloak-authorization-policies.png" "960" "Keycloak Authorization Services des Clients kafka-broker: gruppenbasierte Policies pro Tenant wie timkoko-reader-policy und timkoko-writer-policy" >}}
 
 ### Berechtigungen erstellen
 
 Das letzte Puzzlestück verbindet alles miteinander. Berechtigungen verknüpfen eine Ressource mit definierten Scopes
 und einer Gruppenrichtlinie. Je nach effektivem Client müssen mehrere Berechtigungen erstellt werden.
 
-{{< custom-image "../images/kafka-strimzi/strimzi-kafka-oauth-keycloak-authorization-permissions.png" "960" >}}
+{{< custom-image "../images/kafka-strimzi/strimzi-kafka-oauth-keycloak-authorization-permissions.png" "960" "Scope-basierte Permissions des Clients kafka-broker wie timkoko-read-topics und timkoko-write-topics, jeweils verknüpft mit der passenden Policy" >}}
 
 Für jeden Tenant erstellen wir drei Berechtigungen:
 
@@ -398,7 +398,7 @@ done
 Dies stellt sicher, dass Mitglieder der Reader-Gruppe Lesezugriff auf die Consumer Group und die Topics erhalten.
 Die Writer-Gruppe ermöglicht den Schreibzugriff auf die Topics.
 
-{{< custom-image "../images/kafka-strimzi/strimzi-kafka-oauth-keycloak-authorization-permission-details.png" "960" >}}
+{{< custom-image "../images/kafka-strimzi/strimzi-kafka-oauth-keycloak-authorization-permission-details.png" "960" "Detailansicht der Permission timkoko-write-topics: Ressource Topic:timkoko-*, Scopes Write, Describe und IdempotentWrite, Policy timkoko-writer-policy" >}}
 
 ## Autorisierung verifizieren
 

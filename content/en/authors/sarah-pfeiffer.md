@@ -1,13 +1,13 @@
 ---
 title: "Sarah Pfeiffer"
 slug: "sarah-pfeiffer"
-description: ""
+description: "Sarah Pfeiffer is co-founder and project manager at tim&koko and keeps track of every to-do. Profile, fun facts and her blog posts."
 draft: false
 date: 2022-10-01T00:00:00+00:00
 lastmod: 2026-10-12T00:00:00+00:00
 tk_teammamber: true
 image: "/images/team/sarah.jpg"
-designation: "Project Manager"
+designation: "Project Manager & Founder"
 linkedin: "https://www.linkedin.com/in/pfeiffersarah/"
 twitter: "https://twitter.com/jamok_sarita"
 email: "sarah@tim-koko.ch"

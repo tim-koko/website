@@ -1,7 +1,7 @@
 ---
 title: "Von der Idee bis ans Nordkap: Wie man als Founder mehrere Monate Pause macht, ohne dass das Business stehen bleibt"
 slug: "founder-pause"
-description: ""
+description: "Mit dem Velo ans Nordkap: Wie Sarah & Thömu als Founder monatelang Pause machten, ohne dass tim&koko stillstand. Übergaben, Finanzierung & Learnings."
 date: 2026-11-05T00:00:00+00:00
 lastmod: 2026-11-05T00:00:00+00:00
 draft: false

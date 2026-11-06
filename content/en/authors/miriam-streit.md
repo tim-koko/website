@@ -1,7 +1,7 @@
 ---
 title: "Miriam Streit"
 slug: "miriam-streit"
-description: ""
+description: "Miriam Streit is a platform engineer at tim&koko, bridging software development and infrastructure. Profile, fun facts & blog posts."
 draft: false
 date: 2025-02-01T00:00:00+00:00
 lastmod: 2026-10-12T00:00:00+00:00

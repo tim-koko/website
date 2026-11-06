@@ -1,7 +1,7 @@
 ---
 title: "What is Argo Workflows? And why it can be compared to an automated production line"
 slug: "argoworkflows-what-is"
-description: ""
+description: "What is Argo Workflows? Orchestrate multi-step processes & DAGs directly on Kubernetes: architecture, a YAML example & typical use cases explained."
 date: 2026-10-07T00:00:00+00:00
 lastmod: 2026-10-07T00:00:00+00:00
 draft: false
@@ -54,7 +54,7 @@ Argo Workflows is based on a few powerful Custom Resources that structure comple
 
 ### DAG Workflow Sequence
 
-{{< custom-image "../images/argocd/argo-workflows-dag.svg" "500">}}
+{{< custom-image "../images/argocd/argo-workflows-dag.svg" "500" "Schematic flow of a DAG workflow in Argo Workflows with interdependent steps" >}}
 
 ## A Simple Example: A DAG Workflow in YAML
 

@@ -1,3 +1,1 @@
-<div class="accordion accordion-flush border-top border-bottom" id="faqAccordion">
-    {{ .Inner }}
-</div>
+{{- partial "accordion/accordion.html" (dict "id" "faqAccordion" "content" .Inner) -}}

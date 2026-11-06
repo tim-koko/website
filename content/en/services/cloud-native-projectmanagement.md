@@ -30,6 +30,17 @@ icon: <svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="
 # build:
 #   list: never
 #   render: never
+
+# Frequently asked questions (rendered as accordion + FAQPage JSON-LD)
+faq:
+  - question: "Why do cloud native projects need specialized project management?"
+    answer: "Projects rarely fail because of technology, but because of missing structure and unclear processes. We speak the language of your engineers, understand architecture decisions technically and translate them into business terms."
+  - question: "Which roles can you take on?"
+    answer: "Depending on your needs: product owner, scrum master, business analyst or project lead. For [Adcubum](/en/references/adcubum-syrius-auf-dem-weg-in-die-cloud/) and other customers, for example, we took on the role of product owner. At [Nexplore](/en/references/nexplore-aufbau-und-etablierung-einer-azure-kubernetes-plattform/), we support building and establishing an Azure Kubernetes platform – including project management and setting up the operations organization."
+  - question: "Which methods and tools do you use?"
+    answer: "Scrum, Kanban, SAFe or hybrid approaches – and the toolset of your choice, such as Jira, Confluence, Miro or Notion. The methods adapt to your project, not the other way around."
+  - question: "Do you also take care of the transition to operations?"
+    answer: "Yes. We plan operations from day one so that your ops team can take over smoothly. This also includes keeping an eye on cloud costs and budgets (FinOps)."
 ---
 
 

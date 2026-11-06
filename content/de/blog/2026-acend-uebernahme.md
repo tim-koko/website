@@ -1,7 +1,7 @@
 ---
 title: "acend ist Teil von tim&koko"
 slug: "acend-uebernahme"
-description: ""
+description: "acend gehört je zur Hälfte tim&koko und Puzzle. Was die Übernahme für Kund:innen und Trainings bedeutet und wie es mit acend weitergeht."
 date: 2026-02-17T00:00:00+00:00
 lastmod: 2026-02-26T00:00:00+00:00
 draft: false

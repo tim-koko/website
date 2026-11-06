@@ -1,7 +1,7 @@
 ---
 title: "AI in Platform Engineering Day-To-Day Work - A Field Report"
 slug: "platform-engineering-with-ai"
-description: ""
+description: "AI in platform engineering: a field report on hallucinations, a better setup & simple tricks to improve your AI skills in day-to-day engineering work."
 date: 2026-05-07T00:00:00+00:00
 lastmod: 2026-05-07T00:00:00+00:00
 draft: false

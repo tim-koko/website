@@ -31,7 +31,7 @@ Durch die Implementation von OpenShift Virtualization in deinem OpenShift Cluste
 
 <br/>
 
-{{< custom-image "../images/openshift-virtualization/migration-ui.png" 1000 >}}
+{{< custom-image "../images/openshift-virtualization/migration-ui.png" "1000" "Übersicht des Migration Toolkit for Virtualization in der Web-Konsole von Red Hat OpenShift" >}}
 
 <br/><br/>
 

@@ -1,7 +1,7 @@
 ---
 title: "acend is part of tim&koko"
 slug: "acend-uebernahme"
-description: ""
+description: "acend is now owned 50/50 by tim&koko and Puzzle. What the acquisition means for customers and trainings, and what's next for acend."
 date: 2026-02-17T00:00:00+00:00
 lastmod: 2026-02-26T00:00:00+00:00
 draft: false

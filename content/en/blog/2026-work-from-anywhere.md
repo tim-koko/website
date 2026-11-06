@@ -1,7 +1,7 @@
 ---
 title: "The 'World Trip' Experiment Succeeded – Why Putting the World at the Fingertips of Top Talent Pays Off"
 slug: "work-from-anywhere"
-description: ""
+description: "A world trip instead of resigning: how Marie kept working for tim&koko on the road at a 20% workload – and why flexible models retain top talent."
 date: 2026-06-05T00:00:00+00:00
 lastmod: 2026-06-05T00:00:00+00:00
 draft: false

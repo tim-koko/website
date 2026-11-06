@@ -32,6 +32,19 @@ icon: <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="htt
 # build:
 #   list: never
 #   render: never
+
+# Frequently asked questions (rendered as accordion + FAQPage JSON-LD)
+faq:
+  - question: "Do you only work in the cloud or also on-premises?"
+    answer: "Both. We are infrastructure-agnostic: whether bare metal in your own data center, vSphere, hybrid setups or managed Kubernetes at a hyperscaler – we build systems where they make the most sense for your business."
+  - question: "What does a consulting engagement look like?"
+    answer: "We usually start with a strategy and architecture review: which applications are cloud-ready and what should the target architecture look like? After that, we support platform setup, migration and operations – as far as you need us."
+  - question: "What do you mean by the \"magic triangle\"?"
+    answer: "Technology alone doesn't solve problems. That's why we always look at technology, culture and processes together – for example when moving towards DevOps and self-service structures."
+  - question: "Does the knowledge stay with us after the project?"
+    answer: "Yes, that's our goal. We coach your teams directly in the project and work as part of your team until you can run the platform confidently on your own."
+  - question: "How much does cloud native consulting cost?"
+    answer: "That depends on the scope and duration – anything from a single architecture review to long-term support is possible. The rest is best discussed together: [get in touch](mailto:hallo@tim-koko.ch) and we'll find out what you need."
 ---
 
 

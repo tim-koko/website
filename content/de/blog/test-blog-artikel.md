@@ -126,7 +126,7 @@ spec:
 ### Einzelne Bilder
 
 PNG
-{{< custom-image "../images/otel/telemetry-signals.png" >}}
+{{< custom-image "../images/otel/telemetry-signals.png" "" "Die drei Signale der Observability: Metrics, Logs und Traces" >}}
 
 SVGs
 {{< svg "assets/images/blog/kraft/kafka-kraft-migration-kraft-roles.svg" >}}

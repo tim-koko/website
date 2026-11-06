@@ -1,7 +1,7 @@
 ---
 title: "Willkommen im Kubernetes-Hotel: Wie Container-Orchestrierung wirklich funktioniert"
 slug: "kubernetes-hotel"
-description: ""
+description: "Kubernetes verständlich erklärt: Pods, Nodes, GitOps & Security am Beispiel eines vollautomatisierten Hotels. Container-Orchestrierung ohne Fachchinesisch."
 date: 2026-07-08T00:00:00+00:00
 lastmod: 2026-07-08T00:00:00+00:00
 draft: false

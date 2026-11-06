@@ -26,12 +26,12 @@ Doch der Weg dahin war alles andere als einfach ...
 
 Hier ein Einblick in unsere Ideenbox, aus der Zeit, als wir noch dachten, wir könnten das alleine schaffen:
 
-{{< custom-image "../images/Screenshot_Shortlist_Namen.png" "500" >}}
+{{< custom-image "../images/Screenshot_Shortlist_Namen.png" "500" "Ausschnitt aus der Shortlist möglicher Firmennamen wie WANDA, Booster, ROCKET, KLAUD und WOLK mit Bemerkungen" >}}
 <br /><br />
 
 Unsere ersten Ideen haben uns einfach nicht überzeugt. Also holten wir Simone und Lukas ins Boot. Sie führten uns in neue Richtungen und rieten uns, uns von der technischen Welt ein wenig zu lösen. Wir sollten stattdessen nach Namen von Inseln, Orten, Tieren, Pflanzen, Pionieren und Superhelden suchen, die uns gefallen. In einem nächsten Schritt versuchten wir, passende Namenspaare zu bilden.
 
-{{< custom-image "../images/Screenshot_Miroboard.png" "800" >}}
+{{< custom-image "../images/Screenshot_Miroboard.png" "800" "Miro-Board aus der Namensfindung mit Haftnotizen zu den Mustern «Name & Name» wie Tim & Koko und «Name Verb» wie KOKO goes oder KOKO macht" >}}
 <br /><br />
 
 Der Name &laquo;Koko&raquo; gefiel uns von Anfang an. Besonders beeindruckt waren wir von der Geschichte der Gorilla-Dame Koko, die es schaffte, mit Menschen durch Gebärdensprache zu kommunizieren. Wenn ihr mehr über Koko erfahren wollt, hier ein faszinierendes Video über sie: [YouTube-Video über Koko](https://www.youtube.com/watch?v=SNuZ4OE6vCk).

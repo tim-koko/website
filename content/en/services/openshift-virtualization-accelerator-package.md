@@ -32,6 +32,19 @@ icon: <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="htt
 # build:
 #   list: never
 #   render: never
+
+# Frequently asked questions (rendered as accordion + FAQPage JSON-LD)
+faq:
+  - question: "Who is the accelerator package for?"
+    answer: "For organizations that want to run virtual machines and containers on a shared platform or are looking for an alternative to VMware or Broadcom."
+  - question: "What is the difference between KubeVirt and OpenShift Virtualization?"
+    answer: "KubeVirt is the open source project that runs virtual machines on Kubernetes. Red Hat offers this technology as OpenShift Virtualization with enterprise support. We support you with both variants."
+  - question: "How does the package work?"
+    answer: "In three phases: discovery with an analysis of your infrastructure and target architecture, team enablement with a PoC environment and hands-on training, and a workload assessment with a concrete migration roadmap."
+  - question: "Can we migrate existing VMware VMs?"
+    answer: "Yes. With the Migration Toolkit for Virtualization, virtual machines can be migrated to OpenShift Virtualization from VMware vSphere, OpenStack or OVA files, among others. In the package, we identify the workloads where this pays off first."
+  - question: "How long does the package take and what does it cost?"
+    answer: "That depends on your starting point and is best clarified in a first conversation. [Get in touch](mailto:hallo@tim-koko.ch)."
 ---
 
 

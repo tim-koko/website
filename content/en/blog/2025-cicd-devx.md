@@ -179,7 +179,7 @@ deploy:triggerDownstream:
 
 The resulting pipeline now creates two child pipelines with this configuration, each of which can deploy different environments. For simplicity, the deployment logic is omitted.
 
-{{< custom-image "../images/cicd-devx/pipeline.png" >}}
+{{< custom-image "../images/cicd-devx/pipeline.png" "" "GitLab pipeline with the stages template, deploy and downstream plus the child pipeline with the jobs dev:deploy and int:deploy, all successful" >}}
 <br>
 
 As we can see, the first pipeline job `deploy:createDownstream` creates the template in the `template` stage and in the `deploy` stage the downstream pipelines are created by the two generated artifacts. Thus, we can dynamically roll out environments with different parameters from a configuration matrix. If you would like to see or test this example live, you can find it here on [GitLab](https://gitlab.com/g1raffi/cicd-example).

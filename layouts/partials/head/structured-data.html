@@ -64,9 +64,13 @@
   "knowsAbout" $o.knowsAbout
 -}}
 {{- with site.Home.Description -}}{{- $org = merge $org (dict "description" .) -}}{{- end -}}
-{{- with site.GetPage (printf "/authors/%s" $o.founder) -}}
-  {{- $org = merge $org (dict "founder" (dict "@type" "Person" "@id" (printf "%s#person" .Permalink) "name" .Title)) -}}
+{{- $founders := slice -}}
+{{- range $o.founders -}}
+  {{- with site.GetPage (printf "/authors/%s" .) -}}
+    {{- $founders = $founders | append (dict "@type" "Person" "@id" (printf "%s#person" .Permalink) "name" .Title) -}}
+  {{- end -}}
 {{- end -}}
+{{- with $founders -}}{{- $org = merge $org (dict "founder" .) -}}{{- end -}}
 
 {{- /* Team members (for the about page) */ -}}
 {{- $team := where (where site.RegularPages "Section" "authors") "Params.tk_teammamber" true -}}
@@ -199,6 +203,24 @@
   {{- end -}}{{- end -}}
   {{- $webpage = merge $webpage (dict "mainEntity" (dict "@id" (index $service "@id"))) -}}
   {{- $extra = $extra | append $service -}}
+{{- end -}}
+
+{{- /* FAQ from front matter `faq` (rendered by partials/faq.html) */ -}}
+{{- with $p.Params.faq -}}
+  {{- $questions := slice -}}
+  {{- $base := strings.TrimSuffix "/" $root -}}
+  {{- range . -}}
+    {{- /* Mail links are obfuscated by the link render hook, so write them out as text here */ -}}
+    {{- $answer := .answer | replaceRE `\[([^\]]+)\]\(mailto:([^)]+)\)` "$1 ($2)" | markdownify | replaceRE `href="/` (printf `href="%s/` $base) -}}
+    {{- $questions = $questions | append (dict "@type" "Question" "name" .question "acceptedAnswer" (dict "@type" "Answer" "text" (string $answer))) -}}
+  {{- end -}}
+  {{- $extra = $extra | append (dict
+    "@type" "FAQPage"
+    "@id" (printf "%s#faq" $p.Permalink)
+    "url" $p.Permalink
+    "isPartOf" (dict "@id" $pageID)
+    "inLanguage" $lang
+    "mainEntity" $questions) -}}
 {{- end -}}
 
 {{- /* Author profile */ -}}

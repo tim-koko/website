@@ -180,3 +180,6 @@ other = "Profile"
 
 [llmsAboutDescription]
 other = "Who we are, our team, our values, our partners as well as memberships and engagements."
+
+[faqTitle]
+other = "Frequently asked questions"

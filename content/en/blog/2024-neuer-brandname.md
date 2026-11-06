@@ -25,12 +25,12 @@ But the journey wasn’t easy ...
 
 Here’s a glimpse into our early brainstorming phase, back when we thought we could figure it out on our own:
 
-{{< custom-image "../images/Screenshot_Shortlist_Namen.png" "500" >}}
+{{< custom-image "../images/Screenshot_Shortlist_Namen.png" "500" "Excerpt from the shortlist of possible company names such as WANDA, Booster, ROCKET, KLAUD and WOLK with comments" >}}
 <br /><br />
 
 Our initial ideas just didn’t convince us. That’s when we brought Simone and Lukas on board. They encouraged us to step away from the technical world for a moment and instead look for inspiration in islands, places, animals, plants, pioneers, and even superheroes that we liked. The next step was trying to pair names that fit together.
 
-{{< custom-image "../images/Screenshot_Miroboard.png" "800" >}}
+{{< custom-image "../images/Screenshot_Miroboard.png" "800" "Miro board from the naming process with sticky notes for the patterns 'Name & Name' such as Tim & Koko and 'Name Verb' such as KOKO goes or KOKO macht" >}}
 <br /><br />
 
 The name &laquo;Koko&raquo; stood out to us right away. We were especially impressed by the story of the gorilla Koko, who learned to communicate with humans using sign language. If you’re curious to learn more about her, here’s a fascinating video: [YouTube video about Koko](https://www.youtube.com/watch?v=SNuZ4OE6vCk)

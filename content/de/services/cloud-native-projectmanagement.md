@@ -30,6 +30,17 @@ icon: <svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="
 # build:
 #   list: never
 #   render: never
+
+# Frequently asked questions (rendered as accordion + FAQPage JSON-LD)
+faq:
+  - question: "Warum braucht es für Cloud Native Projekte spezialisiertes Projektmanagement?"
+    answer: "Projekte scheitern selten an der Technologie, sondern an fehlender Struktur und unklaren Abläufen. Wir sprechen die Sprache deiner Engineers, verstehen Architektur-Entscheide technisch und übersetzen sie ins Business."
+  - question: "Welche Rollen könnt ihr übernehmen?"
+    answer: "Je nach Bedarf Product Owner, Scrum Master, Business Analyst oder Projektleitung. Für [Adcubum](/referenzen/adcubum-syrius-auf-dem-weg-in-die-cloud/) und weitere Kund:innen haben wir zum Beispiel die Rolle des Product Owners übernommen. Bei [Nexplore](/referenzen/nexplore-aufbau-und-etablierung-einer-azure-kubernetes-plattform/) begleiten wir den Aufbau und die Etablierung einer Azure Kubernetes Plattform – inklusive Projektmanagement und Aufbau der Betriebsorganisation."
+  - question: "Mit welchen Methoden und Tools arbeitet ihr?"
+    answer: "Mit Scrum, Kanban, SAFe oder hybriden Ansätzen – und mit dem Toolset deiner Wahl, etwa Jira, Confluence, Miro oder Notion. Die Methoden passen sich deinem Projekt an, nicht umgekehrt."
+  - question: "Kümmert ihr euch auch um den Übergang in den Betrieb?"
+    answer: "Ja. Wir planen den Betrieb ab Tag 1, damit dein Ops-Team reibungslos übernehmen kann. Dazu gehört auch der Blick auf Cloud-Kosten und Budgets (FinOps)."
 ---
 
 

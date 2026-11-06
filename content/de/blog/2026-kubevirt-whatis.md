@@ -1,7 +1,7 @@
 ---
 title: "Was ist KubeVirt? Betreiben von virtuelle Maschinen auf Kubernetes wie Container"
 slug: "kubevirt-whatis"
-description: ""
+description: "Was ist KubeVirt? Virtuelle Maschinen auf Kubernetes wie Container betreiben: Kernkonzepte, die erste VM & wann sich KubeVirt lohnt. Der Einstieg."
 date: 2026-01-26T00:00:00+00:00
 lastmod: 2026-01-26T00:00:00+00:00
 draft: false

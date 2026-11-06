@@ -32,6 +32,19 @@ icon: <svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="
 # build:
 #   list: never
 #   render: never
+
+# Frequently asked questions (rendered as accordion + FAQPage JSON-LD)
+faq:
+  - question: "Which technologies do you work with?"
+    answer: "Among others Kubernetes, OpenShift and K3s, Terraform, Ansible and Crossplane, GitLab CI, GitHub Actions, Argo CD and Flux, Prometheus, Grafana, Loki, Tempo and OpenTelemetry, as well as Kafka. We choose the tools that solve your problem – not the ones with the loudest hype."
+  - question: "Do you work within our team or deliver a finished product?"
+    answer: "Both are possible. We prefer to work embedded in your sprints and tools – in Slack, in Jira or directly in code reviews. But we also take over building entire platforms."
+  - question: "Can you step in at short notice when we're short on capacity?"
+    answer: "That depends on the request. We support you selectively when capacity is tight or long-term as an extension of your team – [just get in touch with us](mailto:hallo@tim-koko.ch)."
+  - question: "Do you have experience with business-critical systems?"
+    answer: "Yes. For Centris, we [migrated the Kafka storage during live operations without downtime](/en/references/centris-kafka-storage-migration/), and for a Swiss bank we rebuilt the [monitoring of a critical market data platform with Prometheus](/en/references/marktdaten-monitoring-with-prometheus/)."
+  - question: "How do you make sure the solution stays maintainable?"
+    answer: "We automate as much as possible and rely on CNCF standards, infrastructure as code and GitOps with Git as the single source of truth. That way your solution remains maintainable and independent of us, even in five years."
 ---
 
 

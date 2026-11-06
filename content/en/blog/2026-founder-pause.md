@@ -1,7 +1,7 @@
 ---
 title: "Cycling to the North Cape: How to Step Away as a Founder Without Halting Your Business"
 slug: "founder-pause"
-description: ""
+description: "Cycling to the North Cape: how Sarah & Thömu took months off as founders without tim&koko standing still. Handovers, financing & lessons learned."
 date: 2026-11-05T00:00:00+00:00
 lastmod: 2026-11-05T00:00:00+00:00
 draft: false
