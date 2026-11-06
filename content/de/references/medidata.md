@@ -5,11 +5,11 @@ description: "Kafka-Plattform für MediData: Aufbau von Grund auf, integriert in
 date: 2026-10-09T00:00:00+00:00
 lastmod: 2026-10-09T00:00:00+00:00
 draft: false
-images: ["images/landing-pages/tk-giveaway-2024-1500x1000.png"]
+images: ["images/projects/tk-Ref-MediData-1500x1000px-og.jpg"]
 Sitemap:
   Priority: 0.3
 client: "MediData AG"
-post_img: "images/landing-pages/tk-giveaway-2024-1500x1000.png"
+post_img: "images/projects/tk-Ref-MediData-1500x1000px-og.jpg"
 img_border: false
 lead: "tim&koko unterstützt die MediData seit dem Frühling 2026 beim Aufbau einer Kafka-Messaging-Plattform von Grund auf. Sie soll die bestehende Microservice-Architektur ergänzen und ActiveMQ sowie geteilte Datenbank-Views schrittweise ablösen. Dabei ist es das Ziel, die unterschiedlichen Verantwortlichkeiten der Teams, mehrere Red Hat OpenShift-Umgebungen und den Schutz personenbezogener Daten von Anfang an zu berücksichtigen."
 techStack: "Red Hat OpenShift, Red Hat Streams for Apache Kafka, Apicurio Registry"
