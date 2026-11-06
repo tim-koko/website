@@ -1,7 +1,7 @@
 ---
-title: "Level Up Your Serverless Game"
+title: "Level Up Your Serverless Game: 10 Stolperfallen und wie du sie vermeidest"
 slug: "serverless"
-description: "Master Serverless: Avoid 10 common pitfalls from logging to security. A practical guide to building better AWS Lambda functions. Level up now!"
+description: "Serverless meistern: 10 typische Stolperfallen von Logging bis Security vermeiden. Ein Praxis-Guide für bessere AWS Lambda Functions. Jetzt lesen!"
 date: 2025-10-09T00:00:00+00:00
 lastmod: 2025-10-09T00:00:00+00:00
 draft: false
@@ -15,24 +15,24 @@ additionalblogposts: ['otel-autoinstrumentation', 'cicd-devx']
 
 post_img: "images/blog/bespinian/tk-blogpost-serverless-1500x1000.png"
 img_border: true
-lead: "Is your serverless project running into unexpected snags? You’re not alone. From basic misconfigurations to frustrating deployment nightmares, we’ve seen the same pitfalls trap countless teams."
+lead: "Dein Serverless-Projekt stösst auf unerwartete Hürden? Damit bist du nicht allein. Von einfachen Fehlkonfigurationen bis zu frustrierenden Deployment-Albträumen: Immer wieder sehen wir Teams in dieselben Fallen tappen."
 ---
 
-This guide is your cheat sheet to avoiding those common mistakes and accelerating your journey to serverless mastery. Think of each level as a lesson learned—a mistake you don’t have to make. From basic misconfigurations to complex deployment nightmares, the patterns are frustratingly consistent. Lena from bespinian has compiled this blog post to help you avoid these common pitfalls and accelerate your journey to serverless excellence. Think of each level as a lesson learned, a mistake you don’t have to make. To learn more about the details and apply the learnings yourself, follow the bespinian open source [Serverless Workshop](https://github.com/bespinian/serverless-workshop). This blog post as well as the workshop both use AWS Lambda but the learnings can be applied to any function as a service (FaaS) platform. Now, let’s dive in.
+Dieser Guide ist dein Spickzettel, um diese typischen Fehler zu vermeiden und schneller zum Serverless-Profi zu werden. Die Muster dahinter sind frustrierend ähnlich. Deshalb hat Lena von bespinian diesen Blogpost zusammengestellt: Betrachte jedes Level als Lektion – als Fehler, den du nicht selbst machen musst. Wenn du tiefer einsteigen und die Learnings selbst anwenden möchtest, folge dem Open-Source-[Serverless Workshop](https://github.com/bespinian/serverless-workshop) von bespinian. Sowohl dieser Blogpost als auch der Workshop verwenden AWS Lambda, die Learnings lassen sich aber auf jede Function-as-a-Service-Plattform (FaaS) übertragen. Also, los geht’s.
 
-### Level 0 - This is easy!
+### Level 0: Das ist einfach!
 
-⚠️ **Mistake: None yet**
+⚠️ **Fehler: Noch keiner**
 
-To get started, we need to create our first function. Many projects jump into complex architectures without understanding the fundamentals, leading to confusion and wasted effort. This level is about demystifying the basic mechanics of serverless: understanding how to create a function, configure its runtime, and pass parameters using environment variables. You should also get acquainted with your cloud provider’s permission model, a cornerstone of secure serverless applications. By adding an HTTP trigger through an API gateway, you can transform our function into a web-accessible service, making it tangible and interactive.
+Zum Start brauchen wir unsere erste Function. Viele Projekte stürzen sich in komplexe Architekturen, ohne die Grundlagen zu verstehen – das führt zu Verwirrung und unnötigem Aufwand. In diesem Level geht es darum, die grundlegende Mechanik von Serverless zu entmystifizieren: wie man eine Function erstellt, ihre Runtime konfiguriert und Parameter über Umgebungsvariablen übergibt. Ausserdem solltest du dich mit dem Berechtigungsmodell deines Cloud-Providers vertraut machen, einem Grundpfeiler sicherer Serverless-Anwendungen. Mit einem HTTP-Trigger über ein API Gateway wird unsere Function zu einem über das Web erreichbaren Service – greifbar und interaktiv.
 
-✅ **Start as simple and small as possible and take it from there.**
+✅ **Starte so einfach und klein wie möglich und baue von dort aus weiter.**
 
-### Level 1: Loggin’ it!
+### Level 1: Loggen!
 
-⚠️ **Mistake: Lack of structured logging**
+⚠️ **Fehler: Kein Structured Logging**
 
-Having deployed our first function, we have no idea what it does and if it succeeds or not. When things go wrong, it’s very hard to debug and investigate issues. Many serverless projects suffer from poor observability, making troubleshooting a nightmare. Using structured logging (e.g., formatted as JSON), we get a set of logs that we can query and which give us custom insights into what our function does. We’ll know if it succeeds or fails in doing so and get context about what went wrong if things don’t go as expected. Such a log line could look as follows:
+Unsere erste Function ist deployt, aber wir haben keine Ahnung, was sie tut und ob sie erfolgreich ist. Wenn etwas schiefgeht, ist es sehr schwierig, den Fehler zu finden und zu untersuchen. Viele Serverless-Projekte leiden unter mangelnder Observability, was die Fehlersuche zum Albtraum macht. Mit Structured Logging (z. B. im JSON-Format) erhalten wir Logs, die wir abfragen können und die uns gezielte Einblicke geben, was unsere Function tut. So wissen wir, ob sie erfolgreich ist oder fehlschlägt, und bekommen Kontext dazu, was schiefgelaufen ist, wenn etwas nicht wie erwartet läuft. Eine solche Logzeile könnte so aussehen:
 
 ```json
 {
@@ -47,68 +47,68 @@ Having deployed our first function, we have no idea what it does and if it succe
 }
 ```
 
-✅ **Don’t wait until production issues arise to implement structured logging.**
+✅ **Warte nicht auf Probleme in der Produktion, um Structured Logging einzuführen.**
 
-### Level 2: Tracin’ it!
+### Level 2: Tracen!
 
-⚠️ **Mistake: Lack of distributed tracing**
+⚠️ **Fehler: Kein Distributed Tracing**
 
-As your serverless applications grow, understanding the flow of requests becomes critical. Distributed tracing provides invaluable insights into performance bottlenecks and errors. Most cloud providers provide comprehensive toolsets to easily add tracing IDs and even trace HTTP calls and other function calls by just adding a couple of lines of code. Therefore, it’s usually quite cheap to add tracing and the value it provides is quite large. A low-hanging fruit you shouldn’t miss out on.
+Je grösser deine Serverless-Anwendungen werden, desto wichtiger wird es, den Weg der Requests zu verstehen. Distributed Tracing liefert wertvolle Einblicke in Performance-Engpässe und Fehler. Die meisten Cloud-Provider bieten umfassende Tools, mit denen du mit wenigen Zeilen Code Tracing-IDs hinzufügen und sogar HTTP-Aufrufe und andere Function-Aufrufe tracen kannst. Tracing ist deshalb meist günstig umzusetzen, während der Nutzen gross ist. Eine «low-hanging fruit», die du dir nicht entgehen lassen solltest.
 
-✅ **Activate distributed tracing for all your functions.**
+✅ **Aktiviere Distributed Tracing für alle deine Functions.**
 
-### Level 3: Timin’ it!
+### Level 3: Timeouts im Griff!
 
-⚠️ **Mistake: Function timeouts not handled gracefully**
+⚠️ **Fehler: Timeouts werden nicht sauber behandelt**
 
-Functions operate within time constraints, making it essential to handle timeouts gracefully. Unhandled timeouts can lead to unexpected behavior and data inconsistencies. We need to ensure our functions terminate cleanly and predictably, even when approaching their time limits. To achieve that, simply monitor the remaining execution time and implement mechanisms for aborting long-running operations with enough time left. This allows to either perform a proper cleanup or partial results instead, ensuring a smooth and reliable user experience.
+Functions laufen innerhalb fester Zeitlimits, deshalb ist es wichtig, Timeouts sauber zu behandeln. Unbehandelte Timeouts können zu unerwartetem Verhalten und inkonsistenten Daten führen. Unsere Functions sollten sauber und vorhersehbar enden, auch wenn sie sich ihrem Zeitlimit nähern. Dafür überwachst du einfach die verbleibende Ausführungszeit und brichst lang laufende Operationen rechtzeitig ab. So bleibt genug Zeit für ein sauberes Aufräumen oder für Teilergebnisse – und für eine reibungslose, zuverlässige User Experience.
 
-✅ **Don’t let timeouts cause chaos in your application.**
+✅ **Lass nicht zu, dass Timeouts Chaos in deiner Anwendung verursachen.**
 
-### Level 4: Optimized Cold Starts!
+### Level 4: Optimierte Cold Starts!
 
-⚠️ **Mistake: Ignoring cold start performance**
+⚠️ **Fehler: Cold-Start-Performance wird ignoriert**
 
-Cold starts, the initial latency experienced when a Lambda function is invoked after a period of inactivity, can impact performance. In latency-sensitive applications, even a few extra milliseconds can be noticeable to users. This level explores techniques to minimize cold start times, such as moving initialization code outside the handler. By optimizing our function’s startup process, we can enhance responsiveness and improve the overall user experience.
+Cold Starts – die anfängliche Latenz, wenn eine Lambda Function nach einer Zeit der Inaktivität aufgerufen wird – können die Performance beeinträchtigen. Bei latenzkritischen Anwendungen merken Nutzer:innen schon wenige zusätzliche Millisekunden. Dieses Level zeigt Techniken, um Cold Starts zu verkürzen, zum Beispiel indem Initialisierungscode ausserhalb des Handlers platziert wird. Wenn wir den Start unserer Function optimieren, reagiert sie schneller und die User Experience verbessert sich insgesamt.
 
-✅ **Optimize for cold starts early to avoid performance bottlenecks later.**
+✅ **Optimiere früh für Cold Starts, um spätere Performance-Engpässe zu vermeiden.**
 
-### Level 5: Decoupled!
+### Level 5: Entkoppelt!
 
-⚠️ **Mistake: Tight coupling**
+⚠️ **Fehler: Enge Kopplung**
 
-As your serverless applications grow, the need for asynchronous communication becomes essential. Without it, services are often tightly coupled, meaning a failure in one can cause a domino effect of failures throughout your entire system. This level introduces Amazon SQS, a simple yet powerful message queuing service. Think of it as a waiting room for messages; your function can drop off a message and move on to other tasks, while another function can pick it up later when it’s ready. This decoupling creates more scalable and resilient architectures, making your application much more robust.
+Je grösser deine Serverless-Anwendungen werden, desto wichtiger wird asynchrone Kommunikation. Ohne sie sind Services oft eng gekoppelt: Fällt einer aus, kann das einen Dominoeffekt im ganzen System auslösen. In diesem Level lernst du Amazon SQS kennen, einen einfachen, aber leistungsstarken Message-Queuing-Service. Stell ihn dir als Wartezimmer für Nachrichten vor: Deine Function legt eine Nachricht ab und kümmert sich um anderes, während eine andere Function sie später abholt, sobald sie bereit ist. Diese Entkopplung sorgt für skalierbarere und resilientere Architekturen und macht deine Anwendung deutlich robuster.
 
-✅ **Use message queues like SQS to decouple services and build a more resilient system.**
+✅ **Nutze Message Queues wie SQS, um Services zu entkoppeln und ein resilienteres System zu bauen.**
 
 ### Level 6: Infrastructure as Code!
 
-⚠️ **Mistake: Manual infrastructure management**
+⚠️ **Fehler: Manuelles Infrastruktur-Management**
 
-Managing cloud resources manually is slow, inconsistent, and highly prone to human error. It’s a recipe for chaos, especially as your application scales. This level is all about adopting Infrastructure as Code (IaC) using a tool like Terraform. By defining your serverless functions and their dependencies in a configuration file, you can treat your infrastructure like any other code. This means repeatable, version-controlled deployments that are consistent across all your environments.
+Cloud-Ressourcen von Hand zu verwalten ist langsam, inkonsistent und sehr fehleranfällig – ein Rezept für Chaos, gerade wenn deine Anwendung wächst. In diesem Level geht es um Infrastructure as Code (IaC) mit einem Tool wie Terraform. Wenn du deine Serverless Functions und ihre Abhängigkeiten in einer Konfigurationsdatei definierst, kannst du deine Infrastruktur wie jeden anderen Code behandeln. Das bedeutet wiederholbare, versionierte Deployments, die in allen Umgebungen konsistent sind.
 
-✅ **Stop clicking around in the console and start managing your infrastructure with code.**
+✅ **Hör auf, in der Konsole herumzuklicken, und verwalte deine Infrastruktur mit Code.**
 
-### Level 7: Testing it All!
+### Level 7: Alles testen!
 
-⚠️ **Mistake: Lack of testing**
+⚠️ **Fehler: Fehlende Tests**
 
-Developing without a safety net is risky business. Untested code is a disaster waiting to happen and can lead to bugs, unexpected behavior, and production outages. This level tackles the critical practice of unit testing and local execution for your functions. By writing tests that check your code’s behavior and running them locally, you can catch errors early and ensure your functions are reliable before they ever hit production.
+Ohne Sicherheitsnetz zu entwickeln ist riskant. Ungetesteter Code ist ein Desaster mit Ansage und kann zu Bugs, unerwartetem Verhalten und Ausfällen in der Produktion führen. Dieses Level widmet sich der wichtigen Praxis von Unit Tests und der lokalen Ausführung deiner Functions. Wenn du Tests schreibst, die das Verhalten deines Codes prüfen, und sie lokal ausführst, findest du Fehler früh und stellst sicher, dass deine Functions zuverlässig laufen, bevor sie in die Produktion gehen.
 
-✅ **Don’t just hope your code works—test it to be sure.**
+✅ **Hoffe nicht nur, dass dein Code funktioniert – teste ihn, um sicher zu sein.**
 
-### Level 8: Securin it!
+### Level 8: Absichern!
 
-⚠️ **Mistake: Overly permissive roles**
+⚠️ **Fehler: Zu weit gefasste Berechtigungen**
 
-Giving a function more permissions than it needs is like handing out a master key to your entire house. It creates a massive security vulnerability. This level is about applying the principle of least privilege, which means granting your functions only the absolute minimum permissions required to do their job. By meticulously defining and restricting access, you significantly reduce the potential damage from a security breach and strengthen your application’s overall security posture.
+Einer Function mehr Berechtigungen zu geben, als sie braucht, ist, als würdest du einen Generalschlüssel für dein ganzes Haus verteilen. Das schafft eine massive Sicherheitslücke. In diesem Level geht es um das Prinzip der minimalen Rechte (Least Privilege): Deine Functions erhalten nur die absolut nötigen Berechtigungen für ihre Aufgabe. Wenn du Zugriffe sorgfältig definierst und einschränkst, verringerst du den möglichen Schaden bei einem Sicherheitsvorfall deutlich und stärkst die Sicherheit deiner Anwendung insgesamt.
 
-✅ **Implement the principle of least privilege to lock down your serverless functions.**
+✅ **Setze das Prinzip der minimalen Rechte um, um deine Serverless Functions abzusichern.**
 
-### Level 9: The Gradual Rollout!
+### Level 9: Der schrittweise Rollout!
 
-⚠️ **Mistake: Risky deployments**
+⚠️ **Fehler: Riskante Deployments**
 
-Deploying a new version of your application to 100% of your users at once is a high-stakes gamble. If there’s a problem, everyone feels the pain immediately. This level introduces a safer approach: canary deployments. Using a service like AWS CodeDeploy, you can automatically release a new version to a small subset of your users first. If the new version performs well, you can gradually roll it out to the rest. If not, you can roll it back quickly, minimizing the impact of any errors.
+Eine neue Version deiner Anwendung auf einen Schlag für 100 % deiner Nutzer:innen auszurollen, ist ein riskantes Spiel. Gibt es ein Problem, spüren es alle sofort. Dieses Level stellt einen sichereren Ansatz vor: Canary Deployments. Mit einem Service wie AWS CodeDeploy kannst du eine neue Version automatisch zuerst für einen kleinen Teil deiner Nutzer:innen freigeben. Läuft die neue Version gut, rollst du sie schrittweise für alle aus. Wenn nicht, kannst du schnell zurückrollen und die Auswirkungen von Fehlern gering halten.
 
-✅ **Minimize deployment risk by gradually rolling out new changes to your users.**
+✅ **Minimiere das Deployment-Risiko, indem du Änderungen schrittweise ausrollst.**
