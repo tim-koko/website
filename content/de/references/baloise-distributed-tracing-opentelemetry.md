@@ -68,7 +68,7 @@ In Kooperation mit tim&koko initiierte Baloise einen Proof of Concept (PoC) zur 
 
 Der PoC bestätigte eindrücklich das Potenzial von Cloud-Native Tracing Plattformen als Alternative zu klassischen, proprietären Lösungen. OpenTelemetry in Kombination mit Grafana Tempo erwies sich als ideale Lösung für die Anforderungen der Baloise. Besonders hervorzuheben ist die exzellente Zusammenarbeit mit dem Team, die massgeblich zum Erfolg des PoCs beigetragen hat.  Die gewonnenen Erkenntnisse und die im PoC aufgebaute Plattform bilden nun eine solide Grundlage für den Aufbau einer produktiven, unternehmensweiten Tracing Lösung bei der Baloise.
 
-Haben Sie ähnliche Herausforderungen im Bereich Observability oder möchten Sie mehr über die Vorteile von Tracing erfahren? Kontaktiere uns für ein unverbindliches Gespräch:
+Hast Du ähnliche Herausforderungen im Bereich Observability oder möchtest Du mehr über die Vorteile von Tracing erfahren? Kontaktiere uns für ein unverbindliches Gespräch:
 
 &nbsp;
 

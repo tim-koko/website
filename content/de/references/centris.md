@@ -104,7 +104,7 @@ Control – haben sich als leistungsfähige Komponenten für den stabilen und sk
 unterstreicht die Innovationskraft und technische Kompetenz der Centris im Umgang mit modernen Cloud- und
 Messaging-Technologien.
 
-Haben Sie ähnliche Herausforderungen oder möchten Sie mehr über Apache Kafka erfahren? Kontaktiere uns für ein unverbindliches Gespräch:
+Hast Du ähnliche Herausforderungen oder möchtest Du mehr über Apache Kafka erfahren? Kontaktiere uns für ein unverbindliches Gespräch:
 
 &nbsp;
 
