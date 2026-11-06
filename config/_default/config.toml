@@ -27,22 +27,22 @@ rssLimit = 10
 
     [[languages.de.menu.main]]
     name = "Services"
-    url = "/services"
+    url = "/services/"
     weight = 1
 
     [[languages.de.menu.main]]
     name = "Referenzen"
-    url = "/referenzen"
+    url = "/referenzen/"
     weight = 2
 
     [[languages.de.menu.main]]
     name = "Blog"
-    url = "/blog"
+    url = "/blog/"
     weight = 3
 
     [[languages.de.menu.main]]
     name = "Über Uns"
-    url = "/ueber-uns"
+    url = "/ueber-uns/"
     weight = 4
 
 
@@ -66,22 +66,22 @@ rssLimit = 10
 
     [[languages.en.menu.main]]
     name = "Services"
-    url = "/en/services"
+    url = "/en/services/"
     weight = 1
 
     [[languages.en.menu.main]]
     name = "References"
-    url = "/en/references"
+    url = "/en/references/"
     weight = 2
 
     [[languages.en.menu.main]]
     name = "Blog"
-    url = "/en/blog"
+    url = "/en/blog/"
     weight = 3
 
     [[languages.en.menu.main]]
     name = "About"
-    url = "/en/about"
+    url = "/en/about/"
     weight = 4
 
 
