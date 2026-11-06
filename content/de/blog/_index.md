@@ -1,5 +1,6 @@
 ---
 title: "Insights – Themen, die uns beschäftigen"
+linkTitle: "Blog"
 description: "Tech-Insights & Kultur: Wir teilen Wissen zu Cloud Native und blicken hinter die Kulissen. Erfahre mehr über unser Team und wie wir ticken. Zum Blog!"
 lead: ""
 date: 2024-05-15T00:00:00+00:00

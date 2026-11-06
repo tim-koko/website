@@ -1,5 +1,6 @@
 ---
 title: "About us – We live Cloud Native"
+linkTitle: "About us"
 description: "Expertise meets courage: We connect modern Cloud Native tech with people. Hands-on and dedicated, we take your business to the next level."
 lead: ""
 date: 2025-03-04T00:00:00+00:00
