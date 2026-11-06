@@ -33,7 +33,7 @@ Im Kern basiert Observability auf drei primären Telemetriesignalen:
 * **Metriken**: Numerische Messwerte, die die Systemleistung über die Zeit darstellen. Beispiel: Die CPU-Auslastung eines Kubernetes-Pods.
 * **Traces**: Verfolgung verteilter Transaktionen, die zeigen, wie Anfragen durch verschiedene Services fliessen. Beispiel: Der Ablauf einer Anfrage durch mehrere Microservices zur Identifizierung von Engpässen.
 
-{{< custom-image "../images/otel/telemetry-signals.png" >}}
+{{< custom-image "../images/otel/telemetry-signals.png" "" "Die drei Signale der Observability: Metrics, Logs und Traces" >}}
 <br>
 <br>
 

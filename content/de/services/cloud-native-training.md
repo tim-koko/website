@@ -32,6 +32,19 @@ icon: <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="htt
 # build:
 #   list: never
 #   render: never
+
+# Frequently asked questions (rendered as accordion + FAQPage JSON-LD)
+faq:
+  - question: "Welche Trainings bietet ihr an?"
+    answer: "Unter anderem Container & Kubernetes, Container & OpenShift, OpenShift Operations, Argo CD, Helm, GitLab CI/CD, Tekton, KubeVirt, Cilium, Prometheus, Terraform, Ansible, Go, Quarkus, Serverless, MLOps und Software-Entwicklung mit KI."
+  - question: "Wer führt die Trainings durch?"
+    answer: "Wir arbeiten mit unserem Schulungspartner [acend](https://acend.ch/) zusammen, an dem tim&koko beteiligt ist. Die Trainer:innen sind Engineers aus der Praxis – von Engineers für Engineers."
+  - question: "Gibt es auch Trainings nur für unser Team?"
+    answer: "Ja. Neben offenen Workshops gestalten wir Trainings, die auf die Bedürfnisse deines Teams zugeschnitten sind."
+  - question: "Wie lange dauern die Trainings und wo finden sie statt?"
+    answer: "Je nach Thema ein bis zwei Tage, auf Deutsch oder Englisch – remote oder vor Ort."
+  - question: "Wie praxisnah sind die Trainings?"
+    answer: "Sehr. Ein grosser Teil besteht aus Hands-on-Labs, damit du das Gelernte direkt im Alltag anwenden kannst."
 ---
 
 
@@ -149,6 +162,12 @@ Dieses zweitägige Training richtet sich an IT-Fachkräfte aus den Bereichen Sys
 {{< /accordion-item>}}
 
 {{< /accordion >}}
+
+&nbsp;
+
+### Brauchst du Unterstützung bei der Umsetzung?
+
+Nach dem Training geht es in die Praxis – und dort tauchen oft neue Fragen auf. Falls ihr Unterstützung bei der Einführung oder im Projektalltag benötigt, begleiten wir euch gerne mit [Consulting](/services/cloud-native-consulting/) und [Engineering](/services/cloud-native-engineering/). Melde dich einfach bei uns – wir finden gemeinsam heraus, was euch weiterbringt.
 
 &nbsp;
 

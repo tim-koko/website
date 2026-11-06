@@ -1,7 +1,7 @@
 ---
 title: "What is KubeVirt? Run Virtual Machines on Kubernetes like containers"
 slug: "kubevirt-whatis"
-description: ""
+description: "What is KubeVirt? Run virtual machines on Kubernetes just like containers: core concepts, your first VM & when KubeVirt is the right choice."
 date: 2026-01-26T00:00:00+00:00
 lastmod: 2026-01-26T00:00:00+00:00
 draft: false

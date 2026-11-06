@@ -10,6 +10,7 @@ date: 2025-10-09T00:00:00+00:00
 lastmod: 2025-10-09T00:00:00+00:00
 draft: false
 sitemap_exclude: true
+robots: "noindex, follow"
 feed_exclude: true
 type: "giveaway-form-page"
 netlifyFormname: "giveaway"

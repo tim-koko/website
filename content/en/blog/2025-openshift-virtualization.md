@@ -30,7 +30,7 @@ By implementing OpenShift Virtualization in your OpenShift cluster, you can bene
 
 <br/>
 
-{{< custom-image "../images/openshift-virtualization/migration-ui.png" 1000 >}}
+{{< custom-image "../images/openshift-virtualization/migration-ui.png" "1000" "Overview of the Migration Toolkit for Virtualization in the Red Hat OpenShift web console" >}}
 
 <br/><br/>
 

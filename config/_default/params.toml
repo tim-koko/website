@@ -138,7 +138,7 @@ alertText = ""
   region = "BE"
   country = "CH"
   vatID = "CHE-173.198.973 MWST"
-  founder = "thomas-philipona" # author page slug
+  founders = ["thomas-philipona", "sarah-pfeiffer"] # author page slugs
   logo = "logo-timkoko.png" # in static/
   sameAs = [
     "https://www.linkedin.com/company/tim-koko/",

@@ -1,7 +1,7 @@
 ---
 title: "What is Argo Events? And why it can be compared to a motion detector"
 slug: "argoevents-what-is"
-description: ""
+description: "What is Argo Events? Event-driven automation on Kubernetes explained: the 4 building blocks, a webhook example & typical use cases."
 date: 2026-09-09T00:00:00+00:00
 lastmod: 2026-09-09T00:00:00+00:00
 draft: false
@@ -53,7 +53,7 @@ The inner workings of Argo Events are based on four clear components that seamle
 
 #### Architecture Workflow
 
-{{< custom-image "../images/argocd/argo-events-architecture.png" >}}
+{{< custom-image "../images/argocd/argo-events-architecture.png" "" "Argo Events architecture: Event Source, Event Bus and Sensor with their controllers. Events from sources such as SNS, SQS, GCP PubSub, S3 or webhooks flow through the NATS Streaming event bus to the sensor, which triggers Argo, Kubernetes or AWS Lambda" >}}
 
 Image source: [https://argoproj.github.io/argo-events/concepts/architecture/](https://argoproj.github.io/argo-events/concepts/architecture/)
 

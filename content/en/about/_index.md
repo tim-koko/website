@@ -47,7 +47,7 @@ about:
       twitter: "https://twitter.com/jamok_sarita"
     - name: "Thomas Philipona"
       author: "thomas-philipona"
-      title: "Founder"
+      title: "Cloud Native Consultant"
       img: "images/team/thoemu.jpg"
       linkedin: "https://www.linkedin.com/in/thomas-philipona-thun/"
       twitter: "https://twitter.com/tphilipona"

@@ -1,7 +1,7 @@
 ---
 title: "What is ArgoCD? And why it can be compared to a thermostat"
 slug: "argocd-what-is"
-description: ""
+description: "What is Argo CD? GitOps explained simply: the pull model, self-healing & Argo CD architecture – with an example and practical tips for Kubernetes deployments."
 date: 2026-08-07T00:00:00+00:00
 lastmod: 2026-08-07T00:00:00+00:00
 draft: false
@@ -34,7 +34,7 @@ What works on paper quickly creates four central problems in practice:
 
 - **No recoverability without the pipeline**: If a cluster goes completely down, setting up a new Kubernetes cluster is not enough. One has to hope that all CI pipelines complete without errors to restore the previous state - a lengthy and error-prone process in a disaster scenario.
 
-{{< custom-image "../images/argocd/classic-pipeline-approach.png" >}}
+{{< custom-image "../images/argocd/classic-pipeline-approach.png" "" "Classic push approach: CI pipelines deploy from the Git repository to the Kubernetes cluster with kubectl apply, while developers also change resources directly with kubectl edit" >}}
 
 ### The Solution: What is Argo CD & GitOps?
 
@@ -48,7 +48,7 @@ Instead of pushing changes into the cluster from the outside, **Argo CD** flips 
 
 Argo CD can be thought of as a **thermostat** in a building: the target temperature is set (desired state in Git). If someone opens a window and it gets cold (the live state in the cluster drifts), the thermostat responds on its own and adjusts until the desired temperature is reached again.
 
-{{< custom-image "../images/argocd/argocd-approach.png" >}}
+{{< custom-image "../images/argocd/argocd-approach.png" "" "GitOps with Argo CD: developers push to the Git repository, Argo CD inside the Kubernetes cluster pulls the changes and deploys them" >}}
 
 ### Core Architecture: How Argo CD Works
 

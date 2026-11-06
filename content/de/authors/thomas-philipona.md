@@ -1,13 +1,13 @@
 ---
 title: "Thomas Philipona"
 slug: "thomas-philipona"
-description: ""
+description: "Thomas Philipona ist Mitgründer und Cloud Native Consultant bei tim&koko, seit 2015 mit Containern & Kubernetes unterwegs. Profil, Talks & Blogbeiträge."
 draft: false
 date: 2022-04-01T00:00:00+00:00
 lastmod: 2025-12-09T00:00:00+00:00
 tk_teammamber: true
 image: "/images/team/thoemu.jpg"
-designation: "Founder"
+designation: "Cloud Native Consultant & Founder"
 linkedin: "https://www.linkedin.com/in/thomas-philipona-thun/"
 twitter: "https://twitter.com/tphilipona"
 email: "thomas@tim-koko.ch"

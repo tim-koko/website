@@ -34,6 +34,19 @@ icon: <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="htt
 # build:
 #   list: never
 #   render: never
+
+# Frequently asked questions (rendered as accordion + FAQPage JSON-LD)
+faq:
+  - question: "Arbeitet ihr nur in der Cloud oder auch on-premises?"
+    answer: "Beides. Wir denken infrastruktur-agnostisch: ob Bare-Metal im eigenen Rechenzentrum, vSphere, hybride Setups oder Managed Kubernetes bei einem Hyperscaler – wir bauen Systeme dort, wo es für dein Business am meisten Sinn ergibt."
+  - question: "Wie läuft ein Consulting-Mandat ab?"
+    answer: "Meist starten wir mit einem Strategie- und Architektur-Review: Welche Applikationen sind «cloud-ready», wie sieht die Ziel-Architektur aus? Danach begleiten wir Plattform-Aufbau, Migration und Betrieb – so weit, wie du uns brauchst."
+  - question: "Was ist mit dem «magischen Dreieck» gemeint?"
+    answer: "Technologie allein löst keine Probleme. Wir betrachten deshalb immer Technologie, Kultur und Prozesse gemeinsam – zum Beispiel beim Wechsel zu DevOps und Self-Service-Strukturen."
+  - question: "Bleibt das Wissen nach dem Projekt bei uns?"
+    answer: "Ja, das ist unser Ziel. Wir coachen deine Teams direkt im Projekt und arbeiten als Teil deines Teams, bis ihr die Plattform sicher selbst steuern könnt."
+  - question: "Was kostet ein Cloud Native Consulting?"
+    answer: "Das hängt vom Umfang und von der Dauer ab – vom einzelnen Architektur-Review bis zur langfristigen Begleitung ist alles möglich. Den Rest besprechen wir am besten gemeinsam: [Melde dich bei uns](mailto:hallo@tim-koko.ch) und wir finden heraus, was du brauchst."
 ---
 
 

@@ -1,0 +1,9 @@
+{{- /*
+  Accordion wrapper, shared by the `accordion` shortcode and the service FAQ.
+  Params (dict):
+    id      – unique id of the accordion element (items reference it as parent)
+    content – rendered items (HTML), see accordion/item.html
+*/ -}}
+<div class="accordion accordion-flush border-top border-bottom" id="{{ .id }}">
+    {{ .content }}
+</div>

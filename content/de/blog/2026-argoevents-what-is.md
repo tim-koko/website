@@ -1,7 +1,7 @@
 ---
 title: "Was ist Argo Events? Und warum es sich mit einem Bewegungsmelder vergleichen lässt"
 slug: "argoevents-what-is"
-description: ""
+description: "Was ist Argo Events? Ereignisgesteuerte Automatisierung auf Kubernetes erklärt: die 4 Bausteine, ein Webhook-Beispiel & typische Anwendungsfälle."
 date: 2026-09-09T00:00:00+00:00
 lastmod: 2026-09-10T00:00:00+00:00
 draft: false
@@ -53,7 +53,7 @@ Die Funktionsweise von Argo Events basiert auf vier klaren Komponenten, die naht
 
 #### Ablauf der Architektur
 
-{{< custom-image "../images/argocd/argo-events-architecture.png" >}}
+{{< custom-image "../images/argocd/argo-events-architecture.png" "" "Architektur von Argo Events: Event Source, Event Bus und Sensor mit ihren Controllern. Events aus Quellen wie SNS, SQS, GCP PubSub, S3 oder Webhooks laufen über den Event Bus mit NATS Streaming zum Sensor, der Argo, Kubernetes oder AWS Lambda auslöst" >}}
 
 Bildquelle: [https://argoproj.github.io/argo-events/concepts/architecture/](https://argoproj.github.io/argo-events/concepts/architecture/)
 

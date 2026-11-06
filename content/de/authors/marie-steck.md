@@ -1,7 +1,7 @@
 ---
 title: "Marie Steck"
 slug: "marie-steck"
-description: ""
+description: "Marie Steck ist Project Manager bei tim&koko und sorgt für Struktur und gute Laune. Profil, Steckbrief und ihre Blogbeiträge."
 draft: false
 date: 2025-03-01T00:00:00+00:00
 lastmod: 2025-12-09T00:00:00+00:00

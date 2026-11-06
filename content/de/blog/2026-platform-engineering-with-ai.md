@@ -1,7 +1,7 @@
 ---
 title: "KI im Plattform Engineering Alltag - ein Erfahrungsbericht"
 slug: "platform-engineering-with-ai"
-description: ""
+description: "KI im Platform Engineering: Ein Erfahrungsbericht über Halluzinationen, ein besseres Setup & einfache Tricks für mehr KI-Skills im Engineering-Alltag."
 date: 2026-05-07T00:00:00+00:00
 lastmod: 2026-05-07T00:00:00+00:00
 draft: false

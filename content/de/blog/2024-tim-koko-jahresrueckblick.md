@@ -28,7 +28,7 @@ Ausdruck dessen, wer wir sind und wofür wir stehen. Unser Name tim&koko ehrt de
 Schöpfer des World Wide Web, wie auch das Gorilla-Weibchen Koko, das in Gebärdensprache kommunizierte. Der Name steht für
 technologische Lösungen und Kommunikation auf Augenhöhe – genau wie unsere Arbeitsweise.
 
-{{< custom-image "../images/review24/apero-tk-launch.jpg" "600" >}}
+{{< custom-image "../images/review24/apero-tk-launch.jpg" "600" "Das tim&koko Team stösst im Büro an einem Stehtisch mit Apéro auf den neuen Namen an" >}}
 
 ### Sommer Workshop
 
@@ -38,7 +38,7 @@ inspirierender Moment, der uns enger zusammengeschweisst hat. Während des Works
 Tagen unser Teamgefühl, reflektierten über die Übereinstimmung persönlicher und Firmenwerte als Basis für eine gemeinsame
 Ausrichtung und entwickelten eine klare Vision für unsere Zukunft sowie unsere interne Organisation.
 
-{{< custom-image "../images/review24/sommerworkshop.jpg" "600" >}}
+{{< custom-image "../images/review24/sommerworkshop.jpg" "600" "Das tim&koko Team sitzt beim Sommer-Workshop auf einer Mauer vor einem Bergsee und hebt die Arme" >}}
 
 ### Kund:innen-Event im Oktober
 
@@ -46,7 +46,7 @@ Unsere Büroräumlichkeiten verwandelten sich im Oktober in einen lebendigen Tre
 spannende Gespräche führen, Ideen austauschen und auf unsere Zusammenarbeit anstossen. Wir danken allen, die mit dabei
 waren und das Event zu einem Erfolg gemacht haben!
 
-{{< custom-image "../images/review24/herbst-event.jpg" "600" >}}
+{{< custom-image "../images/review24/herbst-event.jpg" "600" "Gäste im Gespräch beim Kund:innen-Event in den tim&koko Büroräumlichkeiten" >}}
 
 ### Baloise Codecamp
 
@@ -54,7 +54,7 @@ Technologie und Gemeinschaft standen beim Baloise Codecamp im Mittelpunkt. Hier 
 Wissen teilen und uns von neuen Ansätzen inspirieren lassen. Ein Event, das uns gezeigt hat, wie viel Power in einer
 Community steckt.
 
-{{< custom-image "../images/review24/baloise-codecamp.jpg" "600" >}}
+{{< custom-image "../images/review24/baloise-codecamp.jpg" "600" "Selfie von zwei tim&koko Mitarbeitenden auf dem Weg zum Baloise Codecamp, im Hintergrund ein Postauto, ein See und Berge" >}}
 
 ### Puzzle /mid - tim&koko Feierabendbier
 

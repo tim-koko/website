@@ -1,7 +1,7 @@
 ---
 title: "Das Experiment „Weltreise“ ist geglückt – Warum es sich lohnt, Top-Talenten die Welt zu Füssen zu legen"
 slug: "work-from-anywhere"
-description: ""
+description: "Weltreise statt Kündigung: Wie Marie mit 20 % Pensum von unterwegs für tim&koko weiterarbeitete – und warum flexible Modelle Top-Talente halten."
 date: 2026-06-05T00:00:00+00:00
 lastmod: 2026-06-05T00:00:00+00:00
 draft: false

@@ -1,0 +1,23 @@
+{{- /*
+  One accordion item, shared by the `accordion-item` shortcode and the service FAQ.
+  Params (dict):
+    parent – id of the surrounding accordion (see accordion/accordion.html)
+    prefix – prefix for the item ids, keeps them unique if a page has several accordions
+    index  – number of the item within the accordion
+    title  – heading text
+    body   – content (HTML)
+    open   – true to show the item expanded (default: collapsed)
+*/ -}}
+{{- $key := printf "%s%v" (.prefix | default "") .index -}}
+<div data-scroll class="accordion-item">
+<h3 class="accordion-header" id="heading{{ $key }}">
+    <button class="accordion-button strong {{ if not .open }} collapsed {{ end }}" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ $key }}" aria-expanded="{{ if .open }}true{{ else }}false{{ end }}" aria-controls="collapse{{ $key }}">
+    <span class="title">{{ .title }}</span> <span class="icon-plus flex-shrink-0 ms-auto me-3"></span>
+    </button>
+</h3>
+<div id="collapse{{ $key }}" class="accordion-collapse collapse {{ if .open }} show {{ end }}" role="region" aria-labelledby="heading{{ $key }}" data-bs-parent="#{{ .parent }}">
+    <div class="accordion-body pb-6">
+    {{ .body }}
+    </div>
+</div>
+</div>

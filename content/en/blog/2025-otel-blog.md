@@ -33,7 +33,7 @@ At its core, observability is built upon three primary telemetry signals:
 * **Metrics**: Numeric measurements representing system performance over time. Example: CPU utilization of a Kubernetes pod.
 * **Traces**: Distributed transaction tracking, showing how requests propagate across services. Example: A request flow across multiple microservices, identifying bottlenecks.
 
-{{< custom-image "../images/otel/telemetry-signals.png" >}}
+{{< custom-image "../images/otel/telemetry-signals.png" "" "The three signals of observability: metrics, logs and traces" >}}
 <br>
 <br>
 

@@ -1,7 +1,7 @@
 ---
 title: "Kafka OAuth 2 Authentication with Strimzi and Keycloak - Part 1"
 slug: "strimzi-kafka-oauth-keycloak-authentication"
-description: ""
+description: "Kafka OAuth 2 with Strimzi & Keycloak, part 1: set up authentication for multi-tenant clusters – from listeners and tenant clients to verification."
 date: 2026-03-31T00:00:00+00:00
 lastmod: 2026-04-09T00:00:00+00:00
 draft: false
@@ -352,7 +352,7 @@ done
 
 Final view of the clients:
 
-{{< custom-image "../images/kafka-strimzi/strimzi-kafka-oauth-keycloak-clients.png" "960" >}}
+{{< custom-image "../images/kafka-strimzi/strimzi-kafka-oauth-keycloak-clients.png" "960" "Keycloak admin console in the kafka realm: list of clients including the technical clients kafka-broker, acmecorp, timkoko and umbrellacorp" >}}
 
 ### Add Audience Mapper
 
@@ -444,7 +444,7 @@ The resulting group structure looks like this:
   - umbrellacorp-reader
   - umbrellacorp-writer
 
-{{< custom-image "../images/kafka-strimzi/strimzi-kafka-oauth-keycloak-groups.png" "960" >}}
+{{< custom-image "../images/kafka-strimzi/strimzi-kafka-oauth-keycloak-groups.png" "960" "Keycloak groups per tenant (acmecorp, timkoko, umbrellacorp), each with a reader and a writer subgroup. service-account-timkoko is a member of timkoko-writer" >}}
 
 ## Verify Authentication
 

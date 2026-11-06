@@ -1,7 +1,7 @@
 ---
 title: "Kafka OAuth 2 Authorization with Strimzi and Keycloak - Part 2"
 slug: "kafka-oauth-strimzi-keycloak-authorization"
-description: ""
+description: "Kafka OAuth 2 with Strimzi & Keycloak, part 2: fine-grained authorization with the KeycloakAuthorizer for isolated topics in multi-tenant clusters."
 date: 2026-04-01T01:00:00+00:00
 lastmod: 2026-04-01T01:00:00+00:00
 draft: false
@@ -327,14 +327,14 @@ for tenant in timkoko acmecorp umbrellacorp; do
 done
 ```
 
-{{< custom-image "../images/kafka-strimzi/strimzi-kafka-oauth-keycloak-authorization-policies.png" "960" >}}
+{{< custom-image "../images/kafka-strimzi/strimzi-kafka-oauth-keycloak-authorization-policies.png" "960" "Keycloak Authorization Services of the kafka-broker client: group-based policies per tenant such as timkoko-reader-policy and timkoko-writer-policy" >}}
 
 ### Create Permissions
 
 The final piece ties everything together. Permissions bind a resource with defined scopes to a group policy. Depending
 on the effective client, multiple permissions must be created.
 
-{{< custom-image "../images/kafka-strimzi/strimzi-kafka-oauth-keycloak-authorization-permissions.png" "960" >}}
+{{< custom-image "../images/kafka-strimzi/strimzi-kafka-oauth-keycloak-authorization-permissions.png" "960" "Scope-based permissions of the kafka-broker client such as timkoko-read-topics and timkoko-write-topics, each linked to the matching policy" >}}
 
 For each tenant we create three permissions:
 
@@ -391,7 +391,7 @@ done
 This ensures that members of the reader group get read access to the consumer group and the topics. The writer group
 allows access to write to the topics.
 
-{{< custom-image "../images/kafka-strimzi/strimzi-kafka-oauth-keycloak-authorization-permission-details.png" "960" >}}
+{{< custom-image "../images/kafka-strimzi/strimzi-kafka-oauth-keycloak-authorization-permission-details.png" "960" "Details of the permission timkoko-write-topics: resource Topic:timkoko-*, scopes Write, Describe and IdempotentWrite, policy timkoko-writer-policy" >}}
 
 ## Verify Authorization
 

@@ -1,7 +1,7 @@
 ---
 title: "Christof Lüthi"
 slug: "christof-luethi"
-description: ""
+description: "Christof Lüthi is a cloud architect and Kafka specialist at tim&koko. Profile, fun facts and all blog posts by Chrigu."
 draft: false
 date: 2024-05-01T00:00:00+00:00
 lastmod: 2026-10-12T00:00:00+00:00

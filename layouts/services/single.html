@@ -18,6 +18,7 @@
         {{ end }}
         <h1 class="mb-5 mb-md-8">{{ .Params.titleVisible }}{{ with .Params.titleSublineVisible}}<br><span>{{ . }}</span>{{ end }}</h1>
         {{ .Content }}
+        {{ partial "faq.html" . }}
     </div>
   </div>
   {{ if .Params.blogposts }}

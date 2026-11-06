@@ -1,7 +1,7 @@
 ---
 title: "Miriam Streit"
 slug: "miriam-streit"
-description: ""
+description: "Miriam Streit ist Platform Engineer bei tim&koko und verbindet Softwareentwicklung mit Infrastruktur. Profil, Steckbrief & Blogbeiträge."
 draft: false
 date: 2025-02-01T00:00:00+00:00
 lastmod: 2026-02-04T00:00:00+00:00
