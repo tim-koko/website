@@ -45,7 +45,7 @@
     "@popperjs/core": "^2.11",
     "@thulite/images": "^3.3.4",
     "auto-changelog": "^2.7",
-    "autoprefixer": "^10.5",
+    "autoprefixer": "^10.6",
     "bootstrap": "^5.3",
     "eslint": "^10.14.0",
     "globals": "^17.14.0",
