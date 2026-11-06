@@ -1,7 +1,7 @@
 ---
 title: "Cloud Native Training"
 slug: "cloud-native-training"
-description: "DPraxisnahe Cloud Native Trainings: Von Engineers für Engineers. Lerne Kubernetes, OpenShift, ArgoCD, Terraform & Go. Hands-on & mit Herzblut. Buche jetzt!"
+description: "Praxisnahe Cloud Native Trainings: Von Engineers für Engineers. Lerne Kubernetes, OpenShift, ArgoCD, Terraform & Go. Hands-on & mit Herzblut. Buche jetzt!"
 titleVisible: "Cloud Native"
 titleSublineVisible: "Training"
 image: "images/landing-pages/tk-landingpage-labs-1500x600.png"
