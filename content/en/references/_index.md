@@ -1,5 +1,6 @@
 ---
 title: "References – The best customers in the world"
+linkTitle: "References"
 translationKey: references
 description: "Discover our Cloud Native success stories: Engineering, Consulting & Training. Real success with Kubernetes, Kafka, ArgoCD & OpenTelemetry. View projects!"
 lead: ""

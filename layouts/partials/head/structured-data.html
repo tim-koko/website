@@ -1,210 +1,240 @@
-{{ $baseURL := "https://tim-koko.ch" | relURL -}}
+{{- /*
+  Structured data (JSON-LD, schema.org) for search engines and AI assistants.
 
-{{ $dot := . -}}
-{{ $dot.Scratch.Set "path" "" -}}
-{{ $dot.Scratch.Set "breadcrumb" slice -}}
+  The graph is built as Hugo data and encoded with jsonify, so quoting and
+  escaping are always valid. Company data lives in params.organization.
+  Test with https://validator.schema.org or Google's Rich Results Test.
+*/ -}}
+{{- $p := . -}}
+{{- $o := site.Params.organization -}}
+{{- $root := "/" | absURL -}}
+{{- $orgRef := dict "@id" (printf "%s#organization" $root) -}}
+{{- $websiteID := printf "%s#website" site.Home.Permalink -}}
+{{- $pageID := printf "%s#webpage" $p.Permalink -}}
+{{- $iso := "2006-01-02T15:04:05-07:00" -}}
 
-{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" -}}
-{{ $.Scratch.Add "path" .Site.BaseURL -}}
+{{- /* Language tag, e.g. "de-ch" -> "de-CH" */ -}}
+{{- $lang := $p.Language.Locale -}}
+{{- with split $lang "-" -}}
+  {{- if eq (len .) 2 -}}{{- $lang = printf "%s-%s" (index . 0) (upper (index . 1)) -}}{{- end -}}
+{{- end -}}
 
-{{ $.Scratch.Add "breadcrumb" (slice (dict "url" .Site.BaseURL "name" "home" "position" 1 )) -}}
-  {{ range $index, $element := split $url "/" -}}
-    {{ $dot.Scratch.Add "path" $element -}}
-    {{ $.Scratch.Add "path" "/" -}}
-    {{ if ne $element "" -}}
-    {{ $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 2))) -}}
-  {{ end -}}
-{{ end -}}
+{{- /* Description: description, then lead, then summary */ -}}
+{{- $desc := $p.Description -}}
+{{- if not $desc -}}{{- with $p.Params.lead -}}{{- $desc = . | plainify | htmlUnescape -}}{{- end -}}{{- end -}}
+{{- if not $desc -}}{{- with $p.Summary -}}{{- $desc = . | plainify | htmlUnescape | truncate 300 -}}{{- end -}}{{- end -}}
+{{- $desc = strings.TrimSpace $desc -}}
 
-<script type="application/ld+json" nonce="dXNlcj0iaGVsbG8iLGRvbWFpbj0iaGVua3ZlcmxpbmRlLmNvbSIsZG9jdW1lbnQud3JpdGUodXNlcisiQCIrZG9tYWluKTs=">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      {{ if eq .Site.Params.schemaType "Organization" -}}
-        "@type": "Organization",
-        "@id": {{ print $baseURL "#/schema/organization/1" }},
-      {{ else -}}
-        "@type": "Person",
-        "@id": {{ print $baseURL "#/schema/person/1" }},
-      {{ end -}}
-      "name": "{{ .Site.Params.schemaName }}",
-      "url": {{ print $baseURL }},
-      "sameAs": [
-        {{ with .Site.Params.schemaTwitter -}}
-        {{ . }}
-        {{ end -}}
-        {{ with .Site.Params.schemaLinkedIn -}}
-        , {{ . }}
-        {{ end -}}
-        {{ with .Site.Params.schemaGitHub -}}
-        , {{ . }}
-        {{ end -}}
-      ],
-      {{ if eq .Site.Params.schemaType "Organization" -}}
-        "logo": {
-          "@type": "ImageObject",
-          "@id": {{ print $baseURL "#/schema/image/1"}},
-          "url": {{ print $baseURL .Site.Params.schemaLogo }},
-          "width": {{ .Site.Params.schemaLogoWidth }},
-          "height": {{ .Site.Params.schemaLogoHeight }},
-          "caption": "{{ .Site.Params.schemaName }}"
-        },
-        "image": {
-          "@id": {{ print $baseURL "#/schema/image/1" }}
-        }
-      {{ else -}}
-        "image": {
-          "@type": "ImageObject",
-          "@id": {{ print $baseURL "#/schema/image/1"}},
-          "url": {{ print $baseURL .Site.Params.schemaImage }},
-          "width": {{ .Site.Params.schemaImageWidth }},
-          "height": {{ .Site.Params.schemaImageHeight }},
-          "caption": "{{ .Site.Params.schemaName }}"
-        }
-      {{ end -}}
-    },
-    {
-      "@type": "WebSite",
-      "@id": {{ print $baseURL "#/schema/website/1" }},
-      "url": {{ print $baseURL }},
-      "name": "{{ .Site.Params.title }}",
-      "description": "{{ .Site.Params.description }}",
-      {{ if eq .Site.Params.schemaType "Organization" -}}
-        "publisher": {
-          "@id": {{ print $baseURL "#/schema/organization/1" }}
-        }
-      {{ else -}}
-        "publisher": {
-          "@id": {{ print $baseURL "#/schema/person/1" }}
-        }
-      {{ end -}}
-    },
-    {
-      {{ if and (ne .Kind "taxonomy") (ne .Kind "term") -}}
-        "@type": "WebPage",
-      {{ else -}}
-        "@type": "CollectionPage",
-      {{ end -}}
-      "@id": {{ .Permalink }},
-      "url": {{ .Permalink }},
-      "name": "{{ .Title }}",
-      "description": "{{ .Description }}",
-      "isPartOf": {
-        "@id": {{ print $baseURL "#/schema/website/1" }}
-      },
-      {{ if eq .Site.Params.schemaType "Organization" -}}
-        "about": {
-          "@id": {{ print $baseURL "#/schema/organization/1" }}
-        },
-      {{ else -}}
-        "about": {
-          "@id": {{ print $baseURL "#/schema/person/1" }}
-        },
-      {{ end -}}
-      "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05CET" }}",
-      "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05CET" }}",
-      "breadcrumb": {
-        "@id": {{ print .Permalink "#/schema/breadcrumb/1" }}
-      },
-      "primaryImageOfPage": {
-        "@id": {{ print .Permalink "#/schema/image/2" }}
-      },
-      "inLanguage": "{{ .Site.Params.schemaLocale }}",
-      "potentialAction": [{
-        "@type": "ReadAction", "target": [{{ .Permalink }}]
-      }]
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": {{ print .Permalink "#/schema/breadcrumb/1" }},
-      "name": "Breadcrumbs",
-      "itemListElement": [{{ $list := $.Scratch.Get "breadcrumb" }}{{ $len := (len $list) }}{{ range $index, $element := $list }}{{ if ne .position 1 }},{{ end }}{
-        "@type": "ListItem",
-        "position": {{ .position }},
-        "item": {
-          {{ if ne (add $index 1) $len -}}
-          "@type": "WebPage",
-          "@id": {{ .url }},
-          "url": {{ .url }},
-          "name": "{{ .name | humanize | title }}"
-          {{ else -}}
-          "@id": {{ .url }}
-          {{ end -}}
-        }
-        }{{ end }}]
-    },
+{{- /* Main image: same order as Open Graph */ -}}
+{{- $img := "" -}}
+{{- with $p.Params.images -}}{{- with index . 0 -}}{{- $img = partial "schema/image.html" (dict "src" . "width" 1400) -}}{{- end -}}{{- end -}}
+{{- if not $img -}}{{- with $p.Params.post_img -}}{{- $img = partial "schema/image.html" (dict "src" . "width" 1400) -}}{{- end -}}{{- end -}}
+{{- if not $img -}}{{- with site.Params.images -}}{{- $img = index . 0 | absURL -}}{{- end -}}{{- end -}}
 
-    {{ if and (eq .Kind "page") (or (eq .Section "blog") (eq .Section "docs") (eq .Section "tutorial") (eq .Section "showcase")) -}}
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Article",
-          "@id": {{ print $baseURL "#/schema/article/1" }},
-          "headline": "{{ .Title }}",
-          "description": "{{ .Description }}",
-          "isPartOf": {
-            "@id": {{ .Permalink }}
-          },
-          "mainEntityOfPage": {
-            "@id": {{ .Permalink }}
-          },
-          "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05CET" }}",
-          "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05CET" }}",
-          "author": {
-            "@id": {{ print $baseURL "#/schema/person/2" }}
-          },
-          {{ if eq .Site.Params.schemaType "Organization" -}}
-            "publisher": {
-              "@id": {{ print $baseURL "#/schema/organization/1" }}
-            },
-          {{ else -}}
-            "publisher": {
-              "@id": {{ print $baseURL "#/schema/person/1" }}
-            },
-          {{ end -}}
-          "image": {
-            "@id": {{ print .Permalink "#/schema/image/2" }}
-          }
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Person",
-          "@id": {{ print $baseURL "#/schema/person/2" }},
-          "name": {{ .Site.Params.schemaAuthor }},
-          "sameAs": [
-            {{ with .Site.Params.schemaAuthorTwitter -}}
-            {{ . }}
-            {{ end -}}
-            {{ with .Site.Params.schemaAuthorLinkedIn -}}
-            , {{ . }}
-            {{ end -}}
-            {{ with .Site.Params.schemaAuthorGitHub -}}
-            , {{ . }}
-            {{ end -}}
-          ]
-        }
-      ]
-    },
-    {{ end -}}
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "ImageObject",
-          "@id": {{ print .Permalink "#/schema/image/2" }},
-          "url": {{ $.Scratch.Get "primaryImage" }},
-          "contentUrl": {{ $.Scratch.Get "primaryImage" }},
-          "caption": "{{ .Title }}"
-        }
-      ]
-    }
+{{- /* Dates */ -}}
+{{- $published := "" -}}
+{{- if not $p.PublishDate.IsZero -}}{{- $published = $p.PublishDate.Format $iso -}}{{- else if not $p.Date.IsZero -}}{{- $published = $p.Date.Format $iso -}}{{- end -}}
+{{- $modified := "" -}}
+{{- if not $p.Lastmod.IsZero -}}{{- $modified = $p.Lastmod.Format $iso -}}{{- end -}}
 
-  ]
-}
-</script>
+{{- $graph := slice -}}
+
+{{- /* Organization */ -}}
+{{- $logoID := printf "%s#logo" $root -}}
+{{- $org := dict
+  "@type" "Organization"
+  "@id" (index $orgRef "@id")
+  "name" $o.name
+  "legalName" $o.legalName
+  "alternateName" $o.alternateNames
+  "url" $root
+  "email" $o.email
+  "logo" (dict "@type" "ImageObject" "@id" $logoID "url" ($o.logo | absURL) "caption" $o.name)
+  "image" ($o.logo | absURL)
+  "address" (dict
+    "@type" "PostalAddress"
+    "streetAddress" $o.street
+    "postalCode" $o.postalCode
+    "addressLocality" $o.city
+    "addressRegion" $o.region
+    "addressCountry" $o.country)
+  "areaServed" (dict "@type" "Country" "name" "Switzerland")
+  "vatID" $o.vatID
+  "sameAs" $o.sameAs
+  "knowsAbout" $o.knowsAbout
+-}}
+{{- with site.Home.Description -}}{{- $org = merge $org (dict "description" .) -}}{{- end -}}
+{{- with site.GetPage (printf "/authors/%s" $o.founder) -}}
+  {{- $org = merge $org (dict "founder" (dict "@type" "Person" "@id" (printf "%s#person" .Permalink) "name" .Title)) -}}
+{{- end -}}
+
+{{- /* Team members (for the about page) */ -}}
+{{- $team := where (where site.RegularPages "Section" "authors") "Params.tk_teammamber" true -}}
+
+{{- /* WebSite */ -}}
+{{- $website := dict
+  "@type" "WebSite"
+  "@id" $websiteID
+  "url" site.Home.Permalink
+  "name" site.Params.title
+  "publisher" $orgRef
+  "inLanguage" $lang
+-}}
+{{- with site.Home.Description -}}{{- $website = merge $website (dict "description" .) -}}{{- end -}}
+
+{{- /* WebPage type */ -}}
+{{- $pageType := "WebPage" -}}
+{{- if eq $p.Type "about" -}}{{- $pageType = "AboutPage" -}}
+{{- else if and $p.IsPage (eq $p.Section "authors") -}}{{- $pageType = "ProfilePage" -}}
+{{- else if and $p.IsSection (in (slice "blog" "references" "services") $p.Section) -}}{{- $pageType = "CollectionPage" -}}
+{{- end -}}
+
+{{- $webpage := dict
+  "@type" $pageType
+  "@id" $pageID
+  "url" $p.Permalink
+  "name" $p.Title
+  "isPartOf" (dict "@id" $websiteID)
+  "inLanguage" $lang
+-}}
+{{- with $desc -}}{{- $webpage = merge $webpage (dict "description" .) -}}{{- end -}}
+{{- with $published -}}{{- $webpage = merge $webpage (dict "datePublished" .) -}}{{- end -}}
+{{- with $modified -}}{{- $webpage = merge $webpage (dict "dateModified" .) -}}{{- end -}}
+{{- with $img -}}{{- $webpage = merge $webpage (dict "primaryImageOfPage" (dict "@type" "ImageObject" "url" .)) -}}{{- end -}}
+{{- if or $p.IsHome (eq $pageType "AboutPage") -}}{{- $webpage = merge $webpage (dict "about" $orgRef) -}}{{- end -}}
+
+{{- /* Breadcrumbs */ -}}
+{{- $breadcrumb := dict -}}
+{{- if not $p.IsHome -}}
+  {{- $items := slice -}}
+  {{- range $p.Ancestors.Reverse -}}
+    {{- /* Skip pages that are not rendered, e.g. /authors/ */ -}}
+    {{- if .OutputFormats.Get "html" -}}
+      {{- $items = $items | append (dict "@type" "ListItem" "position" (add (len $items) 1) "name" (cond .IsHome "Home" .LinkTitle) "item" .Permalink) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $items = $items | append (dict "@type" "ListItem" "position" (add (len $items) 1) "name" $p.LinkTitle "item" $p.Permalink) -}}
+  {{- $breadcrumb = dict "@type" "BreadcrumbList" "@id" (printf "%s#breadcrumb" $p.Permalink) "itemListElement" $items -}}
+  {{- $webpage = merge $webpage (dict "breadcrumb" (dict "@id" (index $breadcrumb "@id"))) -}}
+{{- end -}}
+
+{{- $extra := slice -}}
+
+{{- /* Blog post */ -}}
+{{- if and $p.IsPage (eq $p.Section "blog") -}}
+  {{- $article := dict
+    "@type" "BlogPosting"
+    "@id" (printf "%s#article" $p.Permalink)
+    "headline" ($p.Title | truncate 110)
+    "url" $p.Permalink
+    "mainEntityOfPage" (dict "@id" $pageID)
+    "isPartOf" (dict "@id" $websiteID)
+    "inLanguage" $lang
+    "publisher" $orgRef
+  -}}
+  {{- with $desc -}}{{- $article = merge $article (dict "description" .) -}}{{- end -}}
+  {{- with $published -}}{{- $article = merge $article (dict "datePublished" .) -}}{{- end -}}
+  {{- with $modified -}}{{- $article = merge $article (dict "dateModified" .) -}}{{- end -}}
+  {{- with $img -}}{{- $article = merge $article (dict "image" .) -}}{{- end -}}
+  {{- with $p.Params.categories -}}{{- $article = merge $article (dict "keywords" .) -}}{{- end -}}
+  {{- $authors := slice -}}
+  {{- range $p.Params.authors -}}
+    {{- with site.GetPage (printf "/authors/%s" .) -}}
+      {{- $person := partial "schema/person.html" . -}}
+      {{- $extra = $extra | append $person -}}
+      {{- $authors = $authors | append (dict "@id" (index $person "@id")) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $article = merge $article (dict "author" (cond (gt (len $authors) 0) $authors (slice $orgRef))) -}}
+  {{- $extra = $extra | append $article -}}
+{{- end -}}
+
+{{- /* Reference (customer project) */ -}}
+{{- if and $p.IsPage (eq $p.Section "references") -}}
+  {{- $article := dict
+    "@type" "Article"
+    "@id" (printf "%s#article" $p.Permalink)
+    "headline" ($p.Title | truncate 110)
+    "url" $p.Permalink
+    "mainEntityOfPage" (dict "@id" $pageID)
+    "isPartOf" (dict "@id" $websiteID)
+    "inLanguage" $lang
+    "author" $orgRef
+    "publisher" $orgRef
+  -}}
+  {{- with $desc -}}{{- $article = merge $article (dict "description" .) -}}{{- end -}}
+  {{- with $published -}}{{- $article = merge $article (dict "datePublished" .) -}}{{- end -}}
+  {{- with $modified -}}{{- $article = merge $article (dict "dateModified" .) -}}{{- end -}}
+  {{- with $img -}}{{- $article = merge $article (dict "image" .) -}}{{- end -}}
+  {{- with $p.Params.client -}}
+    {{- $client := dict "@type" "Organization" "name" . -}}
+    {{- with $p.Params.link -}}{{- $client = merge $client (dict "url" .) -}}{{- end -}}
+    {{- $article = merge $article (dict "about" $client) -}}
+  {{- end -}}
+  {{- with $p.Params.techStack -}}
+    {{- $article = merge $article (dict "keywords" (apply (split . ",") "strings.TrimSpace" ".")) -}}
+  {{- end -}}
+  {{- $extra = $extra | append $article -}}
+{{- end -}}
+
+{{- /* Service */ -}}
+{{- if and $p.IsPage (eq $p.Section "services") -}}
+  {{- $service := dict
+    "@type" "Service"
+    "@id" (printf "%s#service" $p.Permalink)
+    "name" $p.Title
+    "serviceType" $p.Title
+    "url" $p.Permalink
+    "provider" $orgRef
+    "areaServed" (dict "@type" "Country" "name" "Switzerland")
+  -}}
+  {{- with $desc -}}{{- $service = merge $service (dict "description" .) -}}{{- end -}}
+  {{- with $img -}}{{- $service = merge $service (dict "image" .) -}}{{- end -}}
+  {{- with $p.Params.abstract -}}{{- with .list -}}
+    {{- $offers := slice -}}
+    {{- range . -}}
+      {{- $offers = $offers | append (dict "@type" "Offer" "itemOffered" (dict "@type" "Service" "name" (. | plainify | htmlUnescape))) -}}
+    {{- end -}}
+    {{- $service = merge $service (dict "hasOfferCatalog" (dict "@type" "OfferCatalog" "name" $p.Title "itemListElement" $offers)) -}}
+  {{- end -}}{{- end -}}
+  {{- $webpage = merge $webpage (dict "mainEntity" (dict "@id" (index $service "@id"))) -}}
+  {{- $extra = $extra | append $service -}}
+{{- end -}}
+
+{{- /* Author profile */ -}}
+{{- if eq $pageType "ProfilePage" -}}
+  {{- $person := partial "schema/person.html" $p -}}
+  {{- $webpage = merge $webpage (dict "mainEntity" (dict "@id" (index $person "@id"))) -}}
+  {{- $extra = $extra | append $person -}}
+{{- end -}}
+
+{{- /* About page: organization with its team */ -}}
+{{- if eq $pageType "AboutPage" -}}
+  {{- $employees := slice -}}
+  {{- range $team.ByTitle -}}
+    {{- $person := partial "schema/person.html" . -}}
+    {{- $extra = $extra | append $person -}}
+    {{- $employees = $employees | append (dict "@id" (index $person "@id")) -}}
+  {{- end -}}
+  {{- with $employees -}}{{- $org = merge $org (dict "employee" .) -}}{{- end -}}
+  {{- $webpage = merge $webpage (dict "mainEntity" $orgRef) -}}
+{{- end -}}
+
+{{- /* Overview pages: list of their entries */ -}}
+{{- if eq $pageType "CollectionPage" -}}
+  {{- $items := slice -}}
+  {{- $pages := $p.RegularPages.ByDate.Reverse -}}
+  {{- if eq $p.Section "services" -}}{{- $pages = $p.RegularPages.ByWeight -}}{{- end -}}
+  {{- range $i, $e := $pages -}}
+    {{- $items = $items | append (dict "@type" "ListItem" "position" (add $i 1) "url" $e.Permalink "name" $e.Title) -}}
+  {{- end -}}
+  {{- with $items -}}
+    {{- $webpage = merge $webpage (dict "mainEntity" (dict "@type" "ItemList" "itemListElement" .)) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $graph = slice $org $website $webpage -}}
+{{- with $breadcrumb -}}{{- $graph = $graph | append . -}}{{- end -}}
+{{- range $extra -}}{{- $graph = $graph | append . -}}{{- end -}}
+
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@graph" $graph | jsonify | safeJS }}</script>

@@ -1,5 +1,6 @@
 ---
 title: "Referenzen – Die besten Kund:innen der Welt"
+linkTitle: "Referenzen"
 translationKey: references
 url: referenzen
 description: "Entdecke unsere Cloud Native Referenzen: Engineering, Consulting & Training. Echte Erfolge mit Kubernetes, Kafka, ArgoCD & OpenTelemetry. Zu den Projekten!"

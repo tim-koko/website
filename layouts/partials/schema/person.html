@@ -1,0 +1,31 @@
+{{- /*
+  Returns a schema.org Person node for an author page.
+  Context: the author page.
+*/ -}}
+{{- $p := . -}}
+{{- $person := dict
+  "@type" "Person"
+  "@id" (printf "%s#person" $p.Permalink)
+  "name" $p.Title
+  "url" $p.Permalink
+-}}
+{{- with $p.Params.designation -}}{{- $person = merge $person (dict "jobTitle" .) -}}{{- end -}}
+{{- with partial "schema/image.html" (dict "src" $p.Params.image "width" 400) -}}
+  {{- $person = merge $person (dict "image" .) -}}
+{{- end -}}
+{{- $sameAs := slice -}}
+{{- range slice "linkedin" "github" "twitter" -}}
+  {{- with index $p.Params . -}}{{- $sameAs = $sameAs | append . -}}{{- end -}}
+{{- end -}}
+{{- with $sameAs -}}{{- $person = merge $person (dict "sameAs" .) -}}{{- end -}}
+{{- if $p.Params.tk_teammamber -}}
+  {{- $person = merge $person (dict "worksFor" (dict "@id" (printf "%s#organization" ("/" | absURL)))) -}}
+{{- else -}}
+  {{- /* Guest authors: their own company */ -}}
+  {{- with $p.Params.company -}}
+    {{- $company := dict "@type" "Organization" "name" . -}}
+    {{- with $p.Params.companyUrl -}}{{- $company = merge $company (dict "url" .) -}}{{- end -}}
+    {{- $person = merge $person (dict "worksFor" $company) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $person -}}

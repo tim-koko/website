@@ -125,3 +125,42 @@ alertText = ""
     normalize = "765x1360" # "900x1600" (default)
     lqip = "9x16" # "9x16" (default)
     widths = [480, 640, 800, 1024]
+
+# Company data for structured data (JSON-LD), see layouts/partials/head/structured-data.html
+[organization]
+  name = "tim&koko"
+  legalName = "Tim&Koko AG"
+  alternateNames = ["Tim&Koko", "tim-koko"]
+  email = "hallo@tim-koko.ch"
+  street = "Gerechtigkeitsgasse 80"
+  postalCode = "3011"
+  city = "Bern"
+  region = "BE"
+  country = "CH"
+  vatID = "CHE-173.198.973 MWST"
+  founder = "thomas-philipona" # author page slug
+  logo = "logo-timkoko.png" # in static/
+  sameAs = [
+    "https://www.linkedin.com/company/tim-koko/",
+    "https://github.com/tim-koko",
+    "https://www.instagram.com/tim_und_koko/",
+  ]
+  # Topics tim&koko is an expert in (schema.org knowsAbout)
+  knowsAbout = [
+    "Cloud Native",
+    "Kubernetes",
+    "Red Hat OpenShift",
+    "OpenShift Virtualization",
+    "KubeVirt",
+    "Platform Engineering",
+    "Internal Developer Platform",
+    "GitOps",
+    "Argo CD",
+    "CI/CD",
+    "Observability",
+    "OpenTelemetry",
+    "Prometheus",
+    "Apache Kafka",
+    "Strimzi",
+    "Software Supply Chain Security",
+  ]

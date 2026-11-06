@@ -1,5 +1,6 @@
 ---
 title: "Services – Gemeinsam ganz nach oben"
+linkTitle: "Services"
 description: "Gemeinsam nach oben: Cloud Native Consulting, Engineering & Training & OpenShift Virtualization. Wir verbinden Tech, Kultur & Prozesse. Zu den Services!"
 lead: ""
 date: 2024-05-15T00:00:00+00:00

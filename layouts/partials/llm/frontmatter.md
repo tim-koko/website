@@ -18,6 +18,7 @@
 {{- with $p.Params.client -}}{{- $fm = $fm | append (printf "client: %s" (jsonify (dict "noHTMLEscape" true) .)) -}}{{- end -}}
 {{- with $p.Params.techStack -}}{{- $fm = $fm | append (printf "tech_stack: %s" (jsonify (dict "noHTMLEscape" true) (apply (split . ",") "strings.TrimSpace" "."))) -}}{{- end -}}
 {{- with $p.Params.link -}}{{- $fm = $fm | append (printf "client_website: %s" (jsonify (dict "noHTMLEscape" true) .)) -}}{{- end -}}
+{{- with $p.Params.company -}}{{- $fm = $fm | append (printf "company: %s" (jsonify (dict "noHTMLEscape" true) .)) -}}{{- end -}}
 {{- with $p.Params.designation -}}{{- $fm = $fm | append (printf "role: %s" (jsonify (dict "noHTMLEscape" true) .)) -}}{{- end -}}
 {{- with $p.Params.linkedin -}}{{- $fm = $fm | append (printf "linkedin: %s" (jsonify (dict "noHTMLEscape" true) .)) -}}{{- end -}}
 {{- $fm = $fm | append (printf "publisher: %s" (jsonify (dict "noHTMLEscape" true) "tim&koko (Tim&Koko AG)")) -}}

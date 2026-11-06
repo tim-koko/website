@@ -1,0 +1,19 @@
+{{- /*
+  Returns the absolute URL of an image for structured data, or "".
+  Context: dict "src" (asset path, e.g. "images/blog/x.jpg") "width" (int, optional)
+  Images are looked up in assets first (same as Open Graph), then in static.
+*/ -}}
+{{- $url := "" -}}
+{{- with .src -}}
+  {{- $src := strings.TrimPrefix "/" . -}}
+  {{- with resources.Get $src -}}
+    {{- if and (in (slice "image/jpeg" "image/png" "image/webp") .MediaType.Type) $.width -}}
+      {{- $url = (.Resize (printf "%dx" $.width)).Permalink -}}
+    {{- else -}}
+      {{- $url = .Permalink -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $url = $src | absURL -}}
+  {{- end -}}
+{{- end -}}
+{{- return $url -}}

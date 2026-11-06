@@ -11,6 +11,11 @@
           {{ end }}
           <div>
             <h1 class="h3 mb-2"> {{  .Title  }}</h1>
+            {{ with .Params.company }}
+            <div class="text-secondary mb-4">
+              {{ with $.Params.companyUrl }}<a class="link" href="{{ . }}" target="_blank" rel="noopener">{{ end }}{{ . }}{{ if $.Params.companyUrl }}</a>{{ end }}
+            </div>
+            {{ end }}
             <div class="mb-6"> {{  .Content | markdownify  }}</div>
 
             {{/*- partial "social-media-links" . -*/}}
