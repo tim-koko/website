@@ -11,7 +11,7 @@ Sitemap:
 
 categories: ["Technology", "Apache Kafka", "Messaging", "Strimzi"]
 authors: ['christof-luethi']
-additionalblogposts: [ 'strimzi-kafka-0.49.0-api-v1', "kafka-4", 'kafka-zookeeper-kraft-migration' ]
+additionalblogposts: ['kafka-oauth-strimzi-keycloak-authorization', 'strimzi-kafka-0.49.0-api-v1']
 
 post_img: "images/blog/kafka-strimzi-v1/tk-blogpost-strimzi-v1.jpg"
 img_border: true

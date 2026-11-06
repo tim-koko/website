@@ -13,6 +13,7 @@ categories: ["News", "tim&koko"]
 authors: ['sarah-pfeiffer']
 post_img: "images/blog/TK_BlogPost_2-3_RZ.png"
 lead: "Did you know? Our name is a tribute to Tim Berners-Lee, the inventor of the World Wide Web, and Koko, the female gorilla who effortlessly communicated in sign language."
+additionalblogposts: ['neuer-brand-name', 'unsere-markenstrategie']
 ---
 
 The name represents technology and communication on an equal footing – just like our working method.

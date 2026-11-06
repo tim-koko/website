@@ -12,7 +12,7 @@ Sitemap:
 
 categories: ["Technology", "Apache Kafka", "Messaging", "Strimzi"]
 authors: ['christof-luethi']
-additionalblogposts: [ 'strimzi-kafka-oauth-keycloak-authentication', 'kafka-oauth-strimzi-keycloak-authentication', 'kafka-zookeeper-kraft-migration']
+additionalblogposts: ['strimzi-kafka-oauth-keycloak-authentication', 'kafka-zookeeper-kraft-migration']
 
 post_img: "images/blog/kafka-strimzi-v1/tk-blogpost-strimzi-v1.jpg"
 lead: "Mit OAuth-Authentifizierung im Einsatz ist der nächste Schritt die Durchsetzung feingranularer Zugriffskontrollen. In diesem zweiten Teil konfigurieren wir den KeycloakAuthorizer auf dem Kafka-Broker und richten die Keycloak Authorization Services ein - Scopes, Ressourcen, Richtlinien und Berechtigungen - um Multi-Tenant Topic-Isolation zu erreichen."

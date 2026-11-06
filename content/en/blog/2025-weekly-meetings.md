@@ -9,7 +9,7 @@ images: ["images/blog/weekly-meetings/tk_blogpost-weekly-meetings-1500x1000.png"
 img_border: false 
 categories: ["tim&koko", "Behind the Scenes", "weekly"]
 authors: []
-additionalblogposts: [ 'nicht-nur-tech-sprachen', 'unsere-werte']
+additionalblogposts: ['nicht-nur-tech-sprachen', 'our-values']
 lead: "This little insight may show you ways in which you can get more out of these meetings and how you can find the courage to bring change to a meeting from time to time. Because everyday life is often determined by routines that are not questioned. But this is precisely where we see potential."
 post_img: "images/blog/weekly-meetings/tk_blogpost-weekly-meetings-1500x1000.png"
 ---

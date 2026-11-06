@@ -10,7 +10,7 @@ img_border: true
 Sitemap:
   Priority: 0.9
 
-additionalblogposts: [ 'kubevirt-introduction', 'kubevirt-usecases', 'kubevirt-training' ]
+additionalblogposts: ['proxmox-alternative', 'kubevirt-introduction']
 
 categories: ["Technologie", "KubeVirt", "Kubernetes"]
 authors: []

@@ -10,7 +10,7 @@ img_border: true
 Sitemap:
   Priority: 0.9
 
-additionalblogposts: [ 'argocd-whatis', 'argoevents-what-is', 'kubevirt-what-is' ]
+additionalblogposts: ['argocd-what-is', 'argoevents-what-is', 'kubevirt-whatis']
 
 categories: ["Technology", "Kubernetes", "ArgoCD"]
 authors: ['miriam-streit']

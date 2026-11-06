@@ -13,6 +13,7 @@ categories: ["News", "tim&koko"]
 authors: ['sarah-pfeiffer']
 post_img: "images/blog/TK_BlogPost_2-3_RZ.png"
 lead: "Hast du gewusst? Unser neuer Name tim&koko ehrt den britischen Informatiker Tim Berners-Lee, Schöpfer des World Wide Web, wie auch das Gorilla-Weibchen Koko, das in Gebärdensprache kommunizierte."
+additionalblogposts: ['neuer-brand-name', 'unsere-markenstrategie']
 ---
 
 Der Name steht für technologische Lösungen und Kommunikation auf Augenhöhe – genau wie unsere Arbeitsweise.

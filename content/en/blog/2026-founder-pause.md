@@ -10,7 +10,7 @@ img_border: false
 Sitemap:
   Priority: 0.9
 
-additionalblogposts: [ 'work-from-anywhere', 'kubernetes-hotel', 'argoworkflows-what-is']
+additionalblogposts: ['work-from-anywhere', '6-monate-tk']
 
 categories: ["Members", "Behind the Scenes", "tim&koko"]
 authors: ['marie-steck']

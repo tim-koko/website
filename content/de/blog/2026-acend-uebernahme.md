@@ -10,7 +10,7 @@ img_border: false
 Sitemap:
   Priority: 0.9
 
-additionalblogposts: [ 'kubevirt-introduction', '2025-jahresrueckblick', 'cnz-hinter-kulissen']
+additionalblogposts: ['kubevirt-training', '2025-jahresrueckblick']
 
 categories: ["Technology", "Behind the Scenes", "tim&koko"]
 authors: ['marie-steck']

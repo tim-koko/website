@@ -14,6 +14,7 @@ authors: ['sarah-pfeiffer']
 
 post_img: "images/blog/neuer-brandname/timkoko-neuer-brandname-blogpost-1500x1000.jpg"
 lead: "Als wir unsere Firma gegründet haben, ahnten wir noch nicht, wie wichtig es ist, einen Brand zu finden, mit dem wir uns identifizieren können – und was das alles mit sich bringt. "
+additionalblogposts: ['tim-koko', 'brand-plattform-tim-koko']
 ---
 
 Als wir dann plötzlich unseren Firmennamen ändern mussten (warum erfährst du im Blogpost hier [tim&koko neuer Name]({{< relref "/blog/2024-tim-koko.md" >}})), standen wir vor einer Herausforderung, die nicht ganz einfach zu lösen war.

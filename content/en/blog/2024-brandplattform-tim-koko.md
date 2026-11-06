@@ -14,6 +14,7 @@ authors: ['thomas-philipona']
 
 post_img: "images/blog/brand-plattform/tk-blogpost-brandplattform-tim-koko.png"
 lead: "In an increasingly digital world, clear and consistent brand communication is more important than ever. Our brand platform serves as the central hub for presenting our brand and ensuring a cohesive brand experience."
+additionalblogposts: ['unsere-markenstrategie', 'neuer-brand-name']
 ---
 
 Consistent brand communication addresses challenges such as the inconsistent use of logos, colors, or messaging. Whether for internal use or by external partners, the platform helps to ensure that our brand is represented uniformly and effectively across all channels.

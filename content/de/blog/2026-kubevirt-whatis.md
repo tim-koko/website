@@ -10,7 +10,7 @@ img_border: true
 Sitemap:
   Priority: 0.9
 
-additionalblogposts: [ 'kubevirt-introduction', 'kubevirt-training', 'kubevirt-usecases']
+additionalblogposts: ['kubevirt-introduction', 'proxmox-alternative']
 
 categories: ["Technologie", "KubeVirt", "Kubernetes"]
 authors: ['christof-luethi']

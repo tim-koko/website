@@ -14,6 +14,7 @@ authors: []
 img_border: true
 post_img: "images/blog/openshift-f5/tk_blogpost-rh-openshift-f5-1500x1000.jpg"
 lead: "Der F5 CIS Operator ist eine interessante Option, um Applikationen automatisch über einen Enterprise Load Balancer erreichbar zu machen. Die Integration funktioniert aber unter Umständen nicht, wie das auf den ersten Blick erwartet werden könnte."
+additionalblogposts: ['openshift-virtualization', 'operators-custom-resources']
 ---
 
 Dank dessen API-first Ansatz lässt sich praktisch alles auf Kubernetes automatisieren. Wenn es – insb. on-premises – darum geht, einen Kubernetes Cluster in eine bestehende IT-Landschaft zu integrieren, lässt sich dasselbe allerdings selten von den Umsystemen behaupten.\
