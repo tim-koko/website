@@ -20,5 +20,12 @@
 {{- with $sameAs -}}{{- $person = merge $person (dict "sameAs" .) -}}{{- end -}}
 {{- if $p.Params.tk_teammamber -}}
   {{- $person = merge $person (dict "worksFor" (dict "@id" (printf "%s#organization" ("/" | absURL)))) -}}
+{{- else -}}
+  {{- /* Guest authors: their own company */ -}}
+  {{- with $p.Params.company -}}
+    {{- $company := dict "@type" "Organization" "name" . -}}
+    {{- with $p.Params.companyUrl -}}{{- $company = merge $company (dict "url" .) -}}{{- end -}}
+    {{- $person = merge $person (dict "worksFor" $company) -}}
+  {{- end -}}
 {{- end -}}
 {{- return $person -}}

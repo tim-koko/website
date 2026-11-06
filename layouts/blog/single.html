@@ -20,14 +20,15 @@
       <div class="author d-flex ">
         {{ if .Params.image }}
         <div class="author-img rounded-circle overflow-hidden me-2 me-md-3 flex-shrink-0">
-           {{- partial "img" (dict "page" . "src" .Params.image "width" 80 "process" "fill 160x160 Top" "class" "img-fluid" "alt" "{{  .Params.title  }}") }} 
+           {{- partial "img" (dict "page" . "src" .Params.image "width" 80 "process" "fill 160x160 Top" "class" "img-fluid" "alt" .Title) }}
         </div>
         {{ end }}
         <div class="d-flex flex-column justify-content-center small">
           <div class="text-secondary ">{{  i18n "author"  }}</div>
           <a class="link " href="{{ .Permalink | safeURL }}">
             {{  .Title  }}
-          </a> 
+          </a>
+          {{ with .Params.company }}<div class="text-secondary">{{ . }}</div>{{ end }}
         </div>
       </div>
       {{ end }}

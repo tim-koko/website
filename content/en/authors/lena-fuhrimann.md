@@ -1,11 +1,13 @@
 ---
-title: "Lena Fuhrimann - bespinian"
+title: "Lena Fuhrimann"
 slug: "lena-fuhrimann"
 description: ""
 draft: false
 date: 2025-10-08T00:00:00+00:00
 lastmod: 2025-11-04T00:00:00+00:00
 tk_teammamber: false
+company: "bespinian"
+companyUrl: "https://bespinian.io/"
 image: ""
 designation: ""
 linkedin: ""
