@@ -79,7 +79,7 @@ Das Projekt verdeutlicht, wie stark Engineering, Prozessdenken und partnerschaft
 
 Die begleitende Rolle von tim&koko hat nicht nur operative Herausforderungen adressiert, sondern auch die interne Kompetenzentwicklung unterstützt, ein wesentlicher Erfolgsfaktor für den langfristigen Plattformbetrieb.
 
-Haben Sie ähnliche Herausforderungen oder möchten Sie mehr über Apache Kafka erfahren? Kontaktiere uns für ein unverbindliches Gespräch:
+Hast Du ähnliche Herausforderungen oder möchtest Du mehr über Apache Kafka erfahren? Kontaktiere uns für ein unverbindliches Gespräch:
 
 &nbsp;
 
