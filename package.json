@@ -41,7 +41,7 @@
     "@babel/core": "^8.1.0",
     "@babel/preset-env": "^8.0.7",
     "@eslint/js": "^10.0.1",
-    "@fullhuman/postcss-purgecss": "^8.0",
+    "@fullhuman/postcss-purgecss": "^9.0",
     "@popperjs/core": "^2.11",
     "@thulite/images": "^3.3.4",
     "auto-changelog": "^2.7",
