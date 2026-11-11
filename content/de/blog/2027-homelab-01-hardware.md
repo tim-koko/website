@@ -24,7 +24,7 @@ Der Plan: drei Control Planes und zwei Worker mit Talos Linux, aufgebaut aus geb
 
 ### Warum ausgerechnet Talos?
 
-RKE hatte ich bereits in einem früheren Lab im Einsatz, also durfte es diesmal etwas Neues sein. Talos stand schon länger auf meiner Liste. Dazu kommt: Ich wollte mich so wenig wie möglich mit dem Betriebssystem auf Bare Metal herumschlagen. Talos ist ein minimales Linux, das nur für Kubernetes gebaut ist. Es gibt kein SSH und keine Shell, konfiguriert wird alles über eine API. Für Kubernetes auf Bare Metal ist es für mich im Moment der naheliegende Standard.
+RKE hatte ich bereits in einem früheren Lab im Einsatz, also durfte es diesmal etwas Neues sein. Talos stand schon länger auf meiner Liste. Dazu kommt: Ich wollte mich so wenig wie möglich mit dem Betriebssystem auf [Bare Metal]({{< relref "/blog/2026-kubernetes-hotel.md" >}}) herumschlagen. Talos ist ein minimales Linux, das nur für Kubernetes gebaut ist. Es gibt kein SSH und keine Shell, konfiguriert wird alles über eine API. Für Kubernetes auf Bare Metal ist es für mich im Moment der naheliegende Standard.
 
 In dieser Serie nehme ich dich mit auf den Weg: was funktioniert hat, was schiefging und was ich daraus mitnehme. Im ersten Teil geht es um alles, was passiert, bevor überhaupt ein Betriebssystem installiert ist: Hardware, BIOS und Netzwerk.
 
@@ -38,12 +38,13 @@ Zur Auswahl standen die üblichen Verdächtigen unter den 1-Liter-Mini-PCs: HP E
 
 Gekauft habe ich schliesslich fünf M920x Tiny auf refurbed.ch, alle mit derselben Ausstattung:
 
-| Komponente | Ausstattung |
-| :--- | :--- |
-| CPU | Intel Core i5-8500 (6 Kerne, 65 W) |
-| RAM | 16 GB DDR4 SO-DIMM (1 Riegel) |
-| Disk | 512 GB NVMe |
-| Netzwerk | 1 GbE Intel I219-LM |
+{{< csvtable "responsive" ";" >}}
+Komponente;Ausstattung
+CPU;Intel Core i5-8500 (6 Kerne, 65 W)
+RAM;16 GB DDR4 SO-DIMM (1 Riegel)
+Disk;512 GB NVMe
+Netzwerk;1 GbE Intel I219-LM
+{{< /csvtable >}}
 
 Pro Gerät habe ich rund 400 CHF bezahlt. Dazu kam ein Switch, ein Ubiquiti Flex 2.5G PoE für rund 200 CHF. Für insgesamt etwa 2'200 CHF steht also ein Cluster mit fünf Nodes auf dem Tisch.
 

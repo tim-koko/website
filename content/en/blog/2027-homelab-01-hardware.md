@@ -24,7 +24,7 @@ The plan: three control planes and two workers running Talos Linux, built from u
 
 ### Why Talos?
 
-I had already used RKE in an earlier lab, so this time I wanted something new. Talos had been on my list for a while. On top of that, I wanted to spend as little time as possible dealing with the operating system on bare metal. Talos is a minimal Linux built only for Kubernetes. There's no SSH and no shell; everything is configured through an API. For Kubernetes on bare metal, it feels like the go-to choice right now.
+I had already used RKE in an earlier lab, so this time I wanted something new. Talos had been on my list for a while. On top of that, I wanted to spend as little time as possible dealing with the operating system on [bare metal]({{< relref "/blog/2026-kubernetes-hotel.md" >}}). Talos is a minimal Linux built only for Kubernetes. There's no SSH and no shell; everything is configured through an API. For Kubernetes on bare metal, it feels like the go-to choice right now.
 
 In this series, I'll take you along: what worked, what went wrong and what I took away from it. Part one covers everything that happens before an operating system is even installed: hardware, BIOS and network.
 
@@ -38,12 +38,13 @@ The candidates were the usual suspects among 1-liter mini PCs: HP EliteDesk 800 
 
 In the end, I bought five M920x Tiny from refurbed.ch, all with the same specs:
 
-| Component | Specs |
-| :--- | :--- |
-| CPU | Intel Core i5-8500 (6 cores, 65 W) |
-| RAM | 16 GB DDR4 SO-DIMM (1 module) |
-| Disk | 512 GB NVMe |
-| Network | 1 GbE Intel I219-LM |
+{{< csvtable "responsive" ";" >}}
+Component;Specs
+CPU;Intel Core i5-8500 (6 cores, 65 W)
+RAM;16 GB DDR4 SO-DIMM (1 module)
+Disk;512 GB NVMe
+Network;1 GbE Intel I219-LM
+{{< /csvtable >}}
 
 I paid around CHF 400 per machine. On top of that came a switch, a Ubiquiti Flex 2.5G PoE, for around CHF 200. So for about CHF 2,200 in total, there's a five-node cluster on my desk.
 
