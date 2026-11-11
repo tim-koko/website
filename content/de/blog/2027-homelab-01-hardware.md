@@ -63,11 +63,6 @@ Auf den Geräten war noch ein halb eingerichtetes Windows 11 vom Refurbisher ins
 
 Installiert war die Version M1UKT45A von Juli 2019, aktuell ist M1UKT79A von März 2026. Dazwischen liegen über 30 Releases.
 
-{{< slideshow >}}
-{{< slider-img src="images/blog/homelab/bios-00-before.jpg" caption="Vorher: BIOS M1UKT45A vom Juli 2019." >}}
-{{< slider-img src="images/blog/homelab/bios-00-after.jpg" caption="Nachher: BIOS M1UKT79A vom März 2026." >}}
-{{< /slideshow >}}
-
 Ein Tipp vorweg: Das alte Windows nicht zu früh löschen. Das Update der ME-Firmware, die für das Remote-Management zuständig ist, gibt es nämlich nur für Windows. Ich war froh, dass es noch drauf war. Die ganze Geschichte folgt im nächsten Teil.
 
 ### Die wichtigsten BIOS-Einstellungen
@@ -79,12 +74,6 @@ Auf allen fünf Nodes gelten dieselben Einstellungen. Diese hier waren besonders
 * **Energiesparmodus aus** (*Enhanced Power Saving Mode: Disabled*): Sonst schaltet sich im ausgeschalteten Zustand auch das Remote-Management ab.
 * **PXE:** *PXE IPv4 Network Stack* an, IPv6 aus.
 * **Boot-Reihenfolge:** Die SSD bleibt zuoberst, PXE IPv4 steht dahinter. Wichtig ist nur, dass PXE in der Liste steht und nicht auf „Excluded“ (aktivieren mit `x`).
-
-{{< slideshow >}}
-{{< slider-img src="images/blog/homelab/bios-01-flash.jpg" caption="Das BIOS-Update läuft direkt vom USB-Stick, ganz ohne Windows." >}}
-{{< slider-img src="images/blog/homelab/bios-02-cpu.jpg" caption="CPU Setup: Intel Virtualization Technology und VT-d sind aktiviert." >}}
-{{< slider-img src="images/blog/homelab/bios-03-power.jpg" caption="Power-Menü: After Power Loss auf Power On, Enhanced Power Saving Mode deaktiviert." >}}
-{{< /slideshow >}}
 
 ### Das Netzwerk: Bewusst einfach
 
