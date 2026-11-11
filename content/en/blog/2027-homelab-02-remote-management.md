@@ -84,7 +84,7 @@ read -rsp "ISM password: " AMT_PASSWORD; export AMT_PASSWORD; echo
 
 `cluster-up` is my favorite command: it first starts the three control planes, waits until the Talos API responds, then powers on the workers and waits until all nodes are `Ready`. One detail matters to me: `off` is a hard power-off, like pulling the plug. To shut down, I always use `talosctl shutdown`.
 
-{{< custom-image "../images/homelab/rm-05-cluster-up.png" "" "Terminal running amt-power.sh cluster-up: control planes and workers are powered on, after 1 minute 55 seconds all nodes are Ready" >}}
+{{< custom-image "../images/homelab/rm-05-cluster-up.png" "" "Terminal running amt-power.sh cluster-up: control planes and workers are powered on, after 1 minute 40 seconds all nodes are Ready" >}}
 
 ### ME firmware: the BIOS update isn't enough
 
