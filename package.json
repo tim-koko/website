@@ -50,7 +50,7 @@
     "eslint": "^10.14.0",
     "globals": "^17.14.0",
     "gonzales-pe": "^4.3.0",
-    "html-validate": "^11.19.0",
+    "html-validate": "^11.21.1",
     "hugo-extended": "^0.169.0",
     "lazysizes": "^5.3",
     "markdownlint-cli2": "^0.24.0",
