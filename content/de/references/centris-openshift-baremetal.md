@@ -90,10 +90,17 @@ aufgesetzt und durchgespielt.
 
 ## Fazit & Lessons Learned
 
-* **Anforderungen:** Die Anforderungen aller Entwicklungsteams abzudecken, war eine der grössten Herausforderungen im Projekt.
-* **Backup und Restore immer sauber testen:** Beim Test des etcd-Restores auf dem Engineering Bare Metal Cluster zeigte sich, dass der vom Hersteller dokumentierte Prozess Lücken aufwies. Statt der erwarteten 40 Minuten benötigte der Restore mehrere Stunden Debugging und Fixing.
-* **Infrastruktur-Know-how ist essenziell:** Dieses Wissen muss ins Team wandern. Dank tiefem Infrastruktur-Know-how konnten viele Lücken geschlossen werden.
-* **Flexibilität vs. Komplexität:** Die Plattform ist sehr flexibel und auf Automatisierung und Standardisierung ausgelegt. Das geht auf Kosten der Komplexität der Hosted Control Planes, die mit einem sauberen GitOps-Setup aber deutlich verständlicher wird.
+Der Wechsel von VMware auf OpenShift Bare Metal zeigt, wie viel Flexibilität eine Plattform mit OpenShift
+Virtualization und Hosted Control Planes bietet. Sie ist konsequent auf Automatisierung und Standardisierung
+ausgelegt. Dafür bringen die Hosted Control Planes zusätzliche Komplexität mit sich – ein sauberes GitOps-Setup macht
+diese aber deutlich verständlicher und beherrschbarer. Eine der grössten Herausforderungen im Projekt war es, die
+Anforderungen aller Entwicklungsteams unter einen Hut zu bringen.
+
+Eine zentrale Erkenntnis: Backup und Restore müssen immer sauber getestet werden. Beim Test des etcd-Restores auf dem
+Engineering Bare Metal Cluster zeigte sich, dass der vom Hersteller dokumentierte Prozess Lücken aufwies. Statt der
+erwarteten 40 Minuten benötigte der Restore mehrere Stunden Debugging und Fixing. Gerade solche Situationen machen
+deutlich, wie essenziell fundiertes Infrastruktur-Know-how ist. Dank dieser Erfahrung konnten viele Lücken geschlossen
+werden – und das Wissen wandert nun Schritt für Schritt ins Team der Centris.
 
 Hast Du ähnliche Herausforderungen oder möchtest Du mehr über OpenShift auf Bare Metal, OpenShift Virtualization oder Hosted Control Planes erfahren? Kontaktiere uns für ein unverbindliches Gespräch:
 

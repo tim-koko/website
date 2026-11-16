@@ -86,10 +86,16 @@ processes were set up and rehearsed.
 
 ## Conclusion & Lessons Learned
 
-* **Requirements:** Covering the requirements of all development teams was one of the biggest challenges of the project.
-* **Always test backup and restore thoroughly:** When testing the etcd restore on the engineering bare metal cluster, it turned out that the process documented by the vendor had gaps. Instead of the expected 40 minutes, the restore took several hours of debugging and fixing.
-* **Infrastructure know-how is essential:** This knowledge has to be built up within the team. Thanks to deep infrastructure know-how, many gaps could be closed.
-* **Flexibility vs. complexity:** The platform is very flexible and designed for automation and standardization. This comes at the cost of the complexity of Hosted Control Planes, which becomes much easier to understand with a clean GitOps setup.
+The move from VMware to OpenShift on bare metal shows how much flexibility a platform with OpenShift Virtualization
+and Hosted Control Planes offers. It is consistently designed for automation and standardization. In return, Hosted
+Control Planes add complexity – but a clean GitOps setup makes them much easier to understand and manage. One of the
+biggest challenges of the project was bringing the requirements of all development teams together.
+
+A key takeaway: backup and restore must always be tested thoroughly. When testing the etcd restore on the engineering
+bare metal cluster, it turned out that the process documented by the vendor had gaps. Instead of the expected
+40 minutes, the restore took several hours of debugging and fixing. Situations like this make it clear how essential
+deep infrastructure know-how is. Thanks to this experience, many gaps could be closed – and the knowledge is now being
+passed on step by step to the Centris team.
 
 Do you face similar challenges or want to learn more about OpenShift on bare metal, OpenShift Virtualization or Hosted Control Planes? Get in touch with us for a no-obligation conversation:
 
