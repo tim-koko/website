@@ -1,0 +1,102 @@
+---
+title: "Centris – OpenShift auf Bare Metal"
+slug: "centris-openshift-auf-bare-metal"
+description: "OpenShift auf Bare Metal für Centris: Plattform über drei Zonen mit OpenShift Virtualization, Hosted Control Planes & GitOps. In 5 Monaten produktiv. Zum Projekt!"
+date: 2026-11-16T00:00:00+00:00
+lastmod: 2026-11-16T00:00:00+00:00
+draft: false
+images: ["images/landing-pages/tk-giveaway-2024-1500x1000.png"]
+Sitemap:
+  Priority: 0.3
+client: "Centris AG"
+post_img: "images/landing-pages/tk-giveaway-2024-1500x1000.png"
+img_border: false
+lead: "Gemeinsam mit Puzzle ITC und der Centris hat tim&koko eine neue Red Hat OpenShift Plattform auf Bare Metal aufgebaut. Die Plattform erstreckt sich über drei Zonen und betreibt mit OpenShift Virtualization und Hosted Control Planes flexibel mehrere virtuelle Workload Cluster. Nach fünf Monaten Aufbau ging sie im November 2026 produktiv in Betrieb."
+
+techStack: "Red Hat OpenShift, OpenShift Virtualization, Hosted Control Planes, Argo CD, Helm, Kustomize, Prometheus, Grafana, GitLab"
+copy: "Bild © Centris AG"
+link: "https://www.centrisag.ch"
+---
+
+Die bestehenden OpenShift-Cluster der Centris liefen auf einer VMware-basierten Virtualisierungslösung, deren
+Lizenzierung zunehmend hohe Kosten verursachte. Gleichzeitig benötigten performancehungrige Applikationen eine
+Umgebung näher an der Hardware. tim&koko hat gemeinsam mit Puzzle ITC und der Centris die Architektur der neuen
+Plattform erarbeitet, die Bare Metal Cluster sowie die Hosted Cluster vollständig über GitOps aufgebaut und den
+Betrieb mitgestaltet. Die Plattform ist seit November 2026 produktiv, die ersten Workloads sind bereits migriert.
+
+## Über die Centris AG
+
+Die Centris AG ist eine führende IT-Dienstleisterin für Schweizer Kranken- und Unfallversicherer. Das Unternehmen
+wurde 1947 gegründet und beschäftigt heute über 300 Mitarbeitende. Aktuell setzen 23 Kranken- und Unfallversicherer
+mit rund 8000 Sachbearbeiterinnen und Sachbearbeiter sowie insgesamt etwa 4,3 Millionen Versicherten auf die
+Branchenlösungen der Centris. Mit ihrer umfassenden Expertise in der Entwicklung, Integration und dem Betrieb
+hochverfügbarer IT-Lösungen unterstützt die Centris ihre Kunden gezielt bei der digitalen Transformation.
+
+Zu den Kernanforderungen gehören Stabilität, Verfügbarkeit und Sicherheit geschäftskritischer Anwendungen – darunter
+die Swiss Health Platform (SHP). Mit dieser offenen und cloudbasierten Plattform vernetzt die Centris die Akteure im
+Schweizer Gesundheitswesen und treibt den digitalen Wandel von Kranken- und Unfallversicherern aktiv voran.
+
+## Herausforderung
+
+Die Ausgangslage war geprägt durch zwei zentrale Herausforderungen:
+
+* **Lizenzkosten:** Die bestehenden OpenShift-Cluster liefen auf einer VMware-basierten Virtualisierungslösung. Die veränderte Lizenzierungssituation brachte das Risiko stark steigender Kosten mit sich.
+* **Performance:** Eine performancehungrige Applikation war auf der bisherigen OpenShift-Umgebung für die Kund:innen zu langsam. Es galt zu prüfen, ob OpenShift auf neuer Hardware und näher am Metal die nötige Leistung bringt. Ohne diese Grundlage drohte die Modernisierung in Richtung Container ins Stocken zu geraten.
+
+## Lösungsansatz
+
+Anfang 2026 hat tim&koko gemeinsam mit Puzzle ITC und der Centris die Anforderungen an die neue Plattform
+aufgenommen. In Workshops wurden die zukünftige Architektur, die Konzepte, das Naming sowie die Prinzipien für
+Disaster Recovery erarbeitet.
+
+### Architektur
+
+Die Plattform basiert auf einem OpenShift Bare Metal Cluster, der über drei Zonen gestretcht ist:
+
+* **3 Control Plane Nodes** und **3 Infra Nodes**, je einer pro Zone
+* **9 Worker Nodes**, je drei pro Zone
+* **OpenShift Virtualization** und **Hosted Control Planes**, um kleinere virtuelle Cluster auf der Bare Metal Plattform zu betreiben
+* Ein ähnlicher Cluster im Ausweich-Rechenzentrum, der im Disaster-Recovery-Fall den Workload übernimmt
+
+Der Ansatz mit Hosted Control Planes bringt mehrere Vorteile:
+
+* Mehrere kleinere virtuelle Cluster lassen sich flexibel und mit minimalem Overhead auf der Bare Metal Plattform betreiben.
+* Die Hardware-Ressourcen werden besser ausgelastet.
+* Die Hosted Cluster sind einfacher zu managen: Virtuelle Nodes sind leichtgewichtiger als Bare Metal Nodes, Restarts gehen schnell, und die Nodes sind «Cattle» statt «Pets».
+
+Dem stehen neue Konzepte gegenüber, die sich das Team erst erarbeiten muss. Zudem bringt der Virtualisierungslayer
+einen minimalen Overhead und zu Beginn zusätzliche Komplexität mit sich.
+
+### Aufbau und GitOps
+
+Nach dem Einbau der neuen Hardware startete die Installation der Bare Metal Cluster. Parallel dazu wurde das
+GitOps-Setup für die Bare Metal und die Hosted Cluster aufgebaut und die Plattform-Komponenten konfiguriert.
+Anschliessend wurden die Hosted Cluster dimensioniert, konzipiert und auf Basis der GitOps-Automatisierung
+provisioniert.
+
+### Migration und Betrieb
+
+Gemeinsam mit den Entwicklungsteams wurde die Migration der Workloads von der alten auf die neue Plattform geplant und
+gestartet. Gleichzeitig wurden Betriebsthemen wie Monitoring, Backup- und Recovery-Prozesse sowie Lifecycle-Prozesse
+aufgesetzt und durchgespielt.
+
+## Ergebnisse
+
+* Die produktive Bare Metal Plattform ging im November 2026 nach fünf Monaten Aufbau live und wurde in den Betrieb überführt.
+* Der erste produktive Workload ist bereits migriert. Bis Q1 2027 soll sämtlicher Workload auf der neuen Plattform laufen.
+* Das Deployment der Plattform-Komponenten und der Hosted Cluster erfolgt vollständig über GitOps – nachvollziehbar und mit Git als Single Source of Truth.
+
+## Kundenstatement
+
+## Fazit & Lessons Learned
+
+* **Anforderungen:** Die Anforderungen aller Entwicklungsteams abzudecken, war eine der grössten Herausforderungen im Projekt.
+* **Backup und Restore immer sauber testen:** Beim Test des etcd-Restores auf dem Engineering Bare Metal Cluster zeigte sich, dass der vom Hersteller dokumentierte Prozess Lücken aufwies. Statt der erwarteten 40 Minuten benötigte der Restore mehrere Stunden Debugging und Fixing.
+* **Infrastruktur-Know-how ist essenziell:** Dieses Wissen muss ins Team wandern. Dank tiefem Infrastruktur-Know-how konnten viele Lücken geschlossen werden.
+* **Flexibilität vs. Komplexität:** Die Plattform ist sehr flexibel und auf Automatisierung und Standardisierung ausgelegt. Das geht auf Kosten der Komplexität der Hosted Control Planes, die mit einem sauberen GitOps-Setup aber deutlich verständlicher wird.
+
+Hast Du ähnliche Herausforderungen oder möchtest Du mehr über OpenShift auf Bare Metal, OpenShift Virtualization oder Hosted Control Planes erfahren? Kontaktiere uns für ein unverbindliches Gespräch:
+
+&nbsp;
+
+<a class="btn btn-primary rounded-pill" href="mailto:hallo@tim-koko.ch">tim&koko kontaktieren</a>
