@@ -3,40 +3,53 @@ import ScrollOut from 'scroll-out';
 
 export default function() {
 
-  const iconPaths = document.querySelectorAll('.icon-draw svg path');
+  const icons = document.querySelectorAll('.icon-draw');
 
-  if (iconPaths.length === 0) {
+  if (icons.length === 0) {
     return;
   }
 
-  //set all paths to 0
-  animate(createDrawable(iconPaths), {
-    draw: 0,
-    duration: 0,
+  // Create the drawables only once per icon. createDrawable() remembers the
+  // path's original stroke-linecap when it is created and temporarily sets it
+  // to "butt" while a path is hidden. Calling it a second time would pick up
+  // that "butt" as the original and the round line ends would never return.
+  const drawables = new Map();
+
+  icons.forEach((icon) => {
+    const paths = icon.querySelectorAll('svg path');
+
+    if (paths.length === 0) {
+      return;
+    }
+
+    const drawable = createDrawable(paths);
+
+    // hide all paths until the icon scrolls into view
+    animate(drawable, {
+      draw: 0,
+      duration: 0,
+    });
+
+    drawables.set(icon, drawable);
   });
 
-  /* eslint-disable */
   ScrollOut({
     targets: '.icon-draw',
-    //threshold: 0.9,
     once: true,
     onShown: function(el) {
+      const drawable = drawables.get(el);
 
-      const paths = el.querySelectorAll('svg path');
+      if (!drawable) {
+        return;
+      }
 
-      animate(createDrawable(paths), {
+      animate(drawable, {
         draw: '0 1',
         ease: 'outSine',
         duration: 400,
         delay: stagger(250),
       });
     },
-    onHidden: function(el) {
-      // hide the element initially
-    // el.style.opacity = 0;
-    },
   });
-  /* eslint-enable */
-
 
 }
