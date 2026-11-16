@@ -6,7 +6,7 @@
     {{ if eq $displaytype "referencelistsmall" }}
     <div class="row">
     {{ range $post := $slugs }}
-        {{ range where (where $.Site.RegularPages "Section" "references") ".Params.slug" "in" ($post) }}
+        {{ range where (where $.Site.RegularPages "Section" "references") "Slug" "in" ($post) }}
         {{- partial "additional-content-blog" . -}}
         {{ end }}
     {{ end }}
@@ -14,7 +14,7 @@
     {{ else }}
     <div class="col-lg-12 offset-lg-0 pt-20">
         {{ range $post :=$slugs }}
-        {{ range where (where $.Site.RegularPages "Section" "references") ".Params.slug" "in" ($post) }}
+        {{ range where (where $.Site.RegularPages "Section" "references") "Slug" "in" ($post) }}
             {{- partial "content-blog" . -}}
         {{ end }}
         {{ end }}

@@ -141,7 +141,7 @@
         {{ if .Params.additionalblogposts }}
         {{ $blogposts = slice }}
           {{ range $post := .Params.additionalblogposts }}
-            {{ $found := where (where $.Site.RegularPages "Section" "blog") ".Params.slug" "in" ($post) }}
+            {{ $found := where (where $.Site.RegularPages "Section" "blog") "Slug" "in" ($post) }}
             {{ if not $found }}
               {{ warnf "additionalblogposts in %s: no blog post with slug %q in language %q" $.File.Path $post $.Lang }}
             {{ end }}
