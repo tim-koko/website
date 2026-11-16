@@ -1,7 +1,7 @@
 const autoprefixer = require('autoprefixer');
 const purgecssModule = require('@fullhuman/postcss-purgecss');
 const purgecss = purgecssModule && purgecssModule.default ? purgecssModule.default : purgecssModule;
-const whitelister = require('purgecss-whitelister');
+const scssSafelist = require('./scss-safelist');
 
 module.exports = {
   plugins: [
@@ -51,7 +51,7 @@ module.exports = {
         'page-link',
         'option',
         'swiper',
-        ...whitelister([
+        ...scssSafelist([
           './assets/scss/**/*.scss',
           //'@hyas/images/assets/scss/components/_images.scss',
           //'./assets/scss/components/_alerts.scss',
