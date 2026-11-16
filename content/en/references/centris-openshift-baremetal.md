@@ -84,6 +84,10 @@ processes were set up and rehearsed.
 
 ## Client Testimonial
 
+«Lorem Ipsum»
+
+**TBD**, Role
+
 ## Conclusion & Lessons Learned
 
 The move from VMware to OpenShift on bare metal shows how much flexibility a platform with OpenShift Virtualization

@@ -88,6 +88,10 @@ aufgesetzt und durchgespielt.
 
 ## Kundenstatement
 
+«Lorem Ipsum»
+
+**TBD**, Role
+
 ## Fazit & Lessons Learned
 
 Der Wechsel von VMware auf OpenShift Bare Metal zeigt, wie viel Flexibilität eine Plattform mit OpenShift
