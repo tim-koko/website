@@ -86,7 +86,7 @@ gestartet. Gleichzeitig wurden Betriebsthemen wie Monitoring, Backup- und Recove
 aufgesetzt und durchgespielt.
 
 Damit das interne Team die Plattform selbstständig betreiben und weiterentwickeln kann, haben wir ihm die neuen
-Konzepte im Rahmen einer Argo CD-Schulung hands-on vermittelt.
+Konzepte im Rahmen einer [Argo CD-Schulung]({{< relref "/services/cloud-native-training.md" >}}) hands-on vermittelt.
 
 ## Ergebnisse
 

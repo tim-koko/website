@@ -83,7 +83,7 @@ started. At the same time, operational topics such as monitoring, backup and rec
 processes were set up and rehearsed.
 
 To enable the internal team to operate and further develop the platform independently, we taught them the new
-concepts hands-on as part of an Argo CD training.
+concepts hands-on as part of an [Argo CD training]({{< relref "/services/cloud-native-training.md" >}}).
 
 ## Results
 
