@@ -1,5 +1,5 @@
 ---
-title: "Centris – Kafka Storage Migration"
+title: "Centris AG – Kafka Storage Migration"
 slug: "centris-kafka-storage-migration"
 description: "Zero Downtime Migration für Centris: Wir migrierten Kafka Storage im laufenden Betrieb. Einsatz von Cruise Control & OpenShift Streams. Zum Projekt!"
 date: 2025-09-01T00:00:00+00:00

@@ -1,5 +1,5 @@
 ---
-title: "Centris – OpenShift on Bare Metal"
+title: "Centris AG – OpenShift on Bare Metal"
 slug: "centris-openshift-on-bare-metal"
 description: "OpenShift on bare metal for Centris: a three-zone platform with OpenShift Virtualization, Hosted Control Planes & GitOps. Live in 5 months. Read the full story!"
 date: 2026-11-16T00:00:00+00:00
@@ -12,7 +12,7 @@ client: "Centris AG"
 post_img: "images/landing-pages/tk-giveaway-2024-1500x1000.png"
 img_border: false
 lead: "Together with Puzzle ITC and Centris, tim&koko built a new Red Hat OpenShift platform on bare metal. The platform spans three zones and uses OpenShift Virtualization and Hosted Control Planes to run several smaller clusters flexibly. After five months of build-out, it went into production in November 2026."
-techStack: "Red Hat OpenShift, OpenShift Virtualization, Hosted Control Planes, Argo CD, Helm, Kustomize, Prometheus, Grafana, GitLab"
+techStack: "Red Hat OpenShift, OpenShift Virtualization, Hosted Control Planes, GitOps, Argo CD, Helm, Kustomize, Prometheus, Grafana, GitLab"
 copy: "Image © Centris AG"
 link: "https://www.centrisag.ch"
 ---
@@ -36,15 +36,17 @@ accident insurers.
 
 ## Challenge
 
-The initial situation was characterized by two key challenges:
+The initial situation was characterized by three key challenges:
 
 * **Licensing costs:** The existing OpenShift clusters ran on a VMware-based virtualization solution. The changed licensing situation carried the risk of sharply rising costs.
+* **Time pressure:** The new platform had to be built relatively quickly. Only a few months were available from installing the hardware to production – so architecture, installation, automation and operational processes largely had to be driven forward in parallel.
 * **Performance:** A performance-hungry application was too slow for customers on the existing OpenShift environment. The question was whether OpenShift on new hardware, closer to the metal, would deliver the required performance. Without this foundation, the modernization towards containers risked stalling.
 
 ## Solution Approach
 
 In early 2026, tim&koko, together with Puzzle ITC and Centris, gathered the requirements for the new platform. In
-workshops, the team worked out the future architecture, concepts, naming and disaster recovery principles.
+workshops, the team worked out the future architecture, the deployment concepts, monitoring, backup and the principles
+for disaster recovery.
 
 ### Architecture
 
@@ -70,11 +72,18 @@ Once the new hardware had been installed, the installation of the bare metal clu
 setup for the bare metal and hosted clusters was built and the platform components were configured. The hosted
 clusters were then sized, designed and provisioned based on the GitOps automation.
 
-### Migration and operations
+For a project of this size, the timeline was tight and the team was small – and not everyone involved had much
+experience with OpenShift on bare metal yet. That's why we didn't just advise, but rolled up our sleeves and
+took on tasks hands-on to get the platform ready on schedule.
+
+### Migration, operations and knowledge transfer
 
 Together with the development teams, the migration of workloads from the old to the new platform was planned and
 started. At the same time, operational topics such as monitoring, backup and recovery processes, and lifecycle
 processes were set up and rehearsed.
+
+To enable the internal team to operate and further develop the platform independently, we taught them the new
+concepts hands-on as part of an Argo CD training.
 
 ## Results
 
@@ -100,6 +109,11 @@ bare metal cluster, it turned out that the process documented by the vendor had 
 40 minutes, the restore took several hours of debugging and fixing. Situations like this make it clear how essential
 deep infrastructure know-how is. Thanks to this experience, many gaps could be closed – and the knowledge is now being
 passed on step by step to the Centris team.
+
+For us, the project is particularly exciting because we are building a platform from scratch and can use modern
+technologies such as OpenShift Virtualization, Hosted Control Planes and GitOps on bare metal. Our enthusiasm is
+correspondingly high. Since we work directly within the Centris team, communication paths are short and we were able
+to reach the goals we had set together.
 
 Do you face similar challenges or want to learn more about OpenShift on bare metal, OpenShift Virtualization or Hosted Control Planes? Get in touch with us for a no-obligation conversation:
 
