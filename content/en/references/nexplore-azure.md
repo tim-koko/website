@@ -79,7 +79,7 @@ The project illustrates how strongly engineering, process thinking, and partners
 
 The accompanying role of tim&koko has not only addressed operational challenges but also supported internal competence development, a key success factor for long-term platform operations.
 
-Do you face similar challenges or want to learn more about Apache Kafka? Get in touch with us for a no-obligation conversation:
+Do you face similar challenges building or operating a Kubernetes platform, or want to learn more about AKS, GitOps with Argo CD or observability? Get in touch with us for a no-obligation conversation:
 
 &nbsp;
 
