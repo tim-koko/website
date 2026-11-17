@@ -58,7 +58,7 @@
     "postcss-cli": "^12.0",
     "quicklink": "^3.0.2",
     "sass-embedded": "^1.108.2",
-    "scss-parser": "^1.0.3",
+    "scss-parser": "^1.0.6",
     "shx": "^0.4",
     "stylelint": "^17.14",
     "stylelint-config-standard-scss": "^17.0"
