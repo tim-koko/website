@@ -51,17 +51,17 @@
     "globals": "^17.14.0",
     "gonzales-pe": "^4.3.0",
     "html-validate": "^11.21.1",
-    "hugo-extended": "^0.169.0",
+    "hugo-extended": "^0.170.0",
     "lazysizes": "^5.3",
     "markdownlint-cli2": "^0.24.0",
-    "postcss": "^8.5.32",
+    "postcss": "^8.5.33",
     "postcss-cli": "^12.0",
     "quicklink": "^3.0.2",
     "sass-embedded": "^1.108.2",
-    "scss-parser": "^1.0.3",
+    "scss-parser": "^1.0.6",
     "shx": "^0.4",
-    "stylelint": "^17.14",
-    "stylelint-config-standard-scss": "^17.0"
+    "stylelint": "^18.0.0",
+    "stylelint-config-standard-scss": "^18.0.0"
   },
   "dependencies": {
     "@lottiefiles/dotlottie-web": "^0.83.2",
@@ -75,6 +75,6 @@
     "swup": "^4.10.0"
   },
   "allowScripts": {
-    "hugo-extended@0.169.0": true
+    "hugo-extended@0.170.0": true
   }
 }
