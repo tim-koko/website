@@ -55,7 +55,8 @@ On the last day, we continued our hike to Gemmi and were rewarded for our ascent
 food.
 
 {{< slideshow >}}
-{{< slider-img src="images/blog/workshop24/TK_BlogPost_SommerWorkshop2024_3.jpg" caption="Hike from Sunnbüel to Hotel Schwarenbach" >}}
+{{< slider-img src="images/blog/workshop24/TK_BlogPost_SommerWorkshop2024_5.jpg" caption="Hike from Sunnbüel to Hotel Schwarenbach" >}}
+{{< slider-img src="images/blog/workshop24/TK_BlogPost_SommerWorkshop2024_6.jpg" caption="Workshop results on cards at Hotel Schwarenbach" >}}
 {{< slider-img src="images/blog/workshop24/TK_BlogPost_SommerWorkshop2024_2.jpg" caption="Mountain lake at Hotel Schwarenbach" >}}
 {{< slider-img src="images/blog/workshop24/TK_BlogPost_SommerWorkshop2024_4.jpg" caption="Breathtaking view from Gemmipass" >}}
 {{< /slideshow >}}

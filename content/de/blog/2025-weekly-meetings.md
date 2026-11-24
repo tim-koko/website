@@ -5,12 +5,12 @@ description: "Mehr als nur Status-Updates: Wie wir unsere Weekly Syncs gestalten
 date: 2025-02-06T00:00:00+00:00
 lastmod: 2025-08-05T00:00:00+00:00
 draft: false
-images: ["images/blog/weekly-meetings/tk_blogpost-weekly-meetings-1500x1000.png"]
+images: ["images/blog/weekly-meetings/tk_blogpost-weekly-meetings-1200x630.jpg"]
 categories: ["tim&koko", "Behind the Scenes", "weekly"]
 authors: []
 additionalblogposts: [ 'nicht-nur-tech-sprachen', 'unsere-werte']
 lead: "Dieser kleine Einblick kann dir vielleicht Wege zeigen, wie du mehr aus diesen Meetings herausholen kannst und wie du den Mut findest, immer mal wieder Veränderungen in ein Meeting zu bringen. Denn der Alltag wird oft von Routinen bestimmt, die nicht infrage gestellt werden. Aber gerade darin liegt aus unserer Sicht Potenzial."
-post_img: "images/blog/weekly-meetings/tk_blogpost-weekly-meetings-1500x1000.png"
+post_img: "images/blog/weekly-meetings/tk_blogpost-weekly-meetings-1500x1000.jpg"
 ---
 
 ### Warum machen wir bei tim&koko Weekly Syncs?

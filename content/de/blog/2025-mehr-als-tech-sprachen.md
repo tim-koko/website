@@ -1,7 +1,7 @@
 ---
 title: "Wir sprechen nicht nur Tech-Sprachen"
 slug: "nicht-nur-tech-sprachen"
-description: "Java, Go & Griechisch? Bei tim&koko sprechen wir nicht nur Tech. Lerne unser Team und unsere 10 Sprachen kennen. Persönliche Einblicke hier!"
+description: "Java, Go & Griechisch? Bei tim&koko sprechen wir nicht nur Tech. Lerne unser Team und unsere 9 Sprachen kennen. Persönliche Einblicke hier!"
 date: 2025-05-28T00:00:00+00:00
 lastmod: 2025-08-05T00:00:00+00:00
 draft: false
@@ -25,15 +25,13 @@ Der Name tim&koko ist kein Zufall. Er ist inspiriert vom Gorilla-Weibchen Koko, 
 ### Tech-Sprachen? Check. Menschensprache? Auch!
 
 In der Tech-Welt sind wir in vielen "Sprachen" zuhause und natürlich auch Englisch, der Lingua Franca der IT-Welt. Als Berner Unternehmen sprechen wir ausserdem Schweizerdeutsch – und ja, auch Hochdeutsch, wenn es sein muss. 😉
-Aber wir können noch mehr. Sprachen faszinieren uns nicht nur beruflich, sondern auch privat. Gemeinsam sprechen wir insgesamt zehn Sprachen.
+Aber wir können noch mehr. Sprachen faszinieren uns nicht nur beruflich, sondern auch privat. Gemeinsam sprechen wir insgesamt neun Sprachen.
 
 Zugegeben, abgesehen von Sarah, die mal in Genf gelebt und gearbeitet hat, ist unser Französisch ist ein bisschen eingerostet, aber wir kriegen es hin - zumindest ein Bier bestellen klappt immer.
 
-### Holländisch, Schwedisch, Italienisch, Griechisch, Spanisch und Indonesisch - die Exoten im Team
+### Holländisch, Italienisch, Griechisch, Spanisch und Indonesisch - die Exoten im Team
 
 - **Holländisch:** Sarah ist die einzige im Team, die bereits in ihrer Kindheit mit einer “Bonussprache” aufwuchs. Dank ihrer Familie spricht sie fliessend Holländisch.
-
-- **Schwedisch:** Livia hat sich beim Kitesurfen in Schweden in die Sprache verliebt. Seitdem schaut sie regelmässig schwedische Serien, um die Sprachmelodie im Ohr zu behalten - perfekt, wenn es mal wieder nach Skandinavien geht.
 
 - **Italienisch und Griechisch:** Thömu erweitert unser Sprachportfolio gleich um zwei weitere. Vor seinem Studium verbrachte er einige Monate in Tropea, wo er Italienisch lernte - die perfekte Sprache für la dolce vita. Durch eine frühere Liebe zu einer Griechin hat er auch ein bisschen Griechisch aufgeschnappt - für den vollen Sprachmix.
 

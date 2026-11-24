@@ -5,13 +5,13 @@ description: "More than just status updates: How we design our Weekly Syncs to f
 date: 2025-02-06T00:00:00+00:00
 lastmod: 2025-08-05T00:00:00+00:00
 draft: false
-images: ["images/blog/weekly-meetings/tk_blogpost-weekly-meetings-1500x1000.png"]
+images: ["images/blog/weekly-meetings/tk_blogpost-weekly-meetings-1200x630.jpg"]
 img_border: false 
 categories: ["tim&koko", "Behind the Scenes", "weekly"]
 authors: []
 additionalblogposts: ['nicht-nur-tech-sprachen', 'our-values']
 lead: "This little insight may show you ways in which you can get more out of these meetings and how you can find the courage to bring change to a meeting from time to time. Because everyday life is often determined by routines that are not questioned. But this is precisely where we see potential."
-post_img: "images/blog/weekly-meetings/tk_blogpost-weekly-meetings-1500x1000.png"
+post_img: "images/blog/weekly-meetings/tk_blogpost-weekly-meetings-1500x1000.jpg"
 ---
 
 ### Why do we do weekly syncs at tim&koko?
