@@ -104,6 +104,8 @@ clients:
       img: "images/clients/centris.svg"
     # - title: "Kanton Luzern"
     #   img: "images/clients/kanton-luzern.svg"
+    - title: "MediData"
+      img: "images/clients/medidata.svg"
     - title: "die Mobiliar"
       img: "images/clients/mobiliar.svg"
     - title: "Nexplore"
