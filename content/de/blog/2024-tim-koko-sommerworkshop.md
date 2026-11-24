@@ -56,7 +56,8 @@ Am letzten Tag setzten wir unsere Wanderung zur Gemmi fort und wurden für unser
 Aussicht und leckerem Essen belohnt.
 
 {{< slideshow >}}
-{{< slider-img src="images/blog/workshop24/TK_BlogPost_SommerWorkshop2024_3.jpg" caption="Wanderung von Sunnbüel zum Hotel Schwarenbach" >}}
+{{< slider-img src="images/blog/workshop24/TK_BlogPost_SommerWorkshop2024_5.jpg" caption="Wanderung von Sunnbüel zum Hotel Schwarenbach" >}}
+{{< slider-img src="images/blog/workshop24/TK_BlogPost_SommerWorkshop2024_6.jpg" caption="Workshop-Ergebnisse auf Karten im Hotel Schwarenbach" >}}
 {{< slider-img src="images/blog/workshop24/TK_BlogPost_SommerWorkshop2024_2.jpg" caption="Bergsee vor dem Hotel Schwarenbach" >}}
 {{< slider-img src="images/blog/workshop24/TK_BlogPost_SommerWorkshop2024_4.jpg" caption="Aussicht vom Gemmi-Pass" >}}
 {{< /slideshow >}}

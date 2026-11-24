@@ -83,21 +83,21 @@ CMD ["echo", "hello-world"]
 We build the image, tag it with according to our docker-hub user and push it to dockerhub:
 
 ```sh
-docker build -t g1raffi/my-image:latest .
-docker push g1raffi/my-image:latest
+docker build -t <dockerhub-user>/my-image:latest .
+docker push <dockerhub-user>/my-image:latest
 ```
 
 To sign our image with the sigstore cosign tooling we can simply:
 
 ```sh
-cosign sign g1raffi/my-image:latest
+cosign sign <dockerhub-user>/my-image:latest
 ```
 
 Follow the process along and choose the OIDC provider of your choice. At some point you will receive the confirmation message:
 
 ```sh
 tlog entry created with index: 134308541
-Pushing signature to: index.docker.io/g1raffi/my-image
+Pushing signature to: index.docker.io/<dockerhub-user>/my-image
 ```
 
 This message confirms that a transparency log entry was created and the signature was pushed to the registry.
@@ -105,11 +105,11 @@ The signature of the image is as well stored in the docker registry provided alo
 
 ```sh
  cosign verify \
-    --certificate-identity raffael@tim-koko.ch \
+    --certificate-identity <your-email> \
     --certificate-oidc-issuer https://accounts.google.com \
-      g1raffi/my-image:latest
+      <dockerhub-user>/my-image:latest
 
-Verification for index.docker.io/g1raffi/my-image:latest --
+Verification for index.docker.io/<dockerhub-user>/my-image:latest --
 The following checks were performed on each of these signatures:
   - The cosign claims were validated
   - Existence of the claims in the transparency log was verified offline

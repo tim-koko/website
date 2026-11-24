@@ -28,8 +28,6 @@ Ausdruck dessen, wer wir sind und wofür wir stehen. Unser Name tim&koko ehrt de
 Schöpfer des World Wide Web, wie auch das Gorilla-Weibchen Koko, das in Gebärdensprache kommunizierte. Der Name steht für
 technologische Lösungen und Kommunikation auf Augenhöhe – genau wie unsere Arbeitsweise.
 
-{{< custom-image "../images/review24/apero-tk-launch.jpg" "600" "Das tim&koko Team stösst im Büro an einem Stehtisch mit Apéro auf den neuen Namen an" >}}
-
 ### Sommer Workshop
 
 Im Sommer kamen wir zusammen, um zu lernen, zu brainstormen und uns als Team weiterzuentwickeln. Kreative Ansätze, neue
@@ -38,7 +36,7 @@ inspirierender Moment, der uns enger zusammengeschweisst hat. Während des Works
 Tagen unser Teamgefühl, reflektierten über die Übereinstimmung persönlicher und Firmenwerte als Basis für eine gemeinsame
 Ausrichtung und entwickelten eine klare Vision für unsere Zukunft sowie unsere interne Organisation.
 
-{{< custom-image "../images/review24/sommerworkshop.jpg" "600" "Das tim&koko Team sitzt beim Sommer-Workshop auf einer Mauer vor einem Bergsee und hebt die Arme" >}}
+{{< custom-image "../images/review24/sommerworkshop.jpg" "600" "Beschriftete Karten und ein Wanderschuh auf dem Boden des Workshop-Raums beim Sommer-Workshop" >}}
 
 ### Kund:innen-Event im Oktober
 
@@ -53,8 +51,6 @@ waren und das Event zu einem Erfolg gemacht haben!
 Technologie und Gemeinschaft standen beim Baloise Codecamp im Mittelpunkt. Hier konnten wir mit Gleichgesinnten netzwerken,
 Wissen teilen und uns von neuen Ansätzen inspirieren lassen. Ein Event, das uns gezeigt hat, wie viel Power in einer
 Community steckt.
-
-{{< custom-image "../images/review24/baloise-codecamp.jpg" "600" "Selfie von zwei tim&koko Mitarbeitenden auf dem Weg zum Baloise Codecamp, im Hintergrund ein Postauto, ein See und Berge" >}}
 
 ### Puzzle /mid - tim&koko Feierabendbier
 

@@ -81,21 +81,21 @@ CMD ["echo", "hello-world"]
 Wir bauen das Image, taggen es entsprechend und pushen es in die Registry
 
 ```sh
-docker build -t g1raffi/my-image:latest .
-docker push g1raffi/my-image:latest
+docker build -t <dockerhub-user>/my-image:latest .
+docker push <dockerhub-user>/my-image:latest
 ```
 
 Um unser neu erstelltes Image zu signieren können wir ganz einfach mit der Cosign CLI cosign sign aufrufen. In diesem Falle verwenden wir die Keyless Variante und lassen uns über Fulcio ein kurzlebiges Zertifikat durch einen gewählten Open-Id-Connect Provider erstellen.
 
 ```sh
-cosign sign g1raffi/my-image:latest
+cosign sign <dockerhub-user>/my-image:latest
 ```
 
 Folge dem Prozess und wähle den OIDC Provider deiner Wahl. Zum Schluss wirst du folgende Bestätigungsnachricht bekommen:
 
 ```sh
 tlog entry created with index: 134308541
-Pushing signature to: index.docker.io/g1raffi/my-image
+Pushing signature to: index.docker.io/<dockerhub-user>/my-image
 ```
 
 Die Benachrichtigung bestätigt uns zwei Sachen: Wir haben einen Eintrag in das Transparency Log geschrieben und unsere Signatur wurde in die Registry zum Image gepusht.
@@ -103,11 +103,11 @@ Um den Vorgang auf der konsumierenden Seite anzuschauen, können wir ganz einfac
 
 ```sh
  cosign verify \
-    --certificate-identity raffael@tim-koko.ch \
+    --certificate-identity <your-email> \
     --certificate-oidc-issuer https://accounts.google.com \
-      g1raffi/my-image:latest
+      <dockerhub-user>/my-image:latest
 
-Verification for index.docker.io/g1raffi/my-image:latest --
+Verification for index.docker.io/<dockerhub-user>/my-image:latest --
 The following checks were performed on each of these signatures:
   - The cosign claims were validated
   - Existence of the claims in the transparency log was verified offline

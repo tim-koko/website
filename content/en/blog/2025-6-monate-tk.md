@@ -20,7 +20,7 @@ lead: "It’s hard to believe it’s already been six months since I started at 
 
 ### The First Weeks
 
-On my very first day, I was welcomed with coffee and croissants. Sarah took the time to introduce me to all the essentials, and during my first week, Livia walked me through my tasks and prepared me thoroughly for the months ahead – before heading off on a well-deserved parental leave.
+On my very first day, I was welcomed with coffee and croissants. Sarah took the time to introduce me to all the essentials, and during my first week, my predecessor walked me through my tasks and prepared me thoroughly for the months ahead.
 Thankfully, she not only explained everything clearly but also documented many of the processes, which I could always refer back to whenever I was unsure about something.
 Of course, the rest of the team was also incredibly helpful and patiently answered all my questions. Coming from a completely different industry, terms like Kubernetes, OpenShift Virtualization, or KubeVirt were just buzzwords at first. ChatGPT wasn’t much help – but Chrigu managed to clarify things with a clever IKEA analogy. That was a real lightbulb moment!
 
@@ -37,5 +37,5 @@ If you’re eager to become part of our team, you’re in luck! We’re currentl
 
 ### Mein Fazit
 
-From day one, I’ve felt right at home – and I know that my work is truly appreciated. Initially, I joined to temporarily cover for Livia during her parental leave. But since she’s now fully enjoying life as a new parent, I’ve been given the chance to stay on as part of the team – and I’m very happy about that!
+From day one, I’ve felt right at home – and I know that my work is truly appreciated. Initially, I joined as a temporary stand-in. Now I’ve been given the chance to stay on as part of the team – and I’m very happy about that!
 Since workload hasn’t always been consistent in recent months, I’ll now be focusing on the back office one day a week. Which works out perfectly – because I’m planning to spend autumn and winter on the other side of the world. More on that... maybe in a future post.

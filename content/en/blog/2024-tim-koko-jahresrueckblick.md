@@ -28,8 +28,6 @@ and what we stand for. Our name tim&koko honors the British computer scientist T
 Wide Web, as well as the female gorilla Koko, who communicated in sign language. The name stands for technological
 solutions and communication at eye level - just like our way of working.
 
-{{< custom-image "../images/review24/apero-tk-launch.jpg" "600" "The tim&koko team raising a toast to the new name at a high table with snacks in the office" >}}
-
 ### Summer workshop
 
 In the summer, we came together to learn, brainstorm and develop as a team. Creative approaches, new ideas and plenty
@@ -38,7 +36,7 @@ days of the [workshop]({{< relref "/blog/2024-tim-koko-sommerworkshop.md" >}}), 
 on the alignment of personal and company values as a basis for a common direction and developed a clear vision for our
 future and our internal organization.
 
-{{< custom-image "../images/review24/sommerworkshop.jpg" "600" "The tim&koko team sitting on a wall in front of a mountain lake at the summer workshop, arms raised" >}}
+{{< custom-image "../images/review24/sommerworkshop.jpg" "600" "Labelled cards and a hiking boot on the floor of the workshop room at the summer workshop" >}}
 
 ### Customer event in october
 
@@ -52,8 +50,6 @@ event a success!
 
 Technology and community took center stage at the Baloise Codecamp. Here we were able to network with like-minded people,
 share knowledge and be inspired by new approaches. An event that showed us how much power there is in a community.
-
-{{< custom-image "../images/review24/baloise-codecamp.jpg" "600" "Selfie of two tim&koko team members on their way to the Baloise Codecamp, with a PostBus, a lake and mountains in the background" >}}
 
 ### Puzzle /mid - tim&koko after-work beer
 

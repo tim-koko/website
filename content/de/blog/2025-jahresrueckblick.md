@@ -20,9 +20,9 @@ lead: "Das Jahr neigt sich dem Ende zu. Es ist Zeit, kurz innezuhalten. 2025 war
 
 ### Veränderung im Team
 
-Zu Beginn des Jahres bestand unser Team aus sechs Personen. Eine Gruppe, die in den letzten Jahren zu uns gestossen war. Der Start ins Jahr verlief jedoch etwas holprig: Hohe Lohnkosten bei noch nicht voller Auslastung machten die Situation herausfordernd. Klar war zudem, dass Marie während Livias Mutterschaftsurlaub zu uns stossen würde –  in einer Phase, die von Unsicherheit geprägt war.
-Doch wie so oft im Leben sortiert sich manches von selbst: Nach einigen Monaten haben Benj und Raffi ihre Reise ausserhalb unseres Teams fortgesetzt. Zurück blieb ein Kernteam aus Menschen, die motiviert, fokussiert und voller Tatendrang am Steuer blieben. Zudem entschied sich Sarah, intern neue Wege zu gehen und sich nach einem Projektleiterinnen-Auftrag umzusehen.
-Kurz darauf kam die Nachricht, dass sich Livia voll und ganz auf ihr Babyglück konzentrieren möchte. Zum Glück war Marie zu diesem Zeitpunkt längst fest im Team angekommen und blieb. Eine Win-Win-Situation für uns alle.
+Zu Beginn des Jahres bestand unser Team aus sechs Personen. Eine Gruppe, die in den letzten Jahren zu uns gestossen war. Der Start ins Jahr verlief jedoch etwas holprig: Hohe Lohnkosten bei noch nicht voller Auslastung machten die Situation herausfordernd. Klar war zudem, dass Marie als Vertretung zu uns stossen würde – in einer Phase, die von Unsicherheit geprägt war.
+Doch wie so oft im Leben sortiert sich manches von selbst: Nach einigen Monaten haben zwei Teammitglieder ihre Reise ausserhalb unseres Teams fortgesetzt. Zurück blieb ein Kernteam aus Menschen, die motiviert, fokussiert und voller Tatendrang am Steuer blieben. Zudem entschied sich Sarah, intern neue Wege zu gehen und sich nach einem Projektleiterinnen-Auftrag umzusehen.
+Kurz darauf war klar, dass aus der Vertretung eine Dauerlösung wird: Marie war zu diesem Zeitpunkt längst fest im Team angekommen und blieb. Eine Win-Win-Situation für uns alle.
 Gemeinsam arbeiteten wir uns Schritt für Schritt aus dem Frühlingstief heraus. Und heute, zum Jahresende, können wir mit Stolz sagen: Wir haben das damalige Loch gefüllt und nächstes Jahr wächst unser Team sogar wieder, denn ein neues Mitglied wird zu uns stossen.
 
 ### KubeCon, CNZ, Meetups und Fübis – unsere Community-Momente

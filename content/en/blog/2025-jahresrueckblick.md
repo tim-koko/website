@@ -20,9 +20,9 @@ lead: "The year is coming to an end. It’s time to pause for a moment. 2025 was
 
 ### Changes in the Team
 
-At the beginning of the year our team consisted of six people a group that had joined us over the past few years. However, the start into the year was a bit bumpy: high salary costs combined with less-than-full utilization made the situation challenging. It was also clear that Marie would be joining us during Livia’s maternity leave — at a time shaped by uncertainty.
-But, as is often the case in life, things tend to sort themselves out: after a few months, Benj and Raffi decided to pursue new paths outside our team. What remained was a core team of people who stayed at the helm motivated, focused, and full of drive. In addition, Sarah decided to explore new internal opportunities and looked for a project management role.
-Shortly afterward, we received the news that Livia wanted to fully focus on her new family life. Fortunately, by that time, Marie had already become a permanent part of the team and stayed. A true win-win for everyone.
+At the beginning of the year our team consisted of six people a group that had joined us over the past few years. However, the start into the year was a bit bumpy: high salary costs combined with less-than-full utilization made the situation challenging. It was also clear that Marie would be joining us as a stand-in — at a time shaped by uncertainty.
+But, as is often the case in life, things tend to sort themselves out: after a few months, two team members decided to pursue new paths outside our team. What remained was a core team of people who stayed at the helm motivated, focused, and full of drive. In addition, Sarah decided to explore new internal opportunities and looked for a project management role.
+Shortly afterward, it became clear that the stand-in role would turn into a permanent one: by that time, Marie had already become a firm part of the team and stayed. A true win-win for everyone.
 Together, we worked our way step by step out of the spring slump. And today, at the end of the year, we can proudly say: we not only filled the gap from back then, but next year our team will grow again as a new member will be joining us.
 
 ### KubeCon, CNZ, Meetups and “Fübis” – our community moments
