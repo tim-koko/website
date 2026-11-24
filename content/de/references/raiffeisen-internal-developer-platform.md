@@ -1,8 +1,8 @@
 ---
-title: "Internal Developer Platform für Raiffeisen"
-slug: "internal-developer-platform-fuer-raiffeisen"
+title: "Internal Developer Platform für Raiffeisen Schweiz"
+slug: "internal-developer-platform-fuer-raiffeisen-schweiz"
 description: "Internal Developer Platform für Raiffeisen: Mit Self-Services und Golden Paths auf Basis des Red Hat Developer Hub in maximal 15 Minuten zum neuen Service. Zum Projekt!"
-lead: "Gemeinsam mit Raiffeisen und Puzzle baute tim&koko die Internal Developer Platform «Concierge» auf. Sie vereinfacht die Softwareentwicklung durch automatisierte Self-Services und standardisierte Prozesse."
+lead: "Gemeinsam mit Raiffeisen Schweiz und Puzzle baute tim&koko die Internal Developer Platform «Concierge» auf. Sie vereinfacht die Softwareentwicklung durch automatisierte Self-Services und standardisierte Prozesse."
 date: 2026-11-01T00:00:00+00:00
 lastmod: 2026-11-01T00:00:00+00:00
 draft: false
@@ -19,15 +19,15 @@ link: "https://www.raiffeisen.ch"
 
 ## Mehr Effizienz durch Self-Services und Automatisierung
 
-Komplexe Infrastruktur, manuelle Prozesse und fehlende Standards erschwerten bei Raiffeisen die Bereitstellung neuer Applikationen. Gemeinsam mit Raiffeisen und [Puzzle](https://www.puzzle.ch) entwickelte tim&koko deshalb die Internal Developer Platform «Concierge». Die Plattform bündelt technische Funktionen, Software-Templates und standardisierte Entwicklungswege, sogenannte Golden Paths, in einem zentralen Portal auf Basis des Red Hat Developer Hub. Über automatisierte Self-Services können Entwicklungsteams benötigte Ressourcen selbständig bereitstellen, ohne die zugrunde liegende Infrastruktur im Detail kennen zu müssen. Im ersten Schritt wurde ein MVP realisiert, mit dem sich ein neuer Spring-Boot-Service inklusive Datenbank innerhalb von maximal 15 Minuten automatisiert bereitstellen lässt. Nach dem erfolgreichen Proof of Concept wird Concierge kontinuierlich um weitere Funktionen, Integrationen und Golden Paths erweitert.
+Komplexe Infrastruktur, manuelle Prozesse und fehlende Standards erschwerten bei Raiffeisen Schweiz die Bereitstellung neuer Applikationen. Gemeinsam mit Raiffeisen Schweiz und [Puzzle](https://www.puzzle.ch) entwickelte tim&koko deshalb die Internal Developer Platform «Concierge». Die Plattform bündelt technische Funktionen, Software-Templates und standardisierte Entwicklungswege, sogenannte Golden Paths, in einem zentralen Portal auf Basis des Red Hat Developer Hub. Über automatisierte Self-Services können Entwicklungsteams benötigte Ressourcen selbständig bereitstellen, ohne die zugrunde liegende Infrastruktur im Detail kennen zu müssen. Im ersten Schritt wurde ein MVP realisiert, mit dem sich ein neuer Spring-Boot-Service inklusive Datenbank innerhalb von maximal 15 Minuten automatisiert bereitstellen lässt. Nach dem erfolgreichen Proof of Concept wird Concierge kontinuierlich um weitere Funktionen, Integrationen und Golden Paths erweitert.
 
 ## Über die Kundin
 
-Raiffeisen ist die drittgrösste Bankengruppe der Schweiz und genossenschaftlich organisiert. Die eigenständigen Raiffeisenbanken sind in der Raiffeisen Schweiz Genossenschaft mit Sitz in St. Gallen zusammengeschlossen. Raiffeisen Schweiz verantwortet die strategische Ausrichtung der Gruppe und erbringt zentrale Dienstleistungen für die Raiffeisenbanken, darunter auch den Betrieb und die Weiterentwicklung der IT-Plattformen.
+Raiffeisen ist die zweitgrösste Bankengruppe in der Schweiz und die Schweizer Retailbank mit der grössten Kundennähe. Sie zählt über zwei Millionen Genossenschafterinnen und Genossenschafter und unterhält über drei Millionen Kundenbeziehungen, unter anderem zu über 200’000 Unternehmen in der Schweiz. Die 208 rechtlich eigenständigen und genossenschaftlich organisierten Raiffeisenbanken sind schweizweit lokal verankert und sind Mitglieder in der Raiffeisen Schweiz Genossenschaft. Die Raiffeisen Schweiz Genossenschaft hat die strategische Führungs- und Aufsichtsfunktion der gesamten Raiffeisen Gruppe inne. Die Raiffeisen Gruppe bietet Privatpersonen und Unternehmen ein breites Spektrum an Finanzprodukten und Dienstleistungen an. Zu den zentralen Geschäftsfeldern zählen insbesondere das Hypothekargeschäft, die Vermögens- und Vorsorgeberatung sowie das Firmenkundengeschäft.
 
 ## Rolle von tim&koko
 
-tim&koko arbeitete bei der Architektur der Plattform mit und übernahm die Rolle des Product Owners. In dieser Rolle trug tim&koko die Verantwortung für das Concierge Backlog und steuerte die Priorisierung und Weiterentwicklung der Plattform entlang der Bedürfnisse der Entwicklungsteams.
+tim&koko arbeitete bei der Architektur der Plattform mit und übernahm die Rolle des Product Owners. In dieser Rolle trug tim&koko die Verantwortung für das Concierge Backlog und steuerte die Priorisierung und Weiterentwicklung der Plattform, gemeinsam mit Raiffeisen Schweiz, entlang der Bedürfnisse der Entwicklungsteams.
 
 ## Kundenstatement
 
