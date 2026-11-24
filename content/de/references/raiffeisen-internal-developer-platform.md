@@ -29,14 +29,6 @@ Raiffeisen ist die zweitgrösste Bankengruppe in der Schweiz und die Schweizer R
 
 tim&koko arbeitete bei der Architektur der Plattform mit und übernahm die Rolle des Product Owners. In dieser Rolle trug tim&koko die Verantwortung für das Concierge Backlog und steuerte die Priorisierung und Weiterentwicklung der Plattform, gemeinsam mit Raiffeisen Schweiz, entlang der Bedürfnisse der Entwicklungsteams.
 
-## Kundenstatement
-
-{{< blockquote
-  name="TBD"
-  function="TBD, Raiffeisen Schweiz" >}}
-«TBD»
-{{< /blockquote>}}
-
 &nbsp;
 
 Möchtest Du die Softwareentwicklung in Deinem Unternehmen mit einer Internal Developer Platform, Self-Services und Golden Paths vereinfachen? Kontaktiere uns für ein unverbindliches Gespräch:

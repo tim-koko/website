@@ -29,14 +29,6 @@ Raiffeisen is the second-largest banking group in Switzerland and the Swiss reta
 
 tim&koko contributed to the architecture of the platform and took on the role of Product Owner. In this role, tim&koko was responsible for the Concierge backlog and, together with Raiffeisen Switzerland, steered the prioritization and further development of the platform in line with the needs of the development teams.
 
-## Client Statement
-
-{{< blockquote
-  name="TBD"
-  function="TBD, Raiffeisen Switzerland" >}}
-“TBD”
-{{< /blockquote>}}
-
 &nbsp;
 
 Would you like to simplify software development in your organization with an internal developer platform, self-services and golden paths? Get in touch with us for a no-obligation conversation:
