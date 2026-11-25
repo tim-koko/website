@@ -6,7 +6,7 @@ titleVisible: "OpenShift Virtualization"
 titleSublineVisible: "Accelerator-Package"
 image: "images/landing-pages/tk-landingpage-labs-1500x600.png"
 date: 2022-10-31T00:00:00+00:00
-lastmod: 2025-12-06T00:00:00+00:00
+lastmod: 2026-11-25T00:00:00+00:00
 draft: false
 blogposts: [ 'openshift-virtualization', 'kubevirt-training']
 images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]
@@ -101,6 +101,20 @@ Create a structured approach for workload migration, focusing on identifying hig
 * **Impact and Effort Analysis**: Evaluation of the potential impact on operations and the effort required for migration. This matrix helps prioritize workload and create a phased migration approach, allowing for quick wins and clear cost-benefit insights.
 * **Migration Roadmap Development**: Design a migration plan that maps out the order and methodology for each workload’s transition to the OpenShift Virtualization environment. The roadmap includes timelines, resource requirements, risk assessments, and fallback options to ensure a smooth migration.
 * **Next Steps Consultation**: Wrap up the engagement with a strategic review, including suggested next steps, ongoing support options, and a high-level plan for full-scale deployment.
+
+&nbsp;
+
+### KubeVirt in practice: our talks
+
+KubeVirt is the open source project behind OpenShift Virtualization. We regularly show at community events how to run and manage virtual machines on Kubernetes with it.
+
+**Kubernetes Community Day, Geneva 2025:** [Thomas Philipona]({{% relref "authors/thomas-philipona.md" %}}) on KubeVirt.
+
+{{< youtube id="54zvgZeXCdw" title="KubeVirt, Running and managing VMs on Kubernetes – Thomas Philipona, Kubernetes Community Day Geneva 2025" >}}
+
+**Swiss Cloud Native Meetup, Lucerne 2024:** [Christof Lüthi]({{% relref "authors/christof-luethi.md" %}}) and [Thomas Philipona]({{% relref "authors/thomas-philipona.md" %}}) on KubeVirt.
+
+{{< youtube id="i_BrF_qBINc" title="KubeVirt, Running and managing VMs on Kubernetes – Christof Lüthi & Thomas Philipona, Swiss Cloud Native Meetup Lucerne 2024" >}}
 
 &nbsp;
 
