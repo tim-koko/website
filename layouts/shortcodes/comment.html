@@ -1,0 +1,8 @@
+{{- /*
+  Editorial notes in content that must never reach the rendered page.
+  Replaces Hugo's embedded "comment" shortcode (deprecated since v0.143.0).
+  HTML comments are not an alternative here: with goldmark unsafe = true they
+  end up in unminified HTML (e.g. hugo server).
+  Usage: {{% comment %}}note{{% /comment %}}
+*/ -}}
+{{- $_ := .Inner -}}
