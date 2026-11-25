@@ -3,7 +3,7 @@ title: "Datenschutzerklärung"
 description: "Deine Privatsphäre ist uns wichtig. Hier informieren wir dich transparent, wie wir deine Daten schützen und verarbeiten. Unsere Datenschutzerklärung."
 lead: ""
 date: 2022-05-28T00:00:00+00:00
-lastmod: 2025-12-07T00:00:00+00:00
+lastmod: 2026-11-19T00:00:00+00:00
 draft: false
 images: []
 Sitemap:
@@ -55,7 +55,7 @@ Bei den Personendaten unserer Kunden handelt es sich insbesondere um folgende In
 
 Diese Personendaten bearbeiten wir für die beschriebenen Zwecke gestützt auf die folgenden Rechtsgrundlagen:
 
-* Abschluss oder Abwicklung eines Vertrages mit der betroffenen Person bzw. zugunsten der betroffenen Person, inkl. Vertragsanbahnung und allfällige Durchsetzung (z.B. Beratung, Treuhand);
+* Abschluss oder Abwicklung eines Vertrages mit der betroffenen Person bzw. zugunsten der betroffenen Person, inkl. Vertragsanbahnung und allfällige Durchsetzung (z.B. Beratung, Engineering, Trainings);
 * Erfüllung einer gesetzlichen Verpflichtung (z. B. Informationen offen zu legen);
 * Wahrung berechtigter Interessen, (z.B. für administrative Zwecke, unsere Rechte durchzusetzen, uns gegen Ansprüche zu verteidigen oder um mögliche Interessenkonflikte zu prüfen);
 * Einwilligung (z.B. um Ihnen Informationen zuzusenden).
@@ -71,23 +71,20 @@ Bei den Personendaten der Personen, die mit unseren Kunden in einer Beziehung st
 Diese Personendaten bearbeiten wir für die beschriebenen Zwecke gestützt auf die folgenden Rechtsgrundlagen:
 
 * Abschluss oder Abwicklung eines Vertrages mit der betroffenen Person bzw. zugunsten der betroffenen Person (z. B. wenn wir unsere vertraglichen Pflichten wahrnehmen);
-* Erfüllung einer gesetzlichen Verpflichtung (z. B. wenn wir unsere Pflichten als Revisionsstelle wahrnehmen oder verpflichtet sind, Informationen offen zu legen).
+* Erfüllung einer gesetzlichen Verpflichtung (z. B. wenn wir verpflichtet sind, Informationen offen zu legen).
 
 ### 3.3 Nutzung unserer Webseite
 
-Um unsere Webseite zu nutzen, müssen keine Personendaten offengelegt werden. Der Server erfasst jedoch mit jedem Aufruf eine Reihe von Benutzerinformationen, welche vorübergehend in den Logfiles des Servers gespeichert werden.
-
-Bei der Nutzung dieser allgemeinen Informationen findet keine Zuordnung zu einer bestimmten Person statt. Die Erfassung dieser Informationen bzw. Daten ist technisch erforderlich, um unsere Webseite anzuzeigen und dessen Stabilität und Sicherheit zu gewährleisten. Diese Informationen werden zudem erhoben, um die Webseite zu verbessern und ihre Nutzung zu analysieren.
+Um unsere Webseite zu nutzen, müssen Sie uns keine Angaben wie Name oder E-Mail-Adresse machen. Bei jedem Aufruf werden jedoch technische Daten (insbesondere Ihre IP-Adresse) an unseren Hosting-Provider übermittelt und vorübergehend in Server-Logfiles gespeichert (siehe Ziff. 10). Diese Erfassung ist technisch erforderlich, um unsere Webseite anzuzeigen und deren Stabilität und Sicherheit zu gewährleisten. Zudem analysieren wir die Nutzung unserer Webseite mit einem cookiefreien Analysetool (siehe Ziff. 9).
 
 Dabei handelt es sich insbesondere um folgende Informationen:
 
-* Kontaktinformationen (z.B. Name, Vorname, Adresse, Telefonnummer, E-Mail);
-* Weitere Informationen, die sie uns via Webseite übermitteln;
-* Automatisch an uns oder unsere Dienstleister übermittelte technische Informationen, Informationen zum Nutzerverhalten oder der Einstellungen der Webseite (z.B. Name des Internetserviceproviders, IP-Adresse, UDI, Gerätetyp, Browser, Betriebssystem, Datum und Uhrzeit des Zugriffs, Anzahl Klicks auf der Seite, Klick auf Links etc.)
+* Technische Informationen, die Ihr Browser automatisch an uns oder unsere Dienstleister übermittelt (z.B. IP-Adresse, Browser und Version, Betriebssystem, Gerätetyp, Referrer-URL, Datum und Uhrzeit des Zugriffs, aufgerufene Seiten);
+* Informationen, die Sie uns über Formulare auf der Webseite übermitteln (siehe Ziff. 3.7 und 3.8).
 
 Diese Personendaten bearbeiten wir für die beschriebenen Zwecke gestützt auf die folgenden Rechtsgrundlagen:
 
-* Wahrung berechtigter Interessen, (z.B. für administrative Zwecke, um unsere Qualität zu verbessern, Daten zu analysieren oder unsere Dienstleistungen bekannt zu machen).
+* Wahrung berechtigter Interessen (z.B. Betrieb, Sicherheit und Verbesserung der Webseite).
 
 ### 3.4 Direkte Kommunikation, Besuche und Veranstaltungen
 
@@ -112,17 +109,15 @@ Diese Personendaten bearbeiten wir für die beschriebenen Zwecke gestützt auf d
 
 ### 3.5 Information und Marketing
 
-Wir bearbeiten Personendaten, um Ihnen attraktive Angebote zu machen und Kundenbeziehungen zu pflegen. Dazu gehört das Versenden von Mitteilungen und Angeboten, sowohl in schriftlicher als auch in elektronischer Form, sowie die Durchführung von Marketingaktionen. Diese Aktionen können unsere eigenen Angebote oder die von Werbepartnern umfassen.
-Um Ihnen personalisierte Angebote zu unterbreiten, können wir Daten wie Grunddaten, Vertragsdaten, Kommunikationsdaten, Verhaltens- und Transaktionsdaten sowie Präferenzdaten verwenden. Dies ermöglicht es uns, Ihnen relevante Informationen und Angebote zu unterbreiten.
+Wir bearbeiten Personendaten, um Sie über unsere Dienstleistungen, Trainings und Veranstaltungen zu informieren und Kundenbeziehungen zu pflegen. Dazu gehört das Versenden von Mitteilungen in schriftlicher und elektronischer Form. Wir erstellen dafür keine Persönlichkeitsprofile und führen kein Profiling durch.
 
-Zu den Arten von Mitteilungen und Angeboten können gehören:
+Zu den Arten von Mitteilungen können gehören:
 
-* Werbe-E-Mails, In-App-Nachrichten und andere elektronische Mitteilungen;
-* Werbebroschüren, Zeitschriften und andere gedruckte Materialien;
-* Werbemitteilungen über verschiedene Medienplattformen;
+* Newsletter und andere E-Mails;
+* Gedruckte Materialien;
 * Einladungen zu Veranstaltungen.
 
-Sie haben immer die Möglichkeit, Marketingkontakte abzulehnen, und Sie können Newsletter und andere elektronische Mitteilungen einfach über einen Abmeldelink oder über Ihr Kundenkonto abbestellen.
+Sie haben immer die Möglichkeit, Marketingkontakte abzulehnen, und Sie können Newsletter und andere elektronische Mitteilungen jederzeit über den Abmeldelink in der jeweiligen Mitteilung oder per E-Mail an <hallo@tim-koko.ch> abbestellen.
 
 Ihre Personendaten bearbeiten wir für den beschriebenen Zweck gestützt auf den folgenden Rechtsgrundlagen:
 
@@ -147,7 +142,28 @@ Diese Personendaten bearbeiten wir für die beschriebenen Zwecke gestützt auf d
 
 ### 3.7 Newsletter-Nutzung
 
-Soweit Sie unseren Newsletter abonnieren, nutzen wir Ihre E-Mail-Adresse und weitere Kontaktdaten, um Ihnen den Newsletter zu senden. Sie können unseren Newsletter mit Ihrer Einwilligung abonnieren. Pflichtangabe für die Übersendung des Newsletters sind Ihr vollständiger Name sowie Ihre E-Mailadresse, die wir nach Ihrer Anmeldung speichern. Rechtsgrundlagen für die Verarbeitung Ihrer Daten im Zusammenhang mit unserem Newsletter bildet Ihre Einwilligung in die Übersendung des Newsletters. Diese können Sie jederzeit widerrufen und den Newsletter abbestellen (direkt im Newsletter oder per Mail an <hallo@tim-koko.ch>).
+Soweit Sie unseren Newsletter abonnieren, nutzen wir Ihre E-Mail-Adresse und weitere Kontaktdaten, um Ihnen den Newsletter zu senden. Sie können unseren Newsletter mit Ihrer Einwilligung abonnieren. Pflichtangaben für die Übersendung des Newsletters sind Ihr Vor- und Nachname sowie Ihre E-Mail-Adresse. Die Anmeldung erfolgt über ein Formular auf unserer Webseite; die Angaben werden dabei wie in Ziff. 3.8 beschrieben übermittelt und gespeichert.
+
+Für den Versand des Newsletters nutzen wir Brevo der Sendinblue SAS, Frankreich (<https://www.brevo.com>). Ihre Anmeldedaten werden dazu an Brevo übertragen und dort gespeichert. Unsere Newsletter enthalten ein unsichtbares Zählpixel und Links, die über Brevo weitergeleitet werden. Dadurch erfasst Brevo, ob und wann ein Newsletter geöffnet und welche Links darin angeklickt wurden, und ordnet dies Ihrer E-Mail-Adresse zu. Diese Auswertung nutzen wir, um unseren Newsletter zu verbessern. Wenn Sie dies nicht wünschen, können Sie den Newsletter jederzeit abbestellen oder das Laden von Bildern in Ihrem E-Mail-Programm deaktivieren. Beim Öffnen des Newsletters wird zudem eine Schriftart von Google Fonts (Google LLC, USA) geladen, wobei Ihre IP-Adresse an Google übermittelt wird. Weitere Informationen finden Sie in der Datenschutzerklärung von Brevo (<https://www.brevo.com/legal/privacypolicy/>). Rechtsgrundlage für die Bearbeitung Ihrer Daten im Zusammenhang mit unserem Newsletter ist Ihre Einwilligung in die Übersendung des Newsletters. Diese können Sie jederzeit widerrufen und den Newsletter abbestellen (direkt im Newsletter oder per E-Mail an <hallo@tim-koko.ch>). Ihre Angaben speichern wir bei Brevo, solange Sie den Newsletter abonniert haben. Nach der Abmeldung löschen wir Ihre Angaben aus dem Newsletter-Verteiler; Ihre E-Mail-Adresse bleibt lediglich auf einer Sperrliste gespeichert, damit Sie keine weiteren Newsletter erhalten.
+
+### 3.8 Formulare (Anmeldungen, Labs, Aktionen)
+
+Über Formulare auf unserer Webseite können Sie sich z.B. für Veranstaltungen und Labs anmelden, an Aktionen (z.B. Giveaways oder Lunchboxen) teilnehmen oder den Newsletter abonnieren. Wir bearbeiten dabei die Angaben, die Sie im jeweiligen Formular machen, insbesondere:
+
+* Kontaktinformationen (Vorname, Name, E-Mail-Adresse, bei Aktionen mit Versand auch Ihre Postadresse);
+* Unternehmen bzw. Arbeitgeber, sofern abgefragt;
+* Ihre Auswahl (z.B. gewünschtes Lab, Termin oder Menü) und Ihre Nachricht an uns;
+* Ihre Einwilligung zum Erhalt unseres Newsletters, sofern Sie diese erteilen.
+
+Die Formulareinträge werden bei unserem Hosting-Provider Netlify (Netlify Forms) gespeichert. Damit wir Anfragen rasch bearbeiten können, werden die Inhalte jeder Einsendung zudem automatisch an einen internen Chat-Kanal in Google Workspace (Google Chat) weitergeleitet. Bei Veranstaltungen, die wir gemeinsam mit Partnern durchführen, geben wir Ihre Anmeldedaten an den auf der Anmeldeseite genannten Mitveranstalter weiter, soweit dies für die Durchführung der Veranstaltung erforderlich ist.
+
+Die Dauer der Aufbewahrung richtet sich nach Ziff. 5. Haben Sie den Newsletter abonniert, bleiben Ihre Angaben dafür bei Brevo gespeichert, bis Sie sich abmelden (siehe Ziff. 3.7).
+
+Diese Personendaten bearbeiten wir für die beschriebenen Zwecke gestützt auf die folgenden Rechtsgrundlagen:
+
+* Abschluss oder Abwicklung eines Vertrages mit Ihnen (z.B. Teilnahme an einer Veranstaltung oder Aktion);
+* Einwilligung (z.B. Newsletter);
+* Wahrung berechtigter Interessen (z.B. Organisation von Veranstaltungen, Bearbeitung von Anfragen).
 
 ## 4. Datenweitergabe und Datenübermittlung
 
@@ -155,10 +171,21 @@ Wir geben Ihre Daten nur an Dritte weiter, wenn dies zur Erbringung unserer Leis
 
 Folgende Kategorien von Empfänger können Personendaten von uns erhalten:
 
-* Dienstleister (z.B. IT-Dienstleister, Hosting-Provider, Lieferanten, Berater, Rechtsanwälte, Versicherungen).
+* Dienstleister (z.B. IT-Dienstleister, Hosting-Provider, Lieferanten, Berater, Rechtsanwälte, Versicherungen);
+* Mitveranstalter von gemeinsam durchgeführten Veranstaltungen (siehe Ziff. 3.8);
 * Dritte im Rahmen unserer gesetzlichen oder vertraglichen Verpflichtungen, Behörden, staatliche Einrichtungen, Gerichte.
 
-Mit Dienstleistern, die in unserem Auftrag Personendaten bearbeiten, schliessen wir Verträge, die diese verpflichten, den Datenschutz zu gewährleisten. Unsere Dienstleister befinden sich mehrheitlich in der Schweiz oder in der EU / im EWR. Sollte eine Datenübermittlung in andere Länder, die über kein angemessenes Datenschutzniveau verfügen, erforderlich sein, erfolgt diese auf Basis der EU-Standardvertragsklauseln oder anderer geeigneter Instrumente.
+Mit Dienstleistern, die in unserem Auftrag Personendaten bearbeiten, schliessen wir Verträge, die diese verpflichten, den Datenschutz zu gewährleisten. Für den Betrieb dieser Webseite setzen wir insbesondere folgende Dienstleister ein:
+
+* **Netlify, Inc., USA**: Hosting der Webseite, Server-Logfiles, Speicherung von Formulareinträgen (Netlify Forms);
+* **Google LLC, USA** (bzw. Google Ireland Ltd., Irland): Google Workspace für E-Mail, Kalender, Videokonferenzen (Google Meet) und interne Kommunikation, einschliesslich der Weiterleitung von Formulareinträgen an Google Chat;
+* **GitHub, Inc., USA**: Projekt- und Aufgabenverwaltung, einschliesslich der Bearbeitung von Anfragen;
+* **Umami Software, Inc., USA**: cookiefreie Webanalyse, Datenspeicherung in Frankfurt, Deutschland (siehe Ziff. 9);
+* **Sendinblue SAS (Brevo), Frankreich**: Versand des Newsletters (siehe Ziff. 3.7);
+* **bexio AG, Schweiz**: Verwaltung von Kundenkontakten (CRM) und Buchhaltung.
+{{% comment %}}INFO (Stand 11/2026, gemäss eigenen Angaben der Anbieter): Netlify, Google und GitHub sind unter dem Swiss-U.S. Data Privacy Framework zertifiziert. Umami ist nicht zertifiziert; Übermittlung gestützt auf EU-Standardvertragsklauseln im Umami-DPA (https://umami.is/dpa). Offizielle Liste: https://www.dataprivacyframework.gov/list{{% /comment %}}
+
+Personendaten können somit auch in die USA übermittelt werden. Die USA gelten gemäss Bundesrat für Unternehmen, die unter dem Swiss-U.S. Data Privacy Framework zertifiziert sind, als Staat mit angemessenem Datenschutz. Bei Empfängern ohne eine solche Zertifizierung oder in anderen Staaten ohne angemessenes Datenschutzniveau stützen wir die Übermittlung auf die vom EDÖB anerkannten Standardvertragsklauseln der EU-Kommission oder auf eine gesetzliche Ausnahme (z.B. Ihre Einwilligung oder die Abwicklung eines Vertrages mit Ihnen).
 
 ## 5. Dauer der Aufbewahrung von Personendaten
 
@@ -173,56 +200,78 @@ Zu den Massnahmen gehören insbesondere die Sicherung der Vertraulichkeit, Integ
 
 ## 7. Ihre Rechte
 
-Sie haben im Zusammen mit unserer Bearbeitung von Personendaten die folgenden Rechte:
+Sie haben im Zusammenhang mit unserer Bearbeitung von Personendaten die folgenden Rechte:
 
 * Recht auf Auskunft über zu Ihnen bei uns gespeicherte Personendaten, den Zweck der Bearbeitung, die Herkunft sowie über Empfänger, an die Personendaten weitergegeben werden;
 * Recht auf Berichtigung, falls Ihre Daten nicht korrekt oder nicht vollständig sind;
 * Recht, die Löschung der bearbeiteten Personendaten zu verlangen;
 * Recht auf Datenübertragbarkeit;
 * Recht einer Datenbearbeitung zu widersprechen oder eine Einwilligung zur Bearbeitung von Personendaten jederzeit ohne Angabe von Gründen zu widerrufen;
-* Recht auf Beschwerde an eine zuständige Aufsichtsbehörde, sofern rechtlich vorgesehen.
+* Recht, sich an die zuständige Datenschutz-Aufsichtsbehörde zu wenden; in der Schweiz ist dies der Eidgenössische Datenschutz- und Öffentlichkeitsbeauftragte (EDÖB, <https://www.edoeb.admin.ch>).
 
 Um diese Rechte geltend zu machen, wenden Sie sich an die unter Ziff. 1 angegebene Adresse.
 
 Bitte beachten Sie aber, dass wir uns vorbehalten, unsererseits die gesetzlich vorgesehenen Einschränkungen geltend zu machen, etwa wenn wir zur Aufbewahrung oder Bearbeitung gewisser Daten verpflichtet sind, daran ein überwiegendes Interesse haben oder sie für die Geltendmachung von Ansprüchen benötigen. Falls Kosten für Sie anfallen, werden wir Sie vorab informieren. Das Widerrufen einer Einwilligung zur Bearbeitung berührt nicht die bis zu diesem Zeitpunkt erfolgte rechtmässige Bearbeitung.
 
+Wir treffen keine automatisierten Einzelentscheidungen im Sinne von Art. 21 DSG.
+
 ## 8. Social Media
 
-Wir sind auf Social-Media-Plattformen und anderen Online-Plattformen präsent, um mit interessierten Personen zu kommunizieren und sie über uns und unser Angebot zu informieren. Dabei können Personendaten auch ausserhalb der Schweiz und des Europäischen Wirtschaftsraumes (EWR) bearbeitet werden. Wenn Sie über solche Seiten mit uns kommunizieren oder Inhalte von uns kommentieren oder verbreiten, werden wir die entsprechenden Informationen sammeln und gemäss unserer Datenschutzrichtlinie bearbeiten. Wir haben das Recht, aber nicht die Pflicht, Inhalte vor oder nach ihrer Veröffentlichung zu prüfen und ohne Benachrichtigung zu löschen, soweit dies technisch möglich ist, oder sie dem Anbieter der betreffenden Plattform zu melden. Im Falle eines Verstosses gegen die Anstands- und Verhaltensregeln können wir das betreffende Nutzerkonto auch dem Anbieter der Plattform zur Sperrung oder Löschung melden.
+Wir sind auf Social-Media-Plattformen und anderen Online-Plattformen präsent, insbesondere auf LinkedIn, Instagram und GitHub, um mit interessierten Personen zu kommunizieren und sie über uns und unser Angebot zu informieren. Dabei können Personendaten auch ausserhalb der Schweiz und des Europäischen Wirtschaftsraumes (EWR) bearbeitet werden. Wenn Sie über solche Seiten mit uns kommunizieren oder Inhalte von uns kommentieren oder verbreiten, werden wir die entsprechenden Informationen sammeln und gemäss dieser Datenschutzerklärung bearbeiten. Wir haben das Recht, aber nicht die Pflicht, Inhalte vor oder nach ihrer Veröffentlichung zu prüfen und ohne Benachrichtigung zu löschen, soweit dies technisch möglich ist, oder sie dem Anbieter der betreffenden Plattform zu melden. Im Falle eines Verstosses gegen die Anstands- und Verhaltensregeln können wir das betreffende Nutzerkonto auch dem Anbieter der Plattform zur Sperrung oder Löschung melden.
+
 Wenn Sie unsere Social-Media-Seiten besuchen, können Daten (z.B. über Ihr Nutzerverhalten) auch direkt an den jeweiligen Anbieter übermittelt oder von diesem erhoben und zusammen mit anderen, dem Anbieter bereits bekannten Daten bearbeitet werden (z.B. zu Marketing- und Marktforschungszwecken und zur Personalisierung von Plattforminhalten). Sind wir gemeinsam mit dem Anbieter für bestimmte Bearbeitungen verantwortlich, schliessen wir mit dem Anbieter eine entsprechende Vereinbarung ab, deren wesentlichen Inhalt Sie beim Anbieter erfahren können. Weitere Informationen zur Datenbearbeitung durch die Anbieter von sozialen Netzwerken finden Sie in den Datenschutzbestimmungen der jeweiligen sozialen Netzwerke.
+
 Darüber hinaus gelten jeweils die Allgemeinen Geschäftsbedingungen (AGB) und Nutzungsbedingungen sowie die Datenschutzerklärungen und sonstigen Bestimmungen der einzelnen Betreiber solcher Online-Plattformen. Diese Bestimmungen informieren insbesondere über die Rechte der Betroffenen, zu denen insbesondere das Recht auf Auskunft gehört.
+
+Auf unserer Webseite verwenden wir keine Social-Media-Plugins, sondern lediglich Links zu unseren Profilen und zum Teilen von Inhalten. Daten werden erst an die jeweilige Plattform übermittelt, wenn Sie einen solchen Link anklicken.
 
 ## 9. Cookies und weitere Tracking-Technologien
 
-Diese Website verwendet keine Cookies. Zur Analyse des Nutzungsverhalten der Website Besucher setzen wir das Cookie freie Analyticstool von <https://umami.is/> ein.
-<!-- INFO: Falls wir mal Cookies wollen
+Diese Website verwendet keine Cookies. Im lokalen Speicher Ihres Browsers (localStorage) halten wir lediglich fest, ob Sie einen Hinweis-Banner geschlossen haben, damit er nicht erneut angezeigt wird. Diese Information verlässt Ihr Gerät nicht.
+
+### 9.1 Webanalyse mit Umami
+
+Zur Analyse der Nutzung unserer Webseite setzen wir das cookiefreie Analysetool Umami Cloud der Umami Software, Inc., USA (<https://umami.is/>) ein. Dabei werden insbesondere aufgerufene Seiten, Referrer-URL, Browser, Betriebssystem, Gerätetyp, Bildschirmgrösse, Sprache und das aus der IP-Adresse abgeleitete Land erfasst. Umami setzt keine Cookies, speichert Ihre IP-Adresse nicht und erstellt keine geräteübergreifenden Nutzerprofile; die Auswertung erfolgt in aggregierter Form. Die Analysedaten werden in einem Rechenzentrum in Frankfurt (Deutschland) gespeichert und nach 6 Monaten automatisch gelöscht. Rechtsgrundlage ist unser berechtigtes Interesse, die Nutzung unserer Webseite zu verstehen und sie zu verbessern.
+
+{{% comment %}}INFO: Wieder aktivieren, sobald der youtube-Shortcode auf einer veröffentlichten Seite verwendet wird.
+
+### 9.2 Eingebettete YouTube-Videos
+
+Auf einzelnen Seiten binden wir Videos von YouTube (Google LLC, USA) im erweiterten Datenschutzmodus (youtube-nocookie.com) ein. Beim Aufruf einer solchen Seite stellt Ihr Browser eine Verbindung zu den Servern von Google her; dabei werden insbesondere Ihre IP-Adresse und die aufgerufene Seite an Google übermittelt. Erst wenn Sie das Video abspielen, kann YouTube weitere Daten erheben und Cookies oder vergleichbare Technologien einsetzen. Weitere Informationen finden Sie in der Datenschutzerklärung von Google (<https://policies.google.com/privacy>). Rechtsgrundlage ist unser berechtigtes Interesse an einer ansprechenden Darstellung unserer Inhalte.
+{{% /comment %}}
+
+{{% comment %}}INFO: Falls wir mal Cookies wollen
 
 Hierbei handelt es sich um kleine Dateien, die Ihr Browser automatisch erstellt und die auf Ihrem Endgerät (Laptop, Tablet, Smartphone o.ä.) gespeichert werden, wenn Sie unsere Seite besuchen.
 Im Cookie werden Informationen abgelegt, die sich jeweils im Zusammenhang mit dem spezifisch eingesetzten Endgerät ergeben. Dies bedeutet jedoch nicht, dass wir dadurch unmittelbar Kenntnis von Ihrer Identität erhalten. Der Einsatz von Cookies dient einerseits dazu, die Nutzung unseres Angebots für Sie angenehmer zu gestalten. So setzen wir sogenannte Session-Cookies ein, um zu erkennen, dass Sie einzelne Seiten unserer Website bereits besucht haben. Diese werden nach Verlassen unserer Seite automatisch gelöscht.
 Darüber hinaus setzen wir ebenfalls zur Optimierung der Benutzerfreundlichkeit temporäre Cookies ein, die für einen bestimmten festgelegten Zeitraum auf Ihrem Endgerät gespeichert werden. Besuchen Sie unsere Seite erneut, um unsere Dienste in Anspruch zu nehmen, wird automatisch erkannt, dass Sie bereits bei uns waren und welche Eingaben und Einstellungen sie getätigt haben, um diese nicht noch einmal eingeben zu müssen. Zum anderen setzten wir Cookies ein, um die Nutzung unserer Website statistisch zu erfassen und zum Zwecke der Optimierung unseres Angebotes für Sie auszuwerten. Diese Cookies ermöglichen es uns, bei einem erneuten Besuch unserer Seite automatisch zu erkennen, dass Sie bereits bei uns waren. Diese Cookies werden nach einer jeweils definierten Zeit automatisch gelöscht.
 Die durch Cookies bearbeiteten Daten sind für die genannten Zwecke erforderlich. Die meisten Browser akzeptieren Cookies automatisch. Sie können Ihren Browser jedoch so konfigurieren, dass keine Cookies auf Ihrem Computer gespeichert werden oder stets ein Hinweis erscheint, bevor ein neues Cookie angelegt wird. Die vollständige Deaktivierung von Cookies kann jedoch dazu führen, dass Sie nicht alle Funktionen unserer Website nutzen können.
- -->
+{{% /comment %}}
 
 ## 10. Server-Log-Files
 
-Der Provider dieser Website erhebt und speichert automatisch Informationen in so genannten Server-Log Files, die Ihr Browser automatisch an uns übermittelt. Dies sind:
+Unser Hosting-Provider Netlify, Inc., USA, erhebt und speichert automatisch Informationen in so genannten Server-Logfiles, die Ihr Browser automatisch übermittelt. Dies sind:
 
+* IP-Adresse des zugreifenden Geräts
 * Browsertyp und Browserversion
 * verwendetes Betriebssystem
-* Referrer URL
-* Hostname des zugreifenden Rechners
-* Uhrzeit der Serveranfrage
+* Referrer-URL
+* aufgerufene Seite bzw. Datei
+* Datum und Uhrzeit der Serveranfrage
 
-Diese Daten sind nicht bestimmten Personen zuordenbar. Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen. Wir behalten uns vor, diese Daten nachträglich zu prüfen, wenn uns konkrete Anhaltspunkte für eine rechtswidrige Nutzung bekannt werden.
+Diese Daten werden zur Gewährleistung eines sicheren und stabilen Betriebs der Webseite bearbeitet. Die Speicherdauer richtet sich nach den Vorgaben von Netlify. Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen. Wir behalten uns vor, diese Daten nachträglich zu prüfen, wenn uns konkrete Anhaltspunkte für eine rechtswidrige Nutzung bekannt werden. Rechtsgrundlage ist unser berechtigtes Interesse an einem sicheren Betrieb unserer Webseite.
+{{% comment %}}INFO (Stand 11/2026): Netlify nennt keine feste Frist für Zugriffslogs mit IP-Adressen; Function-Logs im Pro-Plan 7 Tage. Konkrete Frist ggf. beim Netlify-Support erfragen und hier eintragen.{{% /comment %}}
 
-<!-- ## 11 Dienste von Dritten
+Im Rahmen der Auslieferung der Webseite können zudem serverseitige Funktionen (Netlify Functions) ausgeführt werden, z.B. zur Weiterleitung von Formulareinträgen (siehe Ziff. 3.8).
+
+{{% comment %}}## 11 Dienste von Dritten
 
 Wir verwenden Dienste von Dritten, um unser Angebot dauerhaft, nutzerfreundlich, sicher und zuverlässig bereitstellen zu können. Solche Dienste dienen auch dazu, Inhalte in unsere Website einbetten zu können. Solche Dienste – beispielsweise Hosting- und Speicherdienste – benötigen Ihre Internet Protocol (IP)-Adresse, da solche Dienste die entsprechenden Inhalte ansonsten nicht übermitteln können. Solche Dienste können sich ausserhalb der Schweiz und des Europäischen Wirtschaftsraumes (EWR) befinden, sofern ein angemessener Datenschutz gewährleistet ist.
 Für ihre eigenen sicherheitsrelevanten, statistischen und technischen Zwecke können Dritte, deren Dienste wir nutzen, auch Daten im Zusammenhang mit unserem Angebot sowie aus anderen Quellen – unter anderem mit Cookies, Logdateien und Zählpixeln – aggregiert, anonymisiert oder pseudonymisiert bearbeiten.
--->
+{{% /comment %}}
 
 ## 11. Änderung der Datenschutzerklärung
 
 Wir behalten uns vor, diese Datenschutzerklärung bei Änderungen anzupassen. Wir werden über solche Anpassungen und Ergänzungen in geeigneter Form informieren, insbesondere durch Veröffentlichung der jeweils aktuellen Datenschutzerklärung auf unserer Website.
 
-November 2024
+Stand: November 2026
