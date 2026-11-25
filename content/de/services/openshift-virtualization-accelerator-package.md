@@ -6,7 +6,7 @@ titleVisible: "OpenShift Virtualization"
 titleSublineVisible: "Accelerator-Paket"
 image: "images/landing-pages/tk-landingpage-labs-1500x600.png"
 date: 2022-10-31T00:00:00+00:00
-lastmod: 2025-12-06T00:00:00+00:00
+lastmod: 2026-11-25T00:00:00+00:00
 draft: false
 blogposts: [ 'openshift-virtualization', 'kubevirt-training']
 images: ["images/landing-pages/tk-landingpage-labs-OG-1200x630.png"]
@@ -100,6 +100,20 @@ Erstellung eines strukturierten Ansatzes für die Workload-Migration mit dem Sch
 * **Analyse von Aufwand und Impact:** Bewertung der potenziellen Auswirkungen auf den Betrieb und des erforderlichen Migrationsaufwands. Diese Matrix hilft dabei, Workload zu priorisieren und einen gestaffelten Migrationsansatz zu entwickeln, der schnelle Erfolge und klare Kosten-Nutzen-Einblicke bietet.
 * **Entwicklung einer Migrations-Roadmap:** Erstellung eines Migrationsplans, der die Reihenfolge und Methode für den Übergang des Workload in die OpenShift Virtualization-Umgebung beschreibt. Der Fahrplan umfasst Zeitpläne, Ressourcenanforderungen, Risikoanalysen und Alternativen, um eine reibungslose Migration zu gewährleisten.
 * **Beratung zu den nächsten Schritten:** Abschluss des Engagements mit einer strategischen Überprüfung, einschliesslich vorgeschlagener nächster Schritte, fortlaufender Support-Optionen und eines groben Plans für die vollständige Bereitstellung.
+
+&nbsp;
+
+### KubeVirt in der Praxis: unsere Talks
+
+KubeVirt ist das Open-Source-Projekt hinter OpenShift Virtualization. Wie man damit virtuelle Maschinen auf Kubernetes betreibt und verwaltet, zeigen wir regelmässig an Community-Events.
+
+**Kubernetes Community Day, Genf 2025:** [Thomas Philipona]({{% relref "authors/thomas-philipona.md" %}}) über KubeVirt.
+
+{{< youtube id="54zvgZeXCdw" title="KubeVirt, Running and managing VMs on Kubernetes – Thomas Philipona, Kubernetes Community Day Genf 2025" >}}
+
+**Swiss Cloud Native Meetup, Luzern 2024:** [Christof Lüthi]({{% relref "authors/christof-luethi.md" %}}) und [Thomas Philipona]({{% relref "authors/thomas-philipona.md" %}}) über KubeVirt.
+
+{{< youtube id="i_BrF_qBINc" title="KubeVirt, Running and managing VMs on Kubernetes – Christof Lüthi & Thomas Philipona, Swiss Cloud Native Meetup Luzern 2024" >}}
 
 &nbsp;
 

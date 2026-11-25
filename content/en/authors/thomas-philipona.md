@@ -4,7 +4,7 @@ slug: "thomas-philipona"
 description: "Thomas Philipona is co-founder and cloud native consultant at tim&koko, working with containers & Kubernetes since 2015. Profile, talks & blog posts."
 draft: false
 date: 2022-04-01T00:00:00+00:00
-lastmod: 2026-10-12T00:00:00+00:00
+lastmod: 2026-11-25T00:00:00+00:00
 tk_teammamber: true
 image: "/images/team/thoemu.jpg"
 designation: "Cloud Native Consultant & Founder"
@@ -16,7 +16,15 @@ email: "thomas@tim-koko.ch"
 
 Thomas (Nickname Thömu) first encountered containers and Kubernetes in 2015. Since then, cloud native technologies have been a constant companion in his professional life. As a Founder and Cloud Native Consultant, he assists various clients in migrating their workloads to the cloud and making them cloud ready. Additionally, he is actively involved in the community as part of the Cloud Native Zurich organizing team.
 
-He has given numerous talks, such as being a speaker at DevOpsDays, KCD Munich, and various Swiss meetups.
+He has given numerous talks, such as being a speaker at DevOpsDays, KCD Munich, and various Swiss meetups. Two of his talks on KubeVirt:
+
+**Kubernetes Community Day, Geneva 2025:**
+
+{{< youtube id="54zvgZeXCdw" title="KubeVirt, Running and managing VMs on Kubernetes – Thomas Philipona, Kubernetes Community Day Geneva 2025" >}}
+
+**Swiss Cloud Native Meetup, Lucerne 2024** (with Christof Lüthi):
+
+{{< youtube id="i_BrF_qBINc" title="KubeVirt, Running and managing VMs on Kubernetes – Christof Lüthi & Thomas Philipona, Swiss Cloud Native Meetup Lucerne 2024" >}}
 
 #### Profile
 

@@ -1,3 +1,11 @@
+{{- /*
+  Embeds a YouTube video in privacy-enhanced mode (youtube-nocookie.com).
+  Usage: {{< youtube id="VIDEO_ID" title="Video title" >}}
+  Note: loading the player transmits the visitor's IP address to Google,
+  see section 9.2 of the privacy policy (datenschutzerklaerung.md).
+*/ -}}
+{{- $id := .Get "id" | default (.Get 0) -}}
+{{- $title := .Get "title" | default "YouTube-Video" -}}
 <div class="video-container mb-8 mb-lg-16 mt-4 mt-lg-8 mx-lg-8">
-  <iframe id="ytplayer" type="text/html" width="720" height="405" src="https://www.youtube-nocookie.com/embed/{{ .Get "id" }}?modestbranding=1&playsinline=1&color=white" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/{{ $id }}?modestbranding=1&amp;playsinline=1&amp;color=white" width="720" height="405" title="{{ $title }}" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>

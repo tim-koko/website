@@ -3,7 +3,7 @@ title: "What is KubeVirt? Run Virtual Machines on Kubernetes like containers"
 slug: "kubevirt-whatis"
 description: "What is KubeVirt? Run virtual machines on Kubernetes just like containers: core concepts, your first VM & when KubeVirt is the right choice."
 date: 2026-01-26T00:00:00+00:00
-lastmod: 2026-01-26T00:00:00+00:00
+lastmod: 2026-11-25T00:00:00+00:00
 draft: false
 images: ["images/blog/kubevirt/tk-blogpost-kubevirt_share-image.jpg"]
 img_border: true
@@ -156,3 +156,15 @@ Use KubeVirt when you:
 ### Why KubeVirt matters
 
 KubeVirt matters because it unifies the management of virtual machines and containers under a single Kubernetes control plane. This allows teams to modernize at their own pace - running legacy applications as VMs while building new services as containers. By treating VMs as native Kubernetes resources, KubeVirt enables consistent automation, observability, and GitOps workflows across all workloads. It removes the need for parallel infrastructures, reduces operational complexity, and bridges the gap between traditional virtualization and cloud-native computing.
+
+### KubeVirt on video
+
+Would you rather see KubeVirt in action? In these talks we show how to run and manage virtual machines on Kubernetes.
+
+**Kubernetes Community Day, Geneva 2025** with [Thomas Philipona]({{% relref "authors/thomas-philipona.md" %}}):
+
+{{< youtube id="54zvgZeXCdw" title="KubeVirt, Running and managing VMs on Kubernetes – Thomas Philipona, Kubernetes Community Day Geneva 2025" >}}
+
+**Swiss Cloud Native Meetup, Lucerne 2024** with [Christof Lüthi]({{% relref "authors/christof-luethi.md" %}}) and [Thomas Philipona]({{% relref "authors/thomas-philipona.md" %}}):
+
+{{< youtube id="i_BrF_qBINc" title="KubeVirt, Running and managing VMs on Kubernetes – Christof Lüthi & Thomas Philipona, Swiss Cloud Native Meetup Lucerne 2024" >}}

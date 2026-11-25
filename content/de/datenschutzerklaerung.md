@@ -3,7 +3,7 @@ title: "Datenschutzerklärung"
 description: "Deine Privatsphäre ist uns wichtig. Hier informieren wir dich transparent, wie wir deine Daten schützen und verarbeiten. Unsere Datenschutzerklärung."
 lead: ""
 date: 2022-05-28T00:00:00+00:00
-lastmod: 2026-11-19T00:00:00+00:00
+lastmod: 2026-11-25T00:00:00+00:00
 draft: false
 images: []
 Sitemap:
@@ -178,7 +178,7 @@ Folgende Kategorien von Empfänger können Personendaten von uns erhalten:
 Mit Dienstleistern, die in unserem Auftrag Personendaten bearbeiten, schliessen wir Verträge, die diese verpflichten, den Datenschutz zu gewährleisten. Für den Betrieb dieser Webseite setzen wir insbesondere folgende Dienstleister ein:
 
 * **Netlify, Inc., USA**: Hosting der Webseite, Server-Logfiles, Speicherung von Formulareinträgen (Netlify Forms);
-* **Google LLC, USA** (bzw. Google Ireland Ltd., Irland): Google Workspace für E-Mail, Kalender, Videokonferenzen (Google Meet) und interne Kommunikation, einschliesslich der Weiterleitung von Formulareinträgen an Google Chat;
+* **Google LLC, USA** (bzw. Google Ireland Ltd., Irland): Google Workspace für E-Mail, Kalender, Videokonferenzen (Google Meet) und interne Kommunikation, einschliesslich der Weiterleitung von Formulareinträgen an Google Chat; Einbettung von YouTube-Videos (siehe Ziff. 9.2);
 * **GitHub, Inc., USA**: Projekt- und Aufgabenverwaltung, einschliesslich der Bearbeitung von Anfragen;
 * **Umami Software, Inc., USA**: cookiefreie Webanalyse, Datenspeicherung in Frankfurt, Deutschland (siehe Ziff. 9);
 * **Sendinblue SAS (Brevo), Frankreich**: Versand des Newsletters (siehe Ziff. 3.7);
@@ -233,12 +233,9 @@ Diese Website verwendet keine Cookies. Im lokalen Speicher Ihres Browsers (local
 
 Zur Analyse der Nutzung unserer Webseite setzen wir das cookiefreie Analysetool Umami Cloud der Umami Software, Inc., USA (<https://umami.is/>) ein. Dabei werden insbesondere aufgerufene Seiten, Referrer-URL, Browser, Betriebssystem, Gerätetyp, Bildschirmgrösse, Sprache und das aus der IP-Adresse abgeleitete Land erfasst. Umami setzt keine Cookies, speichert Ihre IP-Adresse nicht und erstellt keine geräteübergreifenden Nutzerprofile; die Auswertung erfolgt in aggregierter Form. Die Analysedaten werden in einem Rechenzentrum in Frankfurt (Deutschland) gespeichert und nach 6 Monaten automatisch gelöscht. Rechtsgrundlage ist unser berechtigtes Interesse, die Nutzung unserer Webseite zu verstehen und sie zu verbessern.
 
-{{% comment %}}INFO: Wieder aktivieren, sobald der youtube-Shortcode auf einer veröffentlichten Seite verwendet wird.
-
 ### 9.2 Eingebettete YouTube-Videos
 
-Auf einzelnen Seiten binden wir Videos von YouTube (Google LLC, USA) im erweiterten Datenschutzmodus (youtube-nocookie.com) ein. Beim Aufruf einer solchen Seite stellt Ihr Browser eine Verbindung zu den Servern von Google her; dabei werden insbesondere Ihre IP-Adresse und die aufgerufene Seite an Google übermittelt. Erst wenn Sie das Video abspielen, kann YouTube weitere Daten erheben und Cookies oder vergleichbare Technologien einsetzen. Weitere Informationen finden Sie in der Datenschutzerklärung von Google (<https://policies.google.com/privacy>). Rechtsgrundlage ist unser berechtigtes Interesse an einer ansprechenden Darstellung unserer Inhalte.
-{{% /comment %}}
+Auf einzelnen Seiten binden wir Videos von YouTube (Google LLC, USA) im erweiterten Datenschutzmodus (youtube-nocookie.com) ein. Sobald ein solches Video im sichtbaren Bereich Ihres Browsers erscheint, stellt Ihr Browser eine Verbindung zu den Servern von Google her; dabei werden insbesondere Ihre IP-Adresse und die aufgerufene Seite an Google übermittelt. Erst wenn Sie das Video abspielen, kann YouTube weitere Daten erheben und Cookies oder vergleichbare Technologien einsetzen. Weitere Informationen finden Sie in der Datenschutzerklärung von Google (<https://policies.google.com/privacy>). Rechtsgrundlage ist unser berechtigtes Interesse an einer ansprechenden Darstellung unserer Inhalte.
 
 {{% comment %}}INFO: Falls wir mal Cookies wollen
 

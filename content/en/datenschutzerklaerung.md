@@ -3,7 +3,7 @@ title: "Privacy Policy"
 description: "Your privacy matters to us. Learn transparently how we protect, process, and use your personal data. Read our full Privacy Policy here."
 lead: ""
 date: 2022-05-28T00:00:00+00:00
-lastmod: 2026-11-19T00:00:00+00:00
+lastmod: 2026-11-25T00:00:00+00:00
 draft: false
 images: []
 Sitemap:
@@ -178,7 +178,7 @@ The following categories of recipients may receive personal data from us:
 We conclude contracts with service providers who process personal data on our behalf, obliging them to guarantee data protection. To operate this website, we use in particular the following service providers:
 
 * **Netlify, Inc., USA**: website hosting, server log files, storage of form submissions (Netlify Forms);
-* **Google LLC, USA** (or Google Ireland Ltd., Ireland): Google Workspace for e-mail, calendar, video conferencing (Google Meet) and internal communication, including the forwarding of form submissions to Google Chat;
+* **Google LLC, USA** (or Google Ireland Ltd., Ireland): Google Workspace for e-mail, calendar, video conferencing (Google Meet) and internal communication, including the forwarding of form submissions to Google Chat; embedding of YouTube videos (see Section 9.2);
 * **GitHub, Inc., USA**: project and task management, including the handling of enquiries;
 * **Umami Software, Inc., USA**: cookie-free web analytics, data stored in Frankfurt, Germany (see Section 9);
 * **Sendinblue SAS (Brevo), France**: sending of the newsletter (see Section 3.7);
@@ -233,12 +233,9 @@ This website does not use cookies. We only record in your browser's local storag
 
 To analyze the use of our website, we use the cookie-free analytics tool Umami Cloud provided by Umami Software, Inc., USA (<https://umami.is/>). It records in particular the pages visited, referrer URL, browser, operating system, device type, screen size, language and the country derived from the IP address. Umami does not set cookies, does not store your IP address and does not create cross-device user profiles; the analysis is carried out in aggregated form. The analytics data is stored in a data center in Frankfurt (Germany) and automatically deleted after 6 months. The legal basis is our legitimate interest in understanding and improving the use of our website.
 
-{{% comment %}}INFO: Re-enable as soon as the youtube shortcode is used on a published page.
-
 ### 9.2 Embedded YouTube Videos
 
-On some pages, we embed videos from YouTube (Google LLC, USA) in privacy-enhanced mode (youtube-nocookie.com). When you open such a page, your browser connects to Google's servers; in particular, your IP address and the page visited are transmitted to Google. Only when you play the video may YouTube collect further data and use cookies or similar technologies. Further information can be found in Google's privacy policy (<https://policies.google.com/privacy>). The legal basis is our legitimate interest in an appealing presentation of our content.
-{{% /comment %}}
+On some pages, we embed videos from YouTube (Google LLC, USA) in privacy-enhanced mode (youtube-nocookie.com). As soon as such a video appears in the visible area of your browser, your browser connects to Google's servers; in particular, your IP address and the page visited are transmitted to Google. Only when you play the video may YouTube collect further data and use cookies or similar technologies. Further information can be found in Google's privacy policy (<https://policies.google.com/privacy>). The legal basis is our legitimate interest in an appealing presentation of our content.
 
 ## 10. Server Log Files
 
