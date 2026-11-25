@@ -183,3 +183,9 @@ other = "Who we are, our team, our values, our partners as well as memberships a
 
 [faqTitle]
 other = "Frequently asked questions"
+
+[newsletterHinweis]
+other = "By subscribing, you will receive our newsletter, including analysis of opens and clicks. You can unsubscribe at any time via the link in the newsletter. More in our"
+
+[newsletterHinweisLink]
+other = "privacy policy"
