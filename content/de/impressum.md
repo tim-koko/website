@@ -3,7 +3,7 @@ title: "Impressum"
 description: "Das Impressum von tim&koko. Hier findest du alle Angaben zu Geschäftsführung, Anschrift und Handelsregister. Transparenz zählt."
 lead: ""
 date: 2022-10-31T00:00:00+00:00
-lastmod: 2024-08-24T00:00:00+00:00
+lastmod: 2026-11-25T00:00:00+00:00
 draft: false
 images: []
 Sitemap:
@@ -13,8 +13,10 @@ Sitemap:
 ### Kontakt und Inhalte
 
 Tim&Koko AG, Gerechtigkeitsgasse 80, CH-3011 Bern  
-Founder: Thomas Philipona  
+Vertretungsberechtigt: Thomas Philipona, Founder und Mitglied des Verwaltungsrates  
 E-Mail: [hallo@tim-koko.ch](mailto:hallo@tim-koko.ch)  
+[Kontaktformular]({{% relref "kontakt.md" %}})  
+Sitz: Bern, eingetragen im Handelsregister des Kantons Bern  
 Unternehmens-Nr (UID): CHE-173.198.973  
 Mehrwertsteuer-Nummer: CHE-173.198.973 MWST  
 [Datenschutzerklärung]({{% relref "datenschutzerklaerung.md" %}})
