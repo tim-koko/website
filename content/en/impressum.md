@@ -1,9 +1,9 @@
 ---
-title : "Impress"
+title : "Legal Notice"
 description: "The imprint of tim&koko. Transparency is key – find all details regarding management, address, and commercial register here."
 lead: ""
 date: 2022-10-31T00:00:00+00:00
-lastmod: 2024-08-24T00:00:00+00:00
+lastmod: 2026-11-25T00:00:00+00:00
 draft: false
 images: []
 ---
@@ -11,11 +11,13 @@ images: []
 ### Contact and Content
 
 Tim&Koko AG, Gerechtigkeitsgasse 80, CH-3011 Bern, Switzerland  
-Founder: Thomas Philipona  
+Authorised representative: Thomas Philipona, Founder and Member of the Board of Directors  
 E-Mail: [hallo@tim-koko.ch](mailto:hallo@tim-koko.ch)  
-UID: CHE-173.198.973  
-MWST-Nr: CHE-173.198.973 MWST  
-[DSVGO]({{% relref path="datenschutzerklaerung.md" lang="de"%}})
+[Contact form]({{% relref "kontakt.md" %}})  
+Registered office: Bern, registered in the Commercial Register of the Canton of Bern  
+Company ID (UID): CHE-173.198.973  
+VAT No.: CHE-173.198.973 MWST  
+[Privacy Policy]({{% relref "datenschutzerklaerung.md" %}})
 
 ### Brand Tim&Koko
 

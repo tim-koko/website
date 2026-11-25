@@ -51,7 +51,8 @@
         {{ .address }}
 
         <a href="{{ "/datenschutzerklaerung/" | relLangURL }}" class="mt-8 mb-1 mb-lg-0 mt-lg-0 ms-lg-auto">{{ .privacy }}</a>
-        <a href="{{ "/impressum/" | relLangURL }}" class="mx-lg-6 mb-1 mb-lg-0 ">{{ .impress }}</a>
+        <a href="{{ "/impressum/" | relLangURL }}" class="ms-lg-6 mb-1 mb-lg-0 ">{{ .impress }}</a>
+        {{ with site.GetPage "/kontakt" }}<a href="{{ .RelPermalink }}" class="mx-lg-6 mb-1 mb-lg-0 ">{{ $data.homepage.footer.contact }}</a>{{ end }}
            
            © {{ now.Year }} {{ .companyNameCopyright }} 
       </div>

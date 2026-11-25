@@ -146,9 +146,9 @@ If you subscribe to our newsletter, we use your e-mail address and other contact
 
 To send the newsletter, we use Brevo, provided by Sendinblue SAS, France (<https://www.brevo.com>). Your subscription details are transferred to and stored by Brevo for this purpose. Our newsletters contain an invisible tracking pixel and links that are redirected via Brevo. This allows Brevo to record whether and when a newsletter was opened and which links in it were clicked, and to associate this with your e-mail address. We use this analysis to improve our newsletter. If you do not want this, you can unsubscribe from the newsletter at any time or disable the loading of images in your e-mail program. When you open the newsletter, a font is also loaded from Google Fonts (Google LLC, USA), which transmits your IP address to Google. Further information can be found in Brevo's privacy policy (<https://www.brevo.com/legal/privacypolicy/>). The legal basis for processing your data in connection with our newsletter is your consent to the sending of the newsletter. You can revoke this consent at any time and unsubscribe from the newsletter (directly in the newsletter or by e-mail to <hallo@tim-koko.ch>). We store your details with Brevo for as long as you are subscribed to the newsletter. After you unsubscribe, we remove your details from the newsletter mailing list; only your e-mail address remains on a suppression list so that you do not receive any further newsletters.
 
-### 3.8 Forms (Registrations, Labs, Campaigns)
+### 3.8 Forms (Contact, Registrations, Labs, Campaigns)
 
-Via forms on our website, you can, for example, register for events and labs, take part in campaigns (e.g., giveaways or lunchboxes) or subscribe to our newsletter. We process the information you provide in the respective form, in particular:
+Via forms on our website, you can, for example, send us a contact request, register for events and labs, take part in campaigns (e.g., giveaways or lunchboxes) or subscribe to our newsletter. We process the information you provide in the respective form, in particular:
 
 * Contact information (first name, last name, e-mail address, and for campaigns involving shipping, your postal address);
 * Company or employer, if requested;
