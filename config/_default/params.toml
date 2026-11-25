@@ -14,16 +14,11 @@ images = ["timkoko_og.png"]
 ogLocale = "de_CH"
 titleHome = ""
 
-## Twitter Cards
-twitterSite = "@tim_und_koko"
-twitterCreator = "@tim_und_koko"
-
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
 schemaName = "tim-koko"
 schemaAuthor = "tim-koko"
-schemaAuthorTwitter = "https://twitter.com/tim_und_koko"
 schemaAuthorLinkedIn = "https://www.linkedin.com/company/tim-koko/"
 schemaAuthorGitHub = "https://github.com/tim-koko"
 schemaLocale = "de-CH"
@@ -33,7 +28,6 @@ schemaLogoHeight = 512
 schemaImage = "timkoko_og.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/tim_und_koko"
 schemaLinkedIn = "https://www.linkedin.com/company/tim-koko/"
 schemaGitHub = "https://github.com/tim-koko"
 
