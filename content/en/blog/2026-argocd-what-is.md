@@ -1,7 +1,7 @@
 ---
-title: "What is ArgoCD? And why it can be compared to a thermostat"
+title: "What is Argo CD? GitOps for Kubernetes explained"
 slug: "argocd-what-is"
-description: "What is Argo CD? GitOps explained simply: the pull model, self-healing & Argo CD architecture – with an example and practical tips for Kubernetes deployments."
+description: "What is Argo CD? GitOps explained simply – with a thermostat analogy, the pull model, self-healing and practical tips for Kubernetes deployments."
 date: 2026-08-07T00:00:00+00:00
 lastmod: 2026-08-07T00:00:00+00:00
 draft: false
