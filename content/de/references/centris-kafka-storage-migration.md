@@ -1,5 +1,5 @@
 ---
-title: "Centris – Kafka Storage Migration"
+title: "Centris AG – Kafka Storage Migration"
 slug: "centris-kafka-storage-migration"
 description: "Zero Downtime Migration für Centris: Wir migrierten Kafka Storage im laufenden Betrieb. Einsatz von Cruise Control & OpenShift Streams. Zum Projekt!"
 date: 2025-09-01T00:00:00+00:00
@@ -35,7 +35,7 @@ hochverfügbarer IT-Lösungen unterstützt die Centris ihre Kunden gezielt bei d
 
 Zu den Kernanforderungen gehören Stabilität, Verfügbarkeit und Sicherheit geschäftskritischer Anwendungen – darunter
 die Swiss Health Platform (SHP). Mit dieser offenen und cloudbasierten Plattform vernetzt die Centris die Akteure im
-Schweizer Gesundheitswesen und unterstützt den digitalen Wandel von Kranken- und Unfallversicherern aktiv voran.
+Schweizer Gesundheitswesen und treibt den digitalen Wandel von Kranken- und Unfallversicherern aktiv voran.
 
 ## Herausforderung
 
